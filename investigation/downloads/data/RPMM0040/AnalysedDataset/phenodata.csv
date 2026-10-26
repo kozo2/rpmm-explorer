@@ -1,0 +1,24 @@
+gcid,MATLAB File name,Order name,weight_mg,genotype,samplename,species,timeperiod,tissue,class1,numofbulked,runorder,note1
+BP_05_1,BP_05_1.mat,BP_05,0.055556,WT,3rd_05,rice,3rd,basalplate,class01,6,35,BP_05:1
+BP_06_1,BP_06_1.mat,BP_06,0.055556,WT,3rd_06,rice,3rd,basalplate,class01,6,34,BP_06:1
+BP_10_1,BP_10_1.mat,BP_10,0.055556,WT,3rd_10,rice,3rd,basalplate,class01,4,33,BP_10:1
+BP_11_1,BP_11_1.mat,BP_11,0.055556,WT,3rd_11,rice,3rd,basalplate,class01,4,14,BP_11:1
+BP_12_1,BP_12_1.mat,BP_12,0.055556,WT,3rd_12,rice,3rd,basalplate,class01,4,26,BP_12:1
+BP_20_1,BP_20_1.mat,BP_20,0.055556,gs12,3rd_02,rice,3rd,basalplate,class02,6,12,BP_20:1
+BP_21_1,BP_21_1.mat,BP_21,0.055556,gs12,3rd_03,rice,3rd,basalplate,class02,6,13,BP_21:1
+BP_25_1,BP_25_1.mat,BP_25,0.055556,gs12,3rd_07,rice,3rd,basalplate,class02,4,31,BP_25:1
+BP_29_1,BP_29_1.mat,BP_29,0.055556,gs12,3rd_11,rice,3rd,basalplate,class02,4,16,BP_29:1
+BP_30_1,BP_30_1.mat,BP_30,0.055556,gs12,3rd_12,rice,3rd,basalplate,class02,4,27,BP_30:1
+BP_55_1,BP_55_1.mat,BP_55,0.055556,WT,4th_01,rice,4th,basalplate,class03,2,19,BP_55:1
+BP_56_1,BP_56_1.mat,BP_56,0.055556,WT,4th_02,rice,4th,basalplate,class03,2,41,BP_56:1
+BP_57_1,BP_57_1.mat,BP_57,0.055556,WT,4th_03,rice,4th,basalplate,class03,2,22,BP_57:1
+BP_58_1,BP_58_1.mat,BP_58,0.055556,WT,4th_04,rice,4th,basalplate,class03,2,40,BP_58:1
+BP_59_1,BP_59_1.mat,BP_59,0.055556,WT,4th_05,rice,4th,basalplate,class03,2,15,BP_59:1
+BP_60_1,BP_60_1.mat,BP_60,0.055556,WT,4th_06,rice,4th,basalplate,class03,2,28,BP_60:1
+BP_76_1,BP_76_1.mat,BP_76,0.055556,gs12,4th_04,rice,4th,basalplate,class04,2,23,BP_76:1
+BP_77_1,BP_77_1.mat,BP_77,0.055556,gs12,4th_05,rice,4th,basalplate,class04,2,36,BP_77:1
+BP_78_1,BP_78_1.mat,BP_78,0.055556,gs12,4th_06,rice,4th,basalplate,class04,2,24,BP_78:1
+BP_79_1,BP_79_1.mat,BP_79,0.055556,gs12,4th_07,rice,4th,basalplate,class04,2,20,BP_79:1
+BP_80_1,BP_80_1.mat,BP_80,0.055556,gs12,4th_08,rice,4th,basalplate,class04,2,38,BP_80:1
+BP_81_1,BP_81_1.mat,BP_81,0.055556,gs12,4th_09,rice,4th,basalplate,class04,2,30,BP_81:1
+BP_88_1,BP_88_1.mat,BP_88,0.055556,gs12,4th_16,rice,4th,basalplate,class04,2,17,BP_88:1

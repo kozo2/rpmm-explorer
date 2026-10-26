@@ -1,0 +1,95 @@
+gcid,MATLAB File name,Order name,weight_mg,vial_vol_ml,treatment,alkaneconc_ng,cap,incubationtime_min,incubationtemperature,medium,Fiber,exptype,batch,class1,class2,samplename,date
+120125_Alkane_test_1,120125_Alkane_test_1.mat,120125_Alkane_test,1,20,nodata,8,open,20min,70degrees,nodata,New,machine check,batch5,alkane,alkane,noname,1/25/2012
+MS_suc107_1,MS_suc107_1.mat,MS_suc107,1,20,CaCl2EDTA,8,open,20min,60degrees,MS with sucrose,old,extraction time exp,batch2,class01,class01,MS_suc107:1,1/21/2012
+MS_suc108_1,MS_suc108_1.mat,MS_suc108,1,20,CaCl2EDTA,8,open,20min,60degrees,MS with sucrose,old,extraction time exp,batch2,class01,class01,MS_suc108:1,1/21/2012
+MS_suc109_1,MS_suc109_1.mat,MS_suc109,1,20,CaCl2EDTA,8,open,10min,60degrees,MS with sucrose,old,extraction time exp,batch2,class02,class02,MS_suc109:1,1/21/2012
+MS_suc110_1,MS_suc110_1.mat,MS_suc110,1,20,CaCl2EDTA,8,open,10min,60degrees,MS with sucrose,old,extraction time exp,batch2,class02,class02,MS_suc110:1,1/21/2012
+MS_suc111_1,MS_suc111_1.mat,MS_suc111,1,20,CaCl2EDTA,8,open,30min,60degrees,MS with sucrose,old,extraction time exp,batch2,class03,class03,MS_suc111:1,1/22/2012
+MS_suc112_1,MS_suc112_1.mat,MS_suc112,1,20,CaCl2EDTA,8,open,30min,60degrees,MS with sucrose,old,extraction time exp,batch2,class03,class03,MS_suc112:1,1/22/2012
+MS_suc113_1,MS_suc113_1.mat,MS_suc113,1,20,CaCl2EDTA,8,open,40min,60degrees,MS with sucrose,old,extraction time exp,batch2,class04,class04,MS_suc113:1,1/22/2012
+MS_suc114_1,MS_suc114_1.mat,MS_suc114,1,20,CaCl2EDTA,8,open,40min,60degrees,MS with sucrose,old,extraction time exp,batch2,class04,class04,MS_suc114:1,1/22/2012
+MS_suc115_1,MS_suc115_1.mat,MS_suc115,1,20,CaCl2EDTA,8,open,50min,60degrees,MS with sucrose,old,extraction time exp,batch2,class05,class05,MS_suc115:1,1/22/2012
+MS_suc116_1,MS_suc116_1.mat,MS_suc116,1,20,CaCl2EDTA,8,open,50min,60degrees,MS with sucrose,old,extraction time exp,batch2,class05,class05,MS_suc116:1,1/22/2012
+MS_suc117_1,MS_suc117_1.mat,MS_suc117,1,20,CaCl2EDTA,8,open,60min,60degrees,MS with sucrose,old,extraction time exp,batch2,class06,class06,MS_suc117:1,1/22/2012
+MS_suc118_1,MS_suc118_1.mat,MS_suc118,1,20,CaCl2EDTA,8,open,60min,60degrees,MS with sucrose,old,extraction time exp,batch2,class06,class06,MS_suc118:1,1/22/2012
+MS_suc119_1,MS_suc119_1.mat,MS_suc119,1,20,CaCl2EDTA,8,open,70min,60degrees,MS with sucrose,old,extraction time exp,batch3,class07,class07,MS_suc119:1,1/23/2012
+MS_suc120_1,MS_suc120_1.mat,MS_suc120,1,20,CaCl2EDTA,8,open,70min,60degrees,MS with sucrose,old,extraction time exp,batch3,class07,class07,MS_suc120:1,1/23/2012
+MS_suc121_1,MS_suc121_1.mat,MS_suc121,1,20,CaCl2EDTA,8,open,80min,60degrees,MS with sucrose,old,extraction time exp,batch3,class08,class08,MS_suc121:1,1/23/2012
+MS_suc122_1,MS_suc122_1.mat,MS_suc122,1,20,CaCl2EDTA,8,open,80min,60degrees,MS with sucrose,old,extraction time exp,batch3,class08,class08,MS_suc122:1,1/23/2012
+MS_suc123_1,MS_suc123_1.mat,MS_suc123,1,20,CaCl2EDTA,8,open,90min,60degrees,MS with sucrose,old,extraction time exp,batch3,class09,class09,MS_suc123:1,1/23/2012
+MS_suc124_1,MS_suc124_1.mat,MS_suc124,1,20,CaCl2EDTA,8,open,90min,60degrees,MS with sucrose,old,extraction time exp,batch3,class09,class09,MS_suc124:1,1/23/2012
+MS_suc137_1,MS_suc137_1.mat,MS_suc137,1,20,CaCl2EDTA,8,open,20min,30degrees,MS with sucrose,old,incubation temp exp,batch3,class10,class10,MS_suc137:1,1/23/2012
+MS_suc138_1,MS_suc138_1.mat,MS_suc138,1,20,CaCl2EDTA,8,open,20min,30degrees,MS with sucrose,old,incubation temp exp,batch3,class10,class10,MS_suc138:1,1/23/2012
+MS_suc139_1,MS_suc139_1.mat,MS_suc139,1,20,CaCl2EDTA,8,open,20min,40degrees,MS with sucrose,old,incubation temp exp,batch4,class11,class11,MS_suc139:1,1/24/2012
+MS_suc140_1,MS_suc140_1.mat,MS_suc140,1,20,CaCl2EDTA,8,open,20min,40degrees,MS with sucrose,old,incubation temp exp,batch4,class11,class11,MS_suc140:1,1/24/2012
+MS_suc141_1,MS_suc141_1.mat,MS_suc141,1,20,CaCl2EDTA,8,open,20min,50degrees,MS with sucrose,old,incubation temp exp,batch4,class12,class12,MS_suc141:1,1/24/2012
+MS_suc142_1,MS_suc142_1.mat,MS_suc142,1,20,CaCl2EDTA,8,open,20min,50degrees,MS with sucrose,old,incubation temp exp,batch4,class12,class12,MS_suc142:1,1/24/2012
+MS_suc143_1,MS_suc143_1.mat,MS_suc143,1,20,CaCl2EDTA,8,open,20min,60degrees,MS with sucrose,old,incubation temp exp,batch4,class13,class01,MS_suc143:1,1/24/2012
+MS_suc144_1,MS_suc144_1.mat,MS_suc144,1,20,CaCl2EDTA,8,open,20min,60degrees,MS with sucrose,old,incubation temp exp,batch4,class13,class01,MS_suc144:1,1/24/2012
+MS_suc147_1,MS_suc147_1.mat,MS_suc147,1,20,CaCl2EDTA,8,open,20min,70degrees,MS with sucrose,New,incubation temp exp,batch5,class14,class14,MS_suc147:1,1/25/2012
+MS_suc148_1,MS_suc148_1.mat,MS_suc148,1,20,CaCl2EDTA,8,open,20min,70degrees,MS with sucrose,New,incubation temp exp,batch5,class14,class14,MS_suc148:1,1/25/2012
+MS_suc171_1,MS_suc171_1.mat,MS_suc171,1,20,notreat,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch6,class15,class15,MS_suc171:1,1/26/2012
+MS_suc172_1,MS_suc172_1.mat,MS_suc172,1,20,notreat,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch6,class15,class15,MS_suc172:1,1/26/2012
+MS_suc173_1,MS_suc173_1.mat,MS_suc173,1,20,notreat,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch6,class15,class15,MS_suc173:1,1/26/2012
+MS_suc174_1,MS_suc174_1.mat,MS_suc174,1,20,notreat,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch6,class15,class15,MS_suc174:1,1/26/2012
+MS_suc175_1,MS_suc175_1.mat,MS_suc175,1,20,notreat,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch6,class15,class15,MS_suc175:1,1/26/2012
+MS_suc176_1,MS_suc176_1.mat,MS_suc176,1,20,notreat,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch6,class15,class15,MS_suc176:1,1/26/2012
+MS_suc177_1,MS_suc177_1.mat,MS_suc177,1,20,CaCl2EDTA,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch6,class01,class01,MS_suc177:1,1/26/2012
+MS_suc178_1,MS_suc178_1.mat,MS_suc178,1,20,CaCl2EDTA,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch6,class01,class01,MS_suc178:1,1/26/2012
+MS_suc179_1,MS_suc179_1.mat,MS_suc179,1,20,CaCl2EDTA,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch6,class01,class01,MS_suc179:1,1/26/2012
+MS_suc180_1,MS_suc180_1.mat,MS_suc180,1,20,CaCl2EDTA,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch6,class01,class01,MS_suc180:1,1/26/2012
+MS_suc181_1,MS_suc181_1.mat,MS_suc181,1,20,CaCl2EDTA,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch6,class01,class01,MS_suc181:1,1/26/2012
+MS_suc182_1,MS_suc182_1.mat,MS_suc182,1,20,CaCl2EDTA,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch6,class01,class01,MS_suc182:1,1/26/2012
+MS_suc183_1,MS_suc183_1.mat,MS_suc183,1,20,heat80,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch7,class16,class16,MS_suc183:1,1/27/2012
+MS_suc184_1,MS_suc184_1.mat,MS_suc184,1,20,heat80,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch7,class16,class16,MS_suc184:1,1/27/2012
+MS_suc185_1,MS_suc185_1.mat,MS_suc185,1,20,heat80,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch7,class16,class16,MS_suc185:1,1/27/2012
+MS_suc186_1,MS_suc186_1.mat,MS_suc186,1,20,heat80,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch7,class16,class16,MS_suc186:1,1/27/2012
+MS_suc187_1,MS_suc187_1.mat,MS_suc187,1,20,heat80,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch7,class16,class16,MS_suc187:1,1/27/2012
+MS_suc188_1,MS_suc188_1.mat,MS_suc188,1,20,heat80,8,open,20min,60degrees,MS with sucrose,New,treatment exp,batch7,class16,class16,MS_suc188:1,1/27/2012
+Water_107_1,Water_107_1.mat,Water_107,1,20,CaCl2EDTA,8,open,20min,60degrees,water,old,extraction time exp,batch2,class17,class32,Water_107:1,1/21/2012
+Water_108_1,Water_108_1.mat,Water_108,1,20,CaCl2EDTA,8,open,20min,60degrees,water,old,extraction time exp,batch2,class17,class32,Water_108:1,1/21/2012
+Water_109_1,Water_109_1.mat,Water_109,1,20,CaCl2EDTA,8,open,10min,60degrees,water,old,extraction time exp,batch2,class18,class18,Water_109:1,1/21/2012
+Water_110_1,Water_110_1.mat,Water_110,1,20,CaCl2EDTA,8,open,10min,60degrees,water,old,extraction time exp,batch2,class18,class18,Water_110:1,1/21/2012
+Water_111_1,Water_111_1.mat,Water_111,1,20,CaCl2EDTA,8,open,30min,60degrees,water,old,extraction time exp,batch2,class19,class19,Water_111:1,1/21/2012
+Water_112_1,Water_112_1.mat,Water_112,1,20,CaCl2EDTA,8,open,30min,60degrees,water,old,extraction time exp,batch2,class19,class19,Water_112:1,1/21/2012
+Water_113_1,Water_113_1.mat,Water_113,1,20,CaCl2EDTA,8,open,40min,60degrees,water,old,extraction time exp,batch2,class20,class20,Water_113:1,1/22/2012
+Water_114_1,Water_114_1.mat,Water_114,1,20,CaCl2EDTA,8,open,40min,60degrees,water,old,extraction time exp,batch2,class20,class20,Water_114:1,1/22/2012
+Water_115_1,Water_115_1.mat,Water_115,1,20,CaCl2EDTA,8,open,50min,60degrees,water,old,extraction time exp,batch2,class21,class21,Water_115:1,1/22/2012
+Water_116_1,Water_116_1.mat,Water_116,1,20,CaCl2EDTA,8,open,50min,60degrees,water,old,extraction time exp,batch2,class21,class21,Water_116:1,1/22/2012
+Water_117_1,Water_117_1.mat,Water_117,1,20,CaCl2EDTA,8,open,60min,60degrees,water,old,extraction time exp,batch2,class22,class22,Water_117:1,1/22/2012
+Water_118_1,Water_118_1.mat,Water_118,1,20,CaCl2EDTA,8,open,60min,60degrees,water,old,extraction time exp,batch2,class22,class22,Water_118:1,1/22/2012
+Water_119_1,Water_119_1.mat,Water_119,1,20,CaCl2EDTA,8,open,70min,60degrees,water,old,extraction time exp,batch2,class23,class23,Water_119:1,1/22/2012
+Water_120_1,Water_120_1.mat,Water_120,1,20,CaCl2EDTA,8,open,70min,60degrees,water,old,extraction time exp,batch2,class23,class23,Water_120:1,1/22/2012
+Water_121_1,Water_121_1.mat,Water_121,1,20,CaCl2EDTA,8,open,80min,60degrees,water,old,extraction time exp,batch3,class24,class24,Water_121:1,1/23/2012
+Water_122_1,Water_122_1.mat,Water_122,1,20,CaCl2EDTA,8,open,80min,60degrees,water,old,extraction time exp,batch3,class24,class24,Water_122:1,1/23/2012
+Water_123_1,Water_123_1.mat,Water_123,1,20,CaCl2EDTA,8,open,90min,60degrees,water,old,extraction time exp,batch3,class25,class25,Water_123:1,1/23/2012
+Water_124_1,Water_124_1.mat,Water_124,1,20,CaCl2EDTA,8,open,90min,60degrees,water,old,extraction time exp,batch3,class25,class25,Water_124:1,1/23/2012
+Water_137_1,Water_137_1.mat,Water_137,1,20,CaCl2EDTA,8,open,20min,30degrees,water,old,incubation temp exp,batch3,class26,class26,Water_137:1,1/23/2012
+Water_138_1,Water_138_1.mat,Water_138,1,20,CaCl2EDTA,8,open,20min,30degrees,water,old,incubation temp exp,batch3,class26,class26,Water_138:1,1/23/2012
+Water_139_1,Water_139_1.mat,Water_139,1,20,CaCl2EDTA,8,open,20min,40degrees,water,old,incubation temp exp,batch4,class27,class27,Water_139:1,1/24/2012
+Water_140_1,Water_140_1.mat,Water_140,1,20,CaCl2EDTA,8,open,20min,40degrees,water,old,incubation temp exp,batch4,class27,class27,Water_140:1,1/24/2012
+Water_141_1,Water_141_1.mat,Water_141,1,20,CaCl2EDTA,8,open,20min,50degrees,water,old,incubation temp exp,batch4,class28,class28,Water_141:1,1/24/2012
+Water_142_1,Water_142_1.mat,Water_142,1,20,CaCl2EDTA,8,open,20min,50degrees,water,old,incubation temp exp,batch4,class28,class28,Water_142:1,1/24/2012
+Water_143_1,Water_143_1.mat,Water_143,1,20,CaCl2EDTA,8,open,20min,60degrees,water,old,incubation temp exp,batch4,class29,class32,Water_143:1,1/24/2012
+Water_144_1,Water_144_1.mat,Water_144,1,20,CaCl2EDTA,8,open,20min,60degrees,water,old,incubation temp exp,batch4,class29,class32,Water_144:1,1/24/2012
+Water_147_1,Water_147_1.mat,Water_147_2,1,20,CaCl2EDTA,8,open,20min,70degrees,water,New,incubation temp exp,batch5,class30,class30,Water_147_2:1,1/25/2012
+Water_148_1,Water_148_1.mat,Water_148,1,20,CaCl2EDTA,8,open,20min,70degrees,water,New,incubation temp exp,batch5,class30,class30,Water_148:1,1/25/2012
+Water_171_1,Water_171_1.mat,Water_171,1,20,notreat,8,open,20min,60degrees,water,New,treatment exp,batch5,class31,class31,Water_171:1,1/25/2012
+Water_172_1,Water_172_1.mat,Water_172,1,20,notreat,8,open,20min,60degrees,water,New,treatment exp,batch5,class31,class31,Water_172:1,1/25/2012
+Water_173_1,Water_173_1.mat,Water_173,1,20,notreat,8,open,20min,60degrees,water,New,treatment exp,batch6,class31,class31,Water_173:1,1/26/2012
+Water_174_1,Water_174_1.mat,Water_174,1,20,notreat,8,open,20min,60degrees,water,New,treatment exp,batch6,class31,class31,Water_174:1,1/26/2012
+Water_175_1,Water_175_1.mat,Water_175,1,20,notreat,8,open,20min,60degrees,water,New,treatment exp,batch6,class31,class31,Water_175:1,1/26/2012
+Water_176_1,Water_176_1.mat,Water_176,1,20,notreat,8,open,20min,60degrees,water,New,treatment exp,batch6,class31,class31,Water_176:1,1/26/2012
+Water_177_1,Water_177_1.mat,Water_177,1,20,CaCl2EDTA,8,open,20min,60degrees,water,New,treatment exp,batch6,class32,class32,Water_177:1,1/26/2012
+Water_178_1,Water_178_1.mat,Water_178,1,20,CaCl2EDTA,8,open,20min,60degrees,water,New,treatment exp,batch6,class32,class32,Water_178:1,1/26/2012
+Water_179_1,Water_179_1.mat,Water_179,1,20,CaCl2EDTA,8,open,20min,60degrees,water,New,treatment exp,batch6,class32,class32,Water_179:1,1/26/2012
+Water_180_1,Water_180_1.mat,Water_180,1,20,CaCl2EDTA,8,open,20min,60degrees,water,New,treatment exp,batch6,class32,class32,Water_180:1,1/26/2012
+Water_181_1,Water_181_1.mat,Water_181,1,20,CaCl2EDTA,8,open,20min,60degrees,water,New,treatment exp,batch6,class32,class32,Water_181:1,1/26/2012
+Water_182_1,Water_182_1.mat,Water_182,1,20,CaCl2EDTA,8,open,20min,60degrees,water,New,treatment exp,batch6,class32,class32,Water_182:1,1/26/2012
+Water_183_1,Water_183_1.mat,Water_183,1,20,heat80,8,open,20min,60degrees,water,New,treatment exp,batch6,class33,class33,Water_183:1,1/26/2012
+Water_184_1,Water_184_1.mat,Water_184,1,20,heat80,8,open,20min,60degrees,water,New,treatment exp,batch6,class33,class33,Water_184:1,1/26/2012
+Water_185_1,Water_185_1.mat,Water_185,1,20,heat80,8,open,20min,60degrees,water,New,treatment exp,batch6,class33,class33,Water_185:1,1/26/2012
+Water_186_1,Water_186_1.mat,Water_186,1,20,heat80,8,open,20min,60degrees,water,New,treatment exp,batch6,class33,class33,Water_186:1,1/26/2012
+Water_187_1,Water_187_1.mat,Water_187,1,20,heat80,8,open,20min,60degrees,water,New,treatment exp,batch7,class33,class33,Water_187:1,1/27/2012
+Water_188_1,Water_188_1.mat,Water_188,1,20,heat80,8,open,20min,60degrees,water,New,treatment exp,batch7,class33,class33,Water_188:1,1/27/2012
+Water_92_1,Water_92_1.mat,Water_92,1,20,notreat,8,open,20min,60degrees,water,old,RI calclation,batch1,class31,class31,Water_92:1,1/18/2012

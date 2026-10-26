@@ -1,0 +1,94 @@
+gcid,sample name,class in SIMCA,line
+araLOB37_01,A37_1_1,1,
+araLOB37_02,A37_1_2,1,
+araLOB37_03,A37_1_3,1,
+araLOB37_04,A37_1_6,1,
+araLOB37_05,A37_1_7,1,
+araLOB37_06,A37_1_8,1,
+araLOB37_07,A37_2_2,2,
+araLOB37_08,A37_2_3,2,
+araLOB37_09,A37_2_4,2,
+araLOB37_10,A37_2_6,2,
+araLOB37_11,A37_2_7,2,
+araLOB37_12,A37_2_8,2,
+araLOB37_13,A37_3_2,3,
+araLOB37_14,A37_3_4,3,
+araLOB37_15,A37_3_5,3,
+araLOB37_16,A37_3_6,3,
+araLOB37_17,A37_3_8,3,
+araLOB37_18,A37_3_10,3,
+araLOB37_19,A37_4_3,4,line 4
+araLOB37_20,A37_4_5,4,line 4
+araLOB37_21,A37_4_7,4,line 4
+araLOB37_22,A37_4_8,4,line 4
+araLOB37_23,A37_4_10,4,line 4
+araLOB37_24,BIG6LL_1_2,12,empty-vector control
+araLOB37_25,BIG6LL_1_3,12,empty-vector control
+araLOB37_26,BIG6LL_1_4,12,empty-vector control
+araLOB37_27,BIG6LL_1_7,12,empty-vector control
+araLOB37_28,BIG6LL_1_8,12,empty-vector control
+araLOB37_29,BIG6LL_1_9,12,empty-vector control
+araLOB37_30,BIG12HL_1_1,13,empty-vector control
+araLOB37_31,BIG12HL_1_3,13,empty-vector control
+araLOB37_32,BIG12HL_1_4,13,empty-vector control
+araLOB37_33,BIG12HL_1_5,13,empty-vector control
+araLOB37_34,BIG12HL_1_7,13,empty-vector control
+araLOB37_35,A37_5_1,5,
+araLOB37_36,A37_6_1,6,line 6
+araLOB37_37,A37_6_3,6,line 6
+araLOB37_38,A37_6_4,6,line 6
+araLOB37_39,A37_6_7,6,line 6
+araLOB37_40,A37_6_8,6,line 6
+araLOB37_41,A37_6_9,6,line 6
+araLOB37_42,A37_6_10,6,line 6
+araLOB37_43,A37_7_1,7,
+araLOB37_44,A37_7_2,7,
+araLOB37_45,A37_7_3,7,
+araLOB37_46,A37_7_6,7,
+araLOB37_47,A37_7_7,7,
+araLOB37_48,A37_7_9,7,
+araLOB37_49,A37_8_1,8,
+araLOB37_50,A37_8_2,8,
+araLOB37_51,A37_8_3,8,
+araLOB37_52,A37_8_8,8,
+araLOB37_53,A37_8_9,8,
+araLOB37_54,A37_8_10,8,
+araLOB37_55,BIG6LL_2_1,12,empty-vector control
+araLOB37_56,BIG6LL_2_3,12,empty-vector control
+araLOB37_57,BIG6LL_2_4,12,empty-vector control
+araLOB37_58,BIG6LL_2_6,12,empty-vector control
+araLOB37_59,BIG6LL_2_8,12,empty-vector control
+araLOB37_60,BIG6LL_2_10,12,empty-vector control
+araLOB37_61,BIG12HL_2_1,13,empty-vector control
+araLOB37_62,BIG12HL_2_2,13,empty-vector control
+araLOB37_63,BIG12HL_2_4,13,empty-vector control
+araLOB37_64,BIG12HL_2_6,13,empty-vector control
+araLOB37_65,BIG12HL_2_9,13,empty-vector control
+araLOB37_66,A37_9_1,9,
+araLOB37_67,A37_9_3,9,
+araLOB37_68,A37_9_7,9,
+araLOB37_69,A37_9_9,9,
+araLOB37_70,A37_10_3,10,
+araLOB37_71,A37_10_4,10,
+araLOB37_72,A37_10_5,10,
+araLOB37_73,A37_10_6,10,
+araLOB37_74,A37_10_7,10,
+araLOB37_75,A37_10_8,10,
+araLOB37_76,A37_11_1,11,line 11
+araLOB37_77,A37_11_2,11,line 11
+araLOB37_78,A37_11_3,11,line 11
+araLOB37_79,A37_11_4,11,line 11
+araLOB37_80,A37_11_6,11,line 11
+araLOB37_81,A37_11_7,11,line 11
+araLOB37_82,A37_11_8,11,line 11
+araLOB37_83,BIG6LL_3_3,12,empty-vector control
+araLOB37_84,BIG6LL_3_4,12,empty-vector control
+araLOB37_85,BIG6LL_3_5,12,empty-vector control
+araLOB37_86,BIG6LL_3_7,12,empty-vector control
+araLOB37_87,BIG6LL_3_10,12,empty-vector control
+araLOB37_88,BIG12_3_2,13,empty-vector control
+araLOB37_89,BIG12_3_4,13,empty-vector control
+araLOB37_90,BIG12_3_5,13,empty-vector control
+araLOB37_91,BIG12_3_6,13,empty-vector control
+araLOB37_92,BIG12_3_8,13,empty-vector control
+araLOB37_93,BIG12_3_9,13,empty-vector control

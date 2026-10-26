@@ -1,0 +1,36 @@
+gcid,MATLAB_Filename,Ordername,weight_mg,samplename,material,speciesname,binomialname,class,runorder,note1
+negi_01_1,negi_01_1.mat,negi_01:1,1035.3,mikata_1,allium,spring onion,fistulosum,class01,10,negi_01:1
+negi_02_1,negi_02_1.mat,negi_02:1,999.5,mikata_2,allium,spring onion,fistulosum,class01,25,negi_02:1
+negi_03_1,negi_03_1.mat,negi_03:1,1006,mikata_3,allium,spring onion,fistulosum,class01,30,negi_03:1
+negi_04_1,negi_04_1.mat,negi_04:1,1010.7,aoi_1,allium,green spring onion,fistulosum,class02,44,negi_04:1
+negi_05_1,negi_05_1.mat,negi_05:1,1029,aoi_2,allium,green spring onion,fistulosum,class02,18,negi_05:1
+negi_06_1,negi_06_1.mat,negi_06:1,1016,aoi_3,allium,green spring onion,fistulosum,class02,7,negi_06:1
+negi_07_1,negi_07_1.mat,negi_07:1,994.8,bannou_1,allium,scallion,fistulosum,class03,27,negi_07:1
+negi_08_1,negi_08_1.mat,negi_08:1,1006.9,bannou_2,allium,scallion,fistulosum,class03,36,negi_08:1
+negi_09_1,negi_09_1.mat,negi_09:1,1007.9,bannou_3,allium,scallion,fistulosum,class03,23,negi_09:1
+negi_10_1,negi_10_1.mat,negi_10:1,1011.9,nagareyama_1,allium,green spring onion,fistulosum,class04,45,negi_10:1
+negi_11_1,negi_11_1.mat,negi_11:1,994.8,nagareyama_2,allium,green spring onion,fistulosum,class04,31,negi_11:1
+negi_12_1,negi_12_1.mat,negi_12:1,1011.4,nagareyama_3,allium,green spring onion,fistulosum,class04,17,negi_12:1
+negi_13_1,negi_13_1.mat,negi_13:1,1045.1,shiro_1,allium,white spring onion,fistulosum,class05,9,negi_13:1
+negi_14_1,negi_14_1.mat,negi_14:1,1035.4,shiro_2,allium,white spring onion,fistulosum,class05,16,negi_14:1
+negi_15_1,negi_15_1.mat,negi_15:1,995.2,shimonita_1,allium,leek,fistulosum,class06,42,negi_15:1
+negi_16_1,negi_16_1.mat,negi_16:1,1015.9,shimonita_2,allium,leek,fistulosum,class06,21,negi_16:1
+negi_17_1,negi_17_1.mat,negi_17:1,1045.7,shimonita_3,allium,leek,fistulosum,class06,24,negi_17:1
+negi_18_1,negi_18_1.mat,negi_18:1,1014.9,shirakami_1,allium,leek,fistulosum,class07,39,negi_18:1
+negi_19_1,negi_19_1.mat,negi_19:1,1029,shirakami_2,allium,leek,fistulosum,class07,13,negi_19:1
+negi_20_1,negi_20_1.mat,negi_20:1,1011.2,shirakami_3,allium,leek,fistulosum,class07,38,negi_20:1
+negi_21_1,negi_21_1.mat,negi_21:1,1008.3,shallot_1,allium,rakkyo,chinense,class08,34,negi_21:1
+negi_22_1,negi_22_1.mat,negi_22:1,1009.5,shallot_2,allium,rakkyo,chinense,class08,11,negi_22:1
+negi_23_1,negi_23_1.mat,negi_23:1,1034,shallot_3,allium,rakkyo,chinense,class08,14,negi_23:1
+negi_24_1,negi_24_1.mat,negi_24:1,1003.7,aka_1,allium,red spring onion,fistulosum,class12,8,negi_24:1
+negi_25_1,negi_25_1.mat,negi_25:1,995.3,aka_2,allium,red spring onion,fistulosum,class12,43,negi_25:1
+negi_26_1,negi_26_1.mat,negi_26:1,1013.7,aka_3,allium,red spring onion,fistulosum,class12,29,negi_26:1
+negi_27_1,negi_27_1.mat,negi_27:1,1004.1,kujo_1,allium,scallion,fistulosum,class09,35,negi_27:1
+negi_28_1,negi_28_1.mat,negi_28:1,1011.6,kujo_2,allium,scallion,fistulosum,class09,15,negi_28:1
+negi_29_1,negi_29_1.mat,negi_29:1,1010.7,kujo_3,allium,scallion,fistulosum,class09,20,negi_29:1
+negi_30_1,negi_30_1.mat,negi_30:1,1003.4,green_1,allium,spring onion,fistulosum,class11,22,negi_30:1
+negi_31_1,negi_31_1.mat,negi_31:1,984.3,green_2,allium,spring onion,fistulosum,class11,47,negi_31:1
+negi_32_1,negi_32_1.mat,negi_32:1,1003.4,green_3,allium,spring onion,fistulosum,class11,28,negi_32:1
+negi_33_1,negi_33_1.mat,negi_33:1,1037.4,Chinesechives_1,allium,oriental garlic,tuberosum,class10,32,negi_33:1
+negi_34_1,negi_34_1.mat,negi_34:1,1021.3,Chinesechives_2,allium,oriental garlic,tuberosum,class10,37,negi_34:1
+negi_35_1,negi_35_1.mat,negi_35:1,910.9,Chinesechives_3,allium,oriental garlic,tuberosum,class10,41,negi_35:1

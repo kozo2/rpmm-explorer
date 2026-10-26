@@ -1,0 +1,184 @@
+gcid,MATLAB File name,Order name,weight (mg),sample name,sampletype,genotype,class1,class2,class3,tissue,treatment,day,runorder,runtimelog,note
+FD_01_1,FD_01_1.mat,FD_01,0.005556,Freeze Dry Col-0,Arabidopsis,NA,FD,1,NA,leaf,NA,NA,173,FD_01:1,Dry weight
+FD_02_1,FD_02_1.mat,FD_02,0.005556,Freeze Dry Col-0,Arabidopsis,NA,FD,1,NA,leaf,NA,NA,48,FD_02:1,Dry weight
+FD_03_1,FD_03_1.mat,FD_03,0.005556,Freeze Dry Col-0,Arabidopsis,NA,FD,1,NA,leaf,NA,NA,62,FD_03:1,Dry weight
+STDs_1_1_1,STDs_1_1_1.mat,STDs_1_1,1,Standard Mixture,STDs,NA,STDs1,2,NA,NA,NA,NA,229,STDs_1_1:1,NA
+STDs_1_2_1,STDs_1_2_1.mat,STDs_1_2,1,Standard Mixture,STDs,NA,STDs1,2,NA,NA,NA,NA,220,STDs_1_2:1,NA
+STDs_1_3_1,STDs_1_3_1.mat,STDs_1_3,1,Standard Mixture,STDs,NA,STDs1,2,NA,NA,NA,NA,212,STDs_1_3:1,NA
+STDs_2_1_1,STDs_2_1_1.mat,STDs_2_1,1,Standard Mixture,STDs,NA,STDs2,3,NA,NA,NA,NA,221,STDs_2_1:1,NA
+STDs_2_2_1,STDs_2_2_1.mat,STDs_2_2,1,Standard Mixture,STDs,NA,STDs2,3,NA,NA,NA,NA,218,STDs_2_2:1,NA
+STDs_2_3_1,STDs_2_3_1.mat,STDs_2_3,1,Standard Mixture,STDs,NA,STDs2,3,NA,NA,NA,NA,213,STDs_2_3:1,NA
+STDs_3_1_1,STDs_3_1_1.mat,STDs_3_1,1,Standard Mixture,STDs,NA,STDs3,4,NA,NA,NA,NA,210,STDs_3_1:1,NA
+STDs_3_2_1,STDs_3_2_1.mat,STDs_3_2,1,Standard Mixture,STDs,NA,STDs3,4,NA,NA,NA,NA,228,STDs_3_2:1,NA
+STDs_3_3_1,STDs_3_3_1.mat,STDs_3_3,1,Standard Mixture,STDs,NA,STDs3,4,NA,NA,NA,NA,224,STDs_3_3:1,NA
+STDs_E1_1_1,STDs_E1_1_1.mat,STDs_E1_1,1,Standard Mixture,STDs,NA,STDsE1,5,NA,NA,NA,NA,217,STDs_E1_1:1,NA
+STDs_E1_2_1,STDs_E1_2_1.mat,STDs_E1_2,1,Standard Mixture,STDs,NA,STDsE1,5,NA,NA,NA,NA,214,STDs_E1_2:1,NA
+STDs_E1_3_1,STDs_E1_3_1.mat,STDs_E1_3,1,Standard Mixture,STDs,NA,STDsE1,5,NA,NA,NA,NA,219,STDs_E1_3:1,NA
+STDs_E2_1_1,STDs_E2_1_1.mat,STDs_E2_1,1,Standard Mixture,STDs,NA,STDsE2,6,NA,NA,NA,NA,225,STDs_E2_1:1,NA
+STDs_E2_2_1,STDs_E2_2_1.mat,STDs_E2_2,1,Standard Mixture,STDs,NA,STDsE2,6,NA,NA,NA,NA,222,STDs_E2_2:1,NA
+STDs_E2_3_1,STDs_E2_3_1.mat,STDs_E2_3,1,Standard Mixture,STDs,NA,STDsE2,6,NA,NA,NA,NA,226,STDs_E2_3:1,NA
+STDs_E3_1_1,STDs_E3_1_1.mat,STDs_E3_1,1,Standard Mixture,STDs,NA,STDsE3,7,NA,NA,NA,NA,227,STDs_E3_1:1,NA
+STDs_E3_2_1,STDs_E3_2_1.mat,STDs_E3_2,1,Standard Mixture,STDs,NA,STDsE3,7,NA,NA,NA,NA,211,STDs_E3_2:1,NA
+STDs_E3_3_1,STDs_E3_3_1.mat,STDs_E3_3,1,Standard Mixture,STDs,NA,STDsE3,7,NA,NA,NA,NA,215,STDs_E3_3:1,NA
+gs_001_1,gs_001_1.mat,gs_001,0.055556,NC2373 homozygote homozygote LB +N,rice,GS11,NC2373,8,1,LB,pN,18,19,gs_001:1,NA
+gs_002_1,gs_002_1.mat,gs_002,0.055556,NC2373 homozygote homozygote LB +N,rice,GS11,NC2373,8,1,LB,pN,18,61,gs_002:1,NA
+gs_003_1,gs_003_1.mat,gs_003,0.055556,NC2373 homozygote homozygote LB +N,rice,GS11,NC2373,8,1,LB,pN,18,17,gs_003:1,NA
+gs_005_1,gs_005_1.mat,gs_005,0.055556,NC2373 homozygote homozygote LB +N,rice,GS11,NC2373,8,1,LB,pN,18,53,gs_005:1,NA
+gs_006_1,gs_006_1.mat,gs_006,0.055556,NC2373 homozygote homozygote LB +N,rice,GS11,NC2373,8,1,LB,pN,18,75,gs_006:1,NA
+gs_007_1,gs_007_1.mat,gs_007,0.055556,NC2373 homozygote homozygote LB +N,rice,GS11,NC2373,8,1,LB,pN,18,84,gs_007:1,NA
+gs_013_1,gs_013_1.mat,gs_013,0.055556,ND8037 homozygote LB +N,rice,GS11,ND8037,9,1,LB,pN,18,88,gs_013:1,NA
+gs_014_1,gs_014_1.mat,gs_014,0.055556,ND8037 homozygote LB +N,rice,GS11,ND8037,9,1,LB,pN,18,32,gs_014:1,NA
+gs_015_1,gs_015_1.mat,gs_015,0.055556,ND8037 homozygote LB +N,rice,GS11,ND8037,9,1,LB,pN,18,24,gs_015:1,NA
+gs_016_1,gs_016_1.mat,gs_016,0.055556,ND8037 homozygote LB +N,rice,GS11,ND8037,9,1,LB,pN,18,136,gs_016:1,NA
+gs_017_1,gs_017_1.mat,gs_017,0.055556,ND8037 homozygote LB +N,rice,GS11,ND8037,9,1,LB,pN,18,151,gs_017:1,NA
+gs_018_1,gs_018_1.mat,gs_018,0.055556,ND8037 homozygote LB +N,rice,GS11,ND8037,9,1,LB,pN,18,178,gs_018:1,NA
+gs_026_1,gs_026_1.mat,gs_026,0.055556,Nipponbare LB +N ,rice,Nipponbare,WT,10,1,LB,pN,18,203,gs_026:1,NA
+gs_027_1,gs_027_1.mat,gs_027,0.055556,Nipponbare LB +N ,rice,Nipponbare,WT,10,1,LB,pN,18,43,gs_027:1,NA
+gs_028_1,gs_028_1.mat,gs_028,0.055556,Nipponbare LB +N ,rice,Nipponbare,WT,10,1,LB,pN,18,64,gs_028:1,NA
+gs_029_1,gs_029_1.mat,gs_029,0.055556,Nipponbare LB +N ,rice,Nipponbare,WT,10,1,LB,pN,18,90,gs_029:1,NA
+gs_030_1,gs_030_1.mat,gs_030,0.055556,Nipponbare LB +N ,rice,Nipponbare,WT,10,1,LB,pN,18,85,gs_030:1,NA
+gs_031_1,gs_031_1.mat,gs_031,0.055556,Nipponbare LB +N ,rice,Nipponbare,WT,10,1,LB,pN,18,78,gs_031:1,NA
+gs_036_2,gs_036_2.mat,gs_036,0.055556,NC2373 no insertion LB +N ,rice,Nipponbare,null,11,1,LB,pN,18,132,gs_036:2,NA
+gs_037_1,gs_037_1.mat,gs_037,0.055556,NC2373 no insertion LB +N ,rice,Nipponbare,null,11,1,LB,pN,18,77,gs_037:1,NA
+gs_038_1,gs_038_1.mat,gs_038,0.055556,NC2373 no insertion LB +N,rice,Nipponbare,null,11,1,LB,pN,18,46,gs_038:1,NA
+gs_039_1,gs_039_1.mat,gs_039,0.055556,NC2373 no insertion LB +N,rice,Nipponbare,null,11,1,LB,pN,18,114,gs_039:1,NA
+gs_040_1,gs_040_1.mat,gs_040,0.055556,NC2373 no insertion LB +N,rice,Nipponbare,null,11,1,LB,pN,18,142,gs_040:1,NA
+gs_041_1,gs_041_1.mat,gs_041,0.055556,NC2373 no insertion LB +N,rice,Nipponbare,null,11,1,LB,pN,18,76,gs_041:1,NA
+gs_046_1,gs_046_1.mat,gs_046,0.055556,ND8037 no insertion LB +N ,rice,Nipponbare,null,12,1,LB,pN,18,153,gs_046:1,NA
+gs_047_1,gs_047_1.mat,gs_047,0.055556,ND8037 no insertion LB +N ,rice,Nipponbare,null,12,1,LB,pN,18,79,gs_047:1,NA
+gs_048_1,gs_048_1.mat,gs_048,0.055556,ND8037 no insertion LB +N,rice,Nipponbare,null,12,1,LB,pN,18,50,gs_048:1,NA
+gs_049_1,gs_049_1.mat,gs_049,0.055556,ND8037 no insertion LB +N,rice,Nipponbare,null,12,1,LB,pN,18,122,gs_049:1,NA
+gs_050_1,gs_050_1.mat,gs_050,0.055556,ND8037 no insertion LB +N,rice,Nipponbare,null,12,1,LB,pN,18,36,gs_050:1,NA
+gs_051_1,gs_051_1.mat,gs_051,0.055556,ND8037 no insertion LB +N,rice,Nipponbare,null,12,1,LB,pN,18,192,gs_051:1,NA
+gs_056_1,gs_056_1.mat,gs_056,0.055556,NC2373 homozygote LS +N ,rice,GS11,NC2373,13,1,LS,pN,18,54,gs_056:1,NA
+gs_057_1,gs_057_1.mat,gs_057,0.055556,NC2373 homozygote LS +N ,rice,GS11,NC2373,13,1,LS,pN,18,164,gs_057:1,NA
+gs_058_1,gs_058_1.mat,gs_058,0.055556,NC2373 homozygote LS +N,rice,GS11,NC2373,13,1,LS,pN,18,165,gs_058:1,NA
+gs_060_1,gs_060_1.mat,gs_060,0.055556,NC2373 homozygote LS +N,rice,GS11,NC2373,13,1,LS,pN,18,71,gs_060:1,NA
+gs_061_1,gs_061_1.mat,gs_061,0.055556,NC2373 homozygote LS +N,rice,GS11,NC2373,13,1,LS,pN,18,82,gs_061:1,NA
+gs_062_1,gs_062_1.mat,gs_062,0.055556,NC2373 homozygote LS +N,rice,GS11,NC2373,13,1,LS,pN,18,117,gs_062:1,NA
+gs_068_1,gs_068_1.mat,gs_068,0.055556,ND8037 homozygote LS +N ,rice,GS11,ND8037,14,1,LS,pN,18,119,gs_068:1,NA
+gs_069_1,gs_069_1.mat,gs_069,0.055556,ND8037 homozygote LS +N ,rice,GS11,ND8037,14,1,LS,pN,18,149,gs_069:1,NA
+gs_070_1,gs_070_1.mat,gs_070,0.055556,ND8037 homozygote LS +N,rice,GS11,ND8037,14,1,LS,pN,18,182,gs_070:1,NA
+gs_071_1,gs_071_1.mat,gs_071,0.055556,ND8037 homozygote LS +N,rice,GS11,ND8037,14,1,LS,pN,18,187,gs_071:1,NA
+gs_072_1,gs_072_1.mat,gs_072,0.055556,ND8037 homozygote LS +N,rice,GS11,ND8037,14,1,LS,pN,18,39,gs_072:1,NA
+gs_073_1,gs_073_1.mat,gs_073,0.055556,ND8037 homozygote LS +N,rice,GS11,ND8037,14,1,LS,pN,18,107,gs_073:1,NA
+gs_081_2,gs_081_2.mat,gs_081,0.055556,Nipponbare LS +N ,rice,Nipponbare,WT,15,1,LS,pN,18,131,gs_081:2,NA
+gs_082_1,gs_082_1.mat,gs_082,0.055556,Nipponbare LS +N ,rice,Nipponbare,WT,15,1,LS,pN,18,189,gs_082:1,NA
+gs_083_1,gs_083_1.mat,gs_083,0.055556,Nipponbare LS +N ,rice,Nipponbare,WT,15,1,LS,pN,18,65,gs_083:1,NA
+gs_084_1,gs_084_1.mat,gs_084,0.055556,Nipponbare LS +N ,rice,Nipponbare,WT,15,1,LS,pN,18,177,gs_084:1,NA
+gs_085_1,gs_085_1.mat,gs_085,0.055556,Nipponbare LS +N ,rice,Nipponbare,WT,15,1,LS,pN,18,170,gs_085:1,NA
+gs_086_1,gs_086_1.mat,gs_086,0.055556,Nipponbare LS +N ,rice,Nipponbare,WT,15,1,LS,pN,18,124,gs_086:1,NA
+gs_091_1,gs_091_1.mat,gs_091,0.055556,NC2373 no insertion LS +N ,rice,Nipponbare,null,16,1,LS,pN,18,42,gs_091:1,NA
+gs_092_1,gs_092_1.mat,gs_092,0.055556,NC2373 no insertion LS +N ,rice,Nipponbare,null,16,1,LS,pN,18,207,gs_092:1,NA
+gs_093_1,gs_093_1.mat,gs_093,0.055556,NC2373 no insertion LS +N,rice,Nipponbare,null,16,1,LS,pN,18,197,gs_093:1,NA
+gs_094_1,gs_094_1.mat,gs_094,0.055556,NC2373 no insertion LS +N,rice,Nipponbare,null,16,1,LS,pN,18,193,gs_094:1,NA
+gs_095_1,gs_095_1.mat,gs_095,0.055556,NC2373 no insertion LS +N,rice,Nipponbare,null,16,1,LS,pN,18,175,gs_095:1,NA
+gs_096_1,gs_096_1.mat,gs_096,0.055556,NC2373 no insertion LS +N,rice,Nipponbare,null,16,1,LS,pN,18,126,gs_096:1,NA
+gs_101_1,gs_101_1.mat,gs_101,0.055556,ND8037 no insertion LS +N ,rice,Nipponbare,null,17,1,LS,pN,18,125,gs_101:1,NA
+gs_102_1,gs_102_1.mat,gs_102,0.055556,ND8037 no insertion LS +N ,rice,Nipponbare,null,17,1,LS,pN,18,69,gs_102:1,NA
+gs_103_1,gs_103_1.mat,gs_103,0.055556,ND8037 no insertion LS +N,rice,Nipponbare,null,17,1,LS,pN,18,157,gs_103:1,NA
+gs_104_2,gs_104_2.mat,gs_104,0.055556,ND8037 no insertion LS +N,rice,Nipponbare,null,17,1,LS,pN,18,121,gs_104:2,NA
+gs_105_1,gs_105_1.mat,gs_105,0.055556,ND8037 no insertion LS +N,rice,Nipponbare,null,17,1,LS,pN,18,83,gs_105:1,NA
+gs_106_1,gs_106_1.mat,gs_106,0.055556,ND8037 no insertion LS +N,rice,Nipponbare,null,17,1,LS,pN,18,49,gs_106:1,NA
+gs_111_1,gs_111_1.mat,gs_111,0.055556,NC2373 homozygote root +N ,rice,GS11,NC2373,18,1,RT,pN,18,145,gs_111:1,NA
+gs_112_1,gs_112_1.mat,gs_112,0.055556,NC2373 homozygote root +N ,rice,GS11,NC2373,18,1,RT,pN,18,144,gs_112:1,NA
+gs_113_1,gs_113_1.mat,gs_113,0.055556,NC2373 homozygote root +N,rice,GS11,NC2373,18,1,RT,pN,18,159,gs_113:1,NA
+gs_115_1,gs_115_1.mat,gs_115,0.055556,NC2373 homozygote root +N,rice,GS11,NC2373,18,1,RT,pN,18,105,gs_115:1,NA
+gs_116_1,gs_116_1.mat,gs_116,0.055556,NC2373 homozygote root +N,rice,GS11,NC2373,18,1,RT,pN,18,138,gs_116:1,NA
+gs_117_1,gs_117_1.mat,gs_117,0.055556,NC2373 homozygote root +N,rice,GS11,NC2373,18,1,RT,pN,18,137,gs_117:1,NA
+gs_123_1,gs_123_1.mat,gs_123,0.055556,ND8037 homozygote root +N ,rice,GS11,ND8037,19,1,RT,pN,18,168,gs_123:1,NA
+gs_124_1,gs_124_1.mat,gs_124,0.055556,ND8037 homozygote root +N ,rice,GS11,ND8037,19,1,RT,pN,18,91,gs_124:1,NA
+gs_125_1,gs_125_1.mat,gs_125,0.055556,ND8037 homozygote root +N,rice,GS11,ND8037,19,1,RT,pN,18,208,gs_125:1,NA
+gs_126_1,gs_126_1.mat,gs_126,0.055556,ND8037 homozygote root +N,rice,GS11,ND8037,19,1,RT,pN,18,29,gs_126:1,NA
+gs_127_1,gs_127_1.mat,gs_127,0.055556,ND8037 homozygote root +N,rice,GS11,ND8037,19,1,RT,pN,18,33,gs_127:1,NA
+gs_128_1,gs_128_1.mat,gs_128,0.055556,ND8037 homozygote root +N,rice,GS11,ND8037,19,1,RT,pN,18,23,gs_128:1,NA
+gs_136_1,gs_136_1.mat,gs_136,0.055556,Nipponbare root +N ,rice,Nipponbare,WT,20,1,RT,pN,18,160,gs_136:1,NA
+gs_137_1,gs_137_1.mat,gs_137,0.055556,Nipponbare root +N ,rice,Nipponbare,WT,20,1,RT,pN,18,158,gs_137:1,NA
+gs_138_1,gs_138_1.mat,gs_138,0.055556,Nipponbare root +N ,rice,Nipponbare,WT,20,1,RT,pN,18,27,gs_138:1,NA
+gs_139_1,gs_139_1.mat,gs_139,0.055556,Nipponbare root +N ,rice,Nipponbare,WT,20,1,RT,pN,18,156,gs_139:1,NA
+gs_140_1,gs_140_1.mat,gs_140,0.055556,Nipponbare root +N ,rice,Nipponbare,WT,20,1,RT,pN,18,143,gs_140:1,NA
+gs_141_1,gs_141_1.mat,gs_141,0.055556,Nipponbare root +N ,rice,Nipponbare,WT,20,1,RT,pN,18,98,gs_141:1,NA
+gs_146_1,gs_146_1.mat,gs_146,0.055556,NC2373 no insertion root +N ,rice,Nipponbare,null,21,1,RT,pN,18,60,gs_146:1,NA
+gs_147_1,gs_147_1.mat,gs_147,0.055556,NC2373 no insertion root +N ,rice,Nipponbare,null,21,1,RT,pN,18,92,gs_147:1,NA
+gs_148_1,gs_148_1.mat,gs_148,0.055556,NC2373 no insertion root +N,rice,Nipponbare,null,21,1,RT,pN,18,113,gs_148:1,NA
+gs_149_1,gs_149_1.mat,gs_149,0.055556,NC2373 no insertion root +N,rice,Nipponbare,null,21,1,RT,pN,18,13,gs_149:1,NA
+gs_150_1,gs_150_1.mat,gs_150,0.055556,NC2373 no insertion root +N,rice,Nipponbare,null,21,1,RT,pN,18,16,gs_150:1,NA
+gs_151_1,gs_151_1.mat,gs_151,0.055556,NC2373 no insertion root +N,rice,Nipponbare,null,21,1,RT,pN,18,163,gs_151:1,NA
+gs_156_1,gs_156_1.mat,gs_156,0.055556,ND8037 no insertion root +N ,rice,Nipponbare,null,22,1,RT,pN,18,14,gs_156:1,NA
+gs_157_1,gs_157_1.mat,gs_157,0.055556,ND8037 no insertion root +N ,rice,Nipponbare,null,22,1,RT,pN,18,57,gs_157:1,NA
+gs_158_1,gs_158_1.mat,gs_158,0.055556,ND8037 no insertion root +N,rice,Nipponbare,null,22,1,RT,pN,18,150,gs_158:1,NA
+gs_159_1,gs_159_1.mat,gs_159,0.055556,ND8037 no insertion root +N,rice,Nipponbare,null,22,1,RT,pN,18,148,gs_159:1,NA
+gs_160_1,gs_160_1.mat,gs_160,0.055556,ND8037 no insertion root +N,rice,Nipponbare,null,22,1,RT,pN,18,40,gs_160:1,NA
+gs_161_1,gs_161_1.mat,gs_161,0.055556,ND8037 no insertion root +N,rice,Nipponbare,null,22,1,RT,pN,18,167,gs_161:1,NA
+gs_188_1,gs_188_1.mat,gs_188,0.055556,gs1;2 LB +N,rice,GS12,GS12,23,2,LB,pN,18,196,gs_188:1,NA
+gs_189_1,gs_189_1.mat,gs_189,0.055556,gs1;2 LB +N,rice,GS12,GS12,23,2,LB,pN,18,206,gs_189:1,NA
+gs_190_1,gs_190_1.mat,gs_190,0.055556,gs1;2 LB +N,rice,GS12,GS12,23,2,LB,pN,18,89,gs_190:1,NA
+gs_191_1,gs_191_1.mat,gs_191,0.055556,gs1;2 LB +N,rice,GS12,GS12,23,2,LB,pN,18,41,gs_191:1,NA
+gs_192_1,gs_192_1.mat,gs_192,0.055556,gs1;2 LB +N,rice,GS12,GS12,23,2,LB,pN,18,67,gs_192:1,NA
+gs_193_1,gs_193_1.mat,gs_193,0.055556,gs1;2 LB +N,rice,GS12,GS12,23,2,LB,pN,18,44,gs_193:1,NA
+gs_268_1,gs_268_1.mat,gs_268,0.055556,gs1;2 LS +N,rice,GS12,GS12,24,2,LS,pN,18,26,gs_268:1,NA
+gs_269_1,gs_269_1.mat,gs_269,0.055556,gs1;2 LS +N,rice,GS12,GS12,24,2,LS,pN,18,12,gs_269:1,NA
+gs_270_1,gs_270_1.mat,gs_270,0.055556,gs1;2 LS +N,rice,GS12,GS12,24,2,LS,pN,18,51,gs_270:1,NA
+gs_271_1,gs_271_1.mat,gs_271,0.055556,gs1;2 LS +N,rice,GS12,GS12,24,2,LS,pN,18,47,gs_271:1,NA
+gs_272_1,gs_272_1.mat,gs_272,0.055556,gs1;2 LS +N,rice,GS12,GS12,24,2,LS,pN,18,179,gs_272:1,NA
+gs_273_1,gs_273_1.mat,gs_273,0.055556,gs1;2 LS +N,rice,GS12,GS12,24,2,LS,pN,18,190,gs_273:1,NA
+gs_348_1,gs_348_1.mat,gs_348,0.055556,gs1;2 root +N,rice,GS12,GS12,25,2,RT,pN,18,102,gs_348:1,NA
+gs_349_1,gs_349_1.mat,gs_349,0.055556,gs1;2 root +N,rice,GS12,GS12,25,2,RT,pN,18,34,gs_349:1,NA
+gs_350_1,gs_350_1.mat,gs_350,0.055556,gs1;2 root +N,rice,GS12,GS12,25,2,RT,pN,18,184,gs_350:1,NA
+gs_351_1,gs_351_1.mat,gs_351,0.055556,gs1;2 root +N,rice,GS12,GS12,25,2,RT,pN,18,195,gs_351:1,NA
+gs_352_1,gs_352_1.mat,gs_352,0.055556,gs1;2 root +N,rice,GS12,GS12,25,2,RT,pN,18,202,gs_352:1,NA
+gs_353_1,gs_353_1.mat,gs_353,0.055556,gs1;2 root +N,rice,GS12,GS12,25,2,RT,pN,18,22,gs_353:1,NA
+gs_400_1,gs_400_1.mat,gs_400,0.055556,wt LB -N,rice,Nipponbare,WT,26,2,LB,mN,18,70,gs_400:1,NA
+gs_401_1,gs_401_1.mat,gs_401,0.055556,wt LB -N,rice,Nipponbare,WT,26,2,LB,mN,18,181,gs_401:1,NA
+gs_402_1,gs_402_1.mat,gs_402,0.055556,wt LB -N,rice,Nipponbare,WT,26,2,LB,mN,18,166,gs_402:1,NA
+gs_403_1,gs_403_1.mat,gs_403,0.055556,wt LB -N,rice,Nipponbare,WT,26,2,LB,mN,18,204,gs_403:1,NA
+gs_404_1,gs_404_1.mat,gs_404,0.055556,wt LB -N,rice,Nipponbare,WT,26,2,LB,mN,18,134,gs_404:1,NA
+gs_405_1,gs_405_1.mat,gs_405,0.055556,wt LB -N,rice,Nipponbare,WT,26,2,LB,mN,18,56,gs_405:1,NA
+gs_425_1,gs_425_1.mat,gs_425,0.055556,gs1;2 LB -N,rice,GS12,GS12,27,2,LB,mN,18,152,gs_425:1,NA
+gs_426_1,gs_426_1.mat,gs_426,0.055556,gs1;2 LB -N,rice,GS12,GS12,27,2,LB,mN,18,97,gs_426:1,NA
+gs_427_1,gs_427_1.mat,gs_427,0.055556,gs1;2 LB -N,rice,GS12,GS12,27,2,LB,mN,18,201,gs_427:1,NA
+gs_428_1,gs_428_1.mat,gs_428,0.055556,gs1;2 LB -N,rice,GS12,GS12,27,2,LB,mN,18,118,gs_428:1,NA
+gs_429_1,gs_429_1.mat,gs_429,0.055556,gs1;2 LB -N,rice,GS12,GS12,27,2,LB,mN,18,93,gs_429:1,NA
+gs_430_1,gs_430_1.mat,gs_430,0.055556,gs1;2 LB -N,rice,GS12,GS12,27,2,LB,mN,18,116,gs_430:1,NA
+gs_460_1,gs_460_1.mat,gs_460,0.055556,wt LS -N,rice,Nipponbare,WT,28,2,LS,mN,18,171,gs_460:1,NA
+gs_461_1,gs_461_1.mat,gs_461,0.055556,wt LS -N,rice,Nipponbare,WT,28,2,LS,mN,18,15,gs_461:1,NA
+gs_462_1,gs_462_1.mat,gs_462,0.055556,wt LS -N,rice,Nipponbare,WT,28,2,LS,mN,18,35,gs_462:1,NA
+gs_463_1,gs_463_1.mat,gs_463,0.055556,wt LS -N,rice,Nipponbare,WT,28,2,LS,mN,18,103,gs_463:1,NA
+gs_464_1,gs_464_1.mat,gs_464,0.055556,wt LS -N,rice,Nipponbare,WT,28,2,LS,mN,18,146,gs_464:1,NA
+gs_465_1,gs_465_1.mat,gs_465,0.055556,wt LS -N,rice,Nipponbare,WT,28,2,LS,mN,18,74,gs_465:1,NA
+gs_485_1,gs_485_1.mat,gs_485,0.055556,gs1;2 LS -N,rice,GS12,GS12,29,2,LS,mN,18,96,gs_485:1,NA
+gs_486_1,gs_486_1.mat,gs_486,0.055556,gs1;2 LS -N,rice,GS12,GS12,29,2,LS,mN,18,95,gs_486:1,NA
+gs_487_1,gs_487_1.mat,gs_487,0.055556,gs1;2 LS -N,rice,GS12,GS12,29,2,LS,mN,18,174,gs_487:1,NA
+gs_488_1,gs_488_1.mat,gs_488,0.055556,gs1;2 LS -N,rice,GS12,GS12,29,2,LS,mN,18,20,gs_488:1,NA
+gs_489_1,gs_489_1.mat,gs_489,0.055556,gs1;2 LS -N,rice,GS12,GS12,29,2,LS,mN,18,139,gs_489:1,NA
+gs_490_1,gs_490_1.mat,gs_490,0.055556,gs1;2 LS -N,rice,GS12,GS12,29,2,LS,mN,18,129,gs_490:1,NA
+gs_520_1,gs_520_1.mat,gs_520,0.055556,wt root -N,rice,Nipponbare,WT,30,2,RT,mN,18,155,gs_520:1,NA
+gs_521_1,gs_521_1.mat,gs_521,0.055556,wt root -N,rice,Nipponbare,WT,30,2,RT,mN,18,188,gs_521:1,NA
+gs_522_1,gs_522_1.mat,gs_522,0.055556,wt root -N,rice,Nipponbare,WT,30,2,RT,mN,18,200,gs_522:1,NA
+gs_523_1,gs_523_1.mat,gs_523,0.055556,wt root -N,rice,Nipponbare,WT,30,2,RT,mN,18,72,gs_523:1,NA
+gs_524_1,gs_524_1.mat,gs_524,0.055556,wt root -N,rice,Nipponbare,WT,30,2,RT,mN,18,110,gs_524:1,NA
+gs_525_1,gs_525_1.mat,gs_525,0.055556,wt root -N,rice,Nipponbare,WT,30,2,RT,mN,18,180,gs_525:1,NA
+gs_545_1,gs_545_1.mat,gs_545,0.055556,gs1;2 root -N,rice,GS12,GS12,31,2,RT,mN,18,104,gs_545:1,NA
+gs_546_1,gs_546_1.mat,gs_546,0.055556,gs1;2 root -N,rice,GS12,GS12,31,2,RT,mN,18,55,gs_546:1,NA
+gs_547_1,gs_547_1.mat,gs_547,0.055556,gs1;2 root -N,rice,GS12,GS12,31,2,RT,mN,18,68,gs_547:1,NA
+gs_548_1,gs_548_1.mat,gs_548,0.055556,gs1;2 root -N,rice,GS12,GS12,31,2,RT,mN,18,100,gs_548:1,NA
+gs_549_1,gs_549_1.mat,gs_549,0.055556,gs1;2 root -N,rice,GS12,GS12,31,2,RT,mN,18,99,gs_549:1,NA
+gs_550_2,gs_550_2.mat,gs_550,0.055556,gs1;2 root -N,rice,GS12,GS12,31,2,RT,mN,18,130,gs_550:2,NA
+gs_601_1,gs_601_1.mat,gs_601,0.055556,wt LB +N,rice,Nipponbare,WT,32,2,LB,pN,18,109,gs_601:1,NA
+gs_602_1,gs_602_1.mat,gs_602,0.055556,wt LB +N,rice,Nipponbare,WT,32,2,LB,pN,18,199,gs_602:1,NA
+gs_603_1,gs_603_1.mat,gs_603,0.055556,wt LB +N,rice,Nipponbare,WT,32,2,LB,pN,18,31,gs_603:1,NA
+gs_604_1,gs_604_1.mat,gs_604,0.055556,wt LB +N,rice,Nipponbare,WT,32,2,LB,pN,18,106,gs_604:1,NA
+gs_605_1,gs_605_1.mat,gs_605,0.055556,wt LB +N,rice,Nipponbare,WT,32,2,LB,pN,18,112,gs_605:1,NA
+gs_606_1,gs_606_1.mat,gs_606,0.055556,wt LB +N,rice,Nipponbare,WT,32,2,LB,pN,18,28,gs_606:1,NA
+gs_611_1,gs_611_1.mat,gs_611,0.055556,wt LS +N,rice,Nipponbare,WT,33,2,LS,pN,18,63,gs_611:1,NA
+gs_612_1,gs_612_1.mat,gs_612,0.055556,wt LS +N,rice,Nipponbare,WT,33,2,LS,pN,18,127,gs_612:1,NA
+gs_613_1,gs_613_1.mat,gs_613,0.055556,wt LS +N,rice,Nipponbare,WT,33,2,LS,pN,18,128,gs_613:1,NA
+gs_614_1,gs_614_1.mat,gs_614,0.055556,wt LS +N,rice,Nipponbare,WT,33,2,LS,pN,18,141,gs_614:1,NA
+gs_615_1,gs_615_1.mat,gs_615,0.055556,wt LS +N,rice,Nipponbare,WT,33,2,LS,pN,18,186,gs_615:2,NA
+gs_616_1,gs_616_1.mat,gs_616,0.055556,wt LS +N,rice,Nipponbare,WT,33,2,LS,pN,18,135,gs_616:1,NA
+gs_621_1,gs_621_1.mat,gs_621,0.055556,wt root +N,rice,Nipponbare,WT,34,2,RT,pN,18,172,gs_621:1,NA
+gs_622_1,gs_622_1.mat,gs_622,0.055556,wt root +N,rice,Nipponbare,WT,34,2,RT,pN,18,58,gs_622:1,NA
+gs_623_1,gs_623_1.mat,gs_623,0.055556,wt root +N,rice,Nipponbare,WT,34,2,RT,pN,18,194,gs_623:1,NA
+gs_624_1,gs_624_1.mat,gs_624,0.055556,wt root +N,rice,Nipponbare,WT,34,2,RT,pN,18,111,gs_624:1,NA
+gs_625_1,gs_625_1.mat,gs_625,0.055556,wt root +N,rice,Nipponbare,WT,34,2,RT,pN,18,21,gs_625:1,NA
+gs_626_1,gs_626_1.mat,gs_626,0.055556,wt root +N,rice,Nipponbare,WT,34,2,RT,pN,18,81,gs_626:1,NA

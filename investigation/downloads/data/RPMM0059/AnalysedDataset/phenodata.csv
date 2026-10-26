@@ -1,0 +1,72 @@
+gcid,genotype,gene loci
+1,apg2_mutant,AT2G01110
+2,apg2_mutant,AT2G01110
+3,apg2_mutant,AT2G01110
+4,apg2_mutant,AT2G01110
+5,apg2_mutant,AT2G01110
+6,apg2_mutant,AT2G01110
+8,apg2_DsDonor,control
+9,apg2_DsDonor,control
+10,apg2_DsDonor,control
+11,apg2_DsDonor,control
+12,apg2_DsDonor,control
+13,apg2_F's Nossen,control
+14,apg2_F's Nossen 2,control
+15,apg2_F's Nossen 3,control
+16,apg2_F's Nossen 4,control
+17,apg2_F's Nossen 5,control
+18,apg2_F's Nossen 6,control
+19,apg3_mutant,AT3G62910
+20,apg3_mutant,AT3G62910
+21,apg3_mutant,AT3G62910
+22,apg3_mutant,AT3G62910
+23,apg3_mutant,AT3G62910
+24,apg3_mutant,AT3G62910
+25,apg3_DsDonor 1,control
+26,apg3_DsDonor 2,control
+27,apg3_DsDonor 3,control
+28,apg3_DsDonor 4,control
+29,apg3_DsDonor 5,control
+30,apg3_DsDonor 6,control
+31,apg3_F's Nossen 1,control
+32,apg3_F's Nossen 2,control
+33,apg3_F's Nossen 3,control
+34,apg3_F's Nossen 4,control
+35,apg3_F's Nossen 5,control
+36,apg3_F's Nossen 6,control
+37,MgChlI1_mutant,AT4G18480
+38,MgChlI1_mutant,AT4G18480
+39,MgChlI1_mutant,AT4G18480
+40,MgChlI1_mutant,AT4G18480
+41,MgChlI1_mutant,AT4G18480
+42,MgChlI1_mutant,AT4G18480
+43,MgChlI1_DsDonor,control
+44,MgChlI1_DsDonor,control
+45,MgChlI1_DsDonor,control
+46,MgChlI1_DsDonor,control
+47,MgChlI1_DsDonor,control
+48,MgChlI1_DsDonor,control
+49,MgChlI1_F's Nossen,control
+50,MgChlI1_F's Nossen,control
+51,MgChlI1_F's Nossen,control
+52,MgChlI1_F's Nossen,control
+53,MgChlI1_F's Nossen,control
+54,MgChlI1_F's Nossen,control
+55,Cla1_mutant,AT4G15560
+56,Cla1_mutant,AT4G15560
+57,Cla1_mutant,AT4G15560
+58,Cla1_mutant,AT4G15560
+59,Cla1_mutant,AT4G15560
+60,Cla1_mutant,AT4G15560
+61,Cla1_DsDonor,control
+62,Cla1_DsDonor,control
+63,Cla1_DsDonor,control
+64,Cla1_DsDonor,control
+65,Cla1_DsDonor,control
+66,Cla1_DsDonor,control
+67,Cla1_F's Nossen,control
+68,Cla1_F's Nossen,control
+69,Cla1_F's Nossen,control
+70,Cla1_F's Nossen,control
+71,Cla1_F's Nossen,control
+72,Cla1_F's Nossen,control

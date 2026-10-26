@@ -1,0 +1,22 @@
+gcid,genotype,series,type,time,sepices,innoculation
+2_1,soybean,series A,exp,0,soybean,no
+2_2,soybean,series A,exp,0,soybean,no
+2_3,soybean,series A,exp,0,soybean,no
+5_1,67_12,series A,exp,12,Bacillus licheniformis 67,yes
+8_1,67_24,series A,exp,24,Bacillus licheniformis 67,yes
+11_1,67_36,series A,exp,36,Bacillus licheniformis 67,yes
+14_1,67_48,series A,exp,48,Bacillus licheniformis 67,yes
+17_1,67_60,series A,exp,60,Bacillus licheniformis 67,yes
+20_1,67_72,series A,exp,72,Bacillus licheniformis 67,yes
+22_1,BA_12,series A,exp,12,Bacillus amyloliquefaciens BA ,yes
+26_2,BA_24_1,series A,exp,24,Bacillus amyloliquefaciens BA ,yes
+29_2,BA_36_1,series A,exp,36,Bacillus amyloliquefaciens BA ,yes
+32_1,BA_48,series A,exp,48,Bacillus amyloliquefaciens BA ,yes
+35_1,BA_60,series A,exp,60,Bacillus amyloliquefaciens BA ,yes
+38_1,BA_72,series A,exp,72,Bacillus amyloliquefaciens BA ,yes
+41_2,58_12_1,series A,exp,12,Bacillus licheniformis 58 ,yes
+44_2,58_24_1,series A,exp,24,Bacillus licheniformis 58 ,yes
+47_3,58_36,series A,exp,36,Bacillus licheniformis 58 ,yes
+50_1,58_48,series A,exp,48,Bacillus licheniformis 58 ,yes
+53_1,58_60,series A,exp,60,Bacillus licheniformis 58 ,yes
+56_1,58_72,series A,exp,72,Bacillus licheniformis 58 ,yes

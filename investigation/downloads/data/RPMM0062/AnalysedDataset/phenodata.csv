@@ -1,0 +1,13 @@
+gcid,MATLAB File name,Ordername,weight_mg,samplename,genotype,region,Ptreatment,Ntreatment,infection1,infection2,tissue,class,runorder,note1
+son_01_1,son_01_1.mat,son_01,0.027778,N/P-/110,Soy,Soy,minusP,minusN,infection,infection110,nodule,class01,96,son_01:1
+son_02_1,son_02_1.mat,son_02,0.027778,N/P-/110,Soy,Soy,minusP,minusN,infection,infection110,nodule,class01,81,son_02:1
+son_03_1,son_03_1.mat,son_03,0.027778,N/P-/110,Soy,Soy,minusP,minusN,infection,infection110,nodule,class01,95,son_03:1
+son_04_1,son_04_1.mat,son_04,0.027778,N/P+/110,Soy,Soy,plusP,minusN,infection,infection110,nodule,class02,102,son_04:1
+son_05_1,son_05_1.mat,son_05,0.027778,N/P+/110,Soy,Soy,plusP,minusN,infection,infection110,nodule,class02,100,son_05:1
+son_06_1,son_06_1.mat,son_06,0.027778,N/P+/110,Soy,Soy,plusP,minusN,infection,infection110,nodule,class02,41,son_06:1
+son_07_1,son_07_1.mat,son_07,0.027778,N/P-/1809,Soy,Soy,minusP,minusN,infection,infection1809,nodule,class03,78,son_07:1
+son_08_1,son_08_1.mat,son_08,0.027778,N/P-/1809,Soy,Soy,minusP,minusN,infection,infection1809,nodule,class03,108,son_08:1
+son_09_1,son_09_1.mat,son_09,0.027778,N/P-/1809,Soy,Soy,minusP,minusN,infection,infection1809,nodule,class03,67,son_09:1
+son_10_1,son_10_1.mat,son_10,0.027778,N/P+/1809,Soy,Soy,plusP,minusN,infection,infection1809,nodule,class04,85,son_10:1
+son_11_1,son_11_1.mat,son_11,0.027778,N/P+/1809,Soy,Soy,plusP,minusN,infection,infection1809,nodule,class04,93,son_11:1
+son_12_1,son_12_1.mat,son_12,0.027778,N/P+/1809,Soy,Soy,plusP,minusN,infection,infection1809,nodule,class04,77,son_12:1

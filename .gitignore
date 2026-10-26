@@ -9,6 +9,5 @@ __pycache__/
 .venv-sparql/
 .uv-cache/
 
-# Regenerable investigation artifacts
+# Regenerable SPARQL response cache
 investigation/cache/
-investigation/downloads/

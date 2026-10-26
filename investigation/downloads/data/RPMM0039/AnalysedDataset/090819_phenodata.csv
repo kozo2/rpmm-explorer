@@ -1,0 +1,24 @@
+gcid,MATLAB File name,type,genotype,sample,Order name,weight
+Apex_01_1,Apex_01_1.mat,WT_1,wt,TRUE,Apex_01,0.0675
+Apex_02_1,Apex_02_1.mat,enf1_1,enf1,TRUE,Apex_02,0.0625
+Apex_03_1,Apex_03_1.mat,gabat1_1,gabat1,TRUE,Apex_03,0.075
+Apex_05_1,Apex_05_1.mat,WT_2,wt,TRUE,Apex_05,0.0525
+Apex_06_1,Apex_06_1.mat,enf1_2,enf1,TRUE,Apex_06,0.03625
+Apex_09_1,Apex_09_1.mat,WT_3,wt,TRUE,Apex_09,0.06875
+Apex_10_1,Apex_10_1.mat,enf1_3,enf1,TRUE,Apex_10,0.045
+Apex_11_1,Apex_11_1.mat,gabat1_3,gabat1,TRUE,Apex_11,0.075
+Apex_12_1,Apex_12_1.mat,double_3,doubleKO,TRUE,Apex_12,0.06625
+Apex_13_1,Apex_13_1.mat,WT_4,wt,TRUE,Apex_13,0.075
+Apex_15_1,Apex_15_1.mat,gabat1_4,gabat1,TRUE,Apex_15,0.075
+Apex_16_1,Apex_16_1.mat,double_4,doubleKO,TRUE,Apex_16,0.075
+Apex_18_1,Apex_18_1.mat,enf1_5,enf1,TRUE,Apex_18,0.0425
+Apex_19_1,Apex_19_1.mat,gabat1_5,gabat1,TRUE,Apex_19,0.075
+Apex_20_1,Apex_20_1.mat,double_5,doubleKO,TRUE,Apex_20,0.055
+Apex_21_1,Apex_21_1.mat,WT_6,wt,TRUE,Apex_21,0.0375
+Apex_22_1,Apex_22_1.mat,enf1_6,enf1,TRUE,Apex_22,0.05125
+Apex_23_1,Apex_23_1.mat,gabat1_6,gabat1,TRUE,Apex_23,0.075
+Apex_24_1,Apex_24_1.mat,double_6,doubleKO,TRUE,Apex_24,0.04375
+Apex_25_1,Apex_25_1.mat,WT_7,wt,TRUE,Apex_25,0.07375
+Apex_26_1,Apex_26_1.mat,enf1_7,enf1,TRUE,Apex_26,0.05125
+Apex_27_1,Apex_27_1.mat,gabat1_7,gabat1,TRUE,Apex_27,0.075
+Apex_28_1,Apex_28_1.mat,double_7,doubleKO,TRUE,Apex_28,0.05125

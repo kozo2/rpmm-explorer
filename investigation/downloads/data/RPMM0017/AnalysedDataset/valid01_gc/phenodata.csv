@@ -1,0 +1,91 @@
+gcid,"MATLAB File name","Order name","injection volume (mg DW)",sample,tissue,organ,what,nconc,concentration,"tube No.",note
+tube_01_1_1,tube_01_1_1.mat,tube_01_1,0.005556,tomato,fruit,"Jelly and seeds",js,1,"con: 1","72 (Fruit, Jelly and seeds)",dark
+tube_01_2_1,tube_01_2_1.mat,tube_01_2,0.005556,tomato,fruit,"Jelly and seeds",js,1,"con: 1","72 (Fruit, Jelly and seeds)",dark
+tube_01_3_1,tube_01_3_1.mat,tube_01_3,0.005556,tomato,fruit,"Jelly and seeds",js,1,"con: 1","72 (Fruit, Jelly and seeds)",dark
+tube_02_1_1,tube_02_1_1.mat,tube_02_1,0.000556,tomato,fruit,"Jelly and seeds",js,0.1,"con: 1/10","72 (Fruit, Jelly and seeds)",dark
+tube_02_2_1,tube_02_2_1.mat,tube_02_2,0.000556,tomato,fruit,"Jelly and seeds",js,0.1,"con: 1/10","72 (Fruit, Jelly and seeds)",dark
+tube_02_3_1,tube_02_3_1.mat,tube_02_3,0.000556,tomato,fruit,"Jelly and seeds",js,0.1,"con: 1/10","72 (Fruit, Jelly and seeds)",dark
+tube_03_1_1,tube_03_1_1.mat,tube_03_1,5.6e-05,tomato,fruit,"Jelly and seeds",js,0.01,"con: 1/100","72 (Fruit, Jelly and seeds)",dark
+tube_03_2_1,tube_03_2_1.mat,tube_03_2,5.6e-05,tomato,fruit,"Jelly and seeds",js,0.01,"con: 1/100","72 (Fruit, Jelly and seeds)",dark
+tube_03_3_1,tube_03_3_1.mat,tube_03_3,5.6e-05,tomato,fruit,"Jelly and seeds",js,0.01,"con: 1/100","72 (Fruit, Jelly and seeds)",dark
+tube_04_1_1,tube_04_1_1.mat,tube_04_1,0.005556,tomato,fruit,Pericarp,pc,1,"con: 1","149 (Fruit, Pericarp)","light, C"
+tube_04_2_1,tube_04_2_1.mat,tube_04_2,0.005556,tomato,fruit,Pericarp,pc,1,"con: 1","149 (Fruit, Pericarp)","light, C"
+tube_04_3_1,tube_04_3_1.mat,tube_04_3,0.005556,tomato,fruit,Pericarp,pc,1,"con: 1","149 (Fruit, Pericarp)","light, C"
+tube_05_1_1,tube_05_1_1.mat,tube_05_1,0.000556,tomato,fruit,Pericarp,pc,0.1,"con: 1/10","149 (Fruit, Pericarp)","light, C"
+tube_05_2_1,tube_05_2_1.mat,tube_05_2,0.000556,tomato,fruit,Pericarp,pc,0.1,"con: 1/10","149 (Fruit, Pericarp)","light, C"
+tube_05_3_1,tube_05_3_1.mat,tube_05_3,0.000556,tomato,fruit,Pericarp,pc,0.1,"con: 1/10","149 (Fruit, Pericarp)","light, C"
+tube_06_1_1,tube_06_1_1.mat,tube_06_1,5.6e-05,tomato,fruit,Pericarp,pc,0.01,"con: 1/100","149 (Fruit, Pericarp)","light, C"
+tube_06_2_1,tube_06_2_1.mat,tube_06_2,5.6e-05,tomato,fruit,Pericarp,pc,0.01,"con: 1/100","149 (Fruit, Pericarp)","light, C"
+tube_06_3_1,tube_06_3_1.mat,tube_06_3,5.6e-05,tomato,fruit,Pericarp,pc,0.01,"con: 1/100","149 (Fruit, Pericarp)","light, C"
+tube_07_1_1,tube_07_1_1.mat,tube_07_1,0.005556,tomato,leaf,upper3position3,leaf3,1,"con: 1","49 (Leaf)","dark, A, upper 3, position 3"
+tube_07_2_1,tube_07_2_1.mat,tube_07_2,0.005556,tomato,leaf,upper3position3,leaf3,1,"con: 1","49 (Leaf)","dark, A, upper 3, position 3"
+tube_07_3_1,tube_07_3_1.mat,tube_07_3,0.005556,tomato,leaf,upper3position3,leaf3,1,"con: 1","49 (Leaf)","dark, A, upper 3, position 3"
+tube_08_1_1,tube_08_1_1.mat,tube_08_1,0.000556,tomato,leaf,upper3position3,leaf3,0.1,"con: 1/10","49 (Leaf)","dark, A, upper 3, position 3"
+tube_08_2_1,tube_08_2_1.mat,tube_08_2,0.000556,tomato,leaf,upper3position3,leaf3,0.1,"con: 1/10","49 (Leaf)","dark, A, upper 3, position 3"
+tube_08_3_1,tube_08_3_1.mat,tube_08_3,0.000556,tomato,leaf,upper3position3,leaf3,0.1,"con: 1/10","49 (Leaf)","dark, A, upper 3, position 3"
+tube_09_1_1,tube_09_1_1.mat,tube_09_1,5.6e-05,tomato,leaf,upper3position3,leaf3,0.01,"con: 1/100","49 (Leaf)","dark, A, upper 3, position 3"
+tube_09_2_1,tube_09_2_1.mat,tube_09_2,5.6e-05,tomato,leaf,upper3position3,leaf3,0.01,"con: 1/100","49 (Leaf)","dark, A, upper 3, position 3"
+tube_09_3_1,tube_09_3_1.mat,tube_09_3,5.6e-05,tomato,leaf,upper3position3,leaf3,0.01,"con: 1/100","49 (Leaf)","dark, A, upper 3, position 3"
+tube_13_1_1,tube_13_1_1.mat,tube_13_1,0.005556,tomato,leaf,upper1position2,leaf1,1,"con: 1","112 (Leaf)","light, B, upper 1, position 2"
+tube_13_2_1,tube_13_2_1.mat,tube_13_2,0.005556,tomato,leaf,upper1position2,leaf1,1,"con: 1","112 (Leaf)","light, B, upper 1, position 2"
+tube_13_3_1,tube_13_3_1.mat,tube_13_3,0.005556,tomato,leaf,upper1position2,leaf1,1,"con: 1","112 (Leaf)","light, B, upper 1, position 2"
+tube_14_1_1,tube_14_1_1.mat,tube_14_1,0.000556,tomato,leaf,upper1position2,leaf1,0.1,"con: 1/10","112 (Leaf)","light, B, upper 1, position 2"
+tube_14_2_1,tube_14_2_1.mat,tube_14_2,0.000556,tomato,leaf,upper1position2,leaf1,0.1,"con: 1/10","112 (Leaf)","light, B, upper 1, position 2"
+tube_14_3_1,tube_14_3_1.mat,tube_14_3,0.000556,tomato,leaf,upper1position2,leaf1,0.1,"con: 1/10","112 (Leaf)","light, B, upper 1, position 2"
+tube_15_1_1,tube_15_1_1.mat,tube_15_1,5.6e-05,tomato,leaf,upper1position2,leaf1,0.01,"con: 1/100","112 (Leaf)","light, B, upper 1, position 2"
+tube_15_2_1,tube_15_2_1.mat,tube_15_2,5.6e-05,tomato,leaf,upper1position2,leaf1,0.01,"con: 1/100","112 (Leaf)","light, B, upper 1, position 2"
+tube_15_3_1,tube_15_3_1.mat,tube_15_3,5.6e-05,tomato,leaf,upper1position2,leaf1,0.01,"con: 1/100","112 (Leaf)","light, B, upper 1, position 2"
+tube_19_1_1,tube_19_1_1.mat,tube_19_1,0.005556,arabidopsis,leaf,NA,atleaf,1,"con: 1","Freeze Dry Col-0 (Leaf)",Col-0
+tube_19_2_1,tube_19_2_1.mat,tube_19_2,0.005556,arabidopsis,leaf,NA,atleaf,1,"con: 1","Freeze Dry Col-0 (Leaf)",Col-0
+tube_19_3_1,tube_19_3_1.mat,tube_19_3,0.005556,arabidopsis,leaf,NA,atleaf,1,"con: 1","Freeze Dry Col-0 (Leaf)",Col-0
+tube_20_1_1,tube_20_1_1.mat,tube_20_1,0.000556,arabidopsis,leaf,NA,atleaf,0.1,"con: 1/10","Freeze Dry Col-0 (Leaf)",Col-0
+tube_20_2_1,tube_20_2_1.mat,tube_20_2,0.000556,arabidopsis,leaf,NA,atleaf,0.1,"con: 1/10","Freeze Dry Col-0 (Leaf)",Col-0
+tube_20_3_1,tube_20_3_1.mat,tube_20_3,0.000556,arabidopsis,leaf,NA,atleaf,0.1,"con: 1/10","Freeze Dry Col-0 (Leaf)",Col-0
+tube_21_1_1,tube_21_1_1.mat,tube_21_1,5.6e-05,arabidopsis,leaf,NA,atleaf,0.01,"con: 1/100","Freeze Dry Col-0 (Leaf)",Col-0
+tube_21_2_1,tube_21_2_1.mat,tube_21_2,5.6e-05,arabidopsis,leaf,NA,atleaf,0.01,"con: 1/100","Freeze Dry Col-0 (Leaf)",Col-0
+tube_21_3_1,tube_21_3_1.mat,tube_21_3,5.6e-05,arabidopsis,leaf,NA,atleaf,0.01,"con: 1/100","Freeze Dry Col-0 (Leaf)",Col-0
+tube_23_1_1,tube_23_1_1.mat,tube_23_1,1,standard,NA,NA,stdA,1,"con: 1",STDs_A,"standard mixture"
+tube_23_2_1,tube_23_2_1.mat,tube_23_2,1,standard,NA,NA,stdA,1,"con: 1",STDs_A,"standard mixture"
+tube_23_3_1,tube_23_3_1.mat,tube_23_3,1,standard,NA,NA,stdA,1,"con: 1",STDs_A,"standard mixture"
+tube_24_1_1,tube_24_1_1.mat,tube_24_1,0.1,standard,NA,NA,stdA,0.1,"con: 1/10",STDs_A,"standard mixture"
+tube_24_2_1,tube_24_2_1.mat,tube_24_2,0.1,standard,NA,NA,stdA,0.1,"con: 1/10",STDs_A,"standard mixture"
+tube_24_3_1,tube_24_3_1.mat,tube_24_3,0.1,standard,NA,NA,stdA,0.1,"con: 1/10",STDs_A,"standard mixture"
+tube_25_1_1,tube_25_1_1.mat,tube_25_1,0.001,standard,NA,NA,stdA,0.01,"con: 1/100",STDs_A,"standard mixture"
+tube_25_2_1,tube_25_2_1.mat,tube_25_2,0.001,standard,NA,NA,stdA,0.01,"con: 1/100",STDs_A,"standard mixture"
+tube_25_3_1,tube_25_3_1.mat,tube_25_3,0.001,standard,NA,NA,stdA,0.01,"con: 1/100",STDs_A,"standard mixture"
+tube_26_1_1,tube_26_1_1.mat,tube_26_1,1,standard,NA,NA,stdB1,1,"con: 1",STDs_B_1,"standard mixture"
+tube_26_2_1,tube_26_2_1.mat,tube_26_2,1,standard,NA,NA,stdB1,1,"con: 1",STDs_B_1,"standard mixture"
+tube_26_3_1,tube_26_3_1.mat,tube_26_3,1,standard,NA,NA,stdB1,1,"con: 1",STDs_B_1,"standard mixture"
+tube_27_1_1,tube_27_1_1.mat,tube_27_1,0.1,standard,NA,NA,stdB1,0.1,"con: 1/10",STDs_B_1,"standard mixture"
+tube_27_2_1,tube_27_2_1.mat,tube_27_2,0.1,standard,NA,NA,stdB1,0.1,"con: 1/10",STDs_B_1,"standard mixture"
+tube_27_3_1,tube_27_3_1.mat,tube_27_3,0.1,standard,NA,NA,stdB1,0.1,"con: 1/10",STDs_B_1,"standard mixture"
+tube_28_1_1,tube_28_1_1.mat,tube_28_1,0.001,standard,NA,NA,stdB1,0.01,"con: 1/100",STDs_B_1,"standard mixture"
+tube_28_2_1,tube_28_2_1.mat,tube_28_2,0.001,standard,NA,NA,stdB1,0.01,"con: 1/100",STDs_B_1,"standard mixture"
+tube_28_3_1,tube_28_3_1.mat,tube_28_3,0.001,standard,NA,NA,stdB1,0.01,"con: 1/100",STDs_B_1,"standard mixture"
+tube_29_1_1,tube_29_1_1.mat,tube_29_1,1,standard,NA,NA,stdB2,1,"con: 1",STDs_B_2,"standard mixture"
+tube_29_2_1,tube_29_2_1.mat,tube_29_2,1,standard,NA,NA,stdB2,1,"con: 1",STDs_B_2,"standard mixture"
+tube_29_3_1,tube_29_3_1.mat,tube_29_3,1,standard,NA,NA,stdB2,1,"con: 1",STDs_B_2,"standard mixture"
+tube_30_1_1,tube_30_1_1.mat,tube_30_1,0.1,standard,NA,NA,stdB2,0.1,"con: 1/10",STDs_B_2,"standard mixture"
+tube_30_2_1,tube_30_2_1.mat,tube_30_2,0.1,standard,NA,NA,stdB2,0.1,"con: 1/10",STDs_B_2,"standard mixture"
+tube_30_3_1,tube_30_3_1.mat,tube_30_3,0.1,standard,NA,NA,stdB2,0.1,"con: 1/10",STDs_B_2,"standard mixture"
+tube_31_1_1,tube_31_1_1.mat,tube_31_1,0.001,standard,NA,NA,stdB2,0.01,"con: 1/100",STDs_B_2,"standard mixture"
+tube_31_2_1,tube_31_2_1.mat,tube_31_2,0.001,standard,NA,NA,stdB2,0.01,"con: 1/100",STDs_B_2,"standard mixture"
+tube_31_3_1,tube_31_3_1.mat,tube_31_3,0.001,standard,NA,NA,stdB2,0.01,"con: 1/100",STDs_B_2,"standard mixture"
+tube_32_1_1,tube_32_1_1.mat,tube_32_1,1,standard,NA,NA,stdC,1,"con: 1",STDs_C,"standard mixture"
+tube_32_2_1,tube_32_2_1.mat,tube_32_2,1,standard,NA,NA,stdC,1,"con: 1",STDs_C,"standard mixture"
+tube_32_3_1,tube_32_3_1.mat,tube_32_3,1,standard,NA,NA,stdC,1,"con: 1",STDs_C,"standard mixture"
+tube_33_1_1,tube_33_1_1.mat,tube_33_1,0.1,standard,NA,NA,stdC,0.1,"con: 1/10",STDs_C,"standard mixture"
+tube_33_2_1,tube_33_2_1.mat,tube_33_2,0.1,standard,NA,NA,stdC,0.1,"con: 1/10",STDs_C,"standard mixture"
+tube_33_3_1,tube_33_3_1.mat,tube_33_3,0.1,standard,NA,NA,stdC,0.1,"con: 1/10",STDs_C,"standard mixture"
+tube_34_1_1,tube_34_1_1.mat,tube_34_1,0.001,standard,NA,NA,stdC,0.01,"con: 1/100",STDs_C,"standard mixture"
+tube_34_2_1,tube_34_2_1.mat,tube_34_2,0.001,standard,NA,NA,stdC,0.01,"con: 1/100",STDs_C,"standard mixture"
+tube_34_3_1,tube_34_3_1.mat,tube_34_3,0.001,standard,NA,NA,stdC,0.01,"con: 1/100",STDs_C,"standard mixture"
+tube_35_1_1,tube_35_1_1.mat,tube_35_1,1,standard,NA,NA,stdE,1,"con: 1",STDs_E,"standard mixture"
+tube_35_2_1,tube_35_2_1.mat,tube_35_2,1,standard,NA,NA,stdE,1,"con: 1",STDs_E,"standard mixture"
+tube_35_3_1,tube_35_3_1.mat,tube_35_3,1,standard,NA,NA,stdE,1,"con: 1",STDs_E,"standard mixture"
+tube_36_1_1,tube_36_1_1.mat,tube_36_1,0.1,standard,NA,NA,stdE,0.1,"con: 1/10",STDs_E,"standard mixture"
+tube_36_2_1,tube_36_2_1.mat,tube_36_2,0.1,standard,NA,NA,stdE,0.1,"con: 1/10",STDs_E,"standard mixture"
+tube_36_3_1,tube_36_3_1.mat,tube_36_3,0.1,standard,NA,NA,stdE,0.1,"con: 1/10",STDs_E,"standard mixture"
+tube_37_1_1,tube_37_1_1.mat,tube_37_1,0.001,standard,NA,NA,stdE,0.01,"con: 1/100",STDs_E,"standard mixture"
+tube_37_2_1,tube_37_2_1.mat,tube_37_2,0.001,standard,NA,NA,stdE,0.01,"con: 1/100",STDs_E,"standard mixture"
+tube_37_3_1,tube_37_3_1.mat,tube_37_3,0.001,standard,NA,NA,stdE,0.01,"con: 1/100",STDs_E,"standard mixture"

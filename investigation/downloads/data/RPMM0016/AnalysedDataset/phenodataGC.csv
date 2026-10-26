@@ -1,0 +1,77 @@
+gcid,samplename,expID,batchID,genotype,growthcondition,treatment
+5MV_cad_1_1,5MV_cad_1,111102_MeKO_Pre5_AndiMS,1,cad2-1,0.05uM_methylviologen,methylviologen
+5MV_cad_2_1,5MV_cad_2,111102_MeKO_Pre5_AndiMS,1,cad2-1,0.05uM_methylviologen,methylviologen
+5MV_cad_3_1,5MV_cad_3,111102_MeKO_Pre5_AndiMS,1,cad2-1,0.05uM_methylviologen,methylviologen
+5MV_cad_5_1,5MV_cad_5,111102_MeKO_Pre5_AndiMS,1,cad2-1,0.05uM_methylviologen,methylviologen
+5MV_cad_6_1,5MV_cad_6,111102_MeKO_Pre5_AndiMS,1,cad2-1,0.05uM_methylviologen,methylviologen
+5MV_cad_7_1,5MV_cad_7,111102_MeKO_Pre5_AndiMS,1,cad2-1,0.05uM_methylviologen,methylviologen
+5MV_cad_8_1,5MV_cad_8,111102_MeKO_Pre5_AndiMS,1,cad2-1,0.05uM_methylviologen,methylviologen
+5MV_col_1_1,5MV_col_1,111102_MeKO_Pre5_AndiMS,1,col-0,0.05uM_methylviologen,methylviologen
+5MV_col_2_1,5MV_col_2,111102_MeKO_Pre5_AndiMS,1,col-0,0.05uM_methylviologen,methylviologen
+5MV_col_3_1,5MV_col_3,111102_MeKO_Pre5_AndiMS,1,col-0,0.05uM_methylviologen,methylviologen
+5MV_col_4_1,5MV_col_4,111102_MeKO_Pre5_AndiMS,1,col-0,0.05uM_methylviologen,methylviologen
+5MV_col_5_1,5MV_col_5,111102_MeKO_Pre5_AndiMS,1,col-0,0.05uM_methylviologen,methylviologen
+5MV_col_6_1,5MV_col_6,111102_MeKO_Pre5_AndiMS,1,col-0,0.05uM_methylviologen,methylviologen
+5MV_col_7_1,5MV_col_7,111102_MeKO_Pre5_AndiMS,1,col-0,0.05uM_methylviologen,methylviologen
+5MV_col_8_1,5MV_col_8,111102_MeKO_Pre5_AndiMS,1,col-0,0.05uM_methylviologen,methylviologen
+5MV_pad_1_1,5MV_pad_1,111102_MeKO_Pre5_AndiMS,1,pad2-1,0.05uM_methylviologen,methylviologen
+5MV_pad_2_1,5MV_pad_2,111102_MeKO_Pre5_AndiMS,1,pad2-1,0.05uM_methylviologen,methylviologen
+5MV_pad_3_1,5MV_pad_3,111102_MeKO_Pre5_AndiMS,1,pad2-1,0.05uM_methylviologen,methylviologen
+5MV_pad_4_1,5MV_pad_4,111102_MeKO_Pre5_AndiMS,1,pad2-1,0.05uM_methylviologen,methylviologen
+5MV_pad_5_1,5MV_pad_5,111102_MeKO_Pre5_AndiMS,1,pad2-1,0.05uM_methylviologen,methylviologen
+5MV_pad_6_1,5MV_pad_6,111102_MeKO_Pre5_AndiMS,1,pad2-1,0.05uM_methylviologen,methylviologen
+5MV_pad_7_1,5MV_pad_7,111102_MeKO_Pre5_AndiMS,1,pad2-1,0.05uM_methylviologen,methylviologen
+5MV_pad_8_1,5MV_pad_8,111102_MeKO_Pre5_AndiMS,1,pad2-1,0.05uM_methylviologen,methylviologen
+5P_cad_1_1,5P_cad_1,111102_MeKO_Pre5_AndiMS,1,cad2-1,phosphorus deficit_lessP_MS,minusP
+5P_cad_2_1,5P_cad_2,111102_MeKO_Pre5_AndiMS,1,cad2-1,phosphorus deficit_lessP_MS,minusP
+5P_cad_3_1,5P_cad_3,111102_MeKO_Pre5_AndiMS,1,cad2-1,phosphorus deficit_lessP_MS,minusP
+5P_cad_4_1,5P_cad_4,111102_MeKO_Pre5_AndiMS,1,cad2-1,phosphorus deficit_lessP_MS,minusP
+5P_cad_5_1,5P_cad_5,111102_MeKO_Pre5_AndiMS,1,cad2-1,phosphorus deficit_lessP_MS,minusP
+5P_cad_6_1,5P_cad_6,111102_MeKO_Pre5_AndiMS,1,cad2-1,phosphorus deficit_lessP_MS,minusP
+5P_cad_7_1,5P_cad_7,111102_MeKO_Pre5_AndiMS,1,cad2-1,phosphorus deficit_lessP_MS,minusP
+5P_cad_8_1,5P_cad_8,111102_MeKO_Pre5_AndiMS,1,cad2-1,phosphorus deficit_lessP_MS,minusP
+5P_col_1_1,5P_col_1,111102_MeKO_Pre5_AndiMS,1,col-0,phosphorus deficit_lessP_MS,minusP
+5P_col_2_1,5P_col_2,111102_MeKO_Pre5_AndiMS,1,col-0,phosphorus deficit_lessP_MS,minusP
+5P_col_3_1,5P_col_3,111102_MeKO_Pre5_AndiMS,1,col-0,phosphorus deficit_lessP_MS,minusP
+5P_col_4_1,5P_col_4,111102_MeKO_Pre5_AndiMS,1,col-0,phosphorus deficit_lessP_MS,minusP
+5P_col_5_1,5P_col_5,111102_MeKO_Pre5_AndiMS,1,col-0,phosphorus deficit_lessP_MS,minusP
+5P_col_6_1,5P_col_6,111102_MeKO_Pre5_AndiMS,1,col-0,phosphorus deficit_lessP_MS,minusP
+5P_col_7_1,5P_col_7,111102_MeKO_Pre5_AndiMS,1,col-0,phosphorus deficit_lessP_MS,minusP
+5P_col_8_1,5P_col_8,111102_MeKO_Pre5_AndiMS,1,col-0,phosphorus deficit_lessP_MS,minusP
+5P_pad_1_1,5P_pad_1,111102_MeKO_Pre5_AndiMS,1,pad2-1,phosphorus deficit_lessP_MS,minusP
+5P_pad_2_1,5P_pad_2,111102_MeKO_Pre5_AndiMS,1,pad2-1,phosphorus deficit_lessP_MS,minusP
+5P_pad_3_1,5P_pad_3,111102_MeKO_Pre5_AndiMS,1,pad2-1,phosphorus deficit_lessP_MS,minusP
+5P_pad_4_1,5P_pad_4,111102_MeKO_Pre5_AndiMS,1,pad2-1,phosphorus deficit_lessP_MS,minusP
+5P_pad_5_1,5P_pad_5,111102_MeKO_Pre5_AndiMS,1,pad2-1,phosphorus deficit_lessP_MS,minusP
+5P_pad_6_1,5P_pad_6,111102_MeKO_Pre5_AndiMS,1,pad2-1,phosphorus deficit_lessP_MS,minusP
+5P_pad_7_1,5P_pad_7,111102_MeKO_Pre5_AndiMS,1,pad2-1,phosphorus deficit_lessP_MS,minusP
+5P_pad_8_1,5P_pad_8,111102_MeKO_Pre5_AndiMS,1,pad2-1,phosphorus deficit_lessP_MS,minusP
+blank_1,blank,111102_MeKO_Pre5_AndiMS,1,blank_1,blank,blank
+cont_cad_1_1,cont_cad_1,111102_MeKO_Pre5_AndiMS,1,cad2-1,control,control
+cont_cad_2_1,cont_cad_2,111102_MeKO_Pre5_AndiMS,1,cad2-1,control,control
+cont_cad_3_1,cont_cad_3,111102_MeKO_Pre5_AndiMS,1,cad2-1,control,control
+cont_cad_4_1,cont_cad_4,111102_MeKO_Pre5_AndiMS,1,cad2-1,control,control
+cont_cad_5_1,cont_cad_5,111102_MeKO_Pre5_AndiMS,1,cad2-1,control,control
+cont_cad_6_1,cont_cad_6,111102_MeKO_Pre5_AndiMS,1,cad2-1,control,control
+cont_cad_7_1,cont_cad_7,111102_MeKO_Pre5_AndiMS,1,cad2-1,control,control
+cont_cad_8_1,cont_cad_8,111102_MeKO_Pre5_AndiMS,1,cad2-1,control,control
+cont_col_1_1,cont_col_1,111102_MeKO_Pre5_AndiMS,1,col-0,control,control
+cont_col_2_1,cont_col_2,111102_MeKO_Pre5_AndiMS,1,col-0,control,control
+cont_col_3_1,cont_col_3,111102_MeKO_Pre5_AndiMS,1,col-0,control,control
+cont_col_4_1,cont_col_4,111102_MeKO_Pre5_AndiMS,1,col-0,control,control
+cont_col_5_1,cont_col_5,111102_MeKO_Pre5_AndiMS,1,col-0,control,control
+cont_col_6_1,cont_col_6,111102_MeKO_Pre5_AndiMS,1,col-0,control,control
+cont_col_7_1,cont_col_7,111102_MeKO_Pre5_AndiMS,1,col-0,control,control
+cont_col_8_1,cont_col_8,111102_MeKO_Pre5_AndiMS,1,col-0,control,control
+cont_pad_1_1,cont_pad_1,111102_MeKO_Pre5_AndiMS,1,pad2-1,control,control
+cont_pad_2_1,cont_pad_2,111102_MeKO_Pre5_AndiMS,1,pad2-1,control,control
+cont_pad_3_1,cont_pad_3,111102_MeKO_Pre5_AndiMS,1,pad2-1,control,control
+cont_pad_4_1,cont_pad_4,111102_MeKO_Pre5_AndiMS,1,pad2-1,control,control
+cont_pad_5_1,cont_pad_5,111102_MeKO_Pre5_AndiMS,1,pad2-1,control,control
+cont_pad_6_1,cont_pad_6,111102_MeKO_Pre5_AndiMS,1,pad2-1,control,control
+cont_pad_7_1,cont_pad_7,111102_MeKO_Pre5_AndiMS,1,pad2-1,control,control
+cont_pad_8_1,cont_pad_8,111102_MeKO_Pre5_AndiMS,1,pad2-1,control,control
+dummy1_1,FD,111102_MeKO_Pre5_AndiMS,1,FD,FD,FD
+dummy2_1,FD,111102_MeKO_Pre5_AndiMS,1,FD,FD,FD
+dummy3_1,FD,111102_MeKO_Pre5_AndiMS,1,FD,FD,FD
+dummy4_1,FD,111102_MeKO_Pre5_AndiMS,1,FD,FD,FD

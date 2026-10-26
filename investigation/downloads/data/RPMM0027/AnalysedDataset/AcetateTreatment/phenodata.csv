@@ -1,0 +1,11 @@
+gcid,MATLAB File name,Order name,weight (mg),sample name,treatment
+Acetic_acid_01_1,Acetic_acid_01_1.mat,Acetic_acid_01,0.055556,AcOH_01,AcOH
+Acetic_acid_02_1,Acetic_acid_02_1.mat,Acetic_acid_02,0.055556,AcOH_02,AcOH
+Acetic_acid_03_1,Acetic_acid_03_1.mat,Acetic_acid_03,0.055556,AcOH_03,AcOH
+Acetic_acid_04_1,Acetic_acid_04_1.mat,Acetic_acid_04,0.055556,AcOH_04,AcOH
+Acetic_acid_05_1,Acetic_acid_05_1.mat,Acetic_acid_05,0.055556,AcOH_05,AcOH
+water_01_1,water_01_1.mat,water_01,0.055556,Water_01,Water
+water_02_1,water_02_1.mat,water_02,0.055556,Water_02,Water
+water_03_1,water_03_1.mat,water_03,0.055556,Water_03,Water
+water_04_1,water_04_1.mat,water_04,0.055556,Water_04,Water
+water_05_1,water_05_1.mat,water_05,0.055556,Water_05,Water

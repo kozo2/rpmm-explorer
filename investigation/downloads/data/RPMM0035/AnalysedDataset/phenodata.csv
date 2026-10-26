@@ -1,0 +1,82 @@
+gcid,MATLAB File name,Ordername,weight_mg,samplename,genotype,treatment,time,tissue,class,bulkgc,runorder,note1
+FD_01_1,FD_01_1.mat,FD_01,0.005556,Freeze Dry Col-0,FD,FD,FD,FD,FD,1,57,FD_01:1
+FD_02_1,FD_02_1.mat,FD_02,0.005556,Freeze Dry Col-0,FD,FD,FD,FD,FD,1,19,FD_02:1
+FD_03_1,FD_03_1.mat,FD_03,0.005556,Freeze Dry Col-0,FD,FD,FD,FD,FD,1,68,FD_03:1
+STDs_1_1_1,STDs_1_1_1.mat,STDs_1_1,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,89,STDs_1_1:1
+STDs_1_2_1,STDs_1_2_1.mat,STDs_1_2,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,86,STDs_1_2:1
+STDs_1_3_1,STDs_1_3_1.mat,STDs_1_3,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,95,STDs_1_3:1
+STDs_2_1_1,STDs_2_1_1.mat,STDs_2_1,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,100,STDs_2_1:1
+STDs_2_2_1,STDs_2_2_1.mat,STDs_2_2,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,91,STDs_2_2:1
+STDs_2_3_1,STDs_2_3_1.mat,STDs_2_3,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,102,STDs_2_3:1
+STDs_3_1_1,STDs_3_1_1.mat,STDs_3_1,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,98,STDs_3_1:1
+STDs_3_2_1,STDs_3_2_1.mat,STDs_3_2,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,105,STDs_3_2:1
+STDs_3_3_1,STDs_3_3_1.mat,STDs_3_3,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,96,STDs_3_3:1
+STDs_E1_1_1,STDs_E1_1_1.mat,STDs_E1_1,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,93,STDs_E1_1:1
+STDs_E1_2_1,STDs_E1_2_1.mat,STDs_E1_2,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,90,STDs_E1_2:1
+STDs_E1_3_1,STDs_E1_3_1.mat,STDs_E1_3,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,87,STDs_E1_3:1
+STDs_E2_1_1,STDs_E2_1_1.mat,STDs_E2_1,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,103,STDs_E2_1:1
+STDs_E2_2_1,STDs_E2_2_1.mat,STDs_E2_2,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,88,STDs_E2_2:1
+STDs_E2_3_1,STDs_E2_3_1.mat,STDs_E2_3,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,94,STDs_E2_3:1
+STDs_E3_1_1,STDs_E3_1_1.mat,STDs_E3_1,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,101,STDs_E3_1:1
+STDs_E3_2_1,STDs_E3_2_1.mat,STDs_E3_2,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,104,STDs_E3_2:1
+STDs_E3_3_1,STDs_E3_3_1.mat,STDs_E3_3,1,Standards mixture,STDs,STDs,STDs,STDs,STDs,1,97,STDs_E3_3:1
+TY_01_1,TY_01_1.mat,TY_01,0.055556,NT 6h(-) 1,NT,notreat,6h,4LB,class03,3,12,TY_01:1
+TY_02_1,TY_02_1.mat,TY_02,0.055556,NT 6h(-) 2,NT,notreat,6h,4LB,class03,2,41,TY_02:1
+TY_03_1,TY_03_1.mat,TY_03,0.055556,NT 6h(-) 3,NT,notreat,6h,4LB,class03,2,23,TY_03:1
+TY_04_1,TY_04_1.mat,TY_04,0.055556,NT 6h(-) 4,NT,notreat,6h,4LB,class03,3,40,TY_04:1
+TY_05_1,TY_05_1.mat,TY_05,0.055556,NT 6h(-) 5,NT,notreat,6h,4LB,class03,2,30,TY_05:1
+TY_06_1,TY_06_1.mat,TY_06,0.055556,NT 6h(-) 6,NT,notreat,6h,4LB,class03,2,24,TY_06:1
+TY_07_1,TY_07_1.mat,TY_07,0.055556,R3 6h(-) 1,R3,notreat,6h,4LB,class04,3,13,TY_07:1
+TY_08_1,TY_08_1.mat,TY_08,0.055556,R3 6h(-) 2,R3,notreat,6h,4LB,class04,2,27,TY_08:1
+TY_09_1,TY_09_1.mat,TY_09,0.055556,R3 6h(-) 3,R3,notreat,6h,4LB,class04,3,59,TY_09:1
+TY_10_1,TY_10_1.mat,TY_10,0.055556,R3 6h(-) 4,R3,notreat,6h,4LB,class04,2,37,TY_10:1
+TY_11_1,TY_11_1.mat,TY_11,0.055556,R3 6h(-) 5,R3,notreat,6h,4LB,class04,2,56,TY_11:1
+TY_12_1,TY_12_1.mat,TY_12,0.055556,R3 6h(-) 6,R3,notreat,6h,4LB,class04,2,44,TY_12:1
+TY_13_1,TY_13_1.mat,TY_13,0.055556,NT 12h(-) 1,NT,notreat,12h,4LB,class05,2,50,TY_13:1
+TY_14_1,TY_14_1.mat,TY_14,0.055556,NT 12h(-) 2,NT,notreat,12h,4LB,class05,2,26,TY_14:1
+TY_15_1,TY_15_1.mat,TY_15,0.055556,NT 12h(-) 3,NT,notreat,12h,4LB,class05,2,62,TY_15:1
+TY_16_1,TY_16_1.mat,TY_16,0.055556,NT 12h(-) 4,NT,notreat,12h,4LB,class05,2,28,TY_16:1
+TY_17_1,TY_17_1.mat,TY_17,0.055556,NT 12h(-) 5,NT,notreat,12h,4LB,class05,2,61,TY_17:1
+TY_18_1,TY_18_1.mat,TY_18,0.055556,NT 12h(-) 6,NT,notreat,12h,4LB,class05,2,15,TY_18:1
+TY_19_1,TY_19_1.mat,TY_19,0.055556,R3 12h(-) 1,R3,notreat,12h,4LB,class06,3,66,TY_19:1
+TY_20_1,TY_20_1.mat,TY_20,0.055556,R3 12h(-) 2,R3,notreat,12h,4LB,class06,3,79,TY_20:1
+TY_21_1,TY_21_1.mat,TY_21,0.055556,R3 12h(-) 3,R3,notreat,12h,4LB,class06,2,75,TY_21:1
+TY_22_1,TY_22_1.mat,TY_22,0.055556,R3 12h(-) 4,R3,notreat,12h,4LB,class06,2,22,TY_22:1
+TY_23_1,TY_23_1.mat,TY_23,0.055556,R3 12h(-) 5,R3,notreat,12h,4LB,class06,3,63,TY_23:1
+TY_24_1,TY_24_1.mat,TY_24,0.055556,R3 12h(-) 6,R3,notreat,12h,4LB,class06,3,42,TY_24:1
+TY_25_1,TY_25_1.mat,TY_25,0.055556,NT 0h 1,NT,notreat,0h,4LB,class01,2,82,TY_25:1
+TY_26_1,TY_26_1.mat,TY_26,0.055556,NT 0h 2,NT,notreat,0h,4LB,class01,2,77,TY_26:1
+TY_27_1,TY_27_1.mat,TY_27,0.055556,NT 0h 3,NT,notreat,0h,4LB,class01,2,78,TY_27:1
+TY_28_1,TY_28_1.mat,TY_28,0.055556,NT 0h 4,NT,notreat,0h,4LB,class01,2,51,TY_28:1
+TY_29_1,TY_29_1.mat,TY_29,0.055556,NT 0h 5,NT,notreat,0h,4LB,class01,2,84,TY_29:1
+TY_30_1,TY_30_1.mat,TY_30,0.055556,NT 0h 6,NT,notreat,0h,4LB,class01,2,54,TY_30:1
+TY_31_1,TY_31_1.mat,TY_31,0.055556,R3 0h 1,R3,notreat,0h,4LB,class02,3,80,TY_31:1
+TY_32_1,TY_32_1.mat,TY_32,0.055556,R3 0h 2,R3,notreat,0h,4LB,class02,3,43,TY_32:1
+TY_33_1,TY_33_1.mat,TY_33,0.055556,R3 0h 3,R3,notreat,0h,4LB,class02,3,35,TY_33:1
+TY_34_1,TY_34_1.mat,TY_34,0.055556,R3 0h 4,R3,notreat,0h,4LB,class02,3,72,TY_34:1
+TY_35_1,TY_35_1.mat,TY_35,0.055556,R3 0h 5,R3,notreat,0h,4LB,class02,3,45,TY_35:1
+TY_36_1,TY_36_1.mat,TY_36,0.055556,R3 0h 6,R3,notreat,0h,4LB,class02,5,36,TY_36:1
+TY_37_1,TY_37_1.mat,TY_37,0.055556,NT 6h(+) 1,NT,NaCl,6h,4LB,class07,2,21,TY_37:1
+TY_38_1,TY_38_1.mat,TY_38,0.055556,NT 6h(+) 2,NT,NaCl,6h,4LB,class07,2,20,TY_38:1
+TY_39_1,TY_39_1.mat,TY_39,0.055556,NT 6h(+) 3,NT,NaCl,6h,4LB,class07,2,38,TY_39:1
+TY_40_1,TY_40_1.mat,TY_40,0.055556,NT 6h(+) 4,NT,NaCl,6h,4LB,class07,3,31,TY_40:1
+TY_41_1,TY_41_1.mat,TY_41,0.055556,NT 6h(+) 5,NT,NaCl,6h,4LB,class07,3,70,TY_41:1
+TY_42_1,TY_42_1.mat,TY_42,0.055556,NT 6h(+) 6,NT,NaCl,6h,4LB,class07,3,71,TY_42:1
+TY_43_1,TY_43_1.mat,TY_43,0.055556,R3 6h(+) 1,R3,NaCl,6h,4LB,class08,2,76,TY_43:1
+TY_44_1,TY_44_1.mat,TY_44,0.055556,R3 6h(+) 2,R3,NaCl,6h,4LB,class08,2,34,TY_44:1
+TY_45_1,TY_45_1.mat,TY_45,0.055556,R3 6h(+) 3,R3,NaCl,6h,4LB,class08,2,16,TY_45:1
+TY_46_1,TY_46_1.mat,TY_46,0.055556,R3 6h(+) 4,R3,NaCl,6h,4LB,class08,2,48,TY_46:1
+TY_47_1,TY_47_1.mat,TY_47,0.055556,R3 6h(+) 5,R3,NaCl,6h,4LB,class08,2,33,TY_47:1
+TY_48_1,TY_48_1.mat,TY_48,0.055556,R3 6h(+) 6,R3,NaCl,6h,4LB,class08,3,58,TY_48:1
+TY_49_1,TY_49_1.mat,TY_49,0.055556,NT 12h(+) 1,NT,NaCl,12h,4LB,class09,2,83,TY_49:1
+TY_50_1,TY_50_1.mat,TY_50,0.055556,NT 12h(+) 2,NT,NaCl,12h,4LB,class09,3,14,TY_50:1
+TY_51_1,TY_51_1.mat,TY_51,0.055556,NT 12h(+) 3,NT,NaCl,12h,4LB,class09,3,73,TY_51:1
+TY_52_1,TY_52_1.mat,TY_52,0.055556,NT 12h(+) 4,NT,NaCl,12h,4LB,class09,2,29,TY_52:1
+TY_53_1,TY_53_1.mat,TY_53,0.055556,NT 12h(+) 5,NT,NaCl,12h,4LB,class09,2,49,TY_53:1
+TY_54_1,TY_54_1.mat,TY_54,0.055556,NT 12h(+) 6,NT,NaCl,12h,4LB,class09,2,64,TY_54:1
+TY_55_1,TY_55_1.mat,TY_55,0.055556,R3 12h(+) 1,R3,NaCl,12h,4LB,class10,2,17,TY_55:1
+TY_56_1,TY_56_1.mat,TY_56,0.055556,R3 12h(+) 2,R3,NaCl,12h,4LB,class10,3,47,TY_56:1
+TY_57_1,TY_57_1.mat,TY_57,0.055556,R3 12h(+) 3,R3,NaCl,12h,4LB,class10,2,69,TY_57:1
+TY_58_1,TY_58_1.mat,TY_58,0.055556,R3 12h(+) 4,R3,NaCl,12h,4LB,class10,3,55,TY_58:1
+TY_59_1,TY_59_1.mat,TY_59,0.055556,R3 12h(+) 5,R3,NaCl,12h,4LB,class10,3,52,TY_59:1
+TY_60_1,TY_60_1.mat,TY_60,0.055556,R3 12h(+) 6,R3,NaCl,12h,4LB,class10,2,65,TY_60:1

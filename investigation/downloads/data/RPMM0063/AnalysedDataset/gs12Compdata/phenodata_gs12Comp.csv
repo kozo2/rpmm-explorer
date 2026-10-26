@@ -1,0 +1,35 @@
+gcid,MATLAB File name,Order name,weight (mg),sampleID,species,geno1,geno2,tissue,order
+FD_01_1,FD_01_1.mat,FD_01,0.005556,Freeze Dry Col-0,Arabidopsis,col0,FD,aerialparts,59
+FD_02_1,FD_02_1.mat,FD_02,0.005556,Freeze Dry Col-0,Arabidopsis,col0,FD,aerialparts,35
+FD_04_1,FD_04_1.mat,FD_04,0.005556,Freeze Dry Col-0,Arabidopsis,col0,FD,aerialparts,13
+FD_04_2,FD_04_2.mat,FD_04,0.005556,Freeze Dry Col-0,Arabidopsis,col0,FD,aerialparts,14
+NB_22_2,NB_22_2.mat,NB_22,0.055556,NB,rice,Nipponbare,NB10,root,68
+NB_23_1,NB_23_1.mat,NB_23,0.055556,NB,rice,Nipponbare,NB12,root,24
+NB_24_1,NB_24_1.mat,NB_24,0.055556,NB,rice,Nipponbare,NB13,root,71
+NB_27_1,NB_27_1.mat,NB_27,0.055556,NB,rice,Nipponbare,NB14,root,41
+NB_31_1,NB_31_1.mat,NB_31,0.055556,NB,rice,Nipponbare,NB7,root,25
+NB_35_1,NB_35_1.mat,NB_35,0.055556,NB,rice,Nipponbare,NB9,root,46
+Std_1_1_2,Std_1_1_2.mat,Std_1_1,1,Standards mixture,STDs,STDs,STDs,STDs,108
+Std_1_2_1,Std_1_2_1.mat,Std_1_2,1,Standards mixture,STDs,STDs,STDs,STDs,100
+Std_1_3_1,Std_1_3_1.mat,Std_1_3,1,Standards mixture,STDs,STDs,STDs,STDs,102
+Std_2_1_1,Std_2_1_1.mat,Std_2_1,1,Standards mixture,STDs,STDs,STDs,STDs,101
+Std_2_2_1,Std_2_2_1.mat,Std_2_2,1,Standards mixture,STDs,STDs,STDs,STDs,89
+Std_2_3_1,Std_2_3_1.mat,Std_2_3,1,Standards mixture,STDs,STDs,STDs,STDs,104
+Std_3_1_1,Std_3_1_1.mat,Std_3_1,1,Standards mixture,STDs,STDs,STDs,STDs,97
+Std_3_2_1,Std_3_2_1.mat,Std_3_2,1,Standards mixture,STDs,STDs,STDs,STDs,105
+Std_3_3_1,Std_3_3_1.mat,Std_3_3,1,Standards mixture,STDs,STDs,STDs,STDs,90
+Std_E1_1_1,Std_E1_1_1.mat,Std_E1_1,1,Standards mixture,STDs,STDs,STDs,STDs,93
+Std_E1_2_1,Std_E1_2_1.mat,Std_E1_2,1,Standards mixture,STDs,STDs,STDs,STDs,94
+Std_E1_3_1,Std_E1_3_1.mat,Std_E1_3,1,Standards mixture,STDs,STDs,STDs,STDs,87
+Std_E2_1_1,Std_E2_1_1.mat,Std_E2_1,1,Standards mixture,STDs,STDs,STDs,STDs,91
+Std_E2_2_2,Std_E2_2_2.mat,Std_E2_2,1,Standards mixture,STDs,STDs,STDs,STDs,109
+Std_E2_3_1,Std_E2_3_1.mat,Std_E2_3,1,Standards mixture,STDs,STDs,STDs,STDs,95
+Std_E3_1_1,Std_E3_1_1.mat,Std_E3_1,1,Standards mixture,STDs,STDs,STDs,STDs,96
+Std_E3_2_1,Std_E3_2_1.mat,Std_E3_2,1,Standards mixture,STDs,STDs,STDs,STDs,103
+Std_E3_3_1,Std_E3_3_1.mat,Std_E3_3,1,Standards mixture,STDs,STDs,STDs,STDs,98
+gs_01_1,gs_01_1.mat,gs01,0.055556,gs12Comp,rice,gs1_2_comp,gs12Comp3_3,root,33
+gs_03_1,gs_03_1.mat,gs03,0.055556,gs12Comp,rice,gs1_2_comp,gs12Comp3_12,root,30
+gs_04_1,gs_04_1.mat,gs04,0.055556,gs12Comp,rice,gs1_2_comp,gs12Comp3_14,root,83
+gs_05_1,gs_05_1.mat,gs05,0.055556,gs12Comp,rice,gs1_2_comp,gs12Comp4_4,root,45
+gs_07_1,gs_07_1.mat,gs07,0.055556,gs12Comp,rice,gs1_2_comp,gs12Comp4_7,root,37
+gs_09_1,gs_09_1.mat,gs09,0.055556,gs12Comp,rice,gs1_2_comp,gs12Comp4_14,root,20
