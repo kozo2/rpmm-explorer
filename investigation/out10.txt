@@ -1,0 +1,117 @@
+========== STRUCTURE: RPMM vs MN_SE PROJECTS ==========
+  RPMM   projects=64   experiments=85    measurements=9676   files=14026  publications=65
+  MN_SE  projects=88   experiments=88    measurements=3014   files=0      publications=5
+
+========== SCHEMA TERMS DEFINED BUT NEVER INSTANTIATED ==========
+  pmm properties defined=121  never used as predicate=25
+     pmm:capillaryTemperature
+     pmm:columnPressure
+     pmm:compressedFile
+     pmm:dateTime
+     pmm:developmentalStage
+     pmm:evidence
+     pmm:extractCocentration
+     pmm:folder
+     pmm:ionSplayVoltage
+     pmm:lightWageLength
+     pmm:massSpectometry
+     pmm:material
+     pmm:normalisationDataMatrixFile
+     pmm:orcid
+     pmm:peakAlignment
+     pmm:plantTissue
+     pmm:publicRelaseDate
+     pmm:qualityControl
+     pmm:resultantRowDataset
+     pmm:retentionIndexMethod
+     pmm:retentionTimeCorrection
+     pmm:sample
+     pmm:spectralExtraction
+     pmm:subFolder
+     pmm:subProject
+  pmm classes defined=69  never instantiated=17
+     pmm:CompressedFile
+     pmm:Dataset
+     pmm:ExperimenalFactor
+     pmm:Folder
+     pmm:MassSpectometry
+     pmm:Material
+     pmm:Metarial
+     pmm:NormalisationDataMatrixFile
+     pmm:Orcid
+     pmm:Organization
+     pmm:Person
+     pmm:PlantOrgan
+     pmm:PlantTissue
+     pmm:Pressure
+     pmm:RowDataset
+     pmm:SampleExtractionProtorol
+     pmm:StatisticalDataAnalsis
+
+========== ONTOLOGY INVENTORY (from site front page) ==========
+  ontologies advertised: 0
+
+========== LOADED ONTOLOGY GRAPH VERSIONS ==========
+    {'g': 'http://metadb.riken.jp/ontology/ORDO', 'version': '2.3', 'iri': 'http://www.orpha.net/version2.2'}
+    {'g': 'http://metadb.riken.jp/ontology/EFO', 'version': '3.8.0', 'iri': 'http://www.ebi.ac.uk/efo/releases/3.8.0/efo.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/ISA', 'version': '1.0', 'iri': 'http://purl.org/isaterms/1.0'}
+    {'g': 'http://metadb.riken.jp/ontology/MA', 'iri': 'http://purl.obolibrary.org/obo/ma/releases/2016-12-21/ma.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/MP', 'iri': 'http://purl.obolibrary.org/obo/mp/releases/2017-06-21/mp.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/BFO', 'iri': 'http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/manufacturing', 'iri': 'http://metadb.riken.jp/ontology/manufacturing/'}
+    {'g': 'http://metadb.riken.jp/ontology/UBERON', 'iri': 'http://purl.obolibrary.org/obo/uberon/releases/2017-05-29/ext.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/MMO', 'iri': 'http://purl.obolibrary.org/obo/mmo/2.27/mmo.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/MPATH', 'iri': 'http://purl.obolibrary.org/obo/mpath/releases/2014-04-10/mpath.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/CL', 'iri': 'http://purl.obolibrary.org/obo/cl/releases/2017-04-14/cl.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/GO', 'iri': 'http://purl.obolibrary.org/obo/go/releases/2017-06-27/go.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/ChEBI', 'iri': 'http://purl.obolibrary.org/obo/chebi/122/chebi.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/ZFA', 'iri': 'http://purl.obolibrary.org/obo/zfa/releases/2017-06-06/zfa.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/RO', 'iri': 'http://purl.obolibrary.org/obo/ro/releases/2017-06-15/ro.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/CMO', 'iri': 'http://purl.obolibrary.org/obo/cmo/2.40/cmo.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/SO', 'iri': 'http://purl.obolibrary.org/obo/so/so-xp/releases/2015-11-24/so-xp.owl/so.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/MCCV', 'version': 'Version 0.96 beta'}
+    {'g': 'http://metadb.riken.jp/ontology/NCBITaxon', 'version': '2018ab'}
+    {'g': 'http://metadb.riken.jp/ontology/MEO', 'version': 'Version 0.7'}
+    {'g': 'http://metadb.riken.jp/ontology/MPO', 'version': 'Version 0.5 alpha'}
+    {'g': 'http://metadb.riken.jp/ontology/CLO', 'version': '2.1.106'}
+    {'g': 'http://metadb.riken.jp/ontology/SIO', 'version': '1.36.0'}
+    {'g': 'http://metadb.riken.jp/ontology/FALDO', 'version': 'Created at the Biohackathon 2012 and 2013'}
+    {'g': 'http://metadb.riken.jp/ontology/STATO', 'version': '1.2'}
+    {'g': 'http://metadb.riken.jp/ontology/CSSO', 'version': 'Version 0.6'}
+    {'g': 'http://metadb.riken.jp/ontology/UO'}
+    {'g': 'http://metadb.riken.jp/ontology/MFO'}
+    {'g': 'http://metadb.riken.jp/ontology/CHMO'}
+    {'g': 'http://metadb.riken.jp/ontology/PATO'}
+    {'g': 'http://metadb.riken.jp/ontology/EO'}
+  owl:Ontology headers found:
+    {'g': 'http://metadb.riken.jp/ontology/MA', 's': 'http://purl.obolibrary.org/obo/ma.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/MCCV', 's': 'http://purl.jp/bio/01/mccv'}
+    {'g': 'http://metadb.riken.jp/ontology/MP', 's': 'http://purl.obolibrary.org/obo/mp.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/NCBITaxon', 's': 'http://purl.bioontology.org/ontology/NCBITAXON/'}
+    {'g': 'http://metadb.riken.jp/ontology/MEO', 's': 'http://purl.jp/bio/11/meo/'}
+    {'g': 'http://metadb.riken.jp/ontology/BFO', 's': 'http://purl.obolibrary.org/obo/bfo.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/manufacturing', 's': 'http://metadb.riken.jp/ontology/manufacturing'}
+    {'g': 'http://metadb.riken.jp/ontology/MPO', 's': 'http://purl.jp/bio/01/mpo'}
+    {'g': 'http://metadb.riken.jp/ontology/UBERON', 's': 'http://purl.obolibrary.org/obo/uberon/ext.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/MMO', 's': 'http://purl.obolibrary.org/obo/mmo.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/UO', 's': 'http://purl.obolibrary.org/obo/uo.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/MFO', 's': 'http://purl.obolibrary.org/obo/TEMP'}
+    {'g': 'http://metadb.riken.jp/ontology/MPATH', 's': 'http://purl.obolibrary.org/obo/mpath.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/CHMO', 's': 'http://purl.obolibrary.org/obo/chmo.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/CLO', 's': 'http://purl.obolibrary.org/obo/clo.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/CL', 's': 'http://purl.obolibrary.org/obo/cl.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/GO', 's': 'http://purl.obolibrary.org/obo/go.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/PATO', 's': 'http://purl.obolibrary.org/obo/pato.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/ChEBI', 's': 'http://purl.obolibrary.org/obo/chebi.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/SIO', 's': 'http://semanticscience.org/ontology/sio.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/ORDO', 's': 'http://www.orpha.net/ontology/orphanet.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/ZFA', 's': 'http://purl.obolibrary.org/obo/zfa.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/EFO', 's': 'http://www.ebi.ac.uk/efo/efo.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/RO', 's': 'http://purl.obolibrary.org/obo/ro.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/EO', 's': 'http://purl.obolibrary.org/obo/eo.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/FALDO', 's': 'http://biohackathon.org/resource/faldo'}
+    {'g': 'http://metadb.riken.jp/ontology/CMO', 's': 'http://purl.obolibrary.org/obo/cmo.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/SO', 's': 'http://purl.obolibrary.org/obo/so.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/STATO', 's': 'http://purl.obolibrary.org/obo/stato.owl'}
+    {'g': 'http://metadb.riken.jp/ontology/CSSO', 's': 'http://purl.jp/bio/11/csso/'}
+    {'g': 'http://metadb.riken.jp/ontology/ISA', 's': 'http://purl.org/isaterms'}

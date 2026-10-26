@@ -1,0 +1,170 @@
+[
+ {
+  "g": "http://metadb.riken.jp/ontology/NCBITaxon",
+  "n": "1409906"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/ChEBI",
+  "n": "619603"
+ },
+ {
+  "g": "http://metadb.riken.jp/db/SciNetS_ria269i",
+  "n": "433536"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/CLO",
+  "n": "389583"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/EFO",
+  "n": "313398"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/GO",
+  "n": "270499"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/ORDO",
+  "n": "249885"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/UBERON",
+  "n": "131475"
+ },
+ {
+  "g": "http://metadb.riken.jp/db/lexvo_org",
+  "n": "128945"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/MP",
+  "n": "90302"
+ },
+ {
+  "g": "http://metadb.riken.jp/db/plantMetabolomics",
+  "n": "62865"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/CL",
+  "n": "17209"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/ZFA",
+  "n": "15435"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/ZP",
+  "n": "10151"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/MFO",
+  "n": "8653"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/SO",
+  "n": "6855"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/CHMO",
+  "n": "6718"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/CMO",
+  "n": "5431"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/MA",
+  "n": "5219"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/PATO",
+  "n": "4920"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/STATO",
+  "n": "2994"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/SIO",
+  "n": "2772"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/MPATH",
+  "n": "2012"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/PCT",
+  "n": "1831"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/MMO",
+  "n": "1116"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/EO",
+  "n": "1112"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/RO",
+  "n": "932"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/MEO",
+  "n": "827"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/UO",
+  "n": "791"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/manufacturing",
+  "n": "376"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/CSSO",
+  "n": "313"
+ },
+ {
+  "g": "http://metadb.riken.jp/db/DBCatalog",
+  "n": "304"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/MPO",
+  "n": "295"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/ISA",
+  "n": "252"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/MCCV",
+  "n": "190"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/BFO",
+  "n": "178"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/FALDO",
+  "n": "61"
+ },
+ {
+  "g": "http://metadb.riken.jp/db/SciNetS_ria390i",
+  "n": "46"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/LU",
+  "n": "13"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/OBI",
+  "n": "1"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/ENVO",
+  "n": "1"
+ },
+ {
+  "g": "http://metadb.riken.jp/ontology/PO",
+  "n": "1"
+ }
+]

@@ -1,0 +1,167 @@
+========== PROJECTS ==========
+distinct Projects: [{'n': '152'}]
+project rows (may include multilingual dupes): 152
+project ids (152): MN_SE1, MN_SE10, MN_SE100, MN_SE101, MN_SE102, MN_SE105, MN_SE107, MN_SE108, MN_SE109, MN_SE11, MN_SE12, MN_SE13, MN_SE14, MN_SE15, MN_SE16, MN_SE17, MN_SE189, MN_SE2, MN_SE20, MN_SE210, MN_SE211, MN_SE212, MN_SE213, MN_SE214, MN_SE215, MN_SE216, MN_SE217, MN_SE218, MN_SE22, MN_SE25, MN_SE26, MN_SE27, MN_SE28, MN_SE29, MN_SE3, MN_SE30, MN_SE31, MN_SE32, MN_SE33, MN_SE34, MN_SE35, MN_SE36, MN_SE37, MN_SE39, MN_SE4, MN_SE40, MN_SE41, MN_SE42, MN_SE43, MN_SE44, MN_SE5, MN_SE6, MN_SE61, MN_SE62, MN_SE63, MN_SE64, MN_SE65, MN_SE66, MN_SE67, MN_SE68, MN_SE7, MN_SE71, MN_SE73, MN_SE74, MN_SE76, MN_SE77, MN_SE78, MN_SE79, MN_SE81, MN_SE82, MN_SE83, MN_SE84, MN_SE85, MN_SE86, MN_SE87, MN_SE88, MN_SE89, MN_SE9, MN_SE90, MN_SE91, MN_SE92, MN_SE93, MN_SE94, MN_SE95, MN_SE96, MN_SE97, MN_SE98, MN_SE99, RPMM0001, RPMM0002, RPMM0003, RPMM0004, RPMM0005, RPMM0006, RPMM0007, RPMM0008, RPMM0010, RPMM0011, RPMM0012, RPMM0013, RPMM0014, RPMM0015, RPMM0016, RPMM0017, RPMM0018, RPMM0019, RPMM0020, RPMM0021, RPMM0023, RPMM0024, RPMM0025, RPMM0026, RPMM0027, RPMM0028, RPMM0029, RPMM0030, RPMM0031, RPMM0032, RPMM0033, RPMM0034, RPMM0035, RPMM0036, RPMM0037, RPMM0038, RPMM0039, RPMM0040, RPMM0041, RPMM0042, RPMM0043, RPMM0044, RPMM0045, RPMM0046, RPMM0047, RPMM0048, RPMM0049, RPMM0050, RPMM0051, RPMM0052, RPMM0053, RPMM0054, RPMM0055, RPMM0056, RPMM0057, RPMM0059, RPMM0060, RPMM0061, RPMM0062, RPMM0063, RPMM0064, RPMM0066, RPMM0067, RPMM0068
+release dates present: 0/152; min=- max=-
+  first 6: []
+
+========== SPECIES (RO_0002162 -> NCBITaxon) ==========
+    3694  3702                         
+    2125  4530                         
+    1252  4081                         
+     221  157934                       
+     199  4236                         
+     175  15368                        
+     170  3847                         
+      99  3708                         
+      87  1148                         
+      80  47664                        
+      63  33120                        
+      60  3827                         
+      60  41568                        
+      56  3562                         
+      54  3983                         
+      46  35875                        
+      45  126903                       
+      42  34305                        
+      37  224085                       
+      32  3711                         
+      28  3880                         
+      28  3712                         
+      24  54711                        
+      17  4679                         
+      14  4577                         
+      12  1402                         
+      12  49555                        
+      11  4043                         
+      11  3981                         
+      11  3218                         
+
+========== PLANT ORGAN (pmm:plantOrgan) ==========
+    3031  http://purl.obolibrary.org/obo/PO_0009006
+     981  http://purl.obolibrary.org/obo/PO_0025034
+     937  http://purl.obolibrary.org/obo/PO_0009001
+     727  http://purl.obolibrary.org/obo/PO_0000003
+     514  http://purl.obolibrary.org/obo/PO_0009005
+     508  http://purl.obolibrary.org/obo/PO_0009010
+     470  http://purl.obolibrary.org/obo/PO_0030104
+     191  http://purl.obolibrary.org/obo/PO_0000005
+     182  http://purl.obolibrary.org/obo/PO_0020104
+     130  http://purl.obolibrary.org/obo/PO_0009047
+     116  http://purl.obolibrary.org/obo/PO_0025471
+     109  http://purl.obolibrary.org/obo/PO_0009084
+     106  http://purl.obolibrary.org/obo/PO_0020100
+     105  http://purl.obolibrary.org/obo/PO_0006340
+      74  http://purl.obolibrary.org/obo/PO_0009072
+      62  http://purl.obolibrary.org/obo/PO_0009046
+      60  http://purl.obolibrary.org/obo/PO_0009032
+      56  http://purl.obolibrary.org/obo/PO_0000014
+      48  http://purl.obolibrary.org/obo/PO_0008018
+      48  http://purl.obolibrary.org/obo/PO_0007131
+      39  http://purl.obolibrary.org/obo/PO_0008039
+      38  http://purl.obolibrary.org/obo/PO_0000030
+      32  http://purl.obolibrary.org/obo/PO_0003023
+      31  http://purl.obolibrary.org/obo/PO_0006339
+      25  http://purl.obolibrary.org/obo/PO_0025035
+PlantOrgan instances defined: [{'n': '0'}]
+
+========== TECHNOLOGY / PLATFORM ==========
+  -- pmm:technologyType
+       174  http://metadb.riken.jp/db/plantMetabolomics/0.1/TechnologyType/massSpectrometry
+       174  http://metadb.riken.jp/db/plantMetabolomics/0.1/TechnologyType/chromatography
+  -- pmm:technologyPlatform
+        88  http://metadb.riken.jp/db/plantMetabolomics/0.1/TechnologyPlatform/massSpectrometry
+        87  http://metadb.riken.jp/db/plantMetabolomics/0.1/TechnologyPlatform/chromatography
+        62  http://metadb.riken.jp/db/plantMetabolomics/0.1/TechnologyPlatform/GCMS
+        23  http://metadb.riken.jp/db/plantMetabolomics/0.1/TechnologyPlatform/LCMS
+         1  http://metadb.riken.jp/db/plantMetabolomics/0.1/TechnologyPlatform/CEMS
+         1  http://metadb.riken.jp/db/plantMetabolomics/0.1/TechnologyPlatform/LCPDA
+  -- pmm:measurementType
+       175  http://metadb.riken.jp/db/plantMetabolomics/0.1/MeasurementType/metaboliteProfiling
+  -- pmm:experimentType
+        79  http://purl.obolibrary.org/obo/OBI_0000051
+        61  http://purl.obolibrary.org/obo/OBI_0200199
+        22  http://purl.obolibrary.org/obo/CHMO_0000796
+         2  http://purl.obolibrary.org/obo/CHMO_0000497
+         1  http://www.ebi.ac.uk/efo/EFO_0004737
+         1  http://purl.obolibrary.org/obo/OBI_0200085
+         1  http://purl.obolibrary.org/obo/CHMO_0001728
+         1  http://purl.obolibrary.org/obo/CHMO_0000705
+  -- pmm:ionMode
+       157  Positive
+        15  Negative
+        13  positive
+         6  negative
+         3  positive and negative
+         2  Positive and Negative
+
+========== FILE LAYER ==========
+  distinct Files             [{'n': '14026'}]
+  md5 statements             [{'n': '15499'}]
+  downloadURL statements     [{'n': '15499'}]
+  fileFormat statements      [{'n': '15499'}]
+  -- fileFormat values
+      9108  x-cdf                  nrn:mimetype:application/x-cdf
+      5931  x-abf                  nrn:mimetype:application/x-abf
+       215  plain                  nrn:mimetype:text/plain
+        79  zip                    nrn:mimetype:application/zip
+        77  x-ABF                  nrn:mimetype:application/x-ABF
+        70  csv                    nrn:mimetype:text/csv
+        16  vnd.ms-excel           nrn:mimetype:application/vnd.ms-excel
+         2  x-tar                  nrn:mimetype:application/x-tar
+         1  x-Rdata                nrn:mimetype:application/x-Rdata
+  -- sample downloadURLs
+      http://metabobank.riken.jp/data/RPMM0037/RawDataset/11_1.cdf
+      http://metabobank.riken.jp/data/RPMM0037/RawDataset/14_1.cdf
+      http://metabobank.riken.jp/data/RPMM0037/RawDataset/17_1.cdf
+      http://metabobank.riken.jp/data/RPMM0037/RawDataset/20_1.cdf
+      http://metabobank.riken.jp/data/RPMM0037/RawDataset/22_1.cdf
+      http://metabobank.riken.jp/data/RPMM0037/RawDataset/26_2.cdf
+      http://metabobank.riken.jp/data/RPMM0037/RawDataset/29_2.cdf
+      http://metabobank.riken.jp/data/RPMM0037/RawDataset/2_1.cdf
+
+========== CROSS-REFERENCES ==========
+  dcterms:references       0
+  dcterms:isReferencedBy   0
+  dcterms:identifier       0
+  rdfs:seeAlso             3153
+  skos:related             0
+  dcterms:description      0
+  dcterms:creator          0
+
+========== PEOPLE / ORGS ==========
+  top principal investigators
+       78  http://metadb.riken.jp/db/plantMetabolomics/0.1/Person/TakeshiAra
+       22  http://metadb.riken.jp/db/plantMetabolomics/0.1/Person/KazukiSaito
+       19  http://metadb.riken.jp/db/plantMetabolomics/0.1/Person/MiyakoKusano
+       11  http://metadb.riken.jp/db/plantMetabolomics/0.1/Person/AtsushiFukushima
+       10  http://metadb.riken.jp/db/plantMetabolomics/0.1/Person/HideyukiSuzuki
+       10  http://metadb.riken.jp/db/plantMetabolomics/0.1/Person/DaisukeShibata
+        4  http://metadb.riken.jp/db/plantMetabolomics/0.1/Person/FumioMatsuda
+        4  http://metadb.riken.jp/db/plantMetabolomics/0.1/Person/HiroshiTsugawa
+        4  http://metadb.riken.jp/db/plantMetabolomics/0.1/Person/RyoNakabayashi
+        3  http://metadb.riken.jp/db/plantMetabolomics/0.1/Person/Lam-SonPhanTran
+        3  http://metadb.riken.jp/db/plantMetabolomics/0.1/Person/MotoakiSeki
+        3  http://metadb.riken.jp/db/plantMetabolomics/0.1/Person/MasamiHirai
+
+========== PROPERTY POPULATION (coverage) IN PMM GRAPH ==========
+  pmm-namespace properties actually used: 127
+  least-populated (bottom 18):
+        1  pmm:summarisationType
+        4  pmm:flowRateCondition
+        6  pmm:summarisation
+        6  pmm:massAccuracy
+        7  pmm:parameters
+       10  pmm:sheathGas
+       10  pmm:experimenter
+       10  pmm:extractStorage
+       11  pmm:univariateAnalysis
+       13  pmm:visualisation
+       14  pmm:concentration
+       14  pmm:statisticalResultsFile
+       17  pmm:peakWaveLength
+       18  pmm:analyticalTime
+       18  pmm:scalingType
+       19  pmm:extractConcentration
+       20  pmm:sampleExtractionProtocol
+       21  pmm:scaling

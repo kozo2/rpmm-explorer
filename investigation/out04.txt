@@ -1,0 +1,142 @@
+========== GRAPH PRESENCE vs COUNT ==========
+  ASK=False  COUNT=        0  http://metadb.riken.jp/structure/plantMetabolomics
+  ASK=False  COUNT=        0  http://metadb.riken.jp/structure/DBCatalog
+  ASK=False  COUNT=        0  http://metadb.riken.jp/structure/SciNetS_ria269i
+  ASK=False  COUNT=        0  http://metadb.riken.jp/system
+  ASK=False  COUNT=        0  http://metadb.riken.jp/system/db
+  ASK=False  COUNT=        0  http://metadb.riken.jp/system/ontology
+  ASK=False  COUNT=        0  http://www.openlinksw.com/schemas/virtrdf#
+  ASK=False  COUNT=        0  http://www.w3.org/2002/07/owl#
+
+===== structure/plantMetabolomics CONTENT =====
+
+### predicates
+# SELECT ?p (COUNT(*) AS ?n) WHERE {
+  GRAPH <http://metadb.riken.jp/structure/plantMetabolomics> { ?s ?p ?o } } GROUP BY ?p ORDER BY DESC(?n)
+    (0 shown)
+
+### sample triples
+# SELECT ?s ?p ?o WHERE {
+  GRAPH <http://metadb.riken.jp/structure/plantMetabolomics> { ?s ?p ?o } } LIMIT 25
+    (0 shown)
+
+===== structure/DBCatalog CONTENT =====
+
+### predicates
+# SELECT ?p (COUNT(*) AS ?n) WHERE {
+  GRAPH <http://metadb.riken.jp/structure/DBCatalog> { ?s ?p ?o } } GROUP BY ?p ORDER BY DESC(?n)
+    (0 shown)
+
+### sample triples
+# SELECT ?s ?p ?o WHERE {
+  GRAPH <http://metadb.riken.jp/structure/DBCatalog> { ?s ?p ?o } } LIMIT 20
+    (0 shown)
+
+===== DBCatalog graph (db/DBCatalog) =====
+
+### classes
+# SELECT ?c (COUNT(?s) AS ?n) WHERE {
+  GRAPH <http://metadb.riken.jp/db/DBCatalog> { ?s a ?c } } GROUP BY ?c ORDER BY DESC(?n)
+    {'c': 'http://rdfs.org/ns/void#Dataset', 'n': '128'}
+    {'c': 'http://rdf.ncbi.nlm.nih.gov/pubmed', 'n': '90'}
+    {'c': 'http://www.w3.org/2002/07/owl#Class', 'n': '35'}
+    {'c': 'http://metadb.riken.jp/db/DBcatalog/RIKENorganization', 'n': '26'}
+    {'c': 'http://metadb.riken.jp/db/DBcatalog/BioTarget', 'n': '11'}
+    {'c': 'http://metadb.riken.jp/db/DBcatalog/BioDataType', 'n': '9'}
+    {'c': 'http://www.w3.org/2000/01/rdf-schema#Class', 'n': '3'}
+    {'c': 'http://www.lexvo.org/id/iso639-3', 'n': '2'}
+    {'c': 'http://metadb.riken.jp/db', 'n': '1'}
+    (9 shown)
+
+### sample dataset records
+# SELECT ?s ?p ?o WHERE {
+  GRAPH <http://metadb.riken.jp/db/DBCatalog> { ?s ?p ?o } } LIMIT 40
+    {'s': 'http://metadb.riken.jp/db/NBRP_medaka', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://rdfs.org/ns/void#Dataset'}
+    {'s': 'http://purl.obolibrary.org/obo/NCBITaxon_11520', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://www.w3.org/2002/07/owl#Class'}
+    {'s': 'http://purl.obolibrary.org/obo/NCBITaxon_3689', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://www.w3.org/2002/07/owl#Class'}
+    {'s': 'http://purl.obolibrary.org/obo/NCBITaxon_562', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://www.w3.org/2002/07/owl#Class'}
+    {'s': 'http://purl.obolibrary.org/obo/NCBITaxon_11320', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://www.w3.org/2002/07/owl#Class'}
+    {'s': 'http://purl.obolibrary.org/obo/NCBITaxon_4530', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://www.w3.org/2002/07/owl#Class'}
+    {'s': 'http://purl.obolibrary.org/obo/NCBITaxon_4932', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://www.w3.org/2002/07/owl#Class'}
+    {'s': 'http://purl.obolibrary.org/obo/NCBITaxon_4513', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://www.w3.org/2002/07/owl#Class'}
+    {'s': 'http://purl.obolibrary.org/obo/NCBITaxon_55458', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://www.w3.org/2002/07/owl#Class'}
+    {'s': 'http://purl.obolibrary.org/obo/NCBITaxon_3701', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://www.w3.org/2002/07/owl#Class'}
+    {'s': 'http://purl.obolibrary.org/obo/NCBITaxon_4896', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://www.w3.org/2002/07/owl#Class'}
+    {'s': 'http://purl.obolibrary.org/obo/NCBITaxon_3193', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://www.w3.org/2002/07/owl#Class'}
+    {'s': 'http://purl.obolibrary.org/obo/NCBITaxon_6239', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://www.w3.org/2002/07/owl#Class'}
+    {'s': 'http://metadb.riken.jp/db/PASMet', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://rdfs.org/ns/void#Dataset'}
+    {'s': 'http://rdf.ncbi.nlm.nih.gov/pubmed/23326311', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://rdf.ncbi.nlm.nih.gov/pubmed'}
+    {'s': 'http://rdf.ncbi.nlm.nih.gov/pubmed/24801819', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://rdf.ncbi.nlm.nih.gov/pubmed'}
+    {'s': 'http://rdf.ncbi.nlm.nih.gov/pubmed/25559748', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://rdf.ncbi.nlm.nih.gov/pubmed'}
+    {'s': 'http://metadb.riken.jp/db/DBcatalog/BioTarget/DNA_clone', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://metadb.riken.jp/db/DBcatalog/BioTarget'}
+    {'s': 'http://metadb.riken.jp/db/DBcatalog/BioTarget/cell', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://metadb.riken.jp/db/DBcatalog/BioTarget'}
+    {'s': 'http://metadb.riken.jp/db/DBcatalog/BioTarget/drug_chemical', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://metadb.riken.jp/db/DBcatalog/BioTarget'}
+    {'s': 'http://metadb.riken.jp/db/DBcatalog/BioTarget/experiment', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://metadb.riken.jp/db/DBcatalog/BioTarget'}
+    {'s': 'http://metadb.riken.jp/db/DBcatalog/BioTarget/genome', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://metadb.riken.jp/db/DBcatalog/BioTarget'}
+    {'s': 'http://metadb.riken.jp/db/DBcatalog/BioTarget/individual', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://metadb.riken.jp/db/DBcatalog/BioTarget'}
+    {'s': 'http://metadb.riken.jp/db/DBcatalog/BioTarget/metabolism', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://metadb.riken.jp/db/DBcatalog/BioTarget'}
+    {'s': 'http://metadb.riken.jp/db/DBcatalog/BioTarget/phenotype', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://metadb.riken.jp/db/DBcatalog/BioTarget'}
+    {'s': 'http://metadb.riken.jp/db/DBcatalog/BioTarget/protein', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://metadb.riken.jp/db/DBcatalog/BioTarget'}
+    {'s': 'http://metadb.riken.jp/db/DBcatalog/BioTarget/transcript', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://metadb.riken.jp/db/DBcatalog/BioTarget'}
+    {'s': 'http://metadb.riken.jp/db/resource/organisation/riken_labs_dmp', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://metadb.riken.jp/db/DBcatalog/RIKENorganization'}
+    {'s': 'http://metadb.riken.jp/db/resource/organisation/riken_labs_pmi', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://metadb.riken.jp/db/DBcatalog/RIKENorganization'}
+    {'s': 'http://metadb.riken.jp/db/resource/organisation/riken_labs_rinc', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://metadb.riken.jp/db/DBcatalog/RIKENorganization'}
+    {'s': 'http://rdf.ncbi.nlm.nih.gov/pubmed/15170230', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://rdf.ncbi.nlm.nih.gov/pubmed'}
+    {'s': 'http://rdf.ncbi.nlm.nih.gov/pubmed/19448331', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://rdf.ncbi.nlm.nih.gov/pubmed'}
+    {'s': 'http://rdf.ncbi.nlm.nih.gov/pubmed/25414366', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://rdf.ncbi.nlm.nih.gov/pubmed'}
+    {'s': 'http://metadb.riken.jp/db/DBcatalog', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://rdfs.org/ns/void#Dataset'}
+    {'s': 'http://metadb.riken.jp/db/DBcatalog', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://metadb.riken.jp/db'}
+    {'s': 'http://metadb.riken.jp/db/ASSETs', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://rdfs.org/ns/void#Dataset'}
+    {'s': 'http://metadb.riken.jp/db/ArabidopsisFullLengthcDNAClone', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://rdfs.org/ns/void#Dataset'}
+    {'s': 'http://metadb.riken.jp/db/AtGenExpress', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://rdfs.org/ns/void#Dataset'}
+    {'s': 'http://metadb.riken.jp/db/BRCBioresource', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://rdfs.org/ns/void#Dataset'}
+    {'s': 'http://metadb.riken.jp/db/BRCDNABank', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://rdfs.org/ns/void#Dataset'}
+    (40 shown)
+
+===== system =====
+
+### predicates
+# SELECT ?p (COUNT(*) AS ?n) WHERE {
+      GRAPH <http://metadb.riken.jp/system> { ?s ?p ?o } } GROUP BY ?p ORDER BY DESC(?n)
+    (0 shown)
+
+### sample
+# SELECT ?s ?p ?o WHERE {
+      GRAPH <http://metadb.riken.jp/system> { ?s ?p ?o } } LIMIT 15
+    (0 shown)
+
+===== system/db =====
+
+### predicates
+# SELECT ?p (COUNT(*) AS ?n) WHERE {
+      GRAPH <http://metadb.riken.jp/system/db> { ?s ?p ?o } } GROUP BY ?p ORDER BY DESC(?n)
+    (0 shown)
+
+### sample
+# SELECT ?s ?p ?o WHERE {
+      GRAPH <http://metadb.riken.jp/system/db> { ?s ?p ?o } } LIMIT 15
+    (0 shown)
+
+===== system/ontology =====
+
+### predicates
+# SELECT ?p (COUNT(*) AS ?n) WHERE {
+      GRAPH <http://metadb.riken.jp/system/ontology> { ?s ?p ?o } } GROUP BY ?p ORDER BY DESC(?n)
+    (0 shown)
+
+### sample
+# SELECT ?s ?p ?o WHERE {
+      GRAPH <http://metadb.riken.jp/system/ontology> { ?s ?p ?o } } LIMIT 15
+    (0 shown)
+
+===== system/user =====
+
+### predicates
+# SELECT ?p (COUNT(*) AS ?n) WHERE {
+      GRAPH <http://metadb.riken.jp/system/user> { ?s ?p ?o } } GROUP BY ?p ORDER BY DESC(?n)
+    (0 shown)
+
+### sample
+# SELECT ?s ?p ?o WHERE {
+      GRAPH <http://metadb.riken.jp/system/user> { ?s ?p ?o } } LIMIT 15
+    (0 shown)

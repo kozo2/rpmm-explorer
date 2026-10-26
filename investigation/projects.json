@@ -1,0 +1,610 @@
+[
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE1",
+  "label": "Arabidopsis thaliana leaf metabolite analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE10",
+  "label": "Effect of phosphorus nutrition for cabbage metabolites"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE100",
+  "label": "Analysis of transgenic Arabidopsis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE101",
+  "label": "Comparison of extraction solutions for analysis of Arabidopsis cultured cell line T87"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE102",
+  "label": "Analysis of culture cells of Lotus japonicus"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE105",
+  "label": "Analysis of various vegetables"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE107",
+  "label": "Analysis of biofuel organisms"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE108",
+  "label": "Comparison of the flowers sampled in Kisarazu city"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE109",
+  "label": "Analysis of Medicago truncatula"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE11",
+  "label": "Comparison of fruit metabolites among tomato varieties 2"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE12",
+  "label": "Effect of agricultural films for spinach leaf metabolites"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE13",
+  "label": "Comparison of leaf metabolites among spinach varieties"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE14",
+  "label": "Effect of agricultural films for tomato fruit metabolites"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE15",
+  "label": "Comparison of fruit metabolites among developmental stages of Jatropha curcas"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE16",
+  "label": "Effect of agricultural films for spinach leaf metabolites 2"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE17",
+  "label": "Comparison of leaf metabolites among spinach varieties 2"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE189",
+  "label": "Clarification of pathway-specific inhibition by Fourier transform ion cyclotron resonance/mass spectrometry-based metabolic phenotyping studies."
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE2",
+  "label": "Lotus japonicus flower metabolite analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE20",
+  "label": "Arabidopsis thaliana leaf metabolite analysis for a software test"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE210",
+  "label": "Comparison of seed metabolites among soybean varieties"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE211",
+  "label": "Lotus japonicus metabolite analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE212",
+  "label": "Lotus japonicus metabolite analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE213",
+  "label": "Comparison of metabolites among Lotus japonicus varieties"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE214",
+  "label": "Solanum lycopersicum metabolite analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE215",
+  "label": "Comparison of metabolites among Legume species"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE216",
+  "label": "Arabidopsis thaliana metabolite analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE217",
+  "label": "Comparison of tomato fruit metabolites among fruit maturation"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE218",
+  "label": "Metabolome analysis of Carica papaya fruit"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE22",
+  "label": "Comparison of fruit metabolites among developmental stages of tomato"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE25",
+  "label": "Comparison of leaf metabolites among cabbage varieties"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE26",
+  "label": "Effect of compost for cabbage metabolites"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE27",
+  "label": "Effect of agricultural films for cabbage leaf metabolites"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE28",
+  "label": "Comparison of leaf metabolites among developmental stages of Hevea brasiliensis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE29",
+  "label": "Arabidopsis thaliana T87 culture cell metabolite analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE3",
+  "label": "Comparison of fruit metabolites among tomato varieties 1"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE30",
+  "label": "Comparison of seed metabolites among soybean varieties"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE31",
+  "label": "Comparison of metabolites among eggplant fruit tissues"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE32",
+  "label": "Eucalyptus camaldulensis leaf metabolite analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE33",
+  "label": "Eucommia ulmoides leaf metabolite analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE34",
+  "label": "Comparison of leaf metabolits among Glycyrrhiza species"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE35",
+  "label": "Hevea brasiliensis leaf metabolite analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE36",
+  "label": "Jatropha curcas leaf metabolite analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE37",
+  "label": "Medicago truncatula shoot metabolite analysis using stable isotopes"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE39",
+  "label": "Comparison of flower metabolites among Cosmos bipinnatus varieties"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE4",
+  "label": "Dicksonia antarctica leaf metabolite analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE40",
+  "label": "Comparison of fruit metabolites among tomato cultivars"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE41",
+  "label": "Comparison of tomato fruit metabolites among fruit maturation"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE42",
+  "label": "Metabolic profiling of flavonoids in Lotus japonicus"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE43",
+  "label": "Comaparaive metabolite analysis of three Allium species"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE44",
+  "label": "Physcomitrella patens metabolite analysis using stable isotopes"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE5",
+  "label": "Physcomitrella patens metabolite analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE6",
+  "label": "Synechocystis sp. metabolite analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE61",
+  "label": "LC-MS analysis of parsley"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE62",
+  "label": "LC-MS analysis of 15 vegetables and fruits"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE63",
+  "label": "Analysis of various tropical plants"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE64",
+  "label": "Analysis of tomato"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE65",
+  "label": "Analysis for para rubber tree"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE66",
+  "label": "Analysis of various vegetables"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE67",
+  "label": "Analysis of boiled squash"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE68",
+  "label": "Analysis of Ophiorrhiza pumila"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE7",
+  "label": "Chlamydomonas reinhardtii metabolite analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE71",
+  "label": "Analysis for Pleurochrysis haptonemofera"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE73",
+  "label": "Analysis of cosmos flower"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE74",
+  "label": "Analysis of Acacia mangium"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE76",
+  "label": "Analysis of transgenic Arabidopsis cultured cell lines"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE77",
+  "label": "Analysis of tomato and wild tomato lines"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE78",
+  "label": "Analysis of tomato and wild tomato lines"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE79",
+  "label": "Comparison of rice cultivars"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE81",
+  "label": "Analysis of tomato LA1996 line"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE82",
+  "label": "Analysis of Micro-Tom"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE83",
+  "label": "Analysis of tomato lines"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE84",
+  "label": "Analysis of tomato"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE85",
+  "label": "Analysis of transgenic Arabidopsis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE86",
+  "label": "Analysis of Petesites japonicus"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE87",
+  "label": "Analysis of Micro-Tom at various developing stages"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE88",
+  "label": "Analysis of transgenic Micro-Tom lines"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE89",
+  "label": "Analysis of transgenic Arabidopsis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE9",
+  "label": "Marchantia polymorpha metabolite analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE90",
+  "label": "Analysis of Hypericum erectum"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE91",
+  "label": "Analysis of transgenic Arabidopsis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE92",
+  "label": "Analysis for soybeans"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE93",
+  "label": "Analysis of Lotus japonicus"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE94",
+  "label": "Analysis of Lotus japonicus"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE95",
+  "label": "Analysis of Arabidopsis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE96",
+  "label": "Analysis of tomato"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE97",
+  "label": "Analysis of Lotus japonicus hairy roots"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE98",
+  "label": "Analysis of Lotus japonicus leaves and stems"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/MN_SE99",
+  "label": "Analysis of tomato"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0001",
+  "label": "Unbiased characterization of genotype-dependent metabolic regulations by metabolomic approach in Arabidopsis thaliana"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0002",
+  "label": "Metabolomic Characterization of Knockout Mutants in Arabidopsis: Development of a Metabolite Profiling Database for Knockout Mutants in Arabidopsis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0003",
+  "label": "A systems analysis with \"simplified source-sink model\" reveals metabolic reprogramming in a pair of source-to-sink organs during early fruit development in tomato by LED light treatments"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0004",
+  "label": "Unbiased profiling of volatile organic compounds in the headspace of <i>Allium</i> plants using an in\u2011tube extraction device"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0005",
+  "label": "Application of a metabolomic method combining one-dimensional and two-dimensional gas chromatography-time-of-flight/mass spectrometry to metabolic phenotyping of natural variants in rice"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0006",
+  "label": "Metabolomic correlation-network modules in Arabidopsis based on a graph-clustering approach"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0007",
+  "label": "Metabolomics data reveal a crucial role of cytosolic glutamine synthetase 1;1 in coordinating metabolic balance in rice"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0008",
+  "label": "Deciphering starch quality of rice kernels using metabolite profiling and pedigree network analysis."
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0010",
+  "label": "Development of a Direct Headspace Collection Method from Arabidopsis Seedlings Using HS-SPME-GC-TOF-MS Analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0011",
+  "label": "Comparative metabolomics charts the impact of genotype-dependent methionine accumulation in <i>Arabidopsis thaliana</i>"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0012",
+  "label": "Metabolomic Screening Applied to Rice FOX <i>Arabidopsis</i> Lines Leads to the Identification of a Gene-Changing Nitrogen Metabolism"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0013",
+  "label": "Impact of clock-associated <i>Arabidopsis</i> pseudo-response regulators in metabolic coordination"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0014",
+  "label": "Metabolomics reveals comprehensive reprogramming involving two independent metabolic responses of Arabidopsis to UV-B light"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0015",
+  "label": "Compensation for Systematic Cross-Contribution Improves Normalization of Mass Spectrometry Based Metabolomics Data"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0016",
+  "label": "Effects of Combined Low Glutathione with Mild Oxidative and Low Phosphorus Stress on the Metabolism of Arabidopsis thaliana"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0017",
+  "label": "Exploring Matrix Effects and Quantification Performance in Metabolomics Experiments Using Artificial Biological Gradients"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0018",
+  "label": "Covering Chemical Diversity of Genetically-Modified Tomatoes Using Metabolomics for Objective Substantial Equivalence Assessment"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0019",
+  "label": "Physiological Roles of the beta-Substituted Alanine Synthase Gene Family in Arabidopsis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0020",
+  "label": "Network Analyses Reveal Shifts in Transcript Profiles and Metabolites That Accompany the Expression of <i>SUN</i> and an Elongated Tomato Fruit"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0021",
+  "label": "Assessing metabolomic and chemical diversity of a soybean lineage representing 35 years of breeding"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0023",
+  "label": "Rice-<i>Arabidopsis</i> FOX line screening with FT-NIR-based fingerprinting for GC-TOF/MS-based metabolite profiling"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0024",
+  "label": "Metabolic Reprogramming in Leaf Lettuce Grown Under Different Light Quality and Intensity Conditions Using Narrow-Band LEDs"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0025",
+  "label": "TargetSearch - a Bioconductor package for the efficient preprocessing of GC-MS metabolite profiling data"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0026",
+  "label": "Transcriptomic and Metabolomic Reprogramming from Roots to Haustoria in the Parasitic Plant, <i>Thesium chinense</i>"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0027",
+  "label": "Acetate-mediated novel survival strategy against drought in plants"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0028",
+  "label": "A novel role for methyl cysteinate, a cysteine derivative, in cesium accumulation in <i>Arabidopsis thaliana</i>"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0029",
+  "label": "Ky-2, a Histone Deacetylase Inhibitor, Enhances High-Salinity Stress Tolerance in <i>Arabidopsis thaliana</i>"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0030",
+  "label": "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0031",
+  "label": "Integrated Strategy for Unknown EI-MS Identification Using Quality Control Calibration Curve, Multivariate Analysis, EI-MS Spectral Database, and Retention Index Prediction"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0032",
+  "label": "Comparative Characterization of the Leaf Tissue of Physalis alkekengi and Physalis peruviana Using RNA-seq and Metabolite Profiling."
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0033",
+  "label": "MS-DIAL: data-independent MS/MS deconvolution for comprehensive metabolome analysis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0034",
+  "label": "Enhancement of abiotic stress tolerance in poplar by overexpression of key Arabidopsis stress response genes, <i>AtSRK<sub>2</sub>C</i> and <i>AtGolS<sub>2</sub></i>"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0035",
+  "label": "Ectopic expression of <i>myo</i>-inositol 3-phosphate synthase induces a wide range of metabolic changes and confers salt tolerance in rice"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0036",
+  "label": "Inhibition of <i>CUTIN DEFICIENT 2</i> Causes Defects in Cuticle Function and Structure and Metabolite Changes in Tomato Fruit"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0037",
+  "label": "GC-TOF-MS- and CE-TOF-MS-Based Metabolic Profiling of Cheonggukjang (Fast-Fermented Bean Paste) during Fermentation and Its Correlation with Metabolic Pathways"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0038",
+  "label": "Plasma Membrane Aquaporin AqpZ Protein Is Essential for Glucose Metabolism during Photomixotrophic Growth of <i>Synechocystis</i> sp. PCC 6803"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0039",
+  "label": "Succinic Semialdehyde Dehydrogenase is Involved in the Robust Patterning of Arabidopsis Leaves along the Adaxial\u2013Abaxial Axis"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0040",
+  "label": "Reduction in sucrose contents by downregulation of fructose-1,6-bisphosphatase 2 causes tiller outgrowth cessation in rice mutants lacking glutamine synthetase1;2."
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0041",
+  "label": "Phospho<i>enol</i>pyruvate carboxylase intrinsically located in the chloroplast of rice plays a crucial role in ammonium assimilation"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0042",
+  "label": "Light Controls Protein Localization through Phytochrome-Mediated Alternative Promoter Selection"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0043",
+  "label": "Metabolomic Evaluation of the Quality of Leaf Lettuce Grown in Practical Plant Factory to Capture Metabolite Signature"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0044",
+  "label": "Adaptation of the symbiotic <i>Mesorhizobium</i>\u2013chickpea relationship to phosphate deficiency relies on reprogramming of whole-plant metabolism"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0045",
+  "label": "WIND1 induces dynamic metabolomic reprogramming during regeneration in <i>Brassica napus</i>"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0046",
+  "label": "Effects of molybdenum deficiency and defects in molybdate transporter MOT1 on transcript accumulation and nitrogen/sulphur metabolism in <i>Arabidopsis thaliana</i>"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0047",
+  "label": "Enhancement of oxidative and drought tolerance in Arabidopsis by overaccumulation of antioxidant flavonoids"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0048",
+  "label": "Combination of Liquid Chromatography-Fourier Transform Ion Cyclotron Resonance-Mass Spectrometry with <sup>13</sup>C-Labeling for Chemical Assignment of Sulfur-Containing Metabolites in Onion Bulbs"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0049",
+  "label": "A novel method for single-grain-based metabolic profiling of Arabidopsis seed"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0050",
+  "label": "Alternation of flavonoid accumulation under drought stress in <i>Arabidopsis thaliana</i>"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0051",
+  "label": "Metabolic profile data of Arabidopsis four aerial tissues"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0052",
+  "label": "AtMetExpress Development raw LC-ESI-TOF-MS dataset"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0053",
+  "label": "AtMetExpress 20 ecotypes raw LC-ESI-TOF-MS dataset"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0054",
+  "label": "Japanese rice 188 cultivars LC-MS dataset"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0055",
+  "label": "Metabolome-based discrimination of chrysanthemum cultivars for the efficient generation of flower color variations in mutation breeding."
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0056",
+  "label": "Genetic Variation for Seed Metabolite Levels in Brachypodium distachyon"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0057",
+  "label": "Landscape of the lipidome and transcriptome under heat stress in <i>Arabidopsis thaliana</i>"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0059",
+  "label": "Integrated analysis of transcriptome and metabolome of <i>Arabidopsis</i> <i>albino or pale green</i> mutants with disrupted nuclear-encoded chloroplast proteins"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0060",
+  "label": "Determining novel functions of <i>Arabidopsis</i> 14-3-3 proteins in central metabolic processes"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0061",
+  "label": "Metabolite and phytohormone profiling illustrates metabolomic reprogramming as an escape strategy of deepwater rice during partially submerged stress"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0062",
+  "label": "Divergent metabolic adjustments in nodules are indispensable for efficient N<sub>2</sub> fixation of soybean under phosphate stress"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0063",
+  "label": "Cytosolic GLUTAMINE SYNTHETASE 1;1 Modulates Metabolism and Chloroplast Development in Roots"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0064",
+  "label": "Fruit setting rewires central metabolism via gibberellin cascades"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0066",
+  "label": "Food lipidomics for 155 agricultural plant products"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0067",
+  "label": "Integrative omics approaches revealed a crosstalk among phytohormones during tuberous root development in cassava"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0068",
+  "label": "Defects in the cytokinin signaling reprogram lipid and flavonoid gene-to-metabolite networks to mitigate the effects of salinity in Arabidopsis thaliana"
+ }
+]

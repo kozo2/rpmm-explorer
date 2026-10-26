@@ -1,0 +1,2182 @@
+[
+ {
+  "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "n": "3890686"
+ },
+ {
+  "p": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+  "n": "2032688"
+ },
+ {
+  "p": "http://www.w3.org/2004/02/skos/core#prefLabel",
+  "n": "1410267"
+ },
+ {
+  "p": "http://bioportal.bioontology.org/ontologies/umls/tui",
+  "n": "1410102"
+ },
+ {
+  "p": "http://bioportal.bioontology.org/ontologies/umls/hasSTY",
+  "n": "1410102"
+ },
+ {
+  "p": "http://www.w3.org/2004/02/skos/core#notation",
+  "n": "1409902"
+ },
+ {
+  "p": "http://bioportal.bioontology.org/ontologies/umls/cui",
+  "n": "1409790"
+ },
+ {
+  "p": "http://purl.bioontology.org/ontology/NCBITAXON/DIV",
+  "n": "1409764"
+ },
+ {
+  "p": "http://purl.bioontology.org/ontology/NCBITAXON/RANK",
+  "n": "1409764"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+  "n": "1170571"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#annotatedSource",
+  "n": "1044440"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#annotatedTarget",
+  "n": "1044067"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#annotatedProperty",
+  "n": "1044067"
+ },
+ {
+  "p": "http://www.w3.org/2000/01/rdf-schema#label",
+  "n": "819390"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#onProperty",
+  "n": "435204"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#someValuesFrom",
+  "n": "415333"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+  "n": "362942"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+  "n": "302238"
+ },
+ {
+  "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+  "n": "279418"
+ },
+ {
+  "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+  "n": "279418"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#hasSynonymType",
+  "n": "232922"
+ },
+ {
+  "p": "http://lexvo.org/ontology#represents",
+  "n": "220484"
+ },
+ {
+  "p": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+  "n": "218418"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#source",
+  "n": "185407"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/SciNetS_ria269i/pria269u6i",
+  "n": "181900"
+ },
+ {
+  "p": "http://creativecommons.org/ns#attributionURL",
+  "n": "181900"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/SciNetS_ria269i/pria269u4i",
+  "n": "181900"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/SciNetS_ria269i/pria269u3i",
+  "n": "181900"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/SciNetS_ria269i/pria269u5i",
+  "n": "181900"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/SciNetS_ria269i/pria269u1i",
+  "n": "181881"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#id",
+  "n": "172319"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000115",
+  "n": "170734"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+  "n": "164164"
+ },
+ {
+  "p": "http://www.w3.org/2004/02/skos/core#altLabel",
+  "n": "158781"
+ },
+ {
+  "p": "http://lexvo.org/ontology#label",
+  "n": "147257"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#intersectionOf",
+  "n": "128075"
+ },
+ {
+  "p": "http://www.w3.org/2000/01/rdf-schema#comment",
+  "n": "108817"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000117",
+  "n": "45288"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000118",
+  "n": "43985"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/ECO_0000218",
+  "n": "40886"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#equivalentClass",
+  "n": "40771"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#inSubset",
+  "n": "39490"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/mondo#exactMatch",
+  "n": "39195"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#created_by",
+  "n": "33530"
+ },
+ {
+  "p": "http://www.co-ode.org/patterns#createdBy",
+  "n": "30996"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#creation_date",
+  "n": "28058"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+  "n": "22644"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+  "n": "21224"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#sameAs",
+  "n": "20642"
+ },
+ {
+  "p": "http://www.ebi.ac.uk/efo/alternative_term",
+  "n": "20621"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#hasValue",
+  "n": "19491"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/ECO_0000205",
+  "n": "18758"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/md5",
+  "n": "15499"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/downloadURL",
+  "n": "15499"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/fileFormat",
+  "n": "15499"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/file",
+  "n": "14878"
+ },
+ {
+  "p": "http://lexvo.org/ontology#means",
+  "n": "13463"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/sampleMeasured",
+  "n": "12786"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/measurement",
+  "n": "12690"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/measurementCondition",
+  "n": "12413"
+ },
+ {
+  "p": "http://purl.org/dc/dcmitype/identifier",
+  "n": "10554"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/mondo#closeMatch",
+  "n": "10384"
+ },
+ {
+  "p": "http://zfin/definition/source_information",
+  "n": "10151"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/biologicalSample",
+  "n": "9890"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/rawDataset",
+  "n": "9154"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/RO_0002162",
+  "n": "9108"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/speciesName",
+  "n": "9091"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/plantOrgan",
+  "n": "8872"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/samplePreparation",
+  "n": "8730"
+ },
+ {
+  "p": "http://www.ebi.ac.uk/efo/definition_citation",
+  "n": "8011"
+ },
+ {
+  "p": "http://lexvo.org/ontology#iso639P3PCode",
+  "n": "7771"
+ },
+ {
+  "p": "http://www.w3.org/2008/05/skos#prefLabel",
+  "n": "7771"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/growthCondition",
+  "n": "7127"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+  "n": "6960"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/growthSupport",
+  "n": "6808"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/developmentStage",
+  "n": "6802"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#deprecated",
+  "n": "6693"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/hasDbXref",
+  "n": "6299"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/growthLocation",
+  "n": "6284"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dayLength",
+  "n": "5864"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/darkLength",
+  "n": "5720"
+ },
+ {
+  "p": "http://purl.org/dc/dcmitype/description",
+  "n": "5717"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/metabolismQuenchingMethod",
+  "n": "5312"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000412",
+  "n": "5048"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/sampleStorage",
+  "n": "4950"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/genotype",
+  "n": "4822"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000119",
+  "n": "4712"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/core#provenance_notes",
+  "n": "4344"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/lightCondition",
+  "n": "4256"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#ontology",
+  "n": "4200"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#date_retrieved",
+  "n": "4172"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/temperature",
+  "n": "4110"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#external_class",
+  "n": "4086"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/nutritionalRegime",
+  "n": "3957"
+ },
+ {
+  "p": "http://www.ebi.ac.uk/efo/definition",
+  "n": "3760"
+ },
+ {
+  "p": "http://xmlns.com/foaf/0.1/depicted_by",
+  "n": "3689"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/cultivar",
+  "n": "3615"
+ },
+ {
+  "p": "http://www.orpha.net/ORDO/Orphanet_#symbol",
+  "n": "3576"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000001",
+  "n": "3311"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#consider",
+  "n": "2919"
+ },
+ {
+  "p": "http://lexvo.org/ontology#nearlySameAs",
+  "n": "2776"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/samplingLocation",
+  "n": "2562"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0100001",
+  "n": "2552"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/wateringRegime",
+  "n": "2475"
+ },
+ {
+  "p": "http://www.ebi.ac.uk/efo/gwas_trait",
+  "n": "2468"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#unionOf",
+  "n": "2460"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/hasExactSynonym",
+  "n": "2414"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000116",
+  "n": "2109"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/mutant",
+  "n": "1933"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/samplingTime",
+  "n": "1876"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/nightTemperature",
+  "n": "1851"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dayTemperature",
+  "n": "1851"
+ },
+ {
+  "p": "http://www.ebi.ac.uk/efo/reason_for_obsolescence",
+  "n": "1825"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/plotDesign",
+  "n": "1760"
+ },
+ {
+  "p": "http://purl.org/dc/terms/description",
+  "n": "1758"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/treatment",
+  "n": "1717"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000008",
+  "n": "1632"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dateOfPlantEstablishment",
+  "n": "1598"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/humidity",
+  "n": "1510"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/relevantGene",
+  "n": "1464"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/massSpectralFile",
+  "n": "1410"
+ },
+ {
+  "p": "http://www.ebi.ac.uk/efo/organizational_class",
+  "n": "1382"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#disjointWith",
+  "n": "1355"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000003",
+  "n": "1297"
+ },
+ {
+  "p": "http://www.ebi.ac.uk/efo/obsoleted_in_version",
+  "n": "1271"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000012",
+  "n": "1256"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/samplingDate",
+  "n": "1207"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+  "n": "1163"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/CLO_0000178",
+  "n": "1145"
+ },
+ {
+  "p": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+  "n": "1099"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#external_ontology",
+  "n": "1093"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/transgenicLine",
+  "n": "1064"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/hasRelatedSynonym",
+  "n": "1050"
+ },
+ {
+  "p": "http://www.w3.org/2000/01/rdf-schema#subClassof",
+  "n": "955"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#is_inferred",
+  "n": "923"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/BFO_0000070",
+  "n": "918"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/hasOBONamespace",
+  "n": "883"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/inSubset",
+  "n": "856"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000114",
+  "n": "853"
+ },
+ {
+  "p": "http://purl.jp/bio/11/meo/MEO_0000443",
+  "n": "781"
+ },
+ {
+  "p": "http://www.ebi.ac.uk/efo/EFO_URI",
+  "n": "756"
+ },
+ {
+  "p": "http://qudt.org/schema/qudtunit",
+  "n": "753"
+ },
+ {
+  "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+  "n": "753"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000111",
+  "n": "731"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000112",
+  "n": "723"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000007",
+  "n": "702"
+ },
+ {
+  "p": "http://purl.org/dc/elements/1.1/contributor",
+  "n": "664"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#notes",
+  "n": "646"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/id",
+  "n": "629"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000232",
+  "n": "601"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/RO_0002175",
+  "n": "545"
+ },
+ {
+  "p": "http://lexvo.org/ontology#hasProperty",
+  "n": "540"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/mondo#excluded_subClassOf",
+  "n": "482"
+ },
+ {
+  "p": "http://lexvo.org/ontology#iso6392BCode",
+  "n": "481"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000231",
+  "n": "445"
+ },
+ {
+  "p": "http://lexvo.org/ontology#isFocusOf",
+  "n": "436"
+ },
+ {
+  "p": "http://xmlns.com/foaf/0.1/focus",
+  "n": "436"
+ },
+ {
+  "p": "http://lexvo.org/ontology#iso6392TCode",
+  "n": "414"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000002",
+  "n": "409"
+ },
+ {
+  "p": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "n": "378"
+ },
+ {
+  "p": "http://www.w3.org/2000/01/rdf-schema#range",
+  "n": "374"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/instrument",
+  "n": "360"
+ },
+ {
+  "p": "http://purl.jp/bio/11/meo/MEO_0000776",
+  "n": "348"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/technologyType",
+  "n": "348"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/compound",
+  "n": "338"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo#SMILES",
+  "n": "336"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo#InChI",
+  "n": "334"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo#InChIKey",
+  "n": "333"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000011",
+  "n": "311"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000009",
+  "n": "307"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#shorthand",
+  "n": "294"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/software",
+  "n": "271"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#onClass",
+  "n": "270"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/experimentalFactor",
+  "n": "268"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/technologyPlatform",
+  "n": "262"
+ },
+ {
+  "p": "http://purl.org/dc/elements/1.1/publisher",
+  "n": "257"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/principalInvestigator",
+  "n": "256"
+ },
+ {
+  "p": "http://xmlns.com/foaf/0.1/familyName",
+  "n": "255"
+ },
+ {
+  "p": "http://purl.jp/bio/11/meo/MEO_0000778",
+  "n": "254"
+ },
+ {
+  "p": "http://xmlns.com/foaf/0.1/page",
+  "n": "254"
+ },
+ {
+  "p": "http://www.w3.org/2004/02/skos/core#definition",
+  "n": "253"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/STATO_0000032",
+  "n": "246"
+ },
+ {
+  "p": "http://xmlns.com/foaf/0.1/firstName",
+  "n": "240"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/uberon/core#homologous_in",
+  "n": "238"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#inverseOf",
+  "n": "236"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/affiliation",
+  "n": "233"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000010",
+  "n": "221"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/massSpectrometry",
+  "n": "219"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dataAnalysis",
+  "n": "217"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/chromatography",
+  "n": "214"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/massAnalyser",
+  "n": "196"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/ionMode",
+  "n": "196"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/ionIsolation",
+  "n": "195"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#propertyChainAxiom",
+  "n": "186"
+ },
+ {
+  "p": "http://lexvo.org/ontology#iso639P1Code",
+  "n": "184"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/hasAlternativeId",
+  "n": "177"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/extraction",
+  "n": "175"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/measurementType",
+  "n": "175"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/experimentalDesign",
+  "n": "175"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000006",
+  "n": "175"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/experiment",
+  "n": "173"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/experimentType",
+  "n": "168"
+ },
+ {
+  "p": "http://xmlns.com/foaf/0.1/fundedBy",
+  "n": "162"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/internalStandardCompound",
+  "n": "160"
+ },
+ {
+  "p": "http://lexvo.org/ontology#iso15924Alphacode",
+  "n": "160"
+ },
+ {
+  "p": "http://purl.org/dc/terms/title",
+  "n": "155"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/contactPerson",
+  "n": "152"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/submitter",
+  "n": "152"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/scanMZRange",
+  "n": "151"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/source",
+  "n": "149"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/postalAddress",
+  "n": "148"
+ },
+ {
+  "p": "http://xmlns.com/foaf/0.1/primaryTopic",
+  "n": "146"
+ },
+ {
+  "p": "http://purl.org/dc/terms/language",
+  "n": "145"
+ },
+ {
+  "p": "http://lexvo.org/ontology#hasPronunciation",
+  "n": "137"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/fragmentationMethod",
+  "n": "136"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000013",
+  "n": "133"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/annotationMethodDetails",
+  "n": "131"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dataProcessingSoftware",
+  "n": "129"
+ },
+ {
+  "p": "http://purl.jp/bio/11/meo/MEO_0000777",
+  "n": "128"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/uberon#spatially_disjoint_from",
+  "n": "126"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0010000",
+  "n": "120"
+ },
+ {
+  "p": "http://www.w3.org/ns/dcat#organism",
+  "n": "118"
+ },
+ {
+  "p": "http://semanticscience.org/resource/seeAlso",
+  "n": "117"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/hasBroadSynonym",
+  "n": "116"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#minQualifiedCardinality",
+  "n": "115"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/columnName",
+  "n": "115"
+ },
+ {
+  "p": "http://lexvo.org/ontology#iso639P5Code",
+  "n": "114"
+ },
+ {
+  "p": "http://semanticscience.org/resource/hasSynonym",
+  "n": "114"
+ },
+ {
+  "p": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+  "n": "111"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/STATO_0000041",
+  "n": "111"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/hasNarrowSynonym",
+  "n": "110"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/flowRate",
+  "n": "110"
+ },
+ {
+  "p": "http://purl.org/dc/elements/1.1/creator",
+  "n": "107"
+ },
+ {
+  "p": "http://www.w3.org/ns/dcat#theme",
+  "n": "107"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#qualifiedCardinality",
+  "n": "105"
+ },
+ {
+  "p": "http://purl.org/dc/dcmitype/references",
+  "n": "103"
+ },
+ {
+  "p": "http://purl.org/net/cito/citesAsAuthority",
+  "n": "100"
+ },
+ {
+  "p": "http://purl.org/dc/dcmitype/creator",
+  "n": "100"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#allValuesFrom",
+  "n": "94"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/sampleAmount",
+  "n": "92"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/recommendedDecimalPlacesOfMZ",
+  "n": "91"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000202",
+  "n": "88"
+ },
+ {
+  "p": "http://www.ebi.ac.uk/cellline/definition",
+  "n": "86"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#url",
+  "n": "83"
+ },
+ {
+  "p": "http://www.ebi.ac.uk/efo/primary_source",
+  "n": "83"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/RO_0002174",
+  "n": "81"
+ },
+ {
+  "p": "http://semanticscience.org/resource/subset",
+  "n": "81"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#evidence",
+  "n": "80"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/MSscanSetting",
+  "n": "79"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/flowGradient",
+  "n": "76"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/ionSource",
+  "n": "76"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000602",
+  "n": "75"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/solvent",
+  "n": "74"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/columnTemperature",
+  "n": "74"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+  "n": "74"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/preProcessing",
+  "n": "74"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/ionSourceTemperature",
+  "n": "74"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/resoluton",
+  "n": "71"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/rawDataFileList",
+  "n": "69"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/columnType",
+  "n": "68"
+ },
+ {
+  "p": "http://semanticscience.org/resource/example",
+  "n": "68"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#taxon",
+  "n": "67"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/creation_date",
+  "n": "66"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/created_by",
+  "n": "66"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/derivatisation",
+  "n": "65"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/spectralLibrary",
+  "n": "63"
+ },
+ {
+  "p": "http://purl.org/dc/elements/1.1/date",
+  "n": "62"
+ },
+ {
+  "p": "http://purl.org/dc/elements/1.1/source",
+  "n": "62"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/core#somite_number",
+  "n": "60"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/DBcatalog/metadata_link",
+  "n": "60"
+ },
+ {
+  "p": "http://purl.org/dc/terms/alternative",
+  "n": "58"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/normalisedDataMatrixFile",
+  "n": "56"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/peakFile",
+  "n": "55"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/analysedDataset",
+  "n": "54"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/ionSprayVoltage",
+  "n": "54"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/lightIntensity",
+  "n": "53"
+ },
+ {
+  "p": "http://semanticscience.org/resource/equivalentTo",
+  "n": "51"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#maxQualifiedCardinality",
+  "n": "51"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/multivariateAnalysis",
+  "n": "50"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000005",
+  "n": "48"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/BFO_0000179",
+  "n": "48"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/MaxWLforEluteMonitering",
+  "n": "48"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000104",
+  "n": "48"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/eluteMonitor",
+  "n": "48"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/BFO_0000180",
+  "n": "48"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/flowGas",
+  "n": "48"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/MinWLforEluteMonitering",
+  "n": "48"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/RO_0002161",
+  "n": "46"
+ },
+ {
+  "p": "http://www.ebi.ac.uk/cellline/definition_editor",
+  "n": "45"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#imports",
+  "n": "45"
+ },
+ {
+  "p": "http://www.ebi.ac.uk/efo/ArrayExpress_label",
+  "n": "45"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000600",
+  "n": "44"
+ },
+ {
+  "p": "http://xmlns.com/foaf/0.1/mbox",
+  "n": "44"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/RO_0001900",
+  "n": "43"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/DBcatalog/centerDescription",
+  "n": "42"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/normalisation",
+  "n": "42"
+ },
+ {
+  "p": "http://purl.org/spar/cito/citesAsAuthority",
+  "n": "41"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/ionIsolationEnergy",
+  "n": "40"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/temperatureGradient",
+  "n": "40"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/annotationType",
+  "n": "38"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/retenitionIndexMethod",
+  "n": "38"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/normalisationType",
+  "n": "38"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/acquisitionRate",
+  "n": "37"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/BFO_0000052",
+  "n": "37"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/capilaryTemperature",
+  "n": "36"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/DBcatalog/centerAdress",
+  "n": "36"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dataTransformation",
+  "n": "35"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dataTransformationType",
+  "n": "35"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000601",
+  "n": "34"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/desolvationTemperature",
+  "n": "32"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/lightQuality",
+  "n": "31"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/processing",
+  "n": "29"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/collisionEnergy",
+  "n": "29"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Orcid",
+  "n": "29"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#hasScope",
+  "n": "29"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000424",
+  "n": "28"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000014",
+  "n": "28"
+ },
+ {
+  "p": "http://purl.jp/bio/11/meo/MEO_0000442",
+  "n": "28"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/statisticalDataAnalysis",
+  "n": "28"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia",
+  "n": "26"
+ },
+ {
+  "p": "http://www.ebi.ac.uk/efo/SRA_label",
+  "n": "26"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#seeAlso",
+  "n": "25"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#editor",
+  "n": "25"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/DBcatalog/centerUpdate",
+  "n": "25"
+ },
+ {
+  "p": "http://www.w3.org/2004/02/skos/core#closeMatch",
+  "n": "25"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/CLO_0037244",
+  "n": "25"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000106",
+  "n": "24"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/core#vertebra_number",
+  "n": "24"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#members",
+  "n": "22"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000201",
+  "n": "22"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/core#tooth_number",
+  "n": "22"
+ },
+ {
+  "p": "http://purl.jp/bio/11/meo/MEO_0000775",
+  "n": "22"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/shorthand",
+  "n": "21"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/scaling",
+  "n": "21"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000589",
+  "n": "21"
+ },
+ {
+  "p": "http://purl.org/dc/elements/1.1/description",
+  "n": "20"
+ },
+ {
+  "p": "http://www.w3.org/2000/01/rdf-schema#subclassOf",
+  "n": "20"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000015",
+  "n": "20"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/sampleExtractionProtocol",
+  "n": "20"
+ },
+ {
+  "p": "http://www.w3.org/2003/11/swrl#argument1",
+  "n": "19"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/extractConcentration",
+  "n": "19"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#complementOf",
+  "n": "19"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/analyticalTime",
+  "n": "18"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/is_metadata_tag",
+  "n": "18"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/scalingType",
+  "n": "18"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#versionIRI",
+  "n": "17"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/peakWaveLength",
+  "n": "17"
+ },
+ {
+  "p": "http://purl.org/dc/terms/issued",
+  "n": "16"
+ },
+ {
+  "p": "http://purl.org/dc/terms/modified",
+  "n": "16"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000103",
+  "n": "16"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000111",
+  "n": "16"
+ },
+ {
+  "p": "http://purl.org/dc/terms/hasVersion",
+  "n": "15"
+ },
+ {
+  "p": "http://www.w3.org/2004/02/skos/core#note",
+  "n": "15"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+  "n": "15"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/chebi/mass",
+  "n": "15"
+ },
+ {
+  "p": "http://www.w3.org/2003/11/swrl#argument2",
+  "n": "15"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/chebi/smiles",
+  "n": "15"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/chebi/charge",
+  "n": "15"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/chebi/formula",
+  "n": "15"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/concentration",
+  "n": "14"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/statisticalResultsFile",
+  "n": "14"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/chebi/inchi",
+  "n": "14"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000107",
+  "n": "14"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/chebi/inchikey",
+  "n": "14"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#default-namespace",
+  "n": "14"
+ },
+ {
+  "p": "http://www.w3.org/2003/11/swrl#propertyPredicate",
+  "n": "13"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+  "n": "13"
+ },
+ {
+  "p": "http://www.ebi.ac.uk/efo/branch_class",
+  "n": "13"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/visualisation",
+  "n": "13"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/HP_0040005",
+  "n": "13"
+ },
+ {
+  "p": "http://xmlns.com/foaf/0.1/IAO_0000115",
+  "n": "12"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#saved-by",
+  "n": "12"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/mondo#narrowMatch",
+  "n": "12"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#versionInfo",
+  "n": "12"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/mondo#broadMatch",
+  "n": "12"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000101",
+  "n": "11"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/univariateAnalysis",
+  "n": "11"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000100",
+  "n": "11"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#is_class_level",
+  "n": "11"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/OBI_0001847",
+  "n": "11"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#date",
+  "n": "11"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#editor_note",
+  "n": "11"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/sheathGas",
+  "n": "10"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/experimenter",
+  "n": "10"
+ },
+ {
+  "p": "http://www.ebi.ac.uk/efo/source_definition",
+  "n": "10"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+  "n": "10"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/extractStorage",
+  "n": "10"
+ },
+ {
+  "p": "http://purl.org/dc/elements/1.1/title",
+  "n": "9"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#inconsistent_with",
+  "n": "9"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#is_cyclic",
+  "n": "9"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000425",
+  "n": "9"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/RO_0002173",
+  "n": "8"
+ },
+ {
+  "p": "http://schema.org/comment",
+  "n": "8"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/uberon#present_in_taxon",
+  "n": "8"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#reference",
+  "n": "8"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#order",
+  "n": "8"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivalent",
+  "n": "8"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/parameters",
+  "n": "7"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/uberon#dubious_for_taxon",
+  "n": "7"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#withRestrictions",
+  "n": "7"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#cardinality",
+  "n": "7"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#onDatatype",
+  "n": "7"
+ },
+ {
+  "p": "http://www.w3.org/2000/01/rdf-schema#subpropertyOf",
+  "n": "7"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#is_transitive",
+  "n": "7"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/namespace",
+  "n": "7"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/RO_0002575",
+  "n": "6"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_0000426",
+  "n": "6"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/summarisation",
+  "n": "6"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#hasSelf",
+  "n": "6"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#is_about",
+  "n": "6"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/massAccuracy",
+  "n": "6"
+ },
+ {
+  "p": "http://purl.org/isaterms/equivalent_to",
+  "n": "5"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#status",
+  "n": "5"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/RO_0002582",
+  "n": "5"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/mondo#excluded_synonym",
+  "n": "5"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-has-subclass",
+  "n": "5"
+ },
+ {
+  "p": "http://xmlns.com/foaf/0.1/IAO_0000116",
+  "n": "5"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/CLO_0037192",
+  "n": "4"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/RO_0002561",
+  "n": "4"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#exception",
+  "n": "4"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#is_redundant",
+  "n": "4"
+ },
+ {
+  "p": "http://www.w3.org/2003/11/swrl#head",
+  "n": "4"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/flowRateCondition",
+  "n": "4"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/uberon/insect-anatomy#taxon_notes",
+  "n": "4"
+ },
+ {
+  "p": "http://xmlns.com/foaf/0.1/homepage",
+  "n": "4"
+ },
+ {
+  "p": "http://www.w3.org/2003/11/swrl#body",
+  "n": "4"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#version",
+  "n": "4"
+ },
+ {
+  "p": "http://www.w3.org/2003/11/swrl#classPredicate",
+  "n": "4"
+ },
+ {
+  "p": "http://purl.org/dc/elements/1.1/language",
+  "n": "4"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-genus-differentia",
+  "n": "4"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#is_entailed",
+  "n": "3"
+ },
+ {
+  "p": "http://www.ebi.ac.uk/efo/definition_editor",
+  "n": "3"
+ },
+ {
+  "p": "http://www.w3.org/2001/XMLSchema#minInclusive",
+  "n": "3"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#propertyDisjointWith",
+  "n": "3"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/RO_0002581",
+  "n": "3"
+ },
+ {
+  "p": "http://purl.org/dc/terms/creator",
+  "n": "3"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#conflicts_with",
+  "n": "3"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/uberon#preceding_element_is",
+  "n": "3"
+ },
+ {
+  "p": "http://spinrdf.org/spin#imports",
+  "n": "3"
+ },
+ {
+  "p": "http://xmlns.com/foaf/0.1/givenName",
+  "n": "3"
+ },
+ {
+  "p": "http://purl.org/dc/elements/1.1/license",
+  "n": "3"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#NamespaceIdRule",
+  "n": "3"
+ },
+ {
+  "p": "http://purl.org/dc/terms/license",
+  "n": "3"
+ },
+ {
+  "p": "http://www.w3.org/2001/XMLSchema#maxInclusive",
+  "n": "3"
+ },
+ {
+  "p": "http://metadb.riken.jp/db/DBcatalog/keyword",
+  "n": "3"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/uberon#is_count_of",
+  "n": "3"
+ },
+ {
+  "p": "http://semanticscience.org/resource/similarTo",
+  "n": "3"
+ },
+ {
+  "p": "http://usefulinc.com/ns/doap#mailing-list",
+  "n": "2"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#isAbout",
+  "n": "2"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#note",
+  "n": "2"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/RO_0002579",
+  "n": "2"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION",
+  "n": "2"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#contradicted_by",
+  "n": "2"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#oneOf",
+  "n": "2"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/UBPROP_0000105",
+  "n": "2"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#contributor",
+  "n": "2"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#external_class_label",
+  "n": "2"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#min_cardinality",
+  "n": "2"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/OBI_9991118",
+  "n": "2"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/CLO_0037290",
+  "n": "2"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#cases",
+  "n": "2"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#modified_from",
+  "n": "2"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#minCardinality",
+  "n": "2"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/uberon/core#RLATED",
+  "n": "2"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#stage",
+  "n": "2"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#inferred_by",
+  "n": "2"
+ },
+ {
+  "p": "http://purl.org/dc/terms/isReferencedBy",
+  "n": "2"
+ },
+ {
+  "p": "http://purl.org/dc/elements/1.1/subject",
+  "n": "2"
+ },
+ {
+  "p": "http://purl.org/dc/terms/rights",
+  "n": "2"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/is_class_level",
+  "n": "2"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/uberon/core#LATIN",
+  "n": "2"
+ },
+ {
+  "p": "http://purl.org/dc/elements/1.1/rights",
+  "n": "2"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#ontology_class",
+  "n": "2"
+ },
+ {
+  "p": "http://usefulinc.com/ns/doap#file-release",
+  "n": "2"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#src",
+  "n": "2"
+ },
+ {
+  "p": "http://usefulinc.com/ns/doap#bug-database",
+  "n": "2"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#conflicts",
+  "n": "2"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/go#creation_date",
+  "n": "2"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#hasKey",
+  "n": "2"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/UBPROP_0000006",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#min_count",
+  "n": "1"
+ },
+ {
+  "p": "http://usefulinc.com/ns/doap#homepage",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#modified_by",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/mondo#EXACTS",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/uberon/core#EXACT_PREFERRED",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#composition",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#connected_by",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#consistent_with",
+  "n": "1"
+ },
+ {
+  "p": "http://www.ebi.ac.uk/efo/example_of_usage",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/CLO_0037294",
+  "n": "1"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/plantMetabolomics/0.1/summarisationType",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/mondo#may_be_merged_into",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/core#source",
+  "n": "1"
+ },
+ {
+  "p": "http://usefulinc.com/ns/doap#GitRepository",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#souce",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "n": "1"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#incompatibleWith",
+  "n": "1"
+ },
+ {
+  "p": "http://semanticscience.org/resource/broaderThan",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#cardonality",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#count",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#is_indirect",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#quote",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.org/dc/elements/1.1/alternativeName",
+  "n": "1"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/ENVO#interoperates",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/CLO_0037275",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/mondo#pathogenesis",
+  "n": "1"
+ },
+ {
+  "p": "http://www.w3.org/2001/XMLSchema#maxExclusive",
+  "n": "1"
+ },
+ {
+  "p": "http://www.w3.org/2001/XMLSchema#minExclusive",
+  "n": "1"
+ },
+ {
+  "p": "http://usefulinc.com/ns/doap#SVNRepository",
+  "n": "1"
+ },
+ {
+  "p": "http://xmlns.com/foaf/0.1/UBPROP_0000012",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.org/dc/terms/publisher",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#component",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/uberon/refont/has_status",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#missing_from",
+  "n": "1"
+ },
+ {
+  "p": "http://www.w3.org/2002/07/owl#onDataRange",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "n": "1"
+ },
+ {
+  "p": "http://metadb.riken.jp/dc:creator",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.org/isaterms/is_a",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#region",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#logical-definition-view-relation",
+  "n": "1"
+ },
+ {
+  "p": "http://usefulinc.com/ns/doap#revision",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/mondo#related",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#autogenerated-by",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/chmo#non-mining_synonym",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#hasDefinition",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.org/dc/elements/1.1/format",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#possible_exception",
+  "n": "1"
+ },
+ {
+  "p": "http://xmlns.com/foaf/0.1/IAO_0000232",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#taxon_notes",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#proportion",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#todo",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/RO_0002560",
+  "n": "1"
+ },
+ {
+  "p": "http://metadb.riken.jp/ontology/PO#you",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/go#created_by",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#different_relation_from",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#gene",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#specialization_within",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/RO_0002423",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#laterality",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/IAO_isReversiblePropertyChain",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#not_supported_by",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-is_a",
+  "n": "1"
+ },
+ {
+  "p": "http://www.geneontology.org/formats/oboInOwl#exactly",
+  "n": "1"
+ },
+ {
+  "p": "http://purl.obolibrary.org/obo/uberon#sexually_homologous_to",
+  "n": "1"
+ },
+ {
+  "p": "http://protege.stanford.edu/plugins/owl/protege#defaultLanguage",
+  "n": "1"
+ }
+]

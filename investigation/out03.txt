@@ -1,0 +1,256 @@
+========== PMM DOMAIN GRAPH ==========
+
+### Classes used by instances (domain graph)
+# 
+SELECT ?c (COUNT(?s) AS ?n) WHERE { GRAPH <http://metadb.riken.jp/db/plantMetabolomics> { ?s a ?c } }
+GROUP BY ?c ORDER BY DESC(?n) LIMIT 50
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/File', 'n': '14026'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Measurement', 'n': '12712'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Sample', 'n': '9723'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/BiologicalSample', 'n': '9109'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/RawDataset', 'n': '8801'}
+    {'c': 'http://www.w3.org/2000/01/rdf-schema#Resource', 'n': '3107'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/MassSpectralFile', 'n': '1410'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Temperature', 'n': '288'}
+    {'c': 'http://www.w3.org/2002/07/owl#Class', 'n': '255'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/MeasurementCondition', 'n': '215'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/DataAnalysis', 'n': '208'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/MassSpectrometry', 'n': '197'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/SamplePreparation', 'n': '187'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Experiment', 'n': '175'}
+    {'c': 'http://xmlns.com/foaf/0.1/Person', 'n': '168'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/ExperimentalDesign', 'n': '166'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Chromatography', 'n': '163'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Project', 'n': '152'}
+    {'c': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property', 'n': '121'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Compound', 'n': '115'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/FlowRate', 'n': '107'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Length', 'n': '93'}
+    {'c': 'http://www.w3.org/2000/01/rdf-schema#Class', 'n': '86'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/SampleAmount', 'n': '83'}
+    {'c': 'http://www.w3.org/ns/org#Organization', 'n': '82'}
+    {'c': 'http://purl.org/ontology/biboArticle', 'n': '80'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Treatment', 'n': '77'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/AnnotationMethodDetails', 'n': '74'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/RawDataFileList', 'n': '69'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Energy', 'n': '65'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/PreProcessing', 'n': '58'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Concentration', 'n': '58'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/LightCondition', 'n': '57'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/NormalisedDataMatrixFile', 'n': '56'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/PeakFile', 'n': '55'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/AnalysedDataset', 'n': '54'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/MultivariateAnalysis', 'n': '50'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Normalisation', 'n': '42'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Voltage', 'n': '36'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/ExperimentalFactor', 'n': '35'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/DataTransformation', 'n': '35'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/StatisticalDataAnalysis', 'n': '29'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Instrument', 'n': '27'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Scaling', 'n': '21'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/SampleExtractionProtocol', 'n': '20'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Time', 'n': '18'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Humidity', 'n': '15'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/StatisticalResultsFile', 'n': '14'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Visualisation', 'n': '13'}
+    {'c': 'http://purl.org/dc/terms/FileFormat', 'n': '12'}
+    (50 shown)
+
+### Predicates in domain graph (top 70)
+# 
+SELECT ?p (COUNT(*) AS ?n) WHERE { GRAPH <http://metadb.riken.jp/db/plantMetabolomics> { ?s ?p ?o } }
+GROUP BY ?p ORDER BY DESC(?n) LIMIT 70
+    {'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'n': '62885'}
+    {'p': 'http://www.w3.org/2000/01/rdf-schema#label', 'n': '44982'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/md5', 'n': '15499'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/downloadURL', 'n': '15499'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/fileFormat', 'n': '15499'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/file', 'n': '14878'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/sampleMeasured', 'n': '12786'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/measurement', 'n': '12690'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/measurementCondition', 'n': '12413'}
+    {'p': 'http://purl.org/dc/dcmitype/identifier', 'n': '10554'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/biologicalSample', 'n': '9890'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/rawDataset', 'n': '9154'}
+    {'p': 'http://purl.obolibrary.org/obo/RO_0002162', 'n': '9108'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/speciesName', 'n': '9091'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/plantOrgan', 'n': '8872'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/samplePreparation', 'n': '8730'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/growthCondition', 'n': '7127'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/growthSupport', 'n': '6808'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/developmentStage', 'n': '6802'}
+    {'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '6415'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/growthLocation', 'n': '6284'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dayLength', 'n': '5864'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/darkLength', 'n': '5720'}
+    {'p': 'http://purl.org/dc/dcmitype/description', 'n': '5717'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/metabolismQuenchingMethod', 'n': '5312'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/sampleStorage', 'n': '4950'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/genotype', 'n': '4822'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/lightCondition', 'n': '4256'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/temperature', 'n': '4110'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/nutritionalRegime', 'n': '3957'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/cultivar', 'n': '3615'}
+    {'p': 'http://www.w3.org/2000/01/rdf-schema#seeAlso', 'n': '3153'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/samplingLocation', 'n': '2562'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/wateringRegime', 'n': '2475'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/mutant', 'n': '1933'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/samplingTime', 'n': '1876'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/nightTemperature', 'n': '1851'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dayTemperature', 'n': '1851'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/plotDesign', 'n': '1760'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/treatment', 'n': '1717'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dateOfPlantEstablishment', 'n': '1598'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/humidity', 'n': '1510'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/relevantGene', 'n': '1464'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/massSpectralFile', 'n': '1410'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/samplingDate', 'n': '1207'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/transgenicLine', 'n': '1064'}
+    {'p': 'http://qudt.org/schema/qudtunit', 'n': '753'}
+    {'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#value', 'n': '753'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/instrument', 'n': '360'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/technologyType', 'n': '348'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/compound', 'n': '338'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/software', 'n': '271'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/experimentalFactor', 'n': '268'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/technologyPlatform', 'n': '262'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/principalInvestigator', 'n': '256'}
+    {'p': 'http://xmlns.com/foaf/0.1/familyName', 'n': '255'}
+    {'p': 'http://xmlns.com/foaf/0.1/firstName', 'n': '240'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/affiliation', 'n': '233'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/massSpectrometry', 'n': '219'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dataAnalysis', 'n': '217'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/chromatography', 'n': '214'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/massAnalyser', 'n': '196'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/ionMode', 'n': '196'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/ionIsolation', 'n': '195'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/extraction', 'n': '175'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/measurementType', 'n': '175'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/experimentalDesign', 'n': '175'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/experiment', 'n': '173'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/experimentType', 'n': '168'}
+    {'p': 'http://xmlns.com/foaf/0.1/fundedBy', 'n': '162'}
+    (70 shown)
+
+### Structure graph: classes
+# 
+SELECT ?c (COUNT(?s) AS ?n) WHERE { GRAPH <http://metadb.riken.jp/structure/plantMetabolomics> { ?s a ?c } }
+GROUP BY ?c ORDER BY DESC(?n) LIMIT 30
+    (0 shown)
+
+### Structure graph: predicates
+# 
+SELECT ?p (COUNT(*) AS ?n) WHERE { GRAPH <http://metadb.riken.jp/structure/plantMetabolomics> { ?s ?p ?o } }
+GROUP BY ?p ORDER BY DESC(?n) LIMIT 40
+    (0 shown)
+
+### Named individuals in PMM ontology namespace (count by local type)
+# 
+SELECT ?c (COUNT(DISTINCT ?s) AS ?n) WHERE { ?s a ?c . FILTER(STRSTARTS(STR(?s),"http://metadb.riken.jp/ontology/plantMetabolomics/0.1/")) }
+GROUP BY ?c ORDER BY DESC(?n) LIMIT 30
+    {'c': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property', 'n': '121'}
+    {'c': 'http://www.w3.org/2000/01/rdf-schema#Class', 'n': '69'}
+    {'c': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Treatment', 'n': '2'}
+    {'c': 'http://www.w3.org/2000/01/rdf-schema#langString', 'n': '2'}
+    (4 shown)
+
+===== SAMPLE ENTITY DESCRIPTIONS =====
+
+### Example RawDataset: resources + label
+# 
+    SELECT ?s ?label WHERE { ?s a <http://metadb.riken.jp/ontology/plantMetabolomics/0.1/RawDataset> OPTIONAL { ?s <http://www.w3.org/2000/01/rdf-schema#label> ?label } } LIMIT 6
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/RawDataSet/RPMM0037_11_1', 'label': 'RPMM0037_RawData_Cheonggukjang_11_1_Bacillus licheniformis 67_36h'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/RawDataSet/RPMM0037_14_1', 'label': 'RPMM0037_RawData_Cheonggukjang_14_1_Bacillus licheniformis 67_48h'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/RawDataSet/RPMM0037_17_1', 'label': 'RPMM0037_RawData_Cheonggukjang_17_1_Bacillus licheniformis 67_60h'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/RawDataSet/RPMM0037_20_1', 'label': 'RPMM0037_RawData_Cheonggukjang_20_1_Bacillus licheniformis 67_72h'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/RawDataSet/RPMM0037_22_1', 'label': 'RPMM0037_RawData_Cheonggukjang_22_1_Bacillus amyloliquefaciens BA_12h'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/RawDataSet/RPMM0037_26_2', 'label': 'RPMM0037_RawData_Cheonggukjang_26_2_Bacillus amyloliquefaciens BA_24h'}
+    (6 shown)
+
+### Example Sample: resources + label
+# 
+    SELECT ?s ?label WHERE { ?s a <http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Sample> OPTIONAL { ?s <http://www.w3.org/2000/01/rdf-schema#label> ?label } } LIMIT 6
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Sample/RPMM0037_11_1', 'label': 'RPMM0037_sample_Cheonggukjang_11_1_Bacillus licheniformis 67_36h'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Sample/RPMM0037_14_1', 'label': 'RPMM0037_sample_Cheonggukjang_14_1_Bacillus licheniformis 67_48h'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Sample/RPMM0037_17_1', 'label': 'RPMM0037_sample_Cheonggukjang_17_1_Bacillus licheniformis 67_60h'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Sample/RPMM0037_20_1', 'label': 'RPMM0037_sample_Cheonggukjang_20_1_Bacillus licheniformis 67_72h'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Sample/RPMM0037_22_1', 'label': 'RPMM0037_sample_Cheonggukjang_22_1_Bacillus amyloliquefaciens BA_12h'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Sample/RPMM0037_26_2', 'label': 'RPMM0037_sample_Cheonggukjang_26_2_Bacillus amyloliquefaciens BA_24h'}
+    (6 shown)
+
+### Example Measurement: resources + label
+# 
+    SELECT ?s ?label WHERE { ?s a <http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Measurement> OPTIONAL { ?s <http://www.w3.org/2000/01/rdf-schema#label> ?label } } LIMIT 6
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Measurement/RPMM0037_11_1'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Measurement/RPMM0037_14_1'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Measurement/RPMM0037_17_1'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Measurement/RPMM0037_20_1'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Measurement/RPMM0037_22_1'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Measurement/RPMM0037_26_2'}
+    (6 shown)
+
+### Example File: resources + label
+# 
+    SELECT ?s ?label WHERE { ?s a <http://metadb.riken.jp/ontology/plantMetabolomics/0.1/File> OPTIONAL { ?s <http://www.w3.org/2000/01/rdf-schema#label> ?label } } LIMIT 6
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/File/RPMM0037_11_1', 'label': 'RPMM0036 Raw Data File(GC-MS): 11_1.cdf'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/File/RPMM0037_14_1', 'label': 'RPMM0036 Raw Data File(GC-MS): 14_1.cdf'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/File/RPMM0037_17_1', 'label': 'RPMM0036 Raw Data File(GC-MS): 17_1.cdf'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/File/RPMM0037_20_1', 'label': 'RPMM0036 Raw Data File(GC-MS): 20_1.cdf'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/File/RPMM0037_22_1', 'label': 'RPMM0036 Raw Data File(GC-MS): 22_1.cdf'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/File/RPMM0037_26_2', 'label': 'RPMM0036 Raw Data File(GC-MS): 26_2.cdf'}
+    (6 shown)
+
+### Example Project: resources + label
+# 
+    SELECT ?s ?label WHERE { ?s a <http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Project> OPTIONAL { ?s <http://www.w3.org/2000/01/rdf-schema#label> ?label } } LIMIT 6
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0037', 'label': 'GC-TOF-MS- and CE-TOF-MS-Based Metabolic Profiling of Cheonggukjang (Fast-Fermented Bean Paste) during Fermentation and Its Correlation with Metabolic Pathways'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0038', 'label': 'Plasma Membrane Aquaporin AqpZ Protein Is Essential for Glucose Metabolism during Photomixotrophic Growth of <i>Synechocystis</i> sp. PCC 6803'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0039', 'label': 'Succinic Semialdehyde Dehydrogenase is Involved in the Robust Patterning of Arabidopsis Leaves along the Adaxial–Abaxial Axis'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0041', 'label': 'Phospho<i>enol</i>pyruvate carboxylase intrinsically located in the chloroplast of rice plays a crucial role in ammonium assimilation'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0048', 'label': 'Combination of Liquid Chromatography-Fourier Transform Ion Cyclotron Resonance-Mass Spectrometry with <sup>13</sup>C-Labeling for Chemical Assignment of Sulfur-Containing Metabolites in Onion Bulbs'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Project/RPMM0049', 'label': 'A novel method for single-grain-based metabolic profiling of Arabidopsis seed'}
+    (6 shown)
+
+### Example Experiment: resources + label
+# 
+    SELECT ?s ?label WHERE { ?s a <http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Experiment> OPTIONAL { ?s <http://www.w3.org/2000/01/rdf-schema#label> ?label } } LIMIT 6
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Experiment/RPMM0020', 'label': 'Metabolite  analysis (GC-MS)'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Experiment/RPMM0037_GC', 'label': 'GC–MS-Based Metabolite Profiling'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Experiment/RPMM0038_GC', 'label': 'Metabolite Profiling (GC-MS)'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Experiment/RPMM0039_GC', 'label': 'Metabolite changes in GABA shunt mutants'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Experiment/RPMM0041_GC', 'label': 'Metabolome Analysis (GS-MS)'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Experiment/RPMM0048_LC', 'label': 'LC–FTICR-MS Analysis'}
+    (6 shown)
+
+### Example Compound: resources + label
+# 
+    SELECT ?s ?label WHERE { ?s a <http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Compound> OPTIONAL { ?s <http://www.w3.org/2000/01/rdf-schema#label> ?label } } LIMIT 6
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Compound/RPMM0037_alkanemix', 'label': 'Alkane standard mixtures (C8–C20 and C21–C40)'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Compound/RPMM0038_alkanemix', 'label': 'Alkane standard mixtures (C8–C20 and C21–C40)'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Compound/RPMM0039_alkanemix', 'label': 'Alkane standard mixtures (C8–C20 and C21–C40)'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Compound/RPMM0041_alkanemix', 'label': 'Alkane standard mixtures (C8–C20 and C21–C40)'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Compound/RPMM0028_alkanemix', 'label': 'Alkane standard mixtures (C8–C20 and C21–C40)'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/Compound/RPMM0036_alkanemix', 'label': 'Alkane standard mixtures (C8–C20 and C21–C40)'}
+    (6 shown)
+
+### Example DataAnalysis: resources + label
+# 
+    SELECT ?s ?label WHERE { ?s a <http://metadb.riken.jp/ontology/plantMetabolomics/0.1/DataAnalysis> OPTIONAL { ?s <http://www.w3.org/2000/01/rdf-schema#label> ?label } } LIMIT 6
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/DataAnalysis/RPMM0021_CE', 'label': 'RPMM0021_Data Analysis'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/DataAnalysis/RPMM0021_GC', 'label': 'RPMM0021_Data Analysis'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/DataAnalysis/RPMM0021_LC', 'label': 'RPMM0021_Data Analysis'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/DataAnalysis/RPMM0021_LP', 'label': 'RPMM0021_Data Analysis'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/DataAnalysis/RPMM0024_GC', 'label': 'RPMM0024_Data Analysis'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/DataAnalysis/RPMM0027_02', 'label': 'RPMM0027_Data Analysis'}
+    (6 shown)
+
+### Example MassSpectralFile: resources + label
+# 
+    SELECT ?s ?label WHERE { ?s a <http://metadb.riken.jp/ontology/plantMetabolomics/0.1/MassSpectralFile> OPTIONAL { ?s <http://www.w3.org/2000/01/rdf-schema#label> ?label } } LIMIT 6
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/MassSpectraFile/RPMM0037_01', 'label': 'RPMM0037_Mass Spectral File: 2010_0208Kim_san_NIST.txt'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/MassSpectraFile/RPMM0037_02', 'label': 'RPMM0037_Mass Spectral File: ALKANE_SERIE.txt'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/MassSpectraFile/RPMM0028_01', 'label': 'RPMM0028_Mass Spectral File: 130503_Cs_arabi_nv_NIST.txt'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/MassSpectraFile/RPMM0028_02', 'label': 'RPMM0028_Mass Spectral File: ALKANE_SERIE.txt'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/MassSpectraFile/RPMM0036_01', 'label': 'RPMM0036_Mass Spectral File: 120403_Tomato_peel_Cutin_and_WAX_02_NIST.txt'}
+    {'s': 'http://metadb.riken.jp/db/plantMetabolomics/0.1/MassSpectraFile/RPMM0036_02', 'label': 'RPMM0036_Mass Spectral File: ALKANE_SERIE.txt'}
+    (6 shown)

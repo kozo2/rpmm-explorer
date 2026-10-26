@@ -1,0 +1,1204 @@
+========== DBCatalog: registered datasets ==========
+datasets: 269
+  - http://metadb.riken.jp/db/ASSETs
+      label: ASSETs
+      desc : 二つのマウス細胞株（メラノサイト、メラノーマ）由来の完全長cDNA ライブラリから選択的スプライシングライブラリ(Alternative Splicing Library: ASL)を構築し、そこから濃縮した選択的スプラ
+  - http://metadb.riken.jp/db/ASSETs
+      label: Alternative Splicing Sequence Enriched Tags
+      desc : 二つのマウス細胞株（メラノサイト、メラノーマ）由来の完全長cDNA ライブラリから選択的スプライシングライブラリ(Alternative Splicing Library: ASL)を構築し、そこから濃縮した選択的スプラ
+  - http://metadb.riken.jp/db/ArabidopsisFullLengthcDNAClone
+      label: RIKEN Arabidopsis Full-Length Clone Database Search
+      desc : 理研ゲノム科学総合研究センター(GSC)より寄託を受けたシロイヌナズナ完全長cDNAクローン(RAFL clone)のキーワード検索ができます。キーワードには、リソース番号、NCBI Accesion Number、AG
+  - http://metadb.riken.jp/db/AtGenExpress
+      label: AtGenExpress
+      desc : 理化学研究所植物科学研究センターがMaxPlank研究所などと協力して、植物において初めて大規模なトランスクリプトームデータ（Affymetrixチップ1000枚以上）を収集して公開した「AtGenExpress」国際プ
+  - http://metadb.riken.jp/db/BRCBioresource
+      label: RIKEN BRCのバイオリソース
+      desc : マウスを中心とした実験動物、シロイヌナズナを中心とした実験植物、ヒトや動物の細胞材料、微生物・動物・ヒト由来DNA等の遺伝子材料、微生物材料等、ライフサイエンス研究の発展に 不可欠なバイオリソースを収集し、リソースの所在
+  - http://metadb.riken.jp/db/BRCBioresource
+      label: Bio-resources distributed from RIKEN BioResource Center
+      desc : マウスを中心とした実験動物、シロイヌナズナを中心とした実験植物、ヒトや動物の細胞材料、微生物・動物・ヒト由来DNA等の遺伝子材料、微生物材料等、ライフサイエンス研究の発展に 不可欠なバイオリソースを収集し、リソースの所在
+  - http://metadb.riken.jp/db/BRCDNABank
+      label: RIKEN BRC DNA BANK
+      desc : 理研・遺伝子材料開発室（旧DNA開発銀行）は、平成５年度より汎用宿主ベクター系とクローン化遺伝子を中心に収集と提供を開始しました。その後、様々な研究機関、研究者からの寄付・寄託を得て、「動物および微生物のDNA」の収集・
+  - http://metadb.riken.jp/db/BRCExperimentalAnimalDivision
+      label: RIKEN BIORESOURCE CENTER EXPERIMENTAL ANIMAL DIVISION
+      desc : バイオリソースセンターにおいて提供を行っている実験動物（マウス）の系統検索等のデータベースのポータルサイト。
+  - http://metadb.riken.jp/db/BRCPlantC101
+      label: 植物培養細胞カタログ
+      desc : 平成8年度より植物細胞開発銀行が提供をおこなっていた植物培養細胞のカタログです。植物細胞開発銀行の業務は2001年4月より理化学研究所バイオリソースセンターに移管しており、現在では実験植物開発室が行なっています。
+  - http://metadb.riken.jp/db/BRCPlantDBSearch
+      label: RIKEN BRC PLANT DATABASE SERCH - BLAST Search
+      desc : 理研BRC実験植物開発室で提供しているシロイヌナズナを中心とした植物遺伝子材料のBLAST検索ができます。
+  - http://metadb.riken.jp/db/BRCPlantG101
+      label: 植物遺伝子材料カタログ
+      desc : 平成8年度より植物細胞開発銀行より提供をおこなっていた遺伝子材料について引き続き実験植物開発室より提供を行なっています。
+  - http://metadb.riken.jp/db/BrainTx
+      label: Brain Transcriptome Database
+      desc : The Brain Transcriptome Database (BrainTx) project aims to create an integrated platform to visualize and anal
+  - http://metadb.riken.jp/db/CAGEBasicViewer
+      label: CAGE Basic Viewer
+      desc : CAGE法によって集められたRNAライブラリやCAGEライブラリなどのデータを検索、閲覧するシステムです。CAGE(Cap Analysis Gene Expression)法とは、遺伝子プロモーター領域を効率よく同定で
+  - http://metadb.riken.jp/db/CassavaFullLengthCloneDBSearch
+      label: RIKEN-CIAT Cassava Full-Length Clone Database Search
+      desc : 理化学研究所は国際熱帯農業センター（コロンビア共和国）と協力して、キャッサバ（タピオカ）完全長cDNA10,577種を同定しました。この中には、4,621種の新規キャッサバ配列と、植物のタンパク質配列と相同性のない新規配
+  - http://metadb.riken.jp/db/DBSB
+      label: DBSB
+      desc : DBSBはゲノムワイドな情報を利用した複雑な生命現象を解析するためのプラットフォームを提供します。サーカディアンリズムとホメオスタシス、細胞周期と細胞分裂、組織特性と区別、光応答とシグナル伝達などが重点分野ですが、これら
+  - http://metadb.riken.jp/db/DBSB
+      label: DataBase for Systems Biology
+      desc : DBSBはゲノムワイドな情報を利用した複雑な生命現象を解析するためのプラットフォームを提供します。サーカディアンリズムとホメオスタシス、細胞周期と細胞分裂、組織特性と区別、光応答とシグナル伝達などが重点分野ですが、これら
+  - http://metadb.riken.jp/db/DBcatalog
+      label: RIKEN Database Catalog
+      desc : 本データベースは、理化学研究所が運営するデータベースのカタログです。各カラムの虫眼鏡アイコンをクリックして検索してください。このデータはResource Description Framework (RDF) でも配信さ
+  - http://metadb.riken.jp/db/DBcatalog
+      label: 理研データベース電話帳
+      desc : 本データベースは、理化学研究所が運営するデータベースのカタログです。各カラムの虫眼鏡アイコンをクリックして検索してください。このデータはResource Description Framework (RDF) でも配信さ
+  - http://metadb.riken.jp/db/DBcatalog
+      label: RIKEN Database Directory
+      desc : 本データベースは、理化学研究所が運営するデータベースのカタログです。各カラムの虫眼鏡アイコンをクリックして検索してください。このデータはResource Description Framework (RDF) でも配信さ
+  - http://metadb.riken.jp/db/DBcatalog
+      label: RIKEN Database Catalog
+      desc : This database is a catalog of databases operated in the RIKEN institute. You can filter this table by clicking
+  - http://metadb.riken.jp/db/DBcatalog
+      label: 理研データベース電話帳
+      desc : This database is a catalog of databases operated in the RIKEN institute. You can filter this table by clicking
+  - http://metadb.riken.jp/db/DBcatalog
+      label: RIKEN Database Directory
+      desc : This database is a catalog of databases operated in the RIKEN institute. You can filter this table by clicking
+  - http://metadb.riken.jp/db/EICO
+      label: EICO DB
+      desc : ヒト、マウスの刷り込み遺伝子のデータベースです。
+  - http://metadb.riken.jp/db/EICO
+      label: Expression-based Imprint Candidate Organizer
+      desc : ヒト、マウスの刷り込み遺伝子のデータベースです。
+  - http://metadb.riken.jp/db/ENUMutagenesis
+      label: RIKEN ENU-based gene-driven mutagenesis system
+      desc : 理研ENU-based gene-driven mutagenesis system (RGDMS)は次世代版ジーンターゲッティングシステムとして一般に公開しています。新規変異マウス研究開発チームは、RGDMSを主要な業
+  - http://metadb.riken.jp/db/ENUMutants
+      label: ENU Mutants (A large Scale Mutagenesis Project in Riken GSC)
+      desc : 理研GSC ENU誘発による大規模マウス突然変異体作製プロジェクトにおいて作製されたマウスラインと関連リソースを検索できます。プロトコルやプロジェクト情報も掲載されています。
+  - http://metadb.riken.jp/db/FANTOM3
+      label: FANTOM3
+      desc : マウス全長cDNAクローンの配列に対するアノテーションのデータベースです。（転写開始位置情報として）CAGE tags, GSC ditags情報も併用されています。FANTOM3では、CAGE（Cap Analysis
+  - http://metadb.riken.jp/db/IMPC_RDF
+      label: IMPC RDF data
+      desc : RDF version of International Mouse Phenotyping Consortium (IMPC) data
+  - http://metadb.riken.jp/db/IMPC_RDF
+      label: IMPC RDFデータ
+      desc : RDF version of International Mouse Phenotyping Consortium (IMPC) data
+  - http://metadb.riken.jp/db/KTmAb
+      label: C. elegans Monoclonal Antibody Collection
+      desc : 抗体染色法を用いて、線虫の胚の各発生段階におけるタンパク質発現の細胞および組織特異性や局在を調べた画像が掲載されています。
+  - http://metadb.riken.jp/db/KTmAb
+      label: KTmAbDB
+      desc : 抗体染色法を用いて、線虫の胚の各発生段階におけるタンパク質発現の細胞および組織特異性や局在を調べた画像が掲載されています。
+  - http://metadb.riken.jp/db/LegumeTFDB
+      label: LegumeTFDB
+      desc : 主要マメ科モデル植物、ダイズ、ミヤコグサ、タルウマゴヤシのゲノム配列から転写因子と予測された遺伝子および網羅的なアノテーション情報を公開しています。現在、ダイズの転写因子モデル5,035件、ミヤコグサの転写因子モデル1,
+  - http://metadb.riken.jp/db/MAEDA
+      label: MAEDA
+      desc : シロイヌナズナの遺伝子発現データベース。 RARGE- RIKEN Arabidopsis Genome Encyclopedia：http://rarge.gsc.riken.jp/index.html のページで提供
+  - http://metadb.riken.jp/db/MAEDA
+      label: Micro Array Expression DAta search
+      desc : シロイヌナズナの遺伝子発現データベース。 RARGE- RIKEN Arabidopsis Genome Encyclopedia：http://rarge.gsc.riken.jp/index.html のページで提供
+  - http://metadb.riken.jp/db/MouseBACBrowser
+      label: Mouse BAC browser
+      desc : マウス（C57BL/6N系統）のBACライブラリーを構成するクローンの末端配列情報のデータベースです。
+  - http://metadb.riken.jp/db/NBRP_medaka
+      label: NBRP Medaka Phenotype Metadata (beta)
+      desc : 本データベースは、NBRPメダカデータベース（https://www.shigen.nig.ac.jp/medaka/）の表現型データのメタデータ（オントロジー等でアノテーションした情報共有のためのデータ）です。RDFお
+  - http://metadb.riken.jp/db/NBRP_medaka
+      label: NBRPメダカ表現型メタデータ（ベータ版）
+      desc : 本データベースは、NBRPメダカデータベース（https://www.shigen.nig.ac.jp/medaka/）の表現型データのメタデータ（オントロジー等でアノテーションした情報共有のためのデータ）です。RDFお
+  - http://metadb.riken.jp/db/NBRP_medaka
+      label: NBRP Medaka Phenotype Metadata (beta)
+      desc : This database provides metadata of NBRP medaka (https://www.shigen.nig.ac.jp/medaka/) database. Data are avail
+  - http://metadb.riken.jp/db/NBRP_medaka
+      label: NBRPメダカ表現型メタデータ（ベータ版）
+      desc : This database provides metadata of NBRP medaka (https://www.shigen.nig.ac.jp/medaka/) database. Data are avail
+  - http://metadb.riken.jp/db/NIJC
+      label: NIJC
+      desc : 神経情報基盤センター(Neuroinformatics Japan Center、略称：NIJC)は、OECD国際協力に基づくニューロインフォマティクス日本ノードとして、日本におけるニューロインフォマティクスの情報集積拠
+  - http://metadb.riken.jp/db/NIJC
+      label: Neuroinformatics Japan Center
+      desc : 神経情報基盤センター(Neuroinformatics Japan Center、略称：NIJC)は、OECD国際協力に基づくニューロインフォマティクス日本ノードとして、日本におけるニューロインフォマティクスの情報集積拠
+  - http://metadb.riken.jp/db/NRCArabidopsisActivationTDNATaggedLines
+      label: RIKEN BRC Arabidopsis activation (T-DNA)-tagged lines
+      desc : シロイヌナズナのアクティベーションタグラインは、理研バイオリソースセンター（BRC）または理研ゲノム科学総合研究センター植物ゲノム機能情報研究グループ植物変異探索研究チームにおいて、Dr. Waldenらが作成したT-D
+  - http://metadb.riken.jp/db/NeuraminidaseStructure
+      label: Neuraminidase Structure DB
+      desc : 抗インフルエンザウイルス薬開発において第1の標的タンパク質とされる、ノイラミニダーゼの立体構造予測モデル情報を格納しています。構造予測は、ホモロジーモデリング法に基づく立体構造予測のソフトウエアFAMS（ファムス）を用い
+  - http://metadb.riken.jp/db/PASMet
+      label: Prediction, Analysis and Simulation of Metabolic Reaction Networks
+      desc : PASMet is a web-based platform for predicting, modelling and analysing metabolic systems. It is a non-commerci
+  - http://metadb.riken.jp/db/PEDB
+      label: Mammalian Promoter/Enhancer Database
+      desc : 保存されているnon-coding領域転写開始領域、転写因子結合領域の情報を統合した、哺乳類のプロモーター/エンハンサーデータベースを提供しているサイトです。Gene SymbolやRefSeqID、Functionなど
+  - http://metadb.riken.jp/db/PEDB
+      label: PEDB
+      desc : 保存されているnon-coding領域転写開始領域、転写因子結合領域の情報を統合した、哺乳類のプロモーター/エンハンサーデータベースを提供しているサイトです。Gene SymbolやRefSeqID、Functionなど
+  - http://metadb.riken.jp/db/PRIDE
+      label: PRIDE
+      desc : ヒャクニチソウ(Zinnia elegans)の遺伝子発現をESTおよびマイクロアレイで解析した結果が掲載されています。ESTは各配列によるBLASTX検索結果が併記されています。また、マイクロアレイ解析結果はGeNet
+  - http://metadb.riken.jp/db/PRIDE
+      label: PSC-RIKEN Database of EST/Gene Expression
+      desc : ヒャクニチソウ(Zinnia elegans)の遺伝子発現をESTおよびマイクロアレイで解析した結果が掲載されています。ESTは各配列によるBLASTX検索結果が併記されています。また、マイクロアレイ解析結果はGeNet
+  - http://metadb.riken.jp/db/PRIMe
+      label: PRIMe
+      desc : PRIMeは、網羅的代謝産物解析の基盤を整備し、メタボローム研究を促進することを目的としたプロジェクトです。複数の研究機関と協力し、代謝産物測定のハイスループット化や、解析ツールの開発、データベースの構築を行い、生物の全
+  - http://metadb.riken.jp/db/PRIMe
+      label: Platform for RIKEN Metabolomics
+      desc : PRIMeは、網羅的代謝産物解析の基盤を整備し、メタボローム研究を促進することを目的としたプロジェクトです。複数の研究機関と協力し、代謝産物測定のハイスループット化や、解析ツールの開発、データベースの構築を行い、生物の全
+  - http://metadb.riken.jp/db/PRIMeSpinAssign
+      label: PRIMe - SpinAssign
+      desc : メタボロミクスにおいて2次元NMRは新しいアプローチです。そのため、スペクトルの測定から物質を帰属する流れは確立されていません。SpinAssignでは、標準化合物の2次元NMRスペクトルデータベースに対し、ピーク値によ
+  - http://metadb.riken.jp/db/PRIMeSpinAssign
+      label: Platform for RIKEN Metabolomics - SpinAssign
+      desc : メタボロミクスにおいて2次元NMRは新しいアプローチです。そのため、スペクトルの測定から物質を帰属する流れは確立されていません。SpinAssignでは、標準化合物の2次元NMRスペクトルデータベースに対し、ピーク値によ
+  - http://metadb.riken.jp/db/PRIMeStandardSpectrumSearch
+      label: Platform for RIKEN Metabolomics - Standard Spectrum Search
+      desc : PRIMeプロジェクトで分析された標準化合物を検索するウェブアプリケーションです。Standard Spectrum Searchでは、PRIMeプロジェクトで測定されている標準化合物を化合物名またはPubChem Co
+  - http://metadb.riken.jp/db/PRIMeStandardSpectrumSearch
+      label: PRIMe - Standard Spectrum Search
+      desc : PRIMeプロジェクトで分析された標準化合物を検索するウェブアプリケーションです。Standard Spectrum Searchでは、PRIMeプロジェクトで測定されている標準化合物を化合物名またはPubChem Co
+  - http://metadb.riken.jp/db/PhyscomitrellaPatentsFullLengthcDHACloneDBSearch
+      label: Physcomitrella patens Full-Length cDNA Clone Database Search
+      desc : 基礎生物学研究所より寄託を受けたヒメツリガネゴケ完全長cDNAクローンのキーワード検索ができます。キーワードには、リソース番号（BRC）、DDBJ accession number、clone name (NIBB)を指
+  - http://metadb.riken.jp/db/PlantHormoneResearchNetwork
+      label: RIKEN Plant Hormone Research Network
+      desc : 理化学研究所 植物科学研究センター内の植物ホルモンに関連する研究室で構成される研究ネットワークです。植物ホルモン研究の知識の蓄積や、解析プラットフォームの情報を提供しています。特に「Hormone Metabolic P
+  - http://metadb.riken.jp/db/PoplarFullLengthCloneDBSearch
+      label: Poplar Full-Length Clone Database Search
+      desc : 森林総合研究所から寄託を受けたポプラ完全長cDNAクローンのキーワード検索が可能です。キーワードには、リソース番号、NCBI Accession Number、clone nameを指定することが可能です。
+  - http://metadb.riken.jp/db/PosMed
+      label: PosMed
+      desc : 任意のキーワードから、対応する遺伝子、染色体領域、生体内相互作用を検索・推論し、そのオリジナル論文とともに出力します。まず、最初に指定キーワードをMEDLINEなどの文献データベースから全文検索し、次にヒットしたドキュメ
+  - http://metadb.riken.jp/db/PosMed
+      label: Positional MEDLINE
+      desc : 任意のキーワードから、対応する遺伝子、染色体領域、生体内相互作用を検索・推論し、そのオリジナル論文とともに出力します。まず、最初に指定キーワードをMEDLINEなどの文献データベースから全文検索し、次にヒットしたドキュメ
+  - http://metadb.riken.jp/db/RAFLcDNAs
+      label: RAFL cDNAs
+      desc : シロイヌナズナの完全長cDNA情報のデータベース。シロイヌナズナ完全長cDNAの解析を行い、機能注釈を付ける作業を進めた成果を公開しています。155,144の完全長 cDNAsの3'末端ESTsを、14,668の非冗長の
+  - http://metadb.riken.jp/db/RAFLcDNAs
+      label: RIKEN Arabidopsis Full-length cDNA
+      desc : シロイヌナズナの完全長cDNA情報のデータベース。シロイヌナズナ完全長cDNAの解析を行い、機能注釈を付ける作業を進めた成果を公開しています。155,144の完全長 cDNAsの3'末端ESTsを、14,668の非冗長の
+  - http://metadb.riken.jp/db/RAPID_psc
+      label: RAPID
+      desc : 理研植物科学研究センターで作製したシロイヌナズナトランスポゾンタグラインのデータベースです。Line Codeをキーにした検索と、表現型を選択することによる検索が可能です。Line Codeの一覧も表示できます。
+  - http://metadb.riken.jp/db/RAPID_psc
+      label: RIKEN Arabidopsis Phenome Information Database
+      desc : 理研植物科学研究センターで作製したシロイヌナズナトランスポゾンタグラインのデータベースです。Line Codeをキーにした検索と、表現型を選択することによる検索が可能です。Line Codeの一覧も表示できます。
+  - http://metadb.riken.jp/db/RAPID_rcai
+      label: Resource of Asian Primary Immunodeficiency Diseases
+      desc : アジアの原発性免疫不全症の問題の解決を目指した情報基盤リソースです。アジアでの研究者、臨床家と連携し、情報や技術を共有し、より有効な診断治療の確立を目指しています。インドのバイオインフォマティクス研究所と共同で構築し、公
+  - http://metadb.riken.jp/db/RAPID_rcai
+      label: RAPID
+      desc : アジアの原発性免疫不全症の問題の解決を目指した情報基盤リソースです。アジアでの研究者、臨床家と連携し、情報や技術を共有し、より有効な診断治療の確立を目指しています。インドのバイオインフォマティクス研究所と共同で構築し、公
+  - http://metadb.riken.jp/db/RARGE
+      label: RARGE
+      desc : シロイヌナズナに関する情報を提供しており、BLAST検索、cDNA情報、トランスポゾンの変異、マイクロアレイの結果、ゲノム情報などに加えて、Genome情報とPhenome情報を統合した情報も提供しているサイトです。
+  - http://metadb.riken.jp/db/RARGE
+      label: RIKEN Arabidopsis + Genome Encyclopedia
+      desc : シロイヌナズナに関する情報を提供しており、BLAST検索、cDNA情報、トランスポゾンの変異、マイクロアレイの結果、ゲノム情報などに加えて、Genome情報とPhenome情報を統合した情報も提供しているサイトです。
+  - http://metadb.riken.jp/db/RARTF
+      label: RARTF
+      desc : PSI-BLAST検索により検出されたシロイヌナズナの全転写因子1,978件と転写因子ファミリーの情報を扱うデータベースです。完全長cDNA配列、Ds-tagged 変異体、ファミリー間のマルチプルシークエンスアライメン
+  - http://metadb.riken.jp/db/RARTF
+      label: RIKEN Arabidopsis Transcription Factor database
+      desc : PSI-BLAST検索により検出されたシロイヌナズナの全転写因子1,978件と転写因子ファミリーの情報を扱うデータベースです。完全長cDNA配列、Ds-tagged 変異体、ファミリー間のマルチプルシークエンスアライメン
+  - http://metadb.riken.jp/db/RPOPDB
+      label: RIKEN Populus Database
+      desc : 10種類のポプラとヨーロッパクロマツのゲノム情報を収録したデータベースです。mRNAは、GenBank/DDBJ/EMBLを情報源としています。理研で収集、アノテーションしたPopulus nigra 完全長cDNA配列
+  - http://metadb.riken.jp/db/RPOPDB
+      label: RPOPDB
+      desc : 10種類のポプラとヨーロッパクロマツのゲノム情報を収録したデータベースです。mRNAは、GenBank/DDBJ/EMBLを情報源としています。理研で収集、アノテーションしたPopulus nigra 完全長cDNA配列
+  - http://metadb.riken.jp/db/RSGI
+      label: RIKEN Structural Genomics　Proteomics Initiative
+      desc : 構造プロテオミクス研究推進本部 (RSGI)では、生命活動に重要なタンパク質や、創薬などの産業に有用なタンパク質を選び出し、その構造と機能を大量かつ迅速に解析し、また、さらなる解析技術の革新を推し進めています。解析の数や
+  - http://metadb.riken.jp/db/RSGI
+      label: RSGI
+      desc : 構造プロテオミクス研究推進本部 (RSGI)では、生命活動に重要なタンパク質や、創薬などの産業に有用なタンパク質を選び出し、その構造と機能を大量かつ迅速に解析し、また、さらなる解析技術の革新を推し進めています。解析の数や
+  - http://metadb.riken.jp/db/RVD
+      label: RVD
+      desc : 理研バイオリソースセンター遺伝子材料開発室で収集している組換えレトロウイルス、組換えアデノウイルス、DNAクローンのデータベースです。組換えアデノウイルスは、研究で実際に使用されたクローンならびに当開発室で独自に開発した
+  - http://metadb.riken.jp/db/RVD
+      label: The Recombinant Virus Database
+      desc : 理研バイオリソースセンター遺伝子材料開発室で収集している組換えレトロウイルス、組換えアデノウイルス、DNAクローンのデータベースです。組換えアデノウイルスは、研究で実際に使用されたクローンならびに当開発室で独自に開発した
+  - http://metadb.riken.jp/db/RefDIC
+      label: RefDIC
+      desc : 代表的な免疫関連細胞の標準的な状態（無刺激、もしくはごく一般的な刺激後）のmRNAプロファイル、タンパク質定量プロファイルデータを閲覧、ダウンロード、解析できるデータベースです。測定プラットフォームは、Affymetri
+  - http://metadb.riken.jp/db/RefDIC
+      label: Reference Database of Immune Cells
+      desc : 代表的な免疫関連細胞の標準的な状態（無刺激、もしくはごく一般的な刺激後）のmRNAプロファイル、タンパク質定量プロファイルデータを閲覧、ダウンロード、解析できるデータベースです。測定プラットフォームは、Affymetri
+  - http://metadb.riken.jp/db/SABRE
+      label: SABRE
+      desc : 植物で最も解析が進んでいるシロイヌナズナの研究成果を集めたデータベース「TAIR」の遺伝子情報を軸（串）とし、研究グループで収集・保存・提供しているシロイヌナズナ、ヒメツリガネゴケ、ポプラ、タバコ培養細胞など6種の遺伝子
+  - http://metadb.riken.jp/db/SABRE
+      label: Systematic consolidation of Arabidopsis and other Botanical Resource
+      desc : 植物で最も解析が進んでいるシロイヌナズナの研究成果を集めたデータベース「TAIR」の遺伝子情報を軸（串）とし、研究グループで収集・保存・提供しているシロイヌナズナ、ヒメツリガネゴケ、ポプラ、タバコ培養細胞など6種の遺伝子
+  - http://metadb.riken.jp/db/SASSCQuickSearch
+      label: SASSC Quick search
+      desc : 仙台シロイヌナズナ種子保存センター（SASSC）より寄託されたシロイヌナズナ野生株・近縁種等の種子に関わるデータベースです。各エントリーには葉の表現系や開花情報、写真が掲載されています。
+  - http://metadb.riken.jp/db/SASSCQuickSearch
+      label: The　Sendai Arabidopsis Seed Stock Center
+      desc : 仙台シロイヌナズナ種子保存センター（SASSC）より寄託されたシロイヌナズナ野生株・近縁種等の種子に関わるデータベースです。各エントリーには葉の表現系や開花情報、写真が掲載されています。
+  - http://metadb.riken.jp/db/SDOP-DB
+      label: SDOP-DB
+      desc : Results of a specific experimental analysis come under the considerable influence of its own protocol differen
+  - http://metadb.riken.jp/db/SDOP-DB
+      label: SDOP-DB
+      desc : SDOP-DBはマウス表現型解析プロトコール情報の国際的共有・統合のためのデータベースとして、また、その公開支援のためのデータベースとして機能します。 さらに、SDOP-DBは、ラボ独自のプロトコールにしたがって得られた
+  - http://metadb.riken.jp/db/SSBD
+      label: SSBD
+      desc : SSBDは生命動態の定量データとその取得に利用した動画像を再利用が容易なかたちで包括的に管理することを目的に構築されたデータベースです。単一分子、細胞、細胞核などのスケールにおける様々な手法により取得された様々な生物種の
+  - http://metadb.riken.jp/db/SSBD
+      label: Systems Science of Biological Dynamics
+      desc : SSBDは生命動態の定量データとその取得に利用した動画像を再利用が容易なかたちで包括的に管理することを目的に構築されたデータベースです。単一分子、細胞、細胞核などのスケールにおける様々な手法により取得された様々な生物種の
+  - http://metadb.riken.jp/db/SchizosaccharomycesPombePostgenome
+      label: Schizosaccharomyces pombe Postgenome Database
+      desc : 理研吉田化学遺伝学研究室で得られた分裂酵母Schizosaccharomyces pombe全遺伝子のクローニングに関する情報と、全タンパク質の細胞内局在情報、画像などが閲覧できます。現在、Sanger研究所のGeneD
+  - http://metadb.riken.jp/db/SciNetS_ria10i
+      label: RIKEN RARGE Transposon Mutant
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria10i
+      label: 理研 RARGE Transposon Mutant
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria10i
+      label: RIKEN RARGE Transposon Mutant
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria10i
+      label: 理研 RARGE Transposon Mutant
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria11i
+      label: RIKEN RAFL cDNA
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria11i
+      label: 理研 RAFL cDNA
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria11i
+      label: RIKEN RAFL cDNA
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria11i
+      label: 理研 RAFL cDNA
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria12i
+      label: RIKEN RARGE Promoter
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria12i
+      label: 理研 RARGE Promoter
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria12i
+      label: RIKEN RARGE Promoter
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria12i
+      label: 理研 RARGE Promoter
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria138i
+      label: Sequence Design Project
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria138i
+      label: 配列設計プロジェクト
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria138i
+      label: Sequence Design Project
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria138i
+      label: 配列設計プロジェクト
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria143i
+      label: RIKEN Phenome Integration of Arabidopsis mutants
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria143i
+      label: シロイヌナズナ変異体フェノーム情報
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria143i
+      label: RIKEN Phenome Integration of Arabidopsis mutants
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria143i
+      label: シロイヌナズナ変異体フェノーム情報
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria151i
+      label: Codon Usage Database
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria151i
+      label: Codon Usage Database
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria160i
+  - http://metadb.riken.jp/db/SciNetS_ria172i
+      label: Regulation of Gene Modification Organism
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria172i
+      label: 遺伝子組み換え生物等の規制
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria172i
+      label: Regulation of Gene Modification Organism
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria172i
+      label: 遺伝子組み換え生物等の規制
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria187i
+      label: FANTOM4
+      desc : In FANTOM4 the focus has changed to understanding how these components work together in the context of a biolo
+  - http://metadb.riken.jp/db/SciNetS_ria187i
+      label: FANTOM4
+      desc : FANTOM4では、ゲノム上に同定された要素同士が互いにどのように作用しているかというネットワークの解明に取り組みました。ヒト白血病由来細胞株（THP-1）が単芽球様から単球様に変化する際の、転写開始点（TSS）の動態を
+  - http://metadb.riken.jp/db/SciNetS_ria197i
+  - http://metadb.riken.jp/db/SciNetS_ria223i
+      label: JavaScript Sample Programs
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria223i
+      label: JavaScriptサンプル集
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria223i
+      label: JavaScript Sample Programs
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria223i
+      label: JavaScriptサンプル集
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria224i
+      label: Plant Phenome
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria224i
+      label: 植物フェノーム
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria224i
+      label: Plant Phenome
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria224i
+      label: 植物フェノーム
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria227i
+      label: ARTADE2 predicted gene model database
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria227i
+      label: ARTADE2 predicted gene model database
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria228i
+      label: Rational Genome Design: Parts collection
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria228i
+      label: 合理的ゲノム設計：パーツ集
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria228i
+      label: Rational Genome Design: Parts collection
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria228i
+      label: 合理的ゲノム設計：パーツ集
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria233i
+      label: eVOC
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria233i
+      label:  distributed free of charge by the South African National Bioinformatics Institute
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria233i
+      label: eVOC
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria233i
+      label:  distributed free of charge by the South African National Bioinformatics Institute
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria237i
+      label: CDT-DB
+      desc : マウス小脳の生後発達ステージにおける時空間的遺伝子発現プロファイル（トランスクリプトーム）をまとめた総合的な神経科学データベースです。データは、ディファレンシャル・ディスプレイ、RT-PCR、GeneChip、cDNAマ
+  - http://metadb.riken.jp/db/SciNetS_ria237i
+      label: Cerebellar Development Transcriptome Database
+      desc : マウス小脳の生後発達ステージにおける時空間的遺伝子発現プロファイル（トランスクリプトーム）をまとめた総合的な神経科学データベースです。データは、ディファレンシャル・ディスプレイ、RT-PCR、GeneChip、cDNAマ
+  - http://metadb.riken.jp/db/SciNetS_ria262i
+      label: Experimental condition
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria262i
+      label: Experimental condition
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria266i
+      label: Integrated Database of Protein Experiments and Structures
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria266i
+      label: タンパク質実験・構造統合データベース
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria266i
+      label: Integrated Database of Protein Experiments and Structures
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria266i
+      label: タンパク質実験・構造統合データベース
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria271i
+      label: RAPID: Resource of Primary Immunodeficiency Diseases
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria271i
+      label: RAPID: Resource of Primary Immunodeficiency Diseases
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria272i
+      label: Evidence Code Description
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria272i
+      label: Evidence Code Description
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria277i
+      label: A.thaliana cDNA
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria277i
+      label: A.thaliana cDNA
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria278i
+      label: DS tag line
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria278i
+      label: DS tag line
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria281i
+      label: FANTOM eeDB
+      desc : EdgeExpressDB: regulatory interactions, such as transcriptional regulation, post-transcriptional silencing wit
+  - http://metadb.riken.jp/db/SciNetS_ria281i
+      label: FANTOM eeDB
+      desc : EdgeExpressDB: 転写制御、miRNAによる転写後抑制、タンパク質-タンパク質相互作用などの制御関係と遺伝子やプロモーター活性との関連を表示します。
+  - http://metadb.riken.jp/db/SciNetS_ria30i
+      label: Vitis vinifera gene
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria30i
+      label: Vitis vinifera gene
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria31i
+      label: Sorghum bicolor gene
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria31i
+      label: Sorghum bicolor gene
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria32i
+      label: Selaginella moellendorffii gene
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria32i
+      label: Selaginella moellendorffii gene
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria356i
+      label: Bacpedia data download project
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria356i
+      label: Bacpedia data download project
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria365i
+      label: FANTOM5 SSTAR
+      desc : FANTOM5 SSTAR (Semantic catalog of Samples, Transcription initiation And Regulators) provide a way to explore 
+  - http://metadb.riken.jp/db/SciNetS_ria365i
+      label:  Transcription initiation And Regulators) provide a way to explore samples
+      desc : FANTOM5 SSTAR (Semantic catalog of Samples, Transcription initiation And Regulators) provide a way to explore 
+  - http://metadb.riken.jp/db/SciNetS_ria37i
+      label: RIKEN Arabidopsis Activation tagging line
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria37i
+      label: RIKEN Arabidopsis Activation tagging line
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria3i
+      label: RIKEN RARGE Alternative Splicing
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria3i
+      label: 理研　RARGE Alternative Splicing
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria3i
+      label: RIKEN RARGE Alternative Splicing
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria3i
+      label: 理研　RARGE Alternative Splicing
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria42i
+      label: PDF File Repository
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria42i
+      label: PDFファイルリポジトリ
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria42i
+      label: PDF File Repository
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria42i
+      label: PDFファイルリポジトリ
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria43i
+      label: Scientific Journals
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria43i
+      label: 科学誌一覧
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria43i
+      label: Scientific Journals
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria43i
+      label: 科学誌一覧
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria46i
+      label: SSBC
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria46i
+      label: Systems and Structural Biology Center
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria46i
+      label: SSBC
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria46i
+      label: Systems and Structural Biology Center
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria5i
+      label: RIKEN Arabidopsis Transcription Factor database
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria5i
+      label: 理研　シロイヌナズナ転写因子データベース (RARTF)
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria5i
+      label: RIKEN Arabidopsis Transcription Factor database
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria5i
+      label: 理研　シロイヌナズナ転写因子データベース (RARTF)
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria61i
+      label: FOX Hunting 
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria61i
+      label: FOX Hunting 
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria92i
+      label: Supp Data
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria92i
+      label: Supp Data
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria95i
+      label: SMART
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_ria95i
+      label: SMART
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib102i
+      label: A.thaliana locus
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib102i
+      label: A.thaliana locus
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib108i
+      label: RIKEN Harima Heavy-atom Database [Data]
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib108i
+      label: RIKEN Harima Heavy-atom Database [Data]
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib109i
+      label: The Rice Gene From RAP-DB
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib109i
+      label: The Rice Gene From RAP-DB
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib123i
+      label: RIKEN Plant gene family
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib123i
+      label: 理研 Plant gene family
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib123i
+      label: RIKEN Plant gene family
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib123i
+      label: 理研 Plant gene family
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib125i
+      label: Pfam
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib125i
+      label: Pfam
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib126i
+      label: Domain
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib126i
+      label: Domain
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib127i
+      label: RIKEN Ortholog
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib127i
+      label: 理研 Ortholog
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib127i
+      label: RIKEN Ortholog
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib127i
+      label: 理研 Ortholog
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib131i
+      label: Gramene O.sativa GO Annotation [Data]
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib131i
+      label: Gramene O.sativa GO Annotation [Data]
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib218i
+      label: Populus trichocarpa (JGI v1.1)
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib218i
+      label: Populus trichocarpa (JGI v1.1)
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib220i
+      label: Bacpedia
+      desc : Available methods for the studies of protein 3-D structures include X-ray crystallography, NMR, and electron m
+  - http://metadb.riken.jp/db/SciNetS_rib220i
+      label: Bacpedia
+      desc : タンパク質の立体構造を知るためには、X線結晶構造解析、NMR装置による解析、電子顕微鏡による解析などいくつかの方法があります。播磨研究所では、このうち放射光を使ったX線結晶解析によるタンパク質の立体構造の解析を主に推進し
+  - http://metadb.riken.jp/db/SciNetS_rib32i
+      label: RIKEN Arabidopsis Phenome Information Database
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib32i
+      label: RIKEN Arabidopsis Phenome Information Database
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib35i
+      label: Bacterial Transcriptional Regulations
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib35i
+      label: Bacterial Transcriptional Regulations
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib46i
+      label: RIKEN Protein Database
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib46i
+      label: RIKEN Protein Database
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib99i
+      label: Genome Annotation
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rib99i
+      label: Genome Annotation
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rio2151i
+      label: Promoter collection for genome design
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SciNetS_rio2151i
+      label: Promoter collection for genome design
+      desc : Imported from SciNetS
+  - http://metadb.riken.jp/db/SoybeanFullLengthcDNA
+      label: Soybean Full-Length cDNA Database
+      desc : ダイズの完全長cDNAの全データを閲覧できるデータベースです。理化学研究所では世界で初めてダイズの完全長cDNAを大規模に解析し、約23,000種のcDNAの全データを公開しました。本研究では、日本の代表的なダイズ栽培品
+  - http://metadb.riken.jp/db/SoybeanTFDB
+      label: SoybeanTFDB
+      desc : ダイズの全ゲノム配列 (Glyma1.0モデル)から転写因子と予測された遺伝子および網羅的なアノテーション情報を公開しています。現在のところ61ファミリーに分類される転写因子モデル5,035件をエンコードする遺伝子座4,
+  - http://metadb.riken.jp/db/TABProject
+      label: TAB project
+      desc : 植物のモデル細胞として最も広く用いられているタバコ培養細胞株BY-2について、cDNAライブラリを構築し、EST解析を行いました。各ESTの配列や相同性検索結果を公開しています。
+  - http://metadb.riken.jp/db/TABProject
+      label: Transcription Analysis of BY-2
+      desc : 植物のモデル細胞として最も広く用いられているタバコ培養細胞株BY-2について、cDNAライブラリを構築し、EST解析を行いました。各ESTの配列や相同性検索結果を公開しています。
+  - http://metadb.riken.jp/db/TFdb
+      label: Riken Transcription Factor Database
+      desc : 本データベースはマウスの転写因子遺伝子とその関連遺伝子を収録したデータベースです。マウスゲノムの非冗長な転写因子遺伝子セットが提供されます。遺伝子名、Gene Ontology、InterPro、RefSeqと、cDNA
+  - http://metadb.riken.jp/db/TFdb
+      label: TFdb
+      desc : 本データベースはマウスの転写因子遺伝子とその関連遺伝子を収録したデータベースです。マウスゲノムの非冗長な転写因子遺伝子セットが提供されます。遺伝子名、Gene Ontology、InterPro、RefSeqと、cDNA
+  - http://metadb.riken.jp/db/THzSpectral
+      label: THz spectral database
+      desc : アミノ酸、ポリマー、農薬、医薬品など164種類の有機材料と、半導体、誘電体を含む18種類の無機材料について、テラヘルツ帯の透過スペクトルを掲載したデータベースです。カーボンナノチューブ、シリコンをはじめとする産業的に重要
+  - http://metadb.riken.jp/db/TobaccoESTClonesFromBY2CellsDBSearch
+      label: Tobacco EST clones from BY-2 cells Database Search
+      desc : 理研植物科学研究センター(PSC)より寄託を受けたタバコBY-2培養細胞ESTクローンのキーワード検索ができます。キーワードには、リソース番号（BRC）、BY-2 EST clone name、DDBJ accessio
+  - http://metadb.riken.jp/db/TransposonTagLineDBSearch
+      label: Transposon tag line Database Search
+      desc : 理研ゲノム科学総合研究センター植物ゲノム機能情報研究グループ植物変異開発研究チームより寄託を受けたトランスポゾンタグライン（第１および第５染色体上に存在するDs因子の転移により挿入変異が生じたライン）の検索ページです。本
+  - http://metadb.riken.jp/db/TriFLDB
+      label: TriFLDB
+      desc : コムギ連作物であるコムギとオオムギの全長コード配列とアノテーション情報を提供しています（コムギ8,530件、オオムギ7,341件）。各全長コード配列につき、様々な配列データベースに対するブラストの結果や、シロイヌナズナ、
+  - http://metadb.riken.jp/db/TriFLDB
+      label: Triticeae Full-Length CDS Database
+      desc : コムギ連作物であるコムギとオオムギの全長コード配列とアノテーション情報を提供しています（コムギ8,530件、オオムギ7,341件）。各全長コード配列につき、様々な配列データベースに対するブラストの結果や、シロイヌナズナ、
+  - http://metadb.riken.jp/db/TriMEDB
+      label: TriMEDB
+      desc : 小麦、大麦の遺伝子解析によりゲノム上の位置遺伝子情報が判明している約3,500遺伝子の情報を統合したデータベースです。cDNAに由来する遺伝子マーカーに注目し、公開されている遺伝子地図情報を収集、統合しました。各遺伝子マ
+  - http://metadb.riken.jp/db/TriMEDB
+      label: Triticeae Mapped EST Database
+      desc : 小麦、大麦の遺伝子解析によりゲノム上の位置遺伝子情報が判明している約3,500遺伝子の情報を統合したデータベースです。cDNAに由来する遺伝子マーカーに注目し、公開されている遺伝子地図情報を収集、統合しました。各遺伝子マ
+  - http://metadb.riken.jp/db/WDDD
+      label: WDDD
+      desc : 線虫の初期胚において、野生型と各胚発生必須遺伝子の機能をRNAiで阻害した場合の細胞分裂動態データを、4次元微分干渉顕微鏡（DIC）とコンピュータ画像処理を用いて収集しました。これは動物の発生過程を理解する上で重要な情報
+  - http://metadb.riken.jp/db/WDDD
+      label: Worm Developmental Dynamics Database
+      desc : 線虫の初期胚において、野生型と各胚発生必須遺伝子の機能をRNAiで阻害した場合の細胞分裂動態データを、4次元微分干渉顕微鏡（DIC）とコンピュータ画像処理を用いて収集しました。これは動物の発生過程を理解する上で重要な情報
+  - http://metadb.riken.jp/db/antibioticsNnaturalCompounds
+      label: New Natural Compounds purified in Antibiotics Lab, RIKEN
+      desc : 理化学研究所長田抗生物質研究室で精製された新規天然化合物一覧です。化合物名、生物活性、産生生物、参考文献、化学構造が収録されています。
+  - http://metadb.riken.jp/db/artade
+      label: ARTADE
+      desc : シロイヌナズナのゲノムワイドタイリングアレイデータのアノテーションのためのプログラムです。シロイヌナズナのタイリングアレイデータにATRADEを適用した結果をデータベース化し、Webから検索できるようになっています。アカ
+  - http://metadb.riken.jp/db/artade
+      label: ARabidopsis Tiling-Array-based Detection of Exons
+      desc : シロイヌナズナのゲノムワイドタイリングアレイデータのアノテーションのためのプログラムです。シロイヌナズナのタイリングアレイデータにATRADEを適用した結果をデータベース化し、Webから検索できるようになっています。アカ
+  - http://metadb.riken.jp/db/biolod
+  - http://metadb.riken.jp/db/chloroplastFunction
+      label: Chloroplast Function Database
+      desc : シロイヌナズナの葉緑体タンパク質を産生すると予想した遺伝子に、トランスポゾンまたはT-DNAを挿入して破壊したタグラインを大規模に収集し、植物体の形態変化を育成プレート上で観察・分類した結果、異常な表現型を示した変異体の
+  - http://metadb.riken.jp/db/chloroplastFunction
+      label: A database of mutant phenotypes of nuclear-encoded chloroplast proteins
+      desc : シロイヌナズナの葉緑体タンパク質を産生すると予想した遺伝子に、トランスポゾンまたはT-DNAを挿入して破壊したタグラインを大規模に収集し、植物体の形態変化を育成プレート上で観察・分類した結果、異常な表現型を示した変異体の
+  - http://metadb.riken.jp/db/clstMultimodalMicrostruct
+      label: RIKEN CLST Multimodal Microstruct DB for SEM imaging of Rat Liver
+      desc : This database provides images and their metadata of rat liver tissue obtained by scanning electron microscopy 
+  - http://metadb.riken.jp/db/clstMultimodalMicrostruct
+      label: 理研CLSTマルチモダル微細構造データベース（走査型電子顕微鏡によるラット肝臓イメージング）
+      desc : This database provides images and their metadata of rat liver tissue obtained by scanning electron microscopy 
+  - http://metadb.riken.jp/db/clstMultimodalMicrostruct
+      label: RIKEN CLST Multimodal Microstruct DB for SEM imaging of Rat Liver
+      desc : 本データベースは、走査型電子顕微鏡（SEM）で撮像されたラット肝臓組織の画像やそれらのメタデータを提供する。SEM撮像に関わるフェノタイプデータ、バイオサンプル、イメージングや実験条件のメタデータが閲覧できる。本データベ
+  - http://metadb.riken.jp/db/clstMultimodalMicrostruct
+      label: 理研CLSTマルチモダル微細構造データベース（走査型電子顕微鏡によるラット肝臓イメージング）
+      desc : 本データベースは、走査型電子顕微鏡（SEM）で撮像されたラット肝臓組織の画像やそれらのメタデータを提供する。SEM撮像に関わるフェノタイプデータ、バイオサンプル、イメージングや実験条件のメタデータが閲覧できる。本データベ
+  - http://metadb.riken.jp/db/hatodas
+      label: HATODAS
+      desc : タンパク質のX線結晶解析に用いられる重原子誘導体の作成支援を目的としたデータベースシステムです。既知の重原子誘導体をデータベース化しており、結晶構造解析を行いたいタンパク質のアミノ酸配列を入力すると、標識物質として使える
+  - http://metadb.riken.jp/db/hatodas
+      label: Heavy-atom Database System
+      desc : タンパク質のX線結晶解析に用いられる重原子誘導体の作成支援を目的としたデータベースシステムです。既知の重原子誘導体をデータベース化しており、結晶構造解析を行いたいタンパク質のアミノ酸配列を入力すると、標識物質として使える
+  - http://metadb.riken.jp/db/mgi_rdf
+      label: MGI RDFデータ　ベータ版
+      desc : RDF version of partial data from Mouaw Genome Informatics
+  - http://metadb.riken.jp/db/mgi_rdf
+      label: RDF of MGI data (beta version)
+      desc : RDF version of partial data from Mouaw Genome Informatics
+  - http://metadb.riken.jp/db/naturalCompoundsBank
+      label: Chemical Bank
+      desc : 理化学研究所・長田抗生物質研究室では、研究室内外で合成された化合物や、放線菌の二次代謝産物をはじめとする天然物の収集・保管、機器分析スペクトルなどをデータベース化し、これらを提供するシステムの構築を行っています。登録され
+  - http://metadb.riken.jp/db/naturalCompoundsBank
+      label: 天然化合物バンク
+      desc : 理化学研究所・長田抗生物質研究室では、研究室内外で合成された化合物や、放線菌の二次代謝産物をはじめとする天然物の収集・保管、機器分析スペクトルなどをデータベース化し、これらを提供するシステムの構築を行っています。登録され
+  - http://metadb.riken.jp/db/omicBrowse
+      label: OmicBrowse
+      desc : ゲノム上に存在する遺伝子などのさまざまなアノテーション情報に関する多数のデータベース群を同時に検索して、その結果を可視化する機能を持ちます。データサーバーとビューアーから構成されており、データサーバーは強力なデータ統合機
+  - http://metadb.riken.jp/db/phenopub
+      label: PhenoPub
+      desc : We have developed a database system named "Pheno-Pub" to support a series of data handling and publication tas
+  - http://metadb.riken.jp/db/protein3000
+      label: Database for Protein-3000 Project
+      desc : 文部科学省「タンパク3000プロジェクト」の現状と成果をまとめたものです。ゲノム創薬の実現等を目指し、平成１４年度からの５年間でタンパク質の全基本構造の１/３（約３０００種）以上のタンパク質の構造及びその機能を解析し、特
+  - http://metadb.riken.jp/db/read
+      label: READ
+      desc : 理研マウスcDNAマイクロアレイで取得した遺伝子発現データのデータベースです。実験情報とデータが登録されており、Web画面上でデータの抽出やグラフィカル表示機能を提供しています。
+  - http://metadb.riken.jp/db/read
+      label: Riken Expression Array Database
+      desc : 理研マウスcDNAマイクロアレイで取得した遺伝子発現データのデータベースです。実験情報とデータが登録されており、Web画面上でデータの抽出やグラフィカル表示機能を提供しています。
+  - http://metadb.riken.jp/db/rikenbrc_cell
+      label: 理研バイオリソースセンター細胞カタログ
+      desc : 理研・細胞材料開発室では研究者が開発した細胞材料を収集し、培養をして提供していますが、最も重要なミッションは細胞材料の標準化です。当室では、マイコプラズマ汚染がなく、かつ、他の細胞との取り違えのない細胞材料の提供体制を完
+  - http://metadb.riken.jp/db/rikenbrc_cell
+      label: Cell search system
+      desc : 理研・細胞材料開発室では研究者が開発した細胞材料を収集し、培養をして提供していますが、最も重要なミッションは細胞材料の標準化です。当室では、マイコプラズマ汚染がなく、かつ、他の細胞との取り違えのない細胞材料の提供体制を完
+  - http://metadb.riken.jp/db/rikenbrc_cell
+      label: RIKEN BRC Cell Bank
+      desc : 理研・細胞材料開発室では研究者が開発した細胞材料を収集し、培養をして提供していますが、最も重要なミッションは細胞材料の標準化です。当室では、マイコプラズマ汚染がなく、かつ、他の細胞との取り違えのない細胞材料の提供体制を完
+  - http://metadb.riken.jp/db/rikenbrc_jcm_microbe
+      label: JCM
+      desc : 理研・微生物材料開発室は、 Japan Collection of Microorganisms（JCM）として発足し、1981年より微生物株の収集・保存・提供を行う微生物系統保存事業を実施してきました。2004年のRI
+  - http://metadb.riken.jp/db/rikenbrc_jcm_microbe
+      label: RIKEN BRC Japan Collection of Microorganisms
+      desc : 理研・微生物材料開発室は、 Japan Collection of Microorganisms（JCM）として発足し、1981年より微生物株の収集・保存・提供を行う微生物系統保存事業を実施してきました。2004年のRI
+  - http://metadb.riken.jp/db/rikenbrc_jcm_microbe
+      label: 理研バイオリソースセンター微生物株
+      desc : 理研・微生物材料開発室は、 Japan Collection of Microorganisms（JCM）として発足し、1981年より微生物株の収集・保存・提供を行う微生物系統保存事業を実施してきました。2004年のRI
+  - http://metadb.riken.jp/db/rikenbrc_mouse
+      label: Animal Search System
+      desc : ヒトのモデル動物として遺伝子機能の解明、病気の治療法や薬の開発に役立つマウスについて、その系統の収集・保存・提供を実施しています。このマウス系統検索では、フリーキーワード、系統名、遺伝子名、RBRC NOを指定することが
+  - http://metadb.riken.jp/db/rikenbrc_mouse
+      label: RIKEN BRC Mouse Catalog
+      desc : ヒトのモデル動物として遺伝子機能の解明、病気の治療法や薬の開発に役立つマウスについて、その系統の収集・保存・提供を実施しています。このマウス系統検索では、フリーキーワード、系統名、遺伝子名、RBRC NOを指定することが
+  - http://metadb.riken.jp/db/rikenbrc_mouse
+      label: 理研BRCマウスカタログ
+      desc : ヒトのモデル動物として遺伝子機能の解明、病気の治療法や薬の開発に役立つマウスについて、その系統の収集・保存・提供を実施しています。このマウス系統検索では、フリーキーワード、系統名、遺伝子名、RBRC NOを指定することが
+
+========== properties used on catalog datasets ==========
+
+### catalog predicates
+# SELECT ?p (COUNT(*) AS ?n) WHERE {
+  GRAPH <http://metadb.riken.jp/db/DBCatalog> { ?s ?p ?o } } GROUP BY ?p ORDER BY DESC(?n) LIMIT 40
+    {'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'n': '305'}
+    {'p': 'http://www.w3.org/2000/01/rdf-schema#label', 'n': '268'}
+    {'p': 'http://purl.org/dc/elements/1.1/publisher', 'n': '256'}
+    {'p': 'http://purl.org/dc/terms/description', 'n': '177'}
+    {'p': 'http://xmlns.com/foaf/0.1/page', 'n': '166'}
+    {'p': 'http://purl.org/dc/terms/title', 'n': '152'}
+    {'p': 'http://xmlns.com/foaf/0.1/primaryTopic', 'n': '146'}
+    {'p': 'http://purl.org/dc/terms/language', 'n': '145'}
+    {'p': 'http://www.w3.org/ns/dcat#organism', 'n': '118'}
+    {'p': 'http://www.w3.org/ns/dcat#theme', 'n': '107'}
+    {'p': 'http://purl.org/net/cito/citesAsAuthority', 'n': '100'}
+    {'p': 'http://metadb.riken.jp/db/DBcatalog/metadata_link', 'n': '60'}
+    {'p': 'http://purl.org/dc/terms/alternative', 'n': '48'}
+    {'p': 'http://metadb.riken.jp/db/DBcatalog/centerDescription', 'n': '42'}
+    {'p': 'http://metadb.riken.jp/db/DBcatalog/centerAdress', 'n': '36'}
+    {'p': 'http://metadb.riken.jp/db/DBcatalog/centerUpdate', 'n': '25'}
+    {'p': 'http://www.w3.org/2004/02/skos/core#altLabel', 'n': '19'}
+    {'p': 'http://purl.org/dc/elements/1.1/description', 'n': '4'}
+    {'p': 'http://metadb.riken.jp/db/DBcatalog/keyword', 'n': '3'}
+    {'p': 'http://www.w3.org/2000/01/rdf-schema#subclassOf', 'n': '1'}
+    (20 shown)
+
+========== SciNetS_ria269i: what is it? ==========
+
+### classes
+# SELECT ?c (COUNT(?s) AS ?n) WHERE { GRAPH <http://metadb.riken.jp/db/SciNetS_ria269i> { ?s a ?c } }
+  GROUP BY ?c ORDER BY DESC(?n) LIMIT 20
+    {'c': 'http://metadb.riken.jp/db/SciNetS_ria269i/cria269s1i', 'n': '181900'}
+    {'c': 'http://www.w3.org/2000/01/rdf-schema#Resource', 'n': '181900'}
+    {'c': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource', 'n': '36184'}
+    {'c': 'http://metadb.riken.jp/db/SciNetS_rib102i/crib102u0i', 'n': '28395'}
+    {'c': 'http://www.w3.org/2002/07/owl#Class', 'n': '5125'}
+    {'c': 'http://metadb.riken.jp/db/SciNetS_ria390i/cria390u1i', 'n': '19'}
+    {'c': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property', 'n': '12'}
+    {'c': 'http://metadb.riken.jp/db', 'n': '1'}
+    (8 shown)
+
+### sample subjects + labels
+# SELECT ?s ?label WHERE { GRAPH <http://metadb.riken.jp/db/SciNetS_ria269i> { ?s a ?c }
+  OPTIONAL { ?s <http://www.w3.org/2000/01/rdf-schema#label> ?label } } LIMIT 12
+    {'s': 'http://metadb.riken.jp/db/SciNetS_ria269i/pria269u1i', 'label': '遺伝子'}
+    {'s': 'http://metadb.riken.jp/db/SciNetS_ria269i/pria269u1i', 'label': 'locus'}
+    {'s': 'http://metadb.riken.jp/db/SciNetS_ria269i/pria269u3i', 'label': 'relationshipType'}
+    {'s': 'http://metadb.riken.jp/db/SciNetS_ria269i/pria269u3i', 'label': '関係の種類'}
+    {'s': 'http://metadb.riken.jp/db/SciNetS_ria269i/pria269u4i', 'label': 'GO'}
+    {'s': 'http://metadb.riken.jp/db/SciNetS_ria269i/pria269u5i', 'label': 'GOslimTerm'}
+    {'s': 'http://metadb.riken.jp/db/SciNetS_ria269i/pria269u6i', 'label': 'reference'}
+    {'s': 'http://metadb.riken.jp/db/SciNetS_ria269i/pria269u6i', 'label': '参照'}
+    {'s': 'http://metadb.riken.jp/db/SciNetS_ria269i/pria269u2i', 'label': 'evidenceCode'}
+    {'s': 'http://metadb.riken.jp/db/SciNetS_ria269i/pria269u2i', 'label': '根拠'}
+    {'s': 'http://database.riken.jp/sw/item/pria269u1i'}
+    {'s': 'http://database.riken.jp/sw/item/pria269u2i'}
+    (12 shown)
+
+### what labels exist
+# SELECT ?label (COUNT(*) AS ?n) WHERE { GRAPH <http://metadb.riken.jp/db/SciNetS_ria269i> {
+  ?s <http://www.w3.org/2000/01/rdf-schema#label> ?label } } GROUP BY ?label ORDER BY DESC(?n) LIMIT 15
+    {'label': 'TAIR GO Annotation', 'n': '2'}
+    {'label': 'AT4G00350:involved in:transmembrane transport', 'n': '1'}
+    {'label': 'AT4G02780:has:terpene synthase activity', 'n': '1'}
+    {'label': 'AT4G08350:functions as:structural constituent of ribosome', 'n': '1'}
+    {'label': 'AT4G14180:involved in:meiotic chromosome segregation', 'n': '1'}
+    {'label': 'AT4G24190:involved in:Golgi organization', 'n': '1'}
+    {'label': 'AT4G27620:has:molecular_function', 'n': '1'}
+    {'label': 'AT4G27990:involved in:biological_process', 'n': '1'}
+    {'label': 'AT4G28180:located in:nucleus', 'n': '1'}
+    {'label': 'AT4G29010:has:oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor', 'n': '1'}
+    {'label': 'AT4G32010:involved in:embryonic pattern specification', 'n': '1'}
+    {'label': 'AT5G07060:functions in:RNA binding', 'n': '1'}
+    {'label': 'AT5G19620:involved in:embryo development ending in seed dormancy', 'n': '1'}
+    {'label': 'AT5G22950:involved in:vesicle-mediated transport', 'n': '1'}
+    {'label': 'AT5G23780:involved in:double-strand break repair', 'n': '1'}
+    (15 shown)
+
+========== SciNetS_ria390i ==========
+
+### classes
+# SELECT ?c (COUNT(?s) AS ?n) WHERE {
+  GRAPH <http://metadb.riken.jp/db/SciNetS_ria390i> { ?s a ?c } } GROUP BY ?c ORDER BY DESC(?n) LIMIT 15
+    {'c': 'http://metadb.riken.jp/db/SciNetS_ria390i/cria390u1i', 'n': '21'}
+    {'c': 'http://www.w3.org/2000/01/rdf-schema#Resource', 'n': '21'}
+    {'c': 'http://www.w3.org/2002/07/owl#Class', 'n': '2'}
+    {'c': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource', 'n': '1'}
+    {'c': 'http://metadb.riken.jp/db', 'n': '1'}
+    (5 shown)
+
+========== other db graphs ==========
+
+--- brc_jcm
+
+### classes
+# SELECT ?c (COUNT(?s) AS ?n) WHERE {
+      GRAPH <http://metadb.riken.jp/db/brc_jcm> { ?s a ?c } } GROUP BY ?c ORDER BY DESC(?n) LIMIT 12
+    (0 shown)
+
+--- brc_nbrp_rat
+
+### classes
+# SELECT ?c (COUNT(?s) AS ?n) WHERE {
+      GRAPH <http://metadb.riken.jp/db/brc_nbrp_rat> { ?s a ?c } } GROUP BY ?c ORDER BY DESC(?n) LIMIT 12
+    (0 shown)
+
+--- brainMindsTest
+
+### classes
+# SELECT ?c (COUNT(?s) AS ?n) WHERE {
+      GRAPH <http://metadb.riken.jp/db/brainMindsTest> { ?s a ?c } } GROUP BY ?c ORDER BY DESC(?n) LIMIT 12
+    (0 shown)
+
+========== ONTOLOGY GRAPH PROVENANCE ==========
+
+### version/date/licence predicates across ontology graphs
+# 
+SELECT ?g ?p (COUNT(*) AS ?n) WHERE {
+  GRAPH ?g { ?s ?p ?o }
+  FILTER(?p IN (<http://www.w3.org/2002/07/owl#versionInfo>,
+                <http://www.w3.org/2002/07/owl#versionIRI>,
+                <http://purl.org/dc/terms/date>,
+                <http://purl.org/dc/terms/license>,
+                <http://purl.org/dc/elements/1.1/date>,
+                <http://www.w3.org/2000/01/rdf-schema#comment>))
+} GROUP BY ?g ?p ORDER BY DESC(?n) LIMIT 40
+    {'g': 'http://metadb.riken.jp/db/lexvo_org', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '49561'}
+    {'g': 'http://metadb.riken.jp/ontology/CLO', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '33758'}
+    {'g': 'http://metadb.riken.jp/ontology/EFO', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '10643'}
+    {'g': 'http://metadb.riken.jp/db/plantMetabolomics', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '6415'}
+    {'g': 'http://metadb.riken.jp/ontology/GO', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '5218'}
+    {'g': 'http://metadb.riken.jp/ontology/UBERON', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '1023'}
+    {'g': 'http://metadb.riken.jp/ontology/SO', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '564'}
+    {'g': 'http://metadb.riken.jp/ontology/CL', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '475'}
+    {'g': 'http://metadb.riken.jp/ontology/MP', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '395'}
+    {'g': 'http://metadb.riken.jp/ontology/MPATH', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '125'}
+    {'g': 'http://metadb.riken.jp/ontology/ZFA', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '116'}
+    {'g': 'http://metadb.riken.jp/ontology/CMO', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '97'}
+    {'g': 'http://metadb.riken.jp/ontology/PATO', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '94'}
+    {'g': 'http://metadb.riken.jp/ontology/MFO', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '52'}
+    {'g': 'http://metadb.riken.jp/ontology/RO', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '46'}
+    {'g': 'http://metadb.riken.jp/ontology/CHMO', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '38'}
+    {'g': 'http://metadb.riken.jp/ontology/EO', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '34'}
+    {'g': 'http://metadb.riken.jp/ontology/manufacturing', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '31'}
+    {'g': 'http://metadb.riken.jp/ontology/EFO', 'p': 'http://purl.org/dc/elements/1.1/date', 'n': '31'}
+    {'g': 'http://metadb.riken.jp/ontology/FALDO', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '27'}
+    {'g': 'http://metadb.riken.jp/ontology/MCCV', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '25'}
+    {'g': 'http://metadb.riken.jp/ontology/UO', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '18'}
+    {'g': 'http://metadb.riken.jp/ontology/MEO', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '16'}
+    {'g': 'http://metadb.riken.jp/ontology/MP', 'p': 'http://purl.org/dc/elements/1.1/date', 'n': '14'}
+    {'g': 'http://metadb.riken.jp/ontology/STATO', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '14'}
+    {'g': 'http://metadb.riken.jp/ontology/MMO', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '13'}
+    {'g': 'http://metadb.riken.jp/ontology/BFO', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '8'}
+    {'g': 'http://metadb.riken.jp/ontology/CL', 'p': 'http://purl.org/dc/elements/1.1/date', 'n': '8'}
+    {'g': 'http://metadb.riken.jp/ontology/CSSO', 'p': 'http://purl.org/dc/elements/1.1/date', 'n': '5'}
+    {'g': 'http://metadb.riken.jp/ontology/ChEBI', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '5'}
+    {'g': 'http://metadb.riken.jp/ontology/NCBITaxon', 'p': 'http://www.w3.org/2000/01/rdf-schema#comment', 'n': '4'}
+    {'g': 'http://metadb.riken.jp/ontology/CLO', 'p': 'http://purl.org/dc/elements/1.1/date', 'n': '3'}
+    {'g': 'http://metadb.riken.jp/ontology/EFO', 'p': 'http://www.w3.org/2002/07/owl#versionIRI', 'n': '1'}
+    {'g': 'http://metadb.riken.jp/ontology/CL', 'p': 'http://www.w3.org/2002/07/owl#versionIRI', 'n': '1'}
+    {'g': 'http://metadb.riken.jp/ontology/ORDO', 'p': 'http://www.w3.org/2002/07/owl#versionIRI', 'n': '1'}
+    {'g': 'http://metadb.riken.jp/ontology/STATO', 'p': 'http://www.w3.org/2002/07/owl#versionInfo', 'n': '1'}
+    {'g': 'http://metadb.riken.jp/ontology/CSSO', 'p': 'http://www.w3.org/2002/07/owl#versionInfo', 'n': '1'}
+    {'g': 'http://metadb.riken.jp/ontology/ISA', 'p': 'http://www.w3.org/2002/07/owl#versionInfo', 'n': '1'}
+    {'g': 'http://metadb.riken.jp/ontology/GO', 'p': 'http://purl.org/dc/elements/1.1/date', 'n': '1'}
+    {'g': 'http://metadb.riken.jp/ontology/BFO', 'p': 'http://www.w3.org/2002/07/owl#versionIRI', 'n': '1'}
+    (40 shown)
+
+========== PMM ONTOLOGY SCHEMA (classes with en/ja labels) ==========
+PMM classes defined: 89
+  db                                     en=Metadata in RIKEN Meta database                ja=メタデータ
+  RIKENorganization                      en=RIKEN organization                             ja=理研内組織／センター
+  AnalysedDataset                        en=Analysed Dataset                               ja=解析結果データセット
+  AnnotationMethodDetails                en=Annotation Method Details                      ja=アノテーション方法の詳細
+  BiologicalSample                       en=Biological Sample                              ja=生物サンプル
+  Chromatography                         en=Chromatography                                 ja=クロマトグラフィ
+  Compound                               en=Compound                                       ja=化合物
+  CompressedFile                         en=Compressed File                                ja=圧縮ファイル
+  Concentration                          en=Concentration                                  ja=濃度
+  DataAnalysis                           en=DataAnalysis                                   ja=データ解析
+  DataTransformation                     en=Data Transformation                            ja=データ変換
+  DataTransformationType                 en=Data Transformation Type                       ja=データ変換の種類
+  Dataset                                en=Dataset                                        ja=データセット
+  Energy                                 en=Energy                                         ja=エネルギー
+  ExperimenalFactor                      en=None                                           ja=None
+  Experiment                             en=Experiment                                     ja=実験
+  ExperimentType                         en=Experiment Type                                ja=実験の種類
+  ExperimentalDesign                     en=Experiment Design                              ja=実験デザイン
+  ExperimentalFactor                     en=Experimental Factor                            ja=実験因子
+  File                                   en=File                                           ja=ファイル
+  FlowRate                               en=Flow Rate                                      ja=流量
+  Folder                                 en=Folder                                         ja=フォルダ
+  Humidity                               en=Humidity                                       ja=湿度
+  Instrument                             en=Instrument                                     ja=機器
+  Length                                 en=Length                                         ja=長さ
+  LightCondition                         en=Light Condition                                ja=光条件
+  MassAnalyser                           en=MassAnalyser                                   ja=質量分析計
+  MassSpectometry                        en=MassSpectometry                                ja=質量分析
+  MassSpectralFile                       en=Mass Spectral File                             ja=質量分析スペクトルファイル
+  MassSpectrometry                       en=None                                           ja=None
+  Material                               en=None                                           ja=None
+  Measurement                            en=Measurement                                    ja=測定
+  MeasurementCondition                   en=Measurement Condition                          ja=測定条件
+  MeasurementType                        en=Measurement Type                               ja=測定の種類
+  Metarial                               en=Material                                       ja=材料
+  MultivariateAnalysis                   en=Multivariate Analysis                          ja=多変量解析
+  Normalisation                          en=Normalisation                                  ja=正規化・標準化
+  NormalisationDataMatrixFile            en=Normalisation Data Matrix File                 ja=正規化データ行列ファイル
+  NormalisationType                      en=Normalisation Type                             ja=正規化・標準化の種類
+  Orcid                                  en=ORCID                                          ja=ORCID
+  Organization                           en=Organization                                   ja=組織
+  PeakFile                               en=Peak File                                      ja=ピークファイル
+  Person                                 en=Person                                         ja=人物
+  PlantOrgan                             en=Plant Organ                                    ja=植物器官
+  PlantTissue                            en=Plant Tissue                                   ja=植物組織
+  PreProcessing                          en=Pre-processing                                 ja=前処理
+  Pressure                               en=Pressure                                       ja=圧力
+  Project                                en=Project                                        ja=プロジェクト
+  RawDataset                             en=Raw Dataset                                    ja=生データセット
+  RowDataset                             en=None                                           ja=None
+  Sample                                 en=Sample                                         ja=サンプル
+  SampleAmount                           en=Sample Amount                                  ja=サンプル量
+  SampleExtractionProtocol               en=Sample Extraction Protocol                     ja=サンプル抽出プロトコル
+  SampleExtractionProtorol               en=None                                           ja=None
+  SamplePreparation                      en=Sample Preparation                             ja=サンプル調製
+  Scaling                                en=Scaling                                        ja=スケーリング
+  ScalingType                            en=Scaling Type                                   ja=スケーリングの種類
+  StatisticalDataAnalsis                 en=Statistical Data Analysis                      ja=統計的データ解析
+  StatisticalDataAnalysis                en=None                                           ja=None
+  StatisticalResultsFile                 en=Statistical Results File                       ja=統計解析結果ファイル
+  Summarisation                          en=Summarisation                                  ja=データ要約
+  SummarisationType                      en=Summarisation Type                             ja=データ要約の種類
+  TechnologyPlatform                     en=TechnologyPlatform                             ja=測定プラットフォーム
+  TechnologyType                         en=Technology Type                                ja=技術の種類
+  Temperature                            en=Temperature                                    ja=温度
+  Time                                   en=Time                                           ja=時間
+  Treatment                              en=Treatment                                      ja=処理
+  Unit                                   en=Unit                                           ja=単位
+  UnivariateAnalysis                     en=Univariate Analysis                            ja=単変量解析
+  Visualisation                          en=Visualisation                                  ja=可視化
+  Voltage                                en=Voltage                                        ja=電圧
+  UO_0000000                             en=None                                           ja=None
+  UO_0000051                             en=None                                           ja=None
+  UO_0000052                             en=None                                           ja=None
+  UO_0000111                             en=None                                           ja=None
+  UO_0000270                             en=None                                           ja=None
+  FileFormat                             en=File Format                                    ja=ファイル形式
+  biboArticle                            en=Article                                        ja=記事
+  22-rdf-syntax-ns#langString            en=None                                           ja=None
+  XMLSchema#anyURI                       en=None                                           ja=None
+  XMLSchema#date                         en=None                                           ja=None
+  XMLSchema#datetime                     en=None                                           ja=None
+  XMLSchema#string                       en=None                                           ja=None
+  XMLSchema#time                         en=None                                           ja=None
+  org#Organization                       en=None                                           ja=None
+  org#organization                       en=None                                           ja=None
+  Agent                                  en=Agent                                          ja=エージェント
+  Organization                           en=Organization                                   ja=組織
+  Person                                 en=Person                                         ja=人物
+
+========== PMM ONTOLOGY SCHEMA (properties) ==========
+PMM properties defined: 137
+  pria269u1i                         dom=-                      rng=-                      en=None
+  pria269u2i                         dom=-                      rng=-                      en=None
+  pria269u3i                         dom=-                      rng=-                      en=None
+  pria269u4i                         dom=-                      rng=-                      en=None
+  pria269u5i                         dom=-                      rng=-                      en=None
+  pria269u6i                         dom=-                      rng=-                      en=None
+  pria269u1i                         dom=-                      rng=-                      en=locus
+  pria269u2i                         dom=-                      rng=-                      en=evidenceCode
+  pria269u3i                         dom=-                      rng=-                      en=relationshipType
+  pria269u4i                         dom=-                      rng=-                      en=GO
+  pria269u5i                         dom=-                      rng=-                      en=GOslimTerm
+  pria269u6i                         dom=-                      rng=-                      en=reference
+  acquisitionRate                    dom=MassSpectrometry       rng=XMLSchema#string       en=acquisition rate
+  affiliation                        dom=Person                 rng=org#Organization       en=affiliation
+  analyticalTime                     dom=Chromatography         rng=Time                   en=analytical time
+  annotationMethodDetails            dom=Project                rng=AnnotationMethodDetails en=annotation method details
+  annotationType                     dom=AnnotationMethodDetails rng=XMLSchema#string       en=annotation type
+  biologicalSample                   dom=Sample                 rng=BiologicalSample       en=biological sample
+  capillaryTemperature               dom=MassSpectrometry       rng=Temperature            en=capillary temperature
+  chromatography                     dom=MeasurementCondition   rng=Chromatography         en=chromatography
+  collisionEnergy                    dom=MassSpectrometry       rng=Energy                 en=collision energy
+  columnName                         dom=Chromatography         rng=XMLSchema#string       en=column name
+  columnPressure                     dom=Chromatography         rng=Pressure               en=column pressure
+  columnTemperature                  dom=Chromatography         rng=Temperature            en=column temperature
+  columnType                         dom=Chromatography         rng=XMLSchema#string       en=column type
+  compound                           dom=Sample                 rng=Compound               en=compound
+  compressedFile                     dom=Dataset                rng=CompressedFile         en=compressed file
+  concentration                      dom=Treatment              rng=Concentration          en=concentration
+  contactPerson                      dom=Project                rng=Person                 en=contact person
+  cultivar                           dom=BiologicalSample       rng=XMLSchema#string       en=cultivar
+  dataAnalysis                       dom=Experiment             rng=DataAnalysis           en=data analysis
+  dataTransformationType             dom=DataTransformation     rng=DataTransformationType en=Data Transformation Type
+  dateOfPlantEstablishment           dom=BiologicalSample       rng=XMLSchema#date         en=date of plant establishment
+  dateTime                           dom=Experiment             rng=XMLSchema#datetime     en=date time
+  dayLength                          dom=BiologicalSample       rng=XMLSchema#time         en=day length
+  dayTemperature                     dom=BiologicalSample       rng=Temperature            en=day temperature
+  derivatisation                     dom=SamplePreparation      rng=XMLSchema#string       en=derivatisation
+  developmentalStage                 dom=BiologicalSample       rng=XMLSchema#string       en=developmental stage
+  downloadURL                        dom=File                   rng=XMLSchema#anyURI       en=download URL
+  evidence                           dom=AnnotationMethodDetails rng=XMLSchema#string       en=evidence
+  experiment                         dom=Project                rng=Experiment             en=experiment
+  experimentType                     dom=ExperimentalDesign     rng=ExperimentType         en=experiment type
+  experimentalDesign                 dom=Project                rng=ExperimentalDesign     en=experimental design
+  experimentalFactor                 dom=ExperimentalDesign     rng=ExperimenalFactor      en=experimental factor
+  experimenter                       dom=Experiment             rng=Person                 en=experimenter
+  extractCocentration                dom=SampleExtractionProtorol rng=Concentration          en=extract concentration
+  extractStorage                     dom=SamplePreparation      rng=XMLSchema#string       en=extract storage
+  extraction                         dom=SamplePreparation      rng=XMLSchema#string       en=extraction
+  file                               dom=Dataset                rng=File                   en=file
+  fileFormat                         dom=PreProcessing          rng=FileFormat             en=file format
+  flowGas                            dom=Chromatography         rng=XMLSchema#string       en=flow gas
+  flowGradient                       dom=Chromatography         rng=XMLSchema#string       en=flow gradient
+  flowRate                           dom=Chromatography         rng=FlowRate               en=flow rate
+  folder                             dom=Dataset                rng=Folder                 en=folder
+  fragmentationMethod                dom=MassSpectrometry       rng=XMLSchema#string       en=fragmentation method
+  genotype                           dom=BiologicalSample       rng=XMLSchema#string       en=genotype
+  growthCondition                    dom=BiologicalSample       rng=XMLSchema#string       en=growth condition
+  growthLocation                     dom=BiologicalSample       rng=XMLSchema#string       en=growth location
+  growthSupport                      dom=BiologicalSample       rng=XMLSchema#string       en=growth support
+  humidity                           dom=BiologicalSample       rng=Humidity               en=humidity
+  instrument                         dom=Chromatography         rng=Instrument             en=instrument
+  internalStandardCompound           dom=SamplePreparation      rng=XMLSchema#string       en=internal standard compound
+  ionIsolation                       dom=Chromatography         rng=XMLSchema#string       en=ion isolation
+  ionIsolation                       dom=Chromatography         rng=XMLSchema#string       en=イオン化
+  ionIsolationEnergy                 dom=MassSpectrometry       rng=Energy                 en=ion isolation energy
+  ionMode                            dom=MassSpectrometry       rng=XMLSchema#string       en=ion mode
+  ionSource                          dom=MassSpectrometry       rng=XMLSchema#string       en=ion source
+  ionSourceTemperature               dom=MassSpectrometry       rng=Temperature            en=ion source temperature
+  ionSplayVoltage                    dom=MassSpectrometry       rng=Voltage                en=ion splay voltage
+  lightCondition                     dom=BiologicalSample       rng=LightCondition         en=light condition
+  lightIntensity                     dom=LightCondition         rng=XMLSchema#string       en=light intensity
+  lightQuality                       dom=LightCondition         rng=XMLSchema#string       en=light quality
+  lightWageLength                    dom=LightCondition         rng=Length                 en=light wave length
+  massAccuracy                       dom=MassSpectrometry       rng=XMLSchema#string       en=mass accuracy
+  massAnalyser                       dom=MassSpectrometry       rng=MassAnalyser           en=mass analyser
+  massSpectometry                    dom=MeasurementCondition   rng=MassSpectrometry       en=mass spectrometry
+  massSpectralFile                   dom=RawDataset             rng=MassSpectralFile       en=mass spectral file
+  material                           dom=Sample                 rng=Material               en=material
+  md5                                dom=File                   rng=XMLSchema#string       en=MD5
+  measurement                        dom=Experiment             rng=Measurement            en=measurement
+  measurementCondition               dom=Measurement            rng=MeasurementCondition   en=measurement condition
+  measurementType                    dom=Experiment             rng=MeasurementType        en=measurement type
+  metabolismQuenchingMethod          dom=BiologicalSample       rng=XMLSchema#string       en=metabolism quenching method
+  mutant                             dom=BiologicalSample       rng=XMLSchema#string       en=mutant
+  nightTemperature                   dom=BiologicalSample       rng=Temperature            en=night temperature
+  normalisationDataMatrixFile        dom=RawDataset             rng=NormalisationDataMatrixFile en=normalisation data matrix file
+  normalisationType                  dom=Normalisation          rng=NormalisationType      en=Normalisation Type
+  nutritionalRegime                  dom=BiologicalSample       rng=XMLSchema#string       en=nutritional regime
+  orcid                              dom=Person                 rng=XMLSchema#string       en=ORCID ID
+  parameters                         dom=PreProcessing          rng=XMLSchema#string       en=parameters
+  peakAlignment                      dom=PreProcessing          rng=XMLSchema#string       en=peak alignment
+  peakFile                           dom=RawDataset             rng=PeakFile               en=peak file
+  peakWaveLength                     dom=LightCondition         rng=Length                 en=peak wave length
+  plantOrgan                         dom=BiologicalSample       rng=PlantOrgan             en=plant organ
+  plantTissue                        dom=BiologicalSample       rng=PlantTissue            en=plant tissue
+  plotDesign                         dom=BiologicalSample       rng=XMLSchema#string       en=plot design
+  postalAddress                      dom=org#Organization       rng=22-rdf-syntax-ns#langString en=postal address
+  preProcessing                      dom=DataAnalysis           rng=PreProcessing          en=pre-processing
+  principalInvestigator              dom=Project                rng=Person                 en=principal investigator
+  processing                         dom=SamplePreparation      rng=XMLSchema#string       en=processing
+  publicRelaseDate                   dom=Project                rng=XMLSchema#date         en=public release date
+  qualityControl                     dom=ExperimentalDesign     rng=XMLSchema#string       en=quality control
+  recommendedDecimalPlacesOfMZ       dom=DataAnalysis           rng=XMLSchema#string       en=recommended decimal places of m/z
+  resultantRowDataset                dom=Measurement            rng=RowDataset             en=resultant raw dataset
+  retentionIndexMethod               dom=MassSpectrometry       rng=XMLSchema#string       en=retention index method
+  retentionTimeCorrection            dom=PreProcessing          rng=XMLSchema#string       en=retention time correction
+  sample                             dom=Material               rng=Sample                 en=sample
+  sampleAmount                       dom=SamplePreparation      rng=SampleAmount           en=sample amount
+  sampleExtractionProtocol           dom=SamplePreparation      rng=SampleExtractionProtocol en=sample extraction protocol
+  sampleMeasured                     dom=Measurement            rng=Sample                 en=sample measured
+  samplePreparation                  dom=Measurement            rng=SamplePreparation      en=sample preparation
+  sampleStorage                      dom=BiologicalSample       rng=XMLSchema#string       en=sample storage
+  samplingLocation                   dom=BiologicalSample       rng=XMLSchema#string       en=sampling location
+  samplingTime                       dom=BiologicalSample       rng=XMLSchema#time         en=sampling time
+  scalingType                        dom=Scaling                rng=ScalingType            en=Scaling Type
+  scanMZRange                        dom=Chromatography         rng=XMLSchema#string       en=scan m/z range
+  software                           dom=PreProcessing          rng=XMLSchema#string       en=software
+  source                             dom=Compound               rng=XMLSchema#string       en=source
+  speciesName                        dom=BiologicalSample       rng=XMLSchema#string       en=species name
+  spectralExtraction                 dom=PreProcessing          rng=XMLSchema#string       en=spectralExtraction
+  spectralLibrary                    dom=AnnotationMethodDetails rng=XMLSchema#string       en=spectral library
+  statisticalDataAnalysis            dom=PreProcessing          rng=StatisticalDataAnalysis en=statistical data analysis
+  statisticalResultsFile             dom=RawDataset             rng=StatisticalResultsFile en=statistical results file
+  subFolder                          dom=Folder                 rng=Folder                 en=sub-folder
+  subProject                         dom=Project                rng=Project                en=sub-project
+  submitter                          dom=Project                rng=Person                 en=submitter
+  summarisationType                  dom=Summarisation          rng=SummarisationType      en=Summarisation Type
+  technologyPlatform                 dom=Experiment             rng=TechnologyPlatform     en=technology platform
+  technologyType                     dom=Experiment             rng=TechnologyType         en=technology type
+  temperature                        dom=BiologicalSample       rng=Temperature            en=temperature
+  temperatureGradient                dom=Chromatography         rng=XMLSchema#string       en=temperature gradient
+  transgenicLine                     dom=BiologicalSample       rng=XMLSchema#string       en=transgenic line
+  treatment                          dom=BiologicalSample       rng=Treatment              en=treatment
+  wateringRegime                     dom=BiologicalSample       rng=XMLSchema#string       en=watering regime
+  mccv#MCCV_000071                   dom=mccv#MCCV_000007       rng=MEO_0000817            en=environmental feature
+  mpo#MPO_10017                      dom=rdf-schema#Resource    rng=mpo#MPO_04058          en=produce quinones 
+  mpo#MPO_10018                      dom=rdf-schema#Resource    rng=rdf-schema#Resource    en=produce antibiotics

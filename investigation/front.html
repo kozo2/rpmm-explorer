@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<!-- Meta Configs -->
+		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="author" content="">
+		<meta name="format-detection" content="telephone=no">
+
+		<link rel="SHORTCUT ICON" href="/pmm/img/favicon.png" />
+
+		<title>理研植物メタボロームメタデータベース </title>
+
+		<!-- Style Sheets -->
+		<link rel="stylesheet" media="screen, tv, handheld" href="/pmm/css/bootstrap.min.css">
+<!-- 	<link rel="stylesheet" href="/pmm/css/base.css?jcd=20211216-01">
+				<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel">
+		<link rel="stylesheet" href="/pmm/css/pmm/base.css?jcd=20211216-01">
+
+-->
+				<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel">
+		<link rel="stylesheet" href="/pmm/css/pmm/base.css?jcd=20211216-01">
+
+
+		<!-- JavaScripts -->
+		<script type="text/javascript" charset="UTF-8" src="/pmm/js/jquery.min.js"></script>
+		<script type="text/javascript" charset="UTF-8" src="/pmm/js/bootstrap.min.js"></script>
+		<script type="text/javascript" charset="UTF-8" src="/pmm/js/functions.js?jcd=20211216-01"></script>
+		<script src="https://d3js.org/d3.v3.js" charset="utf-8"></script>
+		<script type="text/javascript" charset="UTF-8" src="/pmm/js/front.js?jcd=20211216-01"></script>
+
+		<script>
+			var projectjson = [];
+		</script>
+
+		<!--[if lt IE 9]>
+			<script type="text/javascript" charset="UTF-8" src="http://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+			<script type="text/javascript" charset="UTF-8" src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+			
+<meta name="google-site-verification" content="mTpG2cMd1TrmzXI_irVBrq2md-LJ8q-vpXaqV-gQd10" />
+	</head>
+
+	<body>
+		<!-- Header -->
+		<header id="top-header">
+			<h1></h1>
+			<p id="description">理研植物メタボロームデータベースは、理研ＣＳＲＳで取得した植物メタボロームに関するデータリポジトリです。</p>
+			<ul class="lang-buttons">
+				<li><a href="">en</a></li>
+				<li class="active"><a href="">ja</a></li>
+			</ul>
+			<a href="/pmm/sparql" id="header-sparql-endpoint-link">SPARQL<br>endpoint</a>
+			<a href="http://metadb.riken.jp/metadb/db/DBcatalog/http://rdfs.org/ns/void%23Dataset" id="db-catalogue">理研<br>データベース<br>電話帳</a>
+		</header><!--// Header -->
+
+		<!-- Contents Body -->
+		<div class="container-fluid">
+			<div class="row">
+				<!-- main-contents-column -->
+				<div class="m1c-main2">
+					<div class="top-tab-box">
+						<ul class="nav nav-tabs">
+							<li class="active"><a class="before-icon-database" href="#databaseresult">データベース</a></li>
+							<li><a class="before-icon-ontology" href="#ontologyresult">オントロジー語彙</a></li>
+							<li><a class="before-icon-about" href="#about" id="abouttab">理研植物メタボロームメタデータベース について</a></li>
+							<li><a class="before-icon-related" href="#related-metadatabase">関連メタデータベース</a></li>
+						</ul>
+					</div><!--// .top-tab-box -->
+
+					<div class="tab-content">
+						 <div class="tab-pane active" id="databaseresult">
+							 <div class="col-sm-9 tab-pane-inner">
+								<div class="front-search-box">
+									<form action="" class="form-inline">
+										<span class="form-search"><i class="fa fa-fw fa-search"></i></span>
+										<input type="text" id="keyword" class="form-control" value=""/>
+										<button type="button" class="btn btn-dark-green" onClick="search()">検 索</button>
+										<div id="advanced-search">
+											<a class="open-button">検索オプション</a>
+											<fieldset>
+												<div class="checkbox">
+													<label>
+														<input id="searchdata" type="checkbox"> データから検索
+													</label>
+												</div>
+											</fieldset>
+										</div><!-- /#advanced-search -->
+										<br>
+										<button id="clearkey" type="button" class="btn btn-dark-green" onClick="clearKey()">クリア</button>
+									</form>
+								</div>
+								<div class="front-search-result" id="databasesearch">
+									<span class="pagenum">1</span>
+								</div>
+							</div>
+							<!-- right-contents-column -->
+							<div class="rm2c-menu col-sm-3">
+								<h3>絞り込み（メタデータのあるDBのみ）</h3>
+								<ul id="categoryselect">
+									<li class="category" title="http://www.w3.org/ns/dcat#organism">
+										<span class="switch">生物種</span>
+									</li>
+									<li class="category" title="http://xmlns.com/foaf/0.1/primaryTopic">
+										<span class="switch">対象</span>
+									</li>
+									<li class="category" title="http://purl.org/dc/elements/1.1/publisher">
+										<span class="switch">センター</span>
+									</li>
+									<li class="category" title="http://www.w3.org/ns/dcat#theme">
+										<span class="switch">データ種</span>
+									</li>
+								</ul>
+							</div><!--// right-contents-column -->
+						</div><!--// #databaseresult -->
+
+						 <div class="tab-pane" id="ontologyresult">
+							 <div class="col-sm-12 tab-pane-inner">
+								<div class="front-search-box">
+									<form action="" class="form-inline">
+										<span class="form-search"><i class="fa fa-fw fa-search"></i></span>
+										<input type="text" id="ontologykeyword" class="form-control" />
+										<button type="button" class="btn btn-dark-green" onClick="searchOnto()">検 索</button>
+									</form>
+								</div>
+								<div class="front-search-result" id="ontologysearch">
+																<dl class="front-search-result-list">
+								<dt><a class="result-header" href="/pmm/ontology/BFO" target="_blank">BFO</a><a class="uri" href="/pmm/ontology/BFO" target="_blank">http://metadb.riken.jp/pmm/ontology/BFO</a></dt>
+								<dd>
+									<p>The Basic Formal Ontology (BFO)<br>(Original site: <a href="http://ifomis.uni-saarland.de/bfo/" target="_blank">http://ifomis.uni-saarland.de/bfo/</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/BIBO" target="_blank">BIBO</a><a class="uri" href="/pmm/ontology/BIBO" target="_blank">http://metadb.riken.jp/pmm/ontology/BIBO</a></dt>
+								<dd>
+									<p>Bibliographic Ontology<br>(Original site: <a href="http://bibliontology.com/" target="_blank">http://bibliontology.com/</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/CELL" target="_blank">CELL</a><a class="uri" href="/pmm/ontology/CELL" target="_blank">http://metadb.riken.jp/pmm/ontology/CELL</a></dt>
+								<dd>
+									<p>CELL</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/CHMO" target="_blank">CHMO</a><a class="uri" href="/pmm/ontology/CHMO" target="_blank">http://metadb.riken.jp/pmm/ontology/CHMO</a></dt>
+								<dd>
+									<p>Chemical Methods Ontology<br>(Original site: <a href="http://purl.obolibrary.org/obo/chmo.owl" target="_blank">http://purl.obolibrary.org/obo/chmo.owl</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/ChEBI" target="_blank">ChEBI</a><a class="uri" href="/pmm/ontology/ChEBI" target="_blank">http://metadb.riken.jp/pmm/ontology/ChEBI</a></dt>
+								<dd>
+									<p>Chemical Entities of Biological Interest (ChEBI)<br>(Original site: <a href="http://www.ebi.ac.uk/chebi/" target="_blank">http://www.ebi.ac.uk/chebi/</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/DDBJ-DRA" target="_blank">DDBJ-DRA</a><a class="uri" href="/pmm/ontology/DDBJ-DRA" target="_blank">http://metadb.riken.jp/pmm/ontology/DDBJ-DRA</a></dt>
+								<dd>
+									<p>DDBJ-DRA</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/EFO" target="_blank">EFO</a><a class="uri" href="/pmm/ontology/EFO" target="_blank">http://metadb.riken.jp/pmm/ontology/EFO</a></dt>
+								<dd>
+									<p>Experimental Factor Ontology<br>(Original site: <a href="https://www.ebi.ac.uk/efo/" target="_blank">https://www.ebi.ac.uk/efo/</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/ENVO" target="_blank">ENVO</a><a class="uri" href="/pmm/ontology/ENVO" target="_blank">http://metadb.riken.jp/pmm/ontology/ENVO</a></dt>
+								<dd>
+									<p>Environment Ontology<br>(Original site: <a href="http://purl.bioontology.org/ontology/ENVO" target="_blank">http://purl.bioontology.org/ontology/ENVO</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/EO" target="_blank">EO</a><a class="uri" href="/pmm/ontology/EO" target="_blank">http://metadb.riken.jp/pmm/ontology/EO</a></dt>
+								<dd>
+									<p>Plant Environment Ontology</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/FALDO" target="_blank">FALDO</a><a class="uri" href="/pmm/ontology/FALDO" target="_blank">http://metadb.riken.jp/pmm/ontology/FALDO</a></dt>
+								<dd>
+									<p>Feature Annotation Location Description Ontology<br>(Original site: <a href="https://github.com/JervenBolleman/FALDO" target="_blank">https://github.com/JervenBolleman/FALDO</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/GO" target="_blank">GO</a><a class="uri" href="/pmm/ontology/GO" target="_blank">http://metadb.riken.jp/pmm/ontology/GO</a></dt>
+								<dd>
+									<p>Gene Ontology (GO)<br>(Original site: <a href="http://geneontology.org" target="_blank">http://geneontology.org</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/GR_tax" target="_blank">GR_tax</a><a class="uri" href="/pmm/ontology/GR_tax" target="_blank">http://metadb.riken.jp/pmm/ontology/GR_tax</a></dt>
+								<dd>
+									<p>Gramine Taxonomy Ontology</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/IAO" target="_blank">IAO</a><a class="uri" href="/pmm/ontology/IAO" target="_blank">http://metadb.riken.jp/pmm/ontology/IAO</a></dt>
+								<dd>
+									<p>Information Artifact Ontology<br>(Original site: <a href="http://purl.obolibrary.org/obo/iao" target="_blank">http://purl.obolibrary.org/obo/iao</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/ISA" target="_blank">ISA</a><a class="uri" href="/pmm/ontology/ISA" target="_blank">http://metadb.riken.jp/pmm/ontology/ISA</a></dt>
+								<dd>
+									<p>Investigation/Study/Assay<br>(Original site: <a href="http://isa-tools.org/" target="_blank">http://isa-tools.org/</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/LU" target="_blank">LU</a><a class="uri" href="/pmm/ontology/LU" target="_blank">http://metadb.riken.jp/pmm/ontology/LU</a></dt>
+								<dd>
+									<p>Left Unit Ontology<br>(Original site: <a href="http://metadb.riken.jp/db/LU" target="_blank">http://metadb.riken.jp/db/LU</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/MCCV" target="_blank">MCCV</a><a class="uri" href="/pmm/ontology/MCCV" target="_blank">http://metadb.riken.jp/pmm/ontology/MCCV</a></dt>
+								<dd>
+									<p>Microbial Culture Collection Vocabulary (MCCV)<br>(Original site: <a href="http://bioportal.bioontology.org/ontology/MCCV?p=classes&conceptid=root" target="_blank">http://bioportal.bioontology.org/ontology/MCCV?p=classes&conceptid=root</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/MEO" target="_blank">MEO</a><a class="uri" href="/pmm/ontology/MEO" target="_blank">http://metadb.riken.jp/pmm/ontology/MEO</a></dt>
+								<dd>
+									<p>Metagenome and Microbes Environmental Ontology<br>(Original site: <a href="http://bioportal.bioontology.org/ontologies/MEO" target="_blank">http://bioportal.bioontology.org/ontologies/MEO</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/MMO" target="_blank">MMO</a><a class="uri" href="/pmm/ontology/MMO" target="_blank">http://metadb.riken.jp/pmm/ontology/MMO</a></dt>
+								<dd>
+									<p>Measurement Method Ontology<br>(Original site: <a href="http://sourceforge.net/projects/phenoonto/" target="_blank">http://sourceforge.net/projects/phenoonto/</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/MPO" target="_blank">MPO</a><a class="uri" href="/pmm/ontology/MPO" target="_blank">http://metadb.riken.jp/pmm/ontology/MPO</a></dt>
+								<dd>
+									<p>Microbial Phenotype Ontology (MPO)<br>(Original site: <a href="http://bioportal.bioontology.org/ontologies/MPO/?p=summary" target="_blank">http://bioportal.bioontology.org/ontologies/MPO/?p=summary</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/NCBITaxon" target="_blank">NCBITaxon</a><a class="uri" href="/pmm/ontology/NCBITaxon" target="_blank">http://metadb.riken.jp/pmm/ontology/NCBITaxon</a></dt>
+								<dd>
+									<p>NCBI Organismal Classification (NCBITaxon)<br>(Original site: <a href="http://wiki.obofoundry.org/wiki/index.php/NCBITaxon:Main_Page" target="_blank">http://wiki.obofoundry.org/wiki/index.php/NCBITaxon:Main_Page</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/OBI" target="_blank">OBI</a><a class="uri" href="/pmm/ontology/OBI" target="_blank">http://metadb.riken.jp/pmm/ontology/OBI</a></dt>
+								<dd>
+									<p>Ontology for Biomedical Investigations<br>(Original site: <a href="http://purl.obolibrary.org/obo/obi" target="_blank">http://purl.obolibrary.org/obo/obi</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/PATO" target="_blank">PATO</a><a class="uri" href="/pmm/ontology/PATO" target="_blank">http://metadb.riken.jp/pmm/ontology/PATO</a></dt>
+								<dd>
+									<p>Phenotypic Quality (PATO)<br>(Original site: <a href="http://wiki.obofoundry.org/wiki/index.php/PATO:Main_Page" target="_blank">http://wiki.obofoundry.org/wiki/index.php/PATO:Main_Page</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/PCT" target="_blank">PCT</a><a class="uri" href="/pmm/ontology/PCT" target="_blank">http://metadb.riken.jp/pmm/ontology/PCT</a></dt>
+								<dd>
+									<p>PCT</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/PO" target="_blank">PO</a><a class="uri" href="/pmm/ontology/PO" target="_blank">http://metadb.riken.jp/pmm/ontology/PO</a></dt>
+								<dd>
+									<p>Plant Ontology<br>(Original site: <a href="http://planteome.org" target="_blank">http://planteome.org</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/RO" target="_blank">RO</a><a class="uri" href="/pmm/ontology/RO" target="_blank">http://metadb.riken.jp/pmm/ontology/RO</a></dt>
+								<dd>
+									<p>OBO-relation ontology (RO)<br>(Original site: <a href="https://code.google.com/p/obo-relations/" target="_blank">https://code.google.com/p/obo-relations/</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/SIO" target="_blank">SIO</a><a class="uri" href="/pmm/ontology/SIO" target="_blank">http://metadb.riken.jp/pmm/ontology/SIO</a></dt>
+								<dd>
+									<p>Semanticscience Integrated Ontology<br>(Original site: <a href="http://semanticscience.org" target="_blank">http://semanticscience.org</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/SO" target="_blank">SO</a><a class="uri" href="/pmm/ontology/SO" target="_blank">http://metadb.riken.jp/pmm/ontology/SO</a></dt>
+								<dd>
+									<p>The Sequence Ontology<br>(Original site: <a href="http://www.sequenceontology.org/" target="_blank">http://www.sequenceontology.org/</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/STATO" target="_blank">STATO</a><a class="uri" href="/pmm/ontology/STATO" target="_blank">http://metadb.riken.jp/pmm/ontology/STATO</a></dt>
+								<dd>
+									<p>Statistics Ontology<br>(Original site: <a href="http://stato-ontology.org/" target="_blank">http://stato-ontology.org/</a>)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/TO" target="_blank">TO</a><a class="uri" href="/pmm/ontology/TO" target="_blank">http://metadb.riken.jp/pmm/ontology/TO</a></dt>
+								<dd>
+									<p>Trait Ontology (TO)</p>
+								</dd>
+								<dt><a class="result-header" href="/pmm/ontology/UO" target="_blank">UO</a><a class="uri" href="/pmm/ontology/UO" target="_blank">http://metadb.riken.jp/pmm/ontology/UO</a></dt>
+								<dd>
+									<p>Units of Measurement (UO)<br>(Original site: <a href="https://code.google.com/p/unit-ontology/" target="_blank">https://code.google.com/p/unit-ontology/</a>)</p>
+								</dd>
+							</dl>
+								</div>
+							</div>
+						</div><!--// #ontologyresult -->
+
+						 <div class="tab-pane" id="about">
+							 <div class="col-sm-12 tab-pane-inner">
+								<article>
+									<section>
+										<h2 style="margin-top:30px;">理研メタデータベースについて</h2>
+										<p>理研メタデータベースは、理研の成果をより広く研究者の方に活用していただくことを目的に、理研の研究者が公開するデータベースのメタデータを体系的に整理して公開するサービスです。</p>
+										<p>本データベースでは、メタデータの世界標準技術であるセマンティックウエブやResource Description Framework(RDF)と呼ぶ枠組みに基づいて生命科学系データを公開しています。</p>
+									</section>
+									<section><img id="loadstatistics" src="/pmm/img/ajax-loader.gif">
+										<hr>
+										W3C Dataset Descriptions: <a href="http://www.w3.org/TR/hcls-dataset/" target="_blank">HCLS Community Profile</a><br>
+										<img src="/pmm/img/file-ext-ttl.png">
+										<a href="http://metadb.riken.jp/archives/HCLSProfile/HCLSProfile_MetaDB_ALL.ttl">HCLSProfile_MataDB_ALL.ttl</a>
+									</section>
+									<hr>
+									<section>
+										<h2 style="margin-top:30px;">理研ライフ系データベース基盤の長期的な方向性に関する提言 (最終報告)</h2>
+										<p> 理研のバイオインフォマティクスに関する技術検討を行うバイオインフォマティクス検討委員会内に設置された「データベース作業部会」において、理研のデータベースやメタデータ整備に関わる方向性や実施指針が議論されてまいりました。その議論の結果が、「理研ライフ系データベース基盤の長期的な方向性に関する提言（最終提言）」としてまとめられました。理研メタデータベースはこの提言に基づいて開発され公開されています。</p>
+										<p> PDFファイルのダウンロードはこちらです: <a href="http://metadb.riken.jp/archives/docs/dbwg/LongTermRecommendations_j.pdf">LongTermRecommendataions_j.pdf</a></p>
+									</section>
+									
+								</article>
+							</div>
+						</div><!--// #dataresult -->
+						
+						<div class="tab-pane" id="related-metadatabase">
+							<div class="col-sm-12 tab-pane-inner">
+								<div class="front-search-box">
+									<section>
+										<h2>関連メタデータベース</h2>
+
+										<div class="table-view-box">
+											<table class="related-table table-view">
+												<thead>
+													<tr>
+														<th></th>
+														<th>タイトル</th>
+														<th>URL</th>
+														<th>説明</th>
+													</tr>
+												</thead>
+												<tbody>
+												</tbody>
+											</table>
+										</div>
+									</section>
+								</div>
+							</div>
+						</div><!--// #related-metadatabase -->
+
+					</div><!--// .tab-content -->
+				</div><!--// main-contents-column -->
+
+			</div>
+		</div><!--// Contents Body -->
+
+
+
+		<!-- Footer -->
+		<footer><!-- サイト共通フッター -->
+			<div class="left">
+				<a href="/pmm/front" class="footer-site-logo">Riken Meta Database</a>
+				<ul class="footer-link-menu">
+					<li><a href="/pmm/front">ホーム</a></li>
+					<li><a href="/pmm/front" target="_blank">別ウィンドウで開く</a></li>
+					<li><a href="/pmm/front/sitepolicy">サイトポリシー</a></li>
+				</ul>
+			</div><!-- /.left -->
+
+			<div class="bottom">
+				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>Except where otherwise noted, this work is subject to a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+				<span class="copyright"> &copy; 2016-2020, RIKEN</span>
+			</div><!-- /.bottom -->
+
+			<div class="right">
+				<ul class="footer-admin-menu">
+					<li><a href="/pmm/manage/"><i class="fa fa-fw fa-cog-alt"></i> 管理画面</a></li>
+					<li>
+						<ul class="lang-buttons">
+							<li><a href="">en</a></li>
+							<li class="active"><a href="">ja</a></li>
+						</ul>
+					</li>
+				</ul>
+				<a href="http://www.riken.jp/" target="_blank"><p class="corporate-logo"></p></a>
+			</div><!-- /.right -->
+		</footer><!--// Footer -->
+
+	</body>
+</html>

@@ -1,0 +1,79 @@
+========== SPECIES LABEL RESOLUTION ==========
+distinct taxa used: 169
+sample taxon IRIs: ['http://purl.bioontology.org/ontology/NCBITAXON/3847', 'http://purl.bioontology.org/ontology/NCBITAXON/1402', 'http://purl.bioontology.org/ontology/NCBITAXON/1390', 'http://purl.bioontology.org/ontology/NCBITAXON/1148', 'http://purl.bioontology.org/ontology/NCBITAXON/3702']
+
+all statements about <http://purl.bioontology.org/ontology/NCBITAXON/3847> in the whole store:
+    {'g': 'http://metadb.riken.jp/db/plantMetabolomics', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://www.w3.org/2002/07/owl#Class'}
+    {'g': 'http://metadb.riken.jp/ontology/NCBITaxon', 'p': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'o': 'http://www.w3.org/2002/07/owl#Class'}
+    {'g': 'http://metadb.riken.jp/ontology/NCBITaxon', 'p': 'http://www.w3.org/2000/01/rdf-schema#subClassOf', 'o': 'http://purl.bioontology.org/ontology/NCBITAXON/1462606'}
+    {'g': 'http://metadb.riken.jp/ontology/NCBITaxon', 'p': 'http://www.w3.org/2004/02/skos/core#prefLabel', 'o': 'Glycine max'}
+    {'g': 'http://metadb.riken.jp/ontology/NCBITaxon', 'p': 'http://bioportal.bioontology.org/ontologies/umls/cui', 'o': 'C1262902'}
+    {'g': 'http://metadb.riken.jp/ontology/NCBITaxon', 'p': 'http://bioportal.bioontology.org/ontologies/umls/hasSTY', 'o': 'http://purl.bioontology.org/ontology/STY/T002'}
+    {'g': 'http://metadb.riken.jp/ontology/NCBITaxon', 'p': 'http://bioportal.bioontology.org/ontologies/umls/tui', 'o': 'T002'}
+    {'g': 'http://metadb.riken.jp/ontology/NCBITaxon', 'p': 'http://purl.bioontology.org/ontology/NCBITAXON/DIV', 'o': 'Plants and Fungi'}
+    {'g': 'http://metadb.riken.jp/ontology/NCBITaxon', 'p': 'http://purl.bioontology.org/ontology/NCBITAXON/RANK', 'o': 'species'}
+    {'g': 'http://metadb.riken.jp/ontology/NCBITaxon', 'p': 'http://www.w3.org/2004/02/skos/core#altLabel', 'o': 'soybeans'}
+    {'g': 'http://metadb.riken.jp/ontology/NCBITaxon', 'p': 'http://www.w3.org/2004/02/skos/core#notation', 'o': '3847'}
+
+searching any label-ish property for taxon 3702 across store:
+    {'g': 'http://metadb.riken.jp/ontology/EFO', 'p': 'http://www.w3.org/2000/01/rdf-schema#label', 'o': 'Arabidopsis thaliana'}
+
+========== RELEASE-DATE-LIKE PROPERTIES IN PMM GRAPH ==========
+     1598  http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dateOfPlantEstablishment
+     1207  http://metadb.riken.jp/ontology/plantMetabolomics/0.1/samplingDate
+  sample values:
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dateOfPlantEstablishment', 'o': '2006-04-04+09:00'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dateOfPlantEstablishment', 'o': '2006-04-04+09:00'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dateOfPlantEstablishment', 'o': '2006-04-04+09:00'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dateOfPlantEstablishment', 'o': '2006-04-04+09:00'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dateOfPlantEstablishment', 'o': '2006-04-04+09:00'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dateOfPlantEstablishment', 'o': '2006-04-04+09:00'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dateOfPlantEstablishment', 'o': '2006-04-04+09:00'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dateOfPlantEstablishment', 'o': '2006-04-04+09:00'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dateOfPlantEstablishment', 'o': '2006-04-04+09:00'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dateOfPlantEstablishment', 'o': '2006-04-04+09:00'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dateOfPlantEstablishment', 'o': '2006-04-04+09:00'}
+    {'p': 'http://metadb.riken.jp/ontology/plantMetabolomics/0.1/dateOfPlantEstablishment', 'o': '2006-04-04+09:00'}
+
+========== dcterms / dcmitype USAGE IN PMM GRAPH ==========
+    10554  http://purl.org/dc/dcmitype/identifier
+     5717  http://purl.org/dc/dcmitype/description
+      103  http://purl.org/dc/dcmitype/references
+      100  http://purl.org/dc/dcmitype/creator
+        2  http://purl.org/dc/elements/1.1/description
+
+========== label PREDICATES USED IN PMM GRAPH ==========
+    44982  http://www.w3.org/2000/01/rdf-schema#label
+     9091  http://metadb.riken.jp/ontology/plantMetabolomics/0.1/speciesName
+      255  http://xmlns.com/foaf/0.1/familyName
+      240  http://xmlns.com/foaf/0.1/firstName
+      115  http://metadb.riken.jp/ontology/plantMetabolomics/0.1/columnName
+        8  http://www.w3.org/2004/02/skos/core#altLabel
+        3  http://xmlns.com/foaf/0.1/givenName
+
+========== PROJECT-LEVEL TRIPLES (one example, RPMM0037) ==========
+   http://www.w3.org/1999/02/22-rdf-syntax-ns#type = http://metadb.riken.jp/ontology/plantMetabolomics/0.1/Project
+   http://www.w3.org/2000/01/rdf-schema#label = GC-TOF-MS- and CE-TOF-MS-Based Metabolic Profiling of Cheonggukjang (Fast-Fermented Bean Paste) duri
+   http://purl.org/dc/dcmitype/creator = http://metadb.riken.jp/db/plantMetabolomics/0.1/Person/MikikoTakahashi
+   http://purl.org/dc/dcmitype/description = Metabolic changes in fast-fermented bean paste (cheonggukjang) as a function of fermentation time we
+   http://purl.org/dc/dcmitype/identifier = RPMM0037
+   http://purl.org/dc/dcmitype/references = http://rdf.ncbi.nlm.nih.gov/pubmed/22913417
+   pmm:contactPerson = http://metadb.riken.jp/db/plantMetabolomics/0.1/Person/AtsushiFukushima
+   pmm:experiment = http://metadb.riken.jp/db/plantMetabolomics/0.1/Experiment/RPMM0037_GC
+   pmm:principalInvestigator = http://metadb.riken.jp/db/plantMetabolomics/0.1/Person/ChoongHwanLee
+   pmm:principalInvestigator = http://metadb.riken.jp/db/plantMetabolomics/0.1/Person/JiyoungKim
+   pmm:submitter = http://metadb.riken.jp/db/plantMetabolomics/0.1/Person/MikikoTakahashi
+   http://xmlns.com/foaf/0.1/fundedBy = grant from the Korea Healthcare Technology R&D Project (Grant No.: A103017)
+   http://xmlns.com/foaf/0.1/fundedBy = National Research Foundation of Korea (NRF) grant (MEST 2010-0019306 and 2010-0027204)
+
+========== LINK LIVENESS (HTTP HEAD on sample download URLs) ==========
+   200   102601212  http://metabobank.riken.jp/data/RPMM0037/RawDataset/11_1.cdf
+   200   102528900  http://metabobank.riken.jp/data/RPMM0037/RawDataset/14_1.cdf
+   200   102595188  http://metabobank.riken.jp/data/RPMM0037/RawDataset/17_1.cdf
+   200   102619292  http://metabobank.riken.jp/data/RPMM0037/RawDataset/20_1.cdf
+   200   102498772  http://metabobank.riken.jp/data/RPMM0037/RawDataset/22_1.cdf
+   200   102583136  http://metabobank.riken.jp/data/RPMM0037/RawDataset/26_2.cdf
+
+========== GRAPH TRIPLE SUM CHECK ==========
+non-empty graphs: 42  sum: 26910989
+union total: 26910989

@@ -1,0 +1,145 @@
+========== SPECIES WITH LABELS (join NCBITaxon prefLabel) ==========
+   3694  3702      Arabidopsis thaliana
+   2125  4530      Oryza sativa
+   1252  4081      Solanum lycopersicum
+    221  157934    Ophiorrhiza pumila
+    199  4236      Lactuca sativa
+    175  15368     Brachypodium distachyon
+    170  3847      Glycine max
+     99  3708      Brassica napus
+     87  1148      Synechocystis sp. PCC 6803
+     80  47664     Populus tremula x Populus tremuloides
+     63  33120     Physalis alkekengi
+     60  3827      Cicer arietinum
+     60  41568     Chrysanthemum x morifolium
+     56  3562      Spinacia oleracea
+     54  3983      Manihot esculenta
+     46  35875     Allium fistulosum
+     45  126903    Physalis peruviana
+     42  34305     Lotus japonicus
+     37  224085    Acacia mangium
+     32  3711      Brassica rapa
+     28  3712      Brassica oleracea
+     28  3880      Medicago truncatula
+     24  54711     Cnidium officinale
+     17  4679      Allium cepa
+     14  4577      Zea mays
+     12  1402      Bacillus licheniformis
+     12  49555     Ligusticum sinense
+     11  4043      Petroselinum crispum
+     11  3218      Physcomitrella patens
+     11  3981      Hevea brasiliensis
+
+========== pmm:speciesName (free-text) ==========
+   3645  <i>Arabidopsis thaliana</i>
+   2125  <i>Oryza sativa</i>
+   1252  <i>Solanum lycopersicum</i>
+    221  <i>Ophiorrhiza pumila</i>
+    187  <i>Lactuca sativa</i>
+    175  <i>Brachypodium distachyon</i>
+    152  <i>Glycine max</i>
+     99  <i>Brassica napus</i>
+     84  <i>Synechocystis</i> sp. PCC 6803
+     80  <i>Populus tremula</i> x <i>Populus tremuloides</i>
+     63  <i>Physalis alkekengi i var. franchetii</i>
+     60  <i>Cicer arietinum</i>
+     60  <i>Chrysanthemum morifolium</i>
+     56  <i>Spinacia oleracea</i>
+     54  <i>Manihot esculenta</i>
+     49  <i> Arabidopsis thaliana</i>
+     46  <i>Allium fistulosum</i>
+     45  <i>Physalis peruviana</i>
+     42  <i>Lotus japonicus</i>
+     37  <i>Acacia mangium</i>
+     28  <i>Medicago truncatula</i>
+     24  <i>Cnidium officinale</i>
+     22  <i>Brassica oleracea</i> var. <i>capitata</i>
+     17  <i>Allium cepa</i>
+     15  <i>Brassica rapa</i>
+
+========== PROJECT FAMILIES ==========
+  families: {'RPMM': 64, 'MN_SE': 88}  total: 152
+  sample MN_SE labels:
+    MN_SE210 | Comparison of seed metabolites among soybean varieties
+    MN_SE211 | Lotus japonicus metabolite analysis
+    MN_SE212 | Lotus japonicus metabolite analysis
+    MN_SE213 | Comparison of metabolites among Lotus japonicus varieties
+    MN_SE214 | Solanum lycopersicum metabolite analysis
+
+========== PUBLICATIONS REFERENCED ==========
+  distinct references: [{'n': '80'}]
+    {'ref': 'http://rdf.ncbi.nlm.nih.gov/pubmed/18028551', 'n': '9'}
+    {'ref': 'http://rdf.ncbi.nlm.nih.gov/pubmed/17556050', 'n': '8'}
+    {'ref': 'http://rdf.ncbi.nlm.nih.gov/pubmed/16739992', 'n': '3'}
+    {'ref': 'http://rdf.ncbi.nlm.nih.gov/pubmed/18939963', 'n': '2'}
+    {'ref': 'http://rdf.ncbi.nlm.nih.gov/pubmed/15613389', 'n': '2'}
+    {'ref': 'http://rdf.ncbi.nlm.nih.gov/pubmed/17669449', 'n': '2'}
+    {'ref': 'http://rdf.ncbi.nlm.nih.gov/pubmed/19743813', 'n': '2'}
+    {'ref': 'http://rdf.ncbi.nlm.nih.gov/pubmed/18266924', 'n': '2'}
+    {'ref': 'http://rdf.ncbi.nlm.nih.gov/pubmed/28455528', 'n': '2'}
+    {'ref': 'http://rdf.ncbi.nlm.nih.gov/pubmed/21558269', 'n': '1'}
+
+========== INSTRUMENTS / ANALYSERS ==========
+  -- pmm:instrument
+       91  http://metadb.riken.jp/db/plantMetabolomics/0.1/Instrument/MN_MS_FT1
+       73  http://metadb.riken.jp/db/plantMetabolomics/0.1/Instrument/MN_HPLC1
+       47  http://metadb.riken.jp/db/plantMetabolomics/0.1/Instrument/GC_Agilent6890N
+       30  http://metadb.riken.jp/db/plantMetabolomics/0.1/Instrument/MS_TOFPeg4
+       19  http://metadb.riken.jp/db/plantMetabolomics/0.1/Instrument/LC_WatersAcquity
+       17  http://metadb.riken.jp/db/plantMetabolomics/0.1/Instrument/MS_TOFPeg3
+       16  http://metadb.riken.jp/db/plantMetabolomics/0.1/Instrument/MS_QTOFWatersXevoG2
+       14  http://metadb.riken.jp/db/plantMetabolomics/0.1/Instrument/MN_Orbitrap-MS1
+       12  http://metadb.riken.jp/db/plantMetabolomics/0.1/Instrument/MN_HPLC2
+        9  http://metadb.riken.jp/db/plantMetabolomics/0.1/Instrument/LCMS_QqQwaters
+        8  http://metadb.riken.jp/db/plantMetabolomics/0.1/Instrument/MS_QTOFWatersPremier
+        6  http://metadb.riken.jp/db/plantMetabolomics/0.1/Instrument/MS_TripleTOF5600
+  -- pmm:massAnalyser
+       93  http://metadb.riken.jp/db/plantMetabolomics/0.1/MassAnalyser/FT-ICR
+       50  http://metadb.riken.jp/db/plantMetabolomics/0.1/MassAnalyser/TOF
+       30  http://metadb.riken.jp/db/plantMetabolomics/0.1/MassAnalyser/Q-TOF
+       14  http://metadb.riken.jp/db/plantMetabolomics/0.1/MassAnalyser/LTQ-Orbitrap
+        7  http://metadb.riken.jp/db/plantMetabolomics/0.1/MassAnalyser/QqQ
+        1  http://metadb.riken.jp/db/plantMetabolomics/0.1/MassAnalyser/LTQ-OrbitrapVelosPro
+        1  http://metadb.riken.jp/db/plantMetabolomics/0.1/MassAnalyser/HQ-Orbitrap
+  -- pmm:manufacturer
+
+========== DATA-VOLUME INDICATORS ==========
+  Project                    152
+  Experiment                 175
+  Measurement                12712
+  Sample                     9723
+  BiologicalSample           9109
+  RawDataset                 8801
+  File                       14026
+  MassSpectralFile           1410
+  DataAnalysis               208
+  PeakFile                   55
+  NormalisedDataMatrixFile   56
+  Compound                   115
+  Person                     0
+
+========== m/z, RT, METADATA COMPLETENESS ON FILES ==========
+  Files=14026  with md5=15414  with URL=15414  with format=15414
+
+========== TOP-LEVEL NAMESPACE CENSUS (subjects by host) ==========
+  (sampled 100000 distinct subjects)
+    27397  purl.bioontology.org
+    14251  lexvo.org
+     8858  metadb.riken.jp
+     7935  purl.obolibrary.org
+     2384  database.riken.jp
+      493  arabidopsis.org
+      128  www.arabidopsis.org
+       49  purl.jp
+       48  www.orpha.net
+       46  id.loc.gov
+       25  www.ebi.ac.uk
+       13  webs2.kazusa.or.jp
+       10  dbpedia.org
+       10  www.mpii.de
+        9  rdf.ncbi.nlm.nih.gov
+        4  www.w3.org
+        3  semanticscience.org
+        1  nodeID://b60363199
+        1  nodeID://b60221256
+        1  nodeID://b60196658
