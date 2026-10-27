@@ -1,0 +1,164 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0026"
+title = "Transcriptomic and Metabolomic Reprogramming from Roots to Haustoria in the Parasitic Plant, <i>Thesium chinense</i>"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0026"
+
+[matrix]
+name = "CRMN_normalized"
+source_file = "RPMM0026/PolarMetabolites/AnalysedDataset/CRMN_normalized.txt"
+format = "tsv"
+n_features = 462
+n_samples = 8
+metadata_columns = [
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+    "fData::lineno",
+    "fData::query",
+    "fData::known",
+    "fData::cas",
+    "fData::preferred",
+    "fData::action",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0026/PolarMetabolites/AnalysedDataset/phenodata.csv"
+msp = "RPMM0026/PolarMetabolites/AnalysedDataset/170216_Kanabiki_Polar_NIST.txt"
+
+[organism]
+raw = "kanabikisou"
+cv = ""
+source = "msp:170216_Kanabiki_Polar_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "haustorium_02_Po"
+assay = "haustorium_02_Po"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0026/PolarMetabolites/AnalysedDataset/CRMN_normalized.txt#haustorium_02_Po"
+description = "RPMM0026 sample haustorium_02_Po"
+gcid = "haustorium_02_Po"
+species = "kanabikisou"
+tissue = "haustorium"
+weight_mg = "1"
+
+[[sample]]
+index = 2
+name = "haustorium_04_Po"
+assay = "haustorium_04_Po"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0026/PolarMetabolites/AnalysedDataset/CRMN_normalized.txt#haustorium_04_Po"
+description = "RPMM0026 sample haustorium_04_Po"
+gcid = "haustorium_04_Po"
+species = "kanabikisou"
+tissue = "haustorium"
+weight_mg = "1"
+
+[[sample]]
+index = 3
+name = "haustorium_05_Po"
+assay = "haustorium_05_Po"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0026/PolarMetabolites/AnalysedDataset/CRMN_normalized.txt#haustorium_05_Po"
+description = "RPMM0026 sample haustorium_05_Po"
+gcid = "haustorium_05_Po"
+species = "kanabikisou"
+tissue = "haustorium"
+weight_mg = "1"
+
+[[sample]]
+index = 4
+name = "haustorium_06_Po"
+assay = "haustorium_06_Po"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0026/PolarMetabolites/AnalysedDataset/CRMN_normalized.txt#haustorium_06_Po"
+description = "RPMM0026 sample haustorium_06_Po"
+gcid = "haustorium_06_Po"
+species = "kanabikisou"
+tissue = "haustorium"
+weight_mg = "1"
+
+[[sample]]
+index = 5
+name = "root_02_Polar_1"
+assay = "root_02_Polar_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0026/PolarMetabolites/AnalysedDataset/CRMN_normalized.txt#root_02_Polar_1"
+description = "RPMM0026 sample root_02_Polar_1"
+gcid = "root_02_Polar_1"
+species = "kanabikisou"
+tissue = "root"
+weight_mg = "1"
+
+[[sample]]
+index = 6
+name = "root_04_Polar_1"
+assay = "root_04_Polar_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0026/PolarMetabolites/AnalysedDataset/CRMN_normalized.txt#root_04_Polar_1"
+description = "RPMM0026 sample root_04_Polar_1"
+gcid = "root_04_Polar_1"
+species = "kanabikisou"
+tissue = "root"
+weight_mg = "1"
+
+[[sample]]
+index = 7
+name = "root_05_Polar_1"
+assay = "root_05_Polar_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0026/PolarMetabolites/AnalysedDataset/CRMN_normalized.txt#root_05_Polar_1"
+description = "RPMM0026 sample root_05_Polar_1"
+gcid = "root_05_Polar_1"
+species = "kanabikisou"
+tissue = "root"
+weight_mg = "1"
+
+[[sample]]
+index = 8
+name = "root_06_Polar_1"
+assay = "root_06_Polar_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0026/PolarMetabolites/AnalysedDataset/CRMN_normalized.txt#root_06_Polar_1"
+description = "RPMM0026 sample root_06_Polar_1"
+gcid = "root_06_Polar_1"
+species = "kanabikisou"
+tissue = "root"
+weight_mg = "1"
+
+[study_variables]
+candidate_columns = [
+    "gcid",
+    "tissue",
+]
+
+[study_variables.levels]
+gcid = [
+    "haustorium_02_Po",
+    "haustorium_04_Po",
+    "haustorium_05_Po",
+    "haustorium_06_Po",
+    "root_02_Polar_1",
+    "root_04_Polar_1",
+    "root_05_Polar_1",
+    "root_06_Polar_1",
+]
+tissue = [
+    "haustorium",
+    "root",
+]

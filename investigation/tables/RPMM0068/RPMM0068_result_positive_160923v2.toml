@@ -1,0 +1,836 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0068"
+title = "Defects in the cytokinin signaling reprogram lipid and flavonoid gene-to-metabolite networks to mitigate the effects of salinity in Arabidopsis thaliana"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0068"
+
+[matrix]
+name = "result_positive_160923v2"
+source_file = "RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt"
+format = "tsv"
+n_features = 783
+n_samples = 51
+metadata_columns = [
+    "m/z",
+    "Annotation",
+]
+unclassified_columns = [
+    "ID",
+    "Biotransformations/Adducts",
+    "Included",
+    "Saturated",
+]
+
+[companion_files]
+phenodata = "RPMM0068/AnalysedDataset/Lipid/phenodata_lipid.csv"
+msp = ""
+
+[organism]
+raw = ""
+cv = ""
+source = ""
+
+[instrument]
+technique = "LC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "Ret. Time"
+assay = "Ret. Time"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#Ret. Time"
+description = "RPMM0068 sample Ret. Time"
+
+[[sample]]
+index = 2
+name = "160915_013p"
+assay = "160915_013p"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_013p"
+description = "RPMM0068 sample 160915_013p"
+col4 = "control"
+genotype = "0mM NaCl"
+lipidid = "160915_013p"
+samplemame = "Col"
+treatment = "Col0"
+
+[[sample]]
+index = 3
+name = "160915_030p"
+assay = "160915_030p"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_030p"
+description = "RPMM0068 sample 160915_030p"
+col4 = "control"
+genotype = "0mM NaCl"
+lipidid = "160915_030p"
+samplemame = "Col"
+treatment = "Col0"
+
+[[sample]]
+index = 4
+name = "160915_009p"
+assay = "160915_009p"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_009p"
+description = "RPMM0068 sample 160915_009p"
+col4 = "control"
+genotype = "0mM NaCl"
+lipidid = "160915_009p"
+samplemame = "Col"
+treatment = "Col0"
+
+[[sample]]
+index = 5
+name = "160915_052p"
+assay = "160915_052p"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_052p"
+description = "RPMM0068 sample 160915_052p"
+col4 = "control"
+genotype = "0mM NaCl"
+lipidid = "160915_052p"
+samplemame = "Col"
+treatment = "Col0"
+
+[[sample]]
+index = 6
+name = "160915_005p"
+assay = "160915_005p"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_005p"
+description = "RPMM0068 sample 160915_005p"
+col4 = "control"
+genotype = "0mM NaCl"
+lipidid = "160915_005p"
+samplemame = "Col"
+treatment = "Col0"
+
+[[sample]]
+index = 7
+name = "160915_042p"
+assay = "160915_042p"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_042p"
+description = "RPMM0068 sample 160915_042p"
+col4 = "7"
+col5 = "0mM NaCl"
+col6 = "ipt1357"
+col7 = "control"
+genotype = "3"
+lipidid = "160915_042p"
+samplemame = "ipt1"
+treatment = "5"
+
+[[sample]]
+index = 8
+name = "160915_054p"
+assay = "160915_054p"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_054p"
+description = "RPMM0068 sample 160915_054p"
+col4 = "7"
+col5 = "0mM NaCl"
+col6 = "ipt1357"
+col7 = "control"
+genotype = "3"
+lipidid = "160915_054p"
+samplemame = "ipt1"
+treatment = "5"
+
+[[sample]]
+index = 9
+name = "160915_047p"
+assay = "160915_047p"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_047p"
+description = "RPMM0068 sample 160915_047p"
+col4 = "7"
+col5 = "0mM NaCl"
+col6 = "ipt1357"
+col7 = "control"
+genotype = "3"
+lipidid = "160915_047p"
+samplemame = "ipt1"
+treatment = "5"
+
+[[sample]]
+index = 10
+name = "160915_018p"
+assay = "160915_018p"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_018p"
+description = "RPMM0068 sample 160915_018p"
+col4 = "7"
+col5 = "0mM NaCl"
+col6 = "ipt1357"
+col7 = "control"
+genotype = "3"
+lipidid = "160915_018p"
+samplemame = "ipt1"
+treatment = "5"
+
+[[sample]]
+index = 11
+name = "160915_035p"
+assay = "160915_035p"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_035p"
+description = "RPMM0068 sample 160915_035p"
+col4 = "7"
+col5 = "0mM NaCl"
+col6 = "ipt1357"
+col7 = "control"
+genotype = "3"
+lipidid = "160915_035p"
+samplemame = "ipt1"
+treatment = "5"
+
+[[sample]]
+index = 12
+name = "160915_007p"
+assay = "160915_007p"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_007p"
+description = "RPMM0068 sample 160915_007p"
+col4 = "ahk23"
+col5 = "control"
+genotype = "3"
+lipidid = "160915_007p"
+samplemame = "ahk2"
+treatment = "0mM NaCl"
+
+[[sample]]
+index = 13
+name = "160915_014p"
+assay = "160915_014p"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_014p"
+description = "RPMM0068 sample 160915_014p"
+col4 = "ahk23"
+col5 = "control"
+genotype = "3"
+lipidid = "160915_014p"
+samplemame = "ahk2"
+treatment = "0mM NaCl"
+
+[[sample]]
+index = 14
+name = "160915_026p"
+assay = "160915_026p"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_026p"
+description = "RPMM0068 sample 160915_026p"
+col4 = "ahk23"
+col5 = "control"
+genotype = "3"
+lipidid = "160915_026p"
+samplemame = "ahk2"
+treatment = "0mM NaCl"
+
+[[sample]]
+index = 15
+name = "160915_016p"
+assay = "160915_016p"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_016p"
+description = "RPMM0068 sample 160915_016p"
+col4 = "ahk23"
+col5 = "control"
+genotype = "3"
+lipidid = "160915_016p"
+samplemame = "ahk2"
+treatment = "0mM NaCl"
+
+[[sample]]
+index = 16
+name = "160915_041p"
+assay = "160915_041p"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_041p"
+description = "RPMM0068 sample 160915_041p"
+col4 = "ahk23"
+col5 = "control"
+genotype = "3"
+lipidid = "160915_041p"
+samplemame = "ahk2"
+treatment = "0mM NaCl"
+
+[[sample]]
+index = 17
+name = "160915_040p"
+assay = "160915_040p"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_040p"
+description = "RPMM0068 sample 160915_040p"
+col4 = "0mM NaCl"
+col5 = "ahk235"
+col6 = "control"
+genotype = "3"
+lipidid = "160915_040p"
+samplemame = "ahp2"
+treatment = "5"
+
+[[sample]]
+index = 18
+name = "160915_034p"
+assay = "160915_034p"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_034p"
+description = "RPMM0068 sample 160915_034p"
+col4 = "0mM NaCl"
+col5 = "ahk235"
+col6 = "control"
+genotype = "3"
+lipidid = "160915_034p"
+samplemame = "ahp2"
+treatment = "5"
+
+[[sample]]
+index = 19
+name = "160915_023p"
+assay = "160915_023p"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_023p"
+description = "RPMM0068 sample 160915_023p"
+col4 = "0mM NaCl"
+col5 = "ahk235"
+col6 = "control"
+genotype = "3"
+lipidid = "160915_023p"
+samplemame = "ahp2"
+treatment = "5"
+
+[[sample]]
+index = 20
+name = "160915_024p"
+assay = "160915_024p"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_024p"
+description = "RPMM0068 sample 160915_024p"
+col4 = "0mM NaCl"
+col5 = "ahk235"
+col6 = "control"
+genotype = "3"
+lipidid = "160915_024p"
+samplemame = "ahp2"
+treatment = "5"
+
+[[sample]]
+index = 21
+name = "160915_031p"
+assay = "160915_031p"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_031p"
+description = "RPMM0068 sample 160915_031p"
+col4 = "0mM NaCl"
+col5 = "ahk235"
+col6 = "control"
+genotype = "3"
+lipidid = "160915_031p"
+samplemame = "ahp2"
+treatment = "5"
+
+[[sample]]
+index = 22
+name = "160915_010p"
+assay = "160915_010p"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_010p"
+description = "RPMM0068 sample 160915_010p"
+col4 = "0mM NaCl"
+col5 = "arr11012"
+col6 = "control"
+genotype = "10"
+lipidid = "160915_010p"
+samplemame = "arr1"
+treatment = "12"
+
+[[sample]]
+index = 23
+name = "160915_044p"
+assay = "160915_044p"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_044p"
+description = "RPMM0068 sample 160915_044p"
+col4 = "0mM NaCl"
+col5 = "arr11012"
+col6 = "control"
+genotype = "10"
+lipidid = "160915_044p"
+samplemame = "arr1"
+treatment = "12"
+
+[[sample]]
+index = 24
+name = "160915_053p"
+assay = "160915_053p"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_053p"
+description = "RPMM0068 sample 160915_053p"
+col4 = "0mM NaCl"
+col5 = "arr11012"
+col6 = "control"
+genotype = "10"
+lipidid = "160915_053p"
+samplemame = "arr1"
+treatment = "12"
+
+[[sample]]
+index = 25
+name = "160915_015p"
+assay = "160915_015p"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_015p"
+description = "RPMM0068 sample 160915_015p"
+col4 = "0mM NaCl"
+col5 = "arr11012"
+col6 = "control"
+genotype = "10"
+lipidid = "160915_015p"
+samplemame = "arr1"
+treatment = "12"
+
+[[sample]]
+index = 26
+name = "160915_036p"
+assay = "160915_036p"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_036p"
+description = "RPMM0068 sample 160915_036p"
+col4 = "0mM NaCl"
+col5 = "arr11012"
+col6 = "control"
+genotype = "10"
+lipidid = "160915_036p"
+samplemame = "arr1"
+treatment = "12"
+
+[[sample]]
+index = 27
+name = "160915_033p"
+assay = "160915_033p"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_033p"
+description = "RPMM0068 sample 160915_033p"
+col4 = "NaCl"
+genotype = "200mM NaCl"
+lipidid = "160915_033p"
+samplemame = "Col"
+treatment = "Col0"
+
+[[sample]]
+index = 28
+name = "160915_006p"
+assay = "160915_006p"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_006p"
+description = "RPMM0068 sample 160915_006p"
+col4 = "NaCl"
+genotype = "200mM NaCl"
+lipidid = "160915_006p"
+samplemame = "Col"
+treatment = "Col0"
+
+[[sample]]
+index = 29
+name = "160915_012p"
+assay = "160915_012p"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_012p"
+description = "RPMM0068 sample 160915_012p"
+col4 = "NaCl"
+genotype = "200mM NaCl"
+lipidid = "160915_012p"
+samplemame = "Col"
+treatment = "Col0"
+
+[[sample]]
+index = 30
+name = "160915_039p"
+assay = "160915_039p"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_039p"
+description = "RPMM0068 sample 160915_039p"
+col4 = "NaCl"
+genotype = "200mM NaCl"
+lipidid = "160915_039p"
+samplemame = "Col"
+treatment = "Col0"
+
+[[sample]]
+index = 31
+name = "160915_032p"
+assay = "160915_032p"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_032p"
+description = "RPMM0068 sample 160915_032p"
+col4 = "NaCl"
+genotype = "200mM NaCl"
+lipidid = "160915_032p"
+samplemame = "Col"
+treatment = "Col0"
+
+[[sample]]
+index = 32
+name = "160915_027p"
+assay = "160915_027p"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_027p"
+description = "RPMM0068 sample 160915_027p"
+col4 = "7"
+col5 = "200mM NaCl"
+col6 = "ipt1357"
+col7 = "NaCl"
+genotype = "3"
+lipidid = "160915_027p"
+samplemame = "ipt1"
+treatment = "5"
+
+[[sample]]
+index = 33
+name = "160915_017p"
+assay = "160915_017p"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_017p"
+description = "RPMM0068 sample 160915_017p"
+col4 = "7"
+col5 = "200mM NaCl"
+col6 = "ipt1357"
+col7 = "NaCl"
+genotype = "3"
+lipidid = "160915_017p"
+samplemame = "ipt1"
+treatment = "5"
+
+[[sample]]
+index = 34
+name = "160915_051p"
+assay = "160915_051p"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_051p"
+description = "RPMM0068 sample 160915_051p"
+col4 = "7"
+col5 = "200mM NaCl"
+col6 = "ipt1357"
+col7 = "NaCl"
+genotype = "3"
+lipidid = "160915_051p"
+samplemame = "ipt1"
+treatment = "5"
+
+[[sample]]
+index = 35
+name = "160915_011p"
+assay = "160915_011p"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_011p"
+description = "RPMM0068 sample 160915_011p"
+col4 = "7"
+col5 = "200mM NaCl"
+col6 = "ipt1357"
+col7 = "NaCl"
+genotype = "3"
+lipidid = "160915_011p"
+samplemame = "ipt1"
+treatment = "5"
+
+[[sample]]
+index = 36
+name = "160915_022p"
+assay = "160915_022p"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_022p"
+description = "RPMM0068 sample 160915_022p"
+col4 = "7"
+col5 = "200mM NaCl"
+col6 = "ipt1357"
+col7 = "NaCl"
+genotype = "3"
+lipidid = "160915_022p"
+samplemame = "ipt1"
+treatment = "5"
+
+[[sample]]
+index = 37
+name = "160915_008p"
+assay = "160915_008p"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_008p"
+description = "RPMM0068 sample 160915_008p"
+col4 = "ahk23"
+col5 = "NaCl"
+genotype = "3"
+lipidid = "160915_008p"
+samplemame = "ahk2"
+treatment = "200mM NaCl"
+
+[[sample]]
+index = 38
+name = "160915_021p"
+assay = "160915_021p"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_021p"
+description = "RPMM0068 sample 160915_021p"
+col4 = "ahk23"
+col5 = "NaCl"
+genotype = "3"
+lipidid = "160915_021p"
+samplemame = "ahk2"
+treatment = "200mM NaCl"
+
+[[sample]]
+index = 39
+name = "160915_019p"
+assay = "160915_019p"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_019p"
+description = "RPMM0068 sample 160915_019p"
+col4 = "ahk23"
+col5 = "NaCl"
+genotype = "3"
+lipidid = "160915_019p"
+samplemame = "ahk2"
+treatment = "200mM NaCl"
+
+[[sample]]
+index = 40
+name = "160915_046p"
+assay = "160915_046p"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_046p"
+description = "RPMM0068 sample 160915_046p"
+col4 = "ahk23"
+col5 = "NaCl"
+genotype = "3"
+lipidid = "160915_046p"
+samplemame = "ahk2"
+treatment = "200mM NaCl"
+
+[[sample]]
+index = 41
+name = "160915_020p"
+assay = "160915_020p"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_020p"
+description = "RPMM0068 sample 160915_020p"
+col4 = "ahk23"
+col5 = "NaCl"
+genotype = "3"
+lipidid = "160915_020p"
+samplemame = "ahk2"
+treatment = "200mM NaCl"
+
+[[sample]]
+index = 42
+name = "160915_045p"
+assay = "160915_045p"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_045p"
+description = "RPMM0068 sample 160915_045p"
+col4 = "200mM NaCl"
+col5 = "ahk235"
+col6 = "NaCl"
+genotype = "3"
+lipidid = "160915_045p"
+samplemame = "ahp2"
+treatment = "5"
+
+[[sample]]
+index = 43
+name = "160915_049p"
+assay = "160915_049p"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_049p"
+description = "RPMM0068 sample 160915_049p"
+col4 = "200mM NaCl"
+col5 = "ahk235"
+col6 = "NaCl"
+genotype = "3"
+lipidid = "160915_049p"
+samplemame = "ahp2"
+treatment = "5"
+
+[[sample]]
+index = 44
+name = "160915_029p"
+assay = "160915_029p"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_029p"
+description = "RPMM0068 sample 160915_029p"
+col4 = "200mM NaCl"
+col5 = "ahk235"
+col6 = "NaCl"
+genotype = "3"
+lipidid = "160915_029p"
+samplemame = "ahp2"
+treatment = "5"
+
+[[sample]]
+index = 45
+name = "160915_043p"
+assay = "160915_043p"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_043p"
+description = "RPMM0068 sample 160915_043p"
+col4 = "200mM NaCl"
+col5 = "ahk235"
+col6 = "NaCl"
+genotype = "3"
+lipidid = "160915_043p"
+samplemame = "ahp2"
+treatment = "5"
+
+[[sample]]
+index = 46
+name = "160915_028p"
+assay = "160915_028p"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_028p"
+description = "RPMM0068 sample 160915_028p"
+col4 = "200mM NaCl"
+col5 = "ahk235"
+col6 = "NaCl"
+genotype = "3"
+lipidid = "160915_028p"
+samplemame = "ahp2"
+treatment = "5"
+
+[[sample]]
+index = 47
+name = "160915_050p"
+assay = "160915_050p"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_050p"
+description = "RPMM0068 sample 160915_050p"
+col4 = "200mM NaCl"
+col5 = "arr11012"
+col6 = "NaCl"
+genotype = "10"
+lipidid = "160915_050p"
+samplemame = "arr1"
+treatment = "12"
+
+[[sample]]
+index = 48
+name = "160915_038p"
+assay = "160915_038p"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_038p"
+description = "RPMM0068 sample 160915_038p"
+col4 = "200mM NaCl"
+col5 = "arr11012"
+col6 = "NaCl"
+genotype = "10"
+lipidid = "160915_038p"
+samplemame = "arr1"
+treatment = "12"
+
+[[sample]]
+index = 49
+name = "160915_048p"
+assay = "160915_048p"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_048p"
+description = "RPMM0068 sample 160915_048p"
+col4 = "200mM NaCl"
+col5 = "arr11012"
+col6 = "NaCl"
+genotype = "10"
+lipidid = "160915_048p"
+samplemame = "arr1"
+treatment = "12"
+
+[[sample]]
+index = 50
+name = "160915_025p"
+assay = "160915_025p"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_025p"
+description = "RPMM0068 sample 160915_025p"
+col4 = "200mM NaCl"
+col5 = "arr11012"
+col6 = "NaCl"
+genotype = "10"
+lipidid = "160915_025p"
+samplemame = "arr1"
+treatment = "12"
+
+[[sample]]
+index = 51
+name = "160915_037p"
+assay = "160915_037p"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/Lipid/result_positive_160923v2.txt#160915_037p"
+description = "RPMM0068 sample 160915_037p"
+col4 = "200mM NaCl"
+col5 = "arr11012"
+col6 = "NaCl"
+genotype = "10"
+lipidid = "160915_037p"
+samplemame = "arr1"
+treatment = "12"
+
+[study_variables]
+candidate_columns = [
+    "samplemame",
+    "genotype",
+    "treatment",
+    "col4",
+    "col5",
+    "col6",
+    "col7",
+]
+
+[study_variables.levels]
+samplemame = [
+    "Col",
+    "ahk2",
+    "ahp2",
+    "arr1",
+    "ipt1",
+]
+genotype = [
+    "0mM NaCl",
+    "10",
+    "200mM NaCl",
+    "3",
+]
+treatment = [
+    "0mM NaCl",
+    "12",
+    "200mM NaCl",
+    "5",
+    "Col0",
+]
+col4 = [
+    "0mM NaCl",
+    "200mM NaCl",
+    "7",
+    "NaCl",
+    "ahk23",
+    "control",
+]
+col5 = [
+    "0mM NaCl",
+    "200mM NaCl",
+    "NaCl",
+    "ahk235",
+    "arr11012",
+    "control",
+]
+col6 = [
+    "NaCl",
+    "control",
+    "ipt1357",
+]
+col7 = [
+    "NaCl",
+    "control",
+]

@@ -1,0 +1,245 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0041"
+title = "Phospho<i>enol</i>pyruvate carboxylase intrinsically located in the chloroplast of rice plays a crucial role in ammonium assimilation"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0041"
+
+[matrix]
+name = "080814Miyaosan_sample02_nv_MetMat_marked"
+source_file = "RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls"
+format = "xls"
+n_features = 119
+n_samples = 24
+metadata_columns = [
+    "Marked_peaks",
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0041/AnalysedDataset/phenodata.csv"
+msp = ""
+
+[organism]
+raw = ""
+cv = ""
+source = ""
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "FD_01_1"
+assay = "FD_01_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#FD_01_1"
+description = "RPMM0041 sample FD_01_1"
+
+[[sample]]
+index = 2
+name = "FD_02_1"
+assay = "FD_02_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#FD_02_1"
+description = "RPMM0041 sample FD_02_1"
+
+[[sample]]
+index = 3
+name = "FD_03_1"
+assay = "FD_03_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#FD_03_1"
+description = "RPMM0041 sample FD_03_1"
+
+[[sample]]
+index = 4
+name = "Miya_01_1"
+assay = "Miya_01_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_01_1"
+description = "RPMM0041 sample Miya_01_1"
+
+[[sample]]
+index = 5
+name = "Miya_02_1"
+assay = "Miya_02_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_02_1"
+description = "RPMM0041 sample Miya_02_1"
+
+[[sample]]
+index = 6
+name = "Miya_03_1"
+assay = "Miya_03_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_03_1"
+description = "RPMM0041 sample Miya_03_1"
+
+[[sample]]
+index = 7
+name = "Miya_04_1"
+assay = "Miya_04_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_04_1"
+description = "RPMM0041 sample Miya_04_1"
+
+[[sample]]
+index = 8
+name = "Miya_05_1"
+assay = "Miya_05_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_05_1"
+description = "RPMM0041 sample Miya_05_1"
+
+[[sample]]
+index = 9
+name = "Miya_06_1"
+assay = "Miya_06_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_06_1"
+description = "RPMM0041 sample Miya_06_1"
+
+[[sample]]
+index = 10
+name = "Miya_07_2"
+assay = "Miya_07_2"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_07_2"
+description = "RPMM0041 sample Miya_07_2"
+
+[[sample]]
+index = 11
+name = "Miya_08_1"
+assay = "Miya_08_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_08_1"
+description = "RPMM0041 sample Miya_08_1"
+
+[[sample]]
+index = 12
+name = "Miya_09_1"
+assay = "Miya_09_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_09_1"
+description = "RPMM0041 sample Miya_09_1"
+
+[[sample]]
+index = 13
+name = "Miya_10_1"
+assay = "Miya_10_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_10_1"
+description = "RPMM0041 sample Miya_10_1"
+
+[[sample]]
+index = 14
+name = "Miya_11_1"
+assay = "Miya_11_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_11_1"
+description = "RPMM0041 sample Miya_11_1"
+
+[[sample]]
+index = 15
+name = "Miya_12_1"
+assay = "Miya_12_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_12_1"
+description = "RPMM0041 sample Miya_12_1"
+
+[[sample]]
+index = 16
+name = "Miya_12_2"
+assay = "Miya_12_2"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_12_2"
+description = "RPMM0041 sample Miya_12_2"
+
+[[sample]]
+index = 17
+name = "Miya_13_1"
+assay = "Miya_13_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_13_1"
+description = "RPMM0041 sample Miya_13_1"
+
+[[sample]]
+index = 18
+name = "Miya_14_1"
+assay = "Miya_14_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_14_1"
+description = "RPMM0041 sample Miya_14_1"
+
+[[sample]]
+index = 19
+name = "Miya_15_2"
+assay = "Miya_15_2"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_15_2"
+description = "RPMM0041 sample Miya_15_2"
+
+[[sample]]
+index = 20
+name = "Miya_16_1"
+assay = "Miya_16_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_16_1"
+description = "RPMM0041 sample Miya_16_1"
+
+[[sample]]
+index = 21
+name = "Miya_17_1"
+assay = "Miya_17_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_17_1"
+description = "RPMM0041 sample Miya_17_1"
+
+[[sample]]
+index = 22
+name = "Miya_18_1"
+assay = "Miya_18_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_18_1"
+description = "RPMM0041 sample Miya_18_1"
+
+[[sample]]
+index = 23
+name = "Miya_19_1"
+assay = "Miya_19_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_19_1"
+description = "RPMM0041 sample Miya_19_1"
+
+[[sample]]
+index = 24
+name = "Miya_20_1"
+assay = "Miya_20_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0041/AnalysedDataset/080814Miyaosan_sample02_nv_MetMat_marked.xls#Miya_20_1"
+description = "RPMM0041 sample Miya_20_1"
+
+[study_variables]
+candidate_columns = [
+    "genotype",
+    "class",
+    "note",
+]
+
+[study_variables.levels]
+genotype = []
+class = []
+note = []

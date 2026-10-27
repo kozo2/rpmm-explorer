@@ -1,0 +1,1395 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0007"
+title = "Metabolomics data reveal a crucial role of cytosolic glutamine synthetase 1;1 in coordinating metabolic balance in rice"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0007"
+
+[matrix]
+name = "Water_ccmn_normalized"
+source_file = "RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt"
+format = "tsv"
+n_features = 249
+n_samples = 102
+metadata_columns = [
+    "Marked_peaks",
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+    "fData::lineno",
+    "fData::query",
+    "fData::known",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/071025Touhokudai_phenodata.csv"
+msp = "RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/071025Touhokudai_ine2_nv_NIST.txt"
+
+[organism]
+raw = "ine"
+cv = "[NCBITaxon, NCBITaxon:4530, Oryza sativa, ]"
+source = "msp:061018_Touhokudai_ine_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "touhoku_ine_041_"
+assay = "touhoku_ine_041_"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_041_"
+description = "RPMM0007 sample touhoku_ine_041_"
+gcid = "touhoku_ine_041_"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 2
+name = "touhoku_ine_042_"
+assay = "touhoku_ine_042_"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_042_"
+description = "RPMM0007 sample touhoku_ine_042_"
+gcid = "touhoku_ine_042_"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 3
+name = "touhoku_ine_043_"
+assay = "touhoku_ine_043_"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_043_"
+description = "RPMM0007 sample touhoku_ine_043_"
+gcid = "touhoku_ine_043_"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 4
+name = "touhoku_ine_044_"
+assay = "touhoku_ine_044_"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_044_"
+description = "RPMM0007 sample touhoku_ine_044_"
+gcid = "touhoku_ine_044_"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 5
+name = "touhoku_ine_045_"
+assay = "touhoku_ine_045_"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_045_"
+description = "RPMM0007 sample touhoku_ine_045_"
+gcid = "touhoku_ine_045_"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 6
+name = "touhoku_ine_046_"
+assay = "touhoku_ine_046_"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_046_"
+description = "RPMM0007 sample touhoku_ine_046_"
+gcid = "touhoku_ine_046_"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 7
+name = "touhoku_ine_047_"
+assay = "touhoku_ine_047_"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_047_"
+description = "RPMM0007 sample touhoku_ine_047_"
+gcid = "touhoku_ine_047_"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 8
+name = "touhoku_ine_048_"
+assay = "touhoku_ine_048_"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_048_"
+description = "RPMM0007 sample touhoku_ine_048_"
+gcid = "touhoku_ine_048_"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 9
+name = "touhoku_ine_049_"
+assay = "touhoku_ine_049_"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_049_"
+description = "RPMM0007 sample touhoku_ine_049_"
+gcid = "touhoku_ine_049_"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 10
+name = "touhoku_ine_050_"
+assay = "touhoku_ine_050_"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_050_"
+description = "RPMM0007 sample touhoku_ine_050_"
+gcid = "touhoku_ine_050_"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 11
+name = "touhoku_ine_051_"
+assay = "touhoku_ine_051_"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_051_"
+description = "RPMM0007 sample touhoku_ine_051_"
+gcid = "touhoku_ine_051_"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 12
+name = "touhoku_ine_052_"
+assay = "touhoku_ine_052_"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_052_"
+description = "RPMM0007 sample touhoku_ine_052_"
+gcid = "touhoku_ine_052_"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 13
+name = "touhoku_ine_053_"
+assay = "touhoku_ine_053_"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_053_"
+description = "RPMM0007 sample touhoku_ine_053_"
+gcid = "touhoku_ine_053_"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 14
+name = "touhoku_ine_055_"
+assay = "touhoku_ine_055_"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_055_"
+description = "RPMM0007 sample touhoku_ine_055_"
+gcid = "touhoku_ine_055_"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 15
+name = "touhoku_ine_056_"
+assay = "touhoku_ine_056_"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_056_"
+description = "RPMM0007 sample touhoku_ine_056_"
+gcid = "touhoku_ine_056_"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 16
+name = "touhoku_ine_057_"
+assay = "touhoku_ine_057_"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_057_"
+description = "RPMM0007 sample touhoku_ine_057_"
+gcid = "touhoku_ine_057_"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 17
+name = "touhoku_ine_058_"
+assay = "touhoku_ine_058_"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_058_"
+description = "RPMM0007 sample touhoku_ine_058_"
+gcid = "touhoku_ine_058_"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 18
+name = "touhoku_ine_061_"
+assay = "touhoku_ine_061_"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_061_"
+description = "RPMM0007 sample touhoku_ine_061_"
+gcid = "touhoku_ine_061_"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 19
+name = "touhoku_ine_062_"
+assay = "touhoku_ine_062_"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_062_"
+description = "RPMM0007 sample touhoku_ine_062_"
+gcid = "touhoku_ine_062_"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 20
+name = "touhoku_ine_063_"
+assay = "touhoku_ine_063_"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_063_"
+description = "RPMM0007 sample touhoku_ine_063_"
+gcid = "touhoku_ine_063_"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 21
+name = "touhoku_ine_064_"
+assay = "touhoku_ine_064_"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_064_"
+description = "RPMM0007 sample touhoku_ine_064_"
+gcid = "touhoku_ine_064_"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 22
+name = "touhoku_ine_065_"
+assay = "touhoku_ine_065_"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_065_"
+description = "RPMM0007 sample touhoku_ine_065_"
+gcid = "touhoku_ine_065_"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 23
+name = "touhoku_ine_066_"
+assay = "touhoku_ine_066_"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_066_"
+description = "RPMM0007 sample touhoku_ine_066_"
+gcid = "touhoku_ine_066_"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 24
+name = "touhoku_ine_067_"
+assay = "touhoku_ine_067_"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_067_"
+description = "RPMM0007 sample touhoku_ine_067_"
+gcid = "touhoku_ine_067_"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 25
+name = "touhoku_ine_068_"
+assay = "touhoku_ine_068_"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_068_"
+description = "RPMM0007 sample touhoku_ine_068_"
+gcid = "touhoku_ine_068_"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 26
+name = "touhoku_ine_069_"
+assay = "touhoku_ine_069_"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_069_"
+description = "RPMM0007 sample touhoku_ine_069_"
+gcid = "touhoku_ine_069_"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 27
+name = "touhoku_ine_070_"
+assay = "touhoku_ine_070_"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_070_"
+description = "RPMM0007 sample touhoku_ine_070_"
+gcid = "touhoku_ine_070_"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 28
+name = "touhoku_ine_071_"
+assay = "touhoku_ine_071_"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_071_"
+description = "RPMM0007 sample touhoku_ine_071_"
+gcid = "touhoku_ine_071_"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 29
+name = "touhoku_ine_072_"
+assay = "touhoku_ine_072_"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_072_"
+description = "RPMM0007 sample touhoku_ine_072_"
+gcid = "touhoku_ine_072_"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 30
+name = "touhoku_ine_073_"
+assay = "touhoku_ine_073_"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_073_"
+description = "RPMM0007 sample touhoku_ine_073_"
+gcid = "touhoku_ine_073_"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 31
+name = "touhoku_ine_074_"
+assay = "touhoku_ine_074_"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_074_"
+description = "RPMM0007 sample touhoku_ine_074_"
+gcid = "touhoku_ine_074_"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 32
+name = "touhoku_ine_075_"
+assay = "touhoku_ine_075_"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_075_"
+description = "RPMM0007 sample touhoku_ine_075_"
+gcid = "touhoku_ine_075_"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 33
+name = "touhoku_ine_076_"
+assay = "touhoku_ine_076_"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_076_"
+description = "RPMM0007 sample touhoku_ine_076_"
+gcid = "touhoku_ine_076_"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 34
+name = "touhoku_ine_077_"
+assay = "touhoku_ine_077_"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_077_"
+description = "RPMM0007 sample touhoku_ine_077_"
+gcid = "touhoku_ine_077_"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 35
+name = "touhoku_ine_121_"
+assay = "touhoku_ine_121_"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_121_"
+description = "RPMM0007 sample touhoku_ine_121_"
+gcid = "touhoku_ine_121_"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 36
+name = "touhoku_ine_122_"
+assay = "touhoku_ine_122_"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_122_"
+description = "RPMM0007 sample touhoku_ine_122_"
+gcid = "touhoku_ine_122_"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 37
+name = "touhoku_ine_123_"
+assay = "touhoku_ine_123_"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_123_"
+description = "RPMM0007 sample touhoku_ine_123_"
+gcid = "touhoku_ine_123_"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 38
+name = "touhoku_ine_124_"
+assay = "touhoku_ine_124_"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_124_"
+description = "RPMM0007 sample touhoku_ine_124_"
+gcid = "touhoku_ine_124_"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 39
+name = "touhoku_ine_125_"
+assay = "touhoku_ine_125_"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_125_"
+description = "RPMM0007 sample touhoku_ine_125_"
+gcid = "touhoku_ine_125_"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 40
+name = "touhoku_ine_126_"
+assay = "touhoku_ine_126_"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_126_"
+description = "RPMM0007 sample touhoku_ine_126_"
+gcid = "touhoku_ine_126_"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 41
+name = "touhoku_ine_127_"
+assay = "touhoku_ine_127_"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_127_"
+description = "RPMM0007 sample touhoku_ine_127_"
+gcid = "touhoku_ine_127_"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 42
+name = "touhoku_ine_128_"
+assay = "touhoku_ine_128_"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_128_"
+description = "RPMM0007 sample touhoku_ine_128_"
+gcid = "touhoku_ine_128_"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 43
+name = "touhoku_ine_129_"
+assay = "touhoku_ine_129_"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_129_"
+description = "RPMM0007 sample touhoku_ine_129_"
+gcid = "touhoku_ine_129_"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 44
+name = "touhoku_ine_130_"
+assay = "touhoku_ine_130_"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_130_"
+description = "RPMM0007 sample touhoku_ine_130_"
+gcid = "touhoku_ine_130_"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 45
+name = "touhoku_ine_131_"
+assay = "touhoku_ine_131_"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_131_"
+description = "RPMM0007 sample touhoku_ine_131_"
+gcid = "touhoku_ine_131_"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 46
+name = "touhoku_ine_132_"
+assay = "touhoku_ine_132_"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_132_"
+description = "RPMM0007 sample touhoku_ine_132_"
+gcid = "touhoku_ine_132_"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 47
+name = "touhoku_ine_133_"
+assay = "touhoku_ine_133_"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_133_"
+description = "RPMM0007 sample touhoku_ine_133_"
+gcid = "touhoku_ine_133_"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 48
+name = "touhoku_ine_135_"
+assay = "touhoku_ine_135_"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_135_"
+description = "RPMM0007 sample touhoku_ine_135_"
+gcid = "touhoku_ine_135_"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 49
+name = "touhoku_ine_136_"
+assay = "touhoku_ine_136_"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_136_"
+description = "RPMM0007 sample touhoku_ine_136_"
+gcid = "touhoku_ine_136_"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 50
+name = "touhoku_ine_137_"
+assay = "touhoku_ine_137_"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_137_"
+description = "RPMM0007 sample touhoku_ine_137_"
+gcid = "touhoku_ine_137_"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 51
+name = "touhoku_ine_138_"
+assay = "touhoku_ine_138_"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_138_"
+description = "RPMM0007 sample touhoku_ine_138_"
+gcid = "touhoku_ine_138_"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 52
+name = "touhoku_ine_141_"
+assay = "touhoku_ine_141_"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_141_"
+description = "RPMM0007 sample touhoku_ine_141_"
+gcid = "touhoku_ine_141_"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 53
+name = "touhoku_ine_142_"
+assay = "touhoku_ine_142_"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_142_"
+description = "RPMM0007 sample touhoku_ine_142_"
+gcid = "touhoku_ine_142_"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 54
+name = "touhoku_ine_143_"
+assay = "touhoku_ine_143_"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_143_"
+description = "RPMM0007 sample touhoku_ine_143_"
+gcid = "touhoku_ine_143_"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 55
+name = "touhoku_ine_144_"
+assay = "touhoku_ine_144_"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_144_"
+description = "RPMM0007 sample touhoku_ine_144_"
+gcid = "touhoku_ine_144_"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 56
+name = "touhoku_ine_145_"
+assay = "touhoku_ine_145_"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_145_"
+description = "RPMM0007 sample touhoku_ine_145_"
+gcid = "touhoku_ine_145_"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 57
+name = "touhoku_ine_146_"
+assay = "touhoku_ine_146_"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_146_"
+description = "RPMM0007 sample touhoku_ine_146_"
+gcid = "touhoku_ine_146_"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 58
+name = "touhoku_ine_147_"
+assay = "touhoku_ine_147_"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_147_"
+description = "RPMM0007 sample touhoku_ine_147_"
+gcid = "touhoku_ine_147_"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 59
+name = "touhoku_ine_148_"
+assay = "touhoku_ine_148_"
+ms_run_ref = "ms_run[59]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_148_"
+description = "RPMM0007 sample touhoku_ine_148_"
+gcid = "touhoku_ine_148_"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 60
+name = "touhoku_ine_149_"
+assay = "touhoku_ine_149_"
+ms_run_ref = "ms_run[60]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_149_"
+description = "RPMM0007 sample touhoku_ine_149_"
+gcid = "touhoku_ine_149_"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 61
+name = "touhoku_ine_150_"
+assay = "touhoku_ine_150_"
+ms_run_ref = "ms_run[61]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_150_"
+description = "RPMM0007 sample touhoku_ine_150_"
+gcid = "touhoku_ine_150_"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 62
+name = "touhoku_ine_151_"
+assay = "touhoku_ine_151_"
+ms_run_ref = "ms_run[62]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_151_"
+description = "RPMM0007 sample touhoku_ine_151_"
+gcid = "touhoku_ine_151_"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 63
+name = "touhoku_ine_152_"
+assay = "touhoku_ine_152_"
+ms_run_ref = "ms_run[63]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_152_"
+description = "RPMM0007 sample touhoku_ine_152_"
+gcid = "touhoku_ine_152_"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 64
+name = "touhoku_ine_153_"
+assay = "touhoku_ine_153_"
+ms_run_ref = "ms_run[64]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_153_"
+description = "RPMM0007 sample touhoku_ine_153_"
+gcid = "touhoku_ine_153_"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 65
+name = "touhoku_ine_154_"
+assay = "touhoku_ine_154_"
+ms_run_ref = "ms_run[65]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_154_"
+description = "RPMM0007 sample touhoku_ine_154_"
+gcid = "touhoku_ine_154_"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 66
+name = "touhoku_ine_155_"
+assay = "touhoku_ine_155_"
+ms_run_ref = "ms_run[66]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_155_"
+description = "RPMM0007 sample touhoku_ine_155_"
+gcid = "touhoku_ine_155_"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 67
+name = "touhoku_ine_156_"
+assay = "touhoku_ine_156_"
+ms_run_ref = "ms_run[67]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_156_"
+description = "RPMM0007 sample touhoku_ine_156_"
+gcid = "touhoku_ine_156_"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 68
+name = "touhoku_ine_157_"
+assay = "touhoku_ine_157_"
+ms_run_ref = "ms_run[68]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_157_"
+description = "RPMM0007 sample touhoku_ine_157_"
+gcid = "touhoku_ine_157_"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 69
+name = "touhoku_ine_201_"
+assay = "touhoku_ine_201_"
+ms_run_ref = "ms_run[69]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_201_"
+description = "RPMM0007 sample touhoku_ine_201_"
+gcid = "touhoku_ine_201_"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 70
+name = "touhoku_ine_202_"
+assay = "touhoku_ine_202_"
+ms_run_ref = "ms_run[70]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_202_"
+description = "RPMM0007 sample touhoku_ine_202_"
+gcid = "touhoku_ine_202_"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 71
+name = "touhoku_ine_203_"
+assay = "touhoku_ine_203_"
+ms_run_ref = "ms_run[71]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_203_"
+description = "RPMM0007 sample touhoku_ine_203_"
+gcid = "touhoku_ine_203_"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 72
+name = "touhoku_ine_204_"
+assay = "touhoku_ine_204_"
+ms_run_ref = "ms_run[72]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_204_"
+description = "RPMM0007 sample touhoku_ine_204_"
+gcid = "touhoku_ine_204_"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 73
+name = "touhoku_ine_205_"
+assay = "touhoku_ine_205_"
+ms_run_ref = "ms_run[73]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_205_"
+description = "RPMM0007 sample touhoku_ine_205_"
+gcid = "touhoku_ine_205_"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 74
+name = "touhoku_ine_206_"
+assay = "touhoku_ine_206_"
+ms_run_ref = "ms_run[74]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_206_"
+description = "RPMM0007 sample touhoku_ine_206_"
+gcid = "touhoku_ine_206_"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 75
+name = "touhoku_ine_207_"
+assay = "touhoku_ine_207_"
+ms_run_ref = "ms_run[75]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_207_"
+description = "RPMM0007 sample touhoku_ine_207_"
+gcid = "touhoku_ine_207_"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 76
+name = "touhoku_ine_208_"
+assay = "touhoku_ine_208_"
+ms_run_ref = "ms_run[76]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_208_"
+description = "RPMM0007 sample touhoku_ine_208_"
+gcid = "touhoku_ine_208_"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 77
+name = "touhoku_ine_209_"
+assay = "touhoku_ine_209_"
+ms_run_ref = "ms_run[77]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_209_"
+description = "RPMM0007 sample touhoku_ine_209_"
+gcid = "touhoku_ine_209_"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 78
+name = "touhoku_ine_210_"
+assay = "touhoku_ine_210_"
+ms_run_ref = "ms_run[78]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_210_"
+description = "RPMM0007 sample touhoku_ine_210_"
+gcid = "touhoku_ine_210_"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 79
+name = "touhoku_ine_211_"
+assay = "touhoku_ine_211_"
+ms_run_ref = "ms_run[79]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_211_"
+description = "RPMM0007 sample touhoku_ine_211_"
+gcid = "touhoku_ine_211_"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 80
+name = "touhoku_ine_212_"
+assay = "touhoku_ine_212_"
+ms_run_ref = "ms_run[80]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_212_"
+description = "RPMM0007 sample touhoku_ine_212_"
+gcid = "touhoku_ine_212_"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 81
+name = "touhoku_ine_213_"
+assay = "touhoku_ine_213_"
+ms_run_ref = "ms_run[81]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_213_"
+description = "RPMM0007 sample touhoku_ine_213_"
+gcid = "touhoku_ine_213_"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 82
+name = "touhoku_ine_215_"
+assay = "touhoku_ine_215_"
+ms_run_ref = "ms_run[82]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_215_"
+description = "RPMM0007 sample touhoku_ine_215_"
+gcid = "touhoku_ine_215_"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 83
+name = "touhoku_ine_216_"
+assay = "touhoku_ine_216_"
+ms_run_ref = "ms_run[83]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_216_"
+description = "RPMM0007 sample touhoku_ine_216_"
+gcid = "touhoku_ine_216_"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 84
+name = "touhoku_ine_217_"
+assay = "touhoku_ine_217_"
+ms_run_ref = "ms_run[84]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_217_"
+description = "RPMM0007 sample touhoku_ine_217_"
+gcid = "touhoku_ine_217_"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 85
+name = "touhoku_ine_218_"
+assay = "touhoku_ine_218_"
+ms_run_ref = "ms_run[85]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_218_"
+description = "RPMM0007 sample touhoku_ine_218_"
+gcid = "touhoku_ine_218_"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 86
+name = "touhoku_ine_221_"
+assay = "touhoku_ine_221_"
+ms_run_ref = "ms_run[86]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_221_"
+description = "RPMM0007 sample touhoku_ine_221_"
+gcid = "touhoku_ine_221_"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 87
+name = "touhoku_ine_222_"
+assay = "touhoku_ine_222_"
+ms_run_ref = "ms_run[87]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_222_"
+description = "RPMM0007 sample touhoku_ine_222_"
+gcid = "touhoku_ine_222_"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 88
+name = "touhoku_ine_223_"
+assay = "touhoku_ine_223_"
+ms_run_ref = "ms_run[88]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_223_"
+description = "RPMM0007 sample touhoku_ine_223_"
+gcid = "touhoku_ine_223_"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 89
+name = "touhoku_ine_224_"
+assay = "touhoku_ine_224_"
+ms_run_ref = "ms_run[89]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_224_"
+description = "RPMM0007 sample touhoku_ine_224_"
+gcid = "touhoku_ine_224_"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 90
+name = "touhoku_ine_225_"
+assay = "touhoku_ine_225_"
+ms_run_ref = "ms_run[90]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_225_"
+description = "RPMM0007 sample touhoku_ine_225_"
+gcid = "touhoku_ine_225_"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 91
+name = "touhoku_ine_226_"
+assay = "touhoku_ine_226_"
+ms_run_ref = "ms_run[91]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_226_"
+description = "RPMM0007 sample touhoku_ine_226_"
+gcid = "touhoku_ine_226_"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 92
+name = "touhoku_ine_227_"
+assay = "touhoku_ine_227_"
+ms_run_ref = "ms_run[92]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_227_"
+description = "RPMM0007 sample touhoku_ine_227_"
+gcid = "touhoku_ine_227_"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 93
+name = "touhoku_ine_228_"
+assay = "touhoku_ine_228_"
+ms_run_ref = "ms_run[93]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_228_"
+description = "RPMM0007 sample touhoku_ine_228_"
+gcid = "touhoku_ine_228_"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 94
+name = "touhoku_ine_229_"
+assay = "touhoku_ine_229_"
+ms_run_ref = "ms_run[94]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_229_"
+description = "RPMM0007 sample touhoku_ine_229_"
+gcid = "touhoku_ine_229_"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 95
+name = "touhoku_ine_230_"
+assay = "touhoku_ine_230_"
+ms_run_ref = "ms_run[95]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_230_"
+description = "RPMM0007 sample touhoku_ine_230_"
+gcid = "touhoku_ine_230_"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 96
+name = "touhoku_ine_231_"
+assay = "touhoku_ine_231_"
+ms_run_ref = "ms_run[96]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_231_"
+description = "RPMM0007 sample touhoku_ine_231_"
+gcid = "touhoku_ine_231_"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 97
+name = "touhoku_ine_232_"
+assay = "touhoku_ine_232_"
+ms_run_ref = "ms_run[97]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_232_"
+description = "RPMM0007 sample touhoku_ine_232_"
+gcid = "touhoku_ine_232_"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 98
+name = "touhoku_ine_233_"
+assay = "touhoku_ine_233_"
+ms_run_ref = "ms_run[98]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_233_"
+description = "RPMM0007 sample touhoku_ine_233_"
+gcid = "touhoku_ine_233_"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 99
+name = "touhoku_ine_234_"
+assay = "touhoku_ine_234_"
+ms_run_ref = "ms_run[99]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_234_"
+description = "RPMM0007 sample touhoku_ine_234_"
+gcid = "touhoku_ine_234_"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 100
+name = "touhoku_ine_235_"
+assay = "touhoku_ine_235_"
+ms_run_ref = "ms_run[100]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_235_"
+description = "RPMM0007 sample touhoku_ine_235_"
+gcid = "touhoku_ine_235_"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 101
+name = "touhoku_ine_236_"
+assay = "touhoku_ine_236_"
+ms_run_ref = "ms_run[101]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_236_"
+description = "RPMM0007 sample touhoku_ine_236_"
+gcid = "touhoku_ine_236_"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[[sample]]
+index = 102
+name = "touhoku_ine_238_"
+assay = "touhoku_ine_238_"
+ms_run_ref = "ms_run[102]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/LBLSROOTwater/Water_ccmn_normalized.txt#touhoku_ine_238_"
+description = "RPMM0007 sample touhoku_ine_238_"
+gcid = "touhoku_ine_238_"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Water"
+type = "exp"
+
+[study_variables]
+candidate_columns = [
+    "genotype",
+    "tissue",
+    "type",
+    "treatment",
+]
+
+[study_variables.levels]
+genotype = [
+    "mutant",
+    "wildtype",
+]
+tissue = [
+    "LB",
+    "LS",
+    "ROOT",
+]
+type = [
+    "exp",
+]
+treatment = [
+    "Water",
+]

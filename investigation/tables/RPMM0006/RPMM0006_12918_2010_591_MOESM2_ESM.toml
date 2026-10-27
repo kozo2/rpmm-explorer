@@ -1,0 +1,135 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0006"
+title = "Metabolomic correlation-network modules in Arabidopsis based on a graph-clustering approach"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0006"
+
+[matrix]
+name = "12918_2010_591_MOESM2_ESM"
+source_file = "RPMM0006/AnalysedDataset/12918_2010_591_MOESM2_ESM.XLS"
+format = "xls"
+n_features = 59
+n_samples = 12
+metadata_columns = [
+    "Metabolites",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = ""
+msp = "RPMM0006/AnalysedDataset/060510root_noise3NIST.txt"
+
+[organism]
+raw = "arabidopsis"
+cv = "[NCBITaxon, NCBITaxon:3702, Arabidopsis thaliana, ]"
+source = "msp:060510root_noise3NIST.txt"
+
+[instrument]
+technique = "LC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "FDR (class 1 < class 2)"
+assay = "FDR (class 1 < class 2)"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM2_ESM.XLS#FDR (class 1 < class 2)"
+description = "RPMM0006 sample FDR (class 1 < class 2)"
+
+[[sample]]
+index = 2
+name = "FDR (class 1 > class 2)"
+assay = "FDR (class 1 > class 2)"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM2_ESM.XLS#FDR (class 1 > class 2)"
+description = "RPMM0006 sample FDR (class 1 > class 2)"
+
+[[sample]]
+index = 3
+name = "stat (class 1 < class 2)"
+assay = "stat (class 1 < class 2)"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM2_ESM.XLS#stat (class 1 < class 2)"
+description = "RPMM0006 sample stat (class 1 < class 2)"
+
+[[sample]]
+index = 4
+name = "stat (class 1 > class 2)"
+assay = "stat (class 1 > class 2)"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM2_ESM.XLS#stat (class 1 > class 2)"
+description = "RPMM0006 sample stat (class 1 > class 2)"
+
+[[sample]]
+index = 5
+name = "rank (class 1 < class2)"
+assay = "rank (class 1 < class2)"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM2_ESM.XLS#rank (class 1 < class2)"
+description = "RPMM0006 sample rank (class 1 < class2)"
+
+[[sample]]
+index = 6
+name = "rank (class 1 > class 2)"
+assay = "rank (class 1 > class 2)"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM2_ESM.XLS#rank (class 1 > class 2)"
+description = "RPMM0006 sample rank (class 1 > class 2)"
+
+[[sample]]
+index = 7
+name = "log2ratio"
+assay = "log2ratio"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM2_ESM.XLS#log2ratio"
+description = "RPMM0006 sample log2ratio"
+
+[[sample]]
+index = 8
+name = "rank.fc"
+assay = "rank.fc"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM2_ESM.XLS#rank.fc"
+description = "RPMM0006 sample rank.fc"
+
+[[sample]]
+index = 9
+name = "stat.RP"
+assay = "stat.RP"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM2_ESM.XLS#stat.RP"
+description = "RPMM0006 sample stat.RP"
+
+[[sample]]
+index = 10
+name = "rank.RP"
+assay = "rank.RP"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM2_ESM.XLS#rank.RP"
+description = "RPMM0006 sample rank.RP"
+
+[[sample]]
+index = 11
+name = "PC1 loadings"
+assay = "PC1 loadings"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM2_ESM.XLS#PC1 loadings"
+description = "RPMM0006 sample PC1 loadings"
+
+[[sample]]
+index = 12
+name = "PC2 loadings"
+assay = "PC2 loadings"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM2_ESM.XLS#PC2 loadings"
+description = "RPMM0006 sample PC2 loadings"
+
+[study_variables]
+candidate_columns = []
+
+[study_variables.levels]

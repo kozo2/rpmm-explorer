@@ -1,0 +1,1810 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0044"
+title = "Adaptation of the symbiotic <i>Mesorhizobium</i>–chickpea relationship to phosphate deficiency relies on reprogramming of whole-plant metabolism"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0044"
+
+[matrix]
+name = "MetMat_abs"
+source_file = "RPMM0044/AnalysedDataset/MetMat_abs.txt"
+format = "tsv"
+n_features = 286
+n_samples = 121
+metadata_columns = [
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0044/AnalysedDataset/phenodata.csv"
+msp = "RPMM0044/AnalysedDataset/141205_Chickpea_NIST.txt"
+
+[organism]
+raw = "Chickpea (leaf,root and nodule)"
+cv = "[NCBITaxon, NCBITaxon:3827, Cicer arietinum, ]"
+source = "msp:141205_Chickpea_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "Chickpea_001_1"
+assay = "Chickpea_001_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_001_1"
+description = "RPMM0044 sample Chickpea_001_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_001_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_001"
+ptreatment = "P_supply_cont"
+combination = "N_+P_SWRI9"
+gcid = "Chickpea_001_1"
+note1 = "Chickpea_001:1"
+numofbulked = "1"
+runorder = "31"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 2
+name = "Chickpea_002_1"
+assay = "Chickpea_002_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_002_1"
+description = "RPMM0044 sample Chickpea_002_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_002_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_002"
+ptreatment = "P_supply_cont"
+combination = "N_+P_SWRI9"
+gcid = "Chickpea_002_1"
+note1 = "Chickpea_002:1"
+numofbulked = "1"
+runorder = "131"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 3
+name = "Chickpea_003_1"
+assay = "Chickpea_003_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_003_1"
+description = "RPMM0044 sample Chickpea_003_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_003_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_003"
+ptreatment = "P_supply_cont"
+combination = "N_+P_SWRI9"
+gcid = "Chickpea_003_1"
+note1 = "Chickpea_003:1"
+numofbulked = "1"
+runorder = "126"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 4
+name = "Chickpea_004_1"
+assay = "Chickpea_004_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_004_1"
+description = "RPMM0044 sample Chickpea_004_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_004_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_004"
+ptreatment = "P_supply_cont"
+combination = "N_+P_SWRI9"
+gcid = "Chickpea_004_1"
+note1 = "Chickpea_004:1"
+numofbulked = "1"
+runorder = "49"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 5
+name = "Chickpea_005_1"
+assay = "Chickpea_005_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_005_1"
+description = "RPMM0044 sample Chickpea_005_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_005_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_005"
+ptreatment = "P_supply_cont"
+combination = "N_+P_SWRI9"
+gcid = "Chickpea_005_1"
+note1 = "Chickpea_005:1"
+numofbulked = "1"
+runorder = "53"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 6
+name = "Chickpea_006_1"
+assay = "Chickpea_006_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_006_1"
+description = "RPMM0044 sample Chickpea_006_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_006_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_006"
+ptreatment = "P_stress"
+combination = "N_-P_SWRI9"
+gcid = "Chickpea_006_1"
+note1 = "Chickpea_006:1"
+numofbulked = "1"
+runorder = "137"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 7
+name = "Chickpea_007_1"
+assay = "Chickpea_007_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_007_1"
+description = "RPMM0044 sample Chickpea_007_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_007_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_007"
+ptreatment = "P_stress"
+combination = "N_-P_SWRI9"
+gcid = "Chickpea_007_1"
+note1 = "Chickpea_007:1"
+numofbulked = "1"
+runorder = "69"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 8
+name = "Chickpea_008_1"
+assay = "Chickpea_008_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_008_1"
+description = "RPMM0044 sample Chickpea_008_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_008_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_008"
+ptreatment = "P_stress"
+combination = "N_-P_SWRI9"
+gcid = "Chickpea_008_1"
+note1 = "Chickpea_008:1"
+numofbulked = "1"
+runorder = "118"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 9
+name = "Chickpea_009_1"
+assay = "Chickpea_009_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_009_1"
+description = "RPMM0044 sample Chickpea_009_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_009_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_009"
+ptreatment = "P_stress"
+combination = "N_-P_SWRI9"
+gcid = "Chickpea_009_1"
+note1 = "Chickpea_009:1"
+numofbulked = "1"
+runorder = "84"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 10
+name = "Chickpea_010_1"
+assay = "Chickpea_010_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_010_1"
+description = "RPMM0044 sample Chickpea_010_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_010_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_010"
+ptreatment = "P_stress"
+combination = "N_-P_SWRI9"
+gcid = "Chickpea_010_1"
+note1 = "Chickpea_010:1"
+numofbulked = "1"
+runorder = "22"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 11
+name = "Chickpea_011_1"
+assay = "Chickpea_011_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_011_1"
+description = "RPMM0044 sample Chickpea_011_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_011_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_011"
+ptreatment = "P_supply_cont"
+combination = "N_+P_CP-31"
+gcid = "Chickpea_011_1"
+note1 = "Chickpea_011:1"
+numofbulked = "1"
+runorder = "56"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 12
+name = "Chickpea_012_1"
+assay = "Chickpea_012_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_012_1"
+description = "RPMM0044 sample Chickpea_012_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_012_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_012"
+ptreatment = "P_supply_cont"
+combination = "N_+P_CP-31"
+gcid = "Chickpea_012_1"
+note1 = "Chickpea_012:1"
+numofbulked = "1"
+runorder = "51"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 13
+name = "Chickpea_013_1"
+assay = "Chickpea_013_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_013_1"
+description = "RPMM0044 sample Chickpea_013_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_013_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_013"
+ptreatment = "P_supply_cont"
+combination = "N_+P_CP-31"
+gcid = "Chickpea_013_1"
+note1 = "Chickpea_013:1"
+numofbulked = "1"
+runorder = "36"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 14
+name = "Chickpea_014_1"
+assay = "Chickpea_014_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_014_1"
+description = "RPMM0044 sample Chickpea_014_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_014_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_014"
+ptreatment = "P_supply_cont"
+combination = "N_+P_CP-31"
+gcid = "Chickpea_014_1"
+note1 = "Chickpea_014:1"
+numofbulked = "1"
+runorder = "14"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 15
+name = "Chickpea_015_1"
+assay = "Chickpea_015_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_015_1"
+description = "RPMM0044 sample Chickpea_015_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_015_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_015"
+ptreatment = "P_supply_cont"
+combination = "N_+P_CP-31"
+gcid = "Chickpea_015_1"
+note1 = "Chickpea_015:1"
+numofbulked = "1"
+runorder = "93"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 16
+name = "Chickpea_016_1"
+assay = "Chickpea_016_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_016_1"
+description = "RPMM0044 sample Chickpea_016_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_016_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_016"
+ptreatment = "P_stress"
+combination = "N_-P_CP-31"
+gcid = "Chickpea_016_1"
+note1 = "Chickpea_016:1"
+numofbulked = "1"
+runorder = "91"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 17
+name = "Chickpea_017_1"
+assay = "Chickpea_017_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_017_1"
+description = "RPMM0044 sample Chickpea_017_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_017_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_017"
+ptreatment = "P_stress"
+combination = "N_-P_CP-31"
+gcid = "Chickpea_017_1"
+note1 = "Chickpea_017:1"
+numofbulked = "1"
+runorder = "81"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 18
+name = "Chickpea_018_1"
+assay = "Chickpea_018_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_018_1"
+description = "RPMM0044 sample Chickpea_018_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_018_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_018"
+ptreatment = "P_stress"
+combination = "N_-P_CP-31"
+gcid = "Chickpea_018_1"
+note1 = "Chickpea_018:1"
+numofbulked = "1"
+runorder = "67"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 19
+name = "Chickpea_019_1"
+assay = "Chickpea_019_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_019_1"
+description = "RPMM0044 sample Chickpea_019_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_019_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_019"
+ptreatment = "P_supply_cont"
+combination = "R_+P_SWRI9"
+gcid = "Chickpea_019_1"
+note1 = "Chickpea_019:1"
+numofbulked = "1"
+runorder = "95"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 20
+name = "Chickpea_020_1"
+assay = "Chickpea_020_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_020_1"
+description = "RPMM0044 sample Chickpea_020_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_020_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_020"
+ptreatment = "P_stress"
+combination = "N_-P_CP-31"
+gcid = "Chickpea_020_1"
+note1 = "Chickpea_020:1"
+numofbulked = "1"
+runorder = "105"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 21
+name = "Chickpea_022_1"
+assay = "Chickpea_022_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_022_1"
+description = "RPMM0044 sample Chickpea_022_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_022_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_022"
+ptreatment = "P_supply_cont"
+combination = "L_+P_SWRI9"
+gcid = "Chickpea_022_1"
+note1 = "Chickpea_022:1"
+numofbulked = "1"
+runorder = "80"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 22
+name = "Chickpea_023_1"
+assay = "Chickpea_023_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_023_1"
+description = "RPMM0044 sample Chickpea_023_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_023_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_023"
+ptreatment = "P_supply_cont"
+combination = "L_+P_SWRI9"
+gcid = "Chickpea_023_1"
+note1 = "Chickpea_023:1"
+numofbulked = "1"
+runorder = "70"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 23
+name = "Chickpea_024_1"
+assay = "Chickpea_024_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_024_1"
+description = "RPMM0044 sample Chickpea_024_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_024_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_024"
+ptreatment = "P_supply_cont"
+combination = "L_+P_SWRI9"
+gcid = "Chickpea_024_1"
+note1 = "Chickpea_024:1"
+numofbulked = "1"
+runorder = "112"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 24
+name = "Chickpea_025_1"
+assay = "Chickpea_025_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_025_1"
+description = "RPMM0044 sample Chickpea_025_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_025_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_025"
+ptreatment = "P_supply_cont"
+combination = "L_+P_SWRI9"
+gcid = "Chickpea_025_1"
+note1 = "Chickpea_025:1"
+numofbulked = "1"
+runorder = "15"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 25
+name = "Chickpea_026_1"
+assay = "Chickpea_026_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_026_1"
+description = "RPMM0044 sample Chickpea_026_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_026_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_026"
+ptreatment = "P_stress"
+combination = "L_-P_SWRI9"
+gcid = "Chickpea_026_1"
+note1 = "Chickpea_026:1"
+numofbulked = "1"
+runorder = "68"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 26
+name = "Chickpea_027_1"
+assay = "Chickpea_027_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_027_1"
+description = "RPMM0044 sample Chickpea_027_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_027_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_027"
+ptreatment = "P_stress"
+combination = "L_-P_SWRI9"
+gcid = "Chickpea_027_1"
+note1 = "Chickpea_027:1"
+numofbulked = "1"
+runorder = "63"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 27
+name = "Chickpea_028_1"
+assay = "Chickpea_028_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_028_1"
+description = "RPMM0044 sample Chickpea_028_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_028_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_028"
+ptreatment = "P_stress"
+combination = "L_-P_SWRI9"
+gcid = "Chickpea_028_1"
+note1 = "Chickpea_028:1"
+numofbulked = "1"
+runorder = "119"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 28
+name = "Chickpea_029_1"
+assay = "Chickpea_029_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_029_1"
+description = "RPMM0044 sample Chickpea_029_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_029_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_029"
+ptreatment = "P_stress"
+combination = "L_-P_SWRI9"
+gcid = "Chickpea_029_1"
+note1 = "Chickpea_029:1"
+numofbulked = "1"
+runorder = "50"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 29
+name = "Chickpea_030_1"
+assay = "Chickpea_030_1"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_030_1"
+description = "RPMM0044 sample Chickpea_030_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_030_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_030"
+ptreatment = "P_stress"
+combination = "L_-P_SWRI9"
+gcid = "Chickpea_030_1"
+note1 = "Chickpea_030:1"
+numofbulked = "1"
+runorder = "117"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 30
+name = "Chickpea_031_1"
+assay = "Chickpea_031_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_031_1"
+description = "RPMM0044 sample Chickpea_031_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_031_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_031"
+ptreatment = "P_supply_cont"
+combination = "L_+P_CP-31"
+gcid = "Chickpea_031_1"
+note1 = "Chickpea_031:1"
+numofbulked = "1"
+runorder = "13"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 31
+name = "Chickpea_032_1"
+assay = "Chickpea_032_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_032_1"
+description = "RPMM0044 sample Chickpea_032_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_032_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_032"
+ptreatment = "P_supply_cont"
+combination = "L_+P_CP-31"
+gcid = "Chickpea_032_1"
+note1 = "Chickpea_032:1"
+numofbulked = "1"
+runorder = "46"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 32
+name = "Chickpea_033_1"
+assay = "Chickpea_033_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_033_1"
+description = "RPMM0044 sample Chickpea_033_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_033_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_033"
+ptreatment = "P_supply_cont"
+combination = "L_+P_CP-31"
+gcid = "Chickpea_033_1"
+note1 = "Chickpea_033:1"
+numofbulked = "1"
+runorder = "98"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 33
+name = "Chickpea_034_1"
+assay = "Chickpea_034_1"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_034_1"
+description = "RPMM0044 sample Chickpea_034_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_034_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_034"
+ptreatment = "P_supply_cont"
+combination = "L_+P_CP-31"
+gcid = "Chickpea_034_1"
+note1 = "Chickpea_034:1"
+numofbulked = "1"
+runorder = "115"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 34
+name = "Chickpea_035_1"
+assay = "Chickpea_035_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_035_1"
+description = "RPMM0044 sample Chickpea_035_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_035_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_035"
+ptreatment = "P_supply_cont"
+combination = "L_+P_CP-31"
+gcid = "Chickpea_035_1"
+note1 = "Chickpea_035:1"
+numofbulked = "1"
+runorder = "121"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 35
+name = "Chickpea_036_1"
+assay = "Chickpea_036_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_036_1"
+description = "RPMM0044 sample Chickpea_036_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_036_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_036"
+ptreatment = "P_stress"
+combination = "L_-P_CP-31"
+gcid = "Chickpea_036_1"
+note1 = "Chickpea_036:1"
+numofbulked = "1"
+runorder = "35"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 36
+name = "Chickpea_037_1"
+assay = "Chickpea_037_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_037_1"
+description = "RPMM0044 sample Chickpea_037_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_037_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_037"
+ptreatment = "P_stress"
+combination = "L_-P_CP-31"
+gcid = "Chickpea_037_1"
+note1 = "Chickpea_037:1"
+numofbulked = "1"
+runorder = "18"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 37
+name = "Chickpea_040_1"
+assay = "Chickpea_040_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_040_1"
+description = "RPMM0044 sample Chickpea_040_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_040_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_040"
+ptreatment = "P_stress"
+combination = "L_-P_CP-31"
+gcid = "Chickpea_040_1"
+note1 = "Chickpea_040:1"
+numofbulked = "1"
+runorder = "102"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 38
+name = "Chickpea_041_1"
+assay = "Chickpea_041_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_041_1"
+description = "RPMM0044 sample Chickpea_041_1"
+
+[[sample]]
+index = 39
+name = "Chickpea_043_1"
+assay = "Chickpea_043_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_043_1"
+description = "RPMM0044 sample Chickpea_043_1"
+
+[[sample]]
+index = 40
+name = "Chickpea_044_1"
+assay = "Chickpea_044_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_044_1"
+description = "RPMM0044 sample Chickpea_044_1"
+
+[[sample]]
+index = 41
+name = "Chickpea_045_1"
+assay = "Chickpea_045_1"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_045_1"
+description = "RPMM0044 sample Chickpea_045_1"
+
+[[sample]]
+index = 42
+name = "Chickpea_046_1"
+assay = "Chickpea_046_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_046_1"
+description = "RPMM0044 sample Chickpea_046_1"
+
+[[sample]]
+index = 43
+name = "Chickpea_047_1"
+assay = "Chickpea_047_1"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_047_1"
+description = "RPMM0044 sample Chickpea_047_1"
+
+[[sample]]
+index = 44
+name = "Chickpea_048_1"
+assay = "Chickpea_048_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_048_1"
+description = "RPMM0044 sample Chickpea_048_1"
+
+[[sample]]
+index = 45
+name = "Chickpea_049_1"
+assay = "Chickpea_049_1"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_049_1"
+description = "RPMM0044 sample Chickpea_049_1"
+
+[[sample]]
+index = 46
+name = "Chickpea_051_1"
+assay = "Chickpea_051_1"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_051_1"
+description = "RPMM0044 sample Chickpea_051_1"
+
+[[sample]]
+index = 47
+name = "Chickpea_052_1"
+assay = "Chickpea_052_1"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_052_1"
+description = "RPMM0044 sample Chickpea_052_1"
+
+[[sample]]
+index = 48
+name = "Chickpea_053_1"
+assay = "Chickpea_053_1"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_053_1"
+description = "RPMM0044 sample Chickpea_053_1"
+
+[[sample]]
+index = 49
+name = "Chickpea_054_1"
+assay = "Chickpea_054_1"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_054_1"
+description = "RPMM0044 sample Chickpea_054_1"
+
+[[sample]]
+index = 50
+name = "Chickpea_055_1"
+assay = "Chickpea_055_1"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_055_1"
+description = "RPMM0044 sample Chickpea_055_1"
+
+[[sample]]
+index = 51
+name = "Chickpea_056_1"
+assay = "Chickpea_056_1"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_056_1"
+description = "RPMM0044 sample Chickpea_056_1"
+
+[[sample]]
+index = 52
+name = "Chickpea_057_1"
+assay = "Chickpea_057_1"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_057_1"
+description = "RPMM0044 sample Chickpea_057_1"
+
+[[sample]]
+index = 53
+name = "Chickpea_058_1"
+assay = "Chickpea_058_1"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_058_1"
+description = "RPMM0044 sample Chickpea_058_1"
+
+[[sample]]
+index = 54
+name = "Chickpea_059_1"
+assay = "Chickpea_059_1"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_059_1"
+description = "RPMM0044 sample Chickpea_059_1"
+
+[[sample]]
+index = 55
+name = "Chickpea_060_1"
+assay = "Chickpea_060_1"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_060_1"
+description = "RPMM0044 sample Chickpea_060_1"
+
+[[sample]]
+index = 56
+name = "Chickpea_062_1"
+assay = "Chickpea_062_1"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_062_1"
+description = "RPMM0044 sample Chickpea_062_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_062_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_062"
+ptreatment = "P_supply_cont"
+combination = "R_+P_SWRI9"
+gcid = "Chickpea_062_1"
+note1 = "Chickpea_062:1"
+numofbulked = "1"
+runorder = "89"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 57
+name = "Chickpea_063_1"
+assay = "Chickpea_063_1"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_063_1"
+description = "RPMM0044 sample Chickpea_063_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_063_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_063"
+ptreatment = "P_stress"
+combination = "L_-P_CP-31"
+gcid = "Chickpea_063_1"
+note1 = "Chickpea_063:1"
+numofbulked = "1"
+runorder = "25"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 58
+name = "Chickpea_064_1"
+assay = "Chickpea_064_1"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_064_1"
+description = "RPMM0044 sample Chickpea_064_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_064_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_064"
+ptreatment = "P_supply_cont"
+combination = "R_+P_SWRI9"
+gcid = "Chickpea_064_1"
+note1 = "Chickpea_064:1"
+numofbulked = "1"
+runorder = "57"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 59
+name = "Chickpea_065_1"
+assay = "Chickpea_065_1"
+ms_run_ref = "ms_run[59]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_065_1"
+description = "RPMM0044 sample Chickpea_065_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_065_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_065"
+ptreatment = "P_supply_cont"
+combination = "R_+P_SWRI9"
+gcid = "Chickpea_065_1"
+note1 = "Chickpea_065:1"
+numofbulked = "1"
+runorder = "24"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 60
+name = "Chickpea_067_1"
+assay = "Chickpea_067_1"
+ms_run_ref = "ms_run[60]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_067_1"
+description = "RPMM0044 sample Chickpea_067_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_067_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_067"
+ptreatment = "P_stress"
+combination = "R_-P_SWRI9"
+gcid = "Chickpea_067_1"
+note1 = "Chickpea_067:1"
+numofbulked = "1"
+runorder = "128"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 61
+name = "Chickpea_068_1"
+assay = "Chickpea_068_1"
+ms_run_ref = "ms_run[61]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_068_1"
+description = "RPMM0044 sample Chickpea_068_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_068_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_068"
+ptreatment = "P_stress"
+combination = "R_-P_SWRI9"
+gcid = "Chickpea_068_1"
+note1 = "Chickpea_068:1"
+numofbulked = "1"
+runorder = "82"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 62
+name = "Chickpea_069_1"
+assay = "Chickpea_069_1"
+ms_run_ref = "ms_run[62]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_069_1"
+description = "RPMM0044 sample Chickpea_069_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_069_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_069"
+ptreatment = "P_stress"
+combination = "R_-P_SWRI9"
+gcid = "Chickpea_069_1"
+note1 = "Chickpea_069:1"
+numofbulked = "1"
+runorder = "16"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 63
+name = "Chickpea_070_1"
+assay = "Chickpea_070_1"
+ms_run_ref = "ms_run[63]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_070_1"
+description = "RPMM0044 sample Chickpea_070_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_070_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_070"
+ptreatment = "P_stress"
+combination = "R_-P_SWRI9"
+gcid = "Chickpea_070_1"
+note1 = "Chickpea_070:1"
+numofbulked = "1"
+runorder = "28"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 64
+name = "Chickpea_071_1"
+assay = "Chickpea_071_1"
+ms_run_ref = "ms_run[64]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_071_1"
+description = "RPMM0044 sample Chickpea_071_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_071_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_071"
+ptreatment = "P_supply_cont"
+combination = "R_+P_CP-31"
+gcid = "Chickpea_071_1"
+note1 = "Chickpea_071:1"
+numofbulked = "1"
+runorder = "30"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 65
+name = "Chickpea_072_1"
+assay = "Chickpea_072_1"
+ms_run_ref = "ms_run[65]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_072_1"
+description = "RPMM0044 sample Chickpea_072_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_072_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_072"
+ptreatment = "P_supply_cont"
+combination = "R_+P_CP-31"
+gcid = "Chickpea_072_1"
+note1 = "Chickpea_072:1"
+numofbulked = "1"
+runorder = "32"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 66
+name = "Chickpea_073_1"
+assay = "Chickpea_073_1"
+ms_run_ref = "ms_run[66]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_073_1"
+description = "RPMM0044 sample Chickpea_073_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_073_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_073"
+ptreatment = "P_supply_cont"
+combination = "R_+P_CP-31"
+gcid = "Chickpea_073_1"
+note1 = "Chickpea_073:1"
+numofbulked = "1"
+runorder = "101"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 67
+name = "Chickpea_074_1"
+assay = "Chickpea_074_1"
+ms_run_ref = "ms_run[67]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_074_1"
+description = "RPMM0044 sample Chickpea_074_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_074_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_074"
+ptreatment = "P_supply_cont"
+combination = "R_+P_CP-31"
+gcid = "Chickpea_074_1"
+note1 = "Chickpea_074:1"
+numofbulked = "1"
+runorder = "74"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 68
+name = "Chickpea_075_1"
+assay = "Chickpea_075_1"
+ms_run_ref = "ms_run[68]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_075_1"
+description = "RPMM0044 sample Chickpea_075_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_075_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_075"
+ptreatment = "P_supply_cont"
+combination = "R_+P_CP-31"
+gcid = "Chickpea_075_1"
+note1 = "Chickpea_075:1"
+numofbulked = "1"
+runorder = "108"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 69
+name = "Chickpea_076_1"
+assay = "Chickpea_076_1"
+ms_run_ref = "ms_run[69]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_076_1"
+description = "RPMM0044 sample Chickpea_076_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_076_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_076"
+ptreatment = "P_stress"
+combination = "R_-P_CP-31"
+gcid = "Chickpea_076_1"
+note1 = "Chickpea_076:1"
+numofbulked = "1"
+runorder = "96"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 70
+name = "Chickpea_077_1"
+assay = "Chickpea_077_1"
+ms_run_ref = "ms_run[70]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_077_1"
+description = "RPMM0044 sample Chickpea_077_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_077_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_077"
+ptreatment = "P_stress"
+combination = "R_-P_CP-31"
+gcid = "Chickpea_077_1"
+note1 = "Chickpea_077:1"
+numofbulked = "1"
+runorder = "45"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 71
+name = "Chickpea_078_1"
+assay = "Chickpea_078_1"
+ms_run_ref = "ms_run[71]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_078_1"
+description = "RPMM0044 sample Chickpea_078_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_078_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_078"
+ptreatment = "P_stress"
+combination = "R_-P_CP-31"
+gcid = "Chickpea_078_1"
+note1 = "Chickpea_078:1"
+numofbulked = "1"
+runorder = "65"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 72
+name = "Chickpea_079_1"
+assay = "Chickpea_079_1"
+ms_run_ref = "ms_run[72]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_079_1"
+description = "RPMM0044 sample Chickpea_079_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_079_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_079"
+ptreatment = "P_stress"
+combination = "R_-P_CP-31"
+gcid = "Chickpea_079_1"
+note1 = "Chickpea_079:1"
+numofbulked = "1"
+runorder = "34"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 73
+name = "Chickpea_080_1"
+assay = "Chickpea_080_1"
+ms_run_ref = "ms_run[73]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_080_1"
+description = "RPMM0044 sample Chickpea_080_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_080_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_080"
+ptreatment = "P_stress"
+combination = "R_-P_CP-31"
+gcid = "Chickpea_080_1"
+note1 = "Chickpea_080:1"
+numofbulked = "1"
+runorder = "103"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 74
+name = "Chickpea_081_1"
+assay = "Chickpea_081_1"
+ms_run_ref = "ms_run[74]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_081_1"
+description = "RPMM0044 sample Chickpea_081_1"
+
+[[sample]]
+index = 75
+name = "Chickpea_082_1"
+assay = "Chickpea_082_1"
+ms_run_ref = "ms_run[75]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_082_1"
+description = "RPMM0044 sample Chickpea_082_1"
+
+[[sample]]
+index = 76
+name = "Chickpea_083_1"
+assay = "Chickpea_083_1"
+ms_run_ref = "ms_run[76]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_083_1"
+description = "RPMM0044 sample Chickpea_083_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_083_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_083"
+ptreatment = "P_stress"
+combination = "L_-P_CP-31"
+gcid = "Chickpea_083_1"
+note1 = "Chickpea_083:1"
+numofbulked = "1"
+runorder = "94"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 77
+name = "Chickpea_084_1"
+assay = "Chickpea_084_1"
+ms_run_ref = "ms_run[77]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_084_1"
+description = "RPMM0044 sample Chickpea_084_1"
+
+[[sample]]
+index = 78
+name = "Chickpea_085_1"
+assay = "Chickpea_085_1"
+ms_run_ref = "ms_run[78]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_085_1"
+description = "RPMM0044 sample Chickpea_085_1"
+
+[[sample]]
+index = 79
+name = "Chickpea_086_1"
+assay = "Chickpea_086_1"
+ms_run_ref = "ms_run[79]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_086_1"
+description = "RPMM0044 sample Chickpea_086_1"
+
+[[sample]]
+index = 80
+name = "Chickpea_087_1"
+assay = "Chickpea_087_1"
+ms_run_ref = "ms_run[80]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_087_1"
+description = "RPMM0044 sample Chickpea_087_1"
+
+[[sample]]
+index = 81
+name = "Chickpea_088_1"
+assay = "Chickpea_088_1"
+ms_run_ref = "ms_run[81]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_088_1"
+description = "RPMM0044 sample Chickpea_088_1"
+
+[[sample]]
+index = 82
+name = "Chickpea_089_1"
+assay = "Chickpea_089_1"
+ms_run_ref = "ms_run[82]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_089_1"
+description = "RPMM0044 sample Chickpea_089_1"
+
+[[sample]]
+index = 83
+name = "Chickpea_091_1"
+assay = "Chickpea_091_1"
+ms_run_ref = "ms_run[83]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_091_1"
+description = "RPMM0044 sample Chickpea_091_1"
+
+[[sample]]
+index = 84
+name = "Chickpea_092_1"
+assay = "Chickpea_092_1"
+ms_run_ref = "ms_run[84]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_092_1"
+description = "RPMM0044 sample Chickpea_092_1"
+
+[[sample]]
+index = 85
+name = "Chickpea_094_1"
+assay = "Chickpea_094_1"
+ms_run_ref = "ms_run[85]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_094_1"
+description = "RPMM0044 sample Chickpea_094_1"
+
+[[sample]]
+index = 86
+name = "Chickpea_095_1"
+assay = "Chickpea_095_1"
+ms_run_ref = "ms_run[86]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_095_1"
+description = "RPMM0044 sample Chickpea_095_1"
+
+[[sample]]
+index = 87
+name = "Chickpea_096_1"
+assay = "Chickpea_096_1"
+ms_run_ref = "ms_run[87]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_096_1"
+description = "RPMM0044 sample Chickpea_096_1"
+
+[[sample]]
+index = 88
+name = "Chickpea_097_1"
+assay = "Chickpea_097_1"
+ms_run_ref = "ms_run[88]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_097_1"
+description = "RPMM0044 sample Chickpea_097_1"
+
+[[sample]]
+index = 89
+name = "Chickpea_098_1"
+assay = "Chickpea_098_1"
+ms_run_ref = "ms_run[89]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_098_1"
+description = "RPMM0044 sample Chickpea_098_1"
+
+[[sample]]
+index = 90
+name = "Chickpea_099_1"
+assay = "Chickpea_099_1"
+ms_run_ref = "ms_run[90]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_099_1"
+description = "RPMM0044 sample Chickpea_099_1"
+
+[[sample]]
+index = 91
+name = "Chickpea_100_1"
+assay = "Chickpea_100_1"
+ms_run_ref = "ms_run[91]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_100_1"
+description = "RPMM0044 sample Chickpea_100_1"
+
+[[sample]]
+index = 92
+name = "Chickpea_724_1"
+assay = "Chickpea_724_1"
+ms_run_ref = "ms_run[92]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_724_1"
+description = "RPMM0044 sample Chickpea_724_1"
+inoculation = "CP-31"
+matlab_file_name = "Chickpea_724_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_724"
+ptreatment = "P_stress"
+combination = "N_-P_CP-31"
+gcid = "Chickpea_724_1"
+note1 = "Chickpea_724:1"
+numofbulked = "1"
+runorder = "41"
+species = "Chickpea"
+tissue = "noduleafe"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 93
+name = "Chickpea_725_1"
+assay = "Chickpea_725_1"
+ms_run_ref = "ms_run[93]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_725_1"
+description = "RPMM0044 sample Chickpea_725_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_725_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_725"
+ptreatment = "P_supply_cont"
+combination = "L_+P_SWRI9"
+gcid = "Chickpea_725_1"
+note1 = "Chickpea_725:1"
+numofbulked = "1"
+runorder = "75"
+species = "Chickpea"
+tissue = "leaf"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 94
+name = "Chickpea_729_1"
+assay = "Chickpea_729_1"
+ms_run_ref = "ms_run[94]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_729_1"
+description = "RPMM0044 sample Chickpea_729_1"
+
+[[sample]]
+index = 95
+name = "Chickpea_730_1"
+assay = "Chickpea_730_1"
+ms_run_ref = "ms_run[95]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_730_1"
+description = "RPMM0044 sample Chickpea_730_1"
+
+[[sample]]
+index = 96
+name = "Chickpea_733_1"
+assay = "Chickpea_733_1"
+ms_run_ref = "ms_run[96]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_733_1"
+description = "RPMM0044 sample Chickpea_733_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_733_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_733"
+ptreatment = "P_supply_cont"
+combination = "R_+P_SWRI9"
+gcid = "Chickpea_733_1"
+note1 = "Chickpea_733:1"
+numofbulked = "1"
+runorder = "29"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 97
+name = "Chickpea_734_1"
+assay = "Chickpea_734_1"
+ms_run_ref = "ms_run[97]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_734_1"
+description = "RPMM0044 sample Chickpea_734_1"
+inoculation = "SWRI9"
+matlab_file_name = "Chickpea_734_1.mat"
+ntreatment = "noNstress"
+order_name = "Chickpea_734"
+ptreatment = "P_stress"
+combination = "R_-P_SWRI9"
+gcid = "Chickpea_734_1"
+note1 = "Chickpea_734:1"
+numofbulked = "1"
+runorder = "76"
+species = "Chickpea"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 98
+name = "Chickpea_737_1"
+assay = "Chickpea_737_1"
+ms_run_ref = "ms_run[98]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_737_1"
+description = "RPMM0044 sample Chickpea_737_1"
+
+[[sample]]
+index = 99
+name = "Chickpea_738_1"
+assay = "Chickpea_738_1"
+ms_run_ref = "ms_run[99]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_738_1"
+description = "RPMM0044 sample Chickpea_738_1"
+
+[[sample]]
+index = 100
+name = "Chickpea_739_1"
+assay = "Chickpea_739_1"
+ms_run_ref = "ms_run[100]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#Chickpea_739_1"
+description = "RPMM0044 sample Chickpea_739_1"
+
+[[sample]]
+index = 101
+name = "FD_01_1"
+assay = "FD_01_1"
+ms_run_ref = "ms_run[101]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#FD_01_1"
+description = "RPMM0044 sample FD_01_1"
+
+[[sample]]
+index = 102
+name = "FD_02_1"
+assay = "FD_02_1"
+ms_run_ref = "ms_run[102]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#FD_02_1"
+description = "RPMM0044 sample FD_02_1"
+
+[[sample]]
+index = 103
+name = "FD_03_1"
+assay = "FD_03_1"
+ms_run_ref = "ms_run[103]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#FD_03_1"
+description = "RPMM0044 sample FD_03_1"
+
+[[sample]]
+index = 104
+name = "STDs_1_1_1"
+assay = "STDs_1_1_1"
+ms_run_ref = "ms_run[104]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_1_1_1"
+description = "RPMM0044 sample STDs_1_1_1"
+
+[[sample]]
+index = 105
+name = "STDs_1_2_1"
+assay = "STDs_1_2_1"
+ms_run_ref = "ms_run[105]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_1_2_1"
+description = "RPMM0044 sample STDs_1_2_1"
+
+[[sample]]
+index = 106
+name = "STDs_1_3_1"
+assay = "STDs_1_3_1"
+ms_run_ref = "ms_run[106]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_1_3_1"
+description = "RPMM0044 sample STDs_1_3_1"
+
+[[sample]]
+index = 107
+name = "STDs_2_1_1"
+assay = "STDs_2_1_1"
+ms_run_ref = "ms_run[107]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_2_1_1"
+description = "RPMM0044 sample STDs_2_1_1"
+
+[[sample]]
+index = 108
+name = "STDs_2_2_1"
+assay = "STDs_2_2_1"
+ms_run_ref = "ms_run[108]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_2_2_1"
+description = "RPMM0044 sample STDs_2_2_1"
+
+[[sample]]
+index = 109
+name = "STDs_2_3_1"
+assay = "STDs_2_3_1"
+ms_run_ref = "ms_run[109]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_2_3_1"
+description = "RPMM0044 sample STDs_2_3_1"
+
+[[sample]]
+index = 110
+name = "STDs_3_1_1"
+assay = "STDs_3_1_1"
+ms_run_ref = "ms_run[110]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_3_1_1"
+description = "RPMM0044 sample STDs_3_1_1"
+
+[[sample]]
+index = 111
+name = "STDs_3_2_1"
+assay = "STDs_3_2_1"
+ms_run_ref = "ms_run[111]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_3_2_1"
+description = "RPMM0044 sample STDs_3_2_1"
+
+[[sample]]
+index = 112
+name = "STDs_3_3_1"
+assay = "STDs_3_3_1"
+ms_run_ref = "ms_run[112]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_3_3_1"
+description = "RPMM0044 sample STDs_3_3_1"
+
+[[sample]]
+index = 113
+name = "STDs_E1_1_1"
+assay = "STDs_E1_1_1"
+ms_run_ref = "ms_run[113]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_E1_1_1"
+description = "RPMM0044 sample STDs_E1_1_1"
+
+[[sample]]
+index = 114
+name = "STDs_E1_2_1"
+assay = "STDs_E1_2_1"
+ms_run_ref = "ms_run[114]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_E1_2_1"
+description = "RPMM0044 sample STDs_E1_2_1"
+
+[[sample]]
+index = 115
+name = "STDs_E1_3_1"
+assay = "STDs_E1_3_1"
+ms_run_ref = "ms_run[115]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_E1_3_1"
+description = "RPMM0044 sample STDs_E1_3_1"
+
+[[sample]]
+index = 116
+name = "STDs_E2_1_1"
+assay = "STDs_E2_1_1"
+ms_run_ref = "ms_run[116]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_E2_1_1"
+description = "RPMM0044 sample STDs_E2_1_1"
+
+[[sample]]
+index = 117
+name = "STDs_E2_2_1"
+assay = "STDs_E2_2_1"
+ms_run_ref = "ms_run[117]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_E2_2_1"
+description = "RPMM0044 sample STDs_E2_2_1"
+
+[[sample]]
+index = 118
+name = "STDs_E2_3_1"
+assay = "STDs_E2_3_1"
+ms_run_ref = "ms_run[118]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_E2_3_1"
+description = "RPMM0044 sample STDs_E2_3_1"
+
+[[sample]]
+index = 119
+name = "STDs_E3_1_1"
+assay = "STDs_E3_1_1"
+ms_run_ref = "ms_run[119]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_E3_1_1"
+description = "RPMM0044 sample STDs_E3_1_1"
+
+[[sample]]
+index = 120
+name = "STDs_E3_2_1"
+assay = "STDs_E3_2_1"
+ms_run_ref = "ms_run[120]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_E3_2_1"
+description = "RPMM0044 sample STDs_E3_2_1"
+
+[[sample]]
+index = 121
+name = "STDs_E3_3_1"
+assay = "STDs_E3_3_1"
+ms_run_ref = "ms_run[121]"
+location = "http://metabobank.riken.jp/data/RPMM0044/AnalysedDataset/MetMat_abs.txt#STDs_E3_3_1"
+description = "RPMM0044 sample STDs_E3_3_1"
+
+[study_variables]
+candidate_columns = [
+    "tissue",
+    "Ptreatment",
+    "Inoculation",
+]
+
+[study_variables.levels]
+tissue = [
+    "leaf",
+    "noduleafe",
+    "root",
+]
+Ptreatment = [
+    "P_stress",
+    "P_supply_cont",
+]
+Inoculation = [
+    "CP-31",
+    "SWRI9",
+]

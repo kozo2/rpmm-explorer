@@ -1,0 +1,779 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0017"
+title = "Exploring Matrix Effects and Quantification Performance in Metabolomics Experiments Using Artificial Biological Gradients"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0017"
+
+[matrix]
+name = "MetMat_abs_INTEGRATED"
+source_file = "RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt"
+format = "tsv"
+n_features = 247
+n_samples = 54
+metadata_columns = [
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+    "fData::lineno",
+    "fData::query",
+    "fData::known",
+    "fData::preferred",
+    "fData::action",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0017/AnalysedDataset/valid02_gc/Phenodata.csv"
+msp = ""
+
+[organism]
+raw = "tomato"
+cv = "[NCBITaxon, NCBITaxon:4081, Solanum lycopersicum, ]"
+source = "phenodata:species"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "Chyzon_13_1"
+assay = "Chyzon_13_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Chyzon_13_1"
+description = "RPMM0017 sample Chyzon_13_1"
+
+[[sample]]
+index = 2
+name = "Chyzon_14_1"
+assay = "Chyzon_14_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Chyzon_14_1"
+description = "RPMM0017 sample Chyzon_14_1"
+
+[[sample]]
+index = 3
+name = "Chyzon_15_1"
+assay = "Chyzon_15_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Chyzon_15_1"
+description = "RPMM0017 sample Chyzon_15_1"
+
+[[sample]]
+index = 4
+name = "Mix_01_1_1"
+assay = "Mix_01_1_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_01_1_1"
+description = "RPMM0017 sample Mix_01_1_1"
+matlab_file_name = "Mix_01_1_1.mat"
+gcid = "Mix_01_1_1"
+mixtureratiofruit = "100"
+mixtureratioleaf = "0"
+note = "leaf : fruit = 100 : 0"
+ordername = "Mix_01_1"
+runorder = "50"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 5
+name = "Mix_01_2_1"
+assay = "Mix_01_2_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_01_2_1"
+description = "RPMM0017 sample Mix_01_2_1"
+matlab_file_name = "Mix_01_2_1.mat"
+gcid = "Mix_01_2_1"
+mixtureratiofruit = "100"
+mixtureratioleaf = "0"
+note = "leaf : fruit = 100 : 0"
+ordername = "Mix_01_2"
+runorder = "27"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 6
+name = "Mix_01_3_1"
+assay = "Mix_01_3_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_01_3_1"
+description = "RPMM0017 sample Mix_01_3_1"
+matlab_file_name = "Mix_01_3_1.mat"
+gcid = "Mix_01_3_1"
+mixtureratiofruit = "100"
+mixtureratioleaf = "0"
+note = "leaf : fruit = 100 : 0"
+ordername = "Mix_01_3"
+runorder = "54"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 7
+name = "Mix_02_1_1"
+assay = "Mix_02_1_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_02_1_1"
+description = "RPMM0017 sample Mix_02_1_1"
+matlab_file_name = "Mix_02_1_1.mat"
+gcid = "Mix_02_1_1"
+mixtureratiofruit = "90"
+mixtureratioleaf = "10"
+note = "leaf : fruit = 90 : 10"
+ordername = "Mix_02_1"
+runorder = "28"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 8
+name = "Mix_02_2_1"
+assay = "Mix_02_2_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_02_2_1"
+description = "RPMM0017 sample Mix_02_2_1"
+matlab_file_name = "Mix_02_2_1.mat"
+gcid = "Mix_02_2_1"
+mixtureratiofruit = "90"
+mixtureratioleaf = "10"
+note = "leaf : fruit = 90 : 10"
+ordername = "Mix_02_2"
+runorder = "38"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 9
+name = "Mix_02_3_1"
+assay = "Mix_02_3_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_02_3_1"
+description = "RPMM0017 sample Mix_02_3_1"
+matlab_file_name = "Mix_02_3_1.mat"
+gcid = "Mix_02_3_1"
+mixtureratiofruit = "90"
+mixtureratioleaf = "10"
+note = "leaf : fruit = 90 : 10"
+ordername = "Mix_02_3"
+runorder = "23"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 10
+name = "Mix_03_1_1"
+assay = "Mix_03_1_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_03_1_1"
+description = "RPMM0017 sample Mix_03_1_1"
+matlab_file_name = "Mix_03_1_1.mat"
+gcid = "Mix_03_1_1"
+mixtureratiofruit = "80"
+mixtureratioleaf = "20"
+note = "leaf : fruit = 80 : 20"
+ordername = "Mix_03_1"
+runorder = "56"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 11
+name = "Mix_03_2_1"
+assay = "Mix_03_2_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_03_2_1"
+description = "RPMM0017 sample Mix_03_2_1"
+matlab_file_name = "Mix_03_2_1.mat"
+gcid = "Mix_03_2_1"
+mixtureratiofruit = "80"
+mixtureratioleaf = "20"
+note = "leaf : fruit = 80 : 20"
+ordername = "Mix_03_2"
+runorder = "35"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 12
+name = "Mix_03_3_1"
+assay = "Mix_03_3_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_03_3_1"
+description = "RPMM0017 sample Mix_03_3_1"
+matlab_file_name = "Mix_03_3_1.mat"
+gcid = "Mix_03_3_1"
+mixtureratiofruit = "80"
+mixtureratioleaf = "20"
+note = "leaf : fruit = 80 : 20"
+ordername = "Mix_03_3"
+runorder = "31"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 13
+name = "Mix_04_1_1"
+assay = "Mix_04_1_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_04_1_1"
+description = "RPMM0017 sample Mix_04_1_1"
+matlab_file_name = "Mix_04_1_1.mat"
+gcid = "Mix_04_1_1"
+mixtureratiofruit = "70"
+mixtureratioleaf = "30"
+note = "leaf : fruit = 70 : 30"
+ordername = "Mix_04_1"
+runorder = "24"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 14
+name = "Mix_04_2_1"
+assay = "Mix_04_2_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_04_2_1"
+description = "RPMM0017 sample Mix_04_2_1"
+matlab_file_name = "Mix_04_2_1.mat"
+gcid = "Mix_04_2_1"
+mixtureratiofruit = "70"
+mixtureratioleaf = "30"
+note = "leaf : fruit = 70 : 30"
+ordername = "Mix_04_2"
+runorder = "33"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 15
+name = "Mix_04_3_1"
+assay = "Mix_04_3_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_04_3_1"
+description = "RPMM0017 sample Mix_04_3_1"
+matlab_file_name = "Mix_04_3_1.mat"
+gcid = "Mix_04_3_1"
+mixtureratiofruit = "70"
+mixtureratioleaf = "30"
+note = "leaf : fruit = 70 : 30"
+ordername = "Mix_04_3"
+runorder = "36"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 16
+name = "Mix_05_1_1"
+assay = "Mix_05_1_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_05_1_1"
+description = "RPMM0017 sample Mix_05_1_1"
+matlab_file_name = "Mix_05_1_1.mat"
+gcid = "Mix_05_1_1"
+mixtureratiofruit = "60"
+mixtureratioleaf = "40"
+note = "leaf : fruit = 60 : 40"
+ordername = "Mix_05_1"
+runorder = "26"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 17
+name = "Mix_05_2_1"
+assay = "Mix_05_2_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_05_2_1"
+description = "RPMM0017 sample Mix_05_2_1"
+matlab_file_name = "Mix_05_2_1.mat"
+gcid = "Mix_05_2_1"
+mixtureratiofruit = "60"
+mixtureratioleaf = "40"
+note = "leaf : fruit = 60 : 40"
+ordername = "Mix_05_2"
+runorder = "52"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 18
+name = "Mix_05_3_1"
+assay = "Mix_05_3_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_05_3_1"
+description = "RPMM0017 sample Mix_05_3_1"
+matlab_file_name = "Mix_05_3_1.mat"
+gcid = "Mix_05_3_1"
+mixtureratiofruit = "60"
+mixtureratioleaf = "40"
+note = "leaf : fruit = 60 : 40"
+ordername = "Mix_05_3"
+runorder = "45"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 19
+name = "Mix_06_1_1"
+assay = "Mix_06_1_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_06_1_1"
+description = "RPMM0017 sample Mix_06_1_1"
+matlab_file_name = "Mix_06_1_1.mat"
+gcid = "Mix_06_1_1"
+mixtureratiofruit = "50"
+mixtureratioleaf = "50"
+note = "leaf : fruit = 50 : 50"
+ordername = "Mix_06_1"
+runorder = "21"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 20
+name = "Mix_06_2_1"
+assay = "Mix_06_2_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_06_2_1"
+description = "RPMM0017 sample Mix_06_2_1"
+matlab_file_name = "Mix_06_2_1.mat"
+gcid = "Mix_06_2_1"
+mixtureratiofruit = "50"
+mixtureratioleaf = "50"
+note = "leaf : fruit = 50 : 50"
+ordername = "Mix_06_2"
+runorder = "29"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 21
+name = "Mix_06_3_1"
+assay = "Mix_06_3_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_06_3_1"
+description = "RPMM0017 sample Mix_06_3_1"
+matlab_file_name = "Mix_06_3_1.mat"
+gcid = "Mix_06_3_1"
+mixtureratiofruit = "50"
+mixtureratioleaf = "50"
+note = "leaf : fruit = 50 : 50"
+ordername = "Mix_06_3"
+runorder = "30"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 22
+name = "Mix_07_1_1"
+assay = "Mix_07_1_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_07_1_1"
+description = "RPMM0017 sample Mix_07_1_1"
+matlab_file_name = "Mix_07_1_1.mat"
+gcid = "Mix_07_1_1"
+mixtureratiofruit = "40"
+mixtureratioleaf = "60"
+note = "leaf : fruit = 40 : 60"
+ordername = "Mix_07_1"
+runorder = "20"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 23
+name = "Mix_07_2_1"
+assay = "Mix_07_2_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_07_2_1"
+description = "RPMM0017 sample Mix_07_2_1"
+matlab_file_name = "Mix_07_2_1.mat"
+gcid = "Mix_07_2_1"
+mixtureratiofruit = "40"
+mixtureratioleaf = "60"
+note = "leaf : fruit = 40 : 60"
+ordername = "Mix_07_2"
+runorder = "51"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 24
+name = "Mix_07_3_1"
+assay = "Mix_07_3_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_07_3_1"
+description = "RPMM0017 sample Mix_07_3_1"
+matlab_file_name = "Mix_07_3_1.mat"
+gcid = "Mix_07_3_1"
+mixtureratiofruit = "40"
+mixtureratioleaf = "60"
+note = "leaf : fruit = 40 : 60"
+ordername = "Mix_07_3"
+runorder = "22"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 25
+name = "Mix_08_1_1"
+assay = "Mix_08_1_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_08_1_1"
+description = "RPMM0017 sample Mix_08_1_1"
+matlab_file_name = "Mix_08_1_1.mat"
+gcid = "Mix_08_1_1"
+mixtureratiofruit = "30"
+mixtureratioleaf = "70"
+note = "leaf : fruit = 30 : 70"
+ordername = "Mix_08_1"
+runorder = "47"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 26
+name = "Mix_08_2_1"
+assay = "Mix_08_2_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_08_2_1"
+description = "RPMM0017 sample Mix_08_2_1"
+matlab_file_name = "Mix_08_2_1.mat"
+gcid = "Mix_08_2_1"
+mixtureratiofruit = "30"
+mixtureratioleaf = "70"
+note = "leaf : fruit = 30 : 70"
+ordername = "Mix_08_2"
+runorder = "43"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 27
+name = "Mix_08_3_1"
+assay = "Mix_08_3_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_08_3_1"
+description = "RPMM0017 sample Mix_08_3_1"
+matlab_file_name = "Mix_08_3_1.mat"
+gcid = "Mix_08_3_1"
+mixtureratiofruit = "30"
+mixtureratioleaf = "70"
+note = "leaf : fruit = 30 : 70"
+ordername = "Mix_08_3"
+runorder = "42"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 28
+name = "Mix_09_1_1"
+assay = "Mix_09_1_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_09_1_1"
+description = "RPMM0017 sample Mix_09_1_1"
+matlab_file_name = "Mix_09_1_1.mat"
+gcid = "Mix_09_1_1"
+mixtureratiofruit = "20"
+mixtureratioleaf = "80"
+note = "leaf : fruit = 20 : 80"
+ordername = "Mix_09_1"
+runorder = "44"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 29
+name = "Mix_09_2_1"
+assay = "Mix_09_2_1"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_09_2_1"
+description = "RPMM0017 sample Mix_09_2_1"
+matlab_file_name = "Mix_09_2_1.mat"
+gcid = "Mix_09_2_1"
+mixtureratiofruit = "20"
+mixtureratioleaf = "80"
+note = "leaf : fruit = 20 : 80"
+ordername = "Mix_09_2"
+runorder = "37"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 30
+name = "Mix_09_3_1"
+assay = "Mix_09_3_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_09_3_1"
+description = "RPMM0017 sample Mix_09_3_1"
+matlab_file_name = "Mix_09_3_1.mat"
+gcid = "Mix_09_3_1"
+mixtureratiofruit = "20"
+mixtureratioleaf = "80"
+note = "leaf : fruit = 20 : 80"
+ordername = "Mix_09_3"
+runorder = "41"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 31
+name = "Mix_10_1_1"
+assay = "Mix_10_1_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_10_1_1"
+description = "RPMM0017 sample Mix_10_1_1"
+matlab_file_name = "Mix_10_1_1.mat"
+gcid = "Mix_10_1_1"
+mixtureratiofruit = "10"
+mixtureratioleaf = "90"
+note = "leaf : fruit = 10 : 90"
+ordername = "Mix_10_1"
+runorder = "34"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 32
+name = "Mix_10_2_1"
+assay = "Mix_10_2_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_10_2_1"
+description = "RPMM0017 sample Mix_10_2_1"
+matlab_file_name = "Mix_10_2_1.mat"
+gcid = "Mix_10_2_1"
+mixtureratiofruit = "10"
+mixtureratioleaf = "90"
+note = "leaf : fruit = 10 : 90"
+ordername = "Mix_10_2"
+runorder = "40"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 33
+name = "Mix_10_3_1"
+assay = "Mix_10_3_1"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_10_3_1"
+description = "RPMM0017 sample Mix_10_3_1"
+matlab_file_name = "Mix_10_3_1.mat"
+gcid = "Mix_10_3_1"
+mixtureratiofruit = "10"
+mixtureratioleaf = "90"
+note = "leaf : fruit = 10 : 90"
+ordername = "Mix_10_3"
+runorder = "55"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 34
+name = "Mix_11_1_1"
+assay = "Mix_11_1_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_11_1_1"
+description = "RPMM0017 sample Mix_11_1_1"
+matlab_file_name = "Mix_11_1_1.mat"
+gcid = "Mix_11_1_1"
+mixtureratiofruit = "0"
+mixtureratioleaf = "100"
+note = "leaf : fruit = 0 : 100"
+ordername = "Mix_11_1"
+runorder = "49"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 35
+name = "Mix_11_2_1"
+assay = "Mix_11_2_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_11_2_1"
+description = "RPMM0017 sample Mix_11_2_1"
+matlab_file_name = "Mix_11_2_1.mat"
+gcid = "Mix_11_2_1"
+mixtureratiofruit = "0"
+mixtureratioleaf = "100"
+note = "leaf : fruit = 0 : 100"
+ordername = "Mix_11_2"
+runorder = "19"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 36
+name = "Mix_11_3_1"
+assay = "Mix_11_3_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#Mix_11_3_1"
+description = "RPMM0017 sample Mix_11_3_1"
+matlab_file_name = "Mix_11_3_1.mat"
+gcid = "Mix_11_3_1"
+mixtureratiofruit = "0"
+mixtureratioleaf = "100"
+note = "leaf : fruit = 0 : 100"
+ordername = "Mix_11_3"
+runorder = "48"
+species = "tomato"
+weightmg = "0.005556"
+
+[[sample]]
+index = 37
+name = "STDs_1_1_1"
+assay = "STDs_1_1_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_1_1_1"
+description = "RPMM0017 sample STDs_1_1_1"
+
+[[sample]]
+index = 38
+name = "STDs_1_2_1"
+assay = "STDs_1_2_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_1_2_1"
+description = "RPMM0017 sample STDs_1_2_1"
+
+[[sample]]
+index = 39
+name = "STDs_1_3_1"
+assay = "STDs_1_3_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_1_3_1"
+description = "RPMM0017 sample STDs_1_3_1"
+
+[[sample]]
+index = 40
+name = "STDs_2_1_1"
+assay = "STDs_2_1_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_2_1_1"
+description = "RPMM0017 sample STDs_2_1_1"
+
+[[sample]]
+index = 41
+name = "STDs_2_2_1"
+assay = "STDs_2_2_1"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_2_2_1"
+description = "RPMM0017 sample STDs_2_2_1"
+
+[[sample]]
+index = 42
+name = "STDs_2_3_1"
+assay = "STDs_2_3_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_2_3_1"
+description = "RPMM0017 sample STDs_2_3_1"
+
+[[sample]]
+index = 43
+name = "STDs_3_1_1"
+assay = "STDs_3_1_1"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_3_1_1"
+description = "RPMM0017 sample STDs_3_1_1"
+
+[[sample]]
+index = 44
+name = "STDs_3_2_1"
+assay = "STDs_3_2_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_3_2_1"
+description = "RPMM0017 sample STDs_3_2_1"
+
+[[sample]]
+index = 45
+name = "STDs_3_3_1"
+assay = "STDs_3_3_1"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_3_3_1"
+description = "RPMM0017 sample STDs_3_3_1"
+
+[[sample]]
+index = 46
+name = "STDs_E1_1_1"
+assay = "STDs_E1_1_1"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_E1_1_1"
+description = "RPMM0017 sample STDs_E1_1_1"
+
+[[sample]]
+index = 47
+name = "STDs_E1_2_1"
+assay = "STDs_E1_2_1"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_E1_2_1"
+description = "RPMM0017 sample STDs_E1_2_1"
+
+[[sample]]
+index = 48
+name = "STDs_E1_3_1"
+assay = "STDs_E1_3_1"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_E1_3_1"
+description = "RPMM0017 sample STDs_E1_3_1"
+
+[[sample]]
+index = 49
+name = "STDs_E2_1_1"
+assay = "STDs_E2_1_1"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_E2_1_1"
+description = "RPMM0017 sample STDs_E2_1_1"
+
+[[sample]]
+index = 50
+name = "STDs_E2_2_1"
+assay = "STDs_E2_2_1"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_E2_2_1"
+description = "RPMM0017 sample STDs_E2_2_1"
+
+[[sample]]
+index = 51
+name = "STDs_E2_3_1"
+assay = "STDs_E2_3_1"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_E2_3_1"
+description = "RPMM0017 sample STDs_E2_3_1"
+
+[[sample]]
+index = 52
+name = "STDs_E3_1_1"
+assay = "STDs_E3_1_1"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_E3_1_1"
+description = "RPMM0017 sample STDs_E3_1_1"
+
+[[sample]]
+index = 53
+name = "STDs_E3_2_1"
+assay = "STDs_E3_2_1"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_E3_2_1"
+description = "RPMM0017 sample STDs_E3_2_1"
+
+[[sample]]
+index = 54
+name = "STDs_E3_3_1"
+assay = "STDs_E3_3_1"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0017/AnalysedDataset/valid02_gc/MetMat_abs_INTEGRATED.txt#STDs_E3_3_1"
+description = "RPMM0017 sample STDs_E3_3_1"
+
+[study_variables]
+candidate_columns = []
+
+[study_variables.levels]

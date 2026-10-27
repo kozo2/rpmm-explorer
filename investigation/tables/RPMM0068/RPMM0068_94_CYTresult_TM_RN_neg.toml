@@ -1,0 +1,450 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0068"
+title = "Defects in the cytokinin signaling reprogram lipid and flavonoid gene-to-metabolite networks to mitigate the effects of salinity in Arabidopsis thaliana"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0068"
+
+[matrix]
+name = "94_CYTresult_TM_RN_neg"
+source_file = "RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt"
+format = "tsv"
+n_features = 13
+n_samples = 48
+metadata_columns = [
+    "Peak Nr",
+    "Scan Nr",
+    "Ret(umin)",
+    "Mass",
+    "Mass_Scan",
+    "deconv",
+    "Annotation",
+    "Compound",
+    "check",
+    "MSTag",
+    "anplus",
+    "parent",
+    "child",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0068/AnalysedDataset/LC/Phenodata.csv"
+msp = ""
+
+[organism]
+raw = ""
+cv = ""
+source = ""
+
+[instrument]
+technique = "LC-MS"
+scan_polarity = "negative"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "lc01-neg01"
+assay = "lc01-neg01"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc01-neg01"
+description = "RPMM0068 sample lc01-neg01"
+
+[[sample]]
+index = 2
+name = "lc02-neg01"
+assay = "lc02-neg01"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc02-neg01"
+description = "RPMM0068 sample lc02-neg01"
+
+[[sample]]
+index = 3
+name = "lc03-neg01"
+assay = "lc03-neg01"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc03-neg01"
+description = "RPMM0068 sample lc03-neg01"
+
+[[sample]]
+index = 4
+name = "lc04-neg01"
+assay = "lc04-neg01"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc04-neg01"
+description = "RPMM0068 sample lc04-neg01"
+
+[[sample]]
+index = 5
+name = "lc05-neg01"
+assay = "lc05-neg01"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc05-neg01"
+description = "RPMM0068 sample lc05-neg01"
+
+[[sample]]
+index = 6
+name = "lc06-neg01"
+assay = "lc06-neg01"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc06-neg01"
+description = "RPMM0068 sample lc06-neg01"
+
+[[sample]]
+index = 7
+name = "lc07-neg01"
+assay = "lc07-neg01"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc07-neg01"
+description = "RPMM0068 sample lc07-neg01"
+
+[[sample]]
+index = 8
+name = "lc08-neg01"
+assay = "lc08-neg01"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc08-neg01"
+description = "RPMM0068 sample lc08-neg01"
+
+[[sample]]
+index = 9
+name = "lc09-neg01"
+assay = "lc09-neg01"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc09-neg01"
+description = "RPMM0068 sample lc09-neg01"
+
+[[sample]]
+index = 10
+name = "lc10-neg01"
+assay = "lc10-neg01"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc10-neg01"
+description = "RPMM0068 sample lc10-neg01"
+
+[[sample]]
+index = 11
+name = "lc11-neg01"
+assay = "lc11-neg01"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc11-neg01"
+description = "RPMM0068 sample lc11-neg01"
+
+[[sample]]
+index = 12
+name = "lc12-neg01"
+assay = "lc12-neg01"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc12-neg01"
+description = "RPMM0068 sample lc12-neg01"
+
+[[sample]]
+index = 13
+name = "lc13-neg01"
+assay = "lc13-neg01"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc13-neg01"
+description = "RPMM0068 sample lc13-neg01"
+
+[[sample]]
+index = 14
+name = "lc14-neg01"
+assay = "lc14-neg01"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc14-neg01"
+description = "RPMM0068 sample lc14-neg01"
+
+[[sample]]
+index = 15
+name = "lc15-neg01"
+assay = "lc15-neg01"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc15-neg01"
+description = "RPMM0068 sample lc15-neg01"
+
+[[sample]]
+index = 16
+name = "lc16-neg01"
+assay = "lc16-neg01"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc16-neg01"
+description = "RPMM0068 sample lc16-neg01"
+
+[[sample]]
+index = 17
+name = "lc17-neg01"
+assay = "lc17-neg01"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc17-neg01"
+description = "RPMM0068 sample lc17-neg01"
+
+[[sample]]
+index = 18
+name = "lc18-neg01"
+assay = "lc18-neg01"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc18-neg01"
+description = "RPMM0068 sample lc18-neg01"
+
+[[sample]]
+index = 19
+name = "lc19-neg01"
+assay = "lc19-neg01"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc19-neg01"
+description = "RPMM0068 sample lc19-neg01"
+
+[[sample]]
+index = 20
+name = "lc20-neg01"
+assay = "lc20-neg01"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc20-neg01"
+description = "RPMM0068 sample lc20-neg01"
+
+[[sample]]
+index = 21
+name = "lc21-neg01"
+assay = "lc21-neg01"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc21-neg01"
+description = "RPMM0068 sample lc21-neg01"
+
+[[sample]]
+index = 22
+name = "lc22-neg01"
+assay = "lc22-neg01"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc22-neg01"
+description = "RPMM0068 sample lc22-neg01"
+
+[[sample]]
+index = 23
+name = "lc23-neg01"
+assay = "lc23-neg01"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc23-neg01"
+description = "RPMM0068 sample lc23-neg01"
+
+[[sample]]
+index = 24
+name = "lc24-neg01"
+assay = "lc24-neg01"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc24-neg01"
+description = "RPMM0068 sample lc24-neg01"
+
+[[sample]]
+index = 25
+name = "lc25-neg01"
+assay = "lc25-neg01"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc25-neg01"
+description = "RPMM0068 sample lc25-neg01"
+
+[[sample]]
+index = 26
+name = "lc26-neg01"
+assay = "lc26-neg01"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc26-neg01"
+description = "RPMM0068 sample lc26-neg01"
+
+[[sample]]
+index = 27
+name = "lc27-neg01"
+assay = "lc27-neg01"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc27-neg01"
+description = "RPMM0068 sample lc27-neg01"
+
+[[sample]]
+index = 28
+name = "lc28-neg01"
+assay = "lc28-neg01"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc28-neg01"
+description = "RPMM0068 sample lc28-neg01"
+
+[[sample]]
+index = 29
+name = "lc29-neg01"
+assay = "lc29-neg01"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc29-neg01"
+description = "RPMM0068 sample lc29-neg01"
+
+[[sample]]
+index = 30
+name = "lc30-neg01"
+assay = "lc30-neg01"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc30-neg01"
+description = "RPMM0068 sample lc30-neg01"
+
+[[sample]]
+index = 31
+name = "lc31-neg01"
+assay = "lc31-neg01"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc31-neg01"
+description = "RPMM0068 sample lc31-neg01"
+
+[[sample]]
+index = 32
+name = "lc32-neg01"
+assay = "lc32-neg01"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc32-neg01"
+description = "RPMM0068 sample lc32-neg01"
+
+[[sample]]
+index = 33
+name = "lc33-neg01"
+assay = "lc33-neg01"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc33-neg01"
+description = "RPMM0068 sample lc33-neg01"
+
+[[sample]]
+index = 34
+name = "lc34-neg01"
+assay = "lc34-neg01"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc34-neg01"
+description = "RPMM0068 sample lc34-neg01"
+
+[[sample]]
+index = 35
+name = "lc35-neg01"
+assay = "lc35-neg01"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc35-neg01"
+description = "RPMM0068 sample lc35-neg01"
+
+[[sample]]
+index = 36
+name = "lc36-neg01"
+assay = "lc36-neg01"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc36-neg01"
+description = "RPMM0068 sample lc36-neg01"
+
+[[sample]]
+index = 37
+name = "lc37-neg01"
+assay = "lc37-neg01"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc37-neg01"
+description = "RPMM0068 sample lc37-neg01"
+
+[[sample]]
+index = 38
+name = "lc38-neg01"
+assay = "lc38-neg01"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc38-neg01"
+description = "RPMM0068 sample lc38-neg01"
+
+[[sample]]
+index = 39
+name = "lc39-neg01"
+assay = "lc39-neg01"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc39-neg01"
+description = "RPMM0068 sample lc39-neg01"
+
+[[sample]]
+index = 40
+name = "lc40-neg01"
+assay = "lc40-neg01"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc40-neg01"
+description = "RPMM0068 sample lc40-neg01"
+
+[[sample]]
+index = 41
+name = "lc41-neg01"
+assay = "lc41-neg01"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc41-neg01"
+description = "RPMM0068 sample lc41-neg01"
+
+[[sample]]
+index = 42
+name = "lc42-neg01"
+assay = "lc42-neg01"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc42-neg01"
+description = "RPMM0068 sample lc42-neg01"
+
+[[sample]]
+index = 43
+name = "lc43-neg01"
+assay = "lc43-neg01"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc43-neg01"
+description = "RPMM0068 sample lc43-neg01"
+
+[[sample]]
+index = 44
+name = "lc44-neg01"
+assay = "lc44-neg01"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc44-neg01"
+description = "RPMM0068 sample lc44-neg01"
+
+[[sample]]
+index = 45
+name = "lc45-neg01"
+assay = "lc45-neg01"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc45-neg01"
+description = "RPMM0068 sample lc45-neg01"
+
+[[sample]]
+index = 46
+name = "lc46-neg01"
+assay = "lc46-neg01"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc46-neg01"
+description = "RPMM0068 sample lc46-neg01"
+
+[[sample]]
+index = 47
+name = "lc47-neg01"
+assay = "lc47-neg01"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc47-neg01"
+description = "RPMM0068 sample lc47-neg01"
+
+[[sample]]
+index = 48
+name = "lc48-neg01"
+assay = "lc48-neg01"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_neg.txt#lc48-neg01"
+description = "RPMM0068 sample lc48-neg01"
+
+[study_variables]
+candidate_columns = [
+    "sample name",
+    "sampletype",
+    "genotype",
+    "client",
+    "tissue",
+    "conc",
+    "col22",
+]
+
+[study_variables.levels]
+"sample name" = []
+sampletype = []
+genotype = []
+client = []
+tissue = []
+conc = []
+col22 = []

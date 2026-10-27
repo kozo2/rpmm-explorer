@@ -1,0 +1,560 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0023"
+title = "Rice-<i>Arabidopsis</i> FOX line screening with FT-NIR-based fingerprinting for GC-TOF/MS-based metabolite profiling"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0023"
+
+[matrix]
+name = "080522arabi_seeds_nv_AnnotCombMat"
+source_file = "RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt"
+format = "tsv"
+n_features = 284
+n_samples = 64
+metadata_columns = [
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0023/AnalysedDataset/phenodata.csv"
+msp = "RPMM0023/AnalysedDataset/080522arabi_seeds_nv_NIST.txt"
+
+[organism]
+raw = "Arabi , Seeds"
+cv = "[NCBITaxon, NCBITaxon:3702, Arabidopsis thaliana, ]"
+source = "msp:080522arabi_seeds_nv_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "FD_New_01_1"
+assay = "FD_New_01_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#FD_New_01_1"
+description = "RPMM0023 sample FD_New_01_1"
+
+[[sample]]
+index = 2
+name = "FD_New_02_1"
+assay = "FD_New_02_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#FD_New_02_1"
+description = "RPMM0023 sample FD_New_02_1"
+
+[[sample]]
+index = 3
+name = "FD_New_03_1"
+assay = "FD_New_03_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#FD_New_03_1"
+description = "RPMM0023 sample FD_New_03_1"
+
+[[sample]]
+index = 4
+name = "FD_old_01_1"
+assay = "FD_old_01_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#FD_old_01_1"
+description = "RPMM0023 sample FD_old_01_1"
+
+[[sample]]
+index = 5
+name = "FD_old_02_1"
+assay = "FD_old_02_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#FD_old_02_1"
+description = "RPMM0023 sample FD_old_02_1"
+
+[[sample]]
+index = 6
+name = "FD_old_03_1"
+assay = "FD_old_03_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#FD_old_03_1"
+description = "RPMM0023 sample FD_old_03_1"
+
+[[sample]]
+index = 7
+name = "STDs_1_1_1"
+assay = "STDs_1_1_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#STDs_1_1_1"
+description = "RPMM0023 sample STDs_1_1_1"
+
+[[sample]]
+index = 8
+name = "STDs_1_2_1"
+assay = "STDs_1_2_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#STDs_1_2_1"
+description = "RPMM0023 sample STDs_1_2_1"
+
+[[sample]]
+index = 9
+name = "STDs_1_3_1"
+assay = "STDs_1_3_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#STDs_1_3_1"
+description = "RPMM0023 sample STDs_1_3_1"
+
+[[sample]]
+index = 10
+name = "STDs_2_1_1"
+assay = "STDs_2_1_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#STDs_2_1_1"
+description = "RPMM0023 sample STDs_2_1_1"
+
+[[sample]]
+index = 11
+name = "STDs_2_2_1"
+assay = "STDs_2_2_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#STDs_2_2_1"
+description = "RPMM0023 sample STDs_2_2_1"
+
+[[sample]]
+index = 12
+name = "STDs_2_3_1"
+assay = "STDs_2_3_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#STDs_2_3_1"
+description = "RPMM0023 sample STDs_2_3_1"
+
+[[sample]]
+index = 13
+name = "STDs_3_1_1"
+assay = "STDs_3_1_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#STDs_3_1_1"
+description = "RPMM0023 sample STDs_3_1_1"
+
+[[sample]]
+index = 14
+name = "STDs_3_2_1"
+assay = "STDs_3_2_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#STDs_3_2_1"
+description = "RPMM0023 sample STDs_3_2_1"
+
+[[sample]]
+index = 15
+name = "STDs_3_3_1"
+assay = "STDs_3_3_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#STDs_3_3_1"
+description = "RPMM0023 sample STDs_3_3_1"
+
+[[sample]]
+index = 16
+name = "seeds_01_1"
+assay = "seeds_01_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_01_1"
+description = "RPMM0023 sample seeds_01_1"
+
+[[sample]]
+index = 17
+name = "seeds_02_1"
+assay = "seeds_02_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_02_1"
+description = "RPMM0023 sample seeds_02_1"
+
+[[sample]]
+index = 18
+name = "seeds_03_1"
+assay = "seeds_03_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_03_1"
+description = "RPMM0023 sample seeds_03_1"
+
+[[sample]]
+index = 19
+name = "seeds_04_1"
+assay = "seeds_04_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_04_1"
+description = "RPMM0023 sample seeds_04_1"
+
+[[sample]]
+index = 20
+name = "seeds_05_1"
+assay = "seeds_05_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_05_1"
+description = "RPMM0023 sample seeds_05_1"
+
+[[sample]]
+index = 21
+name = "seeds_06_1"
+assay = "seeds_06_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_06_1"
+description = "RPMM0023 sample seeds_06_1"
+
+[[sample]]
+index = 22
+name = "seeds_07_1"
+assay = "seeds_07_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_07_1"
+description = "RPMM0023 sample seeds_07_1"
+
+[[sample]]
+index = 23
+name = "seeds_08_1"
+assay = "seeds_08_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_08_1"
+description = "RPMM0023 sample seeds_08_1"
+
+[[sample]]
+index = 24
+name = "seeds_09_1"
+assay = "seeds_09_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_09_1"
+description = "RPMM0023 sample seeds_09_1"
+
+[[sample]]
+index = 25
+name = "seeds_10_1"
+assay = "seeds_10_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_10_1"
+description = "RPMM0023 sample seeds_10_1"
+
+[[sample]]
+index = 26
+name = "seeds_11_1"
+assay = "seeds_11_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_11_1"
+description = "RPMM0023 sample seeds_11_1"
+
+[[sample]]
+index = 27
+name = "seeds_12_1"
+assay = "seeds_12_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_12_1"
+description = "RPMM0023 sample seeds_12_1"
+
+[[sample]]
+index = 28
+name = "seeds_13_1"
+assay = "seeds_13_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_13_1"
+description = "RPMM0023 sample seeds_13_1"
+
+[[sample]]
+index = 29
+name = "seeds_14_1"
+assay = "seeds_14_1"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_14_1"
+description = "RPMM0023 sample seeds_14_1"
+
+[[sample]]
+index = 30
+name = "seeds_15_1"
+assay = "seeds_15_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_15_1"
+description = "RPMM0023 sample seeds_15_1"
+
+[[sample]]
+index = 31
+name = "seeds_16_1"
+assay = "seeds_16_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_16_1"
+description = "RPMM0023 sample seeds_16_1"
+
+[[sample]]
+index = 32
+name = "seeds_17_1"
+assay = "seeds_17_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_17_1"
+description = "RPMM0023 sample seeds_17_1"
+
+[[sample]]
+index = 33
+name = "seeds_18_1"
+assay = "seeds_18_1"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_18_1"
+description = "RPMM0023 sample seeds_18_1"
+
+[[sample]]
+index = 34
+name = "seeds_19_1"
+assay = "seeds_19_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_19_1"
+description = "RPMM0023 sample seeds_19_1"
+
+[[sample]]
+index = 35
+name = "seeds_20_1"
+assay = "seeds_20_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_20_1"
+description = "RPMM0023 sample seeds_20_1"
+
+[[sample]]
+index = 36
+name = "seeds_21_1"
+assay = "seeds_21_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_21_1"
+description = "RPMM0023 sample seeds_21_1"
+
+[[sample]]
+index = 37
+name = "seeds_22_1"
+assay = "seeds_22_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_22_1"
+description = "RPMM0023 sample seeds_22_1"
+
+[[sample]]
+index = 38
+name = "seeds_23_1"
+assay = "seeds_23_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_23_1"
+description = "RPMM0023 sample seeds_23_1"
+
+[[sample]]
+index = 39
+name = "seeds_24_1"
+assay = "seeds_24_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_24_1"
+description = "RPMM0023 sample seeds_24_1"
+
+[[sample]]
+index = 40
+name = "seeds_25_1"
+assay = "seeds_25_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_25_1"
+description = "RPMM0023 sample seeds_25_1"
+
+[[sample]]
+index = 41
+name = "seeds_26_1"
+assay = "seeds_26_1"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_26_1"
+description = "RPMM0023 sample seeds_26_1"
+
+[[sample]]
+index = 42
+name = "seeds_27_1"
+assay = "seeds_27_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_27_1"
+description = "RPMM0023 sample seeds_27_1"
+
+[[sample]]
+index = 43
+name = "seeds_28_1"
+assay = "seeds_28_1"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_28_1"
+description = "RPMM0023 sample seeds_28_1"
+
+[[sample]]
+index = 44
+name = "seeds_29_1"
+assay = "seeds_29_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_29_1"
+description = "RPMM0023 sample seeds_29_1"
+
+[[sample]]
+index = 45
+name = "seeds_30_1"
+assay = "seeds_30_1"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_30_1"
+description = "RPMM0023 sample seeds_30_1"
+
+[[sample]]
+index = 46
+name = "seeds_31_1"
+assay = "seeds_31_1"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_31_1"
+description = "RPMM0023 sample seeds_31_1"
+
+[[sample]]
+index = 47
+name = "seeds_32_1"
+assay = "seeds_32_1"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_32_1"
+description = "RPMM0023 sample seeds_32_1"
+
+[[sample]]
+index = 48
+name = "seeds_33_1"
+assay = "seeds_33_1"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_33_1"
+description = "RPMM0023 sample seeds_33_1"
+
+[[sample]]
+index = 49
+name = "seeds_34_1"
+assay = "seeds_34_1"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_34_1"
+description = "RPMM0023 sample seeds_34_1"
+
+[[sample]]
+index = 50
+name = "seeds_35_1"
+assay = "seeds_35_1"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_35_1"
+description = "RPMM0023 sample seeds_35_1"
+
+[[sample]]
+index = 51
+name = "seeds_36_1"
+assay = "seeds_36_1"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_36_1"
+description = "RPMM0023 sample seeds_36_1"
+
+[[sample]]
+index = 52
+name = "seeds_37_1"
+assay = "seeds_37_1"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_37_1"
+description = "RPMM0023 sample seeds_37_1"
+
+[[sample]]
+index = 53
+name = "seeds_38_1"
+assay = "seeds_38_1"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_38_1"
+description = "RPMM0023 sample seeds_38_1"
+
+[[sample]]
+index = 54
+name = "seeds_39_1"
+assay = "seeds_39_1"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_39_1"
+description = "RPMM0023 sample seeds_39_1"
+
+[[sample]]
+index = 55
+name = "seeds_40_1"
+assay = "seeds_40_1"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_40_1"
+description = "RPMM0023 sample seeds_40_1"
+
+[[sample]]
+index = 56
+name = "seeds_41_1"
+assay = "seeds_41_1"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_41_1"
+description = "RPMM0023 sample seeds_41_1"
+
+[[sample]]
+index = 57
+name = "seeds_42_1"
+assay = "seeds_42_1"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_42_1"
+description = "RPMM0023 sample seeds_42_1"
+
+[[sample]]
+index = 58
+name = "seeds_43_1"
+assay = "seeds_43_1"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_43_1"
+description = "RPMM0023 sample seeds_43_1"
+
+[[sample]]
+index = 59
+name = "seeds_44_1"
+assay = "seeds_44_1"
+ms_run_ref = "ms_run[59]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_44_1"
+description = "RPMM0023 sample seeds_44_1"
+
+[[sample]]
+index = 60
+name = "seeds_45_1"
+assay = "seeds_45_1"
+ms_run_ref = "ms_run[60]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_45_1"
+description = "RPMM0023 sample seeds_45_1"
+
+[[sample]]
+index = 61
+name = "seeds_46_1"
+assay = "seeds_46_1"
+ms_run_ref = "ms_run[61]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_46_1"
+description = "RPMM0023 sample seeds_46_1"
+
+[[sample]]
+index = 62
+name = "seeds_47_1"
+assay = "seeds_47_1"
+ms_run_ref = "ms_run[62]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_47_1"
+description = "RPMM0023 sample seeds_47_1"
+
+[[sample]]
+index = 63
+name = "seeds_48_1"
+assay = "seeds_48_1"
+ms_run_ref = "ms_run[63]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_48_1"
+description = "RPMM0023 sample seeds_48_1"
+
+[[sample]]
+index = 64
+name = "seeds_49_1"
+assay = "seeds_49_1"
+ms_run_ref = "ms_run[64]"
+location = "http://metabobank.riken.jp/data/RPMM0023/AnalysedDataset/080522arabi_seeds_nv_AnnotCombMat.txt#seeds_49_1"
+description = "RPMM0023 sample seeds_49_1"
+
+[study_variables]
+candidate_columns = [
+    "line number",
+]
+
+[study_variables.levels]
+"line number" = []

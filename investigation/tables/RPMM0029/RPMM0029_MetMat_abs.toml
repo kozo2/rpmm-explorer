@@ -1,0 +1,965 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0029"
+title = "Ky-2, a Histone Deacetylase Inhibitor, Enhances High-Salinity Stress Tolerance in <i>Arabidopsis thaliana</i>"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0029"
+
+[matrix]
+name = "MetMat_abs"
+source_file = "RPMM0029/AnalysedDataset/MetMat_abs.txt"
+format = "tsv"
+n_features = 273
+n_samples = 62
+metadata_columns = [
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0029/AnalysedDataset/phenodata.csv"
+msp = "RPMM0029/AnalysedDataset/140710_Sako_san_Ogawa_san_nv_NIST.txt"
+
+[organism]
+raw = "Arabi and rice"
+cv = "[NCBITaxon, NCBITaxon:3702, Arabidopsis thaliana, ]"
+source = "msp:140710_Sako_san_Ogawa_san_nv_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "FD_01_1"
+assay = "FD_01_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#FD_01_1"
+description = "RPMM0029 sample FD_01_1"
+
+[[sample]]
+index = 2
+name = "FD_02_1"
+assay = "FD_02_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#FD_02_1"
+description = "RPMM0029 sample FD_02_1"
+
+[[sample]]
+index = 3
+name = "FD_03_1"
+assay = "FD_03_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#FD_03_1"
+description = "RPMM0029 sample FD_03_1"
+
+[[sample]]
+index = 4
+name = "STDs_1_1_1"
+assay = "STDs_1_1_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_1_1_1"
+description = "RPMM0029 sample STDs_1_1_1"
+
+[[sample]]
+index = 5
+name = "STDs_1_2_1"
+assay = "STDs_1_2_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_1_2_1"
+description = "RPMM0029 sample STDs_1_2_1"
+
+[[sample]]
+index = 6
+name = "STDs_1_3_1"
+assay = "STDs_1_3_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_1_3_1"
+description = "RPMM0029 sample STDs_1_3_1"
+
+[[sample]]
+index = 7
+name = "STDs_2_1_1"
+assay = "STDs_2_1_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_2_1_1"
+description = "RPMM0029 sample STDs_2_1_1"
+
+[[sample]]
+index = 8
+name = "STDs_2_2_1"
+assay = "STDs_2_2_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_2_2_1"
+description = "RPMM0029 sample STDs_2_2_1"
+
+[[sample]]
+index = 9
+name = "STDs_2_3_1"
+assay = "STDs_2_3_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_2_3_1"
+description = "RPMM0029 sample STDs_2_3_1"
+
+[[sample]]
+index = 10
+name = "STDs_3_1_1"
+assay = "STDs_3_1_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_3_1_1"
+description = "RPMM0029 sample STDs_3_1_1"
+
+[[sample]]
+index = 11
+name = "STDs_3_2_1"
+assay = "STDs_3_2_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_3_2_1"
+description = "RPMM0029 sample STDs_3_2_1"
+
+[[sample]]
+index = 12
+name = "STDs_3_3_1"
+assay = "STDs_3_3_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_3_3_1"
+description = "RPMM0029 sample STDs_3_3_1"
+
+[[sample]]
+index = 13
+name = "STDs_E1_1_1"
+assay = "STDs_E1_1_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_E1_1_1"
+description = "RPMM0029 sample STDs_E1_1_1"
+
+[[sample]]
+index = 14
+name = "STDs_E1_2_1"
+assay = "STDs_E1_2_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_E1_2_1"
+description = "RPMM0029 sample STDs_E1_2_1"
+
+[[sample]]
+index = 15
+name = "STDs_E1_3_1"
+assay = "STDs_E1_3_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_E1_3_1"
+description = "RPMM0029 sample STDs_E1_3_1"
+
+[[sample]]
+index = 16
+name = "STDs_E2_1_1"
+assay = "STDs_E2_1_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_E2_1_1"
+description = "RPMM0029 sample STDs_E2_1_1"
+
+[[sample]]
+index = 17
+name = "STDs_E2_2_1"
+assay = "STDs_E2_2_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_E2_2_1"
+description = "RPMM0029 sample STDs_E2_2_1"
+
+[[sample]]
+index = 18
+name = "STDs_E2_3_1"
+assay = "STDs_E2_3_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_E2_3_1"
+description = "RPMM0029 sample STDs_E2_3_1"
+
+[[sample]]
+index = 19
+name = "STDs_E3_1_1"
+assay = "STDs_E3_1_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_E3_1_1"
+description = "RPMM0029 sample STDs_E3_1_1"
+
+[[sample]]
+index = 20
+name = "STDs_E3_2_1"
+assay = "STDs_E3_2_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_E3_2_1"
+description = "RPMM0029 sample STDs_E3_2_1"
+
+[[sample]]
+index = 21
+name = "STDs_E3_3_1"
+assay = "STDs_E3_3_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#STDs_E3_3_1"
+description = "RPMM0029 sample STDs_E3_3_1"
+
+[[sample]]
+index = 22
+name = "o_01_1"
+assay = "o_01_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#o_01_1"
+description = "RPMM0029 sample o_01_1"
+
+[[sample]]
+index = 23
+name = "o_02_1"
+assay = "o_02_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#o_02_1"
+description = "RPMM0029 sample o_02_1"
+
+[[sample]]
+index = 24
+name = "o_03_1"
+assay = "o_03_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#o_03_1"
+description = "RPMM0029 sample o_03_1"
+
+[[sample]]
+index = 25
+name = "o_04_1"
+assay = "o_04_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#o_04_1"
+description = "RPMM0029 sample o_04_1"
+
+[[sample]]
+index = 26
+name = "o_05_1"
+assay = "o_05_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#o_05_1"
+description = "RPMM0029 sample o_05_1"
+
+[[sample]]
+index = 27
+name = "o_06_1"
+assay = "o_06_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#o_06_1"
+description = "RPMM0029 sample o_06_1"
+
+[[sample]]
+index = 28
+name = "o_07_1"
+assay = "o_07_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#o_07_1"
+description = "RPMM0029 sample o_07_1"
+
+[[sample]]
+index = 29
+name = "o_08_1"
+assay = "o_08_1"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#o_08_1"
+description = "RPMM0029 sample o_08_1"
+
+[[sample]]
+index = 30
+name = "o_09_1"
+assay = "o_09_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#o_09_1"
+description = "RPMM0029 sample o_09_1"
+
+[[sample]]
+index = 31
+name = "o_10_1"
+assay = "o_10_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#o_10_1"
+description = "RPMM0029 sample o_10_1"
+
+[[sample]]
+index = 32
+name = "o_11_1"
+assay = "o_11_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#o_11_1"
+description = "RPMM0029 sample o_11_1"
+
+[[sample]]
+index = 33
+name = "o_12_1"
+assay = "o_12_1"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#o_12_1"
+description = "RPMM0029 sample o_12_1"
+
+[[sample]]
+index = 34
+name = "s_01_1"
+assay = "s_01_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_01_1"
+description = "RPMM0029 sample s_01_1"
+matlab_file_name = "s_01_1.mat"
+order_name = "s_01"
+speacies = "Arabidopsis"
+class = "class07"
+gcid = "s_01_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "25"
+period = "0h"
+runorder = "39"
+samplename = "noky 0h1"
+tissue = "whole plants"
+treatment1 = "noky"
+treatment2 = "nostress"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 35
+name = "s_02_1"
+assay = "s_02_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_02_1"
+description = "RPMM0029 sample s_02_1"
+matlab_file_name = "s_02_1.mat"
+order_name = "s_02"
+speacies = "Arabidopsis"
+class = "class07"
+gcid = "s_02_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "31"
+period = "0h"
+runorder = "46"
+samplename = "noky 0h2"
+tissue = "whole plants"
+treatment1 = "noky"
+treatment2 = "nostress"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 36
+name = "s_03_1"
+assay = "s_03_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_03_1"
+description = "RPMM0029 sample s_03_1"
+matlab_file_name = "s_03_1.mat"
+order_name = "s_03"
+speacies = "Arabidopsis"
+class = "class07"
+gcid = "s_03_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "32"
+period = "0h"
+runorder = "41"
+samplename = "noky 0h3"
+tissue = "whole plants"
+treatment1 = "noky"
+treatment2 = "nostress"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 37
+name = "s_04_1"
+assay = "s_04_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_04_1"
+description = "RPMM0029 sample s_04_1"
+matlab_file_name = "s_04_1.mat"
+order_name = "s_04"
+speacies = "Arabidopsis"
+class = "class08"
+gcid = "s_04_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "35"
+period = "0h"
+runorder = "49"
+samplename = "plusky 0h1"
+tissue = "whole plants"
+treatment1 = "plusky"
+treatment2 = "nostress"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 38
+name = "s_05_1"
+assay = "s_05_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_05_1"
+description = "RPMM0029 sample s_05_1"
+matlab_file_name = "s_05_1.mat"
+order_name = "s_05"
+speacies = "Arabidopsis"
+class = "class08"
+gcid = "s_05_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "32"
+period = "0h"
+runorder = "34"
+samplename = "plusky 0h2"
+tissue = "whole plants"
+treatment1 = "plusky"
+treatment2 = "nostress"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 39
+name = "s_06_1"
+assay = "s_06_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_06_1"
+description = "RPMM0029 sample s_06_1"
+matlab_file_name = "s_06_1.mat"
+order_name = "s_06"
+speacies = "Arabidopsis"
+class = "class08"
+gcid = "s_06_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "32"
+period = "0h"
+runorder = "47"
+samplename = "plusky 0no3"
+tissue = "whole plants"
+treatment1 = "plusky"
+treatment2 = "nostress"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 40
+name = "s_07_1"
+assay = "s_07_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_07_1"
+description = "RPMM0029 sample s_07_1"
+matlab_file_name = "s_07_1.mat"
+order_name = "s_07"
+speacies = "Arabidopsis"
+class = "class09"
+gcid = "s_07_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "22"
+period = "10h"
+runorder = "64"
+samplename = "nokynoNaCl 10h1"
+tissue = "whole plants"
+treatment1 = "noky"
+treatment2 = "noNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 41
+name = "s_08_1"
+assay = "s_08_1"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_08_1"
+description = "RPMM0029 sample s_08_1"
+matlab_file_name = "s_08_1.mat"
+order_name = "s_08"
+speacies = "Arabidopsis"
+class = "class09"
+gcid = "s_08_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "20"
+period = "10h"
+runorder = "32"
+samplename = "nokynoNaCl 10h2"
+tissue = "whole plants"
+treatment1 = "noky"
+treatment2 = "noNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 42
+name = "s_09_1"
+assay = "s_09_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_09_1"
+description = "RPMM0029 sample s_09_1"
+matlab_file_name = "s_09_1.mat"
+order_name = "s_09"
+speacies = "Arabidopsis"
+class = "class09"
+gcid = "s_09_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "20"
+period = "10h"
+runorder = "36"
+samplename = "nokynoNaCl 10h3"
+tissue = "whole plants"
+treatment1 = "noky"
+treatment2 = "noNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 43
+name = "s_10_1"
+assay = "s_10_1"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_10_1"
+description = "RPMM0029 sample s_10_1"
+matlab_file_name = "s_10_1.mat"
+order_name = "s_10"
+speacies = "Arabidopsis"
+class = "class10"
+gcid = "s_10_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "25"
+period = "10h"
+runorder = "61"
+samplename = "nokyplusNaCl 10h1"
+tissue = "whole plants"
+treatment1 = "noky"
+treatment2 = "noNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 44
+name = "s_11_1"
+assay = "s_11_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_11_1"
+description = "RPMM0029 sample s_11_1"
+matlab_file_name = "s_11_1.mat"
+order_name = "s_11"
+speacies = "Arabidopsis"
+class = "class10"
+gcid = "s_11_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "26"
+period = "10h"
+runorder = "40"
+samplename = "nokyplusNaCl 10h2"
+tissue = "whole plants"
+treatment1 = "noky"
+treatment2 = "noNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 45
+name = "s_12_1"
+assay = "s_12_1"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_12_1"
+description = "RPMM0029 sample s_12_1"
+matlab_file_name = "s_12_1.mat"
+order_name = "s_12"
+speacies = "Arabidopsis"
+class = "class10"
+gcid = "s_12_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "28"
+period = "10h"
+runorder = "35"
+samplename = "nokyplusNaCl 10h3"
+tissue = "whole plants"
+treatment1 = "noky"
+treatment2 = "noNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 46
+name = "s_13_1"
+assay = "s_13_1"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_13_1"
+description = "RPMM0029 sample s_13_1"
+matlab_file_name = "s_13_1.mat"
+order_name = "s_13"
+speacies = "Arabidopsis"
+class = "class11"
+gcid = "s_13_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "19"
+period = "10h"
+runorder = "60"
+samplename = "pluskynoNaCl 10h1"
+tissue = "whole plants"
+treatment1 = "plusky"
+treatment2 = "plusNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 47
+name = "s_14_1"
+assay = "s_14_1"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_14_1"
+description = "RPMM0029 sample s_14_1"
+matlab_file_name = "s_14_1.mat"
+order_name = "s_14"
+speacies = "Arabidopsis"
+class = "class11"
+gcid = "s_14_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "20"
+period = "10h"
+runorder = "56"
+samplename = "pluskynoNaCl 10h2"
+tissue = "whole plants"
+treatment1 = "plusky"
+treatment2 = "plusNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 48
+name = "s_15_1"
+assay = "s_15_1"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_15_1"
+description = "RPMM0029 sample s_15_1"
+matlab_file_name = "s_15_1.mat"
+order_name = "s_15"
+speacies = "Arabidopsis"
+class = "class11"
+gcid = "s_15_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "20"
+period = "10h"
+runorder = "31"
+samplename = "pluskynoNaCl 10h3"
+tissue = "whole plants"
+treatment1 = "plusky"
+treatment2 = "plusNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 49
+name = "s_16_1"
+assay = "s_16_1"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_16_1"
+description = "RPMM0029 sample s_16_1"
+matlab_file_name = "s_16_1.mat"
+order_name = "s_16"
+speacies = "Arabidopsis"
+class = "class12"
+gcid = "s_16_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "20"
+period = "10h"
+runorder = "54"
+samplename = "pluskyplusNaCl 10h1"
+tissue = "whole plants"
+treatment1 = "plusky"
+treatment2 = "plusNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 50
+name = "s_17_1"
+assay = "s_17_1"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_17_1"
+description = "RPMM0029 sample s_17_1"
+matlab_file_name = "s_17_1.mat"
+order_name = "s_17"
+speacies = "Arabidopsis"
+class = "class12"
+gcid = "s_17_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "26"
+period = "10h"
+runorder = "33"
+samplename = "pluskyplusNaCl 10h2"
+tissue = "whole plants"
+treatment1 = "plusky"
+treatment2 = "plusNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 51
+name = "s_18_1"
+assay = "s_18_1"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_18_1"
+description = "RPMM0029 sample s_18_1"
+matlab_file_name = "s_18_1.mat"
+order_name = "s_18"
+speacies = "Arabidopsis"
+class = "class12"
+gcid = "s_18_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "26"
+period = "10h"
+runorder = "55"
+samplename = "pluskyplusNaCl 10h3"
+tissue = "whole plants"
+treatment1 = "plusky"
+treatment2 = "plusNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 52
+name = "s_19_1"
+assay = "s_19_1"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_19_1"
+description = "RPMM0029 sample s_19_1"
+matlab_file_name = "s_19_1.mat"
+order_name = "s_19"
+speacies = "Arabidopsis"
+class = "class13"
+gcid = "s_19_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "20"
+period = "24h"
+runorder = "48"
+samplename = "nokynoNaCl 24h1"
+tissue = "whole plants"
+treatment1 = "noky"
+treatment2 = "noNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 53
+name = "s_20_1"
+assay = "s_20_1"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_20_1"
+description = "RPMM0029 sample s_20_1"
+matlab_file_name = "s_20_1.mat"
+order_name = "s_20"
+speacies = "Arabidopsis"
+class = "class13"
+gcid = "s_20_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "18"
+period = "24h"
+runorder = "42"
+samplename = "nokynoNaCl 24h2"
+tissue = "whole plants"
+treatment1 = "noky"
+treatment2 = "noNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 54
+name = "s_21_1"
+assay = "s_21_1"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_21_1"
+description = "RPMM0029 sample s_21_1"
+matlab_file_name = "s_21_1.mat"
+order_name = "s_21"
+speacies = "Arabidopsis"
+class = "class13"
+gcid = "s_21_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "18"
+period = "24h"
+runorder = "67"
+samplename = "nokynoNaCl 24h3"
+tissue = "whole plants"
+treatment1 = "noky"
+treatment2 = "noNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 55
+name = "s_22_1"
+assay = "s_22_1"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_22_1"
+description = "RPMM0029 sample s_22_1"
+matlab_file_name = "s_22_1.mat"
+order_name = "s_22"
+speacies = "Arabidopsis"
+class = "class14"
+gcid = "s_22_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "25"
+period = "24h"
+runorder = "50"
+samplename = "nokyplusNaCl 24h1"
+tissue = "whole plants"
+treatment1 = "noky"
+treatment2 = "noNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 56
+name = "s_23_1"
+assay = "s_23_1"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_23_1"
+description = "RPMM0029 sample s_23_1"
+matlab_file_name = "s_23_1.mat"
+order_name = "s_23"
+speacies = "Arabidopsis"
+class = "class14"
+gcid = "s_23_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "21"
+period = "24h"
+runorder = "45"
+samplename = "nokyplusNaCl 24h2"
+tissue = "whole plants"
+treatment1 = "noky"
+treatment2 = "noNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 57
+name = "s_24_1"
+assay = "s_24_1"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_24_1"
+description = "RPMM0029 sample s_24_1"
+matlab_file_name = "s_24_1.mat"
+order_name = "s_24"
+speacies = "Arabidopsis"
+class = "class14"
+gcid = "s_24_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "25"
+period = "24h"
+runorder = "52"
+samplename = "nokyplusNaCl 24h3"
+tissue = "whole plants"
+treatment1 = "noky"
+treatment2 = "noNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 58
+name = "s_25_1"
+assay = "s_25_1"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_25_1"
+description = "RPMM0029 sample s_25_1"
+matlab_file_name = "s_25_1.mat"
+order_name = "s_25"
+speacies = "Arabidopsis"
+class = "class15"
+gcid = "s_25_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "31"
+period = "24h"
+runorder = "62"
+samplename = "pluskynoNaCl 24h1"
+tissue = "whole plants"
+treatment1 = "plusky"
+treatment2 = "plusNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 59
+name = "s_26_1"
+assay = "s_26_1"
+ms_run_ref = "ms_run[59]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_26_1"
+description = "RPMM0029 sample s_26_1"
+matlab_file_name = "s_26_1.mat"
+order_name = "s_26"
+speacies = "Arabidopsis"
+class = "class15"
+gcid = "s_26_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "30"
+period = "24h"
+runorder = "58"
+samplename = "pluskynoNaCl 24h2"
+tissue = "whole plants"
+treatment1 = "plusky"
+treatment2 = "plusNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 60
+name = "s_28_1"
+assay = "s_28_1"
+ms_run_ref = "ms_run[60]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_28_1"
+description = "RPMM0029 sample s_28_1"
+matlab_file_name = "s_28_1.mat"
+order_name = "s_28"
+speacies = "Arabidopsis"
+class = "class16"
+gcid = "s_28_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "22"
+period = "24h"
+runorder = "43"
+samplename = "pluskyplusNaCl 24h1"
+tissue = "whole plants"
+treatment1 = "plusky"
+treatment2 = "plusNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 61
+name = "s_29_1"
+assay = "s_29_1"
+ms_run_ref = "ms_run[61]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_29_1"
+description = "RPMM0029 sample s_29_1"
+matlab_file_name = "s_29_1.mat"
+order_name = "s_29"
+speacies = "Arabidopsis"
+class = "class16"
+gcid = "s_29_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "25"
+period = "24h"
+runorder = "38"
+samplename = "pluskyplusNaCl 24h2"
+tissue = "whole plants"
+treatment1 = "plusky"
+treatment2 = "plusNaCl"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 62
+name = "s_30_1"
+assay = "s_30_1"
+ms_run_ref = "ms_run[62]"
+location = "http://metabobank.riken.jp/data/RPMM0029/AnalysedDataset/MetMat_abs.txt#s_30_1"
+description = "RPMM0029 sample s_30_1"
+matlab_file_name = "s_30_1.mat"
+order_name = "s_30"
+speacies = "Arabidopsis"
+class = "class16"
+gcid = "s_30_1"
+note1 = "Sakosan_SekiT"
+numofbulked = "30"
+period = "24h"
+runorder = "53"
+samplename = "pluskyplusNaCl 24h3"
+tissue = "whole plants"
+treatment1 = "plusky"
+treatment2 = "plusNaCl"
+weight_mg = "0.027778"
+
+[study_variables]
+candidate_columns = [
+    "treatment1",
+    "treatment2",
+    "period",
+]
+
+[study_variables.levels]
+treatment1 = [
+    "noky",
+    "plusky",
+]
+treatment2 = [
+    "noNaCl",
+    "nostress",
+    "plusNaCl",
+]
+period = [
+    "0h",
+    "10h",
+    "24h",
+]

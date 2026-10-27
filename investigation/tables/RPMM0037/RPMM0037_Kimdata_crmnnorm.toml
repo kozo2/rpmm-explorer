@@ -1,0 +1,358 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0037"
+title = "GC-TOF-MS- and CE-TOF-MS-Based Metabolic Profiling of Cheonggukjang (Fast-Fermented Bean Paste) during Fermentation and Its Correlation with Metabolic Pathways"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0037"
+
+[matrix]
+name = "Kimdata_crmnnorm"
+source_file = "RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt"
+format = "tsv"
+n_features = 217
+n_samples = 19
+metadata_columns = [
+    "Marked_peaks",
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+    "query",
+    "known",
+    "cas",
+    "preferred",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0037/AnalysedDataset/phenodata.csv"
+msp = "RPMM0037/AnalysedDataset/2010_0208Kim_san_NIST.txt"
+
+[organism]
+raw = "fermented soybean"
+cv = "[NCBITaxon, NCBITaxon:3847, Glycine max, ]"
+source = "msp:2010_0208Kim_san_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "2_3"
+assay = "2_3"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#2_3"
+description = "RPMM0037 sample 2_3"
+gcid = "2_3"
+genotype = "soybean"
+innoculation = "no"
+sepices = "soybean"
+series = "series A"
+time = "0"
+type = "exp"
+
+[[sample]]
+index = 2
+name = "5_1"
+assay = "5_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#5_1"
+description = "RPMM0037 sample 5_1"
+gcid = "5_1"
+genotype = "67_12"
+innoculation = "yes"
+sepices = "Bacillus licheniformis 67"
+series = "series A"
+time = "12"
+type = "exp"
+
+[[sample]]
+index = 3
+name = "8_1"
+assay = "8_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#8_1"
+description = "RPMM0037 sample 8_1"
+gcid = "8_1"
+genotype = "67_24"
+innoculation = "yes"
+sepices = "Bacillus licheniformis 67"
+series = "series A"
+time = "24"
+type = "exp"
+
+[[sample]]
+index = 4
+name = "11_1"
+assay = "11_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#11_1"
+description = "RPMM0037 sample 11_1"
+gcid = "11_1"
+genotype = "67_36"
+innoculation = "yes"
+sepices = "Bacillus licheniformis 67"
+series = "series A"
+time = "36"
+type = "exp"
+
+[[sample]]
+index = 5
+name = "14_1"
+assay = "14_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#14_1"
+description = "RPMM0037 sample 14_1"
+gcid = "14_1"
+genotype = "67_48"
+innoculation = "yes"
+sepices = "Bacillus licheniformis 67"
+series = "series A"
+time = "48"
+type = "exp"
+
+[[sample]]
+index = 6
+name = "17_1"
+assay = "17_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#17_1"
+description = "RPMM0037 sample 17_1"
+gcid = "17_1"
+genotype = "67_60"
+innoculation = "yes"
+sepices = "Bacillus licheniformis 67"
+series = "series A"
+time = "60"
+type = "exp"
+
+[[sample]]
+index = 7
+name = "20_1"
+assay = "20_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#20_1"
+description = "RPMM0037 sample 20_1"
+gcid = "20_1"
+genotype = "67_72"
+innoculation = "yes"
+sepices = "Bacillus licheniformis 67"
+series = "series A"
+time = "72"
+type = "exp"
+
+[[sample]]
+index = 8
+name = "22_1"
+assay = "22_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#22_1"
+description = "RPMM0037 sample 22_1"
+gcid = "22_1"
+genotype = "BA_12"
+innoculation = "yes"
+sepices = "Bacillus amyloliquefaciens BA"
+series = "series A"
+time = "12"
+type = "exp"
+
+[[sample]]
+index = 9
+name = "26_2"
+assay = "26_2"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#26_2"
+description = "RPMM0037 sample 26_2"
+gcid = "26_2"
+genotype = "BA_24_1"
+innoculation = "yes"
+sepices = "Bacillus amyloliquefaciens BA"
+series = "series A"
+time = "24"
+type = "exp"
+
+[[sample]]
+index = 10
+name = "29_2"
+assay = "29_2"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#29_2"
+description = "RPMM0037 sample 29_2"
+gcid = "29_2"
+genotype = "BA_36_1"
+innoculation = "yes"
+sepices = "Bacillus amyloliquefaciens BA"
+series = "series A"
+time = "36"
+type = "exp"
+
+[[sample]]
+index = 11
+name = "32_1"
+assay = "32_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#32_1"
+description = "RPMM0037 sample 32_1"
+gcid = "32_1"
+genotype = "BA_48"
+innoculation = "yes"
+sepices = "Bacillus amyloliquefaciens BA"
+series = "series A"
+time = "48"
+type = "exp"
+
+[[sample]]
+index = 12
+name = "35_1"
+assay = "35_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#35_1"
+description = "RPMM0037 sample 35_1"
+gcid = "35_1"
+genotype = "BA_60"
+innoculation = "yes"
+sepices = "Bacillus amyloliquefaciens BA"
+series = "series A"
+time = "60"
+type = "exp"
+
+[[sample]]
+index = 13
+name = "38_1"
+assay = "38_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#38_1"
+description = "RPMM0037 sample 38_1"
+gcid = "38_1"
+genotype = "BA_72"
+innoculation = "yes"
+sepices = "Bacillus amyloliquefaciens BA"
+series = "series A"
+time = "72"
+type = "exp"
+
+[[sample]]
+index = 14
+name = "41_2"
+assay = "41_2"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#41_2"
+description = "RPMM0037 sample 41_2"
+gcid = "41_2"
+genotype = "58_12_1"
+innoculation = "yes"
+sepices = "Bacillus licheniformis 58"
+series = "series A"
+time = "12"
+type = "exp"
+
+[[sample]]
+index = 15
+name = "44_2"
+assay = "44_2"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#44_2"
+description = "RPMM0037 sample 44_2"
+gcid = "44_2"
+genotype = "58_24_1"
+innoculation = "yes"
+sepices = "Bacillus licheniformis 58"
+series = "series A"
+time = "24"
+type = "exp"
+
+[[sample]]
+index = 16
+name = "47_3"
+assay = "47_3"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#47_3"
+description = "RPMM0037 sample 47_3"
+gcid = "47_3"
+genotype = "58_36"
+innoculation = "yes"
+sepices = "Bacillus licheniformis 58"
+series = "series A"
+time = "36"
+type = "exp"
+
+[[sample]]
+index = 17
+name = "50_1"
+assay = "50_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#50_1"
+description = "RPMM0037 sample 50_1"
+gcid = "50_1"
+genotype = "58_48"
+innoculation = "yes"
+sepices = "Bacillus licheniformis 58"
+series = "series A"
+time = "48"
+type = "exp"
+
+[[sample]]
+index = 18
+name = "53_1"
+assay = "53_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#53_1"
+description = "RPMM0037 sample 53_1"
+gcid = "53_1"
+genotype = "58_60"
+innoculation = "yes"
+sepices = "Bacillus licheniformis 58"
+series = "series A"
+time = "60"
+type = "exp"
+
+[[sample]]
+index = 19
+name = "56_1"
+assay = "56_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0037/AnalysedDataset/Kimdata_crmnnorm.txt#56_1"
+description = "RPMM0037 sample 56_1"
+gcid = "56_1"
+genotype = "58_72"
+innoculation = "yes"
+sepices = "Bacillus licheniformis 58"
+series = "series A"
+time = "72"
+type = "exp"
+
+[study_variables]
+candidate_columns = [
+    "time",
+    "sepices",
+    "innoculation",
+]
+
+[study_variables.levels]
+time = [
+    "0",
+    "12",
+    "24",
+    "36",
+    "48",
+    "60",
+    "72",
+]
+sepices = [
+    "Bacillus amyloliquefaciens BA",
+    "Bacillus licheniformis 58",
+    "Bacillus licheniformis 67",
+    "soybean",
+]
+innoculation = [
+    "no",
+    "yes",
+]

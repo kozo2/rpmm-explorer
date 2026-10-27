@@ -1,0 +1,720 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0040"
+title = "Reduction in sucrose contents by downregulation of fructose-1,6-bisphosphatase 2 causes tiller outgrowth cessation in rice mutants lacking glutamine synthetase1;2."
+external_study = "http://metabobank.riken.jp/pmm/RPMM0040"
+
+[matrix]
+name = "MetMat_abs"
+source_file = "RPMM0040/AnalysedDataset/MetMat_abs.txt"
+format = "tsv"
+n_features = 300
+n_samples = 44
+metadata_columns = [
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0040/AnalysedDataset/phenodata.csv"
+msp = ""
+
+[organism]
+raw = "rice"
+cv = "[NCBITaxon, NCBITaxon:4530, Oryza sativa, ]"
+source = "phenodata:species"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "BP_05_1"
+assay = "BP_05_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_05_1"
+description = "RPMM0040 sample BP_05_1"
+matlab_file_name = "BP_05_1.mat"
+order_name = "BP_05"
+class1 = "class01"
+gcid = "BP_05_1"
+genotype = "WT"
+note1 = "BP_05:1"
+numofbulked = "6"
+runorder = "35"
+samplename = "3rd_05"
+species = "rice"
+timeperiod = "3rd"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 2
+name = "BP_06_1"
+assay = "BP_06_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_06_1"
+description = "RPMM0040 sample BP_06_1"
+matlab_file_name = "BP_06_1.mat"
+order_name = "BP_06"
+class1 = "class01"
+gcid = "BP_06_1"
+genotype = "WT"
+note1 = "BP_06:1"
+numofbulked = "6"
+runorder = "34"
+samplename = "3rd_06"
+species = "rice"
+timeperiod = "3rd"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 3
+name = "BP_10_1"
+assay = "BP_10_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_10_1"
+description = "RPMM0040 sample BP_10_1"
+matlab_file_name = "BP_10_1.mat"
+order_name = "BP_10"
+class1 = "class01"
+gcid = "BP_10_1"
+genotype = "WT"
+note1 = "BP_10:1"
+numofbulked = "4"
+runorder = "33"
+samplename = "3rd_10"
+species = "rice"
+timeperiod = "3rd"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 4
+name = "BP_11_1"
+assay = "BP_11_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_11_1"
+description = "RPMM0040 sample BP_11_1"
+matlab_file_name = "BP_11_1.mat"
+order_name = "BP_11"
+class1 = "class01"
+gcid = "BP_11_1"
+genotype = "WT"
+note1 = "BP_11:1"
+numofbulked = "4"
+runorder = "14"
+samplename = "3rd_11"
+species = "rice"
+timeperiod = "3rd"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 5
+name = "BP_12_1"
+assay = "BP_12_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_12_1"
+description = "RPMM0040 sample BP_12_1"
+matlab_file_name = "BP_12_1.mat"
+order_name = "BP_12"
+class1 = "class01"
+gcid = "BP_12_1"
+genotype = "WT"
+note1 = "BP_12:1"
+numofbulked = "4"
+runorder = "26"
+samplename = "3rd_12"
+species = "rice"
+timeperiod = "3rd"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 6
+name = "BP_20_1"
+assay = "BP_20_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_20_1"
+description = "RPMM0040 sample BP_20_1"
+matlab_file_name = "BP_20_1.mat"
+order_name = "BP_20"
+class1 = "class02"
+gcid = "BP_20_1"
+genotype = "gs12"
+note1 = "BP_20:1"
+numofbulked = "6"
+runorder = "12"
+samplename = "3rd_02"
+species = "rice"
+timeperiod = "3rd"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 7
+name = "BP_21_1"
+assay = "BP_21_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_21_1"
+description = "RPMM0040 sample BP_21_1"
+matlab_file_name = "BP_21_1.mat"
+order_name = "BP_21"
+class1 = "class02"
+gcid = "BP_21_1"
+genotype = "gs12"
+note1 = "BP_21:1"
+numofbulked = "6"
+runorder = "13"
+samplename = "3rd_03"
+species = "rice"
+timeperiod = "3rd"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 8
+name = "BP_25_1"
+assay = "BP_25_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_25_1"
+description = "RPMM0040 sample BP_25_1"
+matlab_file_name = "BP_25_1.mat"
+order_name = "BP_25"
+class1 = "class02"
+gcid = "BP_25_1"
+genotype = "gs12"
+note1 = "BP_25:1"
+numofbulked = "4"
+runorder = "31"
+samplename = "3rd_07"
+species = "rice"
+timeperiod = "3rd"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 9
+name = "BP_29_1"
+assay = "BP_29_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_29_1"
+description = "RPMM0040 sample BP_29_1"
+matlab_file_name = "BP_29_1.mat"
+order_name = "BP_29"
+class1 = "class02"
+gcid = "BP_29_1"
+genotype = "gs12"
+note1 = "BP_29:1"
+numofbulked = "4"
+runorder = "16"
+samplename = "3rd_11"
+species = "rice"
+timeperiod = "3rd"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 10
+name = "BP_30_1"
+assay = "BP_30_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_30_1"
+description = "RPMM0040 sample BP_30_1"
+matlab_file_name = "BP_30_1.mat"
+order_name = "BP_30"
+class1 = "class02"
+gcid = "BP_30_1"
+genotype = "gs12"
+note1 = "BP_30:1"
+numofbulked = "4"
+runorder = "27"
+samplename = "3rd_12"
+species = "rice"
+timeperiod = "3rd"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 11
+name = "BP_55_1"
+assay = "BP_55_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_55_1"
+description = "RPMM0040 sample BP_55_1"
+matlab_file_name = "BP_55_1.mat"
+order_name = "BP_55"
+class1 = "class03"
+gcid = "BP_55_1"
+genotype = "WT"
+note1 = "BP_55:1"
+numofbulked = "2"
+runorder = "19"
+samplename = "4th_01"
+species = "rice"
+timeperiod = "4th"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 12
+name = "BP_56_1"
+assay = "BP_56_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_56_1"
+description = "RPMM0040 sample BP_56_1"
+matlab_file_name = "BP_56_1.mat"
+order_name = "BP_56"
+class1 = "class03"
+gcid = "BP_56_1"
+genotype = "WT"
+note1 = "BP_56:1"
+numofbulked = "2"
+runorder = "41"
+samplename = "4th_02"
+species = "rice"
+timeperiod = "4th"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 13
+name = "BP_57_1"
+assay = "BP_57_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_57_1"
+description = "RPMM0040 sample BP_57_1"
+matlab_file_name = "BP_57_1.mat"
+order_name = "BP_57"
+class1 = "class03"
+gcid = "BP_57_1"
+genotype = "WT"
+note1 = "BP_57:1"
+numofbulked = "2"
+runorder = "22"
+samplename = "4th_03"
+species = "rice"
+timeperiod = "4th"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 14
+name = "BP_58_1"
+assay = "BP_58_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_58_1"
+description = "RPMM0040 sample BP_58_1"
+matlab_file_name = "BP_58_1.mat"
+order_name = "BP_58"
+class1 = "class03"
+gcid = "BP_58_1"
+genotype = "WT"
+note1 = "BP_58:1"
+numofbulked = "2"
+runorder = "40"
+samplename = "4th_04"
+species = "rice"
+timeperiod = "4th"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 15
+name = "BP_59_1"
+assay = "BP_59_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_59_1"
+description = "RPMM0040 sample BP_59_1"
+matlab_file_name = "BP_59_1.mat"
+order_name = "BP_59"
+class1 = "class03"
+gcid = "BP_59_1"
+genotype = "WT"
+note1 = "BP_59:1"
+numofbulked = "2"
+runorder = "15"
+samplename = "4th_05"
+species = "rice"
+timeperiod = "4th"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 16
+name = "BP_60_1"
+assay = "BP_60_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_60_1"
+description = "RPMM0040 sample BP_60_1"
+matlab_file_name = "BP_60_1.mat"
+order_name = "BP_60"
+class1 = "class03"
+gcid = "BP_60_1"
+genotype = "WT"
+note1 = "BP_60:1"
+numofbulked = "2"
+runorder = "28"
+samplename = "4th_06"
+species = "rice"
+timeperiod = "4th"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 17
+name = "BP_76_1"
+assay = "BP_76_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_76_1"
+description = "RPMM0040 sample BP_76_1"
+matlab_file_name = "BP_76_1.mat"
+order_name = "BP_76"
+class1 = "class04"
+gcid = "BP_76_1"
+genotype = "gs12"
+note1 = "BP_76:1"
+numofbulked = "2"
+runorder = "23"
+samplename = "4th_04"
+species = "rice"
+timeperiod = "4th"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 18
+name = "BP_77_1"
+assay = "BP_77_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_77_1"
+description = "RPMM0040 sample BP_77_1"
+matlab_file_name = "BP_77_1.mat"
+order_name = "BP_77"
+class1 = "class04"
+gcid = "BP_77_1"
+genotype = "gs12"
+note1 = "BP_77:1"
+numofbulked = "2"
+runorder = "36"
+samplename = "4th_05"
+species = "rice"
+timeperiod = "4th"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 19
+name = "BP_78_1"
+assay = "BP_78_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_78_1"
+description = "RPMM0040 sample BP_78_1"
+matlab_file_name = "BP_78_1.mat"
+order_name = "BP_78"
+class1 = "class04"
+gcid = "BP_78_1"
+genotype = "gs12"
+note1 = "BP_78:1"
+numofbulked = "2"
+runorder = "24"
+samplename = "4th_06"
+species = "rice"
+timeperiod = "4th"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 20
+name = "BP_79_1"
+assay = "BP_79_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_79_1"
+description = "RPMM0040 sample BP_79_1"
+matlab_file_name = "BP_79_1.mat"
+order_name = "BP_79"
+class1 = "class04"
+gcid = "BP_79_1"
+genotype = "gs12"
+note1 = "BP_79:1"
+numofbulked = "2"
+runorder = "20"
+samplename = "4th_07"
+species = "rice"
+timeperiod = "4th"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 21
+name = "BP_80_1"
+assay = "BP_80_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_80_1"
+description = "RPMM0040 sample BP_80_1"
+matlab_file_name = "BP_80_1.mat"
+order_name = "BP_80"
+class1 = "class04"
+gcid = "BP_80_1"
+genotype = "gs12"
+note1 = "BP_80:1"
+numofbulked = "2"
+runorder = "38"
+samplename = "4th_08"
+species = "rice"
+timeperiod = "4th"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 22
+name = "BP_81_1"
+assay = "BP_81_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_81_1"
+description = "RPMM0040 sample BP_81_1"
+matlab_file_name = "BP_81_1.mat"
+order_name = "BP_81"
+class1 = "class04"
+gcid = "BP_81_1"
+genotype = "gs12"
+note1 = "BP_81:1"
+numofbulked = "2"
+runorder = "30"
+samplename = "4th_09"
+species = "rice"
+timeperiod = "4th"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 23
+name = "BP_88_1"
+assay = "BP_88_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#BP_88_1"
+description = "RPMM0040 sample BP_88_1"
+matlab_file_name = "BP_88_1.mat"
+order_name = "BP_88"
+class1 = "class04"
+gcid = "BP_88_1"
+genotype = "gs12"
+note1 = "BP_88:1"
+numofbulked = "2"
+runorder = "17"
+samplename = "4th_16"
+species = "rice"
+timeperiod = "4th"
+tissue = "basalplate"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 24
+name = "FD_01_1"
+assay = "FD_01_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#FD_01_1"
+description = "RPMM0040 sample FD_01_1"
+
+[[sample]]
+index = 25
+name = "FD_02_1"
+assay = "FD_02_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#FD_02_1"
+description = "RPMM0040 sample FD_02_1"
+
+[[sample]]
+index = 26
+name = "FD_03_1"
+assay = "FD_03_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#FD_03_1"
+description = "RPMM0040 sample FD_03_1"
+
+[[sample]]
+index = 27
+name = "STDs_1_1_1"
+assay = "STDs_1_1_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_1_1_1"
+description = "RPMM0040 sample STDs_1_1_1"
+
+[[sample]]
+index = 28
+name = "STDs_1_2_1"
+assay = "STDs_1_2_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_1_2_1"
+description = "RPMM0040 sample STDs_1_2_1"
+
+[[sample]]
+index = 29
+name = "STDs_1_3_1"
+assay = "STDs_1_3_1"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_1_3_1"
+description = "RPMM0040 sample STDs_1_3_1"
+
+[[sample]]
+index = 30
+name = "STDs_2_1_1"
+assay = "STDs_2_1_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_2_1_1"
+description = "RPMM0040 sample STDs_2_1_1"
+
+[[sample]]
+index = 31
+name = "STDs_2_2_1"
+assay = "STDs_2_2_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_2_2_1"
+description = "RPMM0040 sample STDs_2_2_1"
+
+[[sample]]
+index = 32
+name = "STDs_2_3_1"
+assay = "STDs_2_3_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_2_3_1"
+description = "RPMM0040 sample STDs_2_3_1"
+
+[[sample]]
+index = 33
+name = "STDs_3_1_1"
+assay = "STDs_3_1_1"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_3_1_1"
+description = "RPMM0040 sample STDs_3_1_1"
+
+[[sample]]
+index = 34
+name = "STDs_3_2_1"
+assay = "STDs_3_2_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_3_2_1"
+description = "RPMM0040 sample STDs_3_2_1"
+
+[[sample]]
+index = 35
+name = "STDs_3_3_1"
+assay = "STDs_3_3_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_3_3_1"
+description = "RPMM0040 sample STDs_3_3_1"
+
+[[sample]]
+index = 36
+name = "STDs_E1_1_1"
+assay = "STDs_E1_1_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_E1_1_1"
+description = "RPMM0040 sample STDs_E1_1_1"
+
+[[sample]]
+index = 37
+name = "STDs_E1_2_1"
+assay = "STDs_E1_2_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_E1_2_1"
+description = "RPMM0040 sample STDs_E1_2_1"
+
+[[sample]]
+index = 38
+name = "STDs_E1_3_1"
+assay = "STDs_E1_3_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_E1_3_1"
+description = "RPMM0040 sample STDs_E1_3_1"
+
+[[sample]]
+index = 39
+name = "STDs_E2_1_1"
+assay = "STDs_E2_1_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_E2_1_1"
+description = "RPMM0040 sample STDs_E2_1_1"
+
+[[sample]]
+index = 40
+name = "STDs_E2_2_1"
+assay = "STDs_E2_2_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_E2_2_1"
+description = "RPMM0040 sample STDs_E2_2_1"
+
+[[sample]]
+index = 41
+name = "STDs_E2_3_1"
+assay = "STDs_E2_3_1"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_E2_3_1"
+description = "RPMM0040 sample STDs_E2_3_1"
+
+[[sample]]
+index = 42
+name = "STDs_E3_1_1"
+assay = "STDs_E3_1_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_E3_1_1"
+description = "RPMM0040 sample STDs_E3_1_1"
+
+[[sample]]
+index = 43
+name = "STDs_E3_2_1"
+assay = "STDs_E3_2_1"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_E3_2_1"
+description = "RPMM0040 sample STDs_E3_2_1"
+
+[[sample]]
+index = 44
+name = "STDs_E3_3_1"
+assay = "STDs_E3_3_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0040/AnalysedDataset/MetMat_abs.txt#STDs_E3_3_1"
+description = "RPMM0040 sample STDs_E3_3_1"
+
+[study_variables]
+candidate_columns = [
+    "genotype",
+    "timeperiod",
+    "class1",
+    "numofbulked",
+]
+
+[study_variables.levels]
+genotype = [
+    "WT",
+    "gs12",
+]
+timeperiod = [
+    "3rd",
+    "4th",
+]
+class1 = [
+    "class01",
+    "class02",
+    "class03",
+    "class04",
+]
+numofbulked = [
+    "2",
+    "4",
+    "6",
+]

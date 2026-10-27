@@ -1,0 +1,575 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0007"
+title = "Metabolomics data reveal a crucial role of cytosolic glutamine synthetase 1;1 in coordinating metabolic balance in rice"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0007"
+
+[matrix]
+name = "ROOT_ccmn_normalized"
+source_file = "RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt"
+format = "tsv"
+n_features = 400
+n_samples = 40
+metadata_columns = [
+    "Marked_peaks",
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+    "fData::lineno",
+    "fData::query",
+    "fData::known",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/061103ROOT_phenodata.csv"
+msp = "RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/061103_Tohokudai_ine_root_NIST.txt"
+
+[organism]
+raw = "ine"
+cv = "[NCBITaxon, NCBITaxon:4530, Oryza sativa, ]"
+source = "msp:061018_Touhokudai_ine_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "ine_161_1"
+assay = "ine_161_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_161_1"
+description = "RPMM0007 sample ine_161_1"
+gcid = "ine_161_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 2
+name = "ine_162_1"
+assay = "ine_162_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_162_1"
+description = "RPMM0007 sample ine_162_1"
+gcid = "ine_162_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 3
+name = "ine_163_1"
+assay = "ine_163_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_163_1"
+description = "RPMM0007 sample ine_163_1"
+gcid = "ine_163_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 4
+name = "ine_164_1"
+assay = "ine_164_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_164_1"
+description = "RPMM0007 sample ine_164_1"
+gcid = "ine_164_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 5
+name = "ine_165_1"
+assay = "ine_165_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_165_1"
+description = "RPMM0007 sample ine_165_1"
+gcid = "ine_165_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 6
+name = "ine_166_1"
+assay = "ine_166_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_166_1"
+description = "RPMM0007 sample ine_166_1"
+gcid = "ine_166_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 7
+name = "ine_167_1"
+assay = "ine_167_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_167_1"
+description = "RPMM0007 sample ine_167_1"
+gcid = "ine_167_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 8
+name = "ine_168_1"
+assay = "ine_168_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_168_1"
+description = "RPMM0007 sample ine_168_1"
+gcid = "ine_168_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 9
+name = "ine_169_1"
+assay = "ine_169_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_169_1"
+description = "RPMM0007 sample ine_169_1"
+gcid = "ine_169_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 10
+name = "ine_170_1"
+assay = "ine_170_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_170_1"
+description = "RPMM0007 sample ine_170_1"
+gcid = "ine_170_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 11
+name = "ine_171_1"
+assay = "ine_171_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_171_1"
+description = "RPMM0007 sample ine_171_1"
+gcid = "ine_171_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 12
+name = "ine_172_1"
+assay = "ine_172_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_172_1"
+description = "RPMM0007 sample ine_172_1"
+gcid = "ine_172_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 13
+name = "ine_173_1"
+assay = "ine_173_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_173_1"
+description = "RPMM0007 sample ine_173_1"
+gcid = "ine_173_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 14
+name = "ine_174_1"
+assay = "ine_174_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_174_1"
+description = "RPMM0007 sample ine_174_1"
+gcid = "ine_174_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 15
+name = "ine_175_1"
+assay = "ine_175_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_175_1"
+description = "RPMM0007 sample ine_175_1"
+gcid = "ine_175_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 16
+name = "ine_176_1"
+assay = "ine_176_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_176_1"
+description = "RPMM0007 sample ine_176_1"
+gcid = "ine_176_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 17
+name = "ine_177_1"
+assay = "ine_177_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_177_1"
+description = "RPMM0007 sample ine_177_1"
+gcid = "ine_177_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 18
+name = "ine_178_1"
+assay = "ine_178_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_178_1"
+description = "RPMM0007 sample ine_178_1"
+gcid = "ine_178_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 19
+name = "ine_179_1"
+assay = "ine_179_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_179_1"
+description = "RPMM0007 sample ine_179_1"
+gcid = "ine_179_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 20
+name = "ine_180_1"
+assay = "ine_180_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_180_1"
+description = "RPMM0007 sample ine_180_1"
+gcid = "ine_180_1"
+genotype = "mutant"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 21
+name = "ine_181_1"
+assay = "ine_181_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_181_1"
+description = "RPMM0007 sample ine_181_1"
+gcid = "ine_181_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 22
+name = "ine_182_1"
+assay = "ine_182_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_182_1"
+description = "RPMM0007 sample ine_182_1"
+gcid = "ine_182_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 23
+name = "ine_183_1"
+assay = "ine_183_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_183_1"
+description = "RPMM0007 sample ine_183_1"
+gcid = "ine_183_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 24
+name = "ine_184_1"
+assay = "ine_184_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_184_1"
+description = "RPMM0007 sample ine_184_1"
+gcid = "ine_184_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 25
+name = "ine_185_1"
+assay = "ine_185_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_185_1"
+description = "RPMM0007 sample ine_185_1"
+gcid = "ine_185_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 26
+name = "ine_186_1"
+assay = "ine_186_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_186_1"
+description = "RPMM0007 sample ine_186_1"
+gcid = "ine_186_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 27
+name = "ine_187_1"
+assay = "ine_187_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_187_1"
+description = "RPMM0007 sample ine_187_1"
+gcid = "ine_187_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 28
+name = "ine_188_1"
+assay = "ine_188_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_188_1"
+description = "RPMM0007 sample ine_188_1"
+gcid = "ine_188_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 29
+name = "ine_189_1"
+assay = "ine_189_1"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_189_1"
+description = "RPMM0007 sample ine_189_1"
+gcid = "ine_189_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 30
+name = "ine_190_1"
+assay = "ine_190_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_190_1"
+description = "RPMM0007 sample ine_190_1"
+gcid = "ine_190_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 31
+name = "ine_191_1"
+assay = "ine_191_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_191_1"
+description = "RPMM0007 sample ine_191_1"
+gcid = "ine_191_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 32
+name = "ine_192_1"
+assay = "ine_192_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_192_1"
+description = "RPMM0007 sample ine_192_1"
+gcid = "ine_192_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 33
+name = "ine_193_1"
+assay = "ine_193_1"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_193_1"
+description = "RPMM0007 sample ine_193_1"
+gcid = "ine_193_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 34
+name = "ine_194_1"
+assay = "ine_194_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_194_1"
+description = "RPMM0007 sample ine_194_1"
+gcid = "ine_194_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 35
+name = "ine_195_1"
+assay = "ine_195_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_195_1"
+description = "RPMM0007 sample ine_195_1"
+gcid = "ine_195_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 36
+name = "ine_196_1"
+assay = "ine_196_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_196_1"
+description = "RPMM0007 sample ine_196_1"
+gcid = "ine_196_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 37
+name = "ine_197_1"
+assay = "ine_197_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_197_1"
+description = "RPMM0007 sample ine_197_1"
+gcid = "ine_197_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 38
+name = "ine_198_1"
+assay = "ine_198_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_198_1"
+description = "RPMM0007 sample ine_198_1"
+gcid = "ine_198_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 39
+name = "ine_199_1"
+assay = "ine_199_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_199_1"
+description = "RPMM0007 sample ine_199_1"
+gcid = "ine_199_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 40
+name = "ine_200_1"
+assay = "ine_200_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061103ROOT/ROOT_ccmn_normalized.txt#ine_200_1"
+description = "RPMM0007 sample ine_200_1"
+gcid = "ine_200_1"
+genotype = "wildtype"
+tissue = "ROOT"
+treatment = "Ammonium"
+type = "exp"
+
+[study_variables]
+candidate_columns = [
+    "genotype",
+]
+
+[study_variables.levels]
+genotype = [
+    "mutant",
+    "wildtype",
+]

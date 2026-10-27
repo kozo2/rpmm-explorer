@@ -1,0 +1,472 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0006"
+title = "Metabolomic correlation-network modules in Arabidopsis based on a graph-clustering approach"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0006"
+
+[matrix]
+name = "12918_2010_591_MOESM1_ESM"
+source_file = "RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS"
+format = "xls"
+n_features = 174
+n_samples = 54
+metadata_columns = []
+unclassified_columns = [
+    "Peak annotation",
+    "Abbrev.",
+]
+
+[companion_files]
+phenodata = ""
+msp = "RPMM0006/AnalysedDataset/060510root_noise3NIST.txt"
+
+[organism]
+raw = "arabidopsis"
+cv = "[NCBITaxon, NCBITaxon:3702, Arabidopsis thaliana, ]"
+source = "msp:060510root_noise3NIST.txt"
+
+[instrument]
+technique = "LC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "Retention index"
+assay = "Retention index"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#Retention index"
+description = "RPMM0006 sample Retention index"
+
+[[sample]]
+index = 2
+name = "WT-1"
+assay = "WT-1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#WT-1"
+description = "RPMM0006 sample WT-1"
+
+[[sample]]
+index = 3
+name = "WT-2"
+assay = "WT-2"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#WT-2"
+description = "RPMM0006 sample WT-2"
+
+[[sample]]
+index = 4
+name = "WT-3"
+assay = "WT-3"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#WT-3"
+description = "RPMM0006 sample WT-3"
+
+[[sample]]
+index = 5
+name = "WT-4"
+assay = "WT-4"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#WT-4"
+description = "RPMM0006 sample WT-4"
+
+[[sample]]
+index = 6
+name = "WT-5"
+assay = "WT-5"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#WT-5"
+description = "RPMM0006 sample WT-5"
+
+[[sample]]
+index = 7
+name = "WT-6"
+assay = "WT-6"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#WT-6"
+description = "RPMM0006 sample WT-6"
+
+[[sample]]
+index = 8
+name = "WT-7"
+assay = "WT-7"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#WT-7"
+description = "RPMM0006 sample WT-7"
+
+[[sample]]
+index = 9
+name = "WT-8"
+assay = "WT-8"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#WT-8"
+description = "RPMM0006 sample WT-8"
+
+[[sample]]
+index = 10
+name = "WT-9"
+assay = "WT-9"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#WT-9"
+description = "RPMM0006 sample WT-9"
+
+[[sample]]
+index = 11
+name = "WT-10"
+assay = "WT-10"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#WT-10"
+description = "RPMM0006 sample WT-10"
+
+[[sample]]
+index = 12
+name = "WT-11"
+assay = "WT-11"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#WT-11"
+description = "RPMM0006 sample WT-11"
+
+[[sample]]
+index = 13
+name = "WT-12"
+assay = "WT-12"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#WT-12"
+description = "RPMM0006 sample WT-12"
+
+[[sample]]
+index = 14
+name = "WT-13"
+assay = "WT-13"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#WT-13"
+description = "RPMM0006 sample WT-13"
+
+[[sample]]
+index = 15
+name = "WT-14"
+assay = "WT-14"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#WT-14"
+description = "RPMM0006 sample WT-14"
+
+[[sample]]
+index = 16
+name = "WT-15"
+assay = "WT-15"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#WT-15"
+description = "RPMM0006 sample WT-15"
+
+[[sample]]
+index = 17
+name = "WT-16"
+assay = "WT-16"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#WT-16"
+description = "RPMM0006 sample WT-16"
+
+[[sample]]
+index = 18
+name = "WT-17"
+assay = "WT-17"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#WT-17"
+description = "RPMM0006 sample WT-17"
+
+[[sample]]
+index = 19
+name = "tt4-1"
+assay = "tt4-1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-1"
+description = "RPMM0006 sample tt4-1"
+
+[[sample]]
+index = 20
+name = "tt4-2"
+assay = "tt4-2"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-2"
+description = "RPMM0006 sample tt4-2"
+
+[[sample]]
+index = 21
+name = "tt4-3"
+assay = "tt4-3"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-3"
+description = "RPMM0006 sample tt4-3"
+
+[[sample]]
+index = 22
+name = "tt4-4"
+assay = "tt4-4"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-4"
+description = "RPMM0006 sample tt4-4"
+
+[[sample]]
+index = 23
+name = "tt4-5"
+assay = "tt4-5"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-5"
+description = "RPMM0006 sample tt4-5"
+
+[[sample]]
+index = 24
+name = "tt4-6"
+assay = "tt4-6"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-6"
+description = "RPMM0006 sample tt4-6"
+
+[[sample]]
+index = 25
+name = "tt4-7"
+assay = "tt4-7"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-7"
+description = "RPMM0006 sample tt4-7"
+
+[[sample]]
+index = 26
+name = "tt4-8"
+assay = "tt4-8"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-8"
+description = "RPMM0006 sample tt4-8"
+
+[[sample]]
+index = 27
+name = "tt4-9"
+assay = "tt4-9"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-9"
+description = "RPMM0006 sample tt4-9"
+
+[[sample]]
+index = 28
+name = "tt4-10"
+assay = "tt4-10"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-10"
+description = "RPMM0006 sample tt4-10"
+
+[[sample]]
+index = 29
+name = "tt4-11"
+assay = "tt4-11"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-11"
+description = "RPMM0006 sample tt4-11"
+
+[[sample]]
+index = 30
+name = "tt4-12"
+assay = "tt4-12"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-12"
+description = "RPMM0006 sample tt4-12"
+
+[[sample]]
+index = 31
+name = "tt4-13"
+assay = "tt4-13"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-13"
+description = "RPMM0006 sample tt4-13"
+
+[[sample]]
+index = 32
+name = "tt4-14"
+assay = "tt4-14"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-14"
+description = "RPMM0006 sample tt4-14"
+
+[[sample]]
+index = 33
+name = "tt4-15"
+assay = "tt4-15"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-15"
+description = "RPMM0006 sample tt4-15"
+
+[[sample]]
+index = 34
+name = "tt4-16"
+assay = "tt4-16"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-16"
+description = "RPMM0006 sample tt4-16"
+
+[[sample]]
+index = 35
+name = "tt4-17"
+assay = "tt4-17"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-17"
+description = "RPMM0006 sample tt4-17"
+
+[[sample]]
+index = 36
+name = "tt4-18"
+assay = "tt4-18"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-18"
+description = "RPMM0006 sample tt4-18"
+
+[[sample]]
+index = 37
+name = "tt4-19"
+assay = "tt4-19"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-19"
+description = "RPMM0006 sample tt4-19"
+
+[[sample]]
+index = 38
+name = "tt4-20"
+assay = "tt4-20"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#tt4-20"
+description = "RPMM0006 sample tt4-20"
+
+[[sample]]
+index = 39
+name = "mto1-1"
+assay = "mto1-1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#mto1-1"
+description = "RPMM0006 sample mto1-1"
+
+[[sample]]
+index = 40
+name = "mto1-2"
+assay = "mto1-2"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#mto1-2"
+description = "RPMM0006 sample mto1-2"
+
+[[sample]]
+index = 41
+name = "mto1-3"
+assay = "mto1-3"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#mto1-3"
+description = "RPMM0006 sample mto1-3"
+
+[[sample]]
+index = 42
+name = "mto1-4"
+assay = "mto1-4"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#mto1-4"
+description = "RPMM0006 sample mto1-4"
+
+[[sample]]
+index = 43
+name = "mto1-5"
+assay = "mto1-5"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#mto1-5"
+description = "RPMM0006 sample mto1-5"
+
+[[sample]]
+index = 44
+name = "mto1-6"
+assay = "mto1-6"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#mto1-6"
+description = "RPMM0006 sample mto1-6"
+
+[[sample]]
+index = 45
+name = "mto1-7"
+assay = "mto1-7"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#mto1-7"
+description = "RPMM0006 sample mto1-7"
+
+[[sample]]
+index = 46
+name = "mto1-8"
+assay = "mto1-8"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#mto1-8"
+description = "RPMM0006 sample mto1-8"
+
+[[sample]]
+index = 47
+name = "mto1-9"
+assay = "mto1-9"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#mto1-9"
+description = "RPMM0006 sample mto1-9"
+
+[[sample]]
+index = 48
+name = "mto1-10"
+assay = "mto1-10"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#mto1-10"
+description = "RPMM0006 sample mto1-10"
+
+[[sample]]
+index = 49
+name = "mto1-11"
+assay = "mto1-11"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#mto1-11"
+description = "RPMM0006 sample mto1-11"
+
+[[sample]]
+index = 50
+name = "mto1-12"
+assay = "mto1-12"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#mto1-12"
+description = "RPMM0006 sample mto1-12"
+
+[[sample]]
+index = 51
+name = "mto1-13"
+assay = "mto1-13"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#mto1-13"
+description = "RPMM0006 sample mto1-13"
+
+[[sample]]
+index = 52
+name = "mto1-14"
+assay = "mto1-14"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#mto1-14"
+description = "RPMM0006 sample mto1-14"
+
+[[sample]]
+index = 53
+name = "mto1-15"
+assay = "mto1-15"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#mto1-15"
+description = "RPMM0006 sample mto1-15"
+
+[[sample]]
+index = 54
+name = "mto1-16"
+assay = "mto1-16"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/12918_2010_591_MOESM1_ESM.XLS#mto1-16"
+description = "RPMM0006 sample mto1-16"
+
+[study_variables]
+candidate_columns = []
+
+[study_variables.levels]

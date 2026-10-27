@@ -1,0 +1,66 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0010"
+title = "Development of a Direct Headspace Collection Method from Arabidopsis Seedlings Using HS-SPME-GC-TOF-MS Analysis"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0010"
+
+[matrix]
+name = "120203_SPME_Water_232_retention index"
+source_file = "RPMM0010/AnalysedDataset/120203_SPME_fiber60_MetMat/120203_SPME_Water_232_retention index.txt"
+format = "tsv"
+n_features = 11
+n_samples = 3
+metadata_columns = []
+unclassified_columns = [
+    "C9",
+]
+
+[companion_files]
+phenodata = "RPMM0010/AnalysedDataset/120203_SPME_fiber60_MetMat/phenodata.csv"
+msp = "RPMM0010/AnalysedDataset/120203_SPME_fiber60_MetMat/120203_SPME_fiber60_NIST.txt"
+
+[organism]
+raw = "Arabidopsis"
+cv = "[NCBITaxon, NCBITaxon:3702, Arabidopsis thaliana, ]"
+source = "msp:120106_SPME_MW_AndiMS_NIST.txt"
+
+[instrument]
+technique = "LC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "318.052"
+assay = "318.052"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0010/AnalysedDataset/120203_SPME_fiber60_MetMat/120203_SPME_Water_232_retention index.txt#318.052"
+description = "RPMM0010 sample 318.052"
+
+[[sample]]
+index = 2
+name = "900.00"
+assay = "900.00"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0010/AnalysedDataset/120203_SPME_fiber60_MetMat/120203_SPME_Water_232_retention index.txt#900.00"
+description = "RPMM0010 sample 900.00"
+
+[[sample]]
+index = 3
+name = "128"
+assay = "128"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0010/AnalysedDataset/120203_SPME_fiber60_MetMat/120203_SPME_Water_232_retention index.txt#128"
+description = "RPMM0010 sample 128"
+
+[study_variables]
+candidate_columns = [
+    "medium",
+]
+
+[study_variables.levels]
+medium = []

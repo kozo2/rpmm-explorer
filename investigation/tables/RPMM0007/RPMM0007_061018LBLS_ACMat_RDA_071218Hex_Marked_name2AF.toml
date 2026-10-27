@@ -1,0 +1,1019 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0007"
+title = "Metabolomics data reveal a crucial role of cytosolic glutamine synthetase 1;1 in coordinating metabolic balance in rice"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0007"
+
+[matrix]
+name = "061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF"
+source_file = "RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt"
+format = "tsv"
+n_features = 420
+n_samples = 74
+metadata_columns = [
+    "Marked_peaks",
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_phenodata.csv"
+msp = "RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018_Touhokudai_ine_NIST.txt"
+
+[organism]
+raw = "ine"
+cv = "[NCBITaxon, NCBITaxon:4530, Oryza sativa, ]"
+source = "msp:061018_Touhokudai_ine_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "ine_001_1"
+assay = "ine_001_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_001_1"
+description = "RPMM0007 sample ine_001_1"
+gcid = "ine_001_1"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 2
+name = "ine_002_1"
+assay = "ine_002_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_002_1"
+description = "RPMM0007 sample ine_002_1"
+gcid = "ine_002_1"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 3
+name = "ine_003_1"
+assay = "ine_003_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_003_1"
+description = "RPMM0007 sample ine_003_1"
+gcid = "ine_003_1"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 4
+name = "ine_004_1"
+assay = "ine_004_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_004_1"
+description = "RPMM0007 sample ine_004_1"
+gcid = "ine_004_1"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 5
+name = "ine_006_1"
+assay = "ine_006_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_006_1"
+description = "RPMM0007 sample ine_006_1"
+gcid = "ine_006_1"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 6
+name = "ine_007_1"
+assay = "ine_007_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_007_1"
+description = "RPMM0007 sample ine_007_1"
+gcid = "ine_007_1"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 7
+name = "ine_008_1"
+assay = "ine_008_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_008_1"
+description = "RPMM0007 sample ine_008_1"
+gcid = "ine_008_1"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 8
+name = "ine_009_1"
+assay = "ine_009_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_009_1"
+description = "RPMM0007 sample ine_009_1"
+gcid = "ine_009_1"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 9
+name = "ine_010_1"
+assay = "ine_010_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_010_1"
+description = "RPMM0007 sample ine_010_1"
+gcid = "ine_010_1"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 10
+name = "ine_011_1"
+assay = "ine_011_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_011_1"
+description = "RPMM0007 sample ine_011_1"
+gcid = "ine_011_1"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 11
+name = "ine_012_1"
+assay = "ine_012_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_012_1"
+description = "RPMM0007 sample ine_012_1"
+gcid = "ine_012_1"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 12
+name = "ine_015_1"
+assay = "ine_015_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_015_1"
+description = "RPMM0007 sample ine_015_1"
+gcid = "ine_015_1"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 13
+name = "ine_016_1"
+assay = "ine_016_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_016_1"
+description = "RPMM0007 sample ine_016_1"
+gcid = "ine_016_1"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 14
+name = "ine_017_1"
+assay = "ine_017_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_017_1"
+description = "RPMM0007 sample ine_017_1"
+gcid = "ine_017_1"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 15
+name = "ine_018_1"
+assay = "ine_018_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_018_1"
+description = "RPMM0007 sample ine_018_1"
+gcid = "ine_018_1"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 16
+name = "ine_020_1"
+assay = "ine_020_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_020_1"
+description = "RPMM0007 sample ine_020_1"
+gcid = "ine_020_1"
+genotype = "mutant"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 17
+name = "ine_021_1"
+assay = "ine_021_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_021_1"
+description = "RPMM0007 sample ine_021_1"
+gcid = "ine_021_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 18
+name = "ine_022_1"
+assay = "ine_022_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_022_1"
+description = "RPMM0007 sample ine_022_1"
+gcid = "ine_022_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 19
+name = "ine_023_1"
+assay = "ine_023_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_023_1"
+description = "RPMM0007 sample ine_023_1"
+gcid = "ine_023_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 20
+name = "ine_024_1"
+assay = "ine_024_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_024_1"
+description = "RPMM0007 sample ine_024_1"
+gcid = "ine_024_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 21
+name = "ine_025_1"
+assay = "ine_025_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_025_1"
+description = "RPMM0007 sample ine_025_1"
+gcid = "ine_025_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 22
+name = "ine_026_1"
+assay = "ine_026_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_026_1"
+description = "RPMM0007 sample ine_026_1"
+gcid = "ine_026_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 23
+name = "ine_027_1"
+assay = "ine_027_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_027_1"
+description = "RPMM0007 sample ine_027_1"
+gcid = "ine_027_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 24
+name = "ine_028_1"
+assay = "ine_028_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_028_1"
+description = "RPMM0007 sample ine_028_1"
+gcid = "ine_028_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 25
+name = "ine_029_1"
+assay = "ine_029_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_029_1"
+description = "RPMM0007 sample ine_029_1"
+gcid = "ine_029_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 26
+name = "ine_030_1"
+assay = "ine_030_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_030_1"
+description = "RPMM0007 sample ine_030_1"
+gcid = "ine_030_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 27
+name = "ine_031_1"
+assay = "ine_031_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_031_1"
+description = "RPMM0007 sample ine_031_1"
+gcid = "ine_031_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 28
+name = "ine_032_1"
+assay = "ine_032_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_032_1"
+description = "RPMM0007 sample ine_032_1"
+gcid = "ine_032_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 29
+name = "ine_033_1"
+assay = "ine_033_1"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_033_1"
+description = "RPMM0007 sample ine_033_1"
+gcid = "ine_033_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 30
+name = "ine_034_1"
+assay = "ine_034_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_034_1"
+description = "RPMM0007 sample ine_034_1"
+gcid = "ine_034_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 31
+name = "ine_035_1"
+assay = "ine_035_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_035_1"
+description = "RPMM0007 sample ine_035_1"
+gcid = "ine_035_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 32
+name = "ine_036_1"
+assay = "ine_036_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_036_1"
+description = "RPMM0007 sample ine_036_1"
+gcid = "ine_036_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 33
+name = "ine_037_1"
+assay = "ine_037_1"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_037_1"
+description = "RPMM0007 sample ine_037_1"
+gcid = "ine_037_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 34
+name = "ine_038_1"
+assay = "ine_038_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_038_1"
+description = "RPMM0007 sample ine_038_1"
+gcid = "ine_038_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 35
+name = "ine_039_1"
+assay = "ine_039_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_039_1"
+description = "RPMM0007 sample ine_039_1"
+gcid = "ine_039_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 36
+name = "ine_040_1"
+assay = "ine_040_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_040_1"
+description = "RPMM0007 sample ine_040_1"
+gcid = "ine_040_1"
+genotype = "wildtype"
+tissue = "LB"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 37
+name = "ine_081_1"
+assay = "ine_081_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_081_1"
+description = "RPMM0007 sample ine_081_1"
+gcid = "ine_081_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 38
+name = "ine_082_1"
+assay = "ine_082_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_082_1"
+description = "RPMM0007 sample ine_082_1"
+gcid = "ine_082_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 39
+name = "ine_083_1"
+assay = "ine_083_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_083_1"
+description = "RPMM0007 sample ine_083_1"
+gcid = "ine_083_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 40
+name = "ine_084_1"
+assay = "ine_084_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_084_1"
+description = "RPMM0007 sample ine_084_1"
+gcid = "ine_084_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 41
+name = "ine_085_1"
+assay = "ine_085_1"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_085_1"
+description = "RPMM0007 sample ine_085_1"
+gcid = "ine_085_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 42
+name = "ine_086_1"
+assay = "ine_086_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_086_1"
+description = "RPMM0007 sample ine_086_1"
+gcid = "ine_086_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 43
+name = "ine_087_1"
+assay = "ine_087_1"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_087_1"
+description = "RPMM0007 sample ine_087_1"
+gcid = "ine_087_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 44
+name = "ine_088_1"
+assay = "ine_088_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_088_1"
+description = "RPMM0007 sample ine_088_1"
+gcid = "ine_088_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 45
+name = "ine_089_1"
+assay = "ine_089_1"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_089_1"
+description = "RPMM0007 sample ine_089_1"
+gcid = "ine_089_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 46
+name = "ine_090_1"
+assay = "ine_090_1"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_090_1"
+description = "RPMM0007 sample ine_090_1"
+gcid = "ine_090_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 47
+name = "ine_091_1"
+assay = "ine_091_1"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_091_1"
+description = "RPMM0007 sample ine_091_1"
+gcid = "ine_091_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 48
+name = "ine_092_1"
+assay = "ine_092_1"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_092_1"
+description = "RPMM0007 sample ine_092_1"
+gcid = "ine_092_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 49
+name = "ine_093_1"
+assay = "ine_093_1"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_093_1"
+description = "RPMM0007 sample ine_093_1"
+gcid = "ine_093_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 50
+name = "ine_094_1"
+assay = "ine_094_1"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_094_1"
+description = "RPMM0007 sample ine_094_1"
+gcid = "ine_094_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 51
+name = "ine_095_1"
+assay = "ine_095_1"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_095_1"
+description = "RPMM0007 sample ine_095_1"
+gcid = "ine_095_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 52
+name = "ine_096_1"
+assay = "ine_096_1"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_096_1"
+description = "RPMM0007 sample ine_096_1"
+gcid = "ine_096_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 53
+name = "ine_097_1"
+assay = "ine_097_1"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_097_1"
+description = "RPMM0007 sample ine_097_1"
+gcid = "ine_097_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 54
+name = "ine_098_1"
+assay = "ine_098_1"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_098_1"
+description = "RPMM0007 sample ine_098_1"
+gcid = "ine_098_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 55
+name = "ine_099_1"
+assay = "ine_099_1"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_099_1"
+description = "RPMM0007 sample ine_099_1"
+gcid = "ine_099_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 56
+name = "ine_100_1"
+assay = "ine_100_1"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_100_1"
+description = "RPMM0007 sample ine_100_1"
+gcid = "ine_100_1"
+genotype = "mutant"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 57
+name = "ine_101_1"
+assay = "ine_101_1"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_101_1"
+description = "RPMM0007 sample ine_101_1"
+gcid = "ine_101_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 58
+name = "ine_102_1"
+assay = "ine_102_1"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_102_1"
+description = "RPMM0007 sample ine_102_1"
+gcid = "ine_102_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 59
+name = "ine_103_1"
+assay = "ine_103_1"
+ms_run_ref = "ms_run[59]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_103_1"
+description = "RPMM0007 sample ine_103_1"
+gcid = "ine_103_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 60
+name = "ine_104_1"
+assay = "ine_104_1"
+ms_run_ref = "ms_run[60]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_104_1"
+description = "RPMM0007 sample ine_104_1"
+gcid = "ine_104_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 61
+name = "ine_105_1"
+assay = "ine_105_1"
+ms_run_ref = "ms_run[61]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_105_1"
+description = "RPMM0007 sample ine_105_1"
+gcid = "ine_105_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 62
+name = "ine_108_1"
+assay = "ine_108_1"
+ms_run_ref = "ms_run[62]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_108_1"
+description = "RPMM0007 sample ine_108_1"
+gcid = "ine_108_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 63
+name = "ine_109_1"
+assay = "ine_109_1"
+ms_run_ref = "ms_run[63]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_109_1"
+description = "RPMM0007 sample ine_109_1"
+gcid = "ine_109_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 64
+name = "ine_110_1"
+assay = "ine_110_1"
+ms_run_ref = "ms_run[64]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_110_1"
+description = "RPMM0007 sample ine_110_1"
+gcid = "ine_110_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 65
+name = "ine_111_1"
+assay = "ine_111_1"
+ms_run_ref = "ms_run[65]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_111_1"
+description = "RPMM0007 sample ine_111_1"
+gcid = "ine_111_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 66
+name = "ine_112_1"
+assay = "ine_112_1"
+ms_run_ref = "ms_run[66]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_112_1"
+description = "RPMM0007 sample ine_112_1"
+gcid = "ine_112_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 67
+name = "ine_113_1"
+assay = "ine_113_1"
+ms_run_ref = "ms_run[67]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_113_1"
+description = "RPMM0007 sample ine_113_1"
+gcid = "ine_113_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 68
+name = "ine_114_1"
+assay = "ine_114_1"
+ms_run_ref = "ms_run[68]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_114_1"
+description = "RPMM0007 sample ine_114_1"
+gcid = "ine_114_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 69
+name = "ine_115_1"
+assay = "ine_115_1"
+ms_run_ref = "ms_run[69]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_115_1"
+description = "RPMM0007 sample ine_115_1"
+gcid = "ine_115_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 70
+name = "ine_116_1"
+assay = "ine_116_1"
+ms_run_ref = "ms_run[70]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_116_1"
+description = "RPMM0007 sample ine_116_1"
+gcid = "ine_116_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 71
+name = "ine_117_1"
+assay = "ine_117_1"
+ms_run_ref = "ms_run[71]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_117_1"
+description = "RPMM0007 sample ine_117_1"
+gcid = "ine_117_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 72
+name = "ine_118_1"
+assay = "ine_118_1"
+ms_run_ref = "ms_run[72]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_118_1"
+description = "RPMM0007 sample ine_118_1"
+gcid = "ine_118_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 73
+name = "ine_119_1"
+assay = "ine_119_1"
+ms_run_ref = "ms_run[73]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_119_1"
+description = "RPMM0007 sample ine_119_1"
+gcid = "ine_119_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[[sample]]
+index = 74
+name = "ine_120_1"
+assay = "ine_120_1"
+ms_run_ref = "ms_run[74]"
+location = "http://metabobank.riken.jp/data/RPMM0007/MetaboliteProfiling/AnalysedDataset/061018LBLS/061018LBLS_ACMat_RDA_071218Hex_Marked_name2AF.txt#ine_120_1"
+description = "RPMM0007 sample ine_120_1"
+gcid = "ine_120_1"
+genotype = "wildtype"
+tissue = "LS"
+treatment = "Ammonium"
+type = "exp"
+
+[study_variables]
+candidate_columns = [
+    "genotype",
+    "tissue",
+]
+
+[study_variables.levels]
+genotype = [
+    "mutant",
+    "wildtype",
+]
+tissue = [
+    "LB",
+    "LS",
+]

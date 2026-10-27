@@ -1,0 +1,1632 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0061"
+title = "Metabolite and phytohormone profiling illustrates metabolomic reprogramming as an escape strategy of deepwater rice during partially submerged stress"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0061"
+
+[matrix]
+name = "metmat_abs"
+source_file = "RPMM0061/long/AnalysedDataset/metmat_abs.txt"
+format = "tsv"
+n_features = 231
+n_samples = 111
+metadata_columns = [
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0061/long/AnalysedDataset/phenoData2007.csv"
+msp = "RPMM0061/long/AnalysedDataset/070421Uki_ine_nv_NIST.txt"
+
+[organism]
+raw = "ine"
+cv = "[NCBITaxon, NCBITaxon:4530, Oryza sativa, ]"
+source = "msp:070421Uki_ine_nv_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "FD_01_1"
+assay = "FD_01_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#FD_01_1"
+description = "RPMM0061 sample FD_01_1"
+
+[[sample]]
+index = 2
+name = "FD_02_1"
+assay = "FD_02_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#FD_02_1"
+description = "RPMM0061 sample FD_02_1"
+
+[[sample]]
+index = 3
+name = "FD_03_1"
+assay = "FD_03_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#FD_03_1"
+description = "RPMM0061 sample FD_03_1"
+
+[[sample]]
+index = 4
+name = "FD_04_1"
+assay = "FD_04_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#FD_04_1"
+description = "RPMM0061 sample FD_04_1"
+
+[[sample]]
+index = 5
+name = "FD_04_2"
+assay = "FD_04_2"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#FD_04_2"
+description = "RPMM0061 sample FD_04_2"
+
+[[sample]]
+index = 6
+name = "FD_04_3"
+assay = "FD_04_3"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#FD_04_3"
+description = "RPMM0061 sample FD_04_3"
+
+[[sample]]
+index = 7
+name = "STDS1_1_1"
+assay = "STDS1_1_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#STDS1_1_1"
+description = "RPMM0061 sample STDS1_1_1"
+
+[[sample]]
+index = 8
+name = "STDS1_2_1"
+assay = "STDS1_2_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#STDS1_2_1"
+description = "RPMM0061 sample STDS1_2_1"
+
+[[sample]]
+index = 9
+name = "STDS1_3_1"
+assay = "STDS1_3_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#STDS1_3_1"
+description = "RPMM0061 sample STDS1_3_1"
+
+[[sample]]
+index = 10
+name = "STDS2_1_1"
+assay = "STDS2_1_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#STDS2_1_1"
+description = "RPMM0061 sample STDS2_1_1"
+
+[[sample]]
+index = 11
+name = "STDS2_2_1"
+assay = "STDS2_2_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#STDS2_2_1"
+description = "RPMM0061 sample STDS2_2_1"
+
+[[sample]]
+index = 12
+name = "STDS2_3_1"
+assay = "STDS2_3_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#STDS2_3_1"
+description = "RPMM0061 sample STDS2_3_1"
+
+[[sample]]
+index = 13
+name = "STDS3_1_1"
+assay = "STDS3_1_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#STDS3_1_1"
+description = "RPMM0061 sample STDS3_1_1"
+
+[[sample]]
+index = 14
+name = "STDS3_2_1"
+assay = "STDS3_2_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#STDS3_2_1"
+description = "RPMM0061 sample STDS3_2_1"
+
+[[sample]]
+index = 15
+name = "STDS3_3_1"
+assay = "STDS3_3_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#STDS3_3_1"
+description = "RPMM0061 sample STDS3_3_1"
+
+[[sample]]
+index = 16
+name = "Uki_ine01_1"
+assay = "Uki_ine01_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine01_1"
+description = "RPMM0061 sample Uki_ine01_1"
+air = "TRUE"
+pstreatment = "FALSE"
+gcid = "Uki_ine01_1"
+genotype = "T65"
+sampleinfo = "air_4"
+timeperiod_h = "0"
+type = "sample"
+
+[[sample]]
+index = 17
+name = "Uki_ine01_2"
+assay = "Uki_ine01_2"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine01_2"
+description = "RPMM0061 sample Uki_ine01_2"
+air = "TRUE"
+pstreatment = "FALSE"
+gcid = "Uki_ine01_2"
+genotype = "T65"
+sampleinfo = "air_4"
+timeperiod_h = "0"
+type = "sample"
+
+[[sample]]
+index = 18
+name = "Uki_ine02_1"
+assay = "Uki_ine02_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine02_1"
+description = "RPMM0061 sample Uki_ine02_1"
+air = "TRUE"
+pstreatment = "FALSE"
+gcid = "Uki_ine02_1"
+genotype = "T65"
+sampleinfo = "air_5"
+timeperiod_h = "0"
+type = "sample"
+
+[[sample]]
+index = 19
+name = "Uki_ine02_2"
+assay = "Uki_ine02_2"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine02_2"
+description = "RPMM0061 sample Uki_ine02_2"
+air = "TRUE"
+pstreatment = "FALSE"
+gcid = "Uki_ine02_2"
+genotype = "T65"
+sampleinfo = "air_5"
+timeperiod_h = "0"
+type = "sample"
+
+[[sample]]
+index = 20
+name = "Uki_ine03_1"
+assay = "Uki_ine03_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine03_1"
+description = "RPMM0061 sample Uki_ine03_1"
+air = "TRUE"
+pstreatment = "FALSE"
+gcid = "Uki_ine03_1"
+genotype = "T65"
+sampleinfo = "air_6"
+timeperiod_h = "0"
+type = "sample"
+
+[[sample]]
+index = 21
+name = "Uki_ine03_2"
+assay = "Uki_ine03_2"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine03_2"
+description = "RPMM0061 sample Uki_ine03_2"
+air = "TRUE"
+pstreatment = "FALSE"
+gcid = "Uki_ine03_2"
+genotype = "T65"
+sampleinfo = "air_6"
+timeperiod_h = "0"
+type = "sample"
+
+[[sample]]
+index = 22
+name = "Uki_ine04_1"
+assay = "Uki_ine04_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine04_1"
+description = "RPMM0061 sample Uki_ine04_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine04_1"
+genotype = "T65"
+sampleinfo = "6h_4"
+timeperiod_h = "6"
+type = "sample"
+
+[[sample]]
+index = 23
+name = "Uki_ine04_2"
+assay = "Uki_ine04_2"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine04_2"
+description = "RPMM0061 sample Uki_ine04_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine04_2"
+genotype = "T65"
+sampleinfo = "6h_4"
+timeperiod_h = "6"
+type = "sample"
+
+[[sample]]
+index = 24
+name = "Uki_ine05_1"
+assay = "Uki_ine05_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine05_1"
+description = "RPMM0061 sample Uki_ine05_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine05_1"
+genotype = "T65"
+sampleinfo = "6h_5"
+timeperiod_h = "6"
+type = "sample"
+
+[[sample]]
+index = 25
+name = "Uki_ine05_2"
+assay = "Uki_ine05_2"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine05_2"
+description = "RPMM0061 sample Uki_ine05_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine05_2"
+genotype = "T65"
+sampleinfo = "6h_5"
+timeperiod_h = "6"
+type = "sample"
+
+[[sample]]
+index = 26
+name = "Uki_ine06_1"
+assay = "Uki_ine06_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine06_1"
+description = "RPMM0061 sample Uki_ine06_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine06_1"
+genotype = "T65"
+sampleinfo = "6h_6"
+timeperiod_h = "6"
+type = "sample"
+
+[[sample]]
+index = 27
+name = "Uki_ine06_2"
+assay = "Uki_ine06_2"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine06_2"
+description = "RPMM0061 sample Uki_ine06_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine06_2"
+genotype = "T65"
+sampleinfo = "6h_6"
+timeperiod_h = "6"
+type = "sample"
+
+[[sample]]
+index = 28
+name = "Uki_ine07_1"
+assay = "Uki_ine07_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine07_1"
+description = "RPMM0061 sample Uki_ine07_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine07_1"
+genotype = "T65"
+sampleinfo = "12h_4"
+timeperiod_h = "12"
+type = "sample"
+
+[[sample]]
+index = 29
+name = "Uki_ine07_2"
+assay = "Uki_ine07_2"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine07_2"
+description = "RPMM0061 sample Uki_ine07_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine07_2"
+genotype = "T65"
+sampleinfo = "12h_4"
+timeperiod_h = "12"
+type = "sample"
+
+[[sample]]
+index = 30
+name = "Uki_ine08_1"
+assay = "Uki_ine08_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine08_1"
+description = "RPMM0061 sample Uki_ine08_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine08_1"
+genotype = "T65"
+sampleinfo = "12h_5"
+timeperiod_h = "12"
+type = "sample"
+
+[[sample]]
+index = 31
+name = "Uki_ine08_2"
+assay = "Uki_ine08_2"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine08_2"
+description = "RPMM0061 sample Uki_ine08_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine08_2"
+genotype = "T65"
+sampleinfo = "12h_5"
+timeperiod_h = "12"
+type = "sample"
+
+[[sample]]
+index = 32
+name = "Uki_ine09_1"
+assay = "Uki_ine09_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine09_1"
+description = "RPMM0061 sample Uki_ine09_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine09_1"
+genotype = "T65"
+sampleinfo = "12h_6"
+timeperiod_h = "12"
+type = "sample"
+
+[[sample]]
+index = 33
+name = "Uki_ine09_2"
+assay = "Uki_ine09_2"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine09_2"
+description = "RPMM0061 sample Uki_ine09_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine09_2"
+genotype = "T65"
+sampleinfo = "12h_6"
+timeperiod_h = "12"
+type = "sample"
+
+[[sample]]
+index = 34
+name = "Uki_ine10_1"
+assay = "Uki_ine10_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine10_1"
+description = "RPMM0061 sample Uki_ine10_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine10_1"
+genotype = "T65"
+sampleinfo = "1d_4"
+timeperiod_h = "24"
+type = "sample"
+
+[[sample]]
+index = 35
+name = "Uki_ine10_2"
+assay = "Uki_ine10_2"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine10_2"
+description = "RPMM0061 sample Uki_ine10_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine10_2"
+genotype = "T65"
+sampleinfo = "1d_4"
+timeperiod_h = "24"
+type = "sample"
+
+[[sample]]
+index = 36
+name = "Uki_ine11_1"
+assay = "Uki_ine11_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine11_1"
+description = "RPMM0061 sample Uki_ine11_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine11_1"
+genotype = "T65"
+sampleinfo = "1d_5"
+timeperiod_h = "24"
+type = "sample"
+
+[[sample]]
+index = 37
+name = "Uki_ine11_2"
+assay = "Uki_ine11_2"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine11_2"
+description = "RPMM0061 sample Uki_ine11_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine11_2"
+genotype = "T65"
+sampleinfo = "1d_5"
+timeperiod_h = "24"
+type = "sample"
+
+[[sample]]
+index = 38
+name = "Uki_ine12_1"
+assay = "Uki_ine12_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine12_1"
+description = "RPMM0061 sample Uki_ine12_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine12_1"
+genotype = "T65"
+sampleinfo = "1d_6"
+timeperiod_h = "24"
+type = "sample"
+
+[[sample]]
+index = 39
+name = "Uki_ine12_2"
+assay = "Uki_ine12_2"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine12_2"
+description = "RPMM0061 sample Uki_ine12_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine12_2"
+genotype = "T65"
+sampleinfo = "1d_6"
+timeperiod_h = "24"
+type = "sample"
+
+[[sample]]
+index = 40
+name = "Uki_ine13_1"
+assay = "Uki_ine13_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine13_1"
+description = "RPMM0061 sample Uki_ine13_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine13_1"
+genotype = "T65"
+sampleinfo = "3d_4"
+timeperiod_h = "72"
+type = "sample"
+
+[[sample]]
+index = 41
+name = "Uki_ine13_2"
+assay = "Uki_ine13_2"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine13_2"
+description = "RPMM0061 sample Uki_ine13_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine13_2"
+genotype = "T65"
+sampleinfo = "3d_4"
+timeperiod_h = "72"
+type = "sample"
+
+[[sample]]
+index = 42
+name = "Uki_ine14_1"
+assay = "Uki_ine14_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine14_1"
+description = "RPMM0061 sample Uki_ine14_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine14_1"
+genotype = "T65"
+sampleinfo = "3d_5"
+timeperiod_h = "72"
+type = "sample"
+
+[[sample]]
+index = 43
+name = "Uki_ine14_2"
+assay = "Uki_ine14_2"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine14_2"
+description = "RPMM0061 sample Uki_ine14_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine14_2"
+genotype = "T65"
+sampleinfo = "3d_5"
+timeperiod_h = "72"
+type = "sample"
+
+[[sample]]
+index = 44
+name = "Uki_ine15_1"
+assay = "Uki_ine15_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine15_1"
+description = "RPMM0061 sample Uki_ine15_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine15_1"
+genotype = "T65"
+sampleinfo = "3d_6"
+timeperiod_h = "72"
+type = "sample"
+
+[[sample]]
+index = 45
+name = "Uki_ine15_2"
+assay = "Uki_ine15_2"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine15_2"
+description = "RPMM0061 sample Uki_ine15_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine15_2"
+genotype = "T65"
+sampleinfo = "3d_6"
+timeperiod_h = "72"
+type = "sample"
+
+[[sample]]
+index = 46
+name = "Uki_ine16_1"
+assay = "Uki_ine16_1"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine16_1"
+description = "RPMM0061 sample Uki_ine16_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine16_1"
+genotype = "T65"
+sampleinfo = "5d_4"
+timeperiod_h = "120"
+type = "sample"
+
+[[sample]]
+index = 47
+name = "Uki_ine16_2"
+assay = "Uki_ine16_2"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine16_2"
+description = "RPMM0061 sample Uki_ine16_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine16_2"
+genotype = "T65"
+sampleinfo = "5d_4"
+timeperiod_h = "120"
+type = "sample"
+
+[[sample]]
+index = 48
+name = "Uki_ine17_1"
+assay = "Uki_ine17_1"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine17_1"
+description = "RPMM0061 sample Uki_ine17_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine17_1"
+genotype = "T65"
+sampleinfo = "5d_5"
+timeperiod_h = "120"
+type = "sample"
+
+[[sample]]
+index = 49
+name = "Uki_ine17_2"
+assay = "Uki_ine17_2"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine17_2"
+description = "RPMM0061 sample Uki_ine17_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine17_2"
+genotype = "T65"
+sampleinfo = "5d_5"
+timeperiod_h = "120"
+type = "sample"
+
+[[sample]]
+index = 50
+name = "Uki_ine18_1"
+assay = "Uki_ine18_1"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine18_1"
+description = "RPMM0061 sample Uki_ine18_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine18_1"
+genotype = "T65"
+sampleinfo = "5d_6"
+timeperiod_h = "120"
+type = "sample"
+
+[[sample]]
+index = 51
+name = "Uki_ine18_2"
+assay = "Uki_ine18_2"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine18_2"
+description = "RPMM0061 sample Uki_ine18_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine18_2"
+genotype = "T65"
+sampleinfo = "5d_6"
+timeperiod_h = "120"
+type = "sample"
+
+[[sample]]
+index = 52
+name = "Uki_ine19_1"
+assay = "Uki_ine19_1"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine19_1"
+description = "RPMM0061 sample Uki_ine19_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine19_1"
+genotype = "T65"
+sampleinfo = "7d_4"
+timeperiod_h = "168"
+type = "sample"
+
+[[sample]]
+index = 53
+name = "Uki_ine19_2"
+assay = "Uki_ine19_2"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine19_2"
+description = "RPMM0061 sample Uki_ine19_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine19_2"
+genotype = "T65"
+sampleinfo = "7d_4"
+timeperiod_h = "168"
+type = "sample"
+
+[[sample]]
+index = 54
+name = "Uki_ine20_1"
+assay = "Uki_ine20_1"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine20_1"
+description = "RPMM0061 sample Uki_ine20_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine20_1"
+genotype = "T65"
+sampleinfo = "7d_5"
+timeperiod_h = "168"
+type = "sample"
+
+[[sample]]
+index = 55
+name = "Uki_ine20_2"
+assay = "Uki_ine20_2"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine20_2"
+description = "RPMM0061 sample Uki_ine20_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine20_2"
+genotype = "T65"
+sampleinfo = "7d_5"
+timeperiod_h = "168"
+type = "sample"
+
+[[sample]]
+index = 56
+name = "Uki_ine21_1"
+assay = "Uki_ine21_1"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine21_1"
+description = "RPMM0061 sample Uki_ine21_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine21_1"
+genotype = "T65"
+sampleinfo = "7d_6"
+timeperiod_h = "168"
+type = "sample"
+
+[[sample]]
+index = 57
+name = "Uki_ine21_2"
+assay = "Uki_ine21_2"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine21_2"
+description = "RPMM0061 sample Uki_ine21_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine21_2"
+genotype = "T65"
+sampleinfo = "7d_6"
+timeperiod_h = "168"
+type = "sample"
+
+[[sample]]
+index = 58
+name = "Uki_ine22_1"
+assay = "Uki_ine22_1"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine22_1"
+description = "RPMM0061 sample Uki_ine22_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine22_1"
+genotype = "T65"
+sampleinfo = "12d_4"
+timeperiod_h = "288"
+type = "sample"
+
+[[sample]]
+index = 59
+name = "Uki_ine22_2"
+assay = "Uki_ine22_2"
+ms_run_ref = "ms_run[59]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine22_2"
+description = "RPMM0061 sample Uki_ine22_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine22_2"
+genotype = "T65"
+sampleinfo = "12d_4"
+timeperiod_h = "288"
+type = "sample"
+
+[[sample]]
+index = 60
+name = "Uki_ine23_1"
+assay = "Uki_ine23_1"
+ms_run_ref = "ms_run[60]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine23_1"
+description = "RPMM0061 sample Uki_ine23_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine23_1"
+genotype = "T65"
+sampleinfo = "12d_5"
+timeperiod_h = "288"
+type = "sample"
+
+[[sample]]
+index = 61
+name = "Uki_ine23_2"
+assay = "Uki_ine23_2"
+ms_run_ref = "ms_run[61]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine23_2"
+description = "RPMM0061 sample Uki_ine23_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine23_2"
+genotype = "T65"
+sampleinfo = "12d_5"
+timeperiod_h = "288"
+type = "sample"
+
+[[sample]]
+index = 62
+name = "Uki_ine24_1"
+assay = "Uki_ine24_1"
+ms_run_ref = "ms_run[62]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine24_1"
+description = "RPMM0061 sample Uki_ine24_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine24_1"
+genotype = "T65"
+sampleinfo = "12d_6"
+timeperiod_h = "288"
+type = "sample"
+
+[[sample]]
+index = 63
+name = "Uki_ine24_2"
+assay = "Uki_ine24_2"
+ms_run_ref = "ms_run[63]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine24_2"
+description = "RPMM0061 sample Uki_ine24_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine24_2"
+genotype = "T65"
+sampleinfo = "12d_6"
+timeperiod_h = "288"
+type = "sample"
+
+[[sample]]
+index = 64
+name = "Uki_ine25_1"
+assay = "Uki_ine25_1"
+ms_run_ref = "ms_run[64]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine25_1"
+description = "RPMM0061 sample Uki_ine25_1"
+air = "TRUE"
+pstreatment = "FALSE"
+gcid = "Uki_ine25_1"
+genotype = "NIL-12"
+sampleinfo = "air_4"
+timeperiod_h = "0"
+type = "sample"
+
+[[sample]]
+index = 65
+name = "Uki_ine25_2"
+assay = "Uki_ine25_2"
+ms_run_ref = "ms_run[65]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine25_2"
+description = "RPMM0061 sample Uki_ine25_2"
+air = "TRUE"
+pstreatment = "FALSE"
+gcid = "Uki_ine25_2"
+genotype = "NIL-12"
+sampleinfo = "air_4"
+timeperiod_h = "0"
+type = "sample"
+
+[[sample]]
+index = 66
+name = "Uki_ine26_1"
+assay = "Uki_ine26_1"
+ms_run_ref = "ms_run[66]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine26_1"
+description = "RPMM0061 sample Uki_ine26_1"
+air = "TRUE"
+pstreatment = "FALSE"
+gcid = "Uki_ine26_1"
+genotype = "NIL-12"
+sampleinfo = "air_5"
+timeperiod_h = "0"
+type = "sample"
+
+[[sample]]
+index = 67
+name = "Uki_ine26_2"
+assay = "Uki_ine26_2"
+ms_run_ref = "ms_run[67]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine26_2"
+description = "RPMM0061 sample Uki_ine26_2"
+air = "TRUE"
+pstreatment = "FALSE"
+gcid = "Uki_ine26_2"
+genotype = "NIL-12"
+sampleinfo = "air_5"
+timeperiod_h = "0"
+type = "sample"
+
+[[sample]]
+index = 68
+name = "Uki_ine27_1"
+assay = "Uki_ine27_1"
+ms_run_ref = "ms_run[68]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine27_1"
+description = "RPMM0061 sample Uki_ine27_1"
+air = "TRUE"
+pstreatment = "FALSE"
+gcid = "Uki_ine27_1"
+genotype = "NIL-12"
+sampleinfo = "air_6"
+timeperiod_h = "0"
+type = "sample"
+
+[[sample]]
+index = 69
+name = "Uki_ine27_2"
+assay = "Uki_ine27_2"
+ms_run_ref = "ms_run[69]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine27_2"
+description = "RPMM0061 sample Uki_ine27_2"
+air = "TRUE"
+pstreatment = "FALSE"
+gcid = "Uki_ine27_2"
+genotype = "NIL-12"
+sampleinfo = "air_6"
+timeperiod_h = "0"
+type = "sample"
+
+[[sample]]
+index = 70
+name = "Uki_ine28_1"
+assay = "Uki_ine28_1"
+ms_run_ref = "ms_run[70]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine28_1"
+description = "RPMM0061 sample Uki_ine28_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine28_1"
+genotype = "NIL-12"
+sampleinfo = "6h_4"
+timeperiod_h = "6"
+type = "sample"
+
+[[sample]]
+index = 71
+name = "Uki_ine28_2"
+assay = "Uki_ine28_2"
+ms_run_ref = "ms_run[71]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine28_2"
+description = "RPMM0061 sample Uki_ine28_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine28_2"
+genotype = "NIL-12"
+sampleinfo = "6h_4"
+timeperiod_h = "6"
+type = "sample"
+
+[[sample]]
+index = 72
+name = "Uki_ine29_1"
+assay = "Uki_ine29_1"
+ms_run_ref = "ms_run[72]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine29_1"
+description = "RPMM0061 sample Uki_ine29_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine29_1"
+genotype = "NIL-12"
+sampleinfo = "6h_5"
+timeperiod_h = "6"
+type = "sample"
+
+[[sample]]
+index = 73
+name = "Uki_ine29_2"
+assay = "Uki_ine29_2"
+ms_run_ref = "ms_run[73]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine29_2"
+description = "RPMM0061 sample Uki_ine29_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine29_2"
+genotype = "NIL-12"
+sampleinfo = "6h_5"
+timeperiod_h = "6"
+type = "sample"
+
+[[sample]]
+index = 74
+name = "Uki_ine30_1"
+assay = "Uki_ine30_1"
+ms_run_ref = "ms_run[74]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine30_1"
+description = "RPMM0061 sample Uki_ine30_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine30_1"
+genotype = "NIL-12"
+sampleinfo = "6h_6"
+timeperiod_h = "6"
+type = "sample"
+
+[[sample]]
+index = 75
+name = "Uki_ine30_2"
+assay = "Uki_ine30_2"
+ms_run_ref = "ms_run[75]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine30_2"
+description = "RPMM0061 sample Uki_ine30_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine30_2"
+genotype = "NIL-12"
+sampleinfo = "6h_6"
+timeperiod_h = "6"
+type = "sample"
+
+[[sample]]
+index = 76
+name = "Uki_ine31_1"
+assay = "Uki_ine31_1"
+ms_run_ref = "ms_run[76]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine31_1"
+description = "RPMM0061 sample Uki_ine31_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine31_1"
+genotype = "NIL-12"
+sampleinfo = "12h_4"
+timeperiod_h = "12"
+type = "sample"
+
+[[sample]]
+index = 77
+name = "Uki_ine31_2"
+assay = "Uki_ine31_2"
+ms_run_ref = "ms_run[77]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine31_2"
+description = "RPMM0061 sample Uki_ine31_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine31_2"
+genotype = "NIL-12"
+sampleinfo = "12h_4"
+timeperiod_h = "12"
+type = "sample"
+
+[[sample]]
+index = 78
+name = "Uki_ine32_1"
+assay = "Uki_ine32_1"
+ms_run_ref = "ms_run[78]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine32_1"
+description = "RPMM0061 sample Uki_ine32_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine32_1"
+genotype = "NIL-12"
+sampleinfo = "12h_5"
+timeperiod_h = "12"
+type = "sample"
+
+[[sample]]
+index = 79
+name = "Uki_ine32_2"
+assay = "Uki_ine32_2"
+ms_run_ref = "ms_run[79]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine32_2"
+description = "RPMM0061 sample Uki_ine32_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine32_2"
+genotype = "NIL-12"
+sampleinfo = "12h_5"
+timeperiod_h = "12"
+type = "sample"
+
+[[sample]]
+index = 80
+name = "Uki_ine33_1"
+assay = "Uki_ine33_1"
+ms_run_ref = "ms_run[80]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine33_1"
+description = "RPMM0061 sample Uki_ine33_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine33_1"
+genotype = "NIL-12"
+sampleinfo = "12h_6"
+timeperiod_h = "12"
+type = "sample"
+
+[[sample]]
+index = 81
+name = "Uki_ine33_2"
+assay = "Uki_ine33_2"
+ms_run_ref = "ms_run[81]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine33_2"
+description = "RPMM0061 sample Uki_ine33_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine33_2"
+genotype = "NIL-12"
+sampleinfo = "12h_6"
+timeperiod_h = "12"
+type = "sample"
+
+[[sample]]
+index = 82
+name = "Uki_ine34_1"
+assay = "Uki_ine34_1"
+ms_run_ref = "ms_run[82]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine34_1"
+description = "RPMM0061 sample Uki_ine34_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine34_1"
+genotype = "NIL-12"
+sampleinfo = "1d_4"
+timeperiod_h = "24"
+type = "sample"
+
+[[sample]]
+index = 83
+name = "Uki_ine34_2"
+assay = "Uki_ine34_2"
+ms_run_ref = "ms_run[83]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine34_2"
+description = "RPMM0061 sample Uki_ine34_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine34_2"
+genotype = "NIL-12"
+sampleinfo = "1d_4"
+timeperiod_h = "24"
+type = "sample"
+
+[[sample]]
+index = 84
+name = "Uki_ine35_1"
+assay = "Uki_ine35_1"
+ms_run_ref = "ms_run[84]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine35_1"
+description = "RPMM0061 sample Uki_ine35_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine35_1"
+genotype = "NIL-12"
+sampleinfo = "1d_5"
+timeperiod_h = "24"
+type = "sample"
+
+[[sample]]
+index = 85
+name = "Uki_ine35_2"
+assay = "Uki_ine35_2"
+ms_run_ref = "ms_run[85]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine35_2"
+description = "RPMM0061 sample Uki_ine35_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine35_2"
+genotype = "NIL-12"
+sampleinfo = "1d_5"
+timeperiod_h = "24"
+type = "sample"
+
+[[sample]]
+index = 86
+name = "Uki_ine36_1"
+assay = "Uki_ine36_1"
+ms_run_ref = "ms_run[86]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine36_1"
+description = "RPMM0061 sample Uki_ine36_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine36_1"
+genotype = "NIL-12"
+sampleinfo = "1d_6"
+timeperiod_h = "24"
+type = "sample"
+
+[[sample]]
+index = 87
+name = "Uki_ine36_2"
+assay = "Uki_ine36_2"
+ms_run_ref = "ms_run[87]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine36_2"
+description = "RPMM0061 sample Uki_ine36_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine36_2"
+genotype = "NIL-12"
+sampleinfo = "1d_6"
+timeperiod_h = "24"
+type = "sample"
+
+[[sample]]
+index = 88
+name = "Uki_ine37_1"
+assay = "Uki_ine37_1"
+ms_run_ref = "ms_run[88]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine37_1"
+description = "RPMM0061 sample Uki_ine37_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine37_1"
+genotype = "NIL-12"
+sampleinfo = "3d_4"
+timeperiod_h = "72"
+type = "sample"
+
+[[sample]]
+index = 89
+name = "Uki_ine37_2"
+assay = "Uki_ine37_2"
+ms_run_ref = "ms_run[89]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine37_2"
+description = "RPMM0061 sample Uki_ine37_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine37_2"
+genotype = "NIL-12"
+sampleinfo = "3d_4"
+timeperiod_h = "72"
+type = "sample"
+
+[[sample]]
+index = 90
+name = "Uki_ine38_1"
+assay = "Uki_ine38_1"
+ms_run_ref = "ms_run[90]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine38_1"
+description = "RPMM0061 sample Uki_ine38_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine38_1"
+genotype = "NIL-12"
+sampleinfo = "3d_5"
+timeperiod_h = "72"
+type = "sample"
+
+[[sample]]
+index = 91
+name = "Uki_ine38_2"
+assay = "Uki_ine38_2"
+ms_run_ref = "ms_run[91]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine38_2"
+description = "RPMM0061 sample Uki_ine38_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine38_2"
+genotype = "NIL-12"
+sampleinfo = "3d_5"
+timeperiod_h = "72"
+type = "sample"
+
+[[sample]]
+index = 92
+name = "Uki_ine39_1"
+assay = "Uki_ine39_1"
+ms_run_ref = "ms_run[92]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine39_1"
+description = "RPMM0061 sample Uki_ine39_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine39_1"
+genotype = "NIL-12"
+sampleinfo = "3d_6"
+timeperiod_h = "72"
+type = "sample"
+
+[[sample]]
+index = 93
+name = "Uki_ine39_2"
+assay = "Uki_ine39_2"
+ms_run_ref = "ms_run[93]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine39_2"
+description = "RPMM0061 sample Uki_ine39_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine39_2"
+genotype = "NIL-12"
+sampleinfo = "3d_6"
+timeperiod_h = "72"
+type = "sample"
+
+[[sample]]
+index = 94
+name = "Uki_ine40_1"
+assay = "Uki_ine40_1"
+ms_run_ref = "ms_run[94]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine40_1"
+description = "RPMM0061 sample Uki_ine40_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine40_1"
+genotype = "NIL-12"
+sampleinfo = "5d_4"
+timeperiod_h = "120"
+type = "sample"
+
+[[sample]]
+index = 95
+name = "Uki_ine40_2"
+assay = "Uki_ine40_2"
+ms_run_ref = "ms_run[95]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine40_2"
+description = "RPMM0061 sample Uki_ine40_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine40_2"
+genotype = "NIL-12"
+sampleinfo = "5d_4"
+timeperiod_h = "120"
+type = "sample"
+
+[[sample]]
+index = 96
+name = "Uki_ine41_1"
+assay = "Uki_ine41_1"
+ms_run_ref = "ms_run[96]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine41_1"
+description = "RPMM0061 sample Uki_ine41_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine41_1"
+genotype = "NIL-12"
+sampleinfo = "5d_5"
+timeperiod_h = "120"
+type = "sample"
+
+[[sample]]
+index = 97
+name = "Uki_ine41_2"
+assay = "Uki_ine41_2"
+ms_run_ref = "ms_run[97]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine41_2"
+description = "RPMM0061 sample Uki_ine41_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine41_2"
+genotype = "NIL-12"
+sampleinfo = "5d_5"
+timeperiod_h = "120"
+type = "sample"
+
+[[sample]]
+index = 98
+name = "Uki_ine42_1"
+assay = "Uki_ine42_1"
+ms_run_ref = "ms_run[98]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine42_1"
+description = "RPMM0061 sample Uki_ine42_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine42_1"
+genotype = "NIL-12"
+sampleinfo = "5d_6"
+timeperiod_h = "120"
+type = "sample"
+
+[[sample]]
+index = 99
+name = "Uki_ine42_2"
+assay = "Uki_ine42_2"
+ms_run_ref = "ms_run[99]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine42_2"
+description = "RPMM0061 sample Uki_ine42_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine42_2"
+genotype = "NIL-12"
+sampleinfo = "5d_6"
+timeperiod_h = "120"
+type = "sample"
+
+[[sample]]
+index = 100
+name = "Uki_ine43_1"
+assay = "Uki_ine43_1"
+ms_run_ref = "ms_run[100]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine43_1"
+description = "RPMM0061 sample Uki_ine43_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine43_1"
+genotype = "NIL-12"
+sampleinfo = "7d_4"
+timeperiod_h = "168"
+type = "sample"
+
+[[sample]]
+index = 101
+name = "Uki_ine43_2"
+assay = "Uki_ine43_2"
+ms_run_ref = "ms_run[101]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine43_2"
+description = "RPMM0061 sample Uki_ine43_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine43_2"
+genotype = "NIL-12"
+sampleinfo = "7d_4"
+timeperiod_h = "168"
+type = "sample"
+
+[[sample]]
+index = 102
+name = "Uki_ine44_1"
+assay = "Uki_ine44_1"
+ms_run_ref = "ms_run[102]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine44_1"
+description = "RPMM0061 sample Uki_ine44_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine44_1"
+genotype = "NIL-12"
+sampleinfo = "7d_5"
+timeperiod_h = "168"
+type = "sample"
+
+[[sample]]
+index = 103
+name = "Uki_ine44_2"
+assay = "Uki_ine44_2"
+ms_run_ref = "ms_run[103]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine44_2"
+description = "RPMM0061 sample Uki_ine44_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine44_2"
+genotype = "NIL-12"
+sampleinfo = "7d_5"
+timeperiod_h = "168"
+type = "sample"
+
+[[sample]]
+index = 104
+name = "Uki_ine45_1"
+assay = "Uki_ine45_1"
+ms_run_ref = "ms_run[104]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine45_1"
+description = "RPMM0061 sample Uki_ine45_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine45_1"
+genotype = "NIL-12"
+sampleinfo = "7d_6"
+timeperiod_h = "168"
+type = "sample"
+
+[[sample]]
+index = 105
+name = "Uki_ine45_2"
+assay = "Uki_ine45_2"
+ms_run_ref = "ms_run[105]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine45_2"
+description = "RPMM0061 sample Uki_ine45_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine45_2"
+genotype = "NIL-12"
+sampleinfo = "7d_6"
+timeperiod_h = "168"
+type = "sample"
+
+[[sample]]
+index = 106
+name = "Uki_ine46_1"
+assay = "Uki_ine46_1"
+ms_run_ref = "ms_run[106]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine46_1"
+description = "RPMM0061 sample Uki_ine46_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine46_1"
+genotype = "NIL-12"
+sampleinfo = "12d_4"
+timeperiod_h = "288"
+type = "sample"
+
+[[sample]]
+index = 107
+name = "Uki_ine46_2"
+assay = "Uki_ine46_2"
+ms_run_ref = "ms_run[107]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine46_2"
+description = "RPMM0061 sample Uki_ine46_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine46_2"
+genotype = "NIL-12"
+sampleinfo = "12d_4"
+timeperiod_h = "288"
+type = "sample"
+
+[[sample]]
+index = 108
+name = "Uki_ine47_1"
+assay = "Uki_ine47_1"
+ms_run_ref = "ms_run[108]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine47_1"
+description = "RPMM0061 sample Uki_ine47_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine47_1"
+genotype = "NIL-12"
+sampleinfo = "12d_5"
+timeperiod_h = "288"
+type = "sample"
+
+[[sample]]
+index = 109
+name = "Uki_ine47_2"
+assay = "Uki_ine47_2"
+ms_run_ref = "ms_run[109]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine47_2"
+description = "RPMM0061 sample Uki_ine47_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine47_2"
+genotype = "NIL-12"
+sampleinfo = "12d_5"
+timeperiod_h = "288"
+type = "sample"
+
+[[sample]]
+index = 110
+name = "Uki_ine48_1"
+assay = "Uki_ine48_1"
+ms_run_ref = "ms_run[110]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine48_1"
+description = "RPMM0061 sample Uki_ine48_1"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine48_1"
+genotype = "NIL-12"
+sampleinfo = "12d_6"
+timeperiod_h = "288"
+type = "sample"
+
+[[sample]]
+index = 111
+name = "Uki_ine48_2"
+assay = "Uki_ine48_2"
+ms_run_ref = "ms_run[111]"
+location = "http://metabobank.riken.jp/data/RPMM0061/long/AnalysedDataset/metmat_abs.txt#Uki_ine48_2"
+description = "RPMM0061 sample Uki_ine48_2"
+air = "FALSE"
+pstreatment = "TRUE"
+gcid = "Uki_ine48_2"
+genotype = "NIL-12"
+sampleinfo = "12d_6"
+timeperiod_h = "288"
+type = "sample"
+
+[study_variables]
+candidate_columns = [
+    "genotype",
+    "timeperiod (h)",
+    "Air",
+    "PStreatment",
+]
+
+[study_variables.levels]
+genotype = [
+    "NIL-12",
+    "T65",
+]
+"timeperiod (h)" = [
+    "0",
+    "12",
+    "120",
+    "168",
+    "24",
+    "288",
+    "6",
+    "72",
+]
+Air = [
+    "FALSE",
+    "TRUE",
+]
+PStreatment = [
+    "FALSE",
+    "TRUE",
+]

@@ -1,0 +1,282 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0063"
+title = "Cytosolic GLUTAMINE SYNTHETASE 1;1 Modulates Metabolism and Chloroplast Development in Roots"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0063"
+
+[matrix]
+name = "CRMN_normalizedComp"
+source_file = "RPMM0063/AnalysedDataset/gs12Compdata/CRMN_normalizedComp.txt"
+format = "tsv"
+n_features = 179
+n_samples = 12
+metadata_columns = [
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+    "fData::lineno",
+    "fData::query",
+    "fData::known",
+    "fData::cas",
+    "fData::preferred",
+    "fData::action",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0063/AnalysedDataset/gs12Compdata/phenodata_gs12Comp.csv"
+msp = "RPMM0063/AnalysedDataset/osgs_half/110922_osgs_half_NIST.txt"
+
+[organism]
+raw = "Rice"
+cv = "[NCBITaxon, NCBITaxon:4530, Oryza sativa, ]"
+source = "msp:110922_osgs_half_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "NB_22_2"
+assay = "NB_22_2"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0063/AnalysedDataset/gs12Compdata/CRMN_normalizedComp.txt#NB_22_2"
+description = "RPMM0063 sample NB_22_2"
+matlab_file_name = "NB_22_2.mat"
+order_name = "NB_22"
+gcid = "NB_22_2"
+geno1 = "Nipponbare"
+geno2 = "NB10"
+order = "68"
+sampleid = "NB"
+species = "rice"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 2
+name = "NB_23_1"
+assay = "NB_23_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0063/AnalysedDataset/gs12Compdata/CRMN_normalizedComp.txt#NB_23_1"
+description = "RPMM0063 sample NB_23_1"
+matlab_file_name = "NB_23_1.mat"
+order_name = "NB_23"
+gcid = "NB_23_1"
+geno1 = "Nipponbare"
+geno2 = "NB12"
+order = "24"
+sampleid = "NB"
+species = "rice"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 3
+name = "NB_24_1"
+assay = "NB_24_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0063/AnalysedDataset/gs12Compdata/CRMN_normalizedComp.txt#NB_24_1"
+description = "RPMM0063 sample NB_24_1"
+matlab_file_name = "NB_24_1.mat"
+order_name = "NB_24"
+gcid = "NB_24_1"
+geno1 = "Nipponbare"
+geno2 = "NB13"
+order = "71"
+sampleid = "NB"
+species = "rice"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 4
+name = "NB_27_1"
+assay = "NB_27_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0063/AnalysedDataset/gs12Compdata/CRMN_normalizedComp.txt#NB_27_1"
+description = "RPMM0063 sample NB_27_1"
+matlab_file_name = "NB_27_1.mat"
+order_name = "NB_27"
+gcid = "NB_27_1"
+geno1 = "Nipponbare"
+geno2 = "NB14"
+order = "41"
+sampleid = "NB"
+species = "rice"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 5
+name = "NB_31_1"
+assay = "NB_31_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0063/AnalysedDataset/gs12Compdata/CRMN_normalizedComp.txt#NB_31_1"
+description = "RPMM0063 sample NB_31_1"
+matlab_file_name = "NB_31_1.mat"
+order_name = "NB_31"
+gcid = "NB_31_1"
+geno1 = "Nipponbare"
+geno2 = "NB7"
+order = "25"
+sampleid = "NB"
+species = "rice"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 6
+name = "NB_35_1"
+assay = "NB_35_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0063/AnalysedDataset/gs12Compdata/CRMN_normalizedComp.txt#NB_35_1"
+description = "RPMM0063 sample NB_35_1"
+matlab_file_name = "NB_35_1.mat"
+order_name = "NB_35"
+gcid = "NB_35_1"
+geno1 = "Nipponbare"
+geno2 = "NB9"
+order = "46"
+sampleid = "NB"
+species = "rice"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 7
+name = "gs_01_1"
+assay = "gs_01_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0063/AnalysedDataset/gs12Compdata/CRMN_normalizedComp.txt#gs_01_1"
+description = "RPMM0063 sample gs_01_1"
+matlab_file_name = "gs_01_1.mat"
+order_name = "gs01"
+gcid = "gs_01_1"
+geno1 = "gs1_2_comp"
+geno2 = "gs12Comp3_3"
+order = "33"
+sampleid = "gs12Comp"
+species = "rice"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 8
+name = "gs_03_1"
+assay = "gs_03_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0063/AnalysedDataset/gs12Compdata/CRMN_normalizedComp.txt#gs_03_1"
+description = "RPMM0063 sample gs_03_1"
+matlab_file_name = "gs_03_1.mat"
+order_name = "gs03"
+gcid = "gs_03_1"
+geno1 = "gs1_2_comp"
+geno2 = "gs12Comp3_12"
+order = "30"
+sampleid = "gs12Comp"
+species = "rice"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 9
+name = "gs_04_1"
+assay = "gs_04_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0063/AnalysedDataset/gs12Compdata/CRMN_normalizedComp.txt#gs_04_1"
+description = "RPMM0063 sample gs_04_1"
+matlab_file_name = "gs_04_1.mat"
+order_name = "gs04"
+gcid = "gs_04_1"
+geno1 = "gs1_2_comp"
+geno2 = "gs12Comp3_14"
+order = "83"
+sampleid = "gs12Comp"
+species = "rice"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 10
+name = "gs_05_1"
+assay = "gs_05_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0063/AnalysedDataset/gs12Compdata/CRMN_normalizedComp.txt#gs_05_1"
+description = "RPMM0063 sample gs_05_1"
+matlab_file_name = "gs_05_1.mat"
+order_name = "gs05"
+gcid = "gs_05_1"
+geno1 = "gs1_2_comp"
+geno2 = "gs12Comp4_4"
+order = "45"
+sampleid = "gs12Comp"
+species = "rice"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 11
+name = "gs_07_1"
+assay = "gs_07_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0063/AnalysedDataset/gs12Compdata/CRMN_normalizedComp.txt#gs_07_1"
+description = "RPMM0063 sample gs_07_1"
+matlab_file_name = "gs_07_1.mat"
+order_name = "gs07"
+gcid = "gs_07_1"
+geno1 = "gs1_2_comp"
+geno2 = "gs12Comp4_7"
+order = "37"
+sampleid = "gs12Comp"
+species = "rice"
+tissue = "root"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 12
+name = "gs_09_1"
+assay = "gs_09_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0063/AnalysedDataset/gs12Compdata/CRMN_normalizedComp.txt#gs_09_1"
+description = "RPMM0063 sample gs_09_1"
+matlab_file_name = "gs_09_1.mat"
+order_name = "gs09"
+gcid = "gs_09_1"
+geno1 = "gs1_2_comp"
+geno2 = "gs12Comp4_14"
+order = "20"
+sampleid = "gs12Comp"
+species = "rice"
+tissue = "root"
+weight_mg = "0.055556"
+
+[study_variables]
+candidate_columns = [
+    "sampleID",
+    "geno1",
+    "tissue",
+]
+
+[study_variables.levels]
+sampleID = [
+    "NB",
+    "gs12Comp",
+]
+geno1 = [
+    "Nipponbare",
+    "gs1_2_comp",
+]
+tissue = [
+    "root",
+]

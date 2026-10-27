@@ -1,0 +1,1180 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0068"
+title = "Defects in the cytokinin signaling reprogram lipid and flavonoid gene-to-metabolite networks to mitigate the effects of salinity in Arabidopsis thaliana"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0068"
+
+[matrix]
+name = "MetMat_ABS_Nishi"
+source_file = "RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt"
+format = "tsv"
+n_features = 344
+n_samples = 48
+metadata_columns = [
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0068/AnalysedDataset/GC/Phenodata_Nishi.csv"
+msp = ""
+
+[organism]
+raw = ""
+cv = ""
+source = ""
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "N_01_1"
+assay = "N_01_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_01_1"
+description = "RPMM0068 sample N_01_1"
+matlab_file_name = "N_01_1.mat"
+order_name = "N_01"
+class1 = "2"
+client = "Nishi"
+conc = "0"
+gcid = "N_01_1"
+genotype = "Col-0"
+runorder = "50"
+sample_name = "Col-0 (0mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "contrl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 2
+name = "N_02_1"
+assay = "N_02_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_02_1"
+description = "RPMM0068 sample N_02_1"
+matlab_file_name = "N_02_1.mat"
+order_name = "N_02"
+class1 = "2"
+client = "Nishi"
+conc = "0"
+gcid = "N_02_1"
+genotype = "Col-0"
+runorder = "40"
+sample_name = "Col-0 (0mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "contrl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 3
+name = "N_03_1"
+assay = "N_03_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_03_1"
+description = "RPMM0068 sample N_03_1"
+matlab_file_name = "N_03_1.mat"
+order_name = "N_03"
+class1 = "2"
+client = "Nishi"
+conc = "0"
+gcid = "N_03_1"
+genotype = "Col-0"
+runorder = "76"
+sample_name = "Col-0 (0mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "contrl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 4
+name = "N_04_1"
+assay = "N_04_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_04_1"
+description = "RPMM0068 sample N_04_1"
+matlab_file_name = "N_04_1.mat"
+order_name = "N_04"
+class1 = "Arabidopsis"
+client = "7 (0mM NaCl)"
+col14 = "0"
+col15 = "94"
+conc = "3"
+gcid = "N_04_1"
+genotype = "5"
+note = "contrl"
+runorder = "seedling"
+sample_name = "atipt1"
+sampletype = "3"
+tissue = "atipt1357"
+treatment = "Nishi"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 5
+name = "N_05_1"
+assay = "N_05_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_05_1"
+description = "RPMM0068 sample N_05_1"
+matlab_file_name = "N_05_1.mat"
+order_name = "N_05"
+class1 = "Arabidopsis"
+client = "7 (0mM NaCl)"
+col14 = "0"
+col15 = "34"
+conc = "3"
+gcid = "N_05_1"
+genotype = "5"
+note = "contrl"
+runorder = "seedling"
+sample_name = "atipt1"
+sampletype = "3"
+tissue = "atipt1357"
+treatment = "Nishi"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 6
+name = "N_06_1"
+assay = "N_06_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_06_1"
+description = "RPMM0068 sample N_06_1"
+matlab_file_name = "N_06_1.mat"
+order_name = "N_06"
+class1 = "Arabidopsis"
+client = "7 (0mM NaCl)"
+col14 = "0"
+col15 = "28"
+conc = "3"
+gcid = "N_06_1"
+genotype = "5"
+note = "contrl"
+runorder = "seedling"
+sample_name = "atipt1"
+sampletype = "3"
+tissue = "atipt1357"
+treatment = "Nishi"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 7
+name = "N_07_1"
+assay = "N_07_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_07_1"
+description = "RPMM0068 sample N_07_1"
+matlab_file_name = "N_07_1.mat"
+order_name = "N_07"
+class1 = "4"
+client = "Nishi"
+conc = "0"
+gcid = "N_07_1"
+genotype = "IPT3OX"
+runorder = "56"
+sample_name = "35S:IPT3 (0mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "contrl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 8
+name = "N_08_1"
+assay = "N_08_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_08_1"
+description = "RPMM0068 sample N_08_1"
+matlab_file_name = "N_08_1.mat"
+order_name = "N_08"
+class1 = "4"
+client = "Nishi"
+conc = "0"
+gcid = "N_08_1"
+genotype = "IPT3OX"
+runorder = "38"
+sample_name = "35S:IPT3 (0mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "contrl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 9
+name = "N_09_1"
+assay = "N_09_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_09_1"
+description = "RPMM0068 sample N_09_1"
+matlab_file_name = "N_09_1.mat"
+order_name = "N_09"
+class1 = "4"
+client = "Nishi"
+conc = "0"
+gcid = "N_09_1"
+genotype = "IPT3OX"
+runorder = "14"
+sample_name = "35S:IPT3 (0mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "contrl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 10
+name = "N_10_1"
+assay = "N_10_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_10_1"
+description = "RPMM0068 sample N_10_1"
+matlab_file_name = "N_10_1.mat"
+order_name = "N_10"
+class1 = "Nishi"
+client = "ahk23"
+conc = "contrl"
+gcid = "N_10_1"
+genotype = "Arabidopsis"
+note = "37"
+runorder = "0"
+sample_name = "ahk2"
+sampletype = "3 (0mM NaCl)"
+tissue = "5"
+treatment = "seedling"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 11
+name = "N_11_1"
+assay = "N_11_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_11_1"
+description = "RPMM0068 sample N_11_1"
+matlab_file_name = "N_11_1.mat"
+order_name = "N_11"
+class1 = "Nishi"
+client = "ahk23"
+conc = "contrl"
+gcid = "N_11_1"
+genotype = "Arabidopsis"
+note = "75"
+runorder = "0"
+sample_name = "ahk2"
+sampletype = "3 (0mM NaCl)"
+tissue = "5"
+treatment = "seedling"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 12
+name = "N_12_1"
+assay = "N_12_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_12_1"
+description = "RPMM0068 sample N_12_1"
+matlab_file_name = "N_12_1.mat"
+order_name = "N_12"
+class1 = "Nishi"
+client = "ahk23"
+conc = "contrl"
+gcid = "N_12_1"
+genotype = "Arabidopsis"
+note = "54"
+runorder = "0"
+sample_name = "ahk2"
+sampletype = "3 (0mM NaCl)"
+tissue = "5"
+treatment = "seedling"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 13
+name = "N_13_1"
+assay = "N_13_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_13_1"
+description = "RPMM0068 sample N_13_1"
+matlab_file_name = "N_13_1.mat"
+order_name = "N_13"
+class1 = "6"
+client = "Nishi"
+conc = "200"
+gcid = "N_13_1"
+genotype = "Col-0"
+runorder = "13"
+sample_name = "Col-0 (200mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "NaCl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 14
+name = "N_14_1"
+assay = "N_14_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_14_1"
+description = "RPMM0068 sample N_14_1"
+matlab_file_name = "N_14_1.mat"
+order_name = "N_14"
+class1 = "6"
+client = "Nishi"
+conc = "200"
+gcid = "N_14_1"
+genotype = "Col-0"
+runorder = "45"
+sample_name = "Col-0 (200mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "NaCl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 15
+name = "N_15_1"
+assay = "N_15_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_15_1"
+description = "RPMM0068 sample N_15_1"
+matlab_file_name = "N_15_1.mat"
+order_name = "N_15"
+class1 = "6"
+client = "Nishi"
+conc = "200"
+gcid = "N_15_1"
+genotype = "Col-0"
+runorder = "55"
+sample_name = "Col-0 (200mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "NaCl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 16
+name = "N_16_1"
+assay = "N_16_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_16_1"
+description = "RPMM0068 sample N_16_1"
+matlab_file_name = "N_16_1.mat"
+order_name = "N_16"
+class1 = "Arabidopsis"
+client = "7 (200mM NaCl)"
+col14 = "200"
+col15 = "72"
+conc = "7"
+gcid = "N_16_1"
+genotype = "5"
+note = "NaCl"
+runorder = "seedling"
+sample_name = "atipt1"
+sampletype = "3"
+tissue = "atipt1357"
+treatment = "Nishi"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 17
+name = "N_17_1"
+assay = "N_17_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_17_1"
+description = "RPMM0068 sample N_17_1"
+matlab_file_name = "N_17_1.mat"
+order_name = "N_17"
+class1 = "Arabidopsis"
+client = "7 (200mM NaCl)"
+col14 = "200"
+col15 = "33"
+conc = "7"
+gcid = "N_17_1"
+genotype = "5"
+note = "NaCl"
+runorder = "seedling"
+sample_name = "atipt1"
+sampletype = "3"
+tissue = "atipt1357"
+treatment = "Nishi"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 18
+name = "N_18_1"
+assay = "N_18_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_18_1"
+description = "RPMM0068 sample N_18_1"
+matlab_file_name = "N_18_1.mat"
+order_name = "N_18"
+class1 = "Arabidopsis"
+client = "7 (200mM NaCl)"
+col14 = "200"
+col15 = "62"
+conc = "7"
+gcid = "N_18_1"
+genotype = "5"
+note = "NaCl"
+runorder = "seedling"
+sample_name = "atipt1"
+sampletype = "3"
+tissue = "atipt1357"
+treatment = "Nishi"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 19
+name = "N_19_1"
+assay = "N_19_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_19_1"
+description = "RPMM0068 sample N_19_1"
+matlab_file_name = "N_19_1.mat"
+order_name = "N_19"
+class1 = "8"
+client = "Nishi"
+conc = "200"
+gcid = "N_19_1"
+genotype = "IPT3OX"
+runorder = "87"
+sample_name = "35S:IPT3 (200mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "NaCl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 20
+name = "N_20_1"
+assay = "N_20_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_20_1"
+description = "RPMM0068 sample N_20_1"
+matlab_file_name = "N_20_1.mat"
+order_name = "N_20"
+class1 = "8"
+client = "Nishi"
+conc = "200"
+gcid = "N_20_1"
+genotype = "IPT3OX"
+runorder = "43"
+sample_name = "35S:IPT3 (200mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "NaCl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 21
+name = "N_21_1"
+assay = "N_21_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_21_1"
+description = "RPMM0068 sample N_21_1"
+matlab_file_name = "N_21_1.mat"
+order_name = "N_21"
+class1 = "8"
+client = "Nishi"
+conc = "200"
+gcid = "N_21_1"
+genotype = "IPT3OX"
+runorder = "30"
+sample_name = "35S:IPT3 (200mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "NaCl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 22
+name = "N_22_1"
+assay = "N_22_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_22_1"
+description = "RPMM0068 sample N_22_1"
+matlab_file_name = "N_22_1.mat"
+order_name = "N_22"
+class1 = "Nishi"
+client = "ahk23"
+conc = "NaCl"
+gcid = "N_22_1"
+genotype = "Arabidopsis"
+note = "91"
+runorder = "200"
+sample_name = "ahk2"
+sampletype = "3 (200mM NaCl)"
+tissue = "9"
+treatment = "seedling"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 23
+name = "N_23_1"
+assay = "N_23_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_23_1"
+description = "RPMM0068 sample N_23_1"
+matlab_file_name = "N_23_1.mat"
+order_name = "N_23"
+class1 = "Nishi"
+client = "ahk23"
+conc = "NaCl"
+gcid = "N_23_1"
+genotype = "Arabidopsis"
+note = "35"
+runorder = "200"
+sample_name = "ahk2"
+sampletype = "3 (200mM NaCl)"
+tissue = "9"
+treatment = "seedling"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 24
+name = "N_24_1"
+assay = "N_24_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_24_1"
+description = "RPMM0068 sample N_24_1"
+matlab_file_name = "N_24_1.mat"
+order_name = "N_24"
+class1 = "Nishi"
+client = "ahk23"
+conc = "NaCl"
+gcid = "N_24_1"
+genotype = "Arabidopsis"
+note = "15"
+runorder = "200"
+sample_name = "ahk2"
+sampletype = "3 (200mM NaCl)"
+tissue = "9"
+treatment = "seedling"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 25
+name = "N_25_1"
+assay = "N_25_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_25_1"
+description = "RPMM0068 sample N_25_1"
+matlab_file_name = "N_25_1.mat"
+order_name = "N_25"
+class1 = "2"
+client = "Nishi"
+conc = "0"
+gcid = "N_25_1"
+genotype = "Col-0"
+runorder = "31"
+sample_name = "Col-0 (0mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "contrl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 26
+name = "N_26_1"
+assay = "N_26_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_26_1"
+description = "RPMM0068 sample N_26_1"
+matlab_file_name = "N_26_1.mat"
+order_name = "N_26"
+class1 = "2"
+client = "Nishi"
+conc = "0"
+gcid = "N_26_1"
+genotype = "Col-0"
+runorder = "77"
+sample_name = "Col-0 (0mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "contrl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 27
+name = "N_27_1"
+assay = "N_27_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_27_1"
+description = "RPMM0068 sample N_27_1"
+matlab_file_name = "N_27_1.mat"
+order_name = "N_27"
+class1 = "2"
+client = "Nishi"
+conc = "0"
+gcid = "N_27_1"
+genotype = "Col-0"
+runorder = "52"
+sample_name = "Col-0 (0mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "contrl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 28
+name = "N_28_1"
+assay = "N_28_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_28_1"
+description = "RPMM0068 sample N_28_1"
+matlab_file_name = "N_28_1.mat"
+order_name = "N_28"
+class1 = "ahp235"
+client = "Arabidopsis"
+col14 = "23"
+conc = "seedling"
+gcid = "N_28_1"
+genotype = "5 (0mM NaCl)"
+note = "0"
+runorder = "contrl"
+sample_name = "ahp2"
+sampletype = "3"
+tissue = "Nishi"
+treatment = "10"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 29
+name = "N_29_1"
+assay = "N_29_1"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_29_1"
+description = "RPMM0068 sample N_29_1"
+matlab_file_name = "N_29_1.mat"
+order_name = "N_29"
+class1 = "ahp235"
+client = "Arabidopsis"
+col14 = "80"
+conc = "seedling"
+gcid = "N_29_1"
+genotype = "5 (0mM NaCl)"
+note = "0"
+runorder = "contrl"
+sample_name = "ahp2"
+sampletype = "3"
+tissue = "Nishi"
+treatment = "10"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 30
+name = "N_30_1"
+assay = "N_30_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_30_1"
+description = "RPMM0068 sample N_30_1"
+matlab_file_name = "N_30_1.mat"
+order_name = "N_30"
+class1 = "ahp235"
+client = "Arabidopsis"
+col14 = "85"
+conc = "seedling"
+gcid = "N_30_1"
+genotype = "5 (0mM NaCl)"
+note = "0"
+runorder = "contrl"
+sample_name = "ahp2"
+sampletype = "3"
+tissue = "Nishi"
+treatment = "10"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 31
+name = "N_31_1"
+assay = "N_31_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_31_1"
+description = "RPMM0068 sample N_31_1"
+matlab_file_name = "N_31_1.mat"
+order_name = "N_31"
+class1 = "arr11012"
+client = "Arabidopsis"
+col14 = "24"
+conc = "seedling"
+gcid = "N_31_1"
+genotype = "12 (0mM NaCl)"
+note = "0"
+runorder = "contrl"
+sample_name = "arr1"
+sampletype = "10"
+tissue = "Nishi"
+treatment = "11"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 32
+name = "N_32_1"
+assay = "N_32_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_32_1"
+description = "RPMM0068 sample N_32_1"
+matlab_file_name = "N_32_1.mat"
+order_name = "N_32"
+class1 = "arr11012"
+client = "Arabidopsis"
+col14 = "17"
+conc = "seedling"
+gcid = "N_32_1"
+genotype = "12 (0mM NaCl)"
+note = "0"
+runorder = "contrl"
+sample_name = "arr1"
+sampletype = "10"
+tissue = "Nishi"
+treatment = "11"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 33
+name = "N_33_1"
+assay = "N_33_1"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_33_1"
+description = "RPMM0068 sample N_33_1"
+matlab_file_name = "N_33_1.mat"
+order_name = "N_33"
+class1 = "arr11012"
+client = "Arabidopsis"
+col14 = "27"
+conc = "seedling"
+gcid = "N_33_1"
+genotype = "12 (0mM NaCl)"
+note = "0"
+runorder = "contrl"
+sample_name = "arr1"
+sampletype = "10"
+tissue = "Nishi"
+treatment = "11"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 34
+name = "N_34_1"
+assay = "N_34_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_34_1"
+description = "RPMM0068 sample N_34_1"
+matlab_file_name = "N_34_1.mat"
+order_name = "N_34"
+class1 = "arr11112"
+client = "Arabidopsis"
+col14 = "70"
+conc = "seedling"
+gcid = "N_34_1"
+genotype = "12 (0mM NaCl)"
+note = "0"
+runorder = "contrl"
+sample_name = "arr1"
+sampletype = "11"
+tissue = "Nishi"
+treatment = "12"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 35
+name = "N_35_1"
+assay = "N_35_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_35_1"
+description = "RPMM0068 sample N_35_1"
+matlab_file_name = "N_35_1.mat"
+order_name = "N_35"
+class1 = "arr11112"
+client = "Arabidopsis"
+col14 = "84"
+conc = "seedling"
+gcid = "N_35_1"
+genotype = "12 (0mM NaCl)"
+note = "0"
+runorder = "contrl"
+sample_name = "arr1"
+sampletype = "11"
+tissue = "Nishi"
+treatment = "12"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 36
+name = "N_36_1"
+assay = "N_36_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_36_1"
+description = "RPMM0068 sample N_36_1"
+matlab_file_name = "N_36_1.mat"
+order_name = "N_36"
+class1 = "arr11112"
+client = "Arabidopsis"
+col14 = "83"
+conc = "seedling"
+gcid = "N_36_1"
+genotype = "12 (0mM NaCl)"
+note = "0"
+runorder = "contrl"
+sample_name = "arr1"
+sampletype = "11"
+tissue = "Nishi"
+treatment = "12"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 37
+name = "N_37_1"
+assay = "N_37_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_37_1"
+description = "RPMM0068 sample N_37_1"
+matlab_file_name = "N_37_1.mat"
+order_name = "N_37"
+class1 = "6"
+client = "Nishi"
+conc = "200"
+gcid = "N_37_1"
+genotype = "Col-0"
+runorder = "29"
+sample_name = "Col-0 (200mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "NaCl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 38
+name = "N_38_1"
+assay = "N_38_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_38_1"
+description = "RPMM0068 sample N_38_1"
+matlab_file_name = "N_38_1.mat"
+order_name = "N_38"
+class1 = "6"
+client = "Nishi"
+conc = "200"
+gcid = "N_38_1"
+genotype = "Col-0"
+runorder = "97"
+sample_name = "Col-0 (200mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "NaCl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 39
+name = "N_39_1"
+assay = "N_39_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_39_1"
+description = "RPMM0068 sample N_39_1"
+matlab_file_name = "N_39_1.mat"
+order_name = "N_39"
+class1 = "6"
+client = "Nishi"
+conc = "200"
+gcid = "N_39_1"
+genotype = "Col-0"
+runorder = "22"
+sample_name = "Col-0 (200mM NaCl)"
+sampletype = "Arabidopsis"
+tissue = "seedling"
+treatment = "NaCl"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 40
+name = "N_40_1"
+assay = "N_40_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_40_1"
+description = "RPMM0068 sample N_40_1"
+matlab_file_name = "N_40_1.mat"
+order_name = "N_40"
+class1 = "ahp235"
+client = "Arabidopsis"
+col14 = "64"
+conc = "seedling"
+gcid = "N_40_1"
+genotype = "5 (200mM NaCl)"
+note = "200"
+runorder = "NaCl"
+sample_name = "ahp2"
+sampletype = "3"
+tissue = "Nishi"
+treatment = "13"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 41
+name = "N_41_1"
+assay = "N_41_1"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_41_1"
+description = "RPMM0068 sample N_41_1"
+matlab_file_name = "N_41_1.mat"
+order_name = "N_41"
+class1 = "ahp235"
+client = "Arabidopsis"
+col14 = "69"
+conc = "seedling"
+gcid = "N_41_1"
+genotype = "5 (200mM NaCl)"
+note = "200"
+runorder = "NaCl"
+sample_name = "ahp2"
+sampletype = "3"
+tissue = "Nishi"
+treatment = "13"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 42
+name = "N_42_1"
+assay = "N_42_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_42_1"
+description = "RPMM0068 sample N_42_1"
+matlab_file_name = "N_42_1.mat"
+order_name = "N_42"
+class1 = "ahp235"
+client = "Arabidopsis"
+col14 = "51"
+conc = "seedling"
+gcid = "N_42_1"
+genotype = "5 (200mM NaCl)"
+note = "200"
+runorder = "NaCl"
+sample_name = "ahp2"
+sampletype = "3"
+tissue = "Nishi"
+treatment = "13"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 43
+name = "N_43_1"
+assay = "N_43_1"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_43_1"
+description = "RPMM0068 sample N_43_1"
+matlab_file_name = "N_43_1.mat"
+order_name = "N_43"
+class1 = "arr11012"
+client = "Arabidopsis"
+col14 = "12"
+conc = "seedling"
+gcid = "N_43_1"
+genotype = "12 (200mM NaCl)"
+note = "200"
+runorder = "NaCl"
+sample_name = "arr1"
+sampletype = "10"
+tissue = "Nishi"
+treatment = "14"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 44
+name = "N_44_1"
+assay = "N_44_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_44_1"
+description = "RPMM0068 sample N_44_1"
+matlab_file_name = "N_44_1.mat"
+order_name = "N_44"
+class1 = "arr11012"
+client = "Arabidopsis"
+col14 = "86"
+conc = "seedling"
+gcid = "N_44_1"
+genotype = "12 (200mM NaCl)"
+note = "200"
+runorder = "NaCl"
+sample_name = "arr1"
+sampletype = "10"
+tissue = "Nishi"
+treatment = "14"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 45
+name = "N_45_1"
+assay = "N_45_1"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_45_1"
+description = "RPMM0068 sample N_45_1"
+matlab_file_name = "N_45_1.mat"
+order_name = "N_45"
+class1 = "arr11012"
+client = "Arabidopsis"
+col14 = "89"
+conc = "seedling"
+gcid = "N_45_1"
+genotype = "12 (200mM NaCl)"
+note = "200"
+runorder = "NaCl"
+sample_name = "arr1"
+sampletype = "10"
+tissue = "Nishi"
+treatment = "14"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 46
+name = "N_46_1"
+assay = "N_46_1"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_46_1"
+description = "RPMM0068 sample N_46_1"
+matlab_file_name = "N_46_1.mat"
+order_name = "N_46"
+class1 = "arr11112"
+client = "Arabidopsis"
+col14 = "90"
+conc = "seedling"
+gcid = "N_46_1"
+genotype = "12 (200mM NaCl)"
+note = "200"
+runorder = "NaCl"
+sample_name = "arr1"
+sampletype = "11"
+tissue = "Nishi"
+treatment = "15"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 47
+name = "N_47_1"
+assay = "N_47_1"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_47_1"
+description = "RPMM0068 sample N_47_1"
+matlab_file_name = "N_47_1.mat"
+order_name = "N_47"
+class1 = "arr11112"
+client = "Arabidopsis"
+col14 = "26"
+conc = "seedling"
+gcid = "N_47_1"
+genotype = "12 (200mM NaCl)"
+note = "200"
+runorder = "NaCl"
+sample_name = "arr1"
+sampletype = "11"
+tissue = "Nishi"
+treatment = "15"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 48
+name = "N_48_1"
+assay = "N_48_1"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/GC/MetMat_ABS_Nishi.txt#N_48_1"
+description = "RPMM0068 sample N_48_1"
+matlab_file_name = "N_48_1.mat"
+order_name = "N_48"
+class1 = "arr11112"
+client = "Arabidopsis"
+col14 = "57"
+conc = "seedling"
+gcid = "N_48_1"
+genotype = "12 (200mM NaCl)"
+note = "200"
+runorder = "NaCl"
+sample_name = "arr1"
+sampletype = "11"
+tissue = "Nishi"
+treatment = "15"
+weight_mg = "0.055556"
+
+[study_variables]
+candidate_columns = [
+    "sample name",
+    "sampletype",
+    "genotype",
+    "client",
+    "tissue",
+    "conc",
+    "col15",
+]
+
+[study_variables.levels]
+"sample name" = [
+    "35S:IPT3 (0mM NaCl)",
+    "35S:IPT3 (200mM NaCl)",
+    "Col-0 (0mM NaCl)",
+    "Col-0 (200mM NaCl)",
+    "ahk2",
+    "ahp2",
+    "arr1",
+    "atipt1",
+]
+sampletype = [
+    "10",
+    "11",
+    "3",
+    "3 (0mM NaCl)",
+    "3 (200mM NaCl)",
+    "Arabidopsis",
+]
+genotype = [
+    "12 (0mM NaCl)",
+    "12 (200mM NaCl)",
+    "5",
+    "5 (0mM NaCl)",
+    "5 (200mM NaCl)",
+    "Arabidopsis",
+    "Col-0",
+    "IPT3OX",
+]
+client = [
+    "7 (0mM NaCl)",
+    "7 (200mM NaCl)",
+    "Arabidopsis",
+    "Nishi",
+    "ahk23",
+]
+tissue = [
+    "5",
+    "9",
+    "Nishi",
+    "atipt1357",
+    "seedling",
+]
+conc = [
+    "0",
+    "200",
+    "3",
+    "7",
+    "NaCl",
+    "contrl",
+    "seedling",
+]
+col15 = [
+    "28",
+    "33",
+    "34",
+    "62",
+    "72",
+    "94",
+]

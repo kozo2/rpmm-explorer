@@ -1,0 +1,197 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0027"
+title = "Acetate-mediated novel survival strategy against drought in plants"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0027"
+
+[matrix]
+name = "one_normalized"
+source_file = "RPMM0027/AnalysedDataset/AcetateTreatment/one_normalized.txt"
+format = "tsv"
+n_features = 244
+n_samples = 10
+metadata_columns = [
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+    "fData::lineno",
+    "fData::query",
+    "fData::known",
+    "fData::cas",
+    "fData::preferred",
+    "fData::action",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0027/AnalysedDataset/AcetateTreatment/phenodata.csv"
+msp = "RPMM0027/AnalysedDataset/AcetateTreatment/140725_Su_Arabi_nv_Peg4_NIST.txt"
+
+[organism]
+raw = "Arabidopsis"
+cv = "[NCBITaxon, NCBITaxon:3702, Arabidopsis thaliana, ]"
+source = "msp:110823_Chromatin_sample_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "Acetic_acid_01_1"
+assay = "Acetic_acid_01_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/AcetateTreatment/one_normalized.txt#Acetic_acid_01_1"
+description = "RPMM0027 sample Acetic_acid_01_1"
+matlab_file_name = "Acetic_acid_01_1.mat"
+order_name = "Acetic_acid_01"
+gcid = "Acetic_acid_01_1"
+sample_name = "AcOH_01"
+treatment = "AcOH"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 2
+name = "Acetic_acid_02_1"
+assay = "Acetic_acid_02_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/AcetateTreatment/one_normalized.txt#Acetic_acid_02_1"
+description = "RPMM0027 sample Acetic_acid_02_1"
+matlab_file_name = "Acetic_acid_02_1.mat"
+order_name = "Acetic_acid_02"
+gcid = "Acetic_acid_02_1"
+sample_name = "AcOH_02"
+treatment = "AcOH"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 3
+name = "Acetic_acid_03_1"
+assay = "Acetic_acid_03_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/AcetateTreatment/one_normalized.txt#Acetic_acid_03_1"
+description = "RPMM0027 sample Acetic_acid_03_1"
+matlab_file_name = "Acetic_acid_03_1.mat"
+order_name = "Acetic_acid_03"
+gcid = "Acetic_acid_03_1"
+sample_name = "AcOH_03"
+treatment = "AcOH"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 4
+name = "Acetic_acid_04_1"
+assay = "Acetic_acid_04_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/AcetateTreatment/one_normalized.txt#Acetic_acid_04_1"
+description = "RPMM0027 sample Acetic_acid_04_1"
+matlab_file_name = "Acetic_acid_04_1.mat"
+order_name = "Acetic_acid_04"
+gcid = "Acetic_acid_04_1"
+sample_name = "AcOH_04"
+treatment = "AcOH"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 5
+name = "Acetic_acid_05_1"
+assay = "Acetic_acid_05_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/AcetateTreatment/one_normalized.txt#Acetic_acid_05_1"
+description = "RPMM0027 sample Acetic_acid_05_1"
+matlab_file_name = "Acetic_acid_05_1.mat"
+order_name = "Acetic_acid_05"
+gcid = "Acetic_acid_05_1"
+sample_name = "AcOH_05"
+treatment = "AcOH"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 6
+name = "water_01_1"
+assay = "water_01_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/AcetateTreatment/one_normalized.txt#water_01_1"
+description = "RPMM0027 sample water_01_1"
+matlab_file_name = "water_01_1.mat"
+order_name = "water_01"
+gcid = "water_01_1"
+sample_name = "Water_01"
+treatment = "Water"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 7
+name = "water_02_1"
+assay = "water_02_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/AcetateTreatment/one_normalized.txt#water_02_1"
+description = "RPMM0027 sample water_02_1"
+matlab_file_name = "water_02_1.mat"
+order_name = "water_02"
+gcid = "water_02_1"
+sample_name = "Water_02"
+treatment = "Water"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 8
+name = "water_03_1"
+assay = "water_03_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/AcetateTreatment/one_normalized.txt#water_03_1"
+description = "RPMM0027 sample water_03_1"
+matlab_file_name = "water_03_1.mat"
+order_name = "water_03"
+gcid = "water_03_1"
+sample_name = "Water_03"
+treatment = "Water"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 9
+name = "water_04_1"
+assay = "water_04_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/AcetateTreatment/one_normalized.txt#water_04_1"
+description = "RPMM0027 sample water_04_1"
+matlab_file_name = "water_04_1.mat"
+order_name = "water_04"
+gcid = "water_04_1"
+sample_name = "Water_04"
+treatment = "Water"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 10
+name = "water_05_1"
+assay = "water_05_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/AcetateTreatment/one_normalized.txt#water_05_1"
+description = "RPMM0027 sample water_05_1"
+matlab_file_name = "water_05_1.mat"
+order_name = "water_05"
+gcid = "water_05_1"
+sample_name = "Water_05"
+treatment = "Water"
+weight_mg = "0.055556"
+
+[study_variables]
+candidate_columns = [
+    "treatment",
+]
+
+[study_variables.levels]
+treatment = [
+    "AcOH",
+    "Water",
+]

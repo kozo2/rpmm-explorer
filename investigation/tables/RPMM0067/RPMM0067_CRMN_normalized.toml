@@ -1,0 +1,156 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0067"
+title = "Integrative omics approaches revealed a crosstalk among phytohormones during tuberous root development in cassava"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0067"
+
+[matrix]
+name = "CRMN_normalized"
+source_file = "RPMM0067/AnalysedDataset/CRMN_normalized.txt"
+format = "tsv"
+n_features = 222
+n_samples = 12
+metadata_columns = [
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+    "fData::lineno",
+    "fData::query",
+    "fData::known",
+    "fData::cas",
+    "fData::preferred",
+    "fData::action",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0067/AnalysedDataset/phenodata.csv"
+msp = "RPMM0067/AnalysedDataset/130718_Cassava_and_OkaGenmai_NIST.txt"
+
+[organism]
+raw = "Cassava and Rice"
+cv = "[NCBITaxon, NCBITaxon:3983, Manihot esculenta, ]"
+source = "msp:130718_Cassava_and_OkaGenmai_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "oka_Gen_01_1"
+assay = "oka_Gen_01_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0067/AnalysedDataset/CRMN_normalized.txt#oka_Gen_01_1"
+description = "RPMM0067 sample oka_Gen_01_1"
+
+[[sample]]
+index = 2
+name = "oka_Gen_03_1"
+assay = "oka_Gen_03_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0067/AnalysedDataset/CRMN_normalized.txt#oka_Gen_03_1"
+description = "RPMM0067 sample oka_Gen_03_1"
+
+[[sample]]
+index = 3
+name = "oka_Gen_05_1"
+assay = "oka_Gen_05_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0067/AnalysedDataset/CRMN_normalized.txt#oka_Gen_05_1"
+description = "RPMM0067 sample oka_Gen_05_1"
+
+[[sample]]
+index = 4
+name = "oka_Gen_07_1"
+assay = "oka_Gen_07_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0067/AnalysedDataset/CRMN_normalized.txt#oka_Gen_07_1"
+description = "RPMM0067 sample oka_Gen_07_1"
+
+[[sample]]
+index = 5
+name = "oka_Gen_09_1"
+assay = "oka_Gen_09_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0067/AnalysedDataset/CRMN_normalized.txt#oka_Gen_09_1"
+description = "RPMM0067 sample oka_Gen_09_1"
+
+[[sample]]
+index = 6
+name = "oka_Gen_11_1"
+assay = "oka_Gen_11_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0067/AnalysedDataset/CRMN_normalized.txt#oka_Gen_11_1"
+description = "RPMM0067 sample oka_Gen_11_1"
+
+[[sample]]
+index = 7
+name = "oka_Gen_13_1"
+assay = "oka_Gen_13_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0067/AnalysedDataset/CRMN_normalized.txt#oka_Gen_13_1"
+description = "RPMM0067 sample oka_Gen_13_1"
+
+[[sample]]
+index = 8
+name = "oka_Gen_15_1"
+assay = "oka_Gen_15_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0067/AnalysedDataset/CRMN_normalized.txt#oka_Gen_15_1"
+description = "RPMM0067 sample oka_Gen_15_1"
+
+[[sample]]
+index = 9
+name = "oka_Gen_17_1"
+assay = "oka_Gen_17_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0067/AnalysedDataset/CRMN_normalized.txt#oka_Gen_17_1"
+description = "RPMM0067 sample oka_Gen_17_1"
+
+[[sample]]
+index = 10
+name = "oka_Gen_19_1"
+assay = "oka_Gen_19_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0067/AnalysedDataset/CRMN_normalized.txt#oka_Gen_19_1"
+description = "RPMM0067 sample oka_Gen_19_1"
+
+[[sample]]
+index = 11
+name = "oka_Gen_21_1"
+assay = "oka_Gen_21_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0067/AnalysedDataset/CRMN_normalized.txt#oka_Gen_21_1"
+description = "RPMM0067 sample oka_Gen_21_1"
+
+[[sample]]
+index = 12
+name = "oka_Gen_23_1"
+assay = "oka_Gen_23_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0067/AnalysedDataset/CRMN_normalized.txt#oka_Gen_23_1"
+description = "RPMM0067 sample oka_Gen_23_1"
+
+[study_variables]
+candidate_columns = [
+    "tissue1",
+    "tissue2",
+    "tissue3",
+    "day_after_cutting",
+]
+
+[study_variables.levels]
+tissue1 = []
+tissue2 = []
+tissue3 = []
+day_after_cutting = []

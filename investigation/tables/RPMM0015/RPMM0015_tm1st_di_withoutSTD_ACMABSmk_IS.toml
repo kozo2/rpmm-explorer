@@ -1,0 +1,1693 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0015"
+title = "Compensation for Systematic Cross-Contribution Improves Normalization of Mass Spectrometry Based Metabolomics Data"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0015"
+
+[matrix]
+name = "tm1st_di_withoutSTD_ACMABSmk_IS"
+source_file = "RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt"
+format = "tsv"
+n_features = 176
+n_samples = 205
+metadata_columns = [
+    "Marked_peaks",
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0015/DatasetI/AnalysedDataset/phenofirst.csv"
+msp = "RPMM0015/DatasetII/AnalysedDataset/081219_tomato02_full_nv_NIST.txt"
+
+[organism]
+raw = "tomato"
+cv = "[NCBITaxon, NCBITaxon:4081, Solanum lycopersicum, ]"
+source = "msp:081219_tomato02_full_nv_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "56_B3_10_x0.1_1"
+assay = "56_B3_10_x0.1_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_10_x0.1_1"
+description = "RPMM0015 sample 56_B3_10_x0.1_1"
+
+[[sample]]
+index = 2
+name = "56_B3_11_x0.1_1"
+assay = "56_B3_11_x0.1_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_11_x0.1_1"
+description = "RPMM0015 sample 56_B3_11_x0.1_1"
+
+[[sample]]
+index = 3
+name = "56_B3_12_x0.1_1"
+assay = "56_B3_12_x0.1_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_12_x0.1_1"
+description = "RPMM0015 sample 56_B3_12_x0.1_1"
+
+[[sample]]
+index = 4
+name = "56_B3_13_x0.1_1"
+assay = "56_B3_13_x0.1_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_13_x0.1_1"
+description = "RPMM0015 sample 56_B3_13_x0.1_1"
+
+[[sample]]
+index = 5
+name = "56_B3_14_x0.1_1"
+assay = "56_B3_14_x0.1_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_14_x0.1_1"
+description = "RPMM0015 sample 56_B3_14_x0.1_1"
+
+[[sample]]
+index = 6
+name = "56_B3_15_x0.1_1"
+assay = "56_B3_15_x0.1_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_15_x0.1_1"
+description = "RPMM0015 sample 56_B3_15_x0.1_1"
+
+[[sample]]
+index = 7
+name = "56_B3_16_x0.1_1"
+assay = "56_B3_16_x0.1_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_16_x0.1_1"
+description = "RPMM0015 sample 56_B3_16_x0.1_1"
+
+[[sample]]
+index = 8
+name = "56_B3_17_x0.1_1"
+assay = "56_B3_17_x0.1_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_17_x0.1_1"
+description = "RPMM0015 sample 56_B3_17_x0.1_1"
+
+[[sample]]
+index = 9
+name = "56_B3_18_x0.1_1"
+assay = "56_B3_18_x0.1_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_18_x0.1_1"
+description = "RPMM0015 sample 56_B3_18_x0.1_1"
+
+[[sample]]
+index = 10
+name = "56_B3_19_x0.1_1"
+assay = "56_B3_19_x0.1_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_19_x0.1_1"
+description = "RPMM0015 sample 56_B3_19_x0.1_1"
+
+[[sample]]
+index = 11
+name = "56_B3_1_x0.1_1"
+assay = "56_B3_1_x0.1_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_1_x0.1_1"
+description = "RPMM0015 sample 56_B3_1_x0.1_1"
+
+[[sample]]
+index = 12
+name = "56_B3_20_x0.1_1"
+assay = "56_B3_20_x0.1_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_20_x0.1_1"
+description = "RPMM0015 sample 56_B3_20_x0.1_1"
+
+[[sample]]
+index = 13
+name = "56_B3_21_x0.1_1"
+assay = "56_B3_21_x0.1_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_21_x0.1_1"
+description = "RPMM0015 sample 56_B3_21_x0.1_1"
+
+[[sample]]
+index = 14
+name = "56_B3_22_x0.1_1"
+assay = "56_B3_22_x0.1_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_22_x0.1_1"
+description = "RPMM0015 sample 56_B3_22_x0.1_1"
+
+[[sample]]
+index = 15
+name = "56_B3_23_x0.1_1"
+assay = "56_B3_23_x0.1_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_23_x0.1_1"
+description = "RPMM0015 sample 56_B3_23_x0.1_1"
+
+[[sample]]
+index = 16
+name = "56_B3_24_x0.1_1"
+assay = "56_B3_24_x0.1_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_24_x0.1_1"
+description = "RPMM0015 sample 56_B3_24_x0.1_1"
+
+[[sample]]
+index = 17
+name = "56_B3_25_x0.1_1"
+assay = "56_B3_25_x0.1_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_25_x0.1_1"
+description = "RPMM0015 sample 56_B3_25_x0.1_1"
+
+[[sample]]
+index = 18
+name = "56_B3_26_x0.1_1"
+assay = "56_B3_26_x0.1_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_26_x0.1_1"
+description = "RPMM0015 sample 56_B3_26_x0.1_1"
+
+[[sample]]
+index = 19
+name = "56_B3_27_x0.1_1"
+assay = "56_B3_27_x0.1_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_27_x0.1_1"
+description = "RPMM0015 sample 56_B3_27_x0.1_1"
+
+[[sample]]
+index = 20
+name = "56_B3_28_x0.1_1"
+assay = "56_B3_28_x0.1_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_28_x0.1_1"
+description = "RPMM0015 sample 56_B3_28_x0.1_1"
+
+[[sample]]
+index = 21
+name = "56_B3_29_x0.1_1"
+assay = "56_B3_29_x0.1_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_29_x0.1_1"
+description = "RPMM0015 sample 56_B3_29_x0.1_1"
+
+[[sample]]
+index = 22
+name = "56_B3_2_x0.1_1"
+assay = "56_B3_2_x0.1_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_2_x0.1_1"
+description = "RPMM0015 sample 56_B3_2_x0.1_1"
+
+[[sample]]
+index = 23
+name = "56_B3_30_x0.1_1"
+assay = "56_B3_30_x0.1_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_30_x0.1_1"
+description = "RPMM0015 sample 56_B3_30_x0.1_1"
+
+[[sample]]
+index = 24
+name = "56_B3_31_x0.1_1"
+assay = "56_B3_31_x0.1_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_31_x0.1_1"
+description = "RPMM0015 sample 56_B3_31_x0.1_1"
+
+[[sample]]
+index = 25
+name = "56_B3_32_x0.1_1"
+assay = "56_B3_32_x0.1_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_32_x0.1_1"
+description = "RPMM0015 sample 56_B3_32_x0.1_1"
+
+[[sample]]
+index = 26
+name = "56_B3_33_x0.1_1"
+assay = "56_B3_33_x0.1_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_33_x0.1_1"
+description = "RPMM0015 sample 56_B3_33_x0.1_1"
+
+[[sample]]
+index = 27
+name = "56_B3_34_x0.1_1"
+assay = "56_B3_34_x0.1_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_34_x0.1_1"
+description = "RPMM0015 sample 56_B3_34_x0.1_1"
+
+[[sample]]
+index = 28
+name = "56_B3_35_x0.1_1"
+assay = "56_B3_35_x0.1_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_35_x0.1_1"
+description = "RPMM0015 sample 56_B3_35_x0.1_1"
+
+[[sample]]
+index = 29
+name = "56_B3_36_x0.1_1"
+assay = "56_B3_36_x0.1_1"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_36_x0.1_1"
+description = "RPMM0015 sample 56_B3_36_x0.1_1"
+
+[[sample]]
+index = 30
+name = "56_B3_37_x0.1_1"
+assay = "56_B3_37_x0.1_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_37_x0.1_1"
+description = "RPMM0015 sample 56_B3_37_x0.1_1"
+
+[[sample]]
+index = 31
+name = "56_B3_38_x0.1_1"
+assay = "56_B3_38_x0.1_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_38_x0.1_1"
+description = "RPMM0015 sample 56_B3_38_x0.1_1"
+
+[[sample]]
+index = 32
+name = "56_B3_39_x0.1_1"
+assay = "56_B3_39_x0.1_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_39_x0.1_1"
+description = "RPMM0015 sample 56_B3_39_x0.1_1"
+
+[[sample]]
+index = 33
+name = "56_B3_3_x0.1_1"
+assay = "56_B3_3_x0.1_1"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_3_x0.1_1"
+description = "RPMM0015 sample 56_B3_3_x0.1_1"
+
+[[sample]]
+index = 34
+name = "56_B3_40_x0.1_1"
+assay = "56_B3_40_x0.1_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_40_x0.1_1"
+description = "RPMM0015 sample 56_B3_40_x0.1_1"
+
+[[sample]]
+index = 35
+name = "56_B3_41_x0.1_1"
+assay = "56_B3_41_x0.1_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_41_x0.1_1"
+description = "RPMM0015 sample 56_B3_41_x0.1_1"
+
+[[sample]]
+index = 36
+name = "56_B3_42_x0.1_1"
+assay = "56_B3_42_x0.1_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_42_x0.1_1"
+description = "RPMM0015 sample 56_B3_42_x0.1_1"
+
+[[sample]]
+index = 37
+name = "56_B3_43_x0.1_1"
+assay = "56_B3_43_x0.1_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_43_x0.1_1"
+description = "RPMM0015 sample 56_B3_43_x0.1_1"
+
+[[sample]]
+index = 38
+name = "56_B3_44_x0.1_1"
+assay = "56_B3_44_x0.1_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_44_x0.1_1"
+description = "RPMM0015 sample 56_B3_44_x0.1_1"
+
+[[sample]]
+index = 39
+name = "56_B3_45_x0.1_1"
+assay = "56_B3_45_x0.1_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_45_x0.1_1"
+description = "RPMM0015 sample 56_B3_45_x0.1_1"
+
+[[sample]]
+index = 40
+name = "56_B3_46_x0.1_1"
+assay = "56_B3_46_x0.1_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_46_x0.1_1"
+description = "RPMM0015 sample 56_B3_46_x0.1_1"
+
+[[sample]]
+index = 41
+name = "56_B3_47_x0.1_1"
+assay = "56_B3_47_x0.1_1"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_47_x0.1_1"
+description = "RPMM0015 sample 56_B3_47_x0.1_1"
+
+[[sample]]
+index = 42
+name = "56_B3_48_x0.1_1"
+assay = "56_B3_48_x0.1_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_48_x0.1_1"
+description = "RPMM0015 sample 56_B3_48_x0.1_1"
+
+[[sample]]
+index = 43
+name = "56_B3_49_x0.1_1"
+assay = "56_B3_49_x0.1_1"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_49_x0.1_1"
+description = "RPMM0015 sample 56_B3_49_x0.1_1"
+
+[[sample]]
+index = 44
+name = "56_B3_4_x0.1_1"
+assay = "56_B3_4_x0.1_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_4_x0.1_1"
+description = "RPMM0015 sample 56_B3_4_x0.1_1"
+
+[[sample]]
+index = 45
+name = "56_B3_51_x0.1_1"
+assay = "56_B3_51_x0.1_1"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_51_x0.1_1"
+description = "RPMM0015 sample 56_B3_51_x0.1_1"
+
+[[sample]]
+index = 46
+name = "56_B3_52_x0.1_1"
+assay = "56_B3_52_x0.1_1"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_52_x0.1_1"
+description = "RPMM0015 sample 56_B3_52_x0.1_1"
+
+[[sample]]
+index = 47
+name = "56_B3_53_x0.1_1"
+assay = "56_B3_53_x0.1_1"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_53_x0.1_1"
+description = "RPMM0015 sample 56_B3_53_x0.1_1"
+
+[[sample]]
+index = 48
+name = "56_B3_54_x0.1_1"
+assay = "56_B3_54_x0.1_1"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_54_x0.1_1"
+description = "RPMM0015 sample 56_B3_54_x0.1_1"
+
+[[sample]]
+index = 49
+name = "56_B3_55_x0.1_1"
+assay = "56_B3_55_x0.1_1"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_55_x0.1_1"
+description = "RPMM0015 sample 56_B3_55_x0.1_1"
+
+[[sample]]
+index = 50
+name = "56_B3_56_x0.1_1"
+assay = "56_B3_56_x0.1_1"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_56_x0.1_1"
+description = "RPMM0015 sample 56_B3_56_x0.1_1"
+
+[[sample]]
+index = 51
+name = "56_B3_57_x0.1_1"
+assay = "56_B3_57_x0.1_1"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_57_x0.1_1"
+description = "RPMM0015 sample 56_B3_57_x0.1_1"
+
+[[sample]]
+index = 52
+name = "56_B3_58_x0.1_1"
+assay = "56_B3_58_x0.1_1"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_58_x0.1_1"
+description = "RPMM0015 sample 56_B3_58_x0.1_1"
+
+[[sample]]
+index = 53
+name = "56_B3_59_x0.1_1"
+assay = "56_B3_59_x0.1_1"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_59_x0.1_1"
+description = "RPMM0015 sample 56_B3_59_x0.1_1"
+
+[[sample]]
+index = 54
+name = "56_B3_5_x0.1_1"
+assay = "56_B3_5_x0.1_1"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_5_x0.1_1"
+description = "RPMM0015 sample 56_B3_5_x0.1_1"
+
+[[sample]]
+index = 55
+name = "56_B3_60_x0.1_1"
+assay = "56_B3_60_x0.1_1"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_60_x0.1_1"
+description = "RPMM0015 sample 56_B3_60_x0.1_1"
+
+[[sample]]
+index = 56
+name = "56_B3_61_x0.1_1"
+assay = "56_B3_61_x0.1_1"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_61_x0.1_1"
+description = "RPMM0015 sample 56_B3_61_x0.1_1"
+
+[[sample]]
+index = 57
+name = "56_B3_62_x0.1_1"
+assay = "56_B3_62_x0.1_1"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_62_x0.1_1"
+description = "RPMM0015 sample 56_B3_62_x0.1_1"
+
+[[sample]]
+index = 58
+name = "56_B3_7_x0.1_1"
+assay = "56_B3_7_x0.1_1"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_7_x0.1_1"
+description = "RPMM0015 sample 56_B3_7_x0.1_1"
+
+[[sample]]
+index = 59
+name = "56_B3_8_x0.1_1"
+assay = "56_B3_8_x0.1_1"
+ms_run_ref = "ms_run[59]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_8_x0.1_1"
+description = "RPMM0015 sample 56_B3_8_x0.1_1"
+
+[[sample]]
+index = 60
+name = "56_B3_9_x0.1_1"
+assay = "56_B3_9_x0.1_1"
+ms_run_ref = "ms_run[60]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B3_9_x0.1_1"
+description = "RPMM0015 sample 56_B3_9_x0.1_1"
+
+[[sample]]
+index = 61
+name = "56_B6_10_x0.1_1"
+assay = "56_B6_10_x0.1_1"
+ms_run_ref = "ms_run[61]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_10_x0.1_1"
+description = "RPMM0015 sample 56_B6_10_x0.1_1"
+
+[[sample]]
+index = 62
+name = "56_B6_11_x0.1_1"
+assay = "56_B6_11_x0.1_1"
+ms_run_ref = "ms_run[62]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_11_x0.1_1"
+description = "RPMM0015 sample 56_B6_11_x0.1_1"
+
+[[sample]]
+index = 63
+name = "56_B6_12_x0.1_1"
+assay = "56_B6_12_x0.1_1"
+ms_run_ref = "ms_run[63]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_12_x0.1_1"
+description = "RPMM0015 sample 56_B6_12_x0.1_1"
+
+[[sample]]
+index = 64
+name = "56_B6_13_x0.1_1"
+assay = "56_B6_13_x0.1_1"
+ms_run_ref = "ms_run[64]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_13_x0.1_1"
+description = "RPMM0015 sample 56_B6_13_x0.1_1"
+
+[[sample]]
+index = 65
+name = "56_B6_14_x0.1_1"
+assay = "56_B6_14_x0.1_1"
+ms_run_ref = "ms_run[65]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_14_x0.1_1"
+description = "RPMM0015 sample 56_B6_14_x0.1_1"
+
+[[sample]]
+index = 66
+name = "56_B6_15_x0.1_1"
+assay = "56_B6_15_x0.1_1"
+ms_run_ref = "ms_run[66]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_15_x0.1_1"
+description = "RPMM0015 sample 56_B6_15_x0.1_1"
+
+[[sample]]
+index = 67
+name = "56_B6_16_x0.1_1"
+assay = "56_B6_16_x0.1_1"
+ms_run_ref = "ms_run[67]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_16_x0.1_1"
+description = "RPMM0015 sample 56_B6_16_x0.1_1"
+
+[[sample]]
+index = 68
+name = "56_B6_17_x0.1_1"
+assay = "56_B6_17_x0.1_1"
+ms_run_ref = "ms_run[68]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_17_x0.1_1"
+description = "RPMM0015 sample 56_B6_17_x0.1_1"
+
+[[sample]]
+index = 69
+name = "56_B6_18_x0.1_1"
+assay = "56_B6_18_x0.1_1"
+ms_run_ref = "ms_run[69]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_18_x0.1_1"
+description = "RPMM0015 sample 56_B6_18_x0.1_1"
+
+[[sample]]
+index = 70
+name = "56_B6_19_x0.1_1"
+assay = "56_B6_19_x0.1_1"
+ms_run_ref = "ms_run[70]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_19_x0.1_1"
+description = "RPMM0015 sample 56_B6_19_x0.1_1"
+
+[[sample]]
+index = 71
+name = "56_B6_1_x0.1_1"
+assay = "56_B6_1_x0.1_1"
+ms_run_ref = "ms_run[71]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_1_x0.1_1"
+description = "RPMM0015 sample 56_B6_1_x0.1_1"
+
+[[sample]]
+index = 72
+name = "56_B6_20_x0.1_1"
+assay = "56_B6_20_x0.1_1"
+ms_run_ref = "ms_run[72]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_20_x0.1_1"
+description = "RPMM0015 sample 56_B6_20_x0.1_1"
+
+[[sample]]
+index = 73
+name = "56_B6_21_x0.1_1"
+assay = "56_B6_21_x0.1_1"
+ms_run_ref = "ms_run[73]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_21_x0.1_1"
+description = "RPMM0015 sample 56_B6_21_x0.1_1"
+
+[[sample]]
+index = 74
+name = "56_B6_22_x0.1_1"
+assay = "56_B6_22_x0.1_1"
+ms_run_ref = "ms_run[74]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_22_x0.1_1"
+description = "RPMM0015 sample 56_B6_22_x0.1_1"
+
+[[sample]]
+index = 75
+name = "56_B6_23_x0.1_1"
+assay = "56_B6_23_x0.1_1"
+ms_run_ref = "ms_run[75]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_23_x0.1_1"
+description = "RPMM0015 sample 56_B6_23_x0.1_1"
+
+[[sample]]
+index = 76
+name = "56_B6_24_x0.1_1"
+assay = "56_B6_24_x0.1_1"
+ms_run_ref = "ms_run[76]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_24_x0.1_1"
+description = "RPMM0015 sample 56_B6_24_x0.1_1"
+
+[[sample]]
+index = 77
+name = "56_B6_25_x0.1_1"
+assay = "56_B6_25_x0.1_1"
+ms_run_ref = "ms_run[77]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_25_x0.1_1"
+description = "RPMM0015 sample 56_B6_25_x0.1_1"
+
+[[sample]]
+index = 78
+name = "56_B6_26_x0.1_1"
+assay = "56_B6_26_x0.1_1"
+ms_run_ref = "ms_run[78]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_26_x0.1_1"
+description = "RPMM0015 sample 56_B6_26_x0.1_1"
+
+[[sample]]
+index = 79
+name = "56_B6_27_x0.1_1"
+assay = "56_B6_27_x0.1_1"
+ms_run_ref = "ms_run[79]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_27_x0.1_1"
+description = "RPMM0015 sample 56_B6_27_x0.1_1"
+
+[[sample]]
+index = 80
+name = "56_B6_28_x0.1_1"
+assay = "56_B6_28_x0.1_1"
+ms_run_ref = "ms_run[80]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_28_x0.1_1"
+description = "RPMM0015 sample 56_B6_28_x0.1_1"
+
+[[sample]]
+index = 81
+name = "56_B6_29_x0.1_1"
+assay = "56_B6_29_x0.1_1"
+ms_run_ref = "ms_run[81]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_29_x0.1_1"
+description = "RPMM0015 sample 56_B6_29_x0.1_1"
+
+[[sample]]
+index = 82
+name = "56_B6_2_x0.1_1"
+assay = "56_B6_2_x0.1_1"
+ms_run_ref = "ms_run[82]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_2_x0.1_1"
+description = "RPMM0015 sample 56_B6_2_x0.1_1"
+
+[[sample]]
+index = 83
+name = "56_B6_30_x0.1_1"
+assay = "56_B6_30_x0.1_1"
+ms_run_ref = "ms_run[83]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_30_x0.1_1"
+description = "RPMM0015 sample 56_B6_30_x0.1_1"
+
+[[sample]]
+index = 84
+name = "56_B6_31_x0.1_1"
+assay = "56_B6_31_x0.1_1"
+ms_run_ref = "ms_run[84]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_31_x0.1_1"
+description = "RPMM0015 sample 56_B6_31_x0.1_1"
+
+[[sample]]
+index = 85
+name = "56_B6_32_x0.1_1"
+assay = "56_B6_32_x0.1_1"
+ms_run_ref = "ms_run[85]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_32_x0.1_1"
+description = "RPMM0015 sample 56_B6_32_x0.1_1"
+
+[[sample]]
+index = 86
+name = "56_B6_33_x0.1_1"
+assay = "56_B6_33_x0.1_1"
+ms_run_ref = "ms_run[86]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_33_x0.1_1"
+description = "RPMM0015 sample 56_B6_33_x0.1_1"
+
+[[sample]]
+index = 87
+name = "56_B6_34_x0.1_1"
+assay = "56_B6_34_x0.1_1"
+ms_run_ref = "ms_run[87]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_34_x0.1_1"
+description = "RPMM0015 sample 56_B6_34_x0.1_1"
+
+[[sample]]
+index = 88
+name = "56_B6_35_x0.1_1"
+assay = "56_B6_35_x0.1_1"
+ms_run_ref = "ms_run[88]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_35_x0.1_1"
+description = "RPMM0015 sample 56_B6_35_x0.1_1"
+
+[[sample]]
+index = 89
+name = "56_B6_36_x0.1_1"
+assay = "56_B6_36_x0.1_1"
+ms_run_ref = "ms_run[89]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_36_x0.1_1"
+description = "RPMM0015 sample 56_B6_36_x0.1_1"
+
+[[sample]]
+index = 90
+name = "56_B6_37_x0.1_1"
+assay = "56_B6_37_x0.1_1"
+ms_run_ref = "ms_run[90]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_37_x0.1_1"
+description = "RPMM0015 sample 56_B6_37_x0.1_1"
+
+[[sample]]
+index = 91
+name = "56_B6_38_x0.1_1"
+assay = "56_B6_38_x0.1_1"
+ms_run_ref = "ms_run[91]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_38_x0.1_1"
+description = "RPMM0015 sample 56_B6_38_x0.1_1"
+
+[[sample]]
+index = 92
+name = "56_B6_39_x0.1_1"
+assay = "56_B6_39_x0.1_1"
+ms_run_ref = "ms_run[92]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_39_x0.1_1"
+description = "RPMM0015 sample 56_B6_39_x0.1_1"
+
+[[sample]]
+index = 93
+name = "56_B6_3_x0.1_1"
+assay = "56_B6_3_x0.1_1"
+ms_run_ref = "ms_run[93]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_3_x0.1_1"
+description = "RPMM0015 sample 56_B6_3_x0.1_1"
+
+[[sample]]
+index = 94
+name = "56_B6_40_x0.1_1"
+assay = "56_B6_40_x0.1_1"
+ms_run_ref = "ms_run[94]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_40_x0.1_1"
+description = "RPMM0015 sample 56_B6_40_x0.1_1"
+
+[[sample]]
+index = 95
+name = "56_B6_41_x0.1_1"
+assay = "56_B6_41_x0.1_1"
+ms_run_ref = "ms_run[95]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_41_x0.1_1"
+description = "RPMM0015 sample 56_B6_41_x0.1_1"
+
+[[sample]]
+index = 96
+name = "56_B6_42_x0.1_1"
+assay = "56_B6_42_x0.1_1"
+ms_run_ref = "ms_run[96]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_42_x0.1_1"
+description = "RPMM0015 sample 56_B6_42_x0.1_1"
+
+[[sample]]
+index = 97
+name = "56_B6_43_x0.1_1"
+assay = "56_B6_43_x0.1_1"
+ms_run_ref = "ms_run[97]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_43_x0.1_1"
+description = "RPMM0015 sample 56_B6_43_x0.1_1"
+
+[[sample]]
+index = 98
+name = "56_B6_44_x0.1_1"
+assay = "56_B6_44_x0.1_1"
+ms_run_ref = "ms_run[98]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_44_x0.1_1"
+description = "RPMM0015 sample 56_B6_44_x0.1_1"
+
+[[sample]]
+index = 99
+name = "56_B6_45_x0.1_1"
+assay = "56_B6_45_x0.1_1"
+ms_run_ref = "ms_run[99]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_45_x0.1_1"
+description = "RPMM0015 sample 56_B6_45_x0.1_1"
+
+[[sample]]
+index = 100
+name = "56_B6_46_x0.1_1"
+assay = "56_B6_46_x0.1_1"
+ms_run_ref = "ms_run[100]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_46_x0.1_1"
+description = "RPMM0015 sample 56_B6_46_x0.1_1"
+
+[[sample]]
+index = 101
+name = "56_B6_47_x0.1_1"
+assay = "56_B6_47_x0.1_1"
+ms_run_ref = "ms_run[101]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_47_x0.1_1"
+description = "RPMM0015 sample 56_B6_47_x0.1_1"
+
+[[sample]]
+index = 102
+name = "56_B6_48_x0.1_1"
+assay = "56_B6_48_x0.1_1"
+ms_run_ref = "ms_run[102]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_48_x0.1_1"
+description = "RPMM0015 sample 56_B6_48_x0.1_1"
+
+[[sample]]
+index = 103
+name = "56_B6_49_x0.1_1"
+assay = "56_B6_49_x0.1_1"
+ms_run_ref = "ms_run[103]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_49_x0.1_1"
+description = "RPMM0015 sample 56_B6_49_x0.1_1"
+
+[[sample]]
+index = 104
+name = "56_B6_4_x0.1_1"
+assay = "56_B6_4_x0.1_1"
+ms_run_ref = "ms_run[104]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_4_x0.1_1"
+description = "RPMM0015 sample 56_B6_4_x0.1_1"
+
+[[sample]]
+index = 105
+name = "56_B6_50_x0.1_1"
+assay = "56_B6_50_x0.1_1"
+ms_run_ref = "ms_run[105]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_50_x0.1_1"
+description = "RPMM0015 sample 56_B6_50_x0.1_1"
+
+[[sample]]
+index = 106
+name = "56_B6_51_x0.1_1"
+assay = "56_B6_51_x0.1_1"
+ms_run_ref = "ms_run[106]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_51_x0.1_1"
+description = "RPMM0015 sample 56_B6_51_x0.1_1"
+
+[[sample]]
+index = 107
+name = "56_B6_52_x0.1_1"
+assay = "56_B6_52_x0.1_1"
+ms_run_ref = "ms_run[107]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_52_x0.1_1"
+description = "RPMM0015 sample 56_B6_52_x0.1_1"
+
+[[sample]]
+index = 108
+name = "56_B6_53_x0.1_1"
+assay = "56_B6_53_x0.1_1"
+ms_run_ref = "ms_run[108]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_53_x0.1_1"
+description = "RPMM0015 sample 56_B6_53_x0.1_1"
+
+[[sample]]
+index = 109
+name = "56_B6_54_x0.1_1"
+assay = "56_B6_54_x0.1_1"
+ms_run_ref = "ms_run[109]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_54_x0.1_1"
+description = "RPMM0015 sample 56_B6_54_x0.1_1"
+
+[[sample]]
+index = 110
+name = "56_B6_55_x0.1_1"
+assay = "56_B6_55_x0.1_1"
+ms_run_ref = "ms_run[110]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_55_x0.1_1"
+description = "RPMM0015 sample 56_B6_55_x0.1_1"
+
+[[sample]]
+index = 111
+name = "56_B6_56_x0.1_1"
+assay = "56_B6_56_x0.1_1"
+ms_run_ref = "ms_run[111]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_56_x0.1_1"
+description = "RPMM0015 sample 56_B6_56_x0.1_1"
+
+[[sample]]
+index = 112
+name = "56_B6_57_x0.1_1"
+assay = "56_B6_57_x0.1_1"
+ms_run_ref = "ms_run[112]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_57_x0.1_1"
+description = "RPMM0015 sample 56_B6_57_x0.1_1"
+
+[[sample]]
+index = 113
+name = "56_B6_59_x0.1_1"
+assay = "56_B6_59_x0.1_1"
+ms_run_ref = "ms_run[113]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_59_x0.1_1"
+description = "RPMM0015 sample 56_B6_59_x0.1_1"
+
+[[sample]]
+index = 114
+name = "56_B6_5_x0.1_1"
+assay = "56_B6_5_x0.1_1"
+ms_run_ref = "ms_run[114]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_5_x0.1_1"
+description = "RPMM0015 sample 56_B6_5_x0.1_1"
+
+[[sample]]
+index = 115
+name = "56_B6_60_x0.1_1"
+assay = "56_B6_60_x0.1_1"
+ms_run_ref = "ms_run[115]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_60_x0.1_1"
+description = "RPMM0015 sample 56_B6_60_x0.1_1"
+
+[[sample]]
+index = 116
+name = "56_B6_61_x0.1_1"
+assay = "56_B6_61_x0.1_1"
+ms_run_ref = "ms_run[116]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_61_x0.1_1"
+description = "RPMM0015 sample 56_B6_61_x0.1_1"
+
+[[sample]]
+index = 117
+name = "56_B6_62_x0.1_1"
+assay = "56_B6_62_x0.1_1"
+ms_run_ref = "ms_run[117]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_62_x0.1_1"
+description = "RPMM0015 sample 56_B6_62_x0.1_1"
+
+[[sample]]
+index = 118
+name = "56_B6_63_x0.1_1"
+assay = "56_B6_63_x0.1_1"
+ms_run_ref = "ms_run[118]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_63_x0.1_1"
+description = "RPMM0015 sample 56_B6_63_x0.1_1"
+
+[[sample]]
+index = 119
+name = "56_B6_64_x0.1_1"
+assay = "56_B6_64_x0.1_1"
+ms_run_ref = "ms_run[119]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_64_x0.1_1"
+description = "RPMM0015 sample 56_B6_64_x0.1_1"
+
+[[sample]]
+index = 120
+name = "56_B6_65_x0.1_1"
+assay = "56_B6_65_x0.1_1"
+ms_run_ref = "ms_run[120]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_65_x0.1_1"
+description = "RPMM0015 sample 56_B6_65_x0.1_1"
+
+[[sample]]
+index = 121
+name = "56_B6_6_x0.1_1"
+assay = "56_B6_6_x0.1_1"
+ms_run_ref = "ms_run[121]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_6_x0.1_1"
+description = "RPMM0015 sample 56_B6_6_x0.1_1"
+
+[[sample]]
+index = 122
+name = "56_B6_6_x0.1_1"
+assay = "56_B6_6_x0.1_1"
+ms_run_ref = "ms_run[122]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_6_x0.1_1"
+description = "RPMM0015 sample 56_B6_6_x0.1_1"
+
+[[sample]]
+index = 123
+name = "56_B6_7_x0.1_1"
+assay = "56_B6_7_x0.1_1"
+ms_run_ref = "ms_run[123]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_7_x0.1_1"
+description = "RPMM0015 sample 56_B6_7_x0.1_1"
+
+[[sample]]
+index = 124
+name = "56_B6_8_x0.1_1"
+assay = "56_B6_8_x0.1_1"
+ms_run_ref = "ms_run[124]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_8_x0.1_1"
+description = "RPMM0015 sample 56_B6_8_x0.1_1"
+
+[[sample]]
+index = 125
+name = "56_B6_9_x0.1_1"
+assay = "56_B6_9_x0.1_1"
+ms_run_ref = "ms_run[125]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#56_B6_9_x0.1_1"
+description = "RPMM0015 sample 56_B6_9_x0.1_1"
+
+[[sample]]
+index = 126
+name = "7C_14_03_x0.1_1"
+assay = "7C_14_03_x0.1_1"
+ms_run_ref = "ms_run[126]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_03_x0.1_1"
+description = "RPMM0015 sample 7C_14_03_x0.1_1"
+
+[[sample]]
+index = 127
+name = "7C_14_05_x0.1_1"
+assay = "7C_14_05_x0.1_1"
+ms_run_ref = "ms_run[127]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_05_x0.1_1"
+description = "RPMM0015 sample 7C_14_05_x0.1_1"
+
+[[sample]]
+index = 128
+name = "7C_14_10_x0.1_1"
+assay = "7C_14_10_x0.1_1"
+ms_run_ref = "ms_run[128]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_10_x0.1_1"
+description = "RPMM0015 sample 7C_14_10_x0.1_1"
+
+[[sample]]
+index = 129
+name = "7C_14_12_x0.1_1"
+assay = "7C_14_12_x0.1_1"
+ms_run_ref = "ms_run[129]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_12_x0.1_1"
+description = "RPMM0015 sample 7C_14_12_x0.1_1"
+
+[[sample]]
+index = 130
+name = "7C_14_13_x0.1_1"
+assay = "7C_14_13_x0.1_1"
+ms_run_ref = "ms_run[130]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_13_x0.1_1"
+description = "RPMM0015 sample 7C_14_13_x0.1_1"
+
+[[sample]]
+index = 131
+name = "7C_14_14_x0.1_1"
+assay = "7C_14_14_x0.1_1"
+ms_run_ref = "ms_run[131]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_14_x0.1_1"
+description = "RPMM0015 sample 7C_14_14_x0.1_1"
+
+[[sample]]
+index = 132
+name = "7C_14_15_x0.1_1"
+assay = "7C_14_15_x0.1_1"
+ms_run_ref = "ms_run[132]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_15_x0.1_1"
+description = "RPMM0015 sample 7C_14_15_x0.1_1"
+
+[[sample]]
+index = 133
+name = "7C_14_16_x0.1_1"
+assay = "7C_14_16_x0.1_1"
+ms_run_ref = "ms_run[133]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_16_x0.1_1"
+description = "RPMM0015 sample 7C_14_16_x0.1_1"
+
+[[sample]]
+index = 134
+name = "7C_14_17_x0.1_1"
+assay = "7C_14_17_x0.1_1"
+ms_run_ref = "ms_run[134]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_17_x0.1_1"
+description = "RPMM0015 sample 7C_14_17_x0.1_1"
+
+[[sample]]
+index = 135
+name = "7C_14_18_x0.1_1"
+assay = "7C_14_18_x0.1_1"
+ms_run_ref = "ms_run[135]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_18_x0.1_1"
+description = "RPMM0015 sample 7C_14_18_x0.1_1"
+
+[[sample]]
+index = 136
+name = "7C_14_19_x0.1_1"
+assay = "7C_14_19_x0.1_1"
+ms_run_ref = "ms_run[136]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_19_x0.1_1"
+description = "RPMM0015 sample 7C_14_19_x0.1_1"
+
+[[sample]]
+index = 137
+name = "7C_14_1_x0.1_1"
+assay = "7C_14_1_x0.1_1"
+ms_run_ref = "ms_run[137]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_1_x0.1_1"
+description = "RPMM0015 sample 7C_14_1_x0.1_1"
+
+[[sample]]
+index = 138
+name = "7C_14_20_x0.1_1"
+assay = "7C_14_20_x0.1_1"
+ms_run_ref = "ms_run[138]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_20_x0.1_1"
+description = "RPMM0015 sample 7C_14_20_x0.1_1"
+
+[[sample]]
+index = 139
+name = "7C_14_21_x0.1_1"
+assay = "7C_14_21_x0.1_1"
+ms_run_ref = "ms_run[139]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_21_x0.1_1"
+description = "RPMM0015 sample 7C_14_21_x0.1_1"
+
+[[sample]]
+index = 140
+name = "7C_14_22_x0.1_1"
+assay = "7C_14_22_x0.1_1"
+ms_run_ref = "ms_run[140]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_22_x0.1_1"
+description = "RPMM0015 sample 7C_14_22_x0.1_1"
+
+[[sample]]
+index = 141
+name = "7C_14_23_x0.1_1"
+assay = "7C_14_23_x0.1_1"
+ms_run_ref = "ms_run[141]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_23_x0.1_1"
+description = "RPMM0015 sample 7C_14_23_x0.1_1"
+
+[[sample]]
+index = 142
+name = "7C_14_24_x0.1_1"
+assay = "7C_14_24_x0.1_1"
+ms_run_ref = "ms_run[142]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_24_x0.1_1"
+description = "RPMM0015 sample 7C_14_24_x0.1_1"
+
+[[sample]]
+index = 143
+name = "7C_14_25_x0.1_1"
+assay = "7C_14_25_x0.1_1"
+ms_run_ref = "ms_run[143]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_25_x0.1_1"
+description = "RPMM0015 sample 7C_14_25_x0.1_1"
+
+[[sample]]
+index = 144
+name = "7C_14_26_x0.1_1"
+assay = "7C_14_26_x0.1_1"
+ms_run_ref = "ms_run[144]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_26_x0.1_1"
+description = "RPMM0015 sample 7C_14_26_x0.1_1"
+
+[[sample]]
+index = 145
+name = "7C_14_27_x0.1_1"
+assay = "7C_14_27_x0.1_1"
+ms_run_ref = "ms_run[145]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_27_x0.1_1"
+description = "RPMM0015 sample 7C_14_27_x0.1_1"
+
+[[sample]]
+index = 146
+name = "7C_14_28_x0.1_1"
+assay = "7C_14_28_x0.1_1"
+ms_run_ref = "ms_run[146]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_28_x0.1_1"
+description = "RPMM0015 sample 7C_14_28_x0.1_1"
+
+[[sample]]
+index = 147
+name = "7C_14_29_x0.1_1"
+assay = "7C_14_29_x0.1_1"
+ms_run_ref = "ms_run[147]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_29_x0.1_1"
+description = "RPMM0015 sample 7C_14_29_x0.1_1"
+
+[[sample]]
+index = 148
+name = "7C_14_2_x0.1_1"
+assay = "7C_14_2_x0.1_1"
+ms_run_ref = "ms_run[148]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_2_x0.1_1"
+description = "RPMM0015 sample 7C_14_2_x0.1_1"
+
+[[sample]]
+index = 149
+name = "7C_14_30_x0.1_1"
+assay = "7C_14_30_x0.1_1"
+ms_run_ref = "ms_run[149]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_30_x0.1_1"
+description = "RPMM0015 sample 7C_14_30_x0.1_1"
+
+[[sample]]
+index = 150
+name = "7C_14_31_x0.1_1"
+assay = "7C_14_31_x0.1_1"
+ms_run_ref = "ms_run[150]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_31_x0.1_1"
+description = "RPMM0015 sample 7C_14_31_x0.1_1"
+
+[[sample]]
+index = 151
+name = "7C_14_32_x0.1_1"
+assay = "7C_14_32_x0.1_1"
+ms_run_ref = "ms_run[151]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_32_x0.1_1"
+description = "RPMM0015 sample 7C_14_32_x0.1_1"
+
+[[sample]]
+index = 152
+name = "7C_14_33_x0.1_1"
+assay = "7C_14_33_x0.1_1"
+ms_run_ref = "ms_run[152]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_33_x0.1_1"
+description = "RPMM0015 sample 7C_14_33_x0.1_1"
+
+[[sample]]
+index = 153
+name = "7C_14_34_x0.1_1"
+assay = "7C_14_34_x0.1_1"
+ms_run_ref = "ms_run[153]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_34_x0.1_1"
+description = "RPMM0015 sample 7C_14_34_x0.1_1"
+
+[[sample]]
+index = 154
+name = "7C_14_35_x0.1_1"
+assay = "7C_14_35_x0.1_1"
+ms_run_ref = "ms_run[154]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_35_x0.1_1"
+description = "RPMM0015 sample 7C_14_35_x0.1_1"
+
+[[sample]]
+index = 155
+name = "7C_14_36_x0.1_1"
+assay = "7C_14_36_x0.1_1"
+ms_run_ref = "ms_run[155]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_36_x0.1_1"
+description = "RPMM0015 sample 7C_14_36_x0.1_1"
+
+[[sample]]
+index = 156
+name = "7C_14_37_x0.1_1"
+assay = "7C_14_37_x0.1_1"
+ms_run_ref = "ms_run[156]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_37_x0.1_1"
+description = "RPMM0015 sample 7C_14_37_x0.1_1"
+
+[[sample]]
+index = 157
+name = "7C_14_38_x0.1_1"
+assay = "7C_14_38_x0.1_1"
+ms_run_ref = "ms_run[157]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_38_x0.1_1"
+description = "RPMM0015 sample 7C_14_38_x0.1_1"
+
+[[sample]]
+index = 158
+name = "7C_14_39_x0.1_1"
+assay = "7C_14_39_x0.1_1"
+ms_run_ref = "ms_run[158]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_39_x0.1_1"
+description = "RPMM0015 sample 7C_14_39_x0.1_1"
+
+[[sample]]
+index = 159
+name = "7C_14_40_x0.1_1"
+assay = "7C_14_40_x0.1_1"
+ms_run_ref = "ms_run[159]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_40_x0.1_1"
+description = "RPMM0015 sample 7C_14_40_x0.1_1"
+
+[[sample]]
+index = 160
+name = "7C_14_41_x0.1_1"
+assay = "7C_14_41_x0.1_1"
+ms_run_ref = "ms_run[160]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_41_x0.1_1"
+description = "RPMM0015 sample 7C_14_41_x0.1_1"
+
+[[sample]]
+index = 161
+name = "7C_14_42_x0.1_1"
+assay = "7C_14_42_x0.1_1"
+ms_run_ref = "ms_run[161]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_42_x0.1_1"
+description = "RPMM0015 sample 7C_14_42_x0.1_1"
+
+[[sample]]
+index = 162
+name = "7C_14_43_x0.1_1"
+assay = "7C_14_43_x0.1_1"
+ms_run_ref = "ms_run[162]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_43_x0.1_1"
+description = "RPMM0015 sample 7C_14_43_x0.1_1"
+
+[[sample]]
+index = 163
+name = "7C_14_44_x0.1_1"
+assay = "7C_14_44_x0.1_1"
+ms_run_ref = "ms_run[163]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_44_x0.1_1"
+description = "RPMM0015 sample 7C_14_44_x0.1_1"
+
+[[sample]]
+index = 164
+name = "7C_14_45_x0.1_1"
+assay = "7C_14_45_x0.1_1"
+ms_run_ref = "ms_run[164]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_45_x0.1_1"
+description = "RPMM0015 sample 7C_14_45_x0.1_1"
+
+[[sample]]
+index = 165
+name = "7C_14_46_x0.1_1"
+assay = "7C_14_46_x0.1_1"
+ms_run_ref = "ms_run[165]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_46_x0.1_1"
+description = "RPMM0015 sample 7C_14_46_x0.1_1"
+
+[[sample]]
+index = 166
+name = "7C_14_47_x0.1_1"
+assay = "7C_14_47_x0.1_1"
+ms_run_ref = "ms_run[166]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_47_x0.1_1"
+description = "RPMM0015 sample 7C_14_47_x0.1_1"
+
+[[sample]]
+index = 167
+name = "7C_14_48_x0.1_1"
+assay = "7C_14_48_x0.1_1"
+ms_run_ref = "ms_run[167]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_48_x0.1_1"
+description = "RPMM0015 sample 7C_14_48_x0.1_1"
+
+[[sample]]
+index = 168
+name = "7C_14_49_x0.1_1"
+assay = "7C_14_49_x0.1_1"
+ms_run_ref = "ms_run[168]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_49_x0.1_1"
+description = "RPMM0015 sample 7C_14_49_x0.1_1"
+
+[[sample]]
+index = 169
+name = "7C_14_4_x0.1_1"
+assay = "7C_14_4_x0.1_1"
+ms_run_ref = "ms_run[169]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_4_x0.1_1"
+description = "RPMM0015 sample 7C_14_4_x0.1_1"
+
+[[sample]]
+index = 170
+name = "7C_14_50_x0.1_1"
+assay = "7C_14_50_x0.1_1"
+ms_run_ref = "ms_run[170]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_50_x0.1_1"
+description = "RPMM0015 sample 7C_14_50_x0.1_1"
+
+[[sample]]
+index = 171
+name = "7C_14_6_x0.1_1"
+assay = "7C_14_6_x0.1_1"
+ms_run_ref = "ms_run[171]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_6_x0.1_1"
+description = "RPMM0015 sample 7C_14_6_x0.1_1"
+
+[[sample]]
+index = 172
+name = "7C_14_7_x0.1_1"
+assay = "7C_14_7_x0.1_1"
+ms_run_ref = "ms_run[172]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_7_x0.1_1"
+description = "RPMM0015 sample 7C_14_7_x0.1_1"
+
+[[sample]]
+index = 173
+name = "7C_14_8_x0.1_1"
+assay = "7C_14_8_x0.1_1"
+ms_run_ref = "ms_run[173]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_8_x0.1_1"
+description = "RPMM0015 sample 7C_14_8_x0.1_1"
+
+[[sample]]
+index = 174
+name = "7C_14_9_x0.1_1"
+assay = "7C_14_9_x0.1_1"
+ms_run_ref = "ms_run[174]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#7C_14_9_x0.1_1"
+description = "RPMM0015 sample 7C_14_9_x0.1_1"
+
+[[sample]]
+index = 175
+name = "WT_10_x0.1_1"
+assay = "WT_10_x0.1_1"
+ms_run_ref = "ms_run[175]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_10_x0.1_1"
+description = "RPMM0015 sample WT_10_x0.1_1"
+
+[[sample]]
+index = 176
+name = "WT_11_x0.1_1"
+assay = "WT_11_x0.1_1"
+ms_run_ref = "ms_run[176]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_11_x0.1_1"
+description = "RPMM0015 sample WT_11_x0.1_1"
+
+[[sample]]
+index = 177
+name = "WT_12_x0.1_1"
+assay = "WT_12_x0.1_1"
+ms_run_ref = "ms_run[177]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_12_x0.1_1"
+description = "RPMM0015 sample WT_12_x0.1_1"
+
+[[sample]]
+index = 178
+name = "WT_13_x0.1_1"
+assay = "WT_13_x0.1_1"
+ms_run_ref = "ms_run[178]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_13_x0.1_1"
+description = "RPMM0015 sample WT_13_x0.1_1"
+
+[[sample]]
+index = 179
+name = "WT_14_x0.1_1"
+assay = "WT_14_x0.1_1"
+ms_run_ref = "ms_run[179]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_14_x0.1_1"
+description = "RPMM0015 sample WT_14_x0.1_1"
+
+[[sample]]
+index = 180
+name = "WT_15_x0.1_1"
+assay = "WT_15_x0.1_1"
+ms_run_ref = "ms_run[180]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_15_x0.1_1"
+description = "RPMM0015 sample WT_15_x0.1_1"
+
+[[sample]]
+index = 181
+name = "WT_16_x0.1_1"
+assay = "WT_16_x0.1_1"
+ms_run_ref = "ms_run[181]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_16_x0.1_1"
+description = "RPMM0015 sample WT_16_x0.1_1"
+
+[[sample]]
+index = 182
+name = "WT_17_x0.1_1"
+assay = "WT_17_x0.1_1"
+ms_run_ref = "ms_run[182]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_17_x0.1_1"
+description = "RPMM0015 sample WT_17_x0.1_1"
+
+[[sample]]
+index = 183
+name = "WT_18_x0.1_1"
+assay = "WT_18_x0.1_1"
+ms_run_ref = "ms_run[183]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_18_x0.1_1"
+description = "RPMM0015 sample WT_18_x0.1_1"
+
+[[sample]]
+index = 184
+name = "WT_19_x0.1_1"
+assay = "WT_19_x0.1_1"
+ms_run_ref = "ms_run[184]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_19_x0.1_1"
+description = "RPMM0015 sample WT_19_x0.1_1"
+
+[[sample]]
+index = 185
+name = "WT_1_x0.1_1"
+assay = "WT_1_x0.1_1"
+ms_run_ref = "ms_run[185]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_1_x0.1_1"
+description = "RPMM0015 sample WT_1_x0.1_1"
+
+[[sample]]
+index = 186
+name = "WT_20_x0.1_1"
+assay = "WT_20_x0.1_1"
+ms_run_ref = "ms_run[186]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_20_x0.1_1"
+description = "RPMM0015 sample WT_20_x0.1_1"
+
+[[sample]]
+index = 187
+name = "WT_21_x0.1_1"
+assay = "WT_21_x0.1_1"
+ms_run_ref = "ms_run[187]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_21_x0.1_1"
+description = "RPMM0015 sample WT_21_x0.1_1"
+
+[[sample]]
+index = 188
+name = "WT_22_x0.1_1"
+assay = "WT_22_x0.1_1"
+ms_run_ref = "ms_run[188]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_22_x0.1_1"
+description = "RPMM0015 sample WT_22_x0.1_1"
+
+[[sample]]
+index = 189
+name = "WT_23_x0.1_1"
+assay = "WT_23_x0.1_1"
+ms_run_ref = "ms_run[189]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_23_x0.1_1"
+description = "RPMM0015 sample WT_23_x0.1_1"
+
+[[sample]]
+index = 190
+name = "WT_2_x0.1_1"
+assay = "WT_2_x0.1_1"
+ms_run_ref = "ms_run[190]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_2_x0.1_1"
+description = "RPMM0015 sample WT_2_x0.1_1"
+
+[[sample]]
+index = 191
+name = "WT_3_x0.1_1"
+assay = "WT_3_x0.1_1"
+ms_run_ref = "ms_run[191]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_3_x0.1_1"
+description = "RPMM0015 sample WT_3_x0.1_1"
+
+[[sample]]
+index = 192
+name = "WT_4_x0.1_1"
+assay = "WT_4_x0.1_1"
+ms_run_ref = "ms_run[192]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_4_x0.1_1"
+description = "RPMM0015 sample WT_4_x0.1_1"
+
+[[sample]]
+index = 193
+name = "WT_5_x0.1_1"
+assay = "WT_5_x0.1_1"
+ms_run_ref = "ms_run[193]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_5_x0.1_1"
+description = "RPMM0015 sample WT_5_x0.1_1"
+
+[[sample]]
+index = 194
+name = "WT_6_x0.1_1"
+assay = "WT_6_x0.1_1"
+ms_run_ref = "ms_run[194]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_6_x0.1_1"
+description = "RPMM0015 sample WT_6_x0.1_1"
+
+[[sample]]
+index = 195
+name = "WT_7_x0.1_1"
+assay = "WT_7_x0.1_1"
+ms_run_ref = "ms_run[195]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_7_x0.1_1"
+description = "RPMM0015 sample WT_7_x0.1_1"
+
+[[sample]]
+index = 196
+name = "WT_8_x0.1_1"
+assay = "WT_8_x0.1_1"
+ms_run_ref = "ms_run[196]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_8_x0.1_1"
+description = "RPMM0015 sample WT_8_x0.1_1"
+
+[[sample]]
+index = 197
+name = "WT_9_x0.1_1"
+assay = "WT_9_x0.1_1"
+ms_run_ref = "ms_run[197]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#WT_9_x0.1_1"
+description = "RPMM0015 sample WT_9_x0.1_1"
+
+[[sample]]
+index = 198
+name = "cont_1_x0.1_1"
+assay = "cont_1_x0.1_1"
+ms_run_ref = "ms_run[198]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#cont_1_x0.1_1"
+description = "RPMM0015 sample cont_1_x0.1_1"
+
+[[sample]]
+index = 199
+name = "cont_2_x0.1_1"
+assay = "cont_2_x0.1_1"
+ms_run_ref = "ms_run[199]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#cont_2_x0.1_1"
+description = "RPMM0015 sample cont_2_x0.1_1"
+
+[[sample]]
+index = 200
+name = "cont_3_x0.1_1"
+assay = "cont_3_x0.1_1"
+ms_run_ref = "ms_run[200]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#cont_3_x0.1_1"
+description = "RPMM0015 sample cont_3_x0.1_1"
+
+[[sample]]
+index = 201
+name = "cont_4_x0.1_1"
+assay = "cont_4_x0.1_1"
+ms_run_ref = "ms_run[201]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#cont_4_x0.1_1"
+description = "RPMM0015 sample cont_4_x0.1_1"
+
+[[sample]]
+index = 202
+name = "cont_5_x0.1_1"
+assay = "cont_5_x0.1_1"
+ms_run_ref = "ms_run[202]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#cont_5_x0.1_1"
+description = "RPMM0015 sample cont_5_x0.1_1"
+
+[[sample]]
+index = 203
+name = "cont_6_x0.1_1"
+assay = "cont_6_x0.1_1"
+ms_run_ref = "ms_run[203]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#cont_6_x0.1_1"
+description = "RPMM0015 sample cont_6_x0.1_1"
+
+[[sample]]
+index = 204
+name = "cont_7_x0.1_1"
+assay = "cont_7_x0.1_1"
+ms_run_ref = "ms_run[204]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#cont_7_x0.1_1"
+description = "RPMM0015 sample cont_7_x0.1_1"
+
+[[sample]]
+index = 205
+name = "cont_8_x0.1_1"
+assay = "cont_8_x0.1_1"
+ms_run_ref = "ms_run[205]"
+location = "http://metabobank.riken.jp/data/RPMM0015/DatasetI/AnalysedDataset/tm1st_di_withoutSTD_ACMABSmk_IS.txt#cont_8_x0.1_1"
+description = "RPMM0015 sample cont_8_x0.1_1"
+
+[study_variables]
+candidate_columns = [
+    "batch",
+    "treatment",
+    "genotype",
+]
+
+[study_variables.levels]
+batch = []
+treatment = []
+genotype = []

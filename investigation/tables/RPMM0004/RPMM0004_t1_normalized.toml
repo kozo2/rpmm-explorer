@@ -1,0 +1,674 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0004"
+title = "Unbiased profiling of volatile organic compounds in the headspace of <i>Allium</i> plants using an in‑tube extraction device"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0004"
+
+[matrix]
+name = "t1_normalized"
+source_file = "RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt"
+format = "tsv"
+n_features = 296
+n_samples = 30
+metadata_columns = [
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+    "fData::lineno",
+    "fData::query",
+    "fData::known",
+    "fData::cas",
+    "fData::preferred",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0004/ITEX_and_SPME/AnalysedDataset/phenodata.csv"
+msp = "RPMM0004/ITEX_and_SPME/AnalysedDataset/121116_NEGITEX_SPME_nist.txt"
+
+[organism]
+raw = "Allium plants"
+cv = ""
+source = "msp:121105NEGITEXPeg3_nist.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "DD01_itex"
+assay = "DD01_itex"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD01_itex"
+description = "RPMM0004 sample DD01_itex"
+dd_pmol = "2.5pmol"
+dd_usedvolume_ul = "10"
+hs_device = "itex"
+matlabname = "Dipropyl_disulfide_01_ITEX_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "0.25"
+gcid = "DD01_itex"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 2
+name = "DD01_SPMEpink"
+assay = "DD01_SPMEpink"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD01_SPMEpink"
+description = "RPMM0004 sample DD01_SPMEpink"
+dd_pmol = "2.5pmol"
+dd_usedvolume_ul = "10"
+hs_device = "SPME"
+matlabname = "Dipropyl_disulfide_01_SPME_pink_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "0.25"
+gcid = "DD01_SPMEpink"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 3
+name = "DD02_itex"
+assay = "DD02_itex"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD02_itex"
+description = "RPMM0004 sample DD02_itex"
+dd_pmol = "2.5pmol"
+dd_usedvolume_ul = "10"
+hs_device = "itex"
+matlabname = "Dipropyl_disulfide_02_ITEX_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "0.25"
+gcid = "DD02_itex"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 4
+name = "DD02_SPMEpink"
+assay = "DD02_SPMEpink"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD02_SPMEpink"
+description = "RPMM0004 sample DD02_SPMEpink"
+dd_pmol = "2.5pmol"
+dd_usedvolume_ul = "10"
+hs_device = "SPME"
+matlabname = "Dipropyl_disulfide_02_SPME_pink_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "0.25"
+gcid = "DD02_SPMEpink"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 5
+name = "DD03_itex"
+assay = "DD03_itex"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD03_itex"
+description = "RPMM0004 sample DD03_itex"
+dd_pmol = "2.5pmol"
+dd_usedvolume_ul = "10"
+hs_device = "itex"
+matlabname = "Dipropyl_disulfide_03_ITEX_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "0.25"
+gcid = "DD03_itex"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 6
+name = "DD03_SPMEpink"
+assay = "DD03_SPMEpink"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD03_SPMEpink"
+description = "RPMM0004 sample DD03_SPMEpink"
+dd_pmol = "2.5pmol"
+dd_usedvolume_ul = "10"
+hs_device = "SPME"
+matlabname = "Dipropyl_disulfide_03_SPME_pink_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "0.25"
+gcid = "DD03_SPMEpink"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 7
+name = "DD04_itex"
+assay = "DD04_itex"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD04_itex"
+description = "RPMM0004 sample DD04_itex"
+dd_pmol = "25pmol"
+dd_usedvolume_ul = "10"
+hs_device = "itex"
+matlabname = "Dipropyl_disulfide_04_ITEX_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "2.5"
+gcid = "DD04_itex"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 8
+name = "DD04_SPMEpink"
+assay = "DD04_SPMEpink"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD04_SPMEpink"
+description = "RPMM0004 sample DD04_SPMEpink"
+dd_pmol = "25pmol"
+dd_usedvolume_ul = "10"
+hs_device = "SPME"
+matlabname = "Dipropyl_disulfide_04_SPME_pink_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "2.5"
+gcid = "DD04_SPMEpink"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 9
+name = "DD05_itex"
+assay = "DD05_itex"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD05_itex"
+description = "RPMM0004 sample DD05_itex"
+dd_pmol = "25pmol"
+dd_usedvolume_ul = "10"
+hs_device = "itex"
+matlabname = "Dipropyl_disulfide_05_ITEX_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "2.5"
+gcid = "DD05_itex"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 10
+name = "DD05_SPMEpink"
+assay = "DD05_SPMEpink"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD05_SPMEpink"
+description = "RPMM0004 sample DD05_SPMEpink"
+dd_pmol = "25pmol"
+dd_usedvolume_ul = "10"
+hs_device = "SPME"
+matlabname = "Dipropyl_disulfide_05_SPME_pink_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "2.5"
+gcid = "DD05_SPMEpink"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 11
+name = "DD06_itex"
+assay = "DD06_itex"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD06_itex"
+description = "RPMM0004 sample DD06_itex"
+dd_pmol = "25pmol"
+dd_usedvolume_ul = "10"
+hs_device = "itex"
+matlabname = "Dipropyl_disulfide_06_ITEX_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "2.5"
+gcid = "DD06_itex"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 12
+name = "DD06_SPMEpink"
+assay = "DD06_SPMEpink"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD06_SPMEpink"
+description = "RPMM0004 sample DD06_SPMEpink"
+dd_pmol = "25pmol"
+dd_usedvolume_ul = "10"
+hs_device = "SPME"
+matlabname = "Dipropyl_disulfide_06_SPME_pink_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "2.5"
+gcid = "DD06_SPMEpink"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 13
+name = "DD07_itex"
+assay = "DD07_itex"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD07_itex"
+description = "RPMM0004 sample DD07_itex"
+dd_pmol = "250pmol"
+dd_usedvolume_ul = "10"
+hs_device = "itex"
+matlabname = "Dipropyl_disulfide_07_ITEX_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "25"
+gcid = "DD07_itex"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 14
+name = "DD07_SPMEpink"
+assay = "DD07_SPMEpink"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD07_SPMEpink"
+description = "RPMM0004 sample DD07_SPMEpink"
+dd_pmol = "250pmol"
+dd_usedvolume_ul = "10"
+hs_device = "SPME"
+matlabname = "Dipropyl_disulfide_07_SPME_pink_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "25"
+gcid = "DD07_SPMEpink"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 15
+name = "DD08_itex"
+assay = "DD08_itex"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD08_itex"
+description = "RPMM0004 sample DD08_itex"
+dd_pmol = "250pmol"
+dd_usedvolume_ul = "10"
+hs_device = "itex"
+matlabname = "Dipropyl_disulfide_08_ITEX_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "25"
+gcid = "DD08_itex"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 16
+name = "DD08_SPMEpink"
+assay = "DD08_SPMEpink"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD08_SPMEpink"
+description = "RPMM0004 sample DD08_SPMEpink"
+dd_pmol = "250pmol"
+dd_usedvolume_ul = "10"
+hs_device = "SPME"
+matlabname = "Dipropyl_disulfide_08_SPME_pink_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "25"
+gcid = "DD08_SPMEpink"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 17
+name = "DD09_itex"
+assay = "DD09_itex"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD09_itex"
+description = "RPMM0004 sample DD09_itex"
+dd_pmol = "250pmol"
+dd_usedvolume_ul = "10"
+hs_device = "itex"
+matlabname = "Dipropyl_disulfide_09_ITEX_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "25"
+gcid = "DD09_itex"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 18
+name = "DD09_SPMEpink"
+assay = "DD09_SPMEpink"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD09_SPMEpink"
+description = "RPMM0004 sample DD09_SPMEpink"
+dd_pmol = "250pmol"
+dd_usedvolume_ul = "10"
+hs_device = "SPME"
+matlabname = "Dipropyl_disulfide_09_SPME_pink_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "25"
+gcid = "DD09_SPMEpink"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 19
+name = "DD10_itex"
+assay = "DD10_itex"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD10_itex"
+description = "RPMM0004 sample DD10_itex"
+dd_pmol = "2500pmol"
+dd_usedvolume_ul = "10"
+hs_device = "itex"
+matlabname = "Dipropyl_disulfide_10_ITEX_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "250"
+gcid = "DD10_itex"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 20
+name = "DD10_SPMEpink"
+assay = "DD10_SPMEpink"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD10_SPMEpink"
+description = "RPMM0004 sample DD10_SPMEpink"
+dd_pmol = "2500pmol"
+dd_usedvolume_ul = "10"
+hs_device = "SPME"
+matlabname = "Dipropyl_disulfide_10_SPME_pink_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "250"
+gcid = "DD10_SPMEpink"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 21
+name = "DD11_itex"
+assay = "DD11_itex"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD11_itex"
+description = "RPMM0004 sample DD11_itex"
+dd_pmol = "2500pmol"
+dd_usedvolume_ul = "10"
+hs_device = "itex"
+matlabname = "Dipropyl_disulfide_11_ITEX_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "250"
+gcid = "DD11_itex"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 22
+name = "DD11_SPMEpink"
+assay = "DD11_SPMEpink"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD11_SPMEpink"
+description = "RPMM0004 sample DD11_SPMEpink"
+dd_pmol = "2500pmol"
+dd_usedvolume_ul = "10"
+hs_device = "SPME"
+matlabname = "Dipropyl_disulfide_11_SPME_pink_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "250"
+gcid = "DD11_SPMEpink"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 23
+name = "DD12_itex"
+assay = "DD12_itex"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD12_itex"
+description = "RPMM0004 sample DD12_itex"
+dd_pmol = "2500pmol"
+dd_usedvolume_ul = "10"
+hs_device = "itex"
+matlabname = "Dipropyl_disulfide_12_ITEX_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "250"
+gcid = "DD12_itex"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 24
+name = "DD12_SPMEpink"
+assay = "DD12_SPMEpink"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#DD12_SPMEpink"
+description = "RPMM0004 sample DD12_SPMEpink"
+dd_pmol = "2500pmol"
+dd_usedvolume_ul = "10"
+hs_device = "SPME"
+matlabname = "Dipropyl_disulfide_12_SPME_pink_1.mat"
+allium_cultivar = "nodata"
+conc_microm = "250"
+gcid = "DD12_SPMEpink"
+num_of_samples_bulked = "nodata"
+preparedday = "nodata"
+samplematerial_gfw = "nodata"
+type = "SD"
+
+[[sample]]
+index = 25
+name = "Negi_36_ITEX_1"
+assay = "Negi_36_ITEX_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#Negi_36_ITEX_1"
+description = "RPMM0004 sample Negi_36_ITEX_1"
+dd_pmol = "nodata"
+dd_usedvolume_ul = "nodata"
+hs_device = "itex"
+matlabname = "Negi_36_ITEX_1.mat"
+allium_cultivar = "mikata_a"
+conc_microm = "nodata"
+gcid = "Negi_36_ITEX_1"
+num_of_samples_bulked = "6"
+preparedday = "121030"
+samplematerial_gfw = "1g"
+type = "type3-2"
+
+[[sample]]
+index = 26
+name = "Negi_37_ITEX_1"
+assay = "Negi_37_ITEX_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#Negi_37_ITEX_1"
+description = "RPMM0004 sample Negi_37_ITEX_1"
+dd_pmol = "nodata"
+dd_usedvolume_ul = "nodata"
+hs_device = "itex"
+matlabname = "Negi_37_ITEX_1.mat"
+allium_cultivar = "mikata_b"
+conc_microm = "nodata"
+gcid = "Negi_37_ITEX_1"
+num_of_samples_bulked = "6"
+preparedday = "121030"
+samplematerial_gfw = "1g"
+type = "type3-2"
+
+[[sample]]
+index = 27
+name = "Negi_38_ITEX_1"
+assay = "Negi_38_ITEX_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#Negi_38_ITEX_1"
+description = "RPMM0004 sample Negi_38_ITEX_1"
+dd_pmol = "nodata"
+dd_usedvolume_ul = "nodata"
+hs_device = "itex"
+matlabname = "Negi_38_ITEX_1.mat"
+allium_cultivar = "mikata_c"
+conc_microm = "nodata"
+gcid = "Negi_38_ITEX_1"
+num_of_samples_bulked = "6"
+preparedday = "121030"
+samplematerial_gfw = "1g"
+type = "type3-2"
+
+[[sample]]
+index = 28
+name = "negi_36_SPME_1"
+assay = "negi_36_SPME_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#negi_36_SPME_1"
+description = "RPMM0004 sample negi_36_SPME_1"
+dd_pmol = "nodata"
+dd_usedvolume_ul = "nodata"
+hs_device = "SPME"
+matlabname = "negi_36_SPME_1.mat"
+allium_cultivar = "mikata_a"
+conc_microm = "nodata"
+gcid = "negi_36_SPME_1"
+num_of_samples_bulked = "6"
+preparedday = "121030"
+samplematerial_gfw = "1g"
+type = "type3-2"
+
+[[sample]]
+index = 29
+name = "negi_37_SPME_1"
+assay = "negi_37_SPME_1"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#negi_37_SPME_1"
+description = "RPMM0004 sample negi_37_SPME_1"
+dd_pmol = "nodata"
+dd_usedvolume_ul = "nodata"
+hs_device = "SPME"
+matlabname = "negi_37_SPME_1.mat"
+allium_cultivar = "mikata_b"
+conc_microm = "nodata"
+gcid = "negi_37_SPME_1"
+num_of_samples_bulked = "6"
+preparedday = "121030"
+samplematerial_gfw = "1g"
+type = "type3-2"
+
+[[sample]]
+index = 30
+name = "negi_38_SPME_1"
+assay = "negi_38_SPME_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0004/ITEX_and_SPME/AnalysedDataset/t1_normalized.txt#negi_38_SPME_1"
+description = "RPMM0004 sample negi_38_SPME_1"
+dd_pmol = "nodata"
+dd_usedvolume_ul = "nodata"
+hs_device = "SPME"
+matlabname = "negi_38_SPME_1.mat"
+allium_cultivar = "mikata_c"
+conc_microm = "nodata"
+gcid = "negi_38_SPME_1"
+num_of_samples_bulked = "6"
+preparedday = "121030"
+samplematerial_gfw = "1g"
+type = "type3-2"
+
+[study_variables]
+candidate_columns = [
+    "conc_microM",
+    "DD_usedVolume_ul",
+    "DD_pmol",
+    "HS_device",
+    "samplematerial_gFW",
+    "allium_cultivar",
+    "preparedday",
+    "type",
+    "num_of_samples_bulked",
+]
+
+[study_variables.levels]
+conc_microM = [
+    "0.25",
+    "2.5",
+    "25",
+    "250",
+    "nodata",
+]
+DD_usedVolume_ul = [
+    "10",
+    "nodata",
+]
+DD_pmol = [
+    "2.5pmol",
+    "2500pmol",
+    "250pmol",
+    "25pmol",
+    "nodata",
+]
+HS_device = [
+    "SPME",
+    "itex",
+]
+samplematerial_gFW = [
+    "1g",
+    "nodata",
+]
+allium_cultivar = [
+    "mikata_a",
+    "mikata_b",
+    "mikata_c",
+    "nodata",
+]
+preparedday = [
+    "121030",
+    "nodata",
+]
+type = [
+    "SD",
+    "type3-2",
+]
+num_of_samples_bulked = [
+    "6",
+    "nodata",
+]

@@ -1,0 +1,1216 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0016"
+title = "Effects of Combined Low Glutathione with Mild Oxidative and Low Phosphorus Stress on the Metabolism of Arabidopsis thaliana"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0016"
+
+[matrix]
+name = "gcms_INTEGRATED"
+source_file = "RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv"
+format = "tsv"
+n_features = 351
+n_samples = 76
+metadata_columns = [
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+    "fData::lineno",
+    "fData::query",
+    "fData::known",
+    "fData::cas",
+    "fData::preferred",
+    "fData::action",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0016/AnalysedDataset/phenodataGC.csv"
+msp = ""
+
+[organism]
+raw = ""
+cv = ""
+source = ""
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "5MV_cad_1_1"
+assay = "5MV_cad_1_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_cad_1_1"
+description = "RPMM0016 sample 5MV_cad_1_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_cad_1_1"
+genotype = "cad2-1"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_cad_1"
+treatment = "methylviologen"
+
+[[sample]]
+index = 2
+name = "5MV_cad_2_1"
+assay = "5MV_cad_2_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_cad_2_1"
+description = "RPMM0016 sample 5MV_cad_2_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_cad_2_1"
+genotype = "cad2-1"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_cad_2"
+treatment = "methylviologen"
+
+[[sample]]
+index = 3
+name = "5MV_cad_3_1"
+assay = "5MV_cad_3_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_cad_3_1"
+description = "RPMM0016 sample 5MV_cad_3_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_cad_3_1"
+genotype = "cad2-1"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_cad_3"
+treatment = "methylviologen"
+
+[[sample]]
+index = 4
+name = "5MV_cad_5_1"
+assay = "5MV_cad_5_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_cad_5_1"
+description = "RPMM0016 sample 5MV_cad_5_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_cad_5_1"
+genotype = "cad2-1"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_cad_5"
+treatment = "methylviologen"
+
+[[sample]]
+index = 5
+name = "5MV_cad_6_1"
+assay = "5MV_cad_6_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_cad_6_1"
+description = "RPMM0016 sample 5MV_cad_6_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_cad_6_1"
+genotype = "cad2-1"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_cad_6"
+treatment = "methylviologen"
+
+[[sample]]
+index = 6
+name = "5MV_cad_7_1"
+assay = "5MV_cad_7_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_cad_7_1"
+description = "RPMM0016 sample 5MV_cad_7_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_cad_7_1"
+genotype = "cad2-1"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_cad_7"
+treatment = "methylviologen"
+
+[[sample]]
+index = 7
+name = "5MV_cad_8_1"
+assay = "5MV_cad_8_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_cad_8_1"
+description = "RPMM0016 sample 5MV_cad_8_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_cad_8_1"
+genotype = "cad2-1"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_cad_8"
+treatment = "methylviologen"
+
+[[sample]]
+index = 8
+name = "5MV_col_1_1"
+assay = "5MV_col_1_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_col_1_1"
+description = "RPMM0016 sample 5MV_col_1_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_col_1_1"
+genotype = "col-0"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_col_1"
+treatment = "methylviologen"
+
+[[sample]]
+index = 9
+name = "5MV_col_2_1"
+assay = "5MV_col_2_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_col_2_1"
+description = "RPMM0016 sample 5MV_col_2_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_col_2_1"
+genotype = "col-0"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_col_2"
+treatment = "methylviologen"
+
+[[sample]]
+index = 10
+name = "5MV_col_3_1"
+assay = "5MV_col_3_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_col_3_1"
+description = "RPMM0016 sample 5MV_col_3_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_col_3_1"
+genotype = "col-0"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_col_3"
+treatment = "methylviologen"
+
+[[sample]]
+index = 11
+name = "5MV_col_4_1"
+assay = "5MV_col_4_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_col_4_1"
+description = "RPMM0016 sample 5MV_col_4_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_col_4_1"
+genotype = "col-0"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_col_4"
+treatment = "methylviologen"
+
+[[sample]]
+index = 12
+name = "5MV_col_5_1"
+assay = "5MV_col_5_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_col_5_1"
+description = "RPMM0016 sample 5MV_col_5_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_col_5_1"
+genotype = "col-0"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_col_5"
+treatment = "methylviologen"
+
+[[sample]]
+index = 13
+name = "5MV_col_6_1"
+assay = "5MV_col_6_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_col_6_1"
+description = "RPMM0016 sample 5MV_col_6_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_col_6_1"
+genotype = "col-0"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_col_6"
+treatment = "methylviologen"
+
+[[sample]]
+index = 14
+name = "5MV_col_7_1"
+assay = "5MV_col_7_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_col_7_1"
+description = "RPMM0016 sample 5MV_col_7_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_col_7_1"
+genotype = "col-0"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_col_7"
+treatment = "methylviologen"
+
+[[sample]]
+index = 15
+name = "5MV_col_8_1"
+assay = "5MV_col_8_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_col_8_1"
+description = "RPMM0016 sample 5MV_col_8_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_col_8_1"
+genotype = "col-0"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_col_8"
+treatment = "methylviologen"
+
+[[sample]]
+index = 16
+name = "5MV_pad_1_1"
+assay = "5MV_pad_1_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_pad_1_1"
+description = "RPMM0016 sample 5MV_pad_1_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_pad_1_1"
+genotype = "pad2-1"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_pad_1"
+treatment = "methylviologen"
+
+[[sample]]
+index = 17
+name = "5MV_pad_2_1"
+assay = "5MV_pad_2_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_pad_2_1"
+description = "RPMM0016 sample 5MV_pad_2_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_pad_2_1"
+genotype = "pad2-1"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_pad_2"
+treatment = "methylviologen"
+
+[[sample]]
+index = 18
+name = "5MV_pad_3_1"
+assay = "5MV_pad_3_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_pad_3_1"
+description = "RPMM0016 sample 5MV_pad_3_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_pad_3_1"
+genotype = "pad2-1"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_pad_3"
+treatment = "methylviologen"
+
+[[sample]]
+index = 19
+name = "5MV_pad_4_1"
+assay = "5MV_pad_4_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_pad_4_1"
+description = "RPMM0016 sample 5MV_pad_4_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_pad_4_1"
+genotype = "pad2-1"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_pad_4"
+treatment = "methylviologen"
+
+[[sample]]
+index = 20
+name = "5MV_pad_5_1"
+assay = "5MV_pad_5_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_pad_5_1"
+description = "RPMM0016 sample 5MV_pad_5_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_pad_5_1"
+genotype = "pad2-1"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_pad_5"
+treatment = "methylviologen"
+
+[[sample]]
+index = 21
+name = "5MV_pad_6_1"
+assay = "5MV_pad_6_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_pad_6_1"
+description = "RPMM0016 sample 5MV_pad_6_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_pad_6_1"
+genotype = "pad2-1"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_pad_6"
+treatment = "methylviologen"
+
+[[sample]]
+index = 22
+name = "5MV_pad_7_1"
+assay = "5MV_pad_7_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_pad_7_1"
+description = "RPMM0016 sample 5MV_pad_7_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_pad_7_1"
+genotype = "pad2-1"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_pad_7"
+treatment = "methylviologen"
+
+[[sample]]
+index = 23
+name = "5MV_pad_8_1"
+assay = "5MV_pad_8_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5MV_pad_8_1"
+description = "RPMM0016 sample 5MV_pad_8_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5MV_pad_8_1"
+genotype = "pad2-1"
+growthcondition = "0.05uM_methylviologen"
+samplename = "5MV_pad_8"
+treatment = "methylviologen"
+
+[[sample]]
+index = 24
+name = "5P_cad_1_1"
+assay = "5P_cad_1_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_cad_1_1"
+description = "RPMM0016 sample 5P_cad_1_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_cad_1_1"
+genotype = "cad2-1"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_cad_1"
+treatment = "minusP"
+
+[[sample]]
+index = 25
+name = "5P_cad_2_1"
+assay = "5P_cad_2_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_cad_2_1"
+description = "RPMM0016 sample 5P_cad_2_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_cad_2_1"
+genotype = "cad2-1"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_cad_2"
+treatment = "minusP"
+
+[[sample]]
+index = 26
+name = "5P_cad_3_1"
+assay = "5P_cad_3_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_cad_3_1"
+description = "RPMM0016 sample 5P_cad_3_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_cad_3_1"
+genotype = "cad2-1"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_cad_3"
+treatment = "minusP"
+
+[[sample]]
+index = 27
+name = "5P_cad_4_1"
+assay = "5P_cad_4_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_cad_4_1"
+description = "RPMM0016 sample 5P_cad_4_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_cad_4_1"
+genotype = "cad2-1"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_cad_4"
+treatment = "minusP"
+
+[[sample]]
+index = 28
+name = "5P_cad_5_1"
+assay = "5P_cad_5_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_cad_5_1"
+description = "RPMM0016 sample 5P_cad_5_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_cad_5_1"
+genotype = "cad2-1"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_cad_5"
+treatment = "minusP"
+
+[[sample]]
+index = 29
+name = "5P_cad_6_1"
+assay = "5P_cad_6_1"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_cad_6_1"
+description = "RPMM0016 sample 5P_cad_6_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_cad_6_1"
+genotype = "cad2-1"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_cad_6"
+treatment = "minusP"
+
+[[sample]]
+index = 30
+name = "5P_cad_7_1"
+assay = "5P_cad_7_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_cad_7_1"
+description = "RPMM0016 sample 5P_cad_7_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_cad_7_1"
+genotype = "cad2-1"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_cad_7"
+treatment = "minusP"
+
+[[sample]]
+index = 31
+name = "5P_cad_8_1"
+assay = "5P_cad_8_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_cad_8_1"
+description = "RPMM0016 sample 5P_cad_8_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_cad_8_1"
+genotype = "cad2-1"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_cad_8"
+treatment = "minusP"
+
+[[sample]]
+index = 32
+name = "5P_col_1_1"
+assay = "5P_col_1_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_col_1_1"
+description = "RPMM0016 sample 5P_col_1_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_col_1_1"
+genotype = "col-0"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_col_1"
+treatment = "minusP"
+
+[[sample]]
+index = 33
+name = "5P_col_2_1"
+assay = "5P_col_2_1"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_col_2_1"
+description = "RPMM0016 sample 5P_col_2_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_col_2_1"
+genotype = "col-0"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_col_2"
+treatment = "minusP"
+
+[[sample]]
+index = 34
+name = "5P_col_3_1"
+assay = "5P_col_3_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_col_3_1"
+description = "RPMM0016 sample 5P_col_3_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_col_3_1"
+genotype = "col-0"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_col_3"
+treatment = "minusP"
+
+[[sample]]
+index = 35
+name = "5P_col_4_1"
+assay = "5P_col_4_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_col_4_1"
+description = "RPMM0016 sample 5P_col_4_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_col_4_1"
+genotype = "col-0"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_col_4"
+treatment = "minusP"
+
+[[sample]]
+index = 36
+name = "5P_col_5_1"
+assay = "5P_col_5_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_col_5_1"
+description = "RPMM0016 sample 5P_col_5_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_col_5_1"
+genotype = "col-0"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_col_5"
+treatment = "minusP"
+
+[[sample]]
+index = 37
+name = "5P_col_6_1"
+assay = "5P_col_6_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_col_6_1"
+description = "RPMM0016 sample 5P_col_6_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_col_6_1"
+genotype = "col-0"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_col_6"
+treatment = "minusP"
+
+[[sample]]
+index = 38
+name = "5P_col_7_1"
+assay = "5P_col_7_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_col_7_1"
+description = "RPMM0016 sample 5P_col_7_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_col_7_1"
+genotype = "col-0"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_col_7"
+treatment = "minusP"
+
+[[sample]]
+index = 39
+name = "5P_col_8_1"
+assay = "5P_col_8_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_col_8_1"
+description = "RPMM0016 sample 5P_col_8_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_col_8_1"
+genotype = "col-0"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_col_8"
+treatment = "minusP"
+
+[[sample]]
+index = 40
+name = "5P_pad_1_1"
+assay = "5P_pad_1_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_pad_1_1"
+description = "RPMM0016 sample 5P_pad_1_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_pad_1_1"
+genotype = "pad2-1"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_pad_1"
+treatment = "minusP"
+
+[[sample]]
+index = 41
+name = "5P_pad_2_1"
+assay = "5P_pad_2_1"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_pad_2_1"
+description = "RPMM0016 sample 5P_pad_2_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_pad_2_1"
+genotype = "pad2-1"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_pad_2"
+treatment = "minusP"
+
+[[sample]]
+index = 42
+name = "5P_pad_3_1"
+assay = "5P_pad_3_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_pad_3_1"
+description = "RPMM0016 sample 5P_pad_3_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_pad_3_1"
+genotype = "pad2-1"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_pad_3"
+treatment = "minusP"
+
+[[sample]]
+index = 43
+name = "5P_pad_4_1"
+assay = "5P_pad_4_1"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_pad_4_1"
+description = "RPMM0016 sample 5P_pad_4_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_pad_4_1"
+genotype = "pad2-1"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_pad_4"
+treatment = "minusP"
+
+[[sample]]
+index = 44
+name = "5P_pad_5_1"
+assay = "5P_pad_5_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_pad_5_1"
+description = "RPMM0016 sample 5P_pad_5_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_pad_5_1"
+genotype = "pad2-1"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_pad_5"
+treatment = "minusP"
+
+[[sample]]
+index = 45
+name = "5P_pad_6_1"
+assay = "5P_pad_6_1"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_pad_6_1"
+description = "RPMM0016 sample 5P_pad_6_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_pad_6_1"
+genotype = "pad2-1"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_pad_6"
+treatment = "minusP"
+
+[[sample]]
+index = 46
+name = "5P_pad_7_1"
+assay = "5P_pad_7_1"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_pad_7_1"
+description = "RPMM0016 sample 5P_pad_7_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_pad_7_1"
+genotype = "pad2-1"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_pad_7"
+treatment = "minusP"
+
+[[sample]]
+index = 47
+name = "5P_pad_8_1"
+assay = "5P_pad_8_1"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#5P_pad_8_1"
+description = "RPMM0016 sample 5P_pad_8_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "5P_pad_8_1"
+genotype = "pad2-1"
+growthcondition = "phosphorus deficit_lessP_MS"
+samplename = "5P_pad_8"
+treatment = "minusP"
+
+[[sample]]
+index = 48
+name = "blank_1"
+assay = "blank_1"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#blank_1"
+description = "RPMM0016 sample blank_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "blank_1"
+genotype = "blank_1"
+growthcondition = "blank"
+samplename = "blank"
+treatment = "blank"
+
+[[sample]]
+index = 49
+name = "cont_cad_1_1"
+assay = "cont_cad_1_1"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_cad_1_1"
+description = "RPMM0016 sample cont_cad_1_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_cad_1_1"
+genotype = "cad2-1"
+growthcondition = "control"
+samplename = "cont_cad_1"
+treatment = "control"
+
+[[sample]]
+index = 50
+name = "cont_cad_2_1"
+assay = "cont_cad_2_1"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_cad_2_1"
+description = "RPMM0016 sample cont_cad_2_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_cad_2_1"
+genotype = "cad2-1"
+growthcondition = "control"
+samplename = "cont_cad_2"
+treatment = "control"
+
+[[sample]]
+index = 51
+name = "cont_cad_3_1"
+assay = "cont_cad_3_1"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_cad_3_1"
+description = "RPMM0016 sample cont_cad_3_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_cad_3_1"
+genotype = "cad2-1"
+growthcondition = "control"
+samplename = "cont_cad_3"
+treatment = "control"
+
+[[sample]]
+index = 52
+name = "cont_cad_4_1"
+assay = "cont_cad_4_1"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_cad_4_1"
+description = "RPMM0016 sample cont_cad_4_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_cad_4_1"
+genotype = "cad2-1"
+growthcondition = "control"
+samplename = "cont_cad_4"
+treatment = "control"
+
+[[sample]]
+index = 53
+name = "cont_cad_5_1"
+assay = "cont_cad_5_1"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_cad_5_1"
+description = "RPMM0016 sample cont_cad_5_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_cad_5_1"
+genotype = "cad2-1"
+growthcondition = "control"
+samplename = "cont_cad_5"
+treatment = "control"
+
+[[sample]]
+index = 54
+name = "cont_cad_6_1"
+assay = "cont_cad_6_1"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_cad_6_1"
+description = "RPMM0016 sample cont_cad_6_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_cad_6_1"
+genotype = "cad2-1"
+growthcondition = "control"
+samplename = "cont_cad_6"
+treatment = "control"
+
+[[sample]]
+index = 55
+name = "cont_cad_7_1"
+assay = "cont_cad_7_1"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_cad_7_1"
+description = "RPMM0016 sample cont_cad_7_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_cad_7_1"
+genotype = "cad2-1"
+growthcondition = "control"
+samplename = "cont_cad_7"
+treatment = "control"
+
+[[sample]]
+index = 56
+name = "cont_cad_8_1"
+assay = "cont_cad_8_1"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_cad_8_1"
+description = "RPMM0016 sample cont_cad_8_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_cad_8_1"
+genotype = "cad2-1"
+growthcondition = "control"
+samplename = "cont_cad_8"
+treatment = "control"
+
+[[sample]]
+index = 57
+name = "cont_col_1_1"
+assay = "cont_col_1_1"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_col_1_1"
+description = "RPMM0016 sample cont_col_1_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_col_1_1"
+genotype = "col-0"
+growthcondition = "control"
+samplename = "cont_col_1"
+treatment = "control"
+
+[[sample]]
+index = 58
+name = "cont_col_2_1"
+assay = "cont_col_2_1"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_col_2_1"
+description = "RPMM0016 sample cont_col_2_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_col_2_1"
+genotype = "col-0"
+growthcondition = "control"
+samplename = "cont_col_2"
+treatment = "control"
+
+[[sample]]
+index = 59
+name = "cont_col_3_1"
+assay = "cont_col_3_1"
+ms_run_ref = "ms_run[59]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_col_3_1"
+description = "RPMM0016 sample cont_col_3_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_col_3_1"
+genotype = "col-0"
+growthcondition = "control"
+samplename = "cont_col_3"
+treatment = "control"
+
+[[sample]]
+index = 60
+name = "cont_col_4_1"
+assay = "cont_col_4_1"
+ms_run_ref = "ms_run[60]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_col_4_1"
+description = "RPMM0016 sample cont_col_4_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_col_4_1"
+genotype = "col-0"
+growthcondition = "control"
+samplename = "cont_col_4"
+treatment = "control"
+
+[[sample]]
+index = 61
+name = "cont_col_5_1"
+assay = "cont_col_5_1"
+ms_run_ref = "ms_run[61]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_col_5_1"
+description = "RPMM0016 sample cont_col_5_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_col_5_1"
+genotype = "col-0"
+growthcondition = "control"
+samplename = "cont_col_5"
+treatment = "control"
+
+[[sample]]
+index = 62
+name = "cont_col_6_1"
+assay = "cont_col_6_1"
+ms_run_ref = "ms_run[62]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_col_6_1"
+description = "RPMM0016 sample cont_col_6_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_col_6_1"
+genotype = "col-0"
+growthcondition = "control"
+samplename = "cont_col_6"
+treatment = "control"
+
+[[sample]]
+index = 63
+name = "cont_col_7_1"
+assay = "cont_col_7_1"
+ms_run_ref = "ms_run[63]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_col_7_1"
+description = "RPMM0016 sample cont_col_7_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_col_7_1"
+genotype = "col-0"
+growthcondition = "control"
+samplename = "cont_col_7"
+treatment = "control"
+
+[[sample]]
+index = 64
+name = "cont_col_8_1"
+assay = "cont_col_8_1"
+ms_run_ref = "ms_run[64]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_col_8_1"
+description = "RPMM0016 sample cont_col_8_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_col_8_1"
+genotype = "col-0"
+growthcondition = "control"
+samplename = "cont_col_8"
+treatment = "control"
+
+[[sample]]
+index = 65
+name = "cont_pad_1_1"
+assay = "cont_pad_1_1"
+ms_run_ref = "ms_run[65]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_pad_1_1"
+description = "RPMM0016 sample cont_pad_1_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_pad_1_1"
+genotype = "pad2-1"
+growthcondition = "control"
+samplename = "cont_pad_1"
+treatment = "control"
+
+[[sample]]
+index = 66
+name = "cont_pad_2_1"
+assay = "cont_pad_2_1"
+ms_run_ref = "ms_run[66]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_pad_2_1"
+description = "RPMM0016 sample cont_pad_2_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_pad_2_1"
+genotype = "pad2-1"
+growthcondition = "control"
+samplename = "cont_pad_2"
+treatment = "control"
+
+[[sample]]
+index = 67
+name = "cont_pad_3_1"
+assay = "cont_pad_3_1"
+ms_run_ref = "ms_run[67]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_pad_3_1"
+description = "RPMM0016 sample cont_pad_3_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_pad_3_1"
+genotype = "pad2-1"
+growthcondition = "control"
+samplename = "cont_pad_3"
+treatment = "control"
+
+[[sample]]
+index = 68
+name = "cont_pad_4_1"
+assay = "cont_pad_4_1"
+ms_run_ref = "ms_run[68]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_pad_4_1"
+description = "RPMM0016 sample cont_pad_4_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_pad_4_1"
+genotype = "pad2-1"
+growthcondition = "control"
+samplename = "cont_pad_4"
+treatment = "control"
+
+[[sample]]
+index = 69
+name = "cont_pad_5_1"
+assay = "cont_pad_5_1"
+ms_run_ref = "ms_run[69]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_pad_5_1"
+description = "RPMM0016 sample cont_pad_5_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_pad_5_1"
+genotype = "pad2-1"
+growthcondition = "control"
+samplename = "cont_pad_5"
+treatment = "control"
+
+[[sample]]
+index = 70
+name = "cont_pad_6_1"
+assay = "cont_pad_6_1"
+ms_run_ref = "ms_run[70]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_pad_6_1"
+description = "RPMM0016 sample cont_pad_6_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_pad_6_1"
+genotype = "pad2-1"
+growthcondition = "control"
+samplename = "cont_pad_6"
+treatment = "control"
+
+[[sample]]
+index = 71
+name = "cont_pad_7_1"
+assay = "cont_pad_7_1"
+ms_run_ref = "ms_run[71]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_pad_7_1"
+description = "RPMM0016 sample cont_pad_7_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_pad_7_1"
+genotype = "pad2-1"
+growthcondition = "control"
+samplename = "cont_pad_7"
+treatment = "control"
+
+[[sample]]
+index = 72
+name = "cont_pad_8_1"
+assay = "cont_pad_8_1"
+ms_run_ref = "ms_run[72]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#cont_pad_8_1"
+description = "RPMM0016 sample cont_pad_8_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "cont_pad_8_1"
+genotype = "pad2-1"
+growthcondition = "control"
+samplename = "cont_pad_8"
+treatment = "control"
+
+[[sample]]
+index = 73
+name = "dummy1_1"
+assay = "dummy1_1"
+ms_run_ref = "ms_run[73]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#dummy1_1"
+description = "RPMM0016 sample dummy1_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "dummy1_1"
+genotype = "FD"
+growthcondition = "FD"
+samplename = "FD"
+treatment = "FD"
+
+[[sample]]
+index = 74
+name = "dummy2_1"
+assay = "dummy2_1"
+ms_run_ref = "ms_run[74]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#dummy2_1"
+description = "RPMM0016 sample dummy2_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "dummy2_1"
+genotype = "FD"
+growthcondition = "FD"
+samplename = "FD"
+treatment = "FD"
+
+[[sample]]
+index = 75
+name = "dummy3_1"
+assay = "dummy3_1"
+ms_run_ref = "ms_run[75]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#dummy3_1"
+description = "RPMM0016 sample dummy3_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "dummy3_1"
+genotype = "FD"
+growthcondition = "FD"
+samplename = "FD"
+treatment = "FD"
+
+[[sample]]
+index = 76
+name = "dummy4_1"
+assay = "dummy4_1"
+ms_run_ref = "ms_run[76]"
+location = "http://metabobank.riken.jp/data/RPMM0016/AnalysedDataset/gcms_INTEGRATED.csv#dummy4_1"
+description = "RPMM0016 sample dummy4_1"
+batchid = "1"
+expid = "111102_MeKO_Pre5_AndiMS"
+gcid = "dummy4_1"
+genotype = "FD"
+growthcondition = "FD"
+samplename = "FD"
+treatment = "FD"
+
+[study_variables]
+candidate_columns = [
+    "genotype",
+    "growthcondition",
+    "treatment",
+]
+
+[study_variables.levels]
+genotype = [
+    "FD",
+    "blank_1",
+    "cad2-1",
+    "col-0",
+    "pad2-1",
+]
+growthcondition = [
+    "0.05uM_methylviologen",
+    "FD",
+    "blank",
+    "control",
+    "phosphorus deficit_lessP_MS",
+]
+treatment = [
+    "FD",
+    "blank",
+    "control",
+    "methylviologen",
+    "minusP",
+]

@@ -1,0 +1,1452 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0027"
+title = "Acetate-mediated novel survival strategy against drought in plants"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0027"
+
+[matrix]
+name = "MetMat_abs"
+source_file = "RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt"
+format = "tsv"
+n_features = 274
+n_samples = 96
+metadata_columns = [
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0027/AnalysedDataset/DroughtTreatment/phenodata.csv"
+msp = "RPMM0027/AnalysedDataset/DroughtTreatment/110823_Chromatin_sample_NIST.txt"
+
+[organism]
+raw = "Arabidopsis"
+cv = "[NCBITaxon, NCBITaxon:3702, Arabidopsis thaliana, ]"
+source = "msp:110823_Chromatin_sample_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "Chromatin_01_1"
+assay = "Chromatin_01_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_01_1"
+description = "RPMM0027 sample Chromatin_01_1"
+matlabfilename = "Chromatin_01_1.mat"
+ordername = "Chromatin_01"
+day = "0d"
+gcid = "Chromatin_01_1"
+genotype = "DR5"
+runorder = "94"
+samplename = "DR5_w_0d_01"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 2
+name = "Chromatin_02_1"
+assay = "Chromatin_02_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_02_1"
+description = "RPMM0027 sample Chromatin_02_1"
+matlabfilename = "Chromatin_02_1.mat"
+ordername = "Chromatin_02"
+day = "0d"
+gcid = "Chromatin_02_1"
+genotype = "DR5"
+runorder = "97"
+samplename = "DR5_w_0d_02"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 3
+name = "Chromatin_03_1"
+assay = "Chromatin_03_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_03_1"
+description = "RPMM0027 sample Chromatin_03_1"
+matlabfilename = "Chromatin_03_1.mat"
+ordername = "Chromatin_03"
+day = "0d"
+gcid = "Chromatin_03_1"
+genotype = "DR5"
+runorder = "70"
+samplename = "DR5_w_0d_03"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 4
+name = "Chromatin_04_1"
+assay = "Chromatin_04_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_04_1"
+description = "RPMM0027 sample Chromatin_04_1"
+matlabfilename = "Chromatin_04_1.mat"
+ordername = "Chromatin_04"
+day = "0d"
+gcid = "Chromatin_04_1"
+genotype = "DR5"
+runorder = "23"
+samplename = "DR5_w_0d_05"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 5
+name = "Chromatin_05_1"
+assay = "Chromatin_05_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_05_1"
+description = "RPMM0027 sample Chromatin_05_1"
+matlabfilename = "Chromatin_05_1.mat"
+ordername = "Chromatin_05"
+day = "0d"
+gcid = "Chromatin_05_1"
+genotype = "DR5"
+runorder = "61"
+samplename = "DR5_w_0d_10"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 6
+name = "Chromatin_06_1"
+assay = "Chromatin_06_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_06_1"
+description = "RPMM0027 sample Chromatin_06_1"
+matlabfilename = "Chromatin_06_1.mat"
+ordername = "Chromatin_06"
+day = "9d"
+gcid = "Chromatin_06_1"
+genotype = "DR5"
+runorder = "90"
+samplename = "DR5_d_9d_01"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 7
+name = "Chromatin_07_1"
+assay = "Chromatin_07_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_07_1"
+description = "RPMM0027 sample Chromatin_07_1"
+matlabfilename = "Chromatin_07_1.mat"
+ordername = "Chromatin_07"
+day = "9d"
+gcid = "Chromatin_07_1"
+genotype = "DR5"
+runorder = "83"
+samplename = "DR5_d_9d_04"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 8
+name = "Chromatin_08_1"
+assay = "Chromatin_08_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_08_1"
+description = "RPMM0027 sample Chromatin_08_1"
+matlabfilename = "Chromatin_08_1.mat"
+ordername = "Chromatin_08"
+day = "9d"
+gcid = "Chromatin_08_1"
+genotype = "DR5"
+runorder = "16"
+samplename = "DR5_d_9d_05"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 9
+name = "Chromatin_09_1"
+assay = "Chromatin_09_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_09_1"
+description = "RPMM0027 sample Chromatin_09_1"
+matlabfilename = "Chromatin_09_1.mat"
+ordername = "Chromatin_09"
+day = "9d"
+gcid = "Chromatin_09_1"
+genotype = "DR5"
+runorder = "74"
+samplename = "DR5_d_9d_07"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 10
+name = "Chromatin_10_1"
+assay = "Chromatin_10_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_10_1"
+description = "RPMM0027 sample Chromatin_10_1"
+matlabfilename = "Chromatin_10_1.mat"
+ordername = "Chromatin_10"
+day = "9d"
+gcid = "Chromatin_10_1"
+genotype = "DR5"
+runorder = "54"
+samplename = "DR5_d_9d_10"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 11
+name = "Chromatin_11_1"
+assay = "Chromatin_11_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_11_1"
+description = "RPMM0027 sample Chromatin_11_1"
+matlabfilename = "Chromatin_11_1.mat"
+ordername = "Chromatin_11"
+day = "9d"
+gcid = "Chromatin_11_1"
+genotype = "DR5"
+runorder = "21"
+samplename = "DR5_w_9d_01"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 12
+name = "Chromatin_12_1"
+assay = "Chromatin_12_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_12_1"
+description = "RPMM0027 sample Chromatin_12_1"
+matlabfilename = "Chromatin_12_1.mat"
+ordername = "Chromatin_12"
+day = "9d"
+gcid = "Chromatin_12_1"
+genotype = "DR5"
+runorder = "48"
+samplename = "DR5_w_9d_03"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 13
+name = "Chromatin_13_1"
+assay = "Chromatin_13_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_13_1"
+description = "RPMM0027 sample Chromatin_13_1"
+matlabfilename = "Chromatin_13_1.mat"
+ordername = "Chromatin_13"
+day = "9d"
+gcid = "Chromatin_13_1"
+genotype = "DR5"
+runorder = "56"
+samplename = "DR5_w_9d_04"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 14
+name = "Chromatin_14_1"
+assay = "Chromatin_14_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_14_1"
+description = "RPMM0027 sample Chromatin_14_1"
+matlabfilename = "Chromatin_14_1.mat"
+ordername = "Chromatin_14"
+day = "9d"
+gcid = "Chromatin_14_1"
+genotype = "DR5"
+runorder = "27"
+samplename = "DR5_w_9d_05"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 15
+name = "Chromatin_15_1"
+assay = "Chromatin_15_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_15_1"
+description = "RPMM0027 sample Chromatin_15_1"
+matlabfilename = "Chromatin_15_1.mat"
+ordername = "Chromatin_15"
+day = "9d"
+gcid = "Chromatin_15_1"
+genotype = "DR5"
+runorder = "76"
+samplename = "DR5_w_9d_06"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 16
+name = "Chromatin_16_1"
+assay = "Chromatin_16_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_16_1"
+description = "RPMM0027 sample Chromatin_16_1"
+matlabfilename = "Chromatin_16_1.mat"
+ordername = "Chromatin_16"
+day = "14d"
+gcid = "Chromatin_16_1"
+genotype = "DR5"
+runorder = "87"
+samplename = "DR5_d_14d_01"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 17
+name = "Chromatin_17_1"
+assay = "Chromatin_17_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_17_1"
+description = "RPMM0027 sample Chromatin_17_1"
+matlabfilename = "Chromatin_17_1.mat"
+ordername = "Chromatin_17"
+day = "14d"
+gcid = "Chromatin_17_1"
+genotype = "DR5"
+runorder = "24"
+samplename = "DR5_d_14d_02"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 18
+name = "Chromatin_18_1"
+assay = "Chromatin_18_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_18_1"
+description = "RPMM0027 sample Chromatin_18_1"
+matlabfilename = "Chromatin_18_1.mat"
+ordername = "Chromatin_18"
+day = "14d"
+gcid = "Chromatin_18_1"
+genotype = "DR5"
+runorder = "28"
+samplename = "DR5_d_14d_03"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 19
+name = "Chromatin_19_1"
+assay = "Chromatin_19_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_19_1"
+description = "RPMM0027 sample Chromatin_19_1"
+matlabfilename = "Chromatin_19_1.mat"
+ordername = "Chromatin_19"
+day = "14d"
+gcid = "Chromatin_19_1"
+genotype = "DR5"
+runorder = "41"
+samplename = "DR5_d_14d_05"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 20
+name = "Chromatin_20_1"
+assay = "Chromatin_20_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_20_1"
+description = "RPMM0027 sample Chromatin_20_1"
+matlabfilename = "Chromatin_20_1.mat"
+ordername = "Chromatin_20"
+day = "14d"
+gcid = "Chromatin_20_1"
+genotype = "DR5"
+runorder = "52"
+samplename = "DR5_d_14d_07"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 21
+name = "Chromatin_21_1"
+assay = "Chromatin_21_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_21_1"
+description = "RPMM0027 sample Chromatin_21_1"
+matlabfilename = "Chromatin_21_1.mat"
+ordername = "Chromatin_21"
+day = "14d"
+gcid = "Chromatin_21_1"
+genotype = "DR5"
+runorder = "17"
+samplename = "DR5_w_14d_01"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 22
+name = "Chromatin_22_1"
+assay = "Chromatin_22_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_22_1"
+description = "RPMM0027 sample Chromatin_22_1"
+matlabfilename = "Chromatin_22_1.mat"
+ordername = "Chromatin_22"
+day = "14d"
+gcid = "Chromatin_22_1"
+genotype = "DR5"
+runorder = "47"
+samplename = "DR5_w_14d_02"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 23
+name = "Chromatin_23_1"
+assay = "Chromatin_23_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_23_1"
+description = "RPMM0027 sample Chromatin_23_1"
+matlabfilename = "Chromatin_23_1.mat"
+ordername = "Chromatin_23"
+day = "14d"
+gcid = "Chromatin_23_1"
+genotype = "DR5"
+runorder = "30"
+samplename = "DR5_w_14d_03"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 24
+name = "Chromatin_24_1"
+assay = "Chromatin_24_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_24_1"
+description = "RPMM0027 sample Chromatin_24_1"
+matlabfilename = "Chromatin_24_1.mat"
+ordername = "Chromatin_24"
+day = "14d"
+gcid = "Chromatin_24_1"
+genotype = "DR5"
+runorder = "82"
+samplename = "DR5_w_14d_07"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 25
+name = "Chromatin_25_1"
+assay = "Chromatin_25_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_25_1"
+description = "RPMM0027 sample Chromatin_25_1"
+matlabfilename = "Chromatin_25_1.mat"
+ordername = "Chromatin_25"
+day = "14d"
+gcid = "Chromatin_25_1"
+genotype = "DR5"
+runorder = "68"
+samplename = "DR5_w_14d_04"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 26
+name = "Chromatin_26_1"
+assay = "Chromatin_26_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_26_1"
+description = "RPMM0027 sample Chromatin_26_1"
+matlabfilename = "Chromatin_26_1.mat"
+ordername = "Chromatin_26"
+day = "0d"
+gcid = "Chromatin_26_1"
+genotype = "axe"
+runorder = "84"
+samplename = "axe_w_0d_01"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 27
+name = "Chromatin_27_1"
+assay = "Chromatin_27_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_27_1"
+description = "RPMM0027 sample Chromatin_27_1"
+matlabfilename = "Chromatin_27_1.mat"
+ordername = "Chromatin_27"
+day = "0d"
+gcid = "Chromatin_27_1"
+genotype = "axe"
+runorder = "89"
+samplename = "axe_w_0d_02"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 28
+name = "Chromatin_28_1"
+assay = "Chromatin_28_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_28_1"
+description = "RPMM0027 sample Chromatin_28_1"
+matlabfilename = "Chromatin_28_1.mat"
+ordername = "Chromatin_28"
+day = "0d"
+gcid = "Chromatin_28_1"
+genotype = "axe"
+runorder = "75"
+samplename = "axe_w_0d_03"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 29
+name = "Chromatin_29_1"
+assay = "Chromatin_29_1"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_29_1"
+description = "RPMM0027 sample Chromatin_29_1"
+matlabfilename = "Chromatin_29_1.mat"
+ordername = "Chromatin_29"
+day = "0d"
+gcid = "Chromatin_29_1"
+genotype = "axe"
+runorder = "72"
+samplename = "axe_w_0d_05"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 30
+name = "Chromatin_30_1"
+assay = "Chromatin_30_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_30_1"
+description = "RPMM0027 sample Chromatin_30_1"
+matlabfilename = "Chromatin_30_1.mat"
+ordername = "Chromatin_30"
+day = "0d"
+gcid = "Chromatin_30_1"
+genotype = "axe"
+runorder = "20"
+samplename = "axe_w_0d_06"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 31
+name = "Chromatin_31_1"
+assay = "Chromatin_31_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_31_1"
+description = "RPMM0027 sample Chromatin_31_1"
+matlabfilename = "Chromatin_31_1.mat"
+ordername = "Chromatin_31"
+day = "9d"
+gcid = "Chromatin_31_1"
+genotype = "axe"
+runorder = "63"
+samplename = "axe_d_9d_01"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 32
+name = "Chromatin_32_1"
+assay = "Chromatin_32_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_32_1"
+description = "RPMM0027 sample Chromatin_32_1"
+matlabfilename = "Chromatin_32_1.mat"
+ordername = "Chromatin_32"
+day = "9d"
+gcid = "Chromatin_32_1"
+genotype = "axe"
+runorder = "42"
+samplename = "axe_d_9d_02"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 33
+name = "Chromatin_33_1"
+assay = "Chromatin_33_1"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_33_1"
+description = "RPMM0027 sample Chromatin_33_1"
+matlabfilename = "Chromatin_33_1.mat"
+ordername = "Chromatin_33"
+day = "9d"
+gcid = "Chromatin_33_1"
+genotype = "axe"
+runorder = "35"
+samplename = "axe_d_9d_05"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 34
+name = "Chromatin_34_1"
+assay = "Chromatin_34_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_34_1"
+description = "RPMM0027 sample Chromatin_34_1"
+matlabfilename = "Chromatin_34_1.mat"
+ordername = "Chromatin_34"
+day = "9d"
+gcid = "Chromatin_34_1"
+genotype = "axe"
+runorder = "95"
+samplename = "axe_d_9d_07"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 35
+name = "Chromatin_35_1"
+assay = "Chromatin_35_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_35_1"
+description = "RPMM0027 sample Chromatin_35_1"
+matlabfilename = "Chromatin_35_1.mat"
+ordername = "Chromatin_35"
+day = "9d"
+gcid = "Chromatin_35_1"
+genotype = "axe"
+runorder = "93"
+samplename = "axe_d_9d_04"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 36
+name = "Chromatin_36_1"
+assay = "Chromatin_36_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_36_1"
+description = "RPMM0027 sample Chromatin_36_1"
+matlabfilename = "Chromatin_36_1.mat"
+ordername = "Chromatin_36"
+day = "9d"
+gcid = "Chromatin_36_1"
+genotype = "axe"
+runorder = "67"
+samplename = "axe_w_9d_01"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 37
+name = "Chromatin_37_1"
+assay = "Chromatin_37_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_37_1"
+description = "RPMM0027 sample Chromatin_37_1"
+matlabfilename = "Chromatin_37_1.mat"
+ordername = "Chromatin_37"
+day = "9d"
+gcid = "Chromatin_37_1"
+genotype = "axe"
+runorder = "60"
+samplename = "axe_w_9d_04"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 38
+name = "Chromatin_38_1"
+assay = "Chromatin_38_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_38_1"
+description = "RPMM0027 sample Chromatin_38_1"
+matlabfilename = "Chromatin_38_1.mat"
+ordername = "Chromatin_38"
+day = "9d"
+gcid = "Chromatin_38_1"
+genotype = "axe"
+runorder = "46"
+samplename = "axe_w_9d_06"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 39
+name = "Chromatin_39_1"
+assay = "Chromatin_39_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_39_1"
+description = "RPMM0027 sample Chromatin_39_1"
+matlabfilename = "Chromatin_39_1.mat"
+ordername = "Chromatin_39"
+day = "9d"
+gcid = "Chromatin_39_1"
+genotype = "axe"
+runorder = "62"
+samplename = "axe_w_9d_08"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 40
+name = "Chromatin_40_1"
+assay = "Chromatin_40_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_40_1"
+description = "RPMM0027 sample Chromatin_40_1"
+matlabfilename = "Chromatin_40_1.mat"
+ordername = "Chromatin_40"
+day = "9d"
+gcid = "Chromatin_40_1"
+genotype = "axe"
+runorder = "26"
+samplename = "axe_w_9d_09"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 41
+name = "Chromatin_41_1"
+assay = "Chromatin_41_1"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_41_1"
+description = "RPMM0027 sample Chromatin_41_1"
+matlabfilename = "Chromatin_41_1.mat"
+ordername = "Chromatin_41"
+day = "14d"
+gcid = "Chromatin_41_1"
+genotype = "axe"
+runorder = "18"
+samplename = "axe_d_14d_01"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 42
+name = "Chromatin_42_1"
+assay = "Chromatin_42_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_42_1"
+description = "RPMM0027 sample Chromatin_42_1"
+matlabfilename = "Chromatin_42_1.mat"
+ordername = "Chromatin_42"
+day = "14d"
+gcid = "Chromatin_42_1"
+genotype = "axe"
+runorder = "45"
+samplename = "axe_d_14d_04"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 43
+name = "Chromatin_43_1"
+assay = "Chromatin_43_1"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_43_1"
+description = "RPMM0027 sample Chromatin_43_1"
+matlabfilename = "Chromatin_43_1.mat"
+ordername = "Chromatin_43"
+day = "14d"
+gcid = "Chromatin_43_1"
+genotype = "axe"
+runorder = "98"
+samplename = "axe_d_14d_05"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 44
+name = "Chromatin_44_1"
+assay = "Chromatin_44_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_44_1"
+description = "RPMM0027 sample Chromatin_44_1"
+matlabfilename = "Chromatin_44_1.mat"
+ordername = "Chromatin_44"
+day = "14d"
+gcid = "Chromatin_44_1"
+genotype = "axe"
+runorder = "32"
+samplename = "axe_d_14d_07"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 45
+name = "Chromatin_45_1"
+assay = "Chromatin_45_1"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_45_1"
+description = "RPMM0027 sample Chromatin_45_1"
+matlabfilename = "Chromatin_45_1.mat"
+ordername = "Chromatin_45"
+day = "14d"
+gcid = "Chromatin_45_1"
+genotype = "axe"
+runorder = "49"
+samplename = "axe_d_14d_02"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 46
+name = "Chromatin_46_1"
+assay = "Chromatin_46_1"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_46_1"
+description = "RPMM0027 sample Chromatin_46_1"
+matlabfilename = "Chromatin_46_1.mat"
+ordername = "Chromatin_46"
+day = "14d"
+gcid = "Chromatin_46_1"
+genotype = "axe"
+runorder = "51"
+samplename = "axe_w_14d_01"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 47
+name = "Chromatin_47_1"
+assay = "Chromatin_47_1"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_47_1"
+description = "RPMM0027 sample Chromatin_47_1"
+matlabfilename = "Chromatin_47_1.mat"
+ordername = "Chromatin_47"
+day = "14d"
+gcid = "Chromatin_47_1"
+genotype = "axe"
+runorder = "33"
+samplename = "axe_w_14d_02"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 48
+name = "Chromatin_48_1"
+assay = "Chromatin_48_1"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_48_1"
+description = "RPMM0027 sample Chromatin_48_1"
+matlabfilename = "Chromatin_48_1.mat"
+ordername = "Chromatin_48"
+day = "14d"
+gcid = "Chromatin_48_1"
+genotype = "axe"
+runorder = "37"
+samplename = "axe_w_14d_03"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 49
+name = "Chromatin_49_1"
+assay = "Chromatin_49_1"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_49_1"
+description = "RPMM0027 sample Chromatin_49_1"
+matlabfilename = "Chromatin_49_1.mat"
+ordername = "Chromatin_49"
+day = "14d"
+gcid = "Chromatin_49_1"
+genotype = "axe"
+runorder = "86"
+samplename = "axe_w_14d_07"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 50
+name = "Chromatin_51_1"
+assay = "Chromatin_51_1"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_51_1"
+description = "RPMM0027 sample Chromatin_51_1"
+matlabfilename = "Chromatin_51_1.mat"
+ordername = "Chromatin_51"
+day = "12d"
+gcid = "Chromatin_51_1"
+genotype = "DR5"
+runorder = "65"
+samplename = "DR5_d_12d_01"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 51
+name = "Chromatin_52_1"
+assay = "Chromatin_52_1"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_52_1"
+description = "RPMM0027 sample Chromatin_52_1"
+matlabfilename = "Chromatin_52_1.mat"
+ordername = "Chromatin_52"
+day = "12d"
+gcid = "Chromatin_52_1"
+genotype = "DR5"
+runorder = "73"
+samplename = "DR5_d_12d_02"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 52
+name = "Chromatin_53_1"
+assay = "Chromatin_53_1"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_53_1"
+description = "RPMM0027 sample Chromatin_53_1"
+matlabfilename = "Chromatin_53_1.mat"
+ordername = "Chromatin_53"
+day = "12d"
+gcid = "Chromatin_53_1"
+genotype = "DR5"
+runorder = "69"
+samplename = "DR5_d_12d_03"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 53
+name = "Chromatin_54_1"
+assay = "Chromatin_54_1"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_54_1"
+description = "RPMM0027 sample Chromatin_54_1"
+matlabfilename = "Chromatin_54_1.mat"
+ordername = "Chromatin_54"
+day = "12d"
+gcid = "Chromatin_54_1"
+genotype = "DR5"
+runorder = "77"
+samplename = "DR5_d_12d_04"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 54
+name = "Chromatin_55_1"
+assay = "Chromatin_55_1"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_55_1"
+description = "RPMM0027 sample Chromatin_55_1"
+matlabfilename = "Chromatin_55_1.mat"
+ordername = "Chromatin_55"
+day = "12d"
+gcid = "Chromatin_55_1"
+genotype = "DR5"
+runorder = "96"
+samplename = "DR5_d_12d_05"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 55
+name = "Chromatin_56_1"
+assay = "Chromatin_56_1"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_56_1"
+description = "RPMM0027 sample Chromatin_56_1"
+matlabfilename = "Chromatin_56_1.mat"
+ordername = "Chromatin_56"
+day = "12d"
+gcid = "Chromatin_56_1"
+genotype = "DR5"
+runorder = "39"
+samplename = "DR5_w_12d_01"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 56
+name = "Chromatin_57_1"
+assay = "Chromatin_57_1"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_57_1"
+description = "RPMM0027 sample Chromatin_57_1"
+matlabfilename = "Chromatin_57_1.mat"
+ordername = "Chromatin_57"
+day = "12d"
+gcid = "Chromatin_57_1"
+genotype = "DR5"
+runorder = "44"
+samplename = "DR5_w_12d_02"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 57
+name = "Chromatin_58_1"
+assay = "Chromatin_58_1"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_58_1"
+description = "RPMM0027 sample Chromatin_58_1"
+matlabfilename = "Chromatin_58_1.mat"
+ordername = "Chromatin_58"
+day = "12d"
+gcid = "Chromatin_58_1"
+genotype = "DR5"
+runorder = "34"
+samplename = "DR5_w_12d_03"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 58
+name = "Chromatin_59_1"
+assay = "Chromatin_59_1"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_59_1"
+description = "RPMM0027 sample Chromatin_59_1"
+matlabfilename = "Chromatin_59_1.mat"
+ordername = "Chromatin_59"
+day = "12d"
+gcid = "Chromatin_59_1"
+genotype = "DR5"
+runorder = "59"
+samplename = "DR5_w_12d_04"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 59
+name = "Chromatin_60_1"
+assay = "Chromatin_60_1"
+ms_run_ref = "ms_run[59]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_60_1"
+description = "RPMM0027 sample Chromatin_60_1"
+matlabfilename = "Chromatin_60_1.mat"
+ordername = "Chromatin_60"
+day = "12d"
+gcid = "Chromatin_60_1"
+genotype = "DR5"
+runorder = "58"
+samplename = "DR5_w_12d_05"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 60
+name = "Chromatin_61_1"
+assay = "Chromatin_61_1"
+ms_run_ref = "ms_run[60]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_61_1"
+description = "RPMM0027 sample Chromatin_61_1"
+matlabfilename = "Chromatin_61_1.mat"
+ordername = "Chromatin_61"
+day = "12d"
+gcid = "Chromatin_61_1"
+genotype = "axe"
+runorder = "79"
+samplename = "axe_d_12d_01"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 61
+name = "Chromatin_62_1"
+assay = "Chromatin_62_1"
+ms_run_ref = "ms_run[61]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_62_1"
+description = "RPMM0027 sample Chromatin_62_1"
+matlabfilename = "Chromatin_62_1.mat"
+ordername = "Chromatin_62"
+day = "12d"
+gcid = "Chromatin_62_1"
+genotype = "axe"
+runorder = "38"
+samplename = "axe_d_12d_02"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 62
+name = "Chromatin_63_1"
+assay = "Chromatin_63_1"
+ms_run_ref = "ms_run[62]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_63_1"
+description = "RPMM0027 sample Chromatin_63_1"
+matlabfilename = "Chromatin_63_1.mat"
+ordername = "Chromatin_63"
+day = "12d"
+gcid = "Chromatin_63_1"
+genotype = "axe"
+runorder = "19"
+samplename = "axe_d_12d_03"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 63
+name = "Chromatin_64_1"
+assay = "Chromatin_64_1"
+ms_run_ref = "ms_run[63]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_64_1"
+description = "RPMM0027 sample Chromatin_64_1"
+matlabfilename = "Chromatin_64_1.mat"
+ordername = "Chromatin_64"
+day = "12d"
+gcid = "Chromatin_64_1"
+genotype = "axe"
+runorder = "66"
+samplename = "axe_d_12d_04"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 64
+name = "Chromatin_65_1"
+assay = "Chromatin_65_1"
+ms_run_ref = "ms_run[64]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_65_1"
+description = "RPMM0027 sample Chromatin_65_1"
+matlabfilename = "Chromatin_65_1.mat"
+ordername = "Chromatin_65"
+day = "12d"
+gcid = "Chromatin_65_1"
+genotype = "axe"
+runorder = "81"
+samplename = "axe_d_12d_05"
+treatment = "dry"
+weightmg = "0.055556"
+
+[[sample]]
+index = 65
+name = "Chromatin_66_1"
+assay = "Chromatin_66_1"
+ms_run_ref = "ms_run[65]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_66_1"
+description = "RPMM0027 sample Chromatin_66_1"
+matlabfilename = "Chromatin_66_1.mat"
+ordername = "Chromatin_66"
+day = "12d"
+gcid = "Chromatin_66_1"
+genotype = "axe"
+runorder = "88"
+samplename = "axe_w_12d_01"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 66
+name = "Chromatin_67_1"
+assay = "Chromatin_67_1"
+ms_run_ref = "ms_run[66]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_67_1"
+description = "RPMM0027 sample Chromatin_67_1"
+matlabfilename = "Chromatin_67_1.mat"
+ordername = "Chromatin_67"
+day = "12d"
+gcid = "Chromatin_67_1"
+genotype = "axe"
+runorder = "40"
+samplename = "axe_w_12d_02"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 67
+name = "Chromatin_68_1"
+assay = "Chromatin_68_1"
+ms_run_ref = "ms_run[67]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_68_1"
+description = "RPMM0027 sample Chromatin_68_1"
+matlabfilename = "Chromatin_68_1.mat"
+ordername = "Chromatin_68"
+day = "12d"
+gcid = "Chromatin_68_1"
+genotype = "axe"
+runorder = "55"
+samplename = "axe_w_12d_03"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 68
+name = "Chromatin_69_1"
+assay = "Chromatin_69_1"
+ms_run_ref = "ms_run[68]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_69_1"
+description = "RPMM0027 sample Chromatin_69_1"
+matlabfilename = "Chromatin_69_1.mat"
+ordername = "Chromatin_69"
+day = "12d"
+gcid = "Chromatin_69_1"
+genotype = "axe"
+runorder = "91"
+samplename = "axe_w_12d_04"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 69
+name = "Chromatin_70_1"
+assay = "Chromatin_70_1"
+ms_run_ref = "ms_run[69]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#Chromatin_70_1"
+description = "RPMM0027 sample Chromatin_70_1"
+matlabfilename = "Chromatin_70_1.mat"
+ordername = "Chromatin_70"
+day = "12d"
+gcid = "Chromatin_70_1"
+genotype = "axe"
+runorder = "25"
+samplename = "axe_w_12d_05"
+treatment = "water"
+weightmg = "0.055556"
+
+[[sample]]
+index = 70
+name = "FD_01_1"
+assay = "FD_01_1"
+ms_run_ref = "ms_run[70]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#FD_01_1"
+description = "RPMM0027 sample FD_01_1"
+
+[[sample]]
+index = 71
+name = "FD_02_1"
+assay = "FD_02_1"
+ms_run_ref = "ms_run[71]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#FD_02_1"
+description = "RPMM0027 sample FD_02_1"
+
+[[sample]]
+index = 72
+name = "FD_03_1"
+assay = "FD_03_1"
+ms_run_ref = "ms_run[72]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#FD_03_1"
+description = "RPMM0027 sample FD_03_1"
+
+[[sample]]
+index = 73
+name = "IS+Pyruvate_1"
+assay = "IS+Pyruvate_1"
+ms_run_ref = "ms_run[73]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#IS+Pyruvate_1"
+description = "RPMM0027 sample IS+Pyruvate_1"
+
+[[sample]]
+index = 74
+name = "IS+Pyruvate_2"
+assay = "IS+Pyruvate_2"
+ms_run_ref = "ms_run[74]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#IS+Pyruvate_2"
+description = "RPMM0027 sample IS+Pyruvate_2"
+
+[[sample]]
+index = 75
+name = "IS+Pyruvate_3"
+assay = "IS+Pyruvate_3"
+ms_run_ref = "ms_run[75]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#IS+Pyruvate_3"
+description = "RPMM0027 sample IS+Pyruvate_3"
+
+[[sample]]
+index = 76
+name = "IS+Pyruvate_4"
+assay = "IS+Pyruvate_4"
+ms_run_ref = "ms_run[76]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#IS+Pyruvate_4"
+description = "RPMM0027 sample IS+Pyruvate_4"
+
+[[sample]]
+index = 77
+name = "IS+Pyruvate_5"
+assay = "IS+Pyruvate_5"
+ms_run_ref = "ms_run[77]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#IS+Pyruvate_5"
+description = "RPMM0027 sample IS+Pyruvate_5"
+
+[[sample]]
+index = 78
+name = "IS+Pyruvate_6"
+assay = "IS+Pyruvate_6"
+ms_run_ref = "ms_run[78]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#IS+Pyruvate_6"
+description = "RPMM0027 sample IS+Pyruvate_6"
+
+[[sample]]
+index = 79
+name = "STDs_1_1_1"
+assay = "STDs_1_1_1"
+ms_run_ref = "ms_run[79]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_1_1_1"
+description = "RPMM0027 sample STDs_1_1_1"
+
+[[sample]]
+index = 80
+name = "STDs_1_2_1"
+assay = "STDs_1_2_1"
+ms_run_ref = "ms_run[80]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_1_2_1"
+description = "RPMM0027 sample STDs_1_2_1"
+
+[[sample]]
+index = 81
+name = "STDs_1_3_1"
+assay = "STDs_1_3_1"
+ms_run_ref = "ms_run[81]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_1_3_1"
+description = "RPMM0027 sample STDs_1_3_1"
+
+[[sample]]
+index = 82
+name = "STDs_2_1_1"
+assay = "STDs_2_1_1"
+ms_run_ref = "ms_run[82]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_2_1_1"
+description = "RPMM0027 sample STDs_2_1_1"
+
+[[sample]]
+index = 83
+name = "STDs_2_2_1"
+assay = "STDs_2_2_1"
+ms_run_ref = "ms_run[83]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_2_2_1"
+description = "RPMM0027 sample STDs_2_2_1"
+
+[[sample]]
+index = 84
+name = "STDs_2_3_1"
+assay = "STDs_2_3_1"
+ms_run_ref = "ms_run[84]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_2_3_1"
+description = "RPMM0027 sample STDs_2_3_1"
+
+[[sample]]
+index = 85
+name = "STDs_3_1_1"
+assay = "STDs_3_1_1"
+ms_run_ref = "ms_run[85]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_3_1_1"
+description = "RPMM0027 sample STDs_3_1_1"
+
+[[sample]]
+index = 86
+name = "STDs_3_2_1"
+assay = "STDs_3_2_1"
+ms_run_ref = "ms_run[86]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_3_2_1"
+description = "RPMM0027 sample STDs_3_2_1"
+
+[[sample]]
+index = 87
+name = "STDs_3_3_1"
+assay = "STDs_3_3_1"
+ms_run_ref = "ms_run[87]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_3_3_1"
+description = "RPMM0027 sample STDs_3_3_1"
+
+[[sample]]
+index = 88
+name = "STDs_E1_1_1"
+assay = "STDs_E1_1_1"
+ms_run_ref = "ms_run[88]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_E1_1_1"
+description = "RPMM0027 sample STDs_E1_1_1"
+
+[[sample]]
+index = 89
+name = "STDs_E1_2_1"
+assay = "STDs_E1_2_1"
+ms_run_ref = "ms_run[89]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_E1_2_1"
+description = "RPMM0027 sample STDs_E1_2_1"
+
+[[sample]]
+index = 90
+name = "STDs_E1_3_1"
+assay = "STDs_E1_3_1"
+ms_run_ref = "ms_run[90]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_E1_3_1"
+description = "RPMM0027 sample STDs_E1_3_1"
+
+[[sample]]
+index = 91
+name = "STDs_E2_1_1"
+assay = "STDs_E2_1_1"
+ms_run_ref = "ms_run[91]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_E2_1_1"
+description = "RPMM0027 sample STDs_E2_1_1"
+
+[[sample]]
+index = 92
+name = "STDs_E2_2_1"
+assay = "STDs_E2_2_1"
+ms_run_ref = "ms_run[92]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_E2_2_1"
+description = "RPMM0027 sample STDs_E2_2_1"
+
+[[sample]]
+index = 93
+name = "STDs_E2_3_1"
+assay = "STDs_E2_3_1"
+ms_run_ref = "ms_run[93]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_E2_3_1"
+description = "RPMM0027 sample STDs_E2_3_1"
+
+[[sample]]
+index = 94
+name = "STDs_E3_1_1"
+assay = "STDs_E3_1_1"
+ms_run_ref = "ms_run[94]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_E3_1_1"
+description = "RPMM0027 sample STDs_E3_1_1"
+
+[[sample]]
+index = 95
+name = "STDs_E3_2_1"
+assay = "STDs_E3_2_1"
+ms_run_ref = "ms_run[95]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_E3_2_1"
+description = "RPMM0027 sample STDs_E3_2_1"
+
+[[sample]]
+index = 96
+name = "STDs_E3_3_1"
+assay = "STDs_E3_3_1"
+ms_run_ref = "ms_run[96]"
+location = "http://metabobank.riken.jp/data/RPMM0027/AnalysedDataset/DroughtTreatment/MetMat_abs.txt#STDs_E3_3_1"
+description = "RPMM0027 sample STDs_E3_3_1"
+
+[study_variables]
+candidate_columns = [
+    "treatment",
+    "genotype",
+    "day",
+]
+
+[study_variables.levels]
+treatment = [
+    "dry",
+    "water",
+]
+genotype = [
+    "DR5",
+    "axe",
+]
+day = [
+    "0d",
+    "12d",
+    "14d",
+    "9d",
+]

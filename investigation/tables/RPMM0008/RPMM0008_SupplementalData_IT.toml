@@ -1,0 +1,351 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0008"
+title = "Deciphering starch quality of rice kernels using metabolite profiling and pedigree network analysis."
+external_study = "http://metabobank.riken.jp/pmm/RPMM0008"
+
+[matrix]
+name = "SupplementalData_IT"
+source_file = "RPMM0008/AnalysedDataset/SupplementalData_IT.csv"
+format = "csv"
+n_features = 14
+n_samples = 38
+metadata_columns = [
+    "synonym",
+    "mz",
+    "ri",
+    "known",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0008/AnalysedDataset/phenodata_gc.csv"
+msp = ""
+
+[organism]
+raw = ""
+cv = ""
+source = ""
+
+[instrument]
+technique = "LC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "AK_01_1"
+assay = "AK_01_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_01_1"
+description = "RPMM0008 sample AK_01_1"
+
+[[sample]]
+index = 2
+name = "AK_01_2"
+assay = "AK_01_2"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_01_2"
+description = "RPMM0008 sample AK_01_2"
+
+[[sample]]
+index = 3
+name = "AK_01_3"
+assay = "AK_01_3"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_01_3"
+description = "RPMM0008 sample AK_01_3"
+
+[[sample]]
+index = 4
+name = "AK_02_1"
+assay = "AK_02_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_02_1"
+description = "RPMM0008 sample AK_02_1"
+
+[[sample]]
+index = 5
+name = "AK_02_2"
+assay = "AK_02_2"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_02_2"
+description = "RPMM0008 sample AK_02_2"
+
+[[sample]]
+index = 6
+name = "AK_02_3"
+assay = "AK_02_3"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_02_3"
+description = "RPMM0008 sample AK_02_3"
+
+[[sample]]
+index = 7
+name = "AK_04_1"
+assay = "AK_04_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_04_1"
+description = "RPMM0008 sample AK_04_1"
+
+[[sample]]
+index = 8
+name = "AK_04_2"
+assay = "AK_04_2"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_04_2"
+description = "RPMM0008 sample AK_04_2"
+
+[[sample]]
+index = 9
+name = "AK_04_3"
+assay = "AK_04_3"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_04_3"
+description = "RPMM0008 sample AK_04_3"
+
+[[sample]]
+index = 10
+name = "AK_05_1"
+assay = "AK_05_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_05_1"
+description = "RPMM0008 sample AK_05_1"
+
+[[sample]]
+index = 11
+name = "AK_05_2"
+assay = "AK_05_2"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_05_2"
+description = "RPMM0008 sample AK_05_2"
+
+[[sample]]
+index = 12
+name = "AK_05_3"
+assay = "AK_05_3"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_05_3"
+description = "RPMM0008 sample AK_05_3"
+
+[[sample]]
+index = 13
+name = "AK_06_1"
+assay = "AK_06_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_06_1"
+description = "RPMM0008 sample AK_06_1"
+
+[[sample]]
+index = 14
+name = "AK_06_2"
+assay = "AK_06_2"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_06_2"
+description = "RPMM0008 sample AK_06_2"
+
+[[sample]]
+index = 15
+name = "AK_06_3"
+assay = "AK_06_3"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_06_3"
+description = "RPMM0008 sample AK_06_3"
+
+[[sample]]
+index = 16
+name = "AK_07_1"
+assay = "AK_07_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_07_1"
+description = "RPMM0008 sample AK_07_1"
+
+[[sample]]
+index = 17
+name = "AK_07_2"
+assay = "AK_07_2"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_07_2"
+description = "RPMM0008 sample AK_07_2"
+
+[[sample]]
+index = 18
+name = "AK_07_3"
+assay = "AK_07_3"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_07_3"
+description = "RPMM0008 sample AK_07_3"
+
+[[sample]]
+index = 19
+name = "AK_08_1"
+assay = "AK_08_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_08_1"
+description = "RPMM0008 sample AK_08_1"
+
+[[sample]]
+index = 20
+name = "AK_08_2"
+assay = "AK_08_2"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_08_2"
+description = "RPMM0008 sample AK_08_2"
+
+[[sample]]
+index = 21
+name = "AK_08_3"
+assay = "AK_08_3"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_08_3"
+description = "RPMM0008 sample AK_08_3"
+
+[[sample]]
+index = 22
+name = "AK_09_1"
+assay = "AK_09_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_09_1"
+description = "RPMM0008 sample AK_09_1"
+
+[[sample]]
+index = 23
+name = "AK_09_2"
+assay = "AK_09_2"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_09_2"
+description = "RPMM0008 sample AK_09_2"
+
+[[sample]]
+index = 24
+name = "AK_09_3"
+assay = "AK_09_3"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#AK_09_3"
+description = "RPMM0008 sample AK_09_3"
+
+[[sample]]
+index = 25
+name = "e1_2005...Nipponbare_2005"
+assay = "e1_2005...Nipponbare_2005"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#e1_2005...Nipponbare_2005"
+description = "RPMM0008 sample e1_2005...Nipponbare_2005"
+
+[[sample]]
+index = 26
+name = "e1_2005...Nipponbare_2005..BH.Adj.p."
+assay = "e1_2005...Nipponbare_2005..BH.Adj.p."
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#e1_2005...Nipponbare_2005..BH.Adj.p."
+description = "RPMM0008 sample e1_2005...Nipponbare_2005..BH.Adj.p."
+
+[[sample]]
+index = 27
+name = "Hoshiyutaka_2005...Nipponbare_2005"
+assay = "Hoshiyutaka_2005...Nipponbare_2005"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#Hoshiyutaka_2005...Nipponbare_2005"
+description = "RPMM0008 sample Hoshiyutaka_2005...Nipponbare_2005"
+
+[[sample]]
+index = 28
+name = "Hoshiyutaka_2005...Nipponbare_2005..BH.Adj.p."
+assay = "Hoshiyutaka_2005...Nipponbare_2005..BH.Adj.p."
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#Hoshiyutaka_2005...Nipponbare_2005..BH.Adj.p."
+description = "RPMM0008 sample Hoshiyutaka_2005...Nipponbare_2005..BH.Adj.p."
+
+[[sample]]
+index = 29
+name = "Kinmaze_2008...Nipponbare_2005"
+assay = "Kinmaze_2008...Nipponbare_2005"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#Kinmaze_2008...Nipponbare_2005"
+description = "RPMM0008 sample Kinmaze_2008...Nipponbare_2005"
+
+[[sample]]
+index = 30
+name = "Kinmaze_2008...Nipponbare_2005..BH.Adj.p."
+assay = "Kinmaze_2008...Nipponbare_2005..BH.Adj.p."
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#Kinmaze_2008...Nipponbare_2005..BH.Adj.p."
+description = "RPMM0008 sample Kinmaze_2008...Nipponbare_2005..BH.Adj.p."
+
+[[sample]]
+index = 31
+name = "Num4019_2008...Kinmaze_2008"
+assay = "Num4019_2008...Kinmaze_2008"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#Num4019_2008...Kinmaze_2008"
+description = "RPMM0008 sample Num4019_2008...Kinmaze_2008"
+
+[[sample]]
+index = 32
+name = "Num4019_2008...Kinmaze_2008..BH.Adj.p."
+assay = "Num4019_2008...Kinmaze_2008..BH.Adj.p."
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#Num4019_2008...Kinmaze_2008..BH.Adj.p."
+description = "RPMM0008 sample Num4019_2008...Kinmaze_2008..BH.Adj.p."
+
+[[sample]]
+index = 33
+name = "Num4019_2008...Nipponbare_2005"
+assay = "Num4019_2008...Nipponbare_2005"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#Num4019_2008...Nipponbare_2005"
+description = "RPMM0008 sample Num4019_2008...Nipponbare_2005"
+
+[[sample]]
+index = 34
+name = "Num4019_2008...Nipponbare_2005..BH.Adj.p."
+assay = "Num4019_2008...Nipponbare_2005..BH.Adj.p."
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#Num4019_2008...Nipponbare_2005..BH.Adj.p."
+description = "RPMM0008 sample Num4019_2008...Nipponbare_2005..BH.Adj.p."
+
+[[sample]]
+index = 35
+name = "Soft158_2005...Nipponbare_2005"
+assay = "Soft158_2005...Nipponbare_2005"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#Soft158_2005...Nipponbare_2005"
+description = "RPMM0008 sample Soft158_2005...Nipponbare_2005"
+
+[[sample]]
+index = 36
+name = "Soft158_2005...Nipponbare_2005..BH.Adj.p."
+assay = "Soft158_2005...Nipponbare_2005..BH.Adj.p."
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#Soft158_2005...Nipponbare_2005..BH.Adj.p."
+description = "RPMM0008 sample Soft158_2005...Nipponbare_2005..BH.Adj.p."
+
+[[sample]]
+index = 37
+name = "Yumetoiro_2005...Nipponbare_2005"
+assay = "Yumetoiro_2005...Nipponbare_2005"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#Yumetoiro_2005...Nipponbare_2005"
+description = "RPMM0008 sample Yumetoiro_2005...Nipponbare_2005"
+
+[[sample]]
+index = 38
+name = "Yumetoiro_2005...Nipponbare_2005..BH.Adj.p."
+assay = "Yumetoiro_2005...Nipponbare_2005..BH.Adj.p."
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_IT.csv#Yumetoiro_2005...Nipponbare_2005..BH.Adj.p."
+description = "RPMM0008 sample Yumetoiro_2005...Nipponbare_2005..BH.Adj.p."
+
+[study_variables]
+candidate_columns = [
+    "harvestyear",
+    "harvestplace",
+]
+
+[study_variables.levels]
+harvestyear = []
+harvestplace = []

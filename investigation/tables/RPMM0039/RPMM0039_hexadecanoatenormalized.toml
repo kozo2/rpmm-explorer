@@ -1,0 +1,401 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0039"
+title = "Succinic Semialdehyde Dehydrogenase is Involved in the Robust Patterning of Arabidopsis Leaves along the Adaxial–Abaxial Axis"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0039"
+
+[matrix]
+name = "hexadecanoatenormalized"
+source_file = "RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt"
+format = "tsv"
+n_features = 210
+n_samples = 23
+metadata_columns = [
+    "Marked_peaks",
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+    "query",
+    "known",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0039/AnalysedDataset/090819_phenodata.csv"
+msp = ""
+
+[organism]
+raw = ""
+cv = ""
+source = ""
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "Apex_01_1"
+assay = "Apex_01_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_01_1"
+description = "RPMM0039 sample Apex_01_1"
+matlab_file_name = "Apex_01_1.mat"
+order_name = "Apex_01"
+gcid = "Apex_01_1"
+genotype = "wt"
+sample = "TRUE"
+type = "WT_1"
+weight = "0.0675"
+
+[[sample]]
+index = 2
+name = "Apex_02_1"
+assay = "Apex_02_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_02_1"
+description = "RPMM0039 sample Apex_02_1"
+matlab_file_name = "Apex_02_1.mat"
+order_name = "Apex_02"
+gcid = "Apex_02_1"
+genotype = "enf1"
+sample = "TRUE"
+type = "enf1_1"
+weight = "0.0625"
+
+[[sample]]
+index = 3
+name = "Apex_03_1"
+assay = "Apex_03_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_03_1"
+description = "RPMM0039 sample Apex_03_1"
+matlab_file_name = "Apex_03_1.mat"
+order_name = "Apex_03"
+gcid = "Apex_03_1"
+genotype = "gabat1"
+sample = "TRUE"
+type = "gabat1_1"
+weight = "0.075"
+
+[[sample]]
+index = 4
+name = "Apex_05_1"
+assay = "Apex_05_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_05_1"
+description = "RPMM0039 sample Apex_05_1"
+matlab_file_name = "Apex_05_1.mat"
+order_name = "Apex_05"
+gcid = "Apex_05_1"
+genotype = "wt"
+sample = "TRUE"
+type = "WT_2"
+weight = "0.0525"
+
+[[sample]]
+index = 5
+name = "Apex_06_1"
+assay = "Apex_06_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_06_1"
+description = "RPMM0039 sample Apex_06_1"
+matlab_file_name = "Apex_06_1.mat"
+order_name = "Apex_06"
+gcid = "Apex_06_1"
+genotype = "enf1"
+sample = "TRUE"
+type = "enf1_2"
+weight = "0.03625"
+
+[[sample]]
+index = 6
+name = "Apex_09_1"
+assay = "Apex_09_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_09_1"
+description = "RPMM0039 sample Apex_09_1"
+matlab_file_name = "Apex_09_1.mat"
+order_name = "Apex_09"
+gcid = "Apex_09_1"
+genotype = "wt"
+sample = "TRUE"
+type = "WT_3"
+weight = "0.06875"
+
+[[sample]]
+index = 7
+name = "Apex_10_1"
+assay = "Apex_10_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_10_1"
+description = "RPMM0039 sample Apex_10_1"
+matlab_file_name = "Apex_10_1.mat"
+order_name = "Apex_10"
+gcid = "Apex_10_1"
+genotype = "enf1"
+sample = "TRUE"
+type = "enf1_3"
+weight = "0.045"
+
+[[sample]]
+index = 8
+name = "Apex_11_1"
+assay = "Apex_11_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_11_1"
+description = "RPMM0039 sample Apex_11_1"
+matlab_file_name = "Apex_11_1.mat"
+order_name = "Apex_11"
+gcid = "Apex_11_1"
+genotype = "gabat1"
+sample = "TRUE"
+type = "gabat1_3"
+weight = "0.075"
+
+[[sample]]
+index = 9
+name = "Apex_12_1"
+assay = "Apex_12_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_12_1"
+description = "RPMM0039 sample Apex_12_1"
+matlab_file_name = "Apex_12_1.mat"
+order_name = "Apex_12"
+gcid = "Apex_12_1"
+genotype = "doubleKO"
+sample = "TRUE"
+type = "double_3"
+weight = "0.06625"
+
+[[sample]]
+index = 10
+name = "Apex_13_1"
+assay = "Apex_13_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_13_1"
+description = "RPMM0039 sample Apex_13_1"
+matlab_file_name = "Apex_13_1.mat"
+order_name = "Apex_13"
+gcid = "Apex_13_1"
+genotype = "wt"
+sample = "TRUE"
+type = "WT_4"
+weight = "0.075"
+
+[[sample]]
+index = 11
+name = "Apex_15_1"
+assay = "Apex_15_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_15_1"
+description = "RPMM0039 sample Apex_15_1"
+matlab_file_name = "Apex_15_1.mat"
+order_name = "Apex_15"
+gcid = "Apex_15_1"
+genotype = "gabat1"
+sample = "TRUE"
+type = "gabat1_4"
+weight = "0.075"
+
+[[sample]]
+index = 12
+name = "Apex_16_1"
+assay = "Apex_16_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_16_1"
+description = "RPMM0039 sample Apex_16_1"
+matlab_file_name = "Apex_16_1.mat"
+order_name = "Apex_16"
+gcid = "Apex_16_1"
+genotype = "doubleKO"
+sample = "TRUE"
+type = "double_4"
+weight = "0.075"
+
+[[sample]]
+index = 13
+name = "Apex_18_1"
+assay = "Apex_18_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_18_1"
+description = "RPMM0039 sample Apex_18_1"
+matlab_file_name = "Apex_18_1.mat"
+order_name = "Apex_18"
+gcid = "Apex_18_1"
+genotype = "enf1"
+sample = "TRUE"
+type = "enf1_5"
+weight = "0.0425"
+
+[[sample]]
+index = 14
+name = "Apex_19_1"
+assay = "Apex_19_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_19_1"
+description = "RPMM0039 sample Apex_19_1"
+matlab_file_name = "Apex_19_1.mat"
+order_name = "Apex_19"
+gcid = "Apex_19_1"
+genotype = "gabat1"
+sample = "TRUE"
+type = "gabat1_5"
+weight = "0.075"
+
+[[sample]]
+index = 15
+name = "Apex_20_1"
+assay = "Apex_20_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_20_1"
+description = "RPMM0039 sample Apex_20_1"
+matlab_file_name = "Apex_20_1.mat"
+order_name = "Apex_20"
+gcid = "Apex_20_1"
+genotype = "doubleKO"
+sample = "TRUE"
+type = "double_5"
+weight = "0.055"
+
+[[sample]]
+index = 16
+name = "Apex_21_1"
+assay = "Apex_21_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_21_1"
+description = "RPMM0039 sample Apex_21_1"
+matlab_file_name = "Apex_21_1.mat"
+order_name = "Apex_21"
+gcid = "Apex_21_1"
+genotype = "wt"
+sample = "TRUE"
+type = "WT_6"
+weight = "0.0375"
+
+[[sample]]
+index = 17
+name = "Apex_22_1"
+assay = "Apex_22_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_22_1"
+description = "RPMM0039 sample Apex_22_1"
+matlab_file_name = "Apex_22_1.mat"
+order_name = "Apex_22"
+gcid = "Apex_22_1"
+genotype = "enf1"
+sample = "TRUE"
+type = "enf1_6"
+weight = "0.05125"
+
+[[sample]]
+index = 18
+name = "Apex_23_1"
+assay = "Apex_23_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_23_1"
+description = "RPMM0039 sample Apex_23_1"
+matlab_file_name = "Apex_23_1.mat"
+order_name = "Apex_23"
+gcid = "Apex_23_1"
+genotype = "gabat1"
+sample = "TRUE"
+type = "gabat1_6"
+weight = "0.075"
+
+[[sample]]
+index = 19
+name = "Apex_24_1"
+assay = "Apex_24_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_24_1"
+description = "RPMM0039 sample Apex_24_1"
+matlab_file_name = "Apex_24_1.mat"
+order_name = "Apex_24"
+gcid = "Apex_24_1"
+genotype = "doubleKO"
+sample = "TRUE"
+type = "double_6"
+weight = "0.04375"
+
+[[sample]]
+index = 20
+name = "Apex_25_1"
+assay = "Apex_25_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_25_1"
+description = "RPMM0039 sample Apex_25_1"
+matlab_file_name = "Apex_25_1.mat"
+order_name = "Apex_25"
+gcid = "Apex_25_1"
+genotype = "wt"
+sample = "TRUE"
+type = "WT_7"
+weight = "0.07375"
+
+[[sample]]
+index = 21
+name = "Apex_26_1"
+assay = "Apex_26_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_26_1"
+description = "RPMM0039 sample Apex_26_1"
+matlab_file_name = "Apex_26_1.mat"
+order_name = "Apex_26"
+gcid = "Apex_26_1"
+genotype = "enf1"
+sample = "TRUE"
+type = "enf1_7"
+weight = "0.05125"
+
+[[sample]]
+index = 22
+name = "Apex_27_1"
+assay = "Apex_27_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_27_1"
+description = "RPMM0039 sample Apex_27_1"
+matlab_file_name = "Apex_27_1.mat"
+order_name = "Apex_27"
+gcid = "Apex_27_1"
+genotype = "gabat1"
+sample = "TRUE"
+type = "gabat1_7"
+weight = "0.075"
+
+[[sample]]
+index = 23
+name = "Apex_28_1"
+assay = "Apex_28_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0039/AnalysedDataset/hexadecanoatenormalized.txt#Apex_28_1"
+description = "RPMM0039 sample Apex_28_1"
+matlab_file_name = "Apex_28_1.mat"
+order_name = "Apex_28"
+gcid = "Apex_28_1"
+genotype = "doubleKO"
+sample = "TRUE"
+type = "double_7"
+weight = "0.05125"
+
+[study_variables]
+candidate_columns = [
+    "genotype",
+]
+
+[study_variables.levels]
+genotype = [
+    "doubleKO",
+    "enf1",
+    "gabat1",
+    "wt",
+]

@@ -1,0 +1,1701 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0008"
+title = "Deciphering starch quality of rice kernels using metabolite profiling and pedigree network analysis."
+external_study = "http://metabobank.riken.jp/pmm/RPMM0008"
+
+[matrix]
+name = "SupplementalData_GC"
+source_file = "RPMM0008/AnalysedDataset/SupplementalData_GC.csv"
+format = "csv"
+n_features = 212
+n_samples = 110
+metadata_columns = [
+    "synonym",
+    "known",
+    "cas",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0008/AnalysedDataset/phenodata_gc.csv"
+msp = ""
+
+[organism]
+raw = ""
+cv = ""
+source = ""
+
+[instrument]
+technique = "LC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "AK_01_1_1_1"
+assay = "AK_01_1_1_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_01_1_1_1"
+description = "RPMM0008 sample AK_01_1_1_1"
+matlab_file_name = "AK_01_1_1_1.mat"
+order_name = "AK_01_1_1"
+cultivar = "Nipponbare"
+gcid = "AK_01_1_1_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_01_1_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 2
+name = "AK_01_1_2_1"
+assay = "AK_01_1_2_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_01_1_2_1"
+description = "RPMM0008 sample AK_01_1_2_1"
+matlab_file_name = "AK_01_1_2_1.mat"
+order_name = "AK_01_1_2"
+cultivar = "Nipponbare"
+gcid = "AK_01_1_2_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_01_1_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 3
+name = "AK_01_1_3_1"
+assay = "AK_01_1_3_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_01_1_3_1"
+description = "RPMM0008 sample AK_01_1_3_1"
+matlab_file_name = "AK_01_1_3_1.mat"
+order_name = "AK_01_1_3"
+cultivar = "Nipponbare"
+gcid = "AK_01_1_3_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_01_1_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 4
+name = "AK_01_1_4_1"
+assay = "AK_01_1_4_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_01_1_4_1"
+description = "RPMM0008 sample AK_01_1_4_1"
+matlab_file_name = "AK_01_1_4_1.mat"
+order_name = "AK_01_1_4"
+cultivar = "Nipponbare"
+gcid = "AK_01_1_4_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_01_1_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 5
+name = "AK_01_2_1_1"
+assay = "AK_01_2_1_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_01_2_1_1"
+description = "RPMM0008 sample AK_01_2_1_1"
+matlab_file_name = "AK_01_2_1_1.mat"
+order_name = "AK_01_2_1"
+cultivar = "Nipponbare"
+gcid = "AK_01_2_1_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_01_2_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 6
+name = "AK_01_2_2_1"
+assay = "AK_01_2_2_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_01_2_2_1"
+description = "RPMM0008 sample AK_01_2_2_1"
+matlab_file_name = "AK_01_2_2_1.mat"
+order_name = "AK_01_2_2"
+cultivar = "Nipponbare"
+gcid = "AK_01_2_2_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_01_2_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 7
+name = "AK_01_2_3_1"
+assay = "AK_01_2_3_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_01_2_3_1"
+description = "RPMM0008 sample AK_01_2_3_1"
+matlab_file_name = "AK_01_2_3_1.mat"
+order_name = "AK_01_2_3"
+cultivar = "Nipponbare"
+gcid = "AK_01_2_3_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_01_2_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 8
+name = "AK_01_2_4_1"
+assay = "AK_01_2_4_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_01_2_4_1"
+description = "RPMM0008 sample AK_01_2_4_1"
+matlab_file_name = "AK_01_2_4_1.mat"
+order_name = "AK_01_2_4"
+cultivar = "Nipponbare"
+gcid = "AK_01_2_4_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_01_2_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 9
+name = "AK_01_3_1_1"
+assay = "AK_01_3_1_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_01_3_1_1"
+description = "RPMM0008 sample AK_01_3_1_1"
+matlab_file_name = "AK_01_3_1_1.mat"
+order_name = "AK_01_3_1"
+cultivar = "Nipponbare"
+gcid = "AK_01_3_1_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_01_3_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 10
+name = "AK_01_3_2_1"
+assay = "AK_01_3_2_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_01_3_2_1"
+description = "RPMM0008 sample AK_01_3_2_1"
+matlab_file_name = "AK_01_3_2_1.mat"
+order_name = "AK_01_3_2"
+cultivar = "Nipponbare"
+gcid = "AK_01_3_2_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_01_3_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 11
+name = "AK_01_3_3_1"
+assay = "AK_01_3_3_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_01_3_3_1"
+description = "RPMM0008 sample AK_01_3_3_1"
+matlab_file_name = "AK_01_3_3_1.mat"
+order_name = "AK_01_3_3"
+cultivar = "Nipponbare"
+gcid = "AK_01_3_3_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_01_3_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 12
+name = "AK_01_3_4_1"
+assay = "AK_01_3_4_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_01_3_4_1"
+description = "RPMM0008 sample AK_01_3_4_1"
+matlab_file_name = "AK_01_3_4_1.mat"
+order_name = "AK_01_3_4"
+cultivar = "Nipponbare"
+gcid = "AK_01_3_4_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_01_3_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 13
+name = "AK_02_1_1_1"
+assay = "AK_02_1_1_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_02_1_1_1"
+description = "RPMM0008 sample AK_02_1_1_1"
+matlab_file_name = "AK_02_1_1_1.mat"
+order_name = "AK_02_1_1"
+cultivar = "Kinmaze"
+gcid = "AK_02_1_1_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_02_1_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 14
+name = "AK_02_1_2_1"
+assay = "AK_02_1_2_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_02_1_2_1"
+description = "RPMM0008 sample AK_02_1_2_1"
+matlab_file_name = "AK_02_1_2_1.mat"
+order_name = "AK_02_1_2"
+cultivar = "Kinmaze"
+gcid = "AK_02_1_2_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_02_1_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 15
+name = "AK_02_1_3_1"
+assay = "AK_02_1_3_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_02_1_3_1"
+description = "RPMM0008 sample AK_02_1_3_1"
+matlab_file_name = "AK_02_1_3_1.mat"
+order_name = "AK_02_1_3"
+cultivar = "Kinmaze"
+gcid = "AK_02_1_3_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_02_1_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 16
+name = "AK_02_1_4_1"
+assay = "AK_02_1_4_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_02_1_4_1"
+description = "RPMM0008 sample AK_02_1_4_1"
+matlab_file_name = "AK_02_1_4_1.mat"
+order_name = "AK_02_1_4"
+cultivar = "Kinmaze"
+gcid = "AK_02_1_4_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_02_1_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 17
+name = "AK_02_2_1_1"
+assay = "AK_02_2_1_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_02_2_1_1"
+description = "RPMM0008 sample AK_02_2_1_1"
+matlab_file_name = "AK_02_2_1_1.mat"
+order_name = "AK_02_2_1"
+cultivar = "Kinmaze"
+gcid = "AK_02_2_1_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_02_2_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 18
+name = "AK_02_2_2_1"
+assay = "AK_02_2_2_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_02_2_2_1"
+description = "RPMM0008 sample AK_02_2_2_1"
+matlab_file_name = "AK_02_2_2_1.mat"
+order_name = "AK_02_2_2"
+cultivar = "Kinmaze"
+gcid = "AK_02_2_2_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_02_2_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 19
+name = "AK_02_2_3_2"
+assay = "AK_02_2_3_2"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_02_2_3_2"
+description = "RPMM0008 sample AK_02_2_3_2"
+matlab_file_name = "AK_02_2_3_2.mat"
+order_name = "AK_02_2_3"
+cultivar = "Kinmaze"
+gcid = "AK_02_2_3_2"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_02_2_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 20
+name = "AK_02_2_4_1"
+assay = "AK_02_2_4_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_02_2_4_1"
+description = "RPMM0008 sample AK_02_2_4_1"
+matlab_file_name = "AK_02_2_4_1.mat"
+order_name = "AK_02_2_4"
+cultivar = "Kinmaze"
+gcid = "AK_02_2_4_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_02_2_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 21
+name = "AK_02_3_1_1"
+assay = "AK_02_3_1_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_02_3_1_1"
+description = "RPMM0008 sample AK_02_3_1_1"
+matlab_file_name = "AK_02_3_1_1.mat"
+order_name = "AK_02_3_1"
+cultivar = "Kinmaze"
+gcid = "AK_02_3_1_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_02_3_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 22
+name = "AK_02_3_2_1"
+assay = "AK_02_3_2_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_02_3_2_1"
+description = "RPMM0008 sample AK_02_3_2_1"
+matlab_file_name = "AK_02_3_2_1.mat"
+order_name = "AK_02_3_2"
+cultivar = "Kinmaze"
+gcid = "AK_02_3_2_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_02_3_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 23
+name = "AK_02_3_3_1"
+assay = "AK_02_3_3_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_02_3_3_1"
+description = "RPMM0008 sample AK_02_3_3_1"
+matlab_file_name = "AK_02_3_3_1.mat"
+order_name = "AK_02_3_3"
+cultivar = "Kinmaze"
+gcid = "AK_02_3_3_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_02_3_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 24
+name = "AK_02_3_4_1"
+assay = "AK_02_3_4_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_02_3_4_1"
+description = "RPMM0008 sample AK_02_3_4_1"
+matlab_file_name = "AK_02_3_4_1.mat"
+order_name = "AK_02_3_4"
+cultivar = "Kinmaze"
+gcid = "AK_02_3_4_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_02_3_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 25
+name = "AK_04_1_1_1"
+assay = "AK_04_1_1_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_04_1_1_1"
+description = "RPMM0008 sample AK_04_1_1_1"
+matlab_file_name = "AK_04_1_1_1.mat"
+order_name = "AK_04_1_1"
+cultivar = "e1"
+gcid = "AK_04_1_1_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_04_1_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 26
+name = "AK_04_1_2_1"
+assay = "AK_04_1_2_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_04_1_2_1"
+description = "RPMM0008 sample AK_04_1_2_1"
+matlab_file_name = "AK_04_1_2_1.mat"
+order_name = "AK_04_1_2"
+cultivar = "e1"
+gcid = "AK_04_1_2_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_04_1_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 27
+name = "AK_04_1_3_1"
+assay = "AK_04_1_3_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_04_1_3_1"
+description = "RPMM0008 sample AK_04_1_3_1"
+matlab_file_name = "AK_04_1_3_1.mat"
+order_name = "AK_04_1_3"
+cultivar = "e1"
+gcid = "AK_04_1_3_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_04_1_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 28
+name = "AK_04_1_4_1"
+assay = "AK_04_1_4_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_04_1_4_1"
+description = "RPMM0008 sample AK_04_1_4_1"
+matlab_file_name = "AK_04_1_4_1.mat"
+order_name = "AK_04_1_4"
+cultivar = "e1"
+gcid = "AK_04_1_4_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_04_1_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 29
+name = "AK_04_2_1_1"
+assay = "AK_04_2_1_1"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_04_2_1_1"
+description = "RPMM0008 sample AK_04_2_1_1"
+matlab_file_name = "AK_04_2_1_1.mat"
+order_name = "AK_04_2_1"
+cultivar = "e1"
+gcid = "AK_04_2_1_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_04_2_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 30
+name = "AK_04_2_2_1"
+assay = "AK_04_2_2_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_04_2_2_1"
+description = "RPMM0008 sample AK_04_2_2_1"
+matlab_file_name = "AK_04_2_2_1.mat"
+order_name = "AK_04_2_2"
+cultivar = "e1"
+gcid = "AK_04_2_2_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_04_2_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 31
+name = "AK_04_2_3_1"
+assay = "AK_04_2_3_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_04_2_3_1"
+description = "RPMM0008 sample AK_04_2_3_1"
+matlab_file_name = "AK_04_2_3_1.mat"
+order_name = "AK_04_2_3"
+cultivar = "e1"
+gcid = "AK_04_2_3_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_04_2_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 32
+name = "AK_04_2_4_1"
+assay = "AK_04_2_4_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_04_2_4_1"
+description = "RPMM0008 sample AK_04_2_4_1"
+matlab_file_name = "AK_04_2_4_1.mat"
+order_name = "AK_04_2_4"
+cultivar = "e1"
+gcid = "AK_04_2_4_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_04_2_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 33
+name = "AK_04_3_1_1"
+assay = "AK_04_3_1_1"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_04_3_1_1"
+description = "RPMM0008 sample AK_04_3_1_1"
+matlab_file_name = "AK_04_3_1_1.mat"
+order_name = "AK_04_3_1"
+cultivar = "e1"
+gcid = "AK_04_3_1_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_04_3_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 34
+name = "AK_04_3_2_1"
+assay = "AK_04_3_2_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_04_3_2_1"
+description = "RPMM0008 sample AK_04_3_2_1"
+matlab_file_name = "AK_04_3_2_1.mat"
+order_name = "AK_04_3_2"
+cultivar = "e1"
+gcid = "AK_04_3_2_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_04_3_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 35
+name = "AK_04_3_3_1"
+assay = "AK_04_3_3_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_04_3_3_1"
+description = "RPMM0008 sample AK_04_3_3_1"
+matlab_file_name = "AK_04_3_3_1.mat"
+order_name = "AK_04_3_3"
+cultivar = "e1"
+gcid = "AK_04_3_3_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_04_3_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 36
+name = "AK_04_3_4_1"
+assay = "AK_04_3_4_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_04_3_4_1"
+description = "RPMM0008 sample AK_04_3_4_1"
+matlab_file_name = "AK_04_3_4_1.mat"
+order_name = "AK_04_3_4"
+cultivar = "e1"
+gcid = "AK_04_3_4_1"
+harvestplace = "Akita"
+harvestyear = "2005"
+sample_name = "AK_04_3_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 37
+name = "AK_05_1_1_1"
+assay = "AK_05_1_1_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_05_1_1_1"
+description = "RPMM0008 sample AK_05_1_1_1"
+matlab_file_name = "AK_05_1_1_1.mat"
+order_name = "AK_05_1_1"
+cultivar = "soft158"
+gcid = "AK_05_1_1_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_05_1_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 38
+name = "AK_05_1_2_1"
+assay = "AK_05_1_2_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_05_1_2_1"
+description = "RPMM0008 sample AK_05_1_2_1"
+matlab_file_name = "AK_05_1_2_1.mat"
+order_name = "AK_05_1_2"
+cultivar = "soft158"
+gcid = "AK_05_1_2_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_05_1_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 39
+name = "AK_05_1_3_1"
+assay = "AK_05_1_3_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_05_1_3_1"
+description = "RPMM0008 sample AK_05_1_3_1"
+matlab_file_name = "AK_05_1_3_1.mat"
+order_name = "AK_05_1_3"
+cultivar = "soft158"
+gcid = "AK_05_1_3_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_05_1_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 40
+name = "AK_05_1_4_1"
+assay = "AK_05_1_4_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_05_1_4_1"
+description = "RPMM0008 sample AK_05_1_4_1"
+matlab_file_name = "AK_05_1_4_1.mat"
+order_name = "AK_05_1_4"
+cultivar = "soft158"
+gcid = "AK_05_1_4_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_05_1_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 41
+name = "AK_05_2_1_1"
+assay = "AK_05_2_1_1"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_05_2_1_1"
+description = "RPMM0008 sample AK_05_2_1_1"
+matlab_file_name = "AK_05_2_1_1.mat"
+order_name = "AK_05_2_1"
+cultivar = "soft158"
+gcid = "AK_05_2_1_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_05_2_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 42
+name = "AK_05_2_2_1"
+assay = "AK_05_2_2_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_05_2_2_1"
+description = "RPMM0008 sample AK_05_2_2_1"
+matlab_file_name = "AK_05_2_2_1.mat"
+order_name = "AK_05_2_2"
+cultivar = "soft158"
+gcid = "AK_05_2_2_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_05_2_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 43
+name = "AK_05_2_3_1"
+assay = "AK_05_2_3_1"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_05_2_3_1"
+description = "RPMM0008 sample AK_05_2_3_1"
+matlab_file_name = "AK_05_2_3_1.mat"
+order_name = "AK_05_2_3"
+cultivar = "soft158"
+gcid = "AK_05_2_3_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_05_2_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 44
+name = "AK_05_2_4_1"
+assay = "AK_05_2_4_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_05_2_4_1"
+description = "RPMM0008 sample AK_05_2_4_1"
+matlab_file_name = "AK_05_2_4_1.mat"
+order_name = "AK_05_2_4"
+cultivar = "soft158"
+gcid = "AK_05_2_4_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_05_2_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 45
+name = "AK_05_3_1_1"
+assay = "AK_05_3_1_1"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_05_3_1_1"
+description = "RPMM0008 sample AK_05_3_1_1"
+matlab_file_name = "AK_05_3_1_1.mat"
+order_name = "AK_05_3_1"
+cultivar = "soft158"
+gcid = "AK_05_3_1_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_05_3_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 46
+name = "AK_05_3_2_1"
+assay = "AK_05_3_2_1"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_05_3_2_1"
+description = "RPMM0008 sample AK_05_3_2_1"
+matlab_file_name = "AK_05_3_2_1.mat"
+order_name = "AK_05_3_2"
+cultivar = "soft158"
+gcid = "AK_05_3_2_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_05_3_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 47
+name = "AK_05_3_3_1"
+assay = "AK_05_3_3_1"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_05_3_3_1"
+description = "RPMM0008 sample AK_05_3_3_1"
+matlab_file_name = "AK_05_3_3_1.mat"
+order_name = "AK_05_3_3"
+cultivar = "soft158"
+gcid = "AK_05_3_3_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_05_3_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 48
+name = "AK_05_3_4_1"
+assay = "AK_05_3_4_1"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_05_3_4_1"
+description = "RPMM0008 sample AK_05_3_4_1"
+matlab_file_name = "AK_05_3_4_1.mat"
+order_name = "AK_05_3_4"
+cultivar = "soft158"
+gcid = "AK_05_3_4_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_05_3_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 49
+name = "AK_06_1_1_1"
+assay = "AK_06_1_1_1"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_06_1_1_1"
+description = "RPMM0008 sample AK_06_1_1_1"
+matlab_file_name = "AK_06_1_1_1.mat"
+order_name = "AK_06_1_1"
+cultivar = "yumetoiro"
+gcid = "AK_06_1_1_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_06_1_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 50
+name = "AK_06_1_2_1"
+assay = "AK_06_1_2_1"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_06_1_2_1"
+description = "RPMM0008 sample AK_06_1_2_1"
+matlab_file_name = "AK_06_1_2_1.mat"
+order_name = "AK_06_1_2"
+cultivar = "yumetoiro"
+gcid = "AK_06_1_2_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_06_1_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 51
+name = "AK_06_1_3_1"
+assay = "AK_06_1_3_1"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_06_1_3_1"
+description = "RPMM0008 sample AK_06_1_3_1"
+matlab_file_name = "AK_06_1_3_1.mat"
+order_name = "AK_06_1_3"
+cultivar = "yumetoiro"
+gcid = "AK_06_1_3_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_06_1_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 52
+name = "AK_06_1_4_1"
+assay = "AK_06_1_4_1"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_06_1_4_1"
+description = "RPMM0008 sample AK_06_1_4_1"
+matlab_file_name = "AK_06_1_4_1.mat"
+order_name = "AK_06_1_4"
+cultivar = "yumetoiro"
+gcid = "AK_06_1_4_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_06_1_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 53
+name = "AK_06_2_1_1"
+assay = "AK_06_2_1_1"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_06_2_1_1"
+description = "RPMM0008 sample AK_06_2_1_1"
+matlab_file_name = "AK_06_2_1_1.mat"
+order_name = "AK_06_2_1"
+cultivar = "yumetoiro"
+gcid = "AK_06_2_1_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_06_2_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 54
+name = "AK_06_2_2_1"
+assay = "AK_06_2_2_1"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_06_2_2_1"
+description = "RPMM0008 sample AK_06_2_2_1"
+matlab_file_name = "AK_06_2_2_1.mat"
+order_name = "AK_06_2_2"
+cultivar = "yumetoiro"
+gcid = "AK_06_2_2_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_06_2_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 55
+name = "AK_06_2_3_1"
+assay = "AK_06_2_3_1"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_06_2_3_1"
+description = "RPMM0008 sample AK_06_2_3_1"
+matlab_file_name = "AK_06_2_3_1.mat"
+order_name = "AK_06_2_3"
+cultivar = "yumetoiro"
+gcid = "AK_06_2_3_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_06_2_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 56
+name = "AK_06_2_4_1"
+assay = "AK_06_2_4_1"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_06_2_4_1"
+description = "RPMM0008 sample AK_06_2_4_1"
+matlab_file_name = "AK_06_2_4_1.mat"
+order_name = "AK_06_2_4"
+cultivar = "yumetoiro"
+gcid = "AK_06_2_4_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_06_2_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 57
+name = "AK_06_3_1_1"
+assay = "AK_06_3_1_1"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_06_3_1_1"
+description = "RPMM0008 sample AK_06_3_1_1"
+matlab_file_name = "AK_06_3_1_1.mat"
+order_name = "AK_06_3_1"
+cultivar = "yumetoiro"
+gcid = "AK_06_3_1_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_06_3_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 58
+name = "AK_06_3_2_1"
+assay = "AK_06_3_2_1"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_06_3_2_1"
+description = "RPMM0008 sample AK_06_3_2_1"
+matlab_file_name = "AK_06_3_2_1.mat"
+order_name = "AK_06_3_2"
+cultivar = "yumetoiro"
+gcid = "AK_06_3_2_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_06_3_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 59
+name = "AK_06_3_3_1"
+assay = "AK_06_3_3_1"
+ms_run_ref = "ms_run[59]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_06_3_3_1"
+description = "RPMM0008 sample AK_06_3_3_1"
+matlab_file_name = "AK_06_3_3_1.mat"
+order_name = "AK_06_3_3"
+cultivar = "yumetoiro"
+gcid = "AK_06_3_3_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_06_3_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 60
+name = "AK_06_3_4_1"
+assay = "AK_06_3_4_1"
+ms_run_ref = "ms_run[60]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_06_3_4_1"
+description = "RPMM0008 sample AK_06_3_4_1"
+matlab_file_name = "AK_06_3_4_1.mat"
+order_name = "AK_06_3_4"
+cultivar = "yumetoiro"
+gcid = "AK_06_3_4_1"
+harvestplace = "Niigata"
+harvestyear = "2005"
+sample_name = "AK_06_3_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 61
+name = "AK_07_1_1_1"
+assay = "AK_07_1_1_1"
+ms_run_ref = "ms_run[61]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_07_1_1_1"
+description = "RPMM0008 sample AK_07_1_1_1"
+matlab_file_name = "AK_07_1_1_1.mat"
+order_name = "AK_07_1_1"
+cultivar = "hoshiyutaka"
+gcid = "AK_07_1_1_1"
+harvestplace = "Niroshima"
+harvestyear = "2005"
+sample_name = "AK_07_1_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 62
+name = "AK_07_1_2_1"
+assay = "AK_07_1_2_1"
+ms_run_ref = "ms_run[62]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_07_1_2_1"
+description = "RPMM0008 sample AK_07_1_2_1"
+matlab_file_name = "AK_07_1_2_1.mat"
+order_name = "AK_07_1_2"
+cultivar = "hoshiyutaka"
+gcid = "AK_07_1_2_1"
+harvestplace = "Niroshima"
+harvestyear = "2005"
+sample_name = "AK_07_1_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 63
+name = "AK_07_1_3_1"
+assay = "AK_07_1_3_1"
+ms_run_ref = "ms_run[63]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_07_1_3_1"
+description = "RPMM0008 sample AK_07_1_3_1"
+matlab_file_name = "AK_07_1_3_1.mat"
+order_name = "AK_07_1_3"
+cultivar = "hoshiyutaka"
+gcid = "AK_07_1_3_1"
+harvestplace = "Niroshima"
+harvestyear = "2005"
+sample_name = "AK_07_1_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 64
+name = "AK_07_1_4_1"
+assay = "AK_07_1_4_1"
+ms_run_ref = "ms_run[64]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_07_1_4_1"
+description = "RPMM0008 sample AK_07_1_4_1"
+matlab_file_name = "AK_07_1_4_1.mat"
+order_name = "AK_07_1_4"
+cultivar = "hoshiyutaka"
+gcid = "AK_07_1_4_1"
+harvestplace = "Niroshima"
+harvestyear = "2005"
+sample_name = "AK_07_1_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 65
+name = "AK_07_2_1_1"
+assay = "AK_07_2_1_1"
+ms_run_ref = "ms_run[65]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_07_2_1_1"
+description = "RPMM0008 sample AK_07_2_1_1"
+matlab_file_name = "AK_07_2_1_1.mat"
+order_name = "AK_07_2_1"
+cultivar = "hoshiyutaka"
+gcid = "AK_07_2_1_1"
+harvestplace = "Niroshima"
+harvestyear = "2005"
+sample_name = "AK_07_2_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 66
+name = "AK_07_2_2_1"
+assay = "AK_07_2_2_1"
+ms_run_ref = "ms_run[66]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_07_2_2_1"
+description = "RPMM0008 sample AK_07_2_2_1"
+matlab_file_name = "AK_07_2_2_1.mat"
+order_name = "AK_07_2_2"
+cultivar = "hoshiyutaka"
+gcid = "AK_07_2_2_1"
+harvestplace = "Niroshima"
+harvestyear = "2005"
+sample_name = "AK_07_2_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 67
+name = "AK_07_2_3_1"
+assay = "AK_07_2_3_1"
+ms_run_ref = "ms_run[67]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_07_2_3_1"
+description = "RPMM0008 sample AK_07_2_3_1"
+matlab_file_name = "AK_07_2_3_1.mat"
+order_name = "AK_07_2_3"
+cultivar = "hoshiyutaka"
+gcid = "AK_07_2_3_1"
+harvestplace = "Niroshima"
+harvestyear = "2005"
+sample_name = "AK_07_2_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 68
+name = "AK_07_2_4_1"
+assay = "AK_07_2_4_1"
+ms_run_ref = "ms_run[68]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_07_2_4_1"
+description = "RPMM0008 sample AK_07_2_4_1"
+matlab_file_name = "AK_07_2_4_1.mat"
+order_name = "AK_07_2_4"
+cultivar = "hoshiyutaka"
+gcid = "AK_07_2_4_1"
+harvestplace = "Niroshima"
+harvestyear = "2005"
+sample_name = "AK_07_2_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 69
+name = "AK_07_3_1_1"
+assay = "AK_07_3_1_1"
+ms_run_ref = "ms_run[69]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_07_3_1_1"
+description = "RPMM0008 sample AK_07_3_1_1"
+matlab_file_name = "AK_07_3_1_1.mat"
+order_name = "AK_07_3_1"
+cultivar = "hoshiyutaka"
+gcid = "AK_07_3_1_1"
+harvestplace = "Niroshima"
+harvestyear = "2005"
+sample_name = "AK_07_3_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 70
+name = "AK_07_3_2_1"
+assay = "AK_07_3_2_1"
+ms_run_ref = "ms_run[70]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_07_3_2_1"
+description = "RPMM0008 sample AK_07_3_2_1"
+matlab_file_name = "AK_07_3_2_1.mat"
+order_name = "AK_07_3_2"
+cultivar = "hoshiyutaka"
+gcid = "AK_07_3_2_1"
+harvestplace = "Niroshima"
+harvestyear = "2005"
+sample_name = "AK_07_3_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 71
+name = "AK_07_3_3_1"
+assay = "AK_07_3_3_1"
+ms_run_ref = "ms_run[71]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_07_3_3_1"
+description = "RPMM0008 sample AK_07_3_3_1"
+matlab_file_name = "AK_07_3_3_1.mat"
+order_name = "AK_07_3_3"
+cultivar = "hoshiyutaka"
+gcid = "AK_07_3_3_1"
+harvestplace = "Niroshima"
+harvestyear = "2005"
+sample_name = "AK_07_3_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 72
+name = "AK_07_3_4_1"
+assay = "AK_07_3_4_1"
+ms_run_ref = "ms_run[72]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_07_3_4_1"
+description = "RPMM0008 sample AK_07_3_4_1"
+matlab_file_name = "AK_07_3_4_1.mat"
+order_name = "AK_07_3_4"
+cultivar = "hoshiyutaka"
+gcid = "AK_07_3_4_1"
+harvestplace = "Niroshima"
+harvestyear = "2005"
+sample_name = "AK_07_3_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 73
+name = "AK_08_1_1_1"
+assay = "AK_08_1_1_1"
+ms_run_ref = "ms_run[73]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_08_1_1_1"
+description = "RPMM0008 sample AK_08_1_1_1"
+matlab_file_name = "AK_08_1_1_1.mat"
+order_name = "AK_08_1_1"
+cultivar = "Nipponbare"
+gcid = "AK_08_1_1_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_08_1_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 74
+name = "AK_08_1_2_1"
+assay = "AK_08_1_2_1"
+ms_run_ref = "ms_run[74]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_08_1_2_1"
+description = "RPMM0008 sample AK_08_1_2_1"
+matlab_file_name = "AK_08_1_2_1.mat"
+order_name = "AK_08_1_2"
+cultivar = "Nipponbare"
+gcid = "AK_08_1_2_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_08_1_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 75
+name = "AK_08_1_3_1"
+assay = "AK_08_1_3_1"
+ms_run_ref = "ms_run[75]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_08_1_3_1"
+description = "RPMM0008 sample AK_08_1_3_1"
+matlab_file_name = "AK_08_1_3_1.mat"
+order_name = "AK_08_1_3"
+cultivar = "Nipponbare"
+gcid = "AK_08_1_3_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_08_1_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 76
+name = "AK_08_1_4_1"
+assay = "AK_08_1_4_1"
+ms_run_ref = "ms_run[76]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_08_1_4_1"
+description = "RPMM0008 sample AK_08_1_4_1"
+matlab_file_name = "AK_08_1_4_1.mat"
+order_name = "AK_08_1_4"
+cultivar = "Nipponbare"
+gcid = "AK_08_1_4_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_08_1_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 77
+name = "AK_08_2_1_2"
+assay = "AK_08_2_1_2"
+ms_run_ref = "ms_run[77]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_08_2_1_2"
+description = "RPMM0008 sample AK_08_2_1_2"
+matlab_file_name = "AK_08_2_1_2.mat"
+order_name = "AK_08_2_1"
+cultivar = "Nipponbare"
+gcid = "AK_08_2_1_2"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_08_2_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 78
+name = "AK_08_2_2_1"
+assay = "AK_08_2_2_1"
+ms_run_ref = "ms_run[78]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_08_2_2_1"
+description = "RPMM0008 sample AK_08_2_2_1"
+matlab_file_name = "AK_08_2_2_1.mat"
+order_name = "AK_08_2_2"
+cultivar = "Nipponbare"
+gcid = "AK_08_2_2_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_08_2_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 79
+name = "AK_08_2_3_1"
+assay = "AK_08_2_3_1"
+ms_run_ref = "ms_run[79]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_08_2_3_1"
+description = "RPMM0008 sample AK_08_2_3_1"
+matlab_file_name = "AK_08_2_3_1.mat"
+order_name = "AK_08_2_3"
+cultivar = "Nipponbare"
+gcid = "AK_08_2_3_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_08_2_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 80
+name = "AK_08_2_4_1"
+assay = "AK_08_2_4_1"
+ms_run_ref = "ms_run[80]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_08_2_4_1"
+description = "RPMM0008 sample AK_08_2_4_1"
+matlab_file_name = "AK_08_2_4_1.mat"
+order_name = "AK_08_2_4"
+cultivar = "Nipponbare"
+gcid = "AK_08_2_4_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_08_2_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 81
+name = "AK_08_3_1_1"
+assay = "AK_08_3_1_1"
+ms_run_ref = "ms_run[81]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_08_3_1_1"
+description = "RPMM0008 sample AK_08_3_1_1"
+matlab_file_name = "AK_08_3_1_1.mat"
+order_name = "AK_08_3_1"
+cultivar = "Nipponbare"
+gcid = "AK_08_3_1_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_08_3_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 82
+name = "AK_08_3_2_1"
+assay = "AK_08_3_2_1"
+ms_run_ref = "ms_run[82]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_08_3_2_1"
+description = "RPMM0008 sample AK_08_3_2_1"
+matlab_file_name = "AK_08_3_2_1.mat"
+order_name = "AK_08_3_2"
+cultivar = "Nipponbare"
+gcid = "AK_08_3_2_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_08_3_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 83
+name = "AK_08_3_3_1"
+assay = "AK_08_3_3_1"
+ms_run_ref = "ms_run[83]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_08_3_3_1"
+description = "RPMM0008 sample AK_08_3_3_1"
+matlab_file_name = "AK_08_3_3_1.mat"
+order_name = "AK_08_3_3"
+cultivar = "Nipponbare"
+gcid = "AK_08_3_3_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_08_3_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 84
+name = "AK_08_3_4_1"
+assay = "AK_08_3_4_1"
+ms_run_ref = "ms_run[84]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_08_3_4_1"
+description = "RPMM0008 sample AK_08_3_4_1"
+matlab_file_name = "AK_08_3_4_1.mat"
+order_name = "AK_08_3_4"
+cultivar = "Nipponbare"
+gcid = "AK_08_3_4_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_08_3_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 85
+name = "AK_09_1_1_1"
+assay = "AK_09_1_1_1"
+ms_run_ref = "ms_run[85]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_09_1_1_1"
+description = "RPMM0008 sample AK_09_1_1_1"
+matlab_file_name = "AK_09_1_1_1.mat"
+order_name = "AK_09_1_1"
+cultivar = "4019"
+gcid = "AK_09_1_1_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_09_1_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 86
+name = "AK_09_1_2_1"
+assay = "AK_09_1_2_1"
+ms_run_ref = "ms_run[86]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_09_1_2_1"
+description = "RPMM0008 sample AK_09_1_2_1"
+matlab_file_name = "AK_09_1_2_1.mat"
+order_name = "AK_09_1_2"
+cultivar = "4019"
+gcid = "AK_09_1_2_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_09_1_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 87
+name = "AK_09_1_3_1"
+assay = "AK_09_1_3_1"
+ms_run_ref = "ms_run[87]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_09_1_3_1"
+description = "RPMM0008 sample AK_09_1_3_1"
+matlab_file_name = "AK_09_1_3_1.mat"
+order_name = "AK_09_1_3"
+cultivar = "4019"
+gcid = "AK_09_1_3_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_09_1_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 88
+name = "AK_09_1_4_1"
+assay = "AK_09_1_4_1"
+ms_run_ref = "ms_run[88]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_09_1_4_1"
+description = "RPMM0008 sample AK_09_1_4_1"
+matlab_file_name = "AK_09_1_4_1.mat"
+order_name = "AK_09_1_4"
+cultivar = "4019"
+gcid = "AK_09_1_4_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_09_1_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 89
+name = "AK_09_2_1_1"
+assay = "AK_09_2_1_1"
+ms_run_ref = "ms_run[89]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_09_2_1_1"
+description = "RPMM0008 sample AK_09_2_1_1"
+matlab_file_name = "AK_09_2_1_1.mat"
+order_name = "AK_09_2_1"
+cultivar = "4019"
+gcid = "AK_09_2_1_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_09_2_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 90
+name = "AK_09_2_2_1"
+assay = "AK_09_2_2_1"
+ms_run_ref = "ms_run[90]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_09_2_2_1"
+description = "RPMM0008 sample AK_09_2_2_1"
+matlab_file_name = "AK_09_2_2_1.mat"
+order_name = "AK_09_2_2"
+cultivar = "4019"
+gcid = "AK_09_2_2_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_09_2_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 91
+name = "AK_09_2_3_1"
+assay = "AK_09_2_3_1"
+ms_run_ref = "ms_run[91]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_09_2_3_1"
+description = "RPMM0008 sample AK_09_2_3_1"
+matlab_file_name = "AK_09_2_3_1.mat"
+order_name = "AK_09_2_3"
+cultivar = "4019"
+gcid = "AK_09_2_3_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_09_2_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 92
+name = "AK_09_2_4_1"
+assay = "AK_09_2_4_1"
+ms_run_ref = "ms_run[92]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_09_2_4_1"
+description = "RPMM0008 sample AK_09_2_4_1"
+matlab_file_name = "AK_09_2_4_1.mat"
+order_name = "AK_09_2_4"
+cultivar = "4019"
+gcid = "AK_09_2_4_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_09_2_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 93
+name = "AK_09_3_1_1"
+assay = "AK_09_3_1_1"
+ms_run_ref = "ms_run[93]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_09_3_1_1"
+description = "RPMM0008 sample AK_09_3_1_1"
+matlab_file_name = "AK_09_3_1_1.mat"
+order_name = "AK_09_3_1"
+cultivar = "4019"
+gcid = "AK_09_3_1_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_09_3_1"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 94
+name = "AK_09_3_2_1"
+assay = "AK_09_3_2_1"
+ms_run_ref = "ms_run[94]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_09_3_2_1"
+description = "RPMM0008 sample AK_09_3_2_1"
+matlab_file_name = "AK_09_3_2_1.mat"
+order_name = "AK_09_3_2"
+cultivar = "4019"
+gcid = "AK_09_3_2_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_09_3_2"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 95
+name = "AK_09_3_3_1"
+assay = "AK_09_3_3_1"
+ms_run_ref = "ms_run[95]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_09_3_3_1"
+description = "RPMM0008 sample AK_09_3_3_1"
+matlab_file_name = "AK_09_3_3_1.mat"
+order_name = "AK_09_3_3"
+cultivar = "4019"
+gcid = "AK_09_3_3_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_09_3_3"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 96
+name = "AK_09_3_4_1"
+assay = "AK_09_3_4_1"
+ms_run_ref = "ms_run[96]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#AK_09_3_4_1"
+description = "RPMM0008 sample AK_09_3_4_1"
+matlab_file_name = "AK_09_3_4_1.mat"
+order_name = "AK_09_3_4"
+cultivar = "4019"
+gcid = "AK_09_3_4_1"
+harvestplace = "Akita"
+harvestyear = "2008"
+sample_name = "AK_09_3_4"
+weight_mg = "0.222222"
+
+[[sample]]
+index = 97
+name = "e1_2005...Nipponbare_2005"
+assay = "e1_2005...Nipponbare_2005"
+ms_run_ref = "ms_run[97]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#e1_2005...Nipponbare_2005"
+description = "RPMM0008 sample e1_2005...Nipponbare_2005"
+
+[[sample]]
+index = 98
+name = "e1_2005...Nipponbare_2005..BH.Adj.p."
+assay = "e1_2005...Nipponbare_2005..BH.Adj.p."
+ms_run_ref = "ms_run[98]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#e1_2005...Nipponbare_2005..BH.Adj.p."
+description = "RPMM0008 sample e1_2005...Nipponbare_2005..BH.Adj.p."
+
+[[sample]]
+index = 99
+name = "hoshiyutaka_2005...Nipponbare_2005"
+assay = "hoshiyutaka_2005...Nipponbare_2005"
+ms_run_ref = "ms_run[99]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#hoshiyutaka_2005...Nipponbare_2005"
+description = "RPMM0008 sample hoshiyutaka_2005...Nipponbare_2005"
+
+[[sample]]
+index = 100
+name = "hoshiyutaka_2005...Nipponbare_2005..BH.Adj.p."
+assay = "hoshiyutaka_2005...Nipponbare_2005..BH.Adj.p."
+ms_run_ref = "ms_run[100]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#hoshiyutaka_2005...Nipponbare_2005..BH.Adj.p."
+description = "RPMM0008 sample hoshiyutaka_2005...Nipponbare_2005..BH.Adj.p."
+
+[[sample]]
+index = 101
+name = "Kinmaze_2008...Nipponbare_2005"
+assay = "Kinmaze_2008...Nipponbare_2005"
+ms_run_ref = "ms_run[101]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#Kinmaze_2008...Nipponbare_2005"
+description = "RPMM0008 sample Kinmaze_2008...Nipponbare_2005"
+
+[[sample]]
+index = 102
+name = "Kinmaze_2008...Nipponbare_2005..BH.Adj.p."
+assay = "Kinmaze_2008...Nipponbare_2005..BH.Adj.p."
+ms_run_ref = "ms_run[102]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#Kinmaze_2008...Nipponbare_2005..BH.Adj.p."
+description = "RPMM0008 sample Kinmaze_2008...Nipponbare_2005..BH.Adj.p."
+
+[[sample]]
+index = 103
+name = "Num4019_2008...Kinmaze_2008"
+assay = "Num4019_2008...Kinmaze_2008"
+ms_run_ref = "ms_run[103]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#Num4019_2008...Kinmaze_2008"
+description = "RPMM0008 sample Num4019_2008...Kinmaze_2008"
+
+[[sample]]
+index = 104
+name = "Num4019_2008...Kinmaze_2008..BH.Adj.p."
+assay = "Num4019_2008...Kinmaze_2008..BH.Adj.p."
+ms_run_ref = "ms_run[104]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#Num4019_2008...Kinmaze_2008..BH.Adj.p."
+description = "RPMM0008 sample Num4019_2008...Kinmaze_2008..BH.Adj.p."
+
+[[sample]]
+index = 105
+name = "Num4019_2008...Nipponbare_2005"
+assay = "Num4019_2008...Nipponbare_2005"
+ms_run_ref = "ms_run[105]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#Num4019_2008...Nipponbare_2005"
+description = "RPMM0008 sample Num4019_2008...Nipponbare_2005"
+
+[[sample]]
+index = 106
+name = "Num4019_2008...Nipponbare_2005..BH.Adj.p."
+assay = "Num4019_2008...Nipponbare_2005..BH.Adj.p."
+ms_run_ref = "ms_run[106]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#Num4019_2008...Nipponbare_2005..BH.Adj.p."
+description = "RPMM0008 sample Num4019_2008...Nipponbare_2005..BH.Adj.p."
+
+[[sample]]
+index = 107
+name = "soft158_2005...Nipponbare_2005"
+assay = "soft158_2005...Nipponbare_2005"
+ms_run_ref = "ms_run[107]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#soft158_2005...Nipponbare_2005"
+description = "RPMM0008 sample soft158_2005...Nipponbare_2005"
+
+[[sample]]
+index = 108
+name = "soft158_2005...Nipponbare_2005..BH.Adj.p."
+assay = "soft158_2005...Nipponbare_2005..BH.Adj.p."
+ms_run_ref = "ms_run[108]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#soft158_2005...Nipponbare_2005..BH.Adj.p."
+description = "RPMM0008 sample soft158_2005...Nipponbare_2005..BH.Adj.p."
+
+[[sample]]
+index = 109
+name = "yumetoiro_2005...Nipponbare_2005"
+assay = "yumetoiro_2005...Nipponbare_2005"
+ms_run_ref = "ms_run[109]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#yumetoiro_2005...Nipponbare_2005"
+description = "RPMM0008 sample yumetoiro_2005...Nipponbare_2005"
+
+[[sample]]
+index = 110
+name = "yumetoiro_2005...Nipponbare_2005..BH.Adj.p."
+assay = "yumetoiro_2005...Nipponbare_2005..BH.Adj.p."
+ms_run_ref = "ms_run[110]"
+location = "http://metabobank.riken.jp/data/RPMM0008/AnalysedDataset/SupplementalData_GC.csv#yumetoiro_2005...Nipponbare_2005..BH.Adj.p."
+description = "RPMM0008 sample yumetoiro_2005...Nipponbare_2005..BH.Adj.p."
+
+[study_variables]
+candidate_columns = [
+    "harvestyear",
+    "harvestplace",
+]
+
+[study_variables.levels]
+harvestyear = [
+    "2005",
+    "2008",
+]
+harvestplace = [
+    "Akita",
+    "Niigata",
+    "Niroshima",
+]

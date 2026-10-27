@@ -1,0 +1,1042 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0062"
+title = "Divergent metabolic adjustments in nodules are indispensable for efficient N<sub>2</sub> fixation of soybean under phosphate stress"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0062"
+
+[matrix]
+name = "MetMat_abs"
+source_file = "RPMM0062/AnalysedDataset/MetMat_abs.txt"
+format = "tsv"
+n_features = 265
+n_samples = 99
+metadata_columns = [
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0062/AnalysedDataset/phenodata.csv"
+msp = "RPMM0062/AnalysedDataset/130829_Son_san_Soy_NIST.txt"
+
+[organism]
+raw = "Soy nodule leaf and root"
+cv = "[NCBITaxon, NCBITaxon:3847, Glycine max, ]"
+source = "msp:130829_Son_san_Soy_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "FD_01_1"
+assay = "FD_01_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#FD_01_1"
+description = "RPMM0062 sample FD_01_1"
+
+[[sample]]
+index = 2
+name = "FD_02_1"
+assay = "FD_02_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#FD_02_1"
+description = "RPMM0062 sample FD_02_1"
+
+[[sample]]
+index = 3
+name = "FD_03_1"
+assay = "FD_03_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#FD_03_1"
+description = "RPMM0062 sample FD_03_1"
+
+[[sample]]
+index = 4
+name = "N110_half_1_1"
+assay = "N110_half_1_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#N110_half_1_1"
+description = "RPMM0062 sample N110_half_1_1"
+
+[[sample]]
+index = 5
+name = "N110_half_2_1"
+assay = "N110_half_2_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#N110_half_2_1"
+description = "RPMM0062 sample N110_half_2_1"
+
+[[sample]]
+index = 6
+name = "N110_half_3_1"
+assay = "N110_half_3_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#N110_half_3_1"
+description = "RPMM0062 sample N110_half_3_1"
+
+[[sample]]
+index = 7
+name = "N110_x1_1_1"
+assay = "N110_x1_1_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#N110_x1_1_1"
+description = "RPMM0062 sample N110_x1_1_1"
+
+[[sample]]
+index = 8
+name = "N110_x1_2_1"
+assay = "N110_x1_2_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#N110_x1_2_1"
+description = "RPMM0062 sample N110_x1_2_1"
+
+[[sample]]
+index = 9
+name = "N110_x1_3_1"
+assay = "N110_x1_3_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#N110_x1_3_1"
+description = "RPMM0062 sample N110_x1_3_1"
+
+[[sample]]
+index = 10
+name = "N110_x2_1_1"
+assay = "N110_x2_1_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#N110_x2_1_1"
+description = "RPMM0062 sample N110_x2_1_1"
+
+[[sample]]
+index = 11
+name = "N110_x2_2_1"
+assay = "N110_x2_2_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#N110_x2_2_1"
+description = "RPMM0062 sample N110_x2_2_1"
+
+[[sample]]
+index = 12
+name = "N110_x2_3_1"
+assay = "N110_x2_3_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#N110_x2_3_1"
+description = "RPMM0062 sample N110_x2_3_1"
+
+[[sample]]
+index = 13
+name = "S160_half_1_1"
+assay = "S160_half_1_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#S160_half_1_1"
+description = "RPMM0062 sample S160_half_1_1"
+
+[[sample]]
+index = 14
+name = "S160_half_2_1"
+assay = "S160_half_2_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#S160_half_2_1"
+description = "RPMM0062 sample S160_half_2_1"
+
+[[sample]]
+index = 15
+name = "S160_half_3_1"
+assay = "S160_half_3_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#S160_half_3_1"
+description = "RPMM0062 sample S160_half_3_1"
+
+[[sample]]
+index = 16
+name = "S160_x1_1_1"
+assay = "S160_x1_1_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#S160_x1_1_1"
+description = "RPMM0062 sample S160_x1_1_1"
+
+[[sample]]
+index = 17
+name = "S160_x1_2_1"
+assay = "S160_x1_2_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#S160_x1_2_1"
+description = "RPMM0062 sample S160_x1_2_1"
+
+[[sample]]
+index = 18
+name = "S160_x1_3_1"
+assay = "S160_x1_3_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#S160_x1_3_1"
+description = "RPMM0062 sample S160_x1_3_1"
+
+[[sample]]
+index = 19
+name = "S160_x2_1_1"
+assay = "S160_x2_1_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#S160_x2_1_1"
+description = "RPMM0062 sample S160_x2_1_1"
+
+[[sample]]
+index = 20
+name = "S160_x2_2_1"
+assay = "S160_x2_2_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#S160_x2_2_1"
+description = "RPMM0062 sample S160_x2_2_1"
+
+[[sample]]
+index = 21
+name = "S160_x2_3_1"
+assay = "S160_x2_3_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#S160_x2_3_1"
+description = "RPMM0062 sample S160_x2_3_1"
+
+[[sample]]
+index = 22
+name = "STDs_1_1_1"
+assay = "STDs_1_1_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_1_1_1"
+description = "RPMM0062 sample STDs_1_1_1"
+
+[[sample]]
+index = 23
+name = "STDs_1_2_1"
+assay = "STDs_1_2_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_1_2_1"
+description = "RPMM0062 sample STDs_1_2_1"
+
+[[sample]]
+index = 24
+name = "STDs_1_3_1"
+assay = "STDs_1_3_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_1_3_1"
+description = "RPMM0062 sample STDs_1_3_1"
+
+[[sample]]
+index = 25
+name = "STDs_2_1_1"
+assay = "STDs_2_1_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_2_1_1"
+description = "RPMM0062 sample STDs_2_1_1"
+
+[[sample]]
+index = 26
+name = "STDs_2_2_1"
+assay = "STDs_2_2_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_2_2_1"
+description = "RPMM0062 sample STDs_2_2_1"
+
+[[sample]]
+index = 27
+name = "STDs_2_3_1"
+assay = "STDs_2_3_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_2_3_1"
+description = "RPMM0062 sample STDs_2_3_1"
+
+[[sample]]
+index = 28
+name = "STDs_3_1_1"
+assay = "STDs_3_1_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_3_1_1"
+description = "RPMM0062 sample STDs_3_1_1"
+
+[[sample]]
+index = 29
+name = "STDs_3_2_1"
+assay = "STDs_3_2_1"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_3_2_1"
+description = "RPMM0062 sample STDs_3_2_1"
+
+[[sample]]
+index = 30
+name = "STDs_3_3_1"
+assay = "STDs_3_3_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_3_3_1"
+description = "RPMM0062 sample STDs_3_3_1"
+
+[[sample]]
+index = 31
+name = "STDs_E1_1_1"
+assay = "STDs_E1_1_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_E1_1_1"
+description = "RPMM0062 sample STDs_E1_1_1"
+
+[[sample]]
+index = 32
+name = "STDs_E1_2_1"
+assay = "STDs_E1_2_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_E1_2_1"
+description = "RPMM0062 sample STDs_E1_2_1"
+
+[[sample]]
+index = 33
+name = "STDs_E1_3_1"
+assay = "STDs_E1_3_1"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_E1_3_1"
+description = "RPMM0062 sample STDs_E1_3_1"
+
+[[sample]]
+index = 34
+name = "STDs_E2_1_1"
+assay = "STDs_E2_1_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_E2_1_1"
+description = "RPMM0062 sample STDs_E2_1_1"
+
+[[sample]]
+index = 35
+name = "STDs_E2_2_1"
+assay = "STDs_E2_2_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_E2_2_1"
+description = "RPMM0062 sample STDs_E2_2_1"
+
+[[sample]]
+index = 36
+name = "STDs_E2_3_1"
+assay = "STDs_E2_3_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_E2_3_1"
+description = "RPMM0062 sample STDs_E2_3_1"
+
+[[sample]]
+index = 37
+name = "STDs_E3_1_1"
+assay = "STDs_E3_1_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_E3_1_1"
+description = "RPMM0062 sample STDs_E3_1_1"
+
+[[sample]]
+index = 38
+name = "STDs_E3_2_1"
+assay = "STDs_E3_2_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_E3_2_1"
+description = "RPMM0062 sample STDs_E3_2_1"
+
+[[sample]]
+index = 39
+name = "STDs_E3_3_1"
+assay = "STDs_E3_3_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#STDs_E3_3_1"
+description = "RPMM0062 sample STDs_E3_3_1"
+
+[[sample]]
+index = 40
+name = "son_01_1"
+assay = "son_01_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_01_1"
+description = "RPMM0062 sample son_01_1"
+matlab_file_name = "son_01_1.mat"
+ntreatment = "minusN"
+ordername = "son_01"
+ptreatment = "minusP"
+class = "class01"
+gcid = "son_01_1"
+genotype = "Soy"
+infection1 = "infection"
+infection2 = "infection110"
+note1 = "son_01:1"
+region = "Soy"
+runorder = "96"
+samplename = "N/P-/110"
+tissue = "nodule"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 41
+name = "son_02_1"
+assay = "son_02_1"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_02_1"
+description = "RPMM0062 sample son_02_1"
+matlab_file_name = "son_02_1.mat"
+ntreatment = "minusN"
+ordername = "son_02"
+ptreatment = "minusP"
+class = "class01"
+gcid = "son_02_1"
+genotype = "Soy"
+infection1 = "infection"
+infection2 = "infection110"
+note1 = "son_02:1"
+region = "Soy"
+runorder = "81"
+samplename = "N/P-/110"
+tissue = "nodule"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 42
+name = "son_03_1"
+assay = "son_03_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_03_1"
+description = "RPMM0062 sample son_03_1"
+matlab_file_name = "son_03_1.mat"
+ntreatment = "minusN"
+ordername = "son_03"
+ptreatment = "minusP"
+class = "class01"
+gcid = "son_03_1"
+genotype = "Soy"
+infection1 = "infection"
+infection2 = "infection110"
+note1 = "son_03:1"
+region = "Soy"
+runorder = "95"
+samplename = "N/P-/110"
+tissue = "nodule"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 43
+name = "son_04_1"
+assay = "son_04_1"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_04_1"
+description = "RPMM0062 sample son_04_1"
+matlab_file_name = "son_04_1.mat"
+ntreatment = "minusN"
+ordername = "son_04"
+ptreatment = "plusP"
+class = "class02"
+gcid = "son_04_1"
+genotype = "Soy"
+infection1 = "infection"
+infection2 = "infection110"
+note1 = "son_04:1"
+region = "Soy"
+runorder = "102"
+samplename = "N/P+/110"
+tissue = "nodule"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 44
+name = "son_05_1"
+assay = "son_05_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_05_1"
+description = "RPMM0062 sample son_05_1"
+matlab_file_name = "son_05_1.mat"
+ntreatment = "minusN"
+ordername = "son_05"
+ptreatment = "plusP"
+class = "class02"
+gcid = "son_05_1"
+genotype = "Soy"
+infection1 = "infection"
+infection2 = "infection110"
+note1 = "son_05:1"
+region = "Soy"
+runorder = "100"
+samplename = "N/P+/110"
+tissue = "nodule"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 45
+name = "son_06_1"
+assay = "son_06_1"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_06_1"
+description = "RPMM0062 sample son_06_1"
+matlab_file_name = "son_06_1.mat"
+ntreatment = "minusN"
+ordername = "son_06"
+ptreatment = "plusP"
+class = "class02"
+gcid = "son_06_1"
+genotype = "Soy"
+infection1 = "infection"
+infection2 = "infection110"
+note1 = "son_06:1"
+region = "Soy"
+runorder = "41"
+samplename = "N/P+/110"
+tissue = "nodule"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 46
+name = "son_07_1"
+assay = "son_07_1"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_07_1"
+description = "RPMM0062 sample son_07_1"
+matlab_file_name = "son_07_1.mat"
+ntreatment = "minusN"
+ordername = "son_07"
+ptreatment = "minusP"
+class = "class03"
+gcid = "son_07_1"
+genotype = "Soy"
+infection1 = "infection"
+infection2 = "infection1809"
+note1 = "son_07:1"
+region = "Soy"
+runorder = "78"
+samplename = "N/P-/1809"
+tissue = "nodule"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 47
+name = "son_08_1"
+assay = "son_08_1"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_08_1"
+description = "RPMM0062 sample son_08_1"
+matlab_file_name = "son_08_1.mat"
+ntreatment = "minusN"
+ordername = "son_08"
+ptreatment = "minusP"
+class = "class03"
+gcid = "son_08_1"
+genotype = "Soy"
+infection1 = "infection"
+infection2 = "infection1809"
+note1 = "son_08:1"
+region = "Soy"
+runorder = "108"
+samplename = "N/P-/1809"
+tissue = "nodule"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 48
+name = "son_09_1"
+assay = "son_09_1"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_09_1"
+description = "RPMM0062 sample son_09_1"
+matlab_file_name = "son_09_1.mat"
+ntreatment = "minusN"
+ordername = "son_09"
+ptreatment = "minusP"
+class = "class03"
+gcid = "son_09_1"
+genotype = "Soy"
+infection1 = "infection"
+infection2 = "infection1809"
+note1 = "son_09:1"
+region = "Soy"
+runorder = "67"
+samplename = "N/P-/1809"
+tissue = "nodule"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 49
+name = "son_10_1"
+assay = "son_10_1"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_10_1"
+description = "RPMM0062 sample son_10_1"
+matlab_file_name = "son_10_1.mat"
+ntreatment = "minusN"
+ordername = "son_10"
+ptreatment = "plusP"
+class = "class04"
+gcid = "son_10_1"
+genotype = "Soy"
+infection1 = "infection"
+infection2 = "infection1809"
+note1 = "son_10:1"
+region = "Soy"
+runorder = "85"
+samplename = "N/P+/1809"
+tissue = "nodule"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 50
+name = "son_11_1"
+assay = "son_11_1"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_11_1"
+description = "RPMM0062 sample son_11_1"
+matlab_file_name = "son_11_1.mat"
+ntreatment = "minusN"
+ordername = "son_11"
+ptreatment = "plusP"
+class = "class04"
+gcid = "son_11_1"
+genotype = "Soy"
+infection1 = "infection"
+infection2 = "infection1809"
+note1 = "son_11:1"
+region = "Soy"
+runorder = "93"
+samplename = "N/P+/1809"
+tissue = "nodule"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 51
+name = "son_12_1"
+assay = "son_12_1"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_12_1"
+description = "RPMM0062 sample son_12_1"
+matlab_file_name = "son_12_1.mat"
+ntreatment = "minusN"
+ordername = "son_12"
+ptreatment = "plusP"
+class = "class04"
+gcid = "son_12_1"
+genotype = "Soy"
+infection1 = "infection"
+infection2 = "infection1809"
+note1 = "son_12:1"
+region = "Soy"
+runorder = "77"
+samplename = "N/P+/1809"
+tissue = "nodule"
+weight_mg = "0.027778"
+
+[[sample]]
+index = 52
+name = "son_13_1"
+assay = "son_13_1"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_13_1"
+description = "RPMM0062 sample son_13_1"
+
+[[sample]]
+index = 53
+name = "son_14_1"
+assay = "son_14_1"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_14_1"
+description = "RPMM0062 sample son_14_1"
+
+[[sample]]
+index = 54
+name = "son_15_1"
+assay = "son_15_1"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_15_1"
+description = "RPMM0062 sample son_15_1"
+
+[[sample]]
+index = 55
+name = "son_16_1"
+assay = "son_16_1"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_16_1"
+description = "RPMM0062 sample son_16_1"
+
+[[sample]]
+index = 56
+name = "son_17_1"
+assay = "son_17_1"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_17_1"
+description = "RPMM0062 sample son_17_1"
+
+[[sample]]
+index = 57
+name = "son_18_1"
+assay = "son_18_1"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_18_1"
+description = "RPMM0062 sample son_18_1"
+
+[[sample]]
+index = 58
+name = "son_19_1"
+assay = "son_19_1"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_19_1"
+description = "RPMM0062 sample son_19_1"
+
+[[sample]]
+index = 59
+name = "son_20_1"
+assay = "son_20_1"
+ms_run_ref = "ms_run[59]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_20_1"
+description = "RPMM0062 sample son_20_1"
+
+[[sample]]
+index = 60
+name = "son_21_1"
+assay = "son_21_1"
+ms_run_ref = "ms_run[60]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_21_1"
+description = "RPMM0062 sample son_21_1"
+
+[[sample]]
+index = 61
+name = "son_22_1"
+assay = "son_22_1"
+ms_run_ref = "ms_run[61]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_22_1"
+description = "RPMM0062 sample son_22_1"
+
+[[sample]]
+index = 62
+name = "son_23_1"
+assay = "son_23_1"
+ms_run_ref = "ms_run[62]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_23_1"
+description = "RPMM0062 sample son_23_1"
+
+[[sample]]
+index = 63
+name = "son_24_1"
+assay = "son_24_1"
+ms_run_ref = "ms_run[63]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_24_1"
+description = "RPMM0062 sample son_24_1"
+
+[[sample]]
+index = 64
+name = "son_25_1"
+assay = "son_25_1"
+ms_run_ref = "ms_run[64]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_25_1"
+description = "RPMM0062 sample son_25_1"
+
+[[sample]]
+index = 65
+name = "son_26_1"
+assay = "son_26_1"
+ms_run_ref = "ms_run[65]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_26_1"
+description = "RPMM0062 sample son_26_1"
+
+[[sample]]
+index = 66
+name = "son_27_1"
+assay = "son_27_1"
+ms_run_ref = "ms_run[66]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_27_1"
+description = "RPMM0062 sample son_27_1"
+
+[[sample]]
+index = 67
+name = "son_28_1"
+assay = "son_28_1"
+ms_run_ref = "ms_run[67]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_28_1"
+description = "RPMM0062 sample son_28_1"
+
+[[sample]]
+index = 68
+name = "son_29_1"
+assay = "son_29_1"
+ms_run_ref = "ms_run[68]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_29_1"
+description = "RPMM0062 sample son_29_1"
+
+[[sample]]
+index = 69
+name = "son_30_1"
+assay = "son_30_1"
+ms_run_ref = "ms_run[69]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_30_1"
+description = "RPMM0062 sample son_30_1"
+
+[[sample]]
+index = 70
+name = "son_31_1"
+assay = "son_31_1"
+ms_run_ref = "ms_run[70]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_31_1"
+description = "RPMM0062 sample son_31_1"
+
+[[sample]]
+index = 71
+name = "son_32_1"
+assay = "son_32_1"
+ms_run_ref = "ms_run[71]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_32_1"
+description = "RPMM0062 sample son_32_1"
+
+[[sample]]
+index = 72
+name = "son_33_1"
+assay = "son_33_1"
+ms_run_ref = "ms_run[72]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_33_1"
+description = "RPMM0062 sample son_33_1"
+
+[[sample]]
+index = 73
+name = "son_34_1"
+assay = "son_34_1"
+ms_run_ref = "ms_run[73]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_34_1"
+description = "RPMM0062 sample son_34_1"
+
+[[sample]]
+index = 74
+name = "son_35_1"
+assay = "son_35_1"
+ms_run_ref = "ms_run[74]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_35_1"
+description = "RPMM0062 sample son_35_1"
+
+[[sample]]
+index = 75
+name = "son_36_1"
+assay = "son_36_1"
+ms_run_ref = "ms_run[75]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_36_1"
+description = "RPMM0062 sample son_36_1"
+
+[[sample]]
+index = 76
+name = "son_37_1"
+assay = "son_37_1"
+ms_run_ref = "ms_run[76]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_37_1"
+description = "RPMM0062 sample son_37_1"
+
+[[sample]]
+index = 77
+name = "son_38_1"
+assay = "son_38_1"
+ms_run_ref = "ms_run[77]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_38_1"
+description = "RPMM0062 sample son_38_1"
+
+[[sample]]
+index = 78
+name = "son_39_1"
+assay = "son_39_1"
+ms_run_ref = "ms_run[78]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_39_1"
+description = "RPMM0062 sample son_39_1"
+
+[[sample]]
+index = 79
+name = "son_40_1"
+assay = "son_40_1"
+ms_run_ref = "ms_run[79]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_40_1"
+description = "RPMM0062 sample son_40_1"
+
+[[sample]]
+index = 80
+name = "son_41_1"
+assay = "son_41_1"
+ms_run_ref = "ms_run[80]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_41_1"
+description = "RPMM0062 sample son_41_1"
+
+[[sample]]
+index = 81
+name = "son_42_1"
+assay = "son_42_1"
+ms_run_ref = "ms_run[81]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_42_1"
+description = "RPMM0062 sample son_42_1"
+
+[[sample]]
+index = 82
+name = "son_43_1"
+assay = "son_43_1"
+ms_run_ref = "ms_run[82]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_43_1"
+description = "RPMM0062 sample son_43_1"
+
+[[sample]]
+index = 83
+name = "son_44_1"
+assay = "son_44_1"
+ms_run_ref = "ms_run[83]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_44_1"
+description = "RPMM0062 sample son_44_1"
+
+[[sample]]
+index = 84
+name = "son_45_1"
+assay = "son_45_1"
+ms_run_ref = "ms_run[84]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_45_1"
+description = "RPMM0062 sample son_45_1"
+
+[[sample]]
+index = 85
+name = "son_46_1"
+assay = "son_46_1"
+ms_run_ref = "ms_run[85]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_46_1"
+description = "RPMM0062 sample son_46_1"
+
+[[sample]]
+index = 86
+name = "son_47_1"
+assay = "son_47_1"
+ms_run_ref = "ms_run[86]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_47_1"
+description = "RPMM0062 sample son_47_1"
+
+[[sample]]
+index = 87
+name = "son_48_1"
+assay = "son_48_1"
+ms_run_ref = "ms_run[87]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_48_1"
+description = "RPMM0062 sample son_48_1"
+
+[[sample]]
+index = 88
+name = "son_49_1"
+assay = "son_49_1"
+ms_run_ref = "ms_run[88]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_49_1"
+description = "RPMM0062 sample son_49_1"
+
+[[sample]]
+index = 89
+name = "son_50_1"
+assay = "son_50_1"
+ms_run_ref = "ms_run[89]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_50_1"
+description = "RPMM0062 sample son_50_1"
+
+[[sample]]
+index = 90
+name = "son_51_1"
+assay = "son_51_1"
+ms_run_ref = "ms_run[90]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_51_1"
+description = "RPMM0062 sample son_51_1"
+
+[[sample]]
+index = 91
+name = "son_52_1"
+assay = "son_52_1"
+ms_run_ref = "ms_run[91]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_52_1"
+description = "RPMM0062 sample son_52_1"
+
+[[sample]]
+index = 92
+name = "son_53_1"
+assay = "son_53_1"
+ms_run_ref = "ms_run[92]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_53_1"
+description = "RPMM0062 sample son_53_1"
+
+[[sample]]
+index = 93
+name = "son_54_1"
+assay = "son_54_1"
+ms_run_ref = "ms_run[93]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_54_1"
+description = "RPMM0062 sample son_54_1"
+
+[[sample]]
+index = 94
+name = "son_55_1"
+assay = "son_55_1"
+ms_run_ref = "ms_run[94]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_55_1"
+description = "RPMM0062 sample son_55_1"
+
+[[sample]]
+index = 95
+name = "son_56_1"
+assay = "son_56_1"
+ms_run_ref = "ms_run[95]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_56_1"
+description = "RPMM0062 sample son_56_1"
+
+[[sample]]
+index = 96
+name = "son_57_1"
+assay = "son_57_1"
+ms_run_ref = "ms_run[96]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_57_1"
+description = "RPMM0062 sample son_57_1"
+
+[[sample]]
+index = 97
+name = "son_58_1"
+assay = "son_58_1"
+ms_run_ref = "ms_run[97]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_58_1"
+description = "RPMM0062 sample son_58_1"
+
+[[sample]]
+index = 98
+name = "son_59_1"
+assay = "son_59_1"
+ms_run_ref = "ms_run[98]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_59_1"
+description = "RPMM0062 sample son_59_1"
+
+[[sample]]
+index = 99
+name = "son_60_1"
+assay = "son_60_1"
+ms_run_ref = "ms_run[99]"
+location = "http://metabobank.riken.jp/data/RPMM0062/AnalysedDataset/MetMat_abs.txt#son_60_1"
+description = "RPMM0062 sample son_60_1"
+
+[study_variables]
+candidate_columns = [
+    "samplename",
+    "Ptreatment",
+    "infection2",
+    "class",
+]
+
+[study_variables.levels]
+samplename = [
+    "N/P+/110",
+    "N/P+/1809",
+    "N/P-/110",
+    "N/P-/1809",
+]
+Ptreatment = [
+    "minusP",
+    "plusP",
+]
+infection2 = [
+    "infection110",
+    "infection1809",
+]
+class = [
+    "class01",
+    "class02",
+    "class03",
+    "class04",
+]

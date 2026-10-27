@@ -1,0 +1,4655 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0013"
+title = "Impact of clock-associated <i>Arabidopsis</i> pseudo-response regulators in metabolic coordination"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0013"
+
+[matrix]
+name = "Design1__tokei1_1-6_AnnotCombMatri"
+source_file = "RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx"
+format = "xlsx"
+n_features = 225
+n_samples = 353
+metadata_columns = [
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0013/Design1/AnalysedDataset/Design1_phenodata.csv"
+msp = "RPMM0013/Design1/AnalysedDataset/050819tokei_3/050819tokei_3(1D)_MCRv1.1363b_NIST.txt"
+
+[organism]
+raw = "Arabidopsis"
+cv = "[NCBITaxon, NCBITaxon:3702, Arabidopsis thaliana, ]"
+source = "msp:050819tokei_3(1D)_MCRv1.1363b_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "T_01001_1"
+assay = "T_01001_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01001_1"
+description = "RPMM0013 sample T_01001_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT0"
+gcid = "T_01001_1"
+
+[[sample]]
+index = 2
+name = "T_01003_1"
+assay = "T_01003_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01003_1"
+description = "RPMM0013 sample T_01003_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT0"
+gcid = "T_01003_1"
+
+[[sample]]
+index = 3
+name = "T_01004_1"
+assay = "T_01004_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01004_1"
+description = "RPMM0013 sample T_01004_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT0"
+gcid = "T_01004_1"
+
+[[sample]]
+index = 4
+name = "T_01005_1"
+assay = "T_01005_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01005_1"
+description = "RPMM0013 sample T_01005_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT0"
+gcid = "T_01005_1"
+
+[[sample]]
+index = 5
+name = "T_01006_1"
+assay = "T_01006_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01006_1"
+description = "RPMM0013 sample T_01006_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT0"
+gcid = "T_01006_1"
+
+[[sample]]
+index = 6
+name = "T_01007_1"
+assay = "T_01007_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01007_1"
+description = "RPMM0013 sample T_01007_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT0"
+gcid = "T_01007_1"
+
+[[sample]]
+index = 7
+name = "T_01008_1"
+assay = "T_01008_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01008_1"
+description = "RPMM0013 sample T_01008_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT0"
+gcid = "T_01008_1"
+
+[[sample]]
+index = 8
+name = "T_01010_1"
+assay = "T_01010_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01010_1"
+description = "RPMM0013 sample T_01010_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT0"
+gcid = "T_01010_1"
+
+[[sample]]
+index = 9
+name = "T_01011_1"
+assay = "T_01011_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01011_1"
+description = "RPMM0013 sample T_01011_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT0"
+gcid = "T_01011_1"
+
+[[sample]]
+index = 10
+name = "T_01012_1"
+assay = "T_01012_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01012_1"
+description = "RPMM0013 sample T_01012_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT0"
+gcid = "T_01012_1"
+
+[[sample]]
+index = 11
+name = "T_01013_1"
+assay = "T_01013_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01013_1"
+description = "RPMM0013 sample T_01013_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT0"
+gcid = "T_01013_1"
+
+[[sample]]
+index = 12
+name = "T_01014_1"
+assay = "T_01014_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01014_1"
+description = "RPMM0013 sample T_01014_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT0"
+gcid = "T_01014_1"
+
+[[sample]]
+index = 13
+name = "T_01015_1"
+assay = "T_01015_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01015_1"
+description = "RPMM0013 sample T_01015_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT0"
+gcid = "T_01015_1"
+
+[[sample]]
+index = 14
+name = "T_01016_1"
+assay = "T_01016_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01016_1"
+description = "RPMM0013 sample T_01016_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT3"
+gcid = "T_01016_1"
+
+[[sample]]
+index = 15
+name = "T_01017_1"
+assay = "T_01017_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01017_1"
+description = "RPMM0013 sample T_01017_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT3"
+gcid = "T_01017_1"
+
+[[sample]]
+index = 16
+name = "T_01018_1"
+assay = "T_01018_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01018_1"
+description = "RPMM0013 sample T_01018_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT3"
+gcid = "T_01018_1"
+
+[[sample]]
+index = 17
+name = "T_01019_1"
+assay = "T_01019_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01019_1"
+description = "RPMM0013 sample T_01019_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT3"
+gcid = "T_01019_1"
+
+[[sample]]
+index = 18
+name = "T_01020_1"
+assay = "T_01020_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01020_1"
+description = "RPMM0013 sample T_01020_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT3"
+gcid = "T_01020_1"
+
+[[sample]]
+index = 19
+name = "T_01021_1"
+assay = "T_01021_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01021_1"
+description = "RPMM0013 sample T_01021_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT3"
+gcid = "T_01021_1"
+
+[[sample]]
+index = 20
+name = "T_01022_1"
+assay = "T_01022_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01022_1"
+description = "RPMM0013 sample T_01022_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT3"
+gcid = "T_01022_1"
+
+[[sample]]
+index = 21
+name = "T_01023_1"
+assay = "T_01023_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01023_1"
+description = "RPMM0013 sample T_01023_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT3"
+gcid = "T_01023_1"
+
+[[sample]]
+index = 22
+name = "T_01024_1"
+assay = "T_01024_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01024_1"
+description = "RPMM0013 sample T_01024_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT3"
+gcid = "T_01024_1"
+
+[[sample]]
+index = 23
+name = "T_01025_1"
+assay = "T_01025_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01025_1"
+description = "RPMM0013 sample T_01025_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT3"
+gcid = "T_01025_1"
+
+[[sample]]
+index = 24
+name = "T_01026_1"
+assay = "T_01026_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01026_1"
+description = "RPMM0013 sample T_01026_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT3"
+gcid = "T_01026_1"
+
+[[sample]]
+index = 25
+name = "T_01027_1"
+assay = "T_01027_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01027_1"
+description = "RPMM0013 sample T_01027_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT3"
+gcid = "T_01027_1"
+
+[[sample]]
+index = 26
+name = "T_01028_1"
+assay = "T_01028_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01028_1"
+description = "RPMM0013 sample T_01028_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT3"
+gcid = "T_01028_1"
+
+[[sample]]
+index = 27
+name = "T_01029_1"
+assay = "T_01029_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01029_1"
+description = "RPMM0013 sample T_01029_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT3"
+gcid = "T_01029_1"
+
+[[sample]]
+index = 28
+name = "T_01030_1"
+assay = "T_01030_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01030_1"
+description = "RPMM0013 sample T_01030_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT3"
+gcid = "T_01030_1"
+
+[[sample]]
+index = 29
+name = "T_01031_1"
+assay = "T_01031_1"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01031_1"
+description = "RPMM0013 sample T_01031_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT6"
+gcid = "T_01031_1"
+
+[[sample]]
+index = 30
+name = "T_01032_1"
+assay = "T_01032_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01032_1"
+description = "RPMM0013 sample T_01032_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT6"
+gcid = "T_01032_1"
+
+[[sample]]
+index = 31
+name = "T_01033_1"
+assay = "T_01033_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01033_1"
+description = "RPMM0013 sample T_01033_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT6"
+gcid = "T_01033_1"
+
+[[sample]]
+index = 32
+name = "T_01034_1"
+assay = "T_01034_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01034_1"
+description = "RPMM0013 sample T_01034_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT6"
+gcid = "T_01034_1"
+
+[[sample]]
+index = 33
+name = "T_01035_1"
+assay = "T_01035_1"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01035_1"
+description = "RPMM0013 sample T_01035_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT6"
+gcid = "T_01035_1"
+
+[[sample]]
+index = 34
+name = "T_01036_1"
+assay = "T_01036_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01036_1"
+description = "RPMM0013 sample T_01036_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT6"
+gcid = "T_01036_1"
+
+[[sample]]
+index = 35
+name = "T_01037_1"
+assay = "T_01037_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01037_1"
+description = "RPMM0013 sample T_01037_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT6"
+gcid = "T_01037_1"
+
+[[sample]]
+index = 36
+name = "T_01038_1"
+assay = "T_01038_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01038_1"
+description = "RPMM0013 sample T_01038_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT6"
+gcid = "T_01038_1"
+
+[[sample]]
+index = 37
+name = "T_01039_1"
+assay = "T_01039_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01039_1"
+description = "RPMM0013 sample T_01039_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT6"
+gcid = "T_01039_1"
+
+[[sample]]
+index = 38
+name = "T_01040_1"
+assay = "T_01040_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01040_1"
+description = "RPMM0013 sample T_01040_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT6"
+gcid = "T_01040_1"
+
+[[sample]]
+index = 39
+name = "T_01041_1"
+assay = "T_01041_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01041_1"
+description = "RPMM0013 sample T_01041_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT6"
+gcid = "T_01041_1"
+
+[[sample]]
+index = 40
+name = "T_01042_1"
+assay = "T_01042_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01042_1"
+description = "RPMM0013 sample T_01042_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT6"
+gcid = "T_01042_1"
+
+[[sample]]
+index = 41
+name = "T_01043_1"
+assay = "T_01043_1"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01043_1"
+description = "RPMM0013 sample T_01043_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT6"
+gcid = "T_01043_1"
+
+[[sample]]
+index = 42
+name = "T_01044_1"
+assay = "T_01044_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01044_1"
+description = "RPMM0013 sample T_01044_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT6"
+gcid = "T_01044_1"
+
+[[sample]]
+index = 43
+name = "T_01046_1"
+assay = "T_01046_1"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01046_1"
+description = "RPMM0013 sample T_01046_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT9"
+gcid = "T_01046_1"
+
+[[sample]]
+index = 44
+name = "T_01047_1"
+assay = "T_01047_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01047_1"
+description = "RPMM0013 sample T_01047_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT9"
+gcid = "T_01047_1"
+
+[[sample]]
+index = 45
+name = "T_01048_1"
+assay = "T_01048_1"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01048_1"
+description = "RPMM0013 sample T_01048_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT9"
+gcid = "T_01048_1"
+
+[[sample]]
+index = 46
+name = "T_01049_1"
+assay = "T_01049_1"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01049_1"
+description = "RPMM0013 sample T_01049_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT9"
+gcid = "T_01049_1"
+
+[[sample]]
+index = 47
+name = "T_01050_1"
+assay = "T_01050_1"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01050_1"
+description = "RPMM0013 sample T_01050_1"
+batch = "batch050813"
+genotype = "WT"
+light = "LD"
+time = "ZT9"
+gcid = "T_01050_1"
+
+[[sample]]
+index = 48
+name = "T_01051_1"
+assay = "T_01051_1"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01051_1"
+description = "RPMM0013 sample T_01051_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT9"
+gcid = "T_01051_1"
+
+[[sample]]
+index = 49
+name = "T_01052_1"
+assay = "T_01052_1"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01052_1"
+description = "RPMM0013 sample T_01052_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT9"
+gcid = "T_01052_1"
+
+[[sample]]
+index = 50
+name = "T_01053_1"
+assay = "T_01053_1"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01053_1"
+description = "RPMM0013 sample T_01053_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT9"
+gcid = "T_01053_1"
+
+[[sample]]
+index = 51
+name = "T_01054_1"
+assay = "T_01054_1"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01054_1"
+description = "RPMM0013 sample T_01054_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT9"
+gcid = "T_01054_1"
+
+[[sample]]
+index = 52
+name = "T_01055_1"
+assay = "T_01055_1"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01055_1"
+description = "RPMM0013 sample T_01055_1"
+batch = "batch050813"
+genotype = "d975"
+light = "LD"
+time = "ZT9"
+gcid = "T_01055_1"
+
+[[sample]]
+index = 53
+name = "T_01056_1"
+assay = "T_01056_1"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01056_1"
+description = "RPMM0013 sample T_01056_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT9"
+gcid = "T_01056_1"
+
+[[sample]]
+index = 54
+name = "T_01057_1"
+assay = "T_01057_1"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01057_1"
+description = "RPMM0013 sample T_01057_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT9"
+gcid = "T_01057_1"
+
+[[sample]]
+index = 55
+name = "T_01058_1"
+assay = "T_01058_1"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01058_1"
+description = "RPMM0013 sample T_01058_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT9"
+gcid = "T_01058_1"
+
+[[sample]]
+index = 56
+name = "T_01059_1"
+assay = "T_01059_1"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01059_1"
+description = "RPMM0013 sample T_01059_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT9"
+gcid = "T_01059_1"
+
+[[sample]]
+index = 57
+name = "T_01060_1"
+assay = "T_01060_1"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01060_1"
+description = "RPMM0013 sample T_01060_1"
+batch = "batch050813"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT9"
+gcid = "T_01060_1"
+
+[[sample]]
+index = 58
+name = "T_01061_1"
+assay = "T_01061_1"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01061_1"
+description = "RPMM0013 sample T_01061_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT12"
+gcid = "T_01061_1"
+
+[[sample]]
+index = 59
+name = "T_01062_1"
+assay = "T_01062_1"
+ms_run_ref = "ms_run[59]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01062_1"
+description = "RPMM0013 sample T_01062_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT12"
+gcid = "T_01062_1"
+
+[[sample]]
+index = 60
+name = "T_01063_1"
+assay = "T_01063_1"
+ms_run_ref = "ms_run[60]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01063_1"
+description = "RPMM0013 sample T_01063_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT12"
+gcid = "T_01063_1"
+
+[[sample]]
+index = 61
+name = "T_01064_1"
+assay = "T_01064_1"
+ms_run_ref = "ms_run[61]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01064_1"
+description = "RPMM0013 sample T_01064_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT12"
+gcid = "T_01064_1"
+
+[[sample]]
+index = 62
+name = "T_01065_1"
+assay = "T_01065_1"
+ms_run_ref = "ms_run[62]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01065_1"
+description = "RPMM0013 sample T_01065_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT12"
+gcid = "T_01065_1"
+
+[[sample]]
+index = 63
+name = "T_01066_1"
+assay = "T_01066_1"
+ms_run_ref = "ms_run[63]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01066_1"
+description = "RPMM0013 sample T_01066_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT12"
+gcid = "T_01066_1"
+
+[[sample]]
+index = 64
+name = "T_01067_1"
+assay = "T_01067_1"
+ms_run_ref = "ms_run[64]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01067_1"
+description = "RPMM0013 sample T_01067_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT12"
+gcid = "T_01067_1"
+
+[[sample]]
+index = 65
+name = "T_01068_1"
+assay = "T_01068_1"
+ms_run_ref = "ms_run[65]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01068_1"
+description = "RPMM0013 sample T_01068_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT12"
+gcid = "T_01068_1"
+
+[[sample]]
+index = 66
+name = "T_01069_1"
+assay = "T_01069_1"
+ms_run_ref = "ms_run[66]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01069_1"
+description = "RPMM0013 sample T_01069_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT12"
+gcid = "T_01069_1"
+
+[[sample]]
+index = 67
+name = "T_01070_1"
+assay = "T_01070_1"
+ms_run_ref = "ms_run[67]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01070_1"
+description = "RPMM0013 sample T_01070_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT12"
+gcid = "T_01070_1"
+
+[[sample]]
+index = 68
+name = "T_01071_1"
+assay = "T_01071_1"
+ms_run_ref = "ms_run[68]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01071_1"
+description = "RPMM0013 sample T_01071_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT12"
+gcid = "T_01071_1"
+
+[[sample]]
+index = 69
+name = "T_01072_1"
+assay = "T_01072_1"
+ms_run_ref = "ms_run[69]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01072_1"
+description = "RPMM0013 sample T_01072_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT12"
+gcid = "T_01072_1"
+
+[[sample]]
+index = 70
+name = "T_01073_1"
+assay = "T_01073_1"
+ms_run_ref = "ms_run[70]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01073_1"
+description = "RPMM0013 sample T_01073_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT12"
+gcid = "T_01073_1"
+
+[[sample]]
+index = 71
+name = "T_01074_1"
+assay = "T_01074_1"
+ms_run_ref = "ms_run[71]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01074_1"
+description = "RPMM0013 sample T_01074_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT12"
+gcid = "T_01074_1"
+
+[[sample]]
+index = 72
+name = "T_01075_1"
+assay = "T_01075_1"
+ms_run_ref = "ms_run[72]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01075_1"
+description = "RPMM0013 sample T_01075_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT12"
+gcid = "T_01075_1"
+
+[[sample]]
+index = 73
+name = "T_01076_1"
+assay = "T_01076_1"
+ms_run_ref = "ms_run[73]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01076_1"
+description = "RPMM0013 sample T_01076_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT15"
+gcid = "T_01076_1"
+
+[[sample]]
+index = 74
+name = "T_01077_1"
+assay = "T_01077_1"
+ms_run_ref = "ms_run[74]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01077_1"
+description = "RPMM0013 sample T_01077_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT15"
+gcid = "T_01077_1"
+
+[[sample]]
+index = 75
+name = "T_01078_1"
+assay = "T_01078_1"
+ms_run_ref = "ms_run[75]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01078_1"
+description = "RPMM0013 sample T_01078_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT15"
+gcid = "T_01078_1"
+
+[[sample]]
+index = 76
+name = "T_01079_1"
+assay = "T_01079_1"
+ms_run_ref = "ms_run[76]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01079_1"
+description = "RPMM0013 sample T_01079_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT15"
+gcid = "T_01079_1"
+
+[[sample]]
+index = 77
+name = "T_01080_1"
+assay = "T_01080_1"
+ms_run_ref = "ms_run[77]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01080_1"
+description = "RPMM0013 sample T_01080_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT15"
+gcid = "T_01080_1"
+
+[[sample]]
+index = 78
+name = "T_01081_1"
+assay = "T_01081_1"
+ms_run_ref = "ms_run[78]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01081_1"
+description = "RPMM0013 sample T_01081_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT15"
+gcid = "T_01081_1"
+
+[[sample]]
+index = 79
+name = "T_01082_1"
+assay = "T_01082_1"
+ms_run_ref = "ms_run[79]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01082_1"
+description = "RPMM0013 sample T_01082_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT15"
+gcid = "T_01082_1"
+
+[[sample]]
+index = 80
+name = "T_01083_1"
+assay = "T_01083_1"
+ms_run_ref = "ms_run[80]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01083_1"
+description = "RPMM0013 sample T_01083_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT15"
+gcid = "T_01083_1"
+
+[[sample]]
+index = 81
+name = "T_01084_1"
+assay = "T_01084_1"
+ms_run_ref = "ms_run[81]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01084_1"
+description = "RPMM0013 sample T_01084_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT15"
+gcid = "T_01084_1"
+
+[[sample]]
+index = 82
+name = "T_01085_1"
+assay = "T_01085_1"
+ms_run_ref = "ms_run[82]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01085_1"
+description = "RPMM0013 sample T_01085_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT15"
+gcid = "T_01085_1"
+
+[[sample]]
+index = 83
+name = "T_01086_1"
+assay = "T_01086_1"
+ms_run_ref = "ms_run[83]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01086_1"
+description = "RPMM0013 sample T_01086_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT15"
+gcid = "T_01086_1"
+
+[[sample]]
+index = 84
+name = "T_01087_1"
+assay = "T_01087_1"
+ms_run_ref = "ms_run[84]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01087_1"
+description = "RPMM0013 sample T_01087_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT15"
+gcid = "T_01087_1"
+
+[[sample]]
+index = 85
+name = "T_01088_1"
+assay = "T_01088_1"
+ms_run_ref = "ms_run[85]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01088_1"
+description = "RPMM0013 sample T_01088_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT15"
+gcid = "T_01088_1"
+
+[[sample]]
+index = 86
+name = "T_01089_1"
+assay = "T_01089_1"
+ms_run_ref = "ms_run[86]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01089_1"
+description = "RPMM0013 sample T_01089_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT15"
+gcid = "T_01089_1"
+
+[[sample]]
+index = 87
+name = "T_01090_1"
+assay = "T_01090_1"
+ms_run_ref = "ms_run[87]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01090_1"
+description = "RPMM0013 sample T_01090_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT15"
+gcid = "T_01090_1"
+
+[[sample]]
+index = 88
+name = "T_01091_1"
+assay = "T_01091_1"
+ms_run_ref = "ms_run[88]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01091_1"
+description = "RPMM0013 sample T_01091_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT18"
+gcid = "T_01091_1"
+
+[[sample]]
+index = 89
+name = "T_01092_1"
+assay = "T_01092_1"
+ms_run_ref = "ms_run[89]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01092_1"
+description = "RPMM0013 sample T_01092_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT18"
+gcid = "T_01092_1"
+
+[[sample]]
+index = 90
+name = "T_01093_1"
+assay = "T_01093_1"
+ms_run_ref = "ms_run[90]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01093_1"
+description = "RPMM0013 sample T_01093_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT18"
+gcid = "T_01093_1"
+
+[[sample]]
+index = 91
+name = "T_01094_1"
+assay = "T_01094_1"
+ms_run_ref = "ms_run[91]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01094_1"
+description = "RPMM0013 sample T_01094_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT18"
+gcid = "T_01094_1"
+
+[[sample]]
+index = 92
+name = "T_01095_1"
+assay = "T_01095_1"
+ms_run_ref = "ms_run[92]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01095_1"
+description = "RPMM0013 sample T_01095_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT18"
+gcid = "T_01095_1"
+
+[[sample]]
+index = 93
+name = "T_01096_1"
+assay = "T_01096_1"
+ms_run_ref = "ms_run[93]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01096_1"
+description = "RPMM0013 sample T_01096_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT18"
+gcid = "T_01096_1"
+
+[[sample]]
+index = 94
+name = "T_01097_1"
+assay = "T_01097_1"
+ms_run_ref = "ms_run[94]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01097_1"
+description = "RPMM0013 sample T_01097_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT18"
+gcid = "T_01097_1"
+
+[[sample]]
+index = 95
+name = "T_01098_1"
+assay = "T_01098_1"
+ms_run_ref = "ms_run[95]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01098_1"
+description = "RPMM0013 sample T_01098_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT18"
+gcid = "T_01098_1"
+
+[[sample]]
+index = 96
+name = "T_01099_1"
+assay = "T_01099_1"
+ms_run_ref = "ms_run[96]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01099_1"
+description = "RPMM0013 sample T_01099_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT18"
+gcid = "T_01099_1"
+
+[[sample]]
+index = 97
+name = "T_01100_1"
+assay = "T_01100_1"
+ms_run_ref = "ms_run[97]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01100_1"
+description = "RPMM0013 sample T_01100_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT18"
+gcid = "T_01100_1"
+
+[[sample]]
+index = 98
+name = "T_01101_1"
+assay = "T_01101_1"
+ms_run_ref = "ms_run[98]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01101_1"
+description = "RPMM0013 sample T_01101_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT18"
+gcid = "T_01101_1"
+
+[[sample]]
+index = 99
+name = "T_01102_1"
+assay = "T_01102_1"
+ms_run_ref = "ms_run[99]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01102_1"
+description = "RPMM0013 sample T_01102_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT18"
+gcid = "T_01102_1"
+
+[[sample]]
+index = 100
+name = "T_01103_1"
+assay = "T_01103_1"
+ms_run_ref = "ms_run[100]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01103_1"
+description = "RPMM0013 sample T_01103_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT18"
+gcid = "T_01103_1"
+
+[[sample]]
+index = 101
+name = "T_01104_1"
+assay = "T_01104_1"
+ms_run_ref = "ms_run[101]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01104_1"
+description = "RPMM0013 sample T_01104_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT18"
+gcid = "T_01104_1"
+
+[[sample]]
+index = 102
+name = "T_01105_1"
+assay = "T_01105_1"
+ms_run_ref = "ms_run[102]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01105_1"
+description = "RPMM0013 sample T_01105_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT18"
+gcid = "T_01105_1"
+
+[[sample]]
+index = 103
+name = "T_01106_1"
+assay = "T_01106_1"
+ms_run_ref = "ms_run[103]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01106_1"
+description = "RPMM0013 sample T_01106_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT21"
+gcid = "T_01106_1"
+
+[[sample]]
+index = 104
+name = "T_01107_1"
+assay = "T_01107_1"
+ms_run_ref = "ms_run[104]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01107_1"
+description = "RPMM0013 sample T_01107_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT21"
+gcid = "T_01107_1"
+
+[[sample]]
+index = 105
+name = "T_01108_1"
+assay = "T_01108_1"
+ms_run_ref = "ms_run[105]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01108_1"
+description = "RPMM0013 sample T_01108_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT21"
+gcid = "T_01108_1"
+
+[[sample]]
+index = 106
+name = "T_01109_1"
+assay = "T_01109_1"
+ms_run_ref = "ms_run[106]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01109_1"
+description = "RPMM0013 sample T_01109_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT21"
+gcid = "T_01109_1"
+
+[[sample]]
+index = 107
+name = "T_01110_1"
+assay = "T_01110_1"
+ms_run_ref = "ms_run[107]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01110_1"
+description = "RPMM0013 sample T_01110_1"
+batch = "batch050811"
+genotype = "WT"
+light = "LD"
+time = "ZT21"
+gcid = "T_01110_1"
+
+[[sample]]
+index = 108
+name = "T_01111_1"
+assay = "T_01111_1"
+ms_run_ref = "ms_run[108]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01111_1"
+description = "RPMM0013 sample T_01111_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT21"
+gcid = "T_01111_1"
+
+[[sample]]
+index = 109
+name = "T_01112_1"
+assay = "T_01112_1"
+ms_run_ref = "ms_run[109]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01112_1"
+description = "RPMM0013 sample T_01112_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT21"
+gcid = "T_01112_1"
+
+[[sample]]
+index = 110
+name = "T_01113_1"
+assay = "T_01113_1"
+ms_run_ref = "ms_run[110]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01113_1"
+description = "RPMM0013 sample T_01113_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT21"
+gcid = "T_01113_1"
+
+[[sample]]
+index = 111
+name = "T_01114_1"
+assay = "T_01114_1"
+ms_run_ref = "ms_run[111]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01114_1"
+description = "RPMM0013 sample T_01114_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT21"
+gcid = "T_01114_1"
+
+[[sample]]
+index = 112
+name = "T_01115_1"
+assay = "T_01115_1"
+ms_run_ref = "ms_run[112]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01115_1"
+description = "RPMM0013 sample T_01115_1"
+batch = "batch050811"
+genotype = "d975"
+light = "LD"
+time = "ZT21"
+gcid = "T_01115_1"
+
+[[sample]]
+index = 113
+name = "T_01116_1"
+assay = "T_01116_1"
+ms_run_ref = "ms_run[113]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01116_1"
+description = "RPMM0013 sample T_01116_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT21"
+gcid = "T_01116_1"
+
+[[sample]]
+index = 114
+name = "T_01117_1"
+assay = "T_01117_1"
+ms_run_ref = "ms_run[114]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01117_1"
+description = "RPMM0013 sample T_01117_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT21"
+gcid = "T_01117_1"
+
+[[sample]]
+index = 115
+name = "T_01118_1"
+assay = "T_01118_1"
+ms_run_ref = "ms_run[115]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01118_1"
+description = "RPMM0013 sample T_01118_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT21"
+gcid = "T_01118_1"
+
+[[sample]]
+index = 116
+name = "T_01119_1"
+assay = "T_01119_1"
+ms_run_ref = "ms_run[116]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01119_1"
+description = "RPMM0013 sample T_01119_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT21"
+gcid = "T_01119_1"
+
+[[sample]]
+index = 117
+name = "T_01120_1"
+assay = "T_01120_1"
+ms_run_ref = "ms_run[117]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01120_1"
+description = "RPMM0013 sample T_01120_1"
+batch = "batch050811"
+genotype = "cca1-ox"
+light = "LD"
+time = "ZT21"
+gcid = "T_01120_1"
+
+[[sample]]
+index = 118
+name = "T_01121_1"
+assay = "T_01121_1"
+ms_run_ref = "ms_run[118]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01121_1"
+description = "RPMM0013 sample T_01121_1"
+batch = "batch050819"
+genotype = "WT"
+light = "LL"
+time = "ZT0"
+gcid = "T_01121_1"
+
+[[sample]]
+index = 119
+name = "T_01122_1"
+assay = "T_01122_1"
+ms_run_ref = "ms_run[119]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01122_1"
+description = "RPMM0013 sample T_01122_1"
+batch = "batch050819"
+genotype = "WT"
+light = "LL"
+time = "ZT0"
+gcid = "T_01122_1"
+
+[[sample]]
+index = 120
+name = "T_01123_1"
+assay = "T_01123_1"
+ms_run_ref = "ms_run[120]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01123_1"
+description = "RPMM0013 sample T_01123_1"
+batch = "batch050819"
+genotype = "WT"
+light = "LL"
+time = "ZT0"
+gcid = "T_01123_1"
+
+[[sample]]
+index = 121
+name = "T_01124_1"
+assay = "T_01124_1"
+ms_run_ref = "ms_run[121]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01124_1"
+description = "RPMM0013 sample T_01124_1"
+batch = "batch050819"
+genotype = "WT"
+light = "LL"
+time = "ZT0"
+gcid = "T_01124_1"
+
+[[sample]]
+index = 122
+name = "T_01126_1"
+assay = "T_01126_1"
+ms_run_ref = "ms_run[122]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01126_1"
+description = "RPMM0013 sample T_01126_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT0"
+gcid = "T_01126_1"
+
+[[sample]]
+index = 123
+name = "T_01127_1"
+assay = "T_01127_1"
+ms_run_ref = "ms_run[123]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01127_1"
+description = "RPMM0013 sample T_01127_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT0"
+gcid = "T_01127_1"
+
+[[sample]]
+index = 124
+name = "T_01128_1"
+assay = "T_01128_1"
+ms_run_ref = "ms_run[124]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01128_1"
+description = "RPMM0013 sample T_01128_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT0"
+gcid = "T_01128_1"
+
+[[sample]]
+index = 125
+name = "T_01130_1"
+assay = "T_01130_1"
+ms_run_ref = "ms_run[125]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01130_1"
+description = "RPMM0013 sample T_01130_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT0"
+gcid = "T_01130_1"
+
+[[sample]]
+index = 126
+name = "T_01131_1"
+assay = "T_01131_1"
+ms_run_ref = "ms_run[126]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01131_1"
+description = "RPMM0013 sample T_01131_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT0"
+gcid = "T_01131_1"
+
+[[sample]]
+index = 127
+name = "T_01132_1"
+assay = "T_01132_1"
+ms_run_ref = "ms_run[127]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01132_1"
+description = "RPMM0013 sample T_01132_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT0"
+gcid = "T_01132_1"
+
+[[sample]]
+index = 128
+name = "T_01133_1"
+assay = "T_01133_1"
+ms_run_ref = "ms_run[128]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01133_1"
+description = "RPMM0013 sample T_01133_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT0"
+gcid = "T_01133_1"
+
+[[sample]]
+index = 129
+name = "T_01134_1"
+assay = "T_01134_1"
+ms_run_ref = "ms_run[129]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01134_1"
+description = "RPMM0013 sample T_01134_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT0"
+gcid = "T_01134_1"
+
+[[sample]]
+index = 130
+name = "T_01135_1"
+assay = "T_01135_1"
+ms_run_ref = "ms_run[130]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01135_1"
+description = "RPMM0013 sample T_01135_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT0"
+gcid = "T_01135_1"
+
+[[sample]]
+index = 131
+name = "T_01136_1"
+assay = "T_01136_1"
+ms_run_ref = "ms_run[131]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01136_1"
+description = "RPMM0013 sample T_01136_1"
+batch = "batch050819"
+genotype = "WT"
+light = "LL"
+time = "ZT3"
+gcid = "T_01136_1"
+
+[[sample]]
+index = 132
+name = "T_01137_1"
+assay = "T_01137_1"
+ms_run_ref = "ms_run[132]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01137_1"
+description = "RPMM0013 sample T_01137_1"
+batch = "batch050819"
+genotype = "WT"
+light = "LL"
+time = "ZT3"
+gcid = "T_01137_1"
+
+[[sample]]
+index = 133
+name = "T_01138_1"
+assay = "T_01138_1"
+ms_run_ref = "ms_run[133]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01138_1"
+description = "RPMM0013 sample T_01138_1"
+batch = "batch050819"
+genotype = "WT"
+light = "LL"
+time = "ZT3"
+gcid = "T_01138_1"
+
+[[sample]]
+index = 134
+name = "T_01139_1"
+assay = "T_01139_1"
+ms_run_ref = "ms_run[134]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01139_1"
+description = "RPMM0013 sample T_01139_1"
+batch = "batch050819"
+genotype = "WT"
+light = "LL"
+time = "ZT3"
+gcid = "T_01139_1"
+
+[[sample]]
+index = 135
+name = "T_01140_1"
+assay = "T_01140_1"
+ms_run_ref = "ms_run[135]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01140_1"
+description = "RPMM0013 sample T_01140_1"
+batch = "batch050819"
+genotype = "WT"
+light = "LL"
+time = "ZT3"
+gcid = "T_01140_1"
+
+[[sample]]
+index = 136
+name = "T_01141_1"
+assay = "T_01141_1"
+ms_run_ref = "ms_run[136]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01141_1"
+description = "RPMM0013 sample T_01141_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT3"
+gcid = "T_01141_1"
+
+[[sample]]
+index = 137
+name = "T_01142_1"
+assay = "T_01142_1"
+ms_run_ref = "ms_run[137]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01142_1"
+description = "RPMM0013 sample T_01142_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT3"
+gcid = "T_01142_1"
+
+[[sample]]
+index = 138
+name = "T_01143_1"
+assay = "T_01143_1"
+ms_run_ref = "ms_run[138]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01143_1"
+description = "RPMM0013 sample T_01143_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT3"
+gcid = "T_01143_1"
+
+[[sample]]
+index = 139
+name = "T_01144_1"
+assay = "T_01144_1"
+ms_run_ref = "ms_run[139]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01144_1"
+description = "RPMM0013 sample T_01144_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT3"
+gcid = "T_01144_1"
+
+[[sample]]
+index = 140
+name = "T_01145_1"
+assay = "T_01145_1"
+ms_run_ref = "ms_run[140]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01145_1"
+description = "RPMM0013 sample T_01145_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT3"
+gcid = "T_01145_1"
+
+[[sample]]
+index = 141
+name = "T_01146_1"
+assay = "T_01146_1"
+ms_run_ref = "ms_run[141]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01146_1"
+description = "RPMM0013 sample T_01146_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT3"
+gcid = "T_01146_1"
+
+[[sample]]
+index = 142
+name = "T_01147_1"
+assay = "T_01147_1"
+ms_run_ref = "ms_run[142]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01147_1"
+description = "RPMM0013 sample T_01147_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT3"
+gcid = "T_01147_1"
+
+[[sample]]
+index = 143
+name = "T_01148_1"
+assay = "T_01148_1"
+ms_run_ref = "ms_run[143]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01148_1"
+description = "RPMM0013 sample T_01148_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT3"
+gcid = "T_01148_1"
+
+[[sample]]
+index = 144
+name = "T_01149_1"
+assay = "T_01149_1"
+ms_run_ref = "ms_run[144]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01149_1"
+description = "RPMM0013 sample T_01149_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT3"
+gcid = "T_01149_1"
+
+[[sample]]
+index = 145
+name = "T_01150_1"
+assay = "T_01150_1"
+ms_run_ref = "ms_run[145]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01150_1"
+description = "RPMM0013 sample T_01150_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT3"
+gcid = "T_01150_1"
+
+[[sample]]
+index = 146
+name = "T_01151_1"
+assay = "T_01151_1"
+ms_run_ref = "ms_run[146]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01151_1"
+description = "RPMM0013 sample T_01151_1"
+batch = "batch050819"
+genotype = "WT"
+light = "LL"
+time = "ZT6"
+gcid = "T_01151_1"
+
+[[sample]]
+index = 147
+name = "T_01152_1"
+assay = "T_01152_1"
+ms_run_ref = "ms_run[147]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01152_1"
+description = "RPMM0013 sample T_01152_1"
+batch = "batch050819"
+genotype = "WT"
+light = "LL"
+time = "ZT6"
+gcid = "T_01152_1"
+
+[[sample]]
+index = 148
+name = "T_01155_1"
+assay = "T_01155_1"
+ms_run_ref = "ms_run[148]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01155_1"
+description = "RPMM0013 sample T_01155_1"
+batch = "batch050819"
+genotype = "WT"
+light = "LL"
+time = "ZT6"
+gcid = "T_01155_1"
+
+[[sample]]
+index = 149
+name = "T_01156_1"
+assay = "T_01156_1"
+ms_run_ref = "ms_run[149]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01156_1"
+description = "RPMM0013 sample T_01156_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT6"
+gcid = "T_01156_1"
+
+[[sample]]
+index = 150
+name = "T_01157_1"
+assay = "T_01157_1"
+ms_run_ref = "ms_run[150]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01157_1"
+description = "RPMM0013 sample T_01157_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT6"
+gcid = "T_01157_1"
+
+[[sample]]
+index = 151
+name = "T_01158_1"
+assay = "T_01158_1"
+ms_run_ref = "ms_run[151]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01158_1"
+description = "RPMM0013 sample T_01158_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT6"
+gcid = "T_01158_1"
+
+[[sample]]
+index = 152
+name = "T_01159_1"
+assay = "T_01159_1"
+ms_run_ref = "ms_run[152]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01159_1"
+description = "RPMM0013 sample T_01159_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT6"
+gcid = "T_01159_1"
+
+[[sample]]
+index = 153
+name = "T_01160_1"
+assay = "T_01160_1"
+ms_run_ref = "ms_run[153]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01160_1"
+description = "RPMM0013 sample T_01160_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT6"
+gcid = "T_01160_1"
+
+[[sample]]
+index = 154
+name = "T_01161_1"
+assay = "T_01161_1"
+ms_run_ref = "ms_run[154]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01161_1"
+description = "RPMM0013 sample T_01161_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT6"
+gcid = "T_01161_1"
+
+[[sample]]
+index = 155
+name = "T_01162_1"
+assay = "T_01162_1"
+ms_run_ref = "ms_run[155]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01162_1"
+description = "RPMM0013 sample T_01162_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT6"
+gcid = "T_01162_1"
+
+[[sample]]
+index = 156
+name = "T_01163_1"
+assay = "T_01163_1"
+ms_run_ref = "ms_run[156]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01163_1"
+description = "RPMM0013 sample T_01163_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT6"
+gcid = "T_01163_1"
+
+[[sample]]
+index = 157
+name = "T_01164_1"
+assay = "T_01164_1"
+ms_run_ref = "ms_run[157]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01164_1"
+description = "RPMM0013 sample T_01164_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT6"
+gcid = "T_01164_1"
+
+[[sample]]
+index = 158
+name = "T_01165_1"
+assay = "T_01165_1"
+ms_run_ref = "ms_run[158]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01165_1"
+description = "RPMM0013 sample T_01165_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT6"
+gcid = "T_01165_1"
+
+[[sample]]
+index = 159
+name = "T_01166_1"
+assay = "T_01166_1"
+ms_run_ref = "ms_run[159]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01166_1"
+description = "RPMM0013 sample T_01166_1"
+batch = "batch050819"
+genotype = "WT"
+light = "LL"
+time = "ZT9"
+gcid = "T_01166_1"
+
+[[sample]]
+index = 160
+name = "T_01167_1"
+assay = "T_01167_1"
+ms_run_ref = "ms_run[160]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01167_1"
+description = "RPMM0013 sample T_01167_1"
+batch = "batch050819"
+genotype = "WT"
+light = "LL"
+time = "ZT9"
+gcid = "T_01167_1"
+
+[[sample]]
+index = 161
+name = "T_01168_1"
+assay = "T_01168_1"
+ms_run_ref = "ms_run[161]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01168_1"
+description = "RPMM0013 sample T_01168_1"
+batch = "batch050819"
+genotype = "WT"
+light = "LL"
+time = "ZT9"
+gcid = "T_01168_1"
+
+[[sample]]
+index = 162
+name = "T_01169_1"
+assay = "T_01169_1"
+ms_run_ref = "ms_run[162]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01169_1"
+description = "RPMM0013 sample T_01169_1"
+batch = "batch050819"
+genotype = "WT"
+light = "LL"
+time = "ZT9"
+gcid = "T_01169_1"
+
+[[sample]]
+index = 163
+name = "T_01170_1"
+assay = "T_01170_1"
+ms_run_ref = "ms_run[163]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01170_1"
+description = "RPMM0013 sample T_01170_1"
+batch = "batch050819"
+genotype = "WT"
+light = "LL"
+time = "ZT9"
+gcid = "T_01170_1"
+
+[[sample]]
+index = 164
+name = "T_01171_1"
+assay = "T_01171_1"
+ms_run_ref = "ms_run[164]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01171_1"
+description = "RPMM0013 sample T_01171_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT9"
+gcid = "T_01171_1"
+
+[[sample]]
+index = 165
+name = "T_01172_1"
+assay = "T_01172_1"
+ms_run_ref = "ms_run[165]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01172_1"
+description = "RPMM0013 sample T_01172_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT9"
+gcid = "T_01172_1"
+
+[[sample]]
+index = 166
+name = "T_01173_1"
+assay = "T_01173_1"
+ms_run_ref = "ms_run[166]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01173_1"
+description = "RPMM0013 sample T_01173_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT9"
+gcid = "T_01173_1"
+
+[[sample]]
+index = 167
+name = "T_01174_1"
+assay = "T_01174_1"
+ms_run_ref = "ms_run[167]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01174_1"
+description = "RPMM0013 sample T_01174_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT9"
+gcid = "T_01174_1"
+
+[[sample]]
+index = 168
+name = "T_01175_1"
+assay = "T_01175_1"
+ms_run_ref = "ms_run[168]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01175_1"
+description = "RPMM0013 sample T_01175_1"
+batch = "batch050819"
+genotype = "d975"
+light = "LL"
+time = "ZT9"
+gcid = "T_01175_1"
+
+[[sample]]
+index = 169
+name = "T_01176_1"
+assay = "T_01176_1"
+ms_run_ref = "ms_run[169]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01176_1"
+description = "RPMM0013 sample T_01176_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT9"
+gcid = "T_01176_1"
+
+[[sample]]
+index = 170
+name = "T_01177_1"
+assay = "T_01177_1"
+ms_run_ref = "ms_run[170]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01177_1"
+description = "RPMM0013 sample T_01177_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT9"
+gcid = "T_01177_1"
+
+[[sample]]
+index = 171
+name = "T_01178_1"
+assay = "T_01178_1"
+ms_run_ref = "ms_run[171]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01178_1"
+description = "RPMM0013 sample T_01178_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT9"
+gcid = "T_01178_1"
+
+[[sample]]
+index = 172
+name = "T_01179_1"
+assay = "T_01179_1"
+ms_run_ref = "ms_run[172]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01179_1"
+description = "RPMM0013 sample T_01179_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT9"
+gcid = "T_01179_1"
+
+[[sample]]
+index = 173
+name = "T_01180_1"
+assay = "T_01180_1"
+ms_run_ref = "ms_run[173]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01180_1"
+description = "RPMM0013 sample T_01180_1"
+batch = "batch050819"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT9"
+gcid = "T_01180_1"
+
+[[sample]]
+index = 174
+name = "T_01181_1"
+assay = "T_01181_1"
+ms_run_ref = "ms_run[174]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01181_1"
+description = "RPMM0013 sample T_01181_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT12"
+gcid = "T_01181_1"
+
+[[sample]]
+index = 175
+name = "T_01182_1"
+assay = "T_01182_1"
+ms_run_ref = "ms_run[175]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01182_1"
+description = "RPMM0013 sample T_01182_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT12"
+gcid = "T_01182_1"
+
+[[sample]]
+index = 176
+name = "T_01183_2"
+assay = "T_01183_2"
+ms_run_ref = "ms_run[176]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01183_2"
+description = "RPMM0013 sample T_01183_2"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT12"
+gcid = "T_01183_2"
+
+[[sample]]
+index = 177
+name = "T_01184_1"
+assay = "T_01184_1"
+ms_run_ref = "ms_run[177]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01184_1"
+description = "RPMM0013 sample T_01184_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT12"
+gcid = "T_01184_1"
+
+[[sample]]
+index = 178
+name = "T_01185_1"
+assay = "T_01185_1"
+ms_run_ref = "ms_run[178]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01185_1"
+description = "RPMM0013 sample T_01185_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT12"
+gcid = "T_01185_1"
+
+[[sample]]
+index = 179
+name = "T_01186_1"
+assay = "T_01186_1"
+ms_run_ref = "ms_run[179]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01186_1"
+description = "RPMM0013 sample T_01186_1"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT12"
+gcid = "T_01186_1"
+
+[[sample]]
+index = 180
+name = "T_01187_1"
+assay = "T_01187_1"
+ms_run_ref = "ms_run[180]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01187_1"
+description = "RPMM0013 sample T_01187_1"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT12"
+gcid = "T_01187_1"
+
+[[sample]]
+index = 181
+name = "T_01188_2"
+assay = "T_01188_2"
+ms_run_ref = "ms_run[181]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01188_2"
+description = "RPMM0013 sample T_01188_2"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT12"
+gcid = "T_01188_2"
+
+[[sample]]
+index = 182
+name = "T_01189_1"
+assay = "T_01189_1"
+ms_run_ref = "ms_run[182]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01189_1"
+description = "RPMM0013 sample T_01189_1"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT12"
+gcid = "T_01189_1"
+
+[[sample]]
+index = 183
+name = "T_01190_1"
+assay = "T_01190_1"
+ms_run_ref = "ms_run[183]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01190_1"
+description = "RPMM0013 sample T_01190_1"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT12"
+gcid = "T_01190_1"
+
+[[sample]]
+index = 184
+name = "T_01191_1"
+assay = "T_01191_1"
+ms_run_ref = "ms_run[184]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01191_1"
+description = "RPMM0013 sample T_01191_1"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT12"
+gcid = "T_01191_1"
+
+[[sample]]
+index = 185
+name = "T_01192_1"
+assay = "T_01192_1"
+ms_run_ref = "ms_run[185]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01192_1"
+description = "RPMM0013 sample T_01192_1"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT12"
+gcid = "T_01192_1"
+
+[[sample]]
+index = 186
+name = "T_01193_1"
+assay = "T_01193_1"
+ms_run_ref = "ms_run[186]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01193_1"
+description = "RPMM0013 sample T_01193_1"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT12"
+gcid = "T_01193_1"
+
+[[sample]]
+index = 187
+name = "T_01194_1"
+assay = "T_01194_1"
+ms_run_ref = "ms_run[187]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01194_1"
+description = "RPMM0013 sample T_01194_1"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT12"
+gcid = "T_01194_1"
+
+[[sample]]
+index = 188
+name = "T_01195_1"
+assay = "T_01195_1"
+ms_run_ref = "ms_run[188]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01195_1"
+description = "RPMM0013 sample T_01195_1"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT12"
+gcid = "T_01195_1"
+
+[[sample]]
+index = 189
+name = "T_01196_1"
+assay = "T_01196_1"
+ms_run_ref = "ms_run[189]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01196_1"
+description = "RPMM0013 sample T_01196_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT15"
+gcid = "T_01196_1"
+
+[[sample]]
+index = 190
+name = "T_01197_1"
+assay = "T_01197_1"
+ms_run_ref = "ms_run[190]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01197_1"
+description = "RPMM0013 sample T_01197_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT15"
+gcid = "T_01197_1"
+
+[[sample]]
+index = 191
+name = "T_01198_1"
+assay = "T_01198_1"
+ms_run_ref = "ms_run[191]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01198_1"
+description = "RPMM0013 sample T_01198_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT15"
+gcid = "T_01198_1"
+
+[[sample]]
+index = 192
+name = "T_01199_1"
+assay = "T_01199_1"
+ms_run_ref = "ms_run[192]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01199_1"
+description = "RPMM0013 sample T_01199_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT15"
+gcid = "T_01199_1"
+
+[[sample]]
+index = 193
+name = "T_01200_1"
+assay = "T_01200_1"
+ms_run_ref = "ms_run[193]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01200_1"
+description = "RPMM0013 sample T_01200_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT15"
+gcid = "T_01200_1"
+
+[[sample]]
+index = 194
+name = "T_01201_1"
+assay = "T_01201_1"
+ms_run_ref = "ms_run[194]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01201_1"
+description = "RPMM0013 sample T_01201_1"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT15"
+gcid = "T_01201_1"
+
+[[sample]]
+index = 195
+name = "T_01202_1"
+assay = "T_01202_1"
+ms_run_ref = "ms_run[195]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01202_1"
+description = "RPMM0013 sample T_01202_1"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT15"
+gcid = "T_01202_1"
+
+[[sample]]
+index = 196
+name = "T_01203_1"
+assay = "T_01203_1"
+ms_run_ref = "ms_run[196]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01203_1"
+description = "RPMM0013 sample T_01203_1"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT15"
+gcid = "T_01203_1"
+
+[[sample]]
+index = 197
+name = "T_01204_1"
+assay = "T_01204_1"
+ms_run_ref = "ms_run[197]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01204_1"
+description = "RPMM0013 sample T_01204_1"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT15"
+gcid = "T_01204_1"
+
+[[sample]]
+index = 198
+name = "T_01205_1"
+assay = "T_01205_1"
+ms_run_ref = "ms_run[198]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01205_1"
+description = "RPMM0013 sample T_01205_1"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT15"
+gcid = "T_01205_1"
+
+[[sample]]
+index = 199
+name = "T_01206_1"
+assay = "T_01206_1"
+ms_run_ref = "ms_run[199]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01206_1"
+description = "RPMM0013 sample T_01206_1"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT15"
+gcid = "T_01206_1"
+
+[[sample]]
+index = 200
+name = "T_01207_2"
+assay = "T_01207_2"
+ms_run_ref = "ms_run[200]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01207_2"
+description = "RPMM0013 sample T_01207_2"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT15"
+gcid = "T_01207_2"
+
+[[sample]]
+index = 201
+name = "T_01208_2"
+assay = "T_01208_2"
+ms_run_ref = "ms_run[201]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01208_2"
+description = "RPMM0013 sample T_01208_2"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT15"
+gcid = "T_01208_2"
+
+[[sample]]
+index = 202
+name = "T_01209_1"
+assay = "T_01209_1"
+ms_run_ref = "ms_run[202]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01209_1"
+description = "RPMM0013 sample T_01209_1"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT15"
+gcid = "T_01209_1"
+
+[[sample]]
+index = 203
+name = "T_01210_1"
+assay = "T_01210_1"
+ms_run_ref = "ms_run[203]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01210_1"
+description = "RPMM0013 sample T_01210_1"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT15"
+gcid = "T_01210_1"
+
+[[sample]]
+index = 204
+name = "T_01211_1"
+assay = "T_01211_1"
+ms_run_ref = "ms_run[204]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01211_1"
+description = "RPMM0013 sample T_01211_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT18"
+gcid = "T_01211_1"
+
+[[sample]]
+index = 205
+name = "T_01212_1"
+assay = "T_01212_1"
+ms_run_ref = "ms_run[205]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01212_1"
+description = "RPMM0013 sample T_01212_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT18"
+gcid = "T_01212_1"
+
+[[sample]]
+index = 206
+name = "T_01213_1"
+assay = "T_01213_1"
+ms_run_ref = "ms_run[206]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01213_1"
+description = "RPMM0013 sample T_01213_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT18"
+gcid = "T_01213_1"
+
+[[sample]]
+index = 207
+name = "T_01214_1"
+assay = "T_01214_1"
+ms_run_ref = "ms_run[207]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01214_1"
+description = "RPMM0013 sample T_01214_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT18"
+gcid = "T_01214_1"
+
+[[sample]]
+index = 208
+name = "T_01215_1"
+assay = "T_01215_1"
+ms_run_ref = "ms_run[208]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01215_1"
+description = "RPMM0013 sample T_01215_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT18"
+gcid = "T_01215_1"
+
+[[sample]]
+index = 209
+name = "T_01216_2"
+assay = "T_01216_2"
+ms_run_ref = "ms_run[209]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01216_2"
+description = "RPMM0013 sample T_01216_2"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT18"
+gcid = "T_01216_2"
+
+[[sample]]
+index = 210
+name = "T_01217_1"
+assay = "T_01217_1"
+ms_run_ref = "ms_run[210]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01217_1"
+description = "RPMM0013 sample T_01217_1"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT18"
+gcid = "T_01217_1"
+
+[[sample]]
+index = 211
+name = "T_01218_1"
+assay = "T_01218_1"
+ms_run_ref = "ms_run[211]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01218_1"
+description = "RPMM0013 sample T_01218_1"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT18"
+gcid = "T_01218_1"
+
+[[sample]]
+index = 212
+name = "T_01219_1"
+assay = "T_01219_1"
+ms_run_ref = "ms_run[212]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01219_1"
+description = "RPMM0013 sample T_01219_1"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT18"
+gcid = "T_01219_1"
+
+[[sample]]
+index = 213
+name = "T_01220_2"
+assay = "T_01220_2"
+ms_run_ref = "ms_run[213]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01220_2"
+description = "RPMM0013 sample T_01220_2"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT18"
+gcid = "T_01220_2"
+
+[[sample]]
+index = 214
+name = "T_01221_1"
+assay = "T_01221_1"
+ms_run_ref = "ms_run[214]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01221_1"
+description = "RPMM0013 sample T_01221_1"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT18"
+gcid = "T_01221_1"
+
+[[sample]]
+index = 215
+name = "T_01222_1"
+assay = "T_01222_1"
+ms_run_ref = "ms_run[215]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01222_1"
+description = "RPMM0013 sample T_01222_1"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT18"
+gcid = "T_01222_1"
+
+[[sample]]
+index = 216
+name = "T_01223_1"
+assay = "T_01223_1"
+ms_run_ref = "ms_run[216]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01223_1"
+description = "RPMM0013 sample T_01223_1"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT18"
+gcid = "T_01223_1"
+
+[[sample]]
+index = 217
+name = "T_01224_1"
+assay = "T_01224_1"
+ms_run_ref = "ms_run[217]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01224_1"
+description = "RPMM0013 sample T_01224_1"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT18"
+gcid = "T_01224_1"
+
+[[sample]]
+index = 218
+name = "T_01225_1"
+assay = "T_01225_1"
+ms_run_ref = "ms_run[218]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01225_1"
+description = "RPMM0013 sample T_01225_1"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT21"
+gcid = "T_01225_1"
+
+[[sample]]
+index = 219
+name = "T_01226_1"
+assay = "T_01226_1"
+ms_run_ref = "ms_run[219]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01226_1"
+description = "RPMM0013 sample T_01226_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT21"
+gcid = "T_01226_1"
+
+[[sample]]
+index = 220
+name = "T_01227_1"
+assay = "T_01227_1"
+ms_run_ref = "ms_run[220]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01227_1"
+description = "RPMM0013 sample T_01227_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT21"
+gcid = "T_01227_1"
+
+[[sample]]
+index = 221
+name = "T_01228_1"
+assay = "T_01228_1"
+ms_run_ref = "ms_run[221]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01228_1"
+description = "RPMM0013 sample T_01228_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT21"
+gcid = "T_01228_1"
+
+[[sample]]
+index = 222
+name = "T_01229_2"
+assay = "T_01229_2"
+ms_run_ref = "ms_run[222]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01229_2"
+description = "RPMM0013 sample T_01229_2"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT21"
+gcid = "T_01229_2"
+
+[[sample]]
+index = 223
+name = "T_01230_1"
+assay = "T_01230_1"
+ms_run_ref = "ms_run[223]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01230_1"
+description = "RPMM0013 sample T_01230_1"
+batch = "batch050825"
+genotype = "WT"
+light = "LL"
+time = "ZT21"
+gcid = "T_01230_1"
+
+[[sample]]
+index = 224
+name = "T_01231_1"
+assay = "T_01231_1"
+ms_run_ref = "ms_run[224]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01231_1"
+description = "RPMM0013 sample T_01231_1"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT21"
+gcid = "T_01231_1"
+
+[[sample]]
+index = 225
+name = "T_01232_1"
+assay = "T_01232_1"
+ms_run_ref = "ms_run[225]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01232_1"
+description = "RPMM0013 sample T_01232_1"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT21"
+gcid = "T_01232_1"
+
+[[sample]]
+index = 226
+name = "T_01233_1"
+assay = "T_01233_1"
+ms_run_ref = "ms_run[226]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01233_1"
+description = "RPMM0013 sample T_01233_1"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT21"
+gcid = "T_01233_1"
+
+[[sample]]
+index = 227
+name = "T_01234_1"
+assay = "T_01234_1"
+ms_run_ref = "ms_run[227]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01234_1"
+description = "RPMM0013 sample T_01234_1"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT21"
+gcid = "T_01234_1"
+
+[[sample]]
+index = 228
+name = "T_01235_1"
+assay = "T_01235_1"
+ms_run_ref = "ms_run[228]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01235_1"
+description = "RPMM0013 sample T_01235_1"
+batch = "batch050825"
+genotype = "d975"
+light = "LL"
+time = "ZT21"
+gcid = "T_01235_1"
+
+[[sample]]
+index = 229
+name = "T_01236_1"
+assay = "T_01236_1"
+ms_run_ref = "ms_run[229]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01236_1"
+description = "RPMM0013 sample T_01236_1"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT21"
+gcid = "T_01236_1"
+
+[[sample]]
+index = 230
+name = "T_01237_1"
+assay = "T_01237_1"
+ms_run_ref = "ms_run[230]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01237_1"
+description = "RPMM0013 sample T_01237_1"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT21"
+gcid = "T_01237_1"
+
+[[sample]]
+index = 231
+name = "T_01238_2"
+assay = "T_01238_2"
+ms_run_ref = "ms_run[231]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01238_2"
+description = "RPMM0013 sample T_01238_2"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT21"
+gcid = "T_01238_2"
+
+[[sample]]
+index = 232
+name = "T_01239_1"
+assay = "T_01239_1"
+ms_run_ref = "ms_run[232]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01239_1"
+description = "RPMM0013 sample T_01239_1"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT21"
+gcid = "T_01239_1"
+
+[[sample]]
+index = 233
+name = "T_01240_1"
+assay = "T_01240_1"
+ms_run_ref = "ms_run[233]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01240_1"
+description = "RPMM0013 sample T_01240_1"
+batch = "batch050825"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT21"
+gcid = "T_01240_1"
+
+[[sample]]
+index = 234
+name = "T_01241_1"
+assay = "T_01241_1"
+ms_run_ref = "ms_run[234]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01241_1"
+description = "RPMM0013 sample T_01241_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT24"
+gcid = "T_01241_1"
+
+[[sample]]
+index = 235
+name = "T_01242_1"
+assay = "T_01242_1"
+ms_run_ref = "ms_run[235]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01242_1"
+description = "RPMM0013 sample T_01242_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT24"
+gcid = "T_01242_1"
+
+[[sample]]
+index = 236
+name = "T_01243_1"
+assay = "T_01243_1"
+ms_run_ref = "ms_run[236]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01243_1"
+description = "RPMM0013 sample T_01243_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT24"
+gcid = "T_01243_1"
+
+[[sample]]
+index = 237
+name = "T_01244_1"
+assay = "T_01244_1"
+ms_run_ref = "ms_run[237]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01244_1"
+description = "RPMM0013 sample T_01244_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT24"
+gcid = "T_01244_1"
+
+[[sample]]
+index = 238
+name = "T_01245_1"
+assay = "T_01245_1"
+ms_run_ref = "ms_run[238]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01245_1"
+description = "RPMM0013 sample T_01245_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT24"
+gcid = "T_01245_1"
+
+[[sample]]
+index = 239
+name = "T_01246_1"
+assay = "T_01246_1"
+ms_run_ref = "ms_run[239]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01246_1"
+description = "RPMM0013 sample T_01246_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT24"
+gcid = "T_01246_1"
+
+[[sample]]
+index = 240
+name = "T_01247_1"
+assay = "T_01247_1"
+ms_run_ref = "ms_run[240]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01247_1"
+description = "RPMM0013 sample T_01247_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT24"
+gcid = "T_01247_1"
+
+[[sample]]
+index = 241
+name = "T_01248_1"
+assay = "T_01248_1"
+ms_run_ref = "ms_run[241]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01248_1"
+description = "RPMM0013 sample T_01248_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT24"
+gcid = "T_01248_1"
+
+[[sample]]
+index = 242
+name = "T_01249_1"
+assay = "T_01249_1"
+ms_run_ref = "ms_run[242]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01249_1"
+description = "RPMM0013 sample T_01249_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT24"
+gcid = "T_01249_1"
+
+[[sample]]
+index = 243
+name = "T_01250_1"
+assay = "T_01250_1"
+ms_run_ref = "ms_run[243]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01250_1"
+description = "RPMM0013 sample T_01250_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT24"
+gcid = "T_01250_1"
+
+[[sample]]
+index = 244
+name = "T_01251_1"
+assay = "T_01251_1"
+ms_run_ref = "ms_run[244]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01251_1"
+description = "RPMM0013 sample T_01251_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT24"
+gcid = "T_01251_1"
+
+[[sample]]
+index = 245
+name = "T_01252_1"
+assay = "T_01252_1"
+ms_run_ref = "ms_run[245]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01252_1"
+description = "RPMM0013 sample T_01252_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT24"
+gcid = "T_01252_1"
+
+[[sample]]
+index = 246
+name = "T_01253_1"
+assay = "T_01253_1"
+ms_run_ref = "ms_run[246]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01253_1"
+description = "RPMM0013 sample T_01253_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT24"
+gcid = "T_01253_1"
+
+[[sample]]
+index = 247
+name = "T_01254_1"
+assay = "T_01254_1"
+ms_run_ref = "ms_run[247]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01254_1"
+description = "RPMM0013 sample T_01254_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT24"
+gcid = "T_01254_1"
+
+[[sample]]
+index = 248
+name = "T_01255_1"
+assay = "T_01255_1"
+ms_run_ref = "ms_run[248]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01255_1"
+description = "RPMM0013 sample T_01255_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT24"
+gcid = "T_01255_1"
+
+[[sample]]
+index = 249
+name = "T_01256_1"
+assay = "T_01256_1"
+ms_run_ref = "ms_run[249]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01256_1"
+description = "RPMM0013 sample T_01256_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT27"
+gcid = "T_01256_1"
+
+[[sample]]
+index = 250
+name = "T_01257_1"
+assay = "T_01257_1"
+ms_run_ref = "ms_run[250]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01257_1"
+description = "RPMM0013 sample T_01257_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT27"
+gcid = "T_01257_1"
+
+[[sample]]
+index = 251
+name = "T_01258_1"
+assay = "T_01258_1"
+ms_run_ref = "ms_run[251]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01258_1"
+description = "RPMM0013 sample T_01258_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT27"
+gcid = "T_01258_1"
+
+[[sample]]
+index = 252
+name = "T_01259_1"
+assay = "T_01259_1"
+ms_run_ref = "ms_run[252]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01259_1"
+description = "RPMM0013 sample T_01259_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT27"
+gcid = "T_01259_1"
+
+[[sample]]
+index = 253
+name = "T_01260_1"
+assay = "T_01260_1"
+ms_run_ref = "ms_run[253]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01260_1"
+description = "RPMM0013 sample T_01260_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT27"
+gcid = "T_01260_1"
+
+[[sample]]
+index = 254
+name = "T_01261_1"
+assay = "T_01261_1"
+ms_run_ref = "ms_run[254]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01261_1"
+description = "RPMM0013 sample T_01261_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT27"
+gcid = "T_01261_1"
+
+[[sample]]
+index = 255
+name = "T_01262_1"
+assay = "T_01262_1"
+ms_run_ref = "ms_run[255]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01262_1"
+description = "RPMM0013 sample T_01262_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT27"
+gcid = "T_01262_1"
+
+[[sample]]
+index = 256
+name = "T_01263_1"
+assay = "T_01263_1"
+ms_run_ref = "ms_run[256]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01263_1"
+description = "RPMM0013 sample T_01263_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT27"
+gcid = "T_01263_1"
+
+[[sample]]
+index = 257
+name = "T_01264_1"
+assay = "T_01264_1"
+ms_run_ref = "ms_run[257]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01264_1"
+description = "RPMM0013 sample T_01264_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT27"
+gcid = "T_01264_1"
+
+[[sample]]
+index = 258
+name = "T_01265_1"
+assay = "T_01265_1"
+ms_run_ref = "ms_run[258]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01265_1"
+description = "RPMM0013 sample T_01265_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT27"
+gcid = "T_01265_1"
+
+[[sample]]
+index = 259
+name = "T_01266_1"
+assay = "T_01266_1"
+ms_run_ref = "ms_run[259]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01266_1"
+description = "RPMM0013 sample T_01266_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT27"
+gcid = "T_01266_1"
+
+[[sample]]
+index = 260
+name = "T_01267_1"
+assay = "T_01267_1"
+ms_run_ref = "ms_run[260]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01267_1"
+description = "RPMM0013 sample T_01267_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT27"
+gcid = "T_01267_1"
+
+[[sample]]
+index = 261
+name = "T_01268_1"
+assay = "T_01268_1"
+ms_run_ref = "ms_run[261]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01268_1"
+description = "RPMM0013 sample T_01268_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT27"
+gcid = "T_01268_1"
+
+[[sample]]
+index = 262
+name = "T_01269_1"
+assay = "T_01269_1"
+ms_run_ref = "ms_run[262]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01269_1"
+description = "RPMM0013 sample T_01269_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT27"
+gcid = "T_01269_1"
+
+[[sample]]
+index = 263
+name = "T_01270_1"
+assay = "T_01270_1"
+ms_run_ref = "ms_run[263]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01270_1"
+description = "RPMM0013 sample T_01270_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT27"
+gcid = "T_01270_1"
+
+[[sample]]
+index = 264
+name = "T_01271_1"
+assay = "T_01271_1"
+ms_run_ref = "ms_run[264]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01271_1"
+description = "RPMM0013 sample T_01271_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT30"
+gcid = "T_01271_1"
+
+[[sample]]
+index = 265
+name = "T_01272_1"
+assay = "T_01272_1"
+ms_run_ref = "ms_run[265]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01272_1"
+description = "RPMM0013 sample T_01272_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT30"
+gcid = "T_01272_1"
+
+[[sample]]
+index = 266
+name = "T_01273_1"
+assay = "T_01273_1"
+ms_run_ref = "ms_run[266]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01273_1"
+description = "RPMM0013 sample T_01273_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT30"
+gcid = "T_01273_1"
+
+[[sample]]
+index = 267
+name = "T_01274_1"
+assay = "T_01274_1"
+ms_run_ref = "ms_run[267]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01274_1"
+description = "RPMM0013 sample T_01274_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT30"
+gcid = "T_01274_1"
+
+[[sample]]
+index = 268
+name = "T_01275_1"
+assay = "T_01275_1"
+ms_run_ref = "ms_run[268]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01275_1"
+description = "RPMM0013 sample T_01275_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT30"
+gcid = "T_01275_1"
+
+[[sample]]
+index = 269
+name = "T_01276_1"
+assay = "T_01276_1"
+ms_run_ref = "ms_run[269]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01276_1"
+description = "RPMM0013 sample T_01276_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT30"
+gcid = "T_01276_1"
+
+[[sample]]
+index = 270
+name = "T_01277_1"
+assay = "T_01277_1"
+ms_run_ref = "ms_run[270]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01277_1"
+description = "RPMM0013 sample T_01277_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT30"
+gcid = "T_01277_1"
+
+[[sample]]
+index = 271
+name = "T_01278_1"
+assay = "T_01278_1"
+ms_run_ref = "ms_run[271]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01278_1"
+description = "RPMM0013 sample T_01278_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT30"
+gcid = "T_01278_1"
+
+[[sample]]
+index = 272
+name = "T_01279_1"
+assay = "T_01279_1"
+ms_run_ref = "ms_run[272]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01279_1"
+description = "RPMM0013 sample T_01279_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT30"
+gcid = "T_01279_1"
+
+[[sample]]
+index = 273
+name = "T_01280_1"
+assay = "T_01280_1"
+ms_run_ref = "ms_run[273]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01280_1"
+description = "RPMM0013 sample T_01280_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT30"
+gcid = "T_01280_1"
+
+[[sample]]
+index = 274
+name = "T_01281_1"
+assay = "T_01281_1"
+ms_run_ref = "ms_run[274]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01281_1"
+description = "RPMM0013 sample T_01281_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT30"
+gcid = "T_01281_1"
+
+[[sample]]
+index = 275
+name = "T_01282_1"
+assay = "T_01282_1"
+ms_run_ref = "ms_run[275]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01282_1"
+description = "RPMM0013 sample T_01282_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT30"
+gcid = "T_01282_1"
+
+[[sample]]
+index = 276
+name = "T_01283_1"
+assay = "T_01283_1"
+ms_run_ref = "ms_run[276]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01283_1"
+description = "RPMM0013 sample T_01283_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT30"
+gcid = "T_01283_1"
+
+[[sample]]
+index = 277
+name = "T_01284_1"
+assay = "T_01284_1"
+ms_run_ref = "ms_run[277]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01284_1"
+description = "RPMM0013 sample T_01284_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT30"
+gcid = "T_01284_1"
+
+[[sample]]
+index = 278
+name = "T_01285_1"
+assay = "T_01285_1"
+ms_run_ref = "ms_run[278]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01285_1"
+description = "RPMM0013 sample T_01285_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT30"
+gcid = "T_01285_1"
+
+[[sample]]
+index = 279
+name = "T_01286_1"
+assay = "T_01286_1"
+ms_run_ref = "ms_run[279]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01286_1"
+description = "RPMM0013 sample T_01286_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT33"
+gcid = "T_01286_1"
+
+[[sample]]
+index = 280
+name = "T_01287_1"
+assay = "T_01287_1"
+ms_run_ref = "ms_run[280]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01287_1"
+description = "RPMM0013 sample T_01287_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT33"
+gcid = "T_01287_1"
+
+[[sample]]
+index = 281
+name = "T_01288_1"
+assay = "T_01288_1"
+ms_run_ref = "ms_run[281]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01288_1"
+description = "RPMM0013 sample T_01288_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT33"
+gcid = "T_01288_1"
+
+[[sample]]
+index = 282
+name = "T_01289_1"
+assay = "T_01289_1"
+ms_run_ref = "ms_run[282]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01289_1"
+description = "RPMM0013 sample T_01289_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT33"
+gcid = "T_01289_1"
+
+[[sample]]
+index = 283
+name = "T_01290_1"
+assay = "T_01290_1"
+ms_run_ref = "ms_run[283]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01290_1"
+description = "RPMM0013 sample T_01290_1"
+batch = "batch050830"
+genotype = "WT"
+light = "LL"
+time = "ZT33"
+gcid = "T_01290_1"
+
+[[sample]]
+index = 284
+name = "T_01291_1"
+assay = "T_01291_1"
+ms_run_ref = "ms_run[284]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01291_1"
+description = "RPMM0013 sample T_01291_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT33"
+gcid = "T_01291_1"
+
+[[sample]]
+index = 285
+name = "T_01292_1"
+assay = "T_01292_1"
+ms_run_ref = "ms_run[285]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01292_1"
+description = "RPMM0013 sample T_01292_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT33"
+gcid = "T_01292_1"
+
+[[sample]]
+index = 286
+name = "T_01293_1"
+assay = "T_01293_1"
+ms_run_ref = "ms_run[286]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01293_1"
+description = "RPMM0013 sample T_01293_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT33"
+gcid = "T_01293_1"
+
+[[sample]]
+index = 287
+name = "T_01294_1"
+assay = "T_01294_1"
+ms_run_ref = "ms_run[287]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01294_1"
+description = "RPMM0013 sample T_01294_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT33"
+gcid = "T_01294_1"
+
+[[sample]]
+index = 288
+name = "T_01295_1"
+assay = "T_01295_1"
+ms_run_ref = "ms_run[288]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01295_1"
+description = "RPMM0013 sample T_01295_1"
+batch = "batch050830"
+genotype = "d975"
+light = "LL"
+time = "ZT33"
+gcid = "T_01295_1"
+
+[[sample]]
+index = 289
+name = "T_01296_1"
+assay = "T_01296_1"
+ms_run_ref = "ms_run[289]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01296_1"
+description = "RPMM0013 sample T_01296_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT33"
+gcid = "T_01296_1"
+
+[[sample]]
+index = 290
+name = "T_01297_1"
+assay = "T_01297_1"
+ms_run_ref = "ms_run[290]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01297_1"
+description = "RPMM0013 sample T_01297_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT33"
+gcid = "T_01297_1"
+
+[[sample]]
+index = 291
+name = "T_01298_1"
+assay = "T_01298_1"
+ms_run_ref = "ms_run[291]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01298_1"
+description = "RPMM0013 sample T_01298_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT33"
+gcid = "T_01298_1"
+
+[[sample]]
+index = 292
+name = "T_01299_1"
+assay = "T_01299_1"
+ms_run_ref = "ms_run[292]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01299_1"
+description = "RPMM0013 sample T_01299_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT33"
+gcid = "T_01299_1"
+
+[[sample]]
+index = 293
+name = "T_01300_1"
+assay = "T_01300_1"
+ms_run_ref = "ms_run[293]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01300_1"
+description = "RPMM0013 sample T_01300_1"
+batch = "batch050830"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT33"
+gcid = "T_01300_1"
+
+[[sample]]
+index = 294
+name = "T_01301_1"
+assay = "T_01301_1"
+ms_run_ref = "ms_run[294]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01301_1"
+description = "RPMM0013 sample T_01301_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT36"
+gcid = "T_01301_1"
+
+[[sample]]
+index = 295
+name = "T_01302_1"
+assay = "T_01302_1"
+ms_run_ref = "ms_run[295]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01302_1"
+description = "RPMM0013 sample T_01302_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT36"
+gcid = "T_01302_1"
+
+[[sample]]
+index = 296
+name = "T_01303_1"
+assay = "T_01303_1"
+ms_run_ref = "ms_run[296]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01303_1"
+description = "RPMM0013 sample T_01303_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT36"
+gcid = "T_01303_1"
+
+[[sample]]
+index = 297
+name = "T_01304_1"
+assay = "T_01304_1"
+ms_run_ref = "ms_run[297]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01304_1"
+description = "RPMM0013 sample T_01304_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT36"
+gcid = "T_01304_1"
+
+[[sample]]
+index = 298
+name = "T_01305_1"
+assay = "T_01305_1"
+ms_run_ref = "ms_run[298]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01305_1"
+description = "RPMM0013 sample T_01305_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT36"
+gcid = "T_01305_1"
+
+[[sample]]
+index = 299
+name = "T_01306_1"
+assay = "T_01306_1"
+ms_run_ref = "ms_run[299]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01306_1"
+description = "RPMM0013 sample T_01306_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT36"
+gcid = "T_01306_1"
+
+[[sample]]
+index = 300
+name = "T_01307_1"
+assay = "T_01307_1"
+ms_run_ref = "ms_run[300]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01307_1"
+description = "RPMM0013 sample T_01307_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT36"
+gcid = "T_01307_1"
+
+[[sample]]
+index = 301
+name = "T_01308_1"
+assay = "T_01308_1"
+ms_run_ref = "ms_run[301]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01308_1"
+description = "RPMM0013 sample T_01308_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT36"
+gcid = "T_01308_1"
+
+[[sample]]
+index = 302
+name = "T_01309_1"
+assay = "T_01309_1"
+ms_run_ref = "ms_run[302]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01309_1"
+description = "RPMM0013 sample T_01309_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT36"
+gcid = "T_01309_1"
+
+[[sample]]
+index = 303
+name = "T_01310_1"
+assay = "T_01310_1"
+ms_run_ref = "ms_run[303]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01310_1"
+description = "RPMM0013 sample T_01310_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT36"
+gcid = "T_01310_1"
+
+[[sample]]
+index = 304
+name = "T_01311_1"
+assay = "T_01311_1"
+ms_run_ref = "ms_run[304]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01311_1"
+description = "RPMM0013 sample T_01311_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT36"
+gcid = "T_01311_1"
+
+[[sample]]
+index = 305
+name = "T_01312_1"
+assay = "T_01312_1"
+ms_run_ref = "ms_run[305]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01312_1"
+description = "RPMM0013 sample T_01312_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT36"
+gcid = "T_01312_1"
+
+[[sample]]
+index = 306
+name = "T_01313_1"
+assay = "T_01313_1"
+ms_run_ref = "ms_run[306]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01313_1"
+description = "RPMM0013 sample T_01313_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT36"
+gcid = "T_01313_1"
+
+[[sample]]
+index = 307
+name = "T_01314_1"
+assay = "T_01314_1"
+ms_run_ref = "ms_run[307]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01314_1"
+description = "RPMM0013 sample T_01314_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT36"
+gcid = "T_01314_1"
+
+[[sample]]
+index = 308
+name = "T_01315_1"
+assay = "T_01315_1"
+ms_run_ref = "ms_run[308]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01315_1"
+description = "RPMM0013 sample T_01315_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT36"
+gcid = "T_01315_1"
+
+[[sample]]
+index = 309
+name = "T_01316_1"
+assay = "T_01316_1"
+ms_run_ref = "ms_run[309]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01316_1"
+description = "RPMM0013 sample T_01316_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT39"
+gcid = "T_01316_1"
+
+[[sample]]
+index = 310
+name = "T_01317_1"
+assay = "T_01317_1"
+ms_run_ref = "ms_run[310]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01317_1"
+description = "RPMM0013 sample T_01317_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT39"
+gcid = "T_01317_1"
+
+[[sample]]
+index = 311
+name = "T_01318_1"
+assay = "T_01318_1"
+ms_run_ref = "ms_run[311]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01318_1"
+description = "RPMM0013 sample T_01318_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT39"
+gcid = "T_01318_1"
+
+[[sample]]
+index = 312
+name = "T_01319_1"
+assay = "T_01319_1"
+ms_run_ref = "ms_run[312]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01319_1"
+description = "RPMM0013 sample T_01319_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT39"
+gcid = "T_01319_1"
+
+[[sample]]
+index = 313
+name = "T_01320_1"
+assay = "T_01320_1"
+ms_run_ref = "ms_run[313]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01320_1"
+description = "RPMM0013 sample T_01320_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT39"
+gcid = "T_01320_1"
+
+[[sample]]
+index = 314
+name = "T_01321_1"
+assay = "T_01321_1"
+ms_run_ref = "ms_run[314]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01321_1"
+description = "RPMM0013 sample T_01321_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT39"
+gcid = "T_01321_1"
+
+[[sample]]
+index = 315
+name = "T_01322_1"
+assay = "T_01322_1"
+ms_run_ref = "ms_run[315]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01322_1"
+description = "RPMM0013 sample T_01322_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT39"
+gcid = "T_01322_1"
+
+[[sample]]
+index = 316
+name = "T_01323_1"
+assay = "T_01323_1"
+ms_run_ref = "ms_run[316]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01323_1"
+description = "RPMM0013 sample T_01323_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT39"
+gcid = "T_01323_1"
+
+[[sample]]
+index = 317
+name = "T_01324_1"
+assay = "T_01324_1"
+ms_run_ref = "ms_run[317]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01324_1"
+description = "RPMM0013 sample T_01324_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT39"
+gcid = "T_01324_1"
+
+[[sample]]
+index = 318
+name = "T_01325_1"
+assay = "T_01325_1"
+ms_run_ref = "ms_run[318]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01325_1"
+description = "RPMM0013 sample T_01325_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT39"
+gcid = "T_01325_1"
+
+[[sample]]
+index = 319
+name = "T_01326_1"
+assay = "T_01326_1"
+ms_run_ref = "ms_run[319]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01326_1"
+description = "RPMM0013 sample T_01326_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT39"
+gcid = "T_01326_1"
+
+[[sample]]
+index = 320
+name = "T_01327_1"
+assay = "T_01327_1"
+ms_run_ref = "ms_run[320]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01327_1"
+description = "RPMM0013 sample T_01327_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT39"
+gcid = "T_01327_1"
+
+[[sample]]
+index = 321
+name = "T_01328_1"
+assay = "T_01328_1"
+ms_run_ref = "ms_run[321]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01328_1"
+description = "RPMM0013 sample T_01328_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT39"
+gcid = "T_01328_1"
+
+[[sample]]
+index = 322
+name = "T_01329_1"
+assay = "T_01329_1"
+ms_run_ref = "ms_run[322]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01329_1"
+description = "RPMM0013 sample T_01329_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT39"
+gcid = "T_01329_1"
+
+[[sample]]
+index = 323
+name = "T_01330_1"
+assay = "T_01330_1"
+ms_run_ref = "ms_run[323]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01330_1"
+description = "RPMM0013 sample T_01330_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT39"
+gcid = "T_01330_1"
+
+[[sample]]
+index = 324
+name = "T_01331_1"
+assay = "T_01331_1"
+ms_run_ref = "ms_run[324]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01331_1"
+description = "RPMM0013 sample T_01331_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT42"
+gcid = "T_01331_1"
+
+[[sample]]
+index = 325
+name = "T_01332_1"
+assay = "T_01332_1"
+ms_run_ref = "ms_run[325]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01332_1"
+description = "RPMM0013 sample T_01332_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT42"
+gcid = "T_01332_1"
+
+[[sample]]
+index = 326
+name = "T_01333_1"
+assay = "T_01333_1"
+ms_run_ref = "ms_run[326]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01333_1"
+description = "RPMM0013 sample T_01333_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT42"
+gcid = "T_01333_1"
+
+[[sample]]
+index = 327
+name = "T_01334_1"
+assay = "T_01334_1"
+ms_run_ref = "ms_run[327]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01334_1"
+description = "RPMM0013 sample T_01334_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT42"
+gcid = "T_01334_1"
+
+[[sample]]
+index = 328
+name = "T_01335_1"
+assay = "T_01335_1"
+ms_run_ref = "ms_run[328]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01335_1"
+description = "RPMM0013 sample T_01335_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT42"
+gcid = "T_01335_1"
+
+[[sample]]
+index = 329
+name = "T_01336_1"
+assay = "T_01336_1"
+ms_run_ref = "ms_run[329]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01336_1"
+description = "RPMM0013 sample T_01336_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT42"
+gcid = "T_01336_1"
+
+[[sample]]
+index = 330
+name = "T_01337_1"
+assay = "T_01337_1"
+ms_run_ref = "ms_run[330]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01337_1"
+description = "RPMM0013 sample T_01337_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT42"
+gcid = "T_01337_1"
+
+[[sample]]
+index = 331
+name = "T_01338_1"
+assay = "T_01338_1"
+ms_run_ref = "ms_run[331]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01338_1"
+description = "RPMM0013 sample T_01338_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT42"
+gcid = "T_01338_1"
+
+[[sample]]
+index = 332
+name = "T_01339_1"
+assay = "T_01339_1"
+ms_run_ref = "ms_run[332]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01339_1"
+description = "RPMM0013 sample T_01339_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT42"
+gcid = "T_01339_1"
+
+[[sample]]
+index = 333
+name = "T_01340_1"
+assay = "T_01340_1"
+ms_run_ref = "ms_run[333]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01340_1"
+description = "RPMM0013 sample T_01340_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT42"
+gcid = "T_01340_1"
+
+[[sample]]
+index = 334
+name = "T_01341_1"
+assay = "T_01341_1"
+ms_run_ref = "ms_run[334]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01341_1"
+description = "RPMM0013 sample T_01341_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT42"
+gcid = "T_01341_1"
+
+[[sample]]
+index = 335
+name = "T_01342_1"
+assay = "T_01342_1"
+ms_run_ref = "ms_run[335]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01342_1"
+description = "RPMM0013 sample T_01342_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT42"
+gcid = "T_01342_1"
+
+[[sample]]
+index = 336
+name = "T_01343_1"
+assay = "T_01343_1"
+ms_run_ref = "ms_run[336]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01343_1"
+description = "RPMM0013 sample T_01343_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT42"
+gcid = "T_01343_1"
+
+[[sample]]
+index = 337
+name = "T_01344_1"
+assay = "T_01344_1"
+ms_run_ref = "ms_run[337]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01344_1"
+description = "RPMM0013 sample T_01344_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT42"
+gcid = "T_01344_1"
+
+[[sample]]
+index = 338
+name = "T_01345_1"
+assay = "T_01345_1"
+ms_run_ref = "ms_run[338]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01345_1"
+description = "RPMM0013 sample T_01345_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT42"
+gcid = "T_01345_1"
+
+[[sample]]
+index = 339
+name = "T_01346_1"
+assay = "T_01346_1"
+ms_run_ref = "ms_run[339]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01346_1"
+description = "RPMM0013 sample T_01346_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT45"
+gcid = "T_01346_1"
+
+[[sample]]
+index = 340
+name = "T_01347_1"
+assay = "T_01347_1"
+ms_run_ref = "ms_run[340]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01347_1"
+description = "RPMM0013 sample T_01347_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT45"
+gcid = "T_01347_1"
+
+[[sample]]
+index = 341
+name = "T_01348_1"
+assay = "T_01348_1"
+ms_run_ref = "ms_run[341]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01348_1"
+description = "RPMM0013 sample T_01348_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT45"
+gcid = "T_01348_1"
+
+[[sample]]
+index = 342
+name = "T_01349_1"
+assay = "T_01349_1"
+ms_run_ref = "ms_run[342]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01349_1"
+description = "RPMM0013 sample T_01349_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT45"
+gcid = "T_01349_1"
+
+[[sample]]
+index = 343
+name = "T_01350_1"
+assay = "T_01350_1"
+ms_run_ref = "ms_run[343]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01350_1"
+description = "RPMM0013 sample T_01350_1"
+batch = "batch050908"
+genotype = "WT"
+light = "LL"
+time = "ZT45"
+gcid = "T_01350_1"
+
+[[sample]]
+index = 344
+name = "T_01351_1"
+assay = "T_01351_1"
+ms_run_ref = "ms_run[344]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01351_1"
+description = "RPMM0013 sample T_01351_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT45"
+gcid = "T_01351_1"
+
+[[sample]]
+index = 345
+name = "T_01352_1"
+assay = "T_01352_1"
+ms_run_ref = "ms_run[345]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01352_1"
+description = "RPMM0013 sample T_01352_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT45"
+gcid = "T_01352_1"
+
+[[sample]]
+index = 346
+name = "T_01353_1"
+assay = "T_01353_1"
+ms_run_ref = "ms_run[346]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01353_1"
+description = "RPMM0013 sample T_01353_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT45"
+gcid = "T_01353_1"
+
+[[sample]]
+index = 347
+name = "T_01354_1"
+assay = "T_01354_1"
+ms_run_ref = "ms_run[347]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01354_1"
+description = "RPMM0013 sample T_01354_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT45"
+gcid = "T_01354_1"
+
+[[sample]]
+index = 348
+name = "T_01355_1"
+assay = "T_01355_1"
+ms_run_ref = "ms_run[348]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01355_1"
+description = "RPMM0013 sample T_01355_1"
+batch = "batch050908"
+genotype = "d975"
+light = "LL"
+time = "ZT45"
+gcid = "T_01355_1"
+
+[[sample]]
+index = 349
+name = "T_01356_1"
+assay = "T_01356_1"
+ms_run_ref = "ms_run[349]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01356_1"
+description = "RPMM0013 sample T_01356_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT45"
+gcid = "T_01356_1"
+
+[[sample]]
+index = 350
+name = "T_01357_1"
+assay = "T_01357_1"
+ms_run_ref = "ms_run[350]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01357_1"
+description = "RPMM0013 sample T_01357_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT45"
+gcid = "T_01357_1"
+
+[[sample]]
+index = 351
+name = "T_01358_1"
+assay = "T_01358_1"
+ms_run_ref = "ms_run[351]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01358_1"
+description = "RPMM0013 sample T_01358_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT45"
+gcid = "T_01358_1"
+
+[[sample]]
+index = 352
+name = "T_01359_1"
+assay = "T_01359_1"
+ms_run_ref = "ms_run[352]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01359_1"
+description = "RPMM0013 sample T_01359_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT45"
+gcid = "T_01359_1"
+
+[[sample]]
+index = 353
+name = "T_01360_1"
+assay = "T_01360_1"
+ms_run_ref = "ms_run[353]"
+location = "http://metabobank.riken.jp/data/RPMM0013/Design1/AnalysedDataset/Design1__tokei1_1-6_AnnotCombMatri.xlsx#T_01360_1"
+description = "RPMM0013 sample T_01360_1"
+batch = "batch050908"
+genotype = "cca1-ox"
+light = "LL"
+time = "ZT45"
+gcid = "T_01360_1"
+
+[study_variables]
+candidate_columns = [
+    "Genotype",
+    "Light",
+    "Batch",
+]
+
+[study_variables.levels]
+Genotype = [
+    "WT",
+    "cca1-ox",
+    "d975",
+]
+Light = [
+    "LD",
+    "LL",
+]
+Batch = [
+    "batch050811",
+    "batch050813",
+    "batch050819",
+    "batch050825",
+    "batch050830",
+    "batch050908",
+]

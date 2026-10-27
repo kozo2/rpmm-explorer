@@ -1,0 +1,928 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0032"
+title = "Comparative Characterization of the Leaf Tissue of Physalis alkekengi and Physalis peruviana Using RNA-seq and Metabolite Profiling."
+external_study = "http://metabobank.riken.jp/pmm/RPMM0032"
+
+[matrix]
+name = "pos_leaf2_RTW010_nl500_cut1min_nor"
+source_file = "RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx"
+format = "xlsx"
+n_features = 8023
+n_samples = 108
+metadata_columns = [
+    "Project ID",
+    "RT",
+    "m/z",
+    "authentic sample",
+]
+unclassified_columns = [
+    "RT_m/z",
+    "KNApSAcK_Physalis alkekengi(ID:Name)",
+    "KNApSAcK_Physalis peruviana(ID:Name)",
+]
+
+[companion_files]
+phenodata = "RPMM0032/AnalysedDataset/phenodata.csv"
+msp = ""
+
+[organism]
+raw = ""
+cv = ""
+source = ""
+
+[instrument]
+technique = "LC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "A03.1_MSp"
+assay = "A03.1_MSp"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A03.1_MSp"
+description = "RPMM0032 sample A03.1_MSp"
+
+[[sample]]
+index = 2
+name = "A03.2_MSp"
+assay = "A03.2_MSp"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A03.2_MSp"
+description = "RPMM0032 sample A03.2_MSp"
+
+[[sample]]
+index = 3
+name = "A03.3_MSp"
+assay = "A03.3_MSp"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A03.3_MSp"
+description = "RPMM0032 sample A03.3_MSp"
+
+[[sample]]
+index = 4
+name = "A05.2_MSp"
+assay = "A05.2_MSp"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A05.2_MSp"
+description = "RPMM0032 sample A05.2_MSp"
+
+[[sample]]
+index = 5
+name = "A05.3_MSp"
+assay = "A05.3_MSp"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A05.3_MSp"
+description = "RPMM0032 sample A05.3_MSp"
+
+[[sample]]
+index = 6
+name = "A05.4_MSp"
+assay = "A05.4_MSp"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A05.4_MSp"
+description = "RPMM0032 sample A05.4_MSp"
+
+[[sample]]
+index = 7
+name = "A05.5_MSp"
+assay = "A05.5_MSp"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A05.5_MSp"
+description = "RPMM0032 sample A05.5_MSp"
+
+[[sample]]
+index = 8
+name = "A01.1_MSp"
+assay = "A01.1_MSp"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A01.1_MSp"
+description = "RPMM0032 sample A01.1_MSp"
+
+[[sample]]
+index = 9
+name = "A01.2_MSp"
+assay = "A01.2_MSp"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A01.2_MSp"
+description = "RPMM0032 sample A01.2_MSp"
+
+[[sample]]
+index = 10
+name = "A01.3_MSp"
+assay = "A01.3_MSp"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A01.3_MSp"
+description = "RPMM0032 sample A01.3_MSp"
+
+[[sample]]
+index = 11
+name = "A01.4_MSp"
+assay = "A01.4_MSp"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A01.4_MSp"
+description = "RPMM0032 sample A01.4_MSp"
+
+[[sample]]
+index = 12
+name = "A01.5_MSp"
+assay = "A01.5_MSp"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A01.5_MSp"
+description = "RPMM0032 sample A01.5_MSp"
+
+[[sample]]
+index = 13
+name = "A01.6_MSp"
+assay = "A01.6_MSp"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A01.6_MSp"
+description = "RPMM0032 sample A01.6_MSp"
+
+[[sample]]
+index = 14
+name = "A08.1_MSp"
+assay = "A08.1_MSp"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A08.1_MSp"
+description = "RPMM0032 sample A08.1_MSp"
+
+[[sample]]
+index = 15
+name = "A08.2_MSp"
+assay = "A08.2_MSp"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A08.2_MSp"
+description = "RPMM0032 sample A08.2_MSp"
+
+[[sample]]
+index = 16
+name = "A08.3_MSp"
+assay = "A08.3_MSp"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A08.3_MSp"
+description = "RPMM0032 sample A08.3_MSp"
+
+[[sample]]
+index = 17
+name = "A08.4_MSp"
+assay = "A08.4_MSp"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A08.4_MSp"
+description = "RPMM0032 sample A08.4_MSp"
+
+[[sample]]
+index = 18
+name = "A08.5_MSp"
+assay = "A08.5_MSp"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A08.5_MSp"
+description = "RPMM0032 sample A08.5_MSp"
+
+[[sample]]
+index = 19
+name = "A08.6_MSp"
+assay = "A08.6_MSp"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A08.6_MSp"
+description = "RPMM0032 sample A08.6_MSp"
+
+[[sample]]
+index = 20
+name = "A02.1_MSp"
+assay = "A02.1_MSp"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A02.1_MSp"
+description = "RPMM0032 sample A02.1_MSp"
+
+[[sample]]
+index = 21
+name = "A02.2_MSp"
+assay = "A02.2_MSp"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A02.2_MSp"
+description = "RPMM0032 sample A02.2_MSp"
+
+[[sample]]
+index = 22
+name = "A02.3_MSp"
+assay = "A02.3_MSp"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A02.3_MSp"
+description = "RPMM0032 sample A02.3_MSp"
+
+[[sample]]
+index = 23
+name = "A02.4_MSp"
+assay = "A02.4_MSp"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A02.4_MSp"
+description = "RPMM0032 sample A02.4_MSp"
+
+[[sample]]
+index = 24
+name = "A02.5_MSp"
+assay = "A02.5_MSp"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A02.5_MSp"
+description = "RPMM0032 sample A02.5_MSp"
+
+[[sample]]
+index = 25
+name = "A02.6_MSp"
+assay = "A02.6_MSp"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A02.6_MSp"
+description = "RPMM0032 sample A02.6_MSp"
+
+[[sample]]
+index = 26
+name = "A11_1_MSp"
+assay = "A11_1_MSp"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A11_1_MSp"
+description = "RPMM0032 sample A11_1_MSp"
+fddap = "A11_1_FDDAp"
+msp = "A11_1_MSp"
+sample_name = "P. alkekengi_day30_middle"
+
+[[sample]]
+index = 27
+name = "A11_2_MSp"
+assay = "A11_2_MSp"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A11_2_MSp"
+description = "RPMM0032 sample A11_2_MSp"
+fddap = "A11_2_FDDAp"
+msp = "A11_2_MSp"
+sample_name = "P. alkekengi_day30_middle"
+
+[[sample]]
+index = 28
+name = "A11_3_MSp"
+assay = "A11_3_MSp"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A11_3_MSp"
+description = "RPMM0032 sample A11_3_MSp"
+fddap = "A11_3_FDDAp"
+msp = "A11_3_MSp"
+sample_name = "P. alkekengi_day30_middle"
+
+[[sample]]
+index = 29
+name = "A11_4_MSp"
+assay = "A11_4_MSp"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A11_4_MSp"
+description = "RPMM0032 sample A11_4_MSp"
+fddap = "A11_4_FDDAp"
+msp = "A11_4_MSp"
+sample_name = "P. alkekengi_day30_middle"
+
+[[sample]]
+index = 30
+name = "A11_5_MSp"
+assay = "A11_5_MSp"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A11_5_MSp"
+description = "RPMM0032 sample A11_5_MSp"
+fddap = "A11_5_FDDAp"
+msp = "A11_5_MSp"
+sample_name = "P. alkekengi_day30_middle"
+
+[[sample]]
+index = 31
+name = "A11_6_MSp"
+assay = "A11_6_MSp"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A11_6_MSp"
+description = "RPMM0032 sample A11_6_MSp"
+fddap = "A11_6_FDDAp"
+msp = "A11_6_MSp"
+sample_name = "P. alkekengi_day30_middle"
+
+[[sample]]
+index = 32
+name = "A04.1_MSp"
+assay = "A04.1_MSp"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A04.1_MSp"
+description = "RPMM0032 sample A04.1_MSp"
+
+[[sample]]
+index = 33
+name = "A04.2_MSp"
+assay = "A04.2_MSp"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A04.2_MSp"
+description = "RPMM0032 sample A04.2_MSp"
+
+[[sample]]
+index = 34
+name = "A04.3_MSp"
+assay = "A04.3_MSp"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A04.3_MSp"
+description = "RPMM0032 sample A04.3_MSp"
+
+[[sample]]
+index = 35
+name = "A04.4_MSp"
+assay = "A04.4_MSp"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A04.4_MSp"
+description = "RPMM0032 sample A04.4_MSp"
+
+[[sample]]
+index = 36
+name = "A04.5_MSp"
+assay = "A04.5_MSp"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A04.5_MSp"
+description = "RPMM0032 sample A04.5_MSp"
+
+[[sample]]
+index = 37
+name = "A06.1_MSp"
+assay = "A06.1_MSp"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A06.1_MSp"
+description = "RPMM0032 sample A06.1_MSp"
+
+[[sample]]
+index = 38
+name = "A06.2_MSp"
+assay = "A06.2_MSp"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A06.2_MSp"
+description = "RPMM0032 sample A06.2_MSp"
+
+[[sample]]
+index = 39
+name = "A06.3_MSp"
+assay = "A06.3_MSp"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A06.3_MSp"
+description = "RPMM0032 sample A06.3_MSp"
+
+[[sample]]
+index = 40
+name = "A06.4_MSp"
+assay = "A06.4_MSp"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A06.4_MSp"
+description = "RPMM0032 sample A06.4_MSp"
+
+[[sample]]
+index = 41
+name = "A06.5_MSp"
+assay = "A06.5_MSp"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A06.5_MSp"
+description = "RPMM0032 sample A06.5_MSp"
+
+[[sample]]
+index = 42
+name = "A06.6_MSp"
+assay = "A06.6_MSp"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A06.6_MSp"
+description = "RPMM0032 sample A06.6_MSp"
+
+[[sample]]
+index = 43
+name = "A1.1.1_MSp"
+assay = "A1.1.1_MSp"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A1.1.1_MSp"
+description = "RPMM0032 sample A1.1.1_MSp"
+
+[[sample]]
+index = 44
+name = "A1.1.2_MSp"
+assay = "A1.1.2_MSp"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A1.1.2_MSp"
+description = "RPMM0032 sample A1.1.2_MSp"
+
+[[sample]]
+index = 45
+name = "A1.1.3_MSp"
+assay = "A1.1.3_MSp"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A1.1.3_MSp"
+description = "RPMM0032 sample A1.1.3_MSp"
+
+[[sample]]
+index = 46
+name = "A1.1.4_MSp"
+assay = "A1.1.4_MSp"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A1.1.4_MSp"
+description = "RPMM0032 sample A1.1.4_MSp"
+
+[[sample]]
+index = 47
+name = "A1.1.5_MSp"
+assay = "A1.1.5_MSp"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A1.1.5_MSp"
+description = "RPMM0032 sample A1.1.5_MSp"
+
+[[sample]]
+index = 48
+name = "A1.3.1_MSp"
+assay = "A1.3.1_MSp"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A1.3.1_MSp"
+description = "RPMM0032 sample A1.3.1_MSp"
+
+[[sample]]
+index = 49
+name = "A1.3.2_MSp"
+assay = "A1.3.2_MSp"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A1.3.2_MSp"
+description = "RPMM0032 sample A1.3.2_MSp"
+
+[[sample]]
+index = 50
+name = "A1.3.3_MSp"
+assay = "A1.3.3_MSp"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A1.3.3_MSp"
+description = "RPMM0032 sample A1.3.3_MSp"
+
+[[sample]]
+index = 51
+name = "A1.3.4_MSp"
+assay = "A1.3.4_MSp"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A1.3.4_MSp"
+description = "RPMM0032 sample A1.3.4_MSp"
+
+[[sample]]
+index = 52
+name = "A1.3.5_MSp"
+assay = "A1.3.5_MSp"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A1.3.5_MSp"
+description = "RPMM0032 sample A1.3.5_MSp"
+
+[[sample]]
+index = 53
+name = "A1.3.6_MSp"
+assay = "A1.3.6_MSp"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A1.3.6_MSp"
+description = "RPMM0032 sample A1.3.6_MSp"
+
+[[sample]]
+index = 54
+name = "A2.1.1_MSp"
+assay = "A2.1.1_MSp"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A2.1.1_MSp"
+description = "RPMM0032 sample A2.1.1_MSp"
+
+[[sample]]
+index = 55
+name = "A2.1.2_MSp"
+assay = "A2.1.2_MSp"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A2.1.2_MSp"
+description = "RPMM0032 sample A2.1.2_MSp"
+
+[[sample]]
+index = 56
+name = "A2.1.4_MSp"
+assay = "A2.1.4_MSp"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A2.1.4_MSp"
+description = "RPMM0032 sample A2.1.4_MSp"
+
+[[sample]]
+index = 57
+name = "A2.1.6_MSp"
+assay = "A2.1.6_MSp"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A2.1.6_MSp"
+description = "RPMM0032 sample A2.1.6_MSp"
+
+[[sample]]
+index = 58
+name = "A2.3.1_MSp"
+assay = "A2.3.1_MSp"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A2.3.1_MSp"
+description = "RPMM0032 sample A2.3.1_MSp"
+
+[[sample]]
+index = 59
+name = "A2.3.2_MSp"
+assay = "A2.3.2_MSp"
+ms_run_ref = "ms_run[59]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A2.3.2_MSp"
+description = "RPMM0032 sample A2.3.2_MSp"
+
+[[sample]]
+index = 60
+name = "A2.3.3_MSp"
+assay = "A2.3.3_MSp"
+ms_run_ref = "ms_run[60]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A2.3.3_MSp"
+description = "RPMM0032 sample A2.3.3_MSp"
+
+[[sample]]
+index = 61
+name = "A2.3.4_MSp"
+assay = "A2.3.4_MSp"
+ms_run_ref = "ms_run[61]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A2.3.4_MSp"
+description = "RPMM0032 sample A2.3.4_MSp"
+
+[[sample]]
+index = 62
+name = "A2.3.5_MSp"
+assay = "A2.3.5_MSp"
+ms_run_ref = "ms_run[62]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A2.3.5_MSp"
+description = "RPMM0032 sample A2.3.5_MSp"
+
+[[sample]]
+index = 63
+name = "A2.3.6_MSp"
+assay = "A2.3.6_MSp"
+ms_run_ref = "ms_run[63]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#A2.3.6_MSp"
+description = "RPMM0032 sample A2.3.6_MSp"
+
+[[sample]]
+index = 64
+name = "P01.1_MSp"
+assay = "P01.1_MSp"
+ms_run_ref = "ms_run[64]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P01.1_MSp"
+description = "RPMM0032 sample P01.1_MSp"
+
+[[sample]]
+index = 65
+name = "P01.2_MSp"
+assay = "P01.2_MSp"
+ms_run_ref = "ms_run[65]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P01.2_MSp"
+description = "RPMM0032 sample P01.2_MSp"
+
+[[sample]]
+index = 66
+name = "P01.3_MSp"
+assay = "P01.3_MSp"
+ms_run_ref = "ms_run[66]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P01.3_MSp"
+description = "RPMM0032 sample P01.3_MSp"
+
+[[sample]]
+index = 67
+name = "P01.4_MSp"
+assay = "P01.4_MSp"
+ms_run_ref = "ms_run[67]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P01.4_MSp"
+description = "RPMM0032 sample P01.4_MSp"
+
+[[sample]]
+index = 68
+name = "P01.5_MSp"
+assay = "P01.5_MSp"
+ms_run_ref = "ms_run[68]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P01.5_MSp"
+description = "RPMM0032 sample P01.5_MSp"
+
+[[sample]]
+index = 69
+name = "P01.6_MSp"
+assay = "P01.6_MSp"
+ms_run_ref = "ms_run[69]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P01.6_MSp"
+description = "RPMM0032 sample P01.6_MSp"
+
+[[sample]]
+index = 70
+name = "P02.1_MSp"
+assay = "P02.1_MSp"
+ms_run_ref = "ms_run[70]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P02.1_MSp"
+description = "RPMM0032 sample P02.1_MSp"
+
+[[sample]]
+index = 71
+name = "P02.2_MSp"
+assay = "P02.2_MSp"
+ms_run_ref = "ms_run[71]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P02.2_MSp"
+description = "RPMM0032 sample P02.2_MSp"
+
+[[sample]]
+index = 72
+name = "P02.3_MSp"
+assay = "P02.3_MSp"
+ms_run_ref = "ms_run[72]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P02.3_MSp"
+description = "RPMM0032 sample P02.3_MSp"
+
+[[sample]]
+index = 73
+name = "P02.4_MSp"
+assay = "P02.4_MSp"
+ms_run_ref = "ms_run[73]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P02.4_MSp"
+description = "RPMM0032 sample P02.4_MSp"
+
+[[sample]]
+index = 74
+name = "P02.5_MSp"
+assay = "P02.5_MSp"
+ms_run_ref = "ms_run[74]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P02.5_MSp"
+description = "RPMM0032 sample P02.5_MSp"
+
+[[sample]]
+index = 75
+name = "P02.6_MSp"
+assay = "P02.6_MSp"
+ms_run_ref = "ms_run[75]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P02.6_MSp"
+description = "RPMM0032 sample P02.6_MSp"
+
+[[sample]]
+index = 76
+name = "P03.1_MSp"
+assay = "P03.1_MSp"
+ms_run_ref = "ms_run[76]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P03.1_MSp"
+description = "RPMM0032 sample P03.1_MSp"
+
+[[sample]]
+index = 77
+name = "P03.2_MSp"
+assay = "P03.2_MSp"
+ms_run_ref = "ms_run[77]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P03.2_MSp"
+description = "RPMM0032 sample P03.2_MSp"
+
+[[sample]]
+index = 78
+name = "P03.3_MSp"
+assay = "P03.3_MSp"
+ms_run_ref = "ms_run[78]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P03.3_MSp"
+description = "RPMM0032 sample P03.3_MSp"
+
+[[sample]]
+index = 79
+name = "P03.4_MSp"
+assay = "P03.4_MSp"
+ms_run_ref = "ms_run[79]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P03.4_MSp"
+description = "RPMM0032 sample P03.4_MSp"
+
+[[sample]]
+index = 80
+name = "P03.5_MSp"
+assay = "P03.5_MSp"
+ms_run_ref = "ms_run[80]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P03.5_MSp"
+description = "RPMM0032 sample P03.5_MSp"
+
+[[sample]]
+index = 81
+name = "P03.6_MSp"
+assay = "P03.6_MSp"
+ms_run_ref = "ms_run[81]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P03.6_MSp"
+description = "RPMM0032 sample P03.6_MSp"
+
+[[sample]]
+index = 82
+name = "P04.1_MSp"
+assay = "P04.1_MSp"
+ms_run_ref = "ms_run[82]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P04.1_MSp"
+description = "RPMM0032 sample P04.1_MSp"
+
+[[sample]]
+index = 83
+name = "P04.2_MSp"
+assay = "P04.2_MSp"
+ms_run_ref = "ms_run[83]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P04.2_MSp"
+description = "RPMM0032 sample P04.2_MSp"
+
+[[sample]]
+index = 84
+name = "P04.3_MSp"
+assay = "P04.3_MSp"
+ms_run_ref = "ms_run[84]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P04.3_MSp"
+description = "RPMM0032 sample P04.3_MSp"
+
+[[sample]]
+index = 85
+name = "P04.4_MSp"
+assay = "P04.4_MSp"
+ms_run_ref = "ms_run[85]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P04.4_MSp"
+description = "RPMM0032 sample P04.4_MSp"
+
+[[sample]]
+index = 86
+name = "P04.5_MSp"
+assay = "P04.5_MSp"
+ms_run_ref = "ms_run[86]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P04.5_MSp"
+description = "RPMM0032 sample P04.5_MSp"
+
+[[sample]]
+index = 87
+name = "P04.6_MSp"
+assay = "P04.6_MSp"
+ms_run_ref = "ms_run[87]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P04.6_MSp"
+description = "RPMM0032 sample P04.6_MSp"
+
+[[sample]]
+index = 88
+name = "P1.1.1_MSp"
+assay = "P1.1.1_MSp"
+ms_run_ref = "ms_run[88]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P1.1.1_MSp"
+description = "RPMM0032 sample P1.1.1_MSp"
+
+[[sample]]
+index = 89
+name = "P1.1.2_MSp"
+assay = "P1.1.2_MSp"
+ms_run_ref = "ms_run[89]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P1.1.2_MSp"
+description = "RPMM0032 sample P1.1.2_MSp"
+
+[[sample]]
+index = 90
+name = "P1.1.4_MSp"
+assay = "P1.1.4_MSp"
+ms_run_ref = "ms_run[90]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P1.1.4_MSp"
+description = "RPMM0032 sample P1.1.4_MSp"
+
+[[sample]]
+index = 91
+name = "P1.1.5_MSp"
+assay = "P1.1.5_MSp"
+ms_run_ref = "ms_run[91]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P1.1.5_MSp"
+description = "RPMM0032 sample P1.1.5_MSp"
+
+[[sample]]
+index = 92
+name = "P1.1.6_MSp"
+assay = "P1.1.6_MSp"
+ms_run_ref = "ms_run[92]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P1.1.6_MSp"
+description = "RPMM0032 sample P1.1.6_MSp"
+
+[[sample]]
+index = 93
+name = "P1.3.1_MSp"
+assay = "P1.3.1_MSp"
+ms_run_ref = "ms_run[93]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P1.3.1_MSp"
+description = "RPMM0032 sample P1.3.1_MSp"
+
+[[sample]]
+index = 94
+name = "P1.3.2_MSp"
+assay = "P1.3.2_MSp"
+ms_run_ref = "ms_run[94]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P1.3.2_MSp"
+description = "RPMM0032 sample P1.3.2_MSp"
+
+[[sample]]
+index = 95
+name = "P1.3.3_MSp"
+assay = "P1.3.3_MSp"
+ms_run_ref = "ms_run[95]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P1.3.3_MSp"
+description = "RPMM0032 sample P1.3.3_MSp"
+
+[[sample]]
+index = 96
+name = "P1.3.4_MSp"
+assay = "P1.3.4_MSp"
+ms_run_ref = "ms_run[96]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P1.3.4_MSp"
+description = "RPMM0032 sample P1.3.4_MSp"
+
+[[sample]]
+index = 97
+name = "P1.3.5_MSp"
+assay = "P1.3.5_MSp"
+ms_run_ref = "ms_run[97]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P1.3.5_MSp"
+description = "RPMM0032 sample P1.3.5_MSp"
+
+[[sample]]
+index = 98
+name = "P1.3.6_MSp"
+assay = "P1.3.6_MSp"
+ms_run_ref = "ms_run[98]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P1.3.6_MSp"
+description = "RPMM0032 sample P1.3.6_MSp"
+
+[[sample]]
+index = 99
+name = "P2.1.1_MSp"
+assay = "P2.1.1_MSp"
+ms_run_ref = "ms_run[99]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P2.1.1_MSp"
+description = "RPMM0032 sample P2.1.1_MSp"
+
+[[sample]]
+index = 100
+name = "P2.1.2_MSp"
+assay = "P2.1.2_MSp"
+ms_run_ref = "ms_run[100]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P2.1.2_MSp"
+description = "RPMM0032 sample P2.1.2_MSp"
+
+[[sample]]
+index = 101
+name = "P2.1.3_MSp"
+assay = "P2.1.3_MSp"
+ms_run_ref = "ms_run[101]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P2.1.3_MSp"
+description = "RPMM0032 sample P2.1.3_MSp"
+
+[[sample]]
+index = 102
+name = "P2.1.4_MSp"
+assay = "P2.1.4_MSp"
+ms_run_ref = "ms_run[102]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P2.1.4_MSp"
+description = "RPMM0032 sample P2.1.4_MSp"
+
+[[sample]]
+index = 103
+name = "P2.3.1_MSp"
+assay = "P2.3.1_MSp"
+ms_run_ref = "ms_run[103]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P2.3.1_MSp"
+description = "RPMM0032 sample P2.3.1_MSp"
+
+[[sample]]
+index = 104
+name = "P2.3.2_MSp"
+assay = "P2.3.2_MSp"
+ms_run_ref = "ms_run[104]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P2.3.2_MSp"
+description = "RPMM0032 sample P2.3.2_MSp"
+
+[[sample]]
+index = 105
+name = "P2.3.3_MSp"
+assay = "P2.3.3_MSp"
+ms_run_ref = "ms_run[105]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P2.3.3_MSp"
+description = "RPMM0032 sample P2.3.3_MSp"
+
+[[sample]]
+index = 106
+name = "P2.3.4_MSp"
+assay = "P2.3.4_MSp"
+ms_run_ref = "ms_run[106]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P2.3.4_MSp"
+description = "RPMM0032 sample P2.3.4_MSp"
+
+[[sample]]
+index = 107
+name = "P2.3.5_MSp"
+assay = "P2.3.5_MSp"
+ms_run_ref = "ms_run[107]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P2.3.5_MSp"
+description = "RPMM0032 sample P2.3.5_MSp"
+
+[[sample]]
+index = 108
+name = "P2.3.6_MSp"
+assay = "P2.3.6_MSp"
+ms_run_ref = "ms_run[108]"
+location = "http://metabobank.riken.jp/data/RPMM0032/AnalysedDataset/pos_leaf2_RTW010_nl500_cut1min_nor.xlsx#P2.3.6_MSp"
+description = "RPMM0032 sample P2.3.6_MSp"
+
+[study_variables]
+candidate_columns = []
+
+[study_variables.levels]

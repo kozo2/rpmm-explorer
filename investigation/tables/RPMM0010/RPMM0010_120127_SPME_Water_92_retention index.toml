@@ -1,0 +1,78 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0010"
+title = "Development of a Direct Headspace Collection Method from Arabidopsis Seedlings Using HS-SPME-GC-TOF-MS Analysis"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0010"
+
+[matrix]
+name = "120127_SPME_Water_92_retention index"
+source_file = "RPMM0010/AnalysedDataset/120106_SPME_MW_MetMat2/120127_SPME_Water_92_retention index.txt"
+format = "tsv"
+n_features = 12
+n_samples = 3
+metadata_columns = []
+unclassified_columns = [
+    "C8",
+]
+
+[companion_files]
+phenodata = "RPMM0010/AnalysedDataset/120106_SPME_MW_MetMat2/phenodata2.csv"
+msp = "RPMM0010/AnalysedDataset/120106_SPME_MW_MetMat2/120106_SPME_MW_AndiMS_NIST.txt"
+
+[organism]
+raw = "Arabidopsis"
+cv = "[NCBITaxon, NCBITaxon:3702, Arabidopsis thaliana, ]"
+source = "msp:120106_SPME_MW_AndiMS_NIST.txt"
+
+[instrument]
+technique = "LC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "244.197"
+assay = "244.197"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0010/AnalysedDataset/120106_SPME_MW_MetMat2/120127_SPME_Water_92_retention index.txt#244.197"
+description = "RPMM0010 sample 244.197"
+
+[[sample]]
+index = 2
+name = "800.00"
+assay = "800.00"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0010/AnalysedDataset/120106_SPME_MW_MetMat2/120127_SPME_Water_92_retention index.txt#800.00"
+description = "RPMM0010 sample 800.00"
+
+[[sample]]
+index = 3
+name = "114"
+assay = "114"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0010/AnalysedDataset/120106_SPME_MW_MetMat2/120127_SPME_Water_92_retention index.txt#114"
+description = "RPMM0010 sample 114"
+
+[study_variables]
+candidate_columns = [
+    "treatment",
+    "incubationtemperature",
+    "medium",
+    "Fiber",
+    "exptype",
+    "batch",
+    "date",
+]
+
+[study_variables.levels]
+treatment = []
+incubationtemperature = []
+medium = []
+Fiber = []
+exptype = []
+batch = []
+date = []

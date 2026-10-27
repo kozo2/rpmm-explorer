@@ -1,0 +1,2350 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0005"
+title = "Application of a metabolomic method combining one-dimensional and two-dimensional gas chromatography-time-of-flight/mass spectrometry to metabolic phenotyping of natural variants in rice"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0005"
+
+[matrix]
+name = "ine_Core_modpred_HMCRRDA_Representatives"
+source_file = "RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt"
+format = "tsv"
+n_features = 304
+n_samples = 288
+metadata_columns = [
+    "Representative peak_selected",
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0005/AnalysedDataset/phenodata_ine-CoreCollection1_1.csv"
+msp = "RPMM0005/AnalysedDataset/060818CoreCollection1_1_NIST.txt"
+
+[organism]
+raw = "Arabidopsis"
+cv = "[NCBITaxon, NCBITaxon:3702, Arabidopsis thaliana, ]"
+source = "msp:060818CoreCollection1_1_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "coa_001_1"
+assay = "coa_001_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_001_1"
+description = "RPMM0005 sample coa_001_1"
+
+[[sample]]
+index = 2
+name = "coa_002_1"
+assay = "coa_002_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_002_1"
+description = "RPMM0005 sample coa_002_1"
+
+[[sample]]
+index = 3
+name = "coa_003_1"
+assay = "coa_003_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_003_1"
+description = "RPMM0005 sample coa_003_1"
+
+[[sample]]
+index = 4
+name = "coa_004_1"
+assay = "coa_004_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_004_1"
+description = "RPMM0005 sample coa_004_1"
+
+[[sample]]
+index = 5
+name = "coa_005_1"
+assay = "coa_005_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_005_1"
+description = "RPMM0005 sample coa_005_1"
+
+[[sample]]
+index = 6
+name = "coa_006_1"
+assay = "coa_006_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_006_1"
+description = "RPMM0005 sample coa_006_1"
+
+[[sample]]
+index = 7
+name = "coa_007_1"
+assay = "coa_007_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_007_1"
+description = "RPMM0005 sample coa_007_1"
+
+[[sample]]
+index = 8
+name = "coa_008_1"
+assay = "coa_008_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_008_1"
+description = "RPMM0005 sample coa_008_1"
+
+[[sample]]
+index = 9
+name = "coa_009_1"
+assay = "coa_009_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_009_1"
+description = "RPMM0005 sample coa_009_1"
+
+[[sample]]
+index = 10
+name = "coa_010_1"
+assay = "coa_010_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_010_1"
+description = "RPMM0005 sample coa_010_1"
+
+[[sample]]
+index = 11
+name = "coa_011_1"
+assay = "coa_011_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_011_1"
+description = "RPMM0005 sample coa_011_1"
+
+[[sample]]
+index = 12
+name = "coa_012_1"
+assay = "coa_012_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_012_1"
+description = "RPMM0005 sample coa_012_1"
+
+[[sample]]
+index = 13
+name = "coa_013_1"
+assay = "coa_013_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_013_1"
+description = "RPMM0005 sample coa_013_1"
+
+[[sample]]
+index = 14
+name = "coa_014_1"
+assay = "coa_014_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_014_1"
+description = "RPMM0005 sample coa_014_1"
+
+[[sample]]
+index = 15
+name = "coa_015_1"
+assay = "coa_015_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_015_1"
+description = "RPMM0005 sample coa_015_1"
+
+[[sample]]
+index = 16
+name = "coa_016_1"
+assay = "coa_016_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_016_1"
+description = "RPMM0005 sample coa_016_1"
+
+[[sample]]
+index = 17
+name = "coa_017_1"
+assay = "coa_017_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_017_1"
+description = "RPMM0005 sample coa_017_1"
+
+[[sample]]
+index = 18
+name = "coa_018_1"
+assay = "coa_018_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_018_1"
+description = "RPMM0005 sample coa_018_1"
+
+[[sample]]
+index = 19
+name = "coa_019_1"
+assay = "coa_019_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_019_1"
+description = "RPMM0005 sample coa_019_1"
+
+[[sample]]
+index = 20
+name = "coa_020_1"
+assay = "coa_020_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_020_1"
+description = "RPMM0005 sample coa_020_1"
+
+[[sample]]
+index = 21
+name = "coa_021_1"
+assay = "coa_021_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_021_1"
+description = "RPMM0005 sample coa_021_1"
+
+[[sample]]
+index = 22
+name = "coa_022_1"
+assay = "coa_022_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_022_1"
+description = "RPMM0005 sample coa_022_1"
+
+[[sample]]
+index = 23
+name = "coa_023_1"
+assay = "coa_023_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_023_1"
+description = "RPMM0005 sample coa_023_1"
+
+[[sample]]
+index = 24
+name = "coa_024_1"
+assay = "coa_024_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_024_1"
+description = "RPMM0005 sample coa_024_1"
+
+[[sample]]
+index = 25
+name = "coa_025_1"
+assay = "coa_025_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_025_1"
+description = "RPMM0005 sample coa_025_1"
+
+[[sample]]
+index = 26
+name = "coa_026_1"
+assay = "coa_026_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_026_1"
+description = "RPMM0005 sample coa_026_1"
+
+[[sample]]
+index = 27
+name = "coa_027_1"
+assay = "coa_027_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_027_1"
+description = "RPMM0005 sample coa_027_1"
+
+[[sample]]
+index = 28
+name = "coa_028_1"
+assay = "coa_028_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_028_1"
+description = "RPMM0005 sample coa_028_1"
+
+[[sample]]
+index = 29
+name = "coa_029_1"
+assay = "coa_029_1"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_029_1"
+description = "RPMM0005 sample coa_029_1"
+
+[[sample]]
+index = 30
+name = "coa_030_1"
+assay = "coa_030_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_030_1"
+description = "RPMM0005 sample coa_030_1"
+
+[[sample]]
+index = 31
+name = "coa_031_1"
+assay = "coa_031_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_031_1"
+description = "RPMM0005 sample coa_031_1"
+
+[[sample]]
+index = 32
+name = "coa_032_1"
+assay = "coa_032_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_032_1"
+description = "RPMM0005 sample coa_032_1"
+
+[[sample]]
+index = 33
+name = "coa_033_1"
+assay = "coa_033_1"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_033_1"
+description = "RPMM0005 sample coa_033_1"
+
+[[sample]]
+index = 34
+name = "coa_034_1"
+assay = "coa_034_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_034_1"
+description = "RPMM0005 sample coa_034_1"
+
+[[sample]]
+index = 35
+name = "coa_035_1"
+assay = "coa_035_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_035_1"
+description = "RPMM0005 sample coa_035_1"
+
+[[sample]]
+index = 36
+name = "coa_036_1"
+assay = "coa_036_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_036_1"
+description = "RPMM0005 sample coa_036_1"
+
+[[sample]]
+index = 37
+name = "coa_037_1"
+assay = "coa_037_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_037_1"
+description = "RPMM0005 sample coa_037_1"
+
+[[sample]]
+index = 38
+name = "coa_038_1"
+assay = "coa_038_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_038_1"
+description = "RPMM0005 sample coa_038_1"
+
+[[sample]]
+index = 39
+name = "coa_039_1"
+assay = "coa_039_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_039_1"
+description = "RPMM0005 sample coa_039_1"
+
+[[sample]]
+index = 40
+name = "coa_040_1"
+assay = "coa_040_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_040_1"
+description = "RPMM0005 sample coa_040_1"
+
+[[sample]]
+index = 41
+name = "coa_041_1"
+assay = "coa_041_1"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_041_1"
+description = "RPMM0005 sample coa_041_1"
+
+[[sample]]
+index = 42
+name = "coa_042_1"
+assay = "coa_042_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_042_1"
+description = "RPMM0005 sample coa_042_1"
+
+[[sample]]
+index = 43
+name = "coa_043_1"
+assay = "coa_043_1"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_043_1"
+description = "RPMM0005 sample coa_043_1"
+
+[[sample]]
+index = 44
+name = "coa_044_1"
+assay = "coa_044_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_044_1"
+description = "RPMM0005 sample coa_044_1"
+
+[[sample]]
+index = 45
+name = "coa_045_1"
+assay = "coa_045_1"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_045_1"
+description = "RPMM0005 sample coa_045_1"
+
+[[sample]]
+index = 46
+name = "coa_046_1"
+assay = "coa_046_1"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_046_1"
+description = "RPMM0005 sample coa_046_1"
+
+[[sample]]
+index = 47
+name = "coa_048_1"
+assay = "coa_048_1"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_048_1"
+description = "RPMM0005 sample coa_048_1"
+
+[[sample]]
+index = 48
+name = "coa_049_1"
+assay = "coa_049_1"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_049_1"
+description = "RPMM0005 sample coa_049_1"
+
+[[sample]]
+index = 49
+name = "coa_050_1"
+assay = "coa_050_1"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_050_1"
+description = "RPMM0005 sample coa_050_1"
+
+[[sample]]
+index = 50
+name = "coa_051_1"
+assay = "coa_051_1"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_051_1"
+description = "RPMM0005 sample coa_051_1"
+
+[[sample]]
+index = 51
+name = "coa_052_1"
+assay = "coa_052_1"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_052_1"
+description = "RPMM0005 sample coa_052_1"
+
+[[sample]]
+index = 52
+name = "coa_053_1"
+assay = "coa_053_1"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_053_1"
+description = "RPMM0005 sample coa_053_1"
+
+[[sample]]
+index = 53
+name = "coa_054_1"
+assay = "coa_054_1"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_054_1"
+description = "RPMM0005 sample coa_054_1"
+
+[[sample]]
+index = 54
+name = "coa_055_1"
+assay = "coa_055_1"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_055_1"
+description = "RPMM0005 sample coa_055_1"
+
+[[sample]]
+index = 55
+name = "coa_056_1"
+assay = "coa_056_1"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_056_1"
+description = "RPMM0005 sample coa_056_1"
+
+[[sample]]
+index = 56
+name = "coa_057_1"
+assay = "coa_057_1"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_057_1"
+description = "RPMM0005 sample coa_057_1"
+
+[[sample]]
+index = 57
+name = "coa_058_1"
+assay = "coa_058_1"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_058_1"
+description = "RPMM0005 sample coa_058_1"
+
+[[sample]]
+index = 58
+name = "coa_059_1"
+assay = "coa_059_1"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_059_1"
+description = "RPMM0005 sample coa_059_1"
+
+[[sample]]
+index = 59
+name = "coa_060_1"
+assay = "coa_060_1"
+ms_run_ref = "ms_run[59]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_060_1"
+description = "RPMM0005 sample coa_060_1"
+
+[[sample]]
+index = 60
+name = "coa_061_1"
+assay = "coa_061_1"
+ms_run_ref = "ms_run[60]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_061_1"
+description = "RPMM0005 sample coa_061_1"
+
+[[sample]]
+index = 61
+name = "coa_062_1"
+assay = "coa_062_1"
+ms_run_ref = "ms_run[61]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_062_1"
+description = "RPMM0005 sample coa_062_1"
+
+[[sample]]
+index = 62
+name = "coa_063_1"
+assay = "coa_063_1"
+ms_run_ref = "ms_run[62]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_063_1"
+description = "RPMM0005 sample coa_063_1"
+
+[[sample]]
+index = 63
+name = "coa_064_1"
+assay = "coa_064_1"
+ms_run_ref = "ms_run[63]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_064_1"
+description = "RPMM0005 sample coa_064_1"
+
+[[sample]]
+index = 64
+name = "coa_065_1"
+assay = "coa_065_1"
+ms_run_ref = "ms_run[64]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_065_1"
+description = "RPMM0005 sample coa_065_1"
+
+[[sample]]
+index = 65
+name = "coa_066_1"
+assay = "coa_066_1"
+ms_run_ref = "ms_run[65]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_066_1"
+description = "RPMM0005 sample coa_066_1"
+
+[[sample]]
+index = 66
+name = "coa_067_1"
+assay = "coa_067_1"
+ms_run_ref = "ms_run[66]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_067_1"
+description = "RPMM0005 sample coa_067_1"
+
+[[sample]]
+index = 67
+name = "coa_068_1"
+assay = "coa_068_1"
+ms_run_ref = "ms_run[67]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_068_1"
+description = "RPMM0005 sample coa_068_1"
+
+[[sample]]
+index = 68
+name = "coa_069_1"
+assay = "coa_069_1"
+ms_run_ref = "ms_run[68]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_069_1"
+description = "RPMM0005 sample coa_069_1"
+
+[[sample]]
+index = 69
+name = "coa_070_1"
+assay = "coa_070_1"
+ms_run_ref = "ms_run[69]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_070_1"
+description = "RPMM0005 sample coa_070_1"
+
+[[sample]]
+index = 70
+name = "coa_071_1"
+assay = "coa_071_1"
+ms_run_ref = "ms_run[70]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_071_1"
+description = "RPMM0005 sample coa_071_1"
+
+[[sample]]
+index = 71
+name = "coa_072_1"
+assay = "coa_072_1"
+ms_run_ref = "ms_run[71]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_072_1"
+description = "RPMM0005 sample coa_072_1"
+
+[[sample]]
+index = 72
+name = "coa_073_1"
+assay = "coa_073_1"
+ms_run_ref = "ms_run[72]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_073_1"
+description = "RPMM0005 sample coa_073_1"
+
+[[sample]]
+index = 73
+name = "coa_074_1"
+assay = "coa_074_1"
+ms_run_ref = "ms_run[73]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_074_1"
+description = "RPMM0005 sample coa_074_1"
+
+[[sample]]
+index = 74
+name = "coa_075_1"
+assay = "coa_075_1"
+ms_run_ref = "ms_run[74]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_075_1"
+description = "RPMM0005 sample coa_075_1"
+
+[[sample]]
+index = 75
+name = "coa_077_1"
+assay = "coa_077_1"
+ms_run_ref = "ms_run[75]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_077_1"
+description = "RPMM0005 sample coa_077_1"
+
+[[sample]]
+index = 76
+name = "coa_078_1"
+assay = "coa_078_1"
+ms_run_ref = "ms_run[76]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_078_1"
+description = "RPMM0005 sample coa_078_1"
+
+[[sample]]
+index = 77
+name = "coa_080_1"
+assay = "coa_080_1"
+ms_run_ref = "ms_run[77]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_080_1"
+description = "RPMM0005 sample coa_080_1"
+
+[[sample]]
+index = 78
+name = "coa_081_1"
+assay = "coa_081_1"
+ms_run_ref = "ms_run[78]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_081_1"
+description = "RPMM0005 sample coa_081_1"
+
+[[sample]]
+index = 79
+name = "coa_082_1"
+assay = "coa_082_1"
+ms_run_ref = "ms_run[79]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_082_1"
+description = "RPMM0005 sample coa_082_1"
+
+[[sample]]
+index = 80
+name = "coa_083_1"
+assay = "coa_083_1"
+ms_run_ref = "ms_run[80]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_083_1"
+description = "RPMM0005 sample coa_083_1"
+
+[[sample]]
+index = 81
+name = "coa_084_1"
+assay = "coa_084_1"
+ms_run_ref = "ms_run[81]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_084_1"
+description = "RPMM0005 sample coa_084_1"
+
+[[sample]]
+index = 82
+name = "coa_085_1"
+assay = "coa_085_1"
+ms_run_ref = "ms_run[82]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_085_1"
+description = "RPMM0005 sample coa_085_1"
+
+[[sample]]
+index = 83
+name = "coa_086_1"
+assay = "coa_086_1"
+ms_run_ref = "ms_run[83]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_086_1"
+description = "RPMM0005 sample coa_086_1"
+
+[[sample]]
+index = 84
+name = "coa_087_1"
+assay = "coa_087_1"
+ms_run_ref = "ms_run[84]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_087_1"
+description = "RPMM0005 sample coa_087_1"
+
+[[sample]]
+index = 85
+name = "coa_088_1"
+assay = "coa_088_1"
+ms_run_ref = "ms_run[85]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_088_1"
+description = "RPMM0005 sample coa_088_1"
+
+[[sample]]
+index = 86
+name = "coa_089_1"
+assay = "coa_089_1"
+ms_run_ref = "ms_run[86]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_089_1"
+description = "RPMM0005 sample coa_089_1"
+
+[[sample]]
+index = 87
+name = "coa_090_1"
+assay = "coa_090_1"
+ms_run_ref = "ms_run[87]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_090_1"
+description = "RPMM0005 sample coa_090_1"
+
+[[sample]]
+index = 88
+name = "coa_091_1"
+assay = "coa_091_1"
+ms_run_ref = "ms_run[88]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_091_1"
+description = "RPMM0005 sample coa_091_1"
+
+[[sample]]
+index = 89
+name = "coa_092_1"
+assay = "coa_092_1"
+ms_run_ref = "ms_run[89]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_092_1"
+description = "RPMM0005 sample coa_092_1"
+
+[[sample]]
+index = 90
+name = "coa_093_1"
+assay = "coa_093_1"
+ms_run_ref = "ms_run[90]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_093_1"
+description = "RPMM0005 sample coa_093_1"
+
+[[sample]]
+index = 91
+name = "coa_094_1"
+assay = "coa_094_1"
+ms_run_ref = "ms_run[91]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_094_1"
+description = "RPMM0005 sample coa_094_1"
+
+[[sample]]
+index = 92
+name = "coa_095_1"
+assay = "coa_095_1"
+ms_run_ref = "ms_run[92]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_095_1"
+description = "RPMM0005 sample coa_095_1"
+
+[[sample]]
+index = 93
+name = "coa_097_1"
+assay = "coa_097_1"
+ms_run_ref = "ms_run[93]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_097_1"
+description = "RPMM0005 sample coa_097_1"
+
+[[sample]]
+index = 94
+name = "coa_098_1"
+assay = "coa_098_1"
+ms_run_ref = "ms_run[94]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_098_1"
+description = "RPMM0005 sample coa_098_1"
+
+[[sample]]
+index = 95
+name = "coa_099_1"
+assay = "coa_099_1"
+ms_run_ref = "ms_run[95]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_099_1"
+description = "RPMM0005 sample coa_099_1"
+
+[[sample]]
+index = 96
+name = "coa_101_1"
+assay = "coa_101_1"
+ms_run_ref = "ms_run[96]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_101_1"
+description = "RPMM0005 sample coa_101_1"
+
+[[sample]]
+index = 97
+name = "coa_102_1"
+assay = "coa_102_1"
+ms_run_ref = "ms_run[97]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_102_1"
+description = "RPMM0005 sample coa_102_1"
+
+[[sample]]
+index = 98
+name = "coa_103_1"
+assay = "coa_103_1"
+ms_run_ref = "ms_run[98]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_103_1"
+description = "RPMM0005 sample coa_103_1"
+
+[[sample]]
+index = 99
+name = "coa_104_1"
+assay = "coa_104_1"
+ms_run_ref = "ms_run[99]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_104_1"
+description = "RPMM0005 sample coa_104_1"
+
+[[sample]]
+index = 100
+name = "coa_105_1"
+assay = "coa_105_1"
+ms_run_ref = "ms_run[100]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_105_1"
+description = "RPMM0005 sample coa_105_1"
+
+[[sample]]
+index = 101
+name = "coa_106_1"
+assay = "coa_106_1"
+ms_run_ref = "ms_run[101]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_106_1"
+description = "RPMM0005 sample coa_106_1"
+
+[[sample]]
+index = 102
+name = "coa_107_1"
+assay = "coa_107_1"
+ms_run_ref = "ms_run[102]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_107_1"
+description = "RPMM0005 sample coa_107_1"
+
+[[sample]]
+index = 103
+name = "coa_108_1"
+assay = "coa_108_1"
+ms_run_ref = "ms_run[103]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_108_1"
+description = "RPMM0005 sample coa_108_1"
+
+[[sample]]
+index = 104
+name = "coa_109_1"
+assay = "coa_109_1"
+ms_run_ref = "ms_run[104]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_109_1"
+description = "RPMM0005 sample coa_109_1"
+
+[[sample]]
+index = 105
+name = "coa_110_1"
+assay = "coa_110_1"
+ms_run_ref = "ms_run[105]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_110_1"
+description = "RPMM0005 sample coa_110_1"
+
+[[sample]]
+index = 106
+name = "coa_111_1"
+assay = "coa_111_1"
+ms_run_ref = "ms_run[106]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_111_1"
+description = "RPMM0005 sample coa_111_1"
+
+[[sample]]
+index = 107
+name = "coa_112_1"
+assay = "coa_112_1"
+ms_run_ref = "ms_run[107]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_112_1"
+description = "RPMM0005 sample coa_112_1"
+
+[[sample]]
+index = 108
+name = "coa_113_1"
+assay = "coa_113_1"
+ms_run_ref = "ms_run[108]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_113_1"
+description = "RPMM0005 sample coa_113_1"
+
+[[sample]]
+index = 109
+name = "coa_114_1"
+assay = "coa_114_1"
+ms_run_ref = "ms_run[109]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_114_1"
+description = "RPMM0005 sample coa_114_1"
+
+[[sample]]
+index = 110
+name = "coa_115_1"
+assay = "coa_115_1"
+ms_run_ref = "ms_run[110]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_115_1"
+description = "RPMM0005 sample coa_115_1"
+
+[[sample]]
+index = 111
+name = "coa_116_1"
+assay = "coa_116_1"
+ms_run_ref = "ms_run[111]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_116_1"
+description = "RPMM0005 sample coa_116_1"
+
+[[sample]]
+index = 112
+name = "coa_117_1"
+assay = "coa_117_1"
+ms_run_ref = "ms_run[112]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_117_1"
+description = "RPMM0005 sample coa_117_1"
+
+[[sample]]
+index = 113
+name = "coa_118_1"
+assay = "coa_118_1"
+ms_run_ref = "ms_run[113]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_118_1"
+description = "RPMM0005 sample coa_118_1"
+
+[[sample]]
+index = 114
+name = "coa_119_1"
+assay = "coa_119_1"
+ms_run_ref = "ms_run[114]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_119_1"
+description = "RPMM0005 sample coa_119_1"
+
+[[sample]]
+index = 115
+name = "coa_120_1"
+assay = "coa_120_1"
+ms_run_ref = "ms_run[115]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_120_1"
+description = "RPMM0005 sample coa_120_1"
+
+[[sample]]
+index = 116
+name = "coa_121_1"
+assay = "coa_121_1"
+ms_run_ref = "ms_run[116]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_121_1"
+description = "RPMM0005 sample coa_121_1"
+
+[[sample]]
+index = 117
+name = "coa_122_1"
+assay = "coa_122_1"
+ms_run_ref = "ms_run[117]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_122_1"
+description = "RPMM0005 sample coa_122_1"
+
+[[sample]]
+index = 118
+name = "coa_123_1"
+assay = "coa_123_1"
+ms_run_ref = "ms_run[118]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_123_1"
+description = "RPMM0005 sample coa_123_1"
+
+[[sample]]
+index = 119
+name = "coa_124_1"
+assay = "coa_124_1"
+ms_run_ref = "ms_run[119]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_124_1"
+description = "RPMM0005 sample coa_124_1"
+
+[[sample]]
+index = 120
+name = "coa_125_1"
+assay = "coa_125_1"
+ms_run_ref = "ms_run[120]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_125_1"
+description = "RPMM0005 sample coa_125_1"
+
+[[sample]]
+index = 121
+name = "coa_126_1"
+assay = "coa_126_1"
+ms_run_ref = "ms_run[121]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_126_1"
+description = "RPMM0005 sample coa_126_1"
+
+[[sample]]
+index = 122
+name = "coa_127_1"
+assay = "coa_127_1"
+ms_run_ref = "ms_run[122]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_127_1"
+description = "RPMM0005 sample coa_127_1"
+
+[[sample]]
+index = 123
+name = "coa_128_1"
+assay = "coa_128_1"
+ms_run_ref = "ms_run[123]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_128_1"
+description = "RPMM0005 sample coa_128_1"
+
+[[sample]]
+index = 124
+name = "coa_129_1"
+assay = "coa_129_1"
+ms_run_ref = "ms_run[124]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_129_1"
+description = "RPMM0005 sample coa_129_1"
+
+[[sample]]
+index = 125
+name = "coa_130_1"
+assay = "coa_130_1"
+ms_run_ref = "ms_run[125]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_130_1"
+description = "RPMM0005 sample coa_130_1"
+
+[[sample]]
+index = 126
+name = "coa_131_1"
+assay = "coa_131_1"
+ms_run_ref = "ms_run[126]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_131_1"
+description = "RPMM0005 sample coa_131_1"
+
+[[sample]]
+index = 127
+name = "coa_132_1"
+assay = "coa_132_1"
+ms_run_ref = "ms_run[127]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_132_1"
+description = "RPMM0005 sample coa_132_1"
+
+[[sample]]
+index = 128
+name = "coa_133_1"
+assay = "coa_133_1"
+ms_run_ref = "ms_run[128]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_133_1"
+description = "RPMM0005 sample coa_133_1"
+
+[[sample]]
+index = 129
+name = "coa_134_1"
+assay = "coa_134_1"
+ms_run_ref = "ms_run[129]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_134_1"
+description = "RPMM0005 sample coa_134_1"
+
+[[sample]]
+index = 130
+name = "coa_135_1"
+assay = "coa_135_1"
+ms_run_ref = "ms_run[130]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_135_1"
+description = "RPMM0005 sample coa_135_1"
+
+[[sample]]
+index = 131
+name = "coa_136_1"
+assay = "coa_136_1"
+ms_run_ref = "ms_run[131]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_136_1"
+description = "RPMM0005 sample coa_136_1"
+
+[[sample]]
+index = 132
+name = "coa_137_1"
+assay = "coa_137_1"
+ms_run_ref = "ms_run[132]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_137_1"
+description = "RPMM0005 sample coa_137_1"
+
+[[sample]]
+index = 133
+name = "coa_138_1"
+assay = "coa_138_1"
+ms_run_ref = "ms_run[133]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_138_1"
+description = "RPMM0005 sample coa_138_1"
+
+[[sample]]
+index = 134
+name = "coa_139_1"
+assay = "coa_139_1"
+ms_run_ref = "ms_run[134]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_139_1"
+description = "RPMM0005 sample coa_139_1"
+
+[[sample]]
+index = 135
+name = "coa_140_1"
+assay = "coa_140_1"
+ms_run_ref = "ms_run[135]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_140_1"
+description = "RPMM0005 sample coa_140_1"
+
+[[sample]]
+index = 136
+name = "coa_141_1"
+assay = "coa_141_1"
+ms_run_ref = "ms_run[136]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_141_1"
+description = "RPMM0005 sample coa_141_1"
+
+[[sample]]
+index = 137
+name = "coa_142_1"
+assay = "coa_142_1"
+ms_run_ref = "ms_run[137]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_142_1"
+description = "RPMM0005 sample coa_142_1"
+
+[[sample]]
+index = 138
+name = "coa_143_1"
+assay = "coa_143_1"
+ms_run_ref = "ms_run[138]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_143_1"
+description = "RPMM0005 sample coa_143_1"
+
+[[sample]]
+index = 139
+name = "coa_144_1"
+assay = "coa_144_1"
+ms_run_ref = "ms_run[139]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_144_1"
+description = "RPMM0005 sample coa_144_1"
+
+[[sample]]
+index = 140
+name = "coa_145_1"
+assay = "coa_145_1"
+ms_run_ref = "ms_run[140]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_145_1"
+description = "RPMM0005 sample coa_145_1"
+
+[[sample]]
+index = 141
+name = "coa_146_1"
+assay = "coa_146_1"
+ms_run_ref = "ms_run[141]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_146_1"
+description = "RPMM0005 sample coa_146_1"
+
+[[sample]]
+index = 142
+name = "coa_147_1"
+assay = "coa_147_1"
+ms_run_ref = "ms_run[142]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_147_1"
+description = "RPMM0005 sample coa_147_1"
+
+[[sample]]
+index = 143
+name = "coa_148_1"
+assay = "coa_148_1"
+ms_run_ref = "ms_run[143]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_148_1"
+description = "RPMM0005 sample coa_148_1"
+
+[[sample]]
+index = 144
+name = "coa_149_1"
+assay = "coa_149_1"
+ms_run_ref = "ms_run[144]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_149_1"
+description = "RPMM0005 sample coa_149_1"
+
+[[sample]]
+index = 145
+name = "coa_150_1"
+assay = "coa_150_1"
+ms_run_ref = "ms_run[145]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_150_1"
+description = "RPMM0005 sample coa_150_1"
+
+[[sample]]
+index = 146
+name = "coa_151_1"
+assay = "coa_151_1"
+ms_run_ref = "ms_run[146]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_151_1"
+description = "RPMM0005 sample coa_151_1"
+
+[[sample]]
+index = 147
+name = "coa_152_1"
+assay = "coa_152_1"
+ms_run_ref = "ms_run[147]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_152_1"
+description = "RPMM0005 sample coa_152_1"
+
+[[sample]]
+index = 148
+name = "coa_153_1"
+assay = "coa_153_1"
+ms_run_ref = "ms_run[148]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_153_1"
+description = "RPMM0005 sample coa_153_1"
+
+[[sample]]
+index = 149
+name = "coa_154_1"
+assay = "coa_154_1"
+ms_run_ref = "ms_run[149]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_154_1"
+description = "RPMM0005 sample coa_154_1"
+
+[[sample]]
+index = 150
+name = "coa_155_1"
+assay = "coa_155_1"
+ms_run_ref = "ms_run[150]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_155_1"
+description = "RPMM0005 sample coa_155_1"
+
+[[sample]]
+index = 151
+name = "coa_157_1"
+assay = "coa_157_1"
+ms_run_ref = "ms_run[151]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_157_1"
+description = "RPMM0005 sample coa_157_1"
+
+[[sample]]
+index = 152
+name = "coa_158_1"
+assay = "coa_158_1"
+ms_run_ref = "ms_run[152]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_158_1"
+description = "RPMM0005 sample coa_158_1"
+
+[[sample]]
+index = 153
+name = "coa_159_1"
+assay = "coa_159_1"
+ms_run_ref = "ms_run[153]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_159_1"
+description = "RPMM0005 sample coa_159_1"
+
+[[sample]]
+index = 154
+name = "coa_160_1"
+assay = "coa_160_1"
+ms_run_ref = "ms_run[154]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_160_1"
+description = "RPMM0005 sample coa_160_1"
+
+[[sample]]
+index = 155
+name = "coa_162_1"
+assay = "coa_162_1"
+ms_run_ref = "ms_run[155]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_162_1"
+description = "RPMM0005 sample coa_162_1"
+
+[[sample]]
+index = 156
+name = "coa_163_1"
+assay = "coa_163_1"
+ms_run_ref = "ms_run[156]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_163_1"
+description = "RPMM0005 sample coa_163_1"
+
+[[sample]]
+index = 157
+name = "coa_164_1"
+assay = "coa_164_1"
+ms_run_ref = "ms_run[157]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_164_1"
+description = "RPMM0005 sample coa_164_1"
+
+[[sample]]
+index = 158
+name = "coa_165_1"
+assay = "coa_165_1"
+ms_run_ref = "ms_run[158]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_165_1"
+description = "RPMM0005 sample coa_165_1"
+
+[[sample]]
+index = 159
+name = "coa_166_1"
+assay = "coa_166_1"
+ms_run_ref = "ms_run[159]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_166_1"
+description = "RPMM0005 sample coa_166_1"
+
+[[sample]]
+index = 160
+name = "coa_167_1"
+assay = "coa_167_1"
+ms_run_ref = "ms_run[160]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_167_1"
+description = "RPMM0005 sample coa_167_1"
+
+[[sample]]
+index = 161
+name = "coa_168_1"
+assay = "coa_168_1"
+ms_run_ref = "ms_run[161]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_168_1"
+description = "RPMM0005 sample coa_168_1"
+
+[[sample]]
+index = 162
+name = "coa_170_1"
+assay = "coa_170_1"
+ms_run_ref = "ms_run[162]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_170_1"
+description = "RPMM0005 sample coa_170_1"
+
+[[sample]]
+index = 163
+name = "coa_171_1"
+assay = "coa_171_1"
+ms_run_ref = "ms_run[163]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_171_1"
+description = "RPMM0005 sample coa_171_1"
+
+[[sample]]
+index = 164
+name = "coa_172_1"
+assay = "coa_172_1"
+ms_run_ref = "ms_run[164]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_172_1"
+description = "RPMM0005 sample coa_172_1"
+
+[[sample]]
+index = 165
+name = "coa_173_1"
+assay = "coa_173_1"
+ms_run_ref = "ms_run[165]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_173_1"
+description = "RPMM0005 sample coa_173_1"
+
+[[sample]]
+index = 166
+name = "coa_174_1"
+assay = "coa_174_1"
+ms_run_ref = "ms_run[166]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_174_1"
+description = "RPMM0005 sample coa_174_1"
+
+[[sample]]
+index = 167
+name = "coa_175_1"
+assay = "coa_175_1"
+ms_run_ref = "ms_run[167]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_175_1"
+description = "RPMM0005 sample coa_175_1"
+
+[[sample]]
+index = 168
+name = "coa_176_1"
+assay = "coa_176_1"
+ms_run_ref = "ms_run[168]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_176_1"
+description = "RPMM0005 sample coa_176_1"
+
+[[sample]]
+index = 169
+name = "coa_177_1"
+assay = "coa_177_1"
+ms_run_ref = "ms_run[169]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_177_1"
+description = "RPMM0005 sample coa_177_1"
+
+[[sample]]
+index = 170
+name = "coa_178_1"
+assay = "coa_178_1"
+ms_run_ref = "ms_run[170]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_178_1"
+description = "RPMM0005 sample coa_178_1"
+
+[[sample]]
+index = 171
+name = "coa_179_1"
+assay = "coa_179_1"
+ms_run_ref = "ms_run[171]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_179_1"
+description = "RPMM0005 sample coa_179_1"
+
+[[sample]]
+index = 172
+name = "coa_180_1"
+assay = "coa_180_1"
+ms_run_ref = "ms_run[172]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_180_1"
+description = "RPMM0005 sample coa_180_1"
+
+[[sample]]
+index = 173
+name = "coa_181_1"
+assay = "coa_181_1"
+ms_run_ref = "ms_run[173]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_181_1"
+description = "RPMM0005 sample coa_181_1"
+
+[[sample]]
+index = 174
+name = "coa_182_1"
+assay = "coa_182_1"
+ms_run_ref = "ms_run[174]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_182_1"
+description = "RPMM0005 sample coa_182_1"
+
+[[sample]]
+index = 175
+name = "coa_183_1"
+assay = "coa_183_1"
+ms_run_ref = "ms_run[175]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_183_1"
+description = "RPMM0005 sample coa_183_1"
+
+[[sample]]
+index = 176
+name = "coa_184_1"
+assay = "coa_184_1"
+ms_run_ref = "ms_run[176]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_184_1"
+description = "RPMM0005 sample coa_184_1"
+
+[[sample]]
+index = 177
+name = "coa_185_1"
+assay = "coa_185_1"
+ms_run_ref = "ms_run[177]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_185_1"
+description = "RPMM0005 sample coa_185_1"
+
+[[sample]]
+index = 178
+name = "coa_186_1"
+assay = "coa_186_1"
+ms_run_ref = "ms_run[178]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_186_1"
+description = "RPMM0005 sample coa_186_1"
+
+[[sample]]
+index = 179
+name = "coa_187_1"
+assay = "coa_187_1"
+ms_run_ref = "ms_run[179]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_187_1"
+description = "RPMM0005 sample coa_187_1"
+
+[[sample]]
+index = 180
+name = "coa_188_1"
+assay = "coa_188_1"
+ms_run_ref = "ms_run[180]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_188_1"
+description = "RPMM0005 sample coa_188_1"
+
+[[sample]]
+index = 181
+name = "coa_189_1"
+assay = "coa_189_1"
+ms_run_ref = "ms_run[181]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_189_1"
+description = "RPMM0005 sample coa_189_1"
+
+[[sample]]
+index = 182
+name = "coa_190_1"
+assay = "coa_190_1"
+ms_run_ref = "ms_run[182]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_190_1"
+description = "RPMM0005 sample coa_190_1"
+
+[[sample]]
+index = 183
+name = "coa_191_1"
+assay = "coa_191_1"
+ms_run_ref = "ms_run[183]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_191_1"
+description = "RPMM0005 sample coa_191_1"
+
+[[sample]]
+index = 184
+name = "coa_192_1"
+assay = "coa_192_1"
+ms_run_ref = "ms_run[184]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_192_1"
+description = "RPMM0005 sample coa_192_1"
+
+[[sample]]
+index = 185
+name = "coa_193_1"
+assay = "coa_193_1"
+ms_run_ref = "ms_run[185]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_193_1"
+description = "RPMM0005 sample coa_193_1"
+
+[[sample]]
+index = 186
+name = "coa_194_1"
+assay = "coa_194_1"
+ms_run_ref = "ms_run[186]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_194_1"
+description = "RPMM0005 sample coa_194_1"
+
+[[sample]]
+index = 187
+name = "coa_195_1"
+assay = "coa_195_1"
+ms_run_ref = "ms_run[187]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_195_1"
+description = "RPMM0005 sample coa_195_1"
+
+[[sample]]
+index = 188
+name = "coa_196_1"
+assay = "coa_196_1"
+ms_run_ref = "ms_run[188]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_196_1"
+description = "RPMM0005 sample coa_196_1"
+
+[[sample]]
+index = 189
+name = "coa_197_1"
+assay = "coa_197_1"
+ms_run_ref = "ms_run[189]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_197_1"
+description = "RPMM0005 sample coa_197_1"
+
+[[sample]]
+index = 190
+name = "coa_198_1"
+assay = "coa_198_1"
+ms_run_ref = "ms_run[190]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_198_1"
+description = "RPMM0005 sample coa_198_1"
+
+[[sample]]
+index = 191
+name = "coa_199_1"
+assay = "coa_199_1"
+ms_run_ref = "ms_run[191]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_199_1"
+description = "RPMM0005 sample coa_199_1"
+
+[[sample]]
+index = 192
+name = "coa_200_1"
+assay = "coa_200_1"
+ms_run_ref = "ms_run[192]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_200_1"
+description = "RPMM0005 sample coa_200_1"
+
+[[sample]]
+index = 193
+name = "coa_201_1"
+assay = "coa_201_1"
+ms_run_ref = "ms_run[193]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_201_1"
+description = "RPMM0005 sample coa_201_1"
+
+[[sample]]
+index = 194
+name = "coa_202_1"
+assay = "coa_202_1"
+ms_run_ref = "ms_run[194]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_202_1"
+description = "RPMM0005 sample coa_202_1"
+
+[[sample]]
+index = 195
+name = "coa_203_1"
+assay = "coa_203_1"
+ms_run_ref = "ms_run[195]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_203_1"
+description = "RPMM0005 sample coa_203_1"
+
+[[sample]]
+index = 196
+name = "coa_204_1"
+assay = "coa_204_1"
+ms_run_ref = "ms_run[196]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_204_1"
+description = "RPMM0005 sample coa_204_1"
+
+[[sample]]
+index = 197
+name = "coa_205_1"
+assay = "coa_205_1"
+ms_run_ref = "ms_run[197]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_205_1"
+description = "RPMM0005 sample coa_205_1"
+
+[[sample]]
+index = 198
+name = "coa_206_1"
+assay = "coa_206_1"
+ms_run_ref = "ms_run[198]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_206_1"
+description = "RPMM0005 sample coa_206_1"
+
+[[sample]]
+index = 199
+name = "coa_207_1"
+assay = "coa_207_1"
+ms_run_ref = "ms_run[199]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_207_1"
+description = "RPMM0005 sample coa_207_1"
+
+[[sample]]
+index = 200
+name = "coa_208_1"
+assay = "coa_208_1"
+ms_run_ref = "ms_run[200]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_208_1"
+description = "RPMM0005 sample coa_208_1"
+
+[[sample]]
+index = 201
+name = "coa_209_1"
+assay = "coa_209_1"
+ms_run_ref = "ms_run[201]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_209_1"
+description = "RPMM0005 sample coa_209_1"
+
+[[sample]]
+index = 202
+name = "coa_210_1"
+assay = "coa_210_1"
+ms_run_ref = "ms_run[202]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_210_1"
+description = "RPMM0005 sample coa_210_1"
+
+[[sample]]
+index = 203
+name = "coa_211_1"
+assay = "coa_211_1"
+ms_run_ref = "ms_run[203]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_211_1"
+description = "RPMM0005 sample coa_211_1"
+
+[[sample]]
+index = 204
+name = "coa_212_1"
+assay = "coa_212_1"
+ms_run_ref = "ms_run[204]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_212_1"
+description = "RPMM0005 sample coa_212_1"
+
+[[sample]]
+index = 205
+name = "coa_213_1"
+assay = "coa_213_1"
+ms_run_ref = "ms_run[205]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_213_1"
+description = "RPMM0005 sample coa_213_1"
+
+[[sample]]
+index = 206
+name = "coa_214_1"
+assay = "coa_214_1"
+ms_run_ref = "ms_run[206]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_214_1"
+description = "RPMM0005 sample coa_214_1"
+
+[[sample]]
+index = 207
+name = "coa_215_1"
+assay = "coa_215_1"
+ms_run_ref = "ms_run[207]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_215_1"
+description = "RPMM0005 sample coa_215_1"
+
+[[sample]]
+index = 208
+name = "coa_216_1"
+assay = "coa_216_1"
+ms_run_ref = "ms_run[208]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_216_1"
+description = "RPMM0005 sample coa_216_1"
+
+[[sample]]
+index = 209
+name = "coa_217_1"
+assay = "coa_217_1"
+ms_run_ref = "ms_run[209]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_217_1"
+description = "RPMM0005 sample coa_217_1"
+
+[[sample]]
+index = 210
+name = "coa_218_1"
+assay = "coa_218_1"
+ms_run_ref = "ms_run[210]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_218_1"
+description = "RPMM0005 sample coa_218_1"
+
+[[sample]]
+index = 211
+name = "coa_219_1"
+assay = "coa_219_1"
+ms_run_ref = "ms_run[211]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_219_1"
+description = "RPMM0005 sample coa_219_1"
+
+[[sample]]
+index = 212
+name = "coa_220_1"
+assay = "coa_220_1"
+ms_run_ref = "ms_run[212]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_220_1"
+description = "RPMM0005 sample coa_220_1"
+
+[[sample]]
+index = 213
+name = "coa_221_1"
+assay = "coa_221_1"
+ms_run_ref = "ms_run[213]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_221_1"
+description = "RPMM0005 sample coa_221_1"
+
+[[sample]]
+index = 214
+name = "coa_222_1"
+assay = "coa_222_1"
+ms_run_ref = "ms_run[214]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_222_1"
+description = "RPMM0005 sample coa_222_1"
+
+[[sample]]
+index = 215
+name = "coa_223_1"
+assay = "coa_223_1"
+ms_run_ref = "ms_run[215]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_223_1"
+description = "RPMM0005 sample coa_223_1"
+
+[[sample]]
+index = 216
+name = "coa_224_1"
+assay = "coa_224_1"
+ms_run_ref = "ms_run[216]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_224_1"
+description = "RPMM0005 sample coa_224_1"
+
+[[sample]]
+index = 217
+name = "coa_225_1"
+assay = "coa_225_1"
+ms_run_ref = "ms_run[217]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_225_1"
+description = "RPMM0005 sample coa_225_1"
+
+[[sample]]
+index = 218
+name = "coa_226_1"
+assay = "coa_226_1"
+ms_run_ref = "ms_run[218]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_226_1"
+description = "RPMM0005 sample coa_226_1"
+
+[[sample]]
+index = 219
+name = "coa_227_1"
+assay = "coa_227_1"
+ms_run_ref = "ms_run[219]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_227_1"
+description = "RPMM0005 sample coa_227_1"
+
+[[sample]]
+index = 220
+name = "coa_228_1"
+assay = "coa_228_1"
+ms_run_ref = "ms_run[220]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_228_1"
+description = "RPMM0005 sample coa_228_1"
+
+[[sample]]
+index = 221
+name = "coa_229_1"
+assay = "coa_229_1"
+ms_run_ref = "ms_run[221]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_229_1"
+description = "RPMM0005 sample coa_229_1"
+
+[[sample]]
+index = 222
+name = "coa_230_1"
+assay = "coa_230_1"
+ms_run_ref = "ms_run[222]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_230_1"
+description = "RPMM0005 sample coa_230_1"
+
+[[sample]]
+index = 223
+name = "coa_231_1"
+assay = "coa_231_1"
+ms_run_ref = "ms_run[223]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_231_1"
+description = "RPMM0005 sample coa_231_1"
+
+[[sample]]
+index = 224
+name = "coa_232_1"
+assay = "coa_232_1"
+ms_run_ref = "ms_run[224]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_232_1"
+description = "RPMM0005 sample coa_232_1"
+
+[[sample]]
+index = 225
+name = "coa_233_1"
+assay = "coa_233_1"
+ms_run_ref = "ms_run[225]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_233_1"
+description = "RPMM0005 sample coa_233_1"
+
+[[sample]]
+index = 226
+name = "coa_234_1"
+assay = "coa_234_1"
+ms_run_ref = "ms_run[226]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_234_1"
+description = "RPMM0005 sample coa_234_1"
+
+[[sample]]
+index = 227
+name = "coa_235_1"
+assay = "coa_235_1"
+ms_run_ref = "ms_run[227]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_235_1"
+description = "RPMM0005 sample coa_235_1"
+
+[[sample]]
+index = 228
+name = "coa_236_1"
+assay = "coa_236_1"
+ms_run_ref = "ms_run[228]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_236_1"
+description = "RPMM0005 sample coa_236_1"
+
+[[sample]]
+index = 229
+name = "coa_237_1"
+assay = "coa_237_1"
+ms_run_ref = "ms_run[229]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_237_1"
+description = "RPMM0005 sample coa_237_1"
+
+[[sample]]
+index = 230
+name = "coa_238_1"
+assay = "coa_238_1"
+ms_run_ref = "ms_run[230]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_238_1"
+description = "RPMM0005 sample coa_238_1"
+
+[[sample]]
+index = 231
+name = "coa_239_1"
+assay = "coa_239_1"
+ms_run_ref = "ms_run[231]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_239_1"
+description = "RPMM0005 sample coa_239_1"
+
+[[sample]]
+index = 232
+name = "coa_240_1"
+assay = "coa_240_1"
+ms_run_ref = "ms_run[232]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_240_1"
+description = "RPMM0005 sample coa_240_1"
+
+[[sample]]
+index = 233
+name = "coa_241_1"
+assay = "coa_241_1"
+ms_run_ref = "ms_run[233]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_241_1"
+description = "RPMM0005 sample coa_241_1"
+
+[[sample]]
+index = 234
+name = "coa_242_1"
+assay = "coa_242_1"
+ms_run_ref = "ms_run[234]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_242_1"
+description = "RPMM0005 sample coa_242_1"
+
+[[sample]]
+index = 235
+name = "coa_243_1"
+assay = "coa_243_1"
+ms_run_ref = "ms_run[235]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_243_1"
+description = "RPMM0005 sample coa_243_1"
+
+[[sample]]
+index = 236
+name = "coa_244_1"
+assay = "coa_244_1"
+ms_run_ref = "ms_run[236]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_244_1"
+description = "RPMM0005 sample coa_244_1"
+
+[[sample]]
+index = 237
+name = "coa_245_1"
+assay = "coa_245_1"
+ms_run_ref = "ms_run[237]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_245_1"
+description = "RPMM0005 sample coa_245_1"
+
+[[sample]]
+index = 238
+name = "coa_246_1"
+assay = "coa_246_1"
+ms_run_ref = "ms_run[238]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_246_1"
+description = "RPMM0005 sample coa_246_1"
+
+[[sample]]
+index = 239
+name = "coa_247_1"
+assay = "coa_247_1"
+ms_run_ref = "ms_run[239]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_247_1"
+description = "RPMM0005 sample coa_247_1"
+
+[[sample]]
+index = 240
+name = "coa_248_1"
+assay = "coa_248_1"
+ms_run_ref = "ms_run[240]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_248_1"
+description = "RPMM0005 sample coa_248_1"
+
+[[sample]]
+index = 241
+name = "coa_249_1"
+assay = "coa_249_1"
+ms_run_ref = "ms_run[241]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_249_1"
+description = "RPMM0005 sample coa_249_1"
+
+[[sample]]
+index = 242
+name = "coa_250_1"
+assay = "coa_250_1"
+ms_run_ref = "ms_run[242]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_250_1"
+description = "RPMM0005 sample coa_250_1"
+
+[[sample]]
+index = 243
+name = "coa_251_1"
+assay = "coa_251_1"
+ms_run_ref = "ms_run[243]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_251_1"
+description = "RPMM0005 sample coa_251_1"
+
+[[sample]]
+index = 244
+name = "coa_252_1"
+assay = "coa_252_1"
+ms_run_ref = "ms_run[244]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_252_1"
+description = "RPMM0005 sample coa_252_1"
+
+[[sample]]
+index = 245
+name = "coa_253_1"
+assay = "coa_253_1"
+ms_run_ref = "ms_run[245]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_253_1"
+description = "RPMM0005 sample coa_253_1"
+
+[[sample]]
+index = 246
+name = "coa_254_1"
+assay = "coa_254_1"
+ms_run_ref = "ms_run[246]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_254_1"
+description = "RPMM0005 sample coa_254_1"
+
+[[sample]]
+index = 247
+name = "coa_255_1"
+assay = "coa_255_1"
+ms_run_ref = "ms_run[247]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_255_1"
+description = "RPMM0005 sample coa_255_1"
+
+[[sample]]
+index = 248
+name = "coa_256_1"
+assay = "coa_256_1"
+ms_run_ref = "ms_run[248]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_256_1"
+description = "RPMM0005 sample coa_256_1"
+
+[[sample]]
+index = 249
+name = "coa_257_1"
+assay = "coa_257_1"
+ms_run_ref = "ms_run[249]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_257_1"
+description = "RPMM0005 sample coa_257_1"
+
+[[sample]]
+index = 250
+name = "coa_258_1"
+assay = "coa_258_1"
+ms_run_ref = "ms_run[250]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_258_1"
+description = "RPMM0005 sample coa_258_1"
+
+[[sample]]
+index = 251
+name = "coa_259_1"
+assay = "coa_259_1"
+ms_run_ref = "ms_run[251]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_259_1"
+description = "RPMM0005 sample coa_259_1"
+
+[[sample]]
+index = 252
+name = "coa_260_1"
+assay = "coa_260_1"
+ms_run_ref = "ms_run[252]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_260_1"
+description = "RPMM0005 sample coa_260_1"
+
+[[sample]]
+index = 253
+name = "coa_261_1"
+assay = "coa_261_1"
+ms_run_ref = "ms_run[253]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_261_1"
+description = "RPMM0005 sample coa_261_1"
+
+[[sample]]
+index = 254
+name = "coa_262_1"
+assay = "coa_262_1"
+ms_run_ref = "ms_run[254]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_262_1"
+description = "RPMM0005 sample coa_262_1"
+
+[[sample]]
+index = 255
+name = "coa_263_1"
+assay = "coa_263_1"
+ms_run_ref = "ms_run[255]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_263_1"
+description = "RPMM0005 sample coa_263_1"
+
+[[sample]]
+index = 256
+name = "coa_264_1"
+assay = "coa_264_1"
+ms_run_ref = "ms_run[256]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_264_1"
+description = "RPMM0005 sample coa_264_1"
+
+[[sample]]
+index = 257
+name = "coa_265_1"
+assay = "coa_265_1"
+ms_run_ref = "ms_run[257]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_265_1"
+description = "RPMM0005 sample coa_265_1"
+
+[[sample]]
+index = 258
+name = "coa_266_1"
+assay = "coa_266_1"
+ms_run_ref = "ms_run[258]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_266_1"
+description = "RPMM0005 sample coa_266_1"
+
+[[sample]]
+index = 259
+name = "coa_267_1"
+assay = "coa_267_1"
+ms_run_ref = "ms_run[259]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_267_1"
+description = "RPMM0005 sample coa_267_1"
+
+[[sample]]
+index = 260
+name = "coa_268_1"
+assay = "coa_268_1"
+ms_run_ref = "ms_run[260]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_268_1"
+description = "RPMM0005 sample coa_268_1"
+
+[[sample]]
+index = 261
+name = "coa_269_1"
+assay = "coa_269_1"
+ms_run_ref = "ms_run[261]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_269_1"
+description = "RPMM0005 sample coa_269_1"
+
+[[sample]]
+index = 262
+name = "coa_270_1"
+assay = "coa_270_1"
+ms_run_ref = "ms_run[262]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_270_1"
+description = "RPMM0005 sample coa_270_1"
+
+[[sample]]
+index = 263
+name = "coa_271_1"
+assay = "coa_271_1"
+ms_run_ref = "ms_run[263]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_271_1"
+description = "RPMM0005 sample coa_271_1"
+
+[[sample]]
+index = 264
+name = "coa_272_1"
+assay = "coa_272_1"
+ms_run_ref = "ms_run[264]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_272_1"
+description = "RPMM0005 sample coa_272_1"
+
+[[sample]]
+index = 265
+name = "coa_273_1"
+assay = "coa_273_1"
+ms_run_ref = "ms_run[265]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_273_1"
+description = "RPMM0005 sample coa_273_1"
+
+[[sample]]
+index = 266
+name = "coa_274_1"
+assay = "coa_274_1"
+ms_run_ref = "ms_run[266]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_274_1"
+description = "RPMM0005 sample coa_274_1"
+
+[[sample]]
+index = 267
+name = "coa_275_1"
+assay = "coa_275_1"
+ms_run_ref = "ms_run[267]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_275_1"
+description = "RPMM0005 sample coa_275_1"
+
+[[sample]]
+index = 268
+name = "coa_276_1"
+assay = "coa_276_1"
+ms_run_ref = "ms_run[268]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_276_1"
+description = "RPMM0005 sample coa_276_1"
+
+[[sample]]
+index = 269
+name = "coa_277_1"
+assay = "coa_277_1"
+ms_run_ref = "ms_run[269]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_277_1"
+description = "RPMM0005 sample coa_277_1"
+
+[[sample]]
+index = 270
+name = "coa_278_1"
+assay = "coa_278_1"
+ms_run_ref = "ms_run[270]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_278_1"
+description = "RPMM0005 sample coa_278_1"
+
+[[sample]]
+index = 271
+name = "coa_279_1"
+assay = "coa_279_1"
+ms_run_ref = "ms_run[271]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_279_1"
+description = "RPMM0005 sample coa_279_1"
+
+[[sample]]
+index = 272
+name = "coa_280_1"
+assay = "coa_280_1"
+ms_run_ref = "ms_run[272]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_280_1"
+description = "RPMM0005 sample coa_280_1"
+
+[[sample]]
+index = 273
+name = "coa_281_1"
+assay = "coa_281_1"
+ms_run_ref = "ms_run[273]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_281_1"
+description = "RPMM0005 sample coa_281_1"
+
+[[sample]]
+index = 274
+name = "coa_282_1"
+assay = "coa_282_1"
+ms_run_ref = "ms_run[274]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_282_1"
+description = "RPMM0005 sample coa_282_1"
+
+[[sample]]
+index = 275
+name = "coa_283_1"
+assay = "coa_283_1"
+ms_run_ref = "ms_run[275]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_283_1"
+description = "RPMM0005 sample coa_283_1"
+
+[[sample]]
+index = 276
+name = "coa_284_1"
+assay = "coa_284_1"
+ms_run_ref = "ms_run[276]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_284_1"
+description = "RPMM0005 sample coa_284_1"
+
+[[sample]]
+index = 277
+name = "coa_285_1"
+assay = "coa_285_1"
+ms_run_ref = "ms_run[277]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_285_1"
+description = "RPMM0005 sample coa_285_1"
+
+[[sample]]
+index = 278
+name = "coa_286_1"
+assay = "coa_286_1"
+ms_run_ref = "ms_run[278]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_286_1"
+description = "RPMM0005 sample coa_286_1"
+
+[[sample]]
+index = 279
+name = "coa_287_1"
+assay = "coa_287_1"
+ms_run_ref = "ms_run[279]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_287_1"
+description = "RPMM0005 sample coa_287_1"
+
+[[sample]]
+index = 280
+name = "coa_288_1"
+assay = "coa_288_1"
+ms_run_ref = "ms_run[280]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_288_1"
+description = "RPMM0005 sample coa_288_1"
+
+[[sample]]
+index = 281
+name = "coa_289_1"
+assay = "coa_289_1"
+ms_run_ref = "ms_run[281]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_289_1"
+description = "RPMM0005 sample coa_289_1"
+
+[[sample]]
+index = 282
+name = "coa_290_1"
+assay = "coa_290_1"
+ms_run_ref = "ms_run[282]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_290_1"
+description = "RPMM0005 sample coa_290_1"
+
+[[sample]]
+index = 283
+name = "coa_291_1"
+assay = "coa_291_1"
+ms_run_ref = "ms_run[283]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_291_1"
+description = "RPMM0005 sample coa_291_1"
+
+[[sample]]
+index = 284
+name = "coa_292_1"
+assay = "coa_292_1"
+ms_run_ref = "ms_run[284]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_292_1"
+description = "RPMM0005 sample coa_292_1"
+
+[[sample]]
+index = 285
+name = "coa_293_1"
+assay = "coa_293_1"
+ms_run_ref = "ms_run[285]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_293_1"
+description = "RPMM0005 sample coa_293_1"
+
+[[sample]]
+index = 286
+name = "coa_294_1"
+assay = "coa_294_1"
+ms_run_ref = "ms_run[286]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_294_1"
+description = "RPMM0005 sample coa_294_1"
+
+[[sample]]
+index = 287
+name = "coa_295_1"
+assay = "coa_295_1"
+ms_run_ref = "ms_run[287]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_295_1"
+description = "RPMM0005 sample coa_295_1"
+
+[[sample]]
+index = 288
+name = "coa_296_1"
+assay = "coa_296_1"
+ms_run_ref = "ms_run[288]"
+location = "http://metabobank.riken.jp/data/RPMM0005/AnalysedDataset/ine_Core_modpred_HMCRRDA_Representatives.txt#coa_296_1"
+description = "RPMM0005 sample coa_296_1"
+
+[study_variables]
+candidate_columns = []
+
+[study_variables.levels]

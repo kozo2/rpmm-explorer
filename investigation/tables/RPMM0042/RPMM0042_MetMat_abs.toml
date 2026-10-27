@@ -1,0 +1,1807 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0042"
+title = "Light Controls Protein Localization through Phytochrome-Mediated Alternative Promoter Selection"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0042"
+
+[matrix]
+name = "MetMat_abs"
+source_file = "RPMM0042/AnalysedDataset/MetMat_abs.txt"
+format = "tsv"
+n_features = 282
+n_samples = 168
+metadata_columns = [
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0042/AnalysedDataset/phenodata.csv"
+msp = "RPMM0042/AnalysedDataset/150513_Kyushu_Uni_arabi_NIST.txt"
+
+[organism]
+raw = "Arabidopsis"
+cv = "[NCBITaxon, NCBITaxon:3702, Arabidopsis thaliana, ]"
+source = "msp:150513_Kyushu_Uni_arabi_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "FD_01_1"
+assay = "FD_01_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#FD_01_1"
+description = "RPMM0042 sample FD_01_1"
+
+[[sample]]
+index = 2
+name = "FD_02_1"
+assay = "FD_02_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#FD_02_1"
+description = "RPMM0042 sample FD_02_1"
+
+[[sample]]
+index = 3
+name = "FD_03_1"
+assay = "FD_03_1"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#FD_03_1"
+description = "RPMM0042 sample FD_03_1"
+
+[[sample]]
+index = 4
+name = "STDs_1_1_1"
+assay = "STDs_1_1_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_1_1_1"
+description = "RPMM0042 sample STDs_1_1_1"
+
+[[sample]]
+index = 5
+name = "STDs_1_2_1"
+assay = "STDs_1_2_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_1_2_1"
+description = "RPMM0042 sample STDs_1_2_1"
+
+[[sample]]
+index = 6
+name = "STDs_1_3_1"
+assay = "STDs_1_3_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_1_3_1"
+description = "RPMM0042 sample STDs_1_3_1"
+
+[[sample]]
+index = 7
+name = "STDs_2_1_1"
+assay = "STDs_2_1_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_2_1_1"
+description = "RPMM0042 sample STDs_2_1_1"
+
+[[sample]]
+index = 8
+name = "STDs_2_2_1"
+assay = "STDs_2_2_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_2_2_1"
+description = "RPMM0042 sample STDs_2_2_1"
+
+[[sample]]
+index = 9
+name = "STDs_2_3_1"
+assay = "STDs_2_3_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_2_3_1"
+description = "RPMM0042 sample STDs_2_3_1"
+
+[[sample]]
+index = 10
+name = "STDs_3_1_1"
+assay = "STDs_3_1_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_3_1_1"
+description = "RPMM0042 sample STDs_3_1_1"
+
+[[sample]]
+index = 11
+name = "STDs_3_2_1"
+assay = "STDs_3_2_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_3_2_1"
+description = "RPMM0042 sample STDs_3_2_1"
+
+[[sample]]
+index = 12
+name = "STDs_3_3_1"
+assay = "STDs_3_3_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_3_3_1"
+description = "RPMM0042 sample STDs_3_3_1"
+
+[[sample]]
+index = 13
+name = "STDs_E1_1_1"
+assay = "STDs_E1_1_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_E1_1_1"
+description = "RPMM0042 sample STDs_E1_1_1"
+
+[[sample]]
+index = 14
+name = "STDs_E1_2_1"
+assay = "STDs_E1_2_1"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_E1_2_1"
+description = "RPMM0042 sample STDs_E1_2_1"
+
+[[sample]]
+index = 15
+name = "STDs_E1_3_1"
+assay = "STDs_E1_3_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_E1_3_1"
+description = "RPMM0042 sample STDs_E1_3_1"
+
+[[sample]]
+index = 16
+name = "STDs_E2_1_1"
+assay = "STDs_E2_1_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_E2_1_1"
+description = "RPMM0042 sample STDs_E2_1_1"
+
+[[sample]]
+index = 17
+name = "STDs_E2_2_1"
+assay = "STDs_E2_2_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_E2_2_1"
+description = "RPMM0042 sample STDs_E2_2_1"
+
+[[sample]]
+index = 18
+name = "STDs_E2_3_1"
+assay = "STDs_E2_3_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_E2_3_1"
+description = "RPMM0042 sample STDs_E2_3_1"
+
+[[sample]]
+index = 19
+name = "STDs_E3_1_1"
+assay = "STDs_E3_1_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_E3_1_1"
+description = "RPMM0042 sample STDs_E3_1_1"
+
+[[sample]]
+index = 20
+name = "STDs_E3_2_1"
+assay = "STDs_E3_2_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_E3_2_1"
+description = "RPMM0042 sample STDs_E3_2_1"
+
+[[sample]]
+index = 21
+name = "STDs_E3_3_1"
+assay = "STDs_E3_3_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#STDs_E3_3_1"
+description = "RPMM0042 sample STDs_E3_3_1"
+
+[[sample]]
+index = 22
+name = "matsu_001_1"
+assay = "matsu_001_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_001_1"
+description = "RPMM0042 sample matsu_001_1"
+matlab_file_name = "matsu_001_1.mat"
+order_name = "matsu_001"
+class = "class01"
+gcid = "matsu_001_1"
+geno1 = "Col0"
+light = "CL"
+note1 = "matsu_001:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "173"
+sampleinfo = "Col-0_air_0h_1"
+species = "Arabidopsis"
+time = "0min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 23
+name = "matsu_002_1"
+assay = "matsu_002_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_002_1"
+description = "RPMM0042 sample matsu_002_1"
+matlab_file_name = "matsu_002_1.mat"
+order_name = "matsu_002"
+class = "class01"
+gcid = "matsu_002_1"
+geno1 = "Col0"
+light = "CL"
+note1 = "matsu_002:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "75"
+sampleinfo = "Col-0_air_0h_2"
+species = "Arabidopsis"
+time = "0min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 24
+name = "matsu_003_1"
+assay = "matsu_003_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_003_1"
+description = "RPMM0042 sample matsu_003_1"
+matlab_file_name = "matsu_003_1.mat"
+order_name = "matsu_003"
+class = "class01"
+gcid = "matsu_003_1"
+geno1 = "Col0"
+light = "CL"
+note1 = "matsu_003:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "175"
+sampleinfo = "Col-0_air_0h_3"
+species = "Arabidopsis"
+time = "0min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 25
+name = "matsu_004_1"
+assay = "matsu_004_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_004_1"
+description = "RPMM0042 sample matsu_004_1"
+matlab_file_name = "matsu_004_1.mat"
+order_name = "matsu_004"
+class = "class02"
+gcid = "matsu_004_1"
+geno1 = "glyk"
+light = "CL"
+note1 = "matsu_004:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "15"
+sampleinfo = "glyk_air_0h_1"
+species = "Arabidopsis"
+time = "0min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 26
+name = "matsu_005_1"
+assay = "matsu_005_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_005_1"
+description = "RPMM0042 sample matsu_005_1"
+matlab_file_name = "matsu_005_1.mat"
+order_name = "matsu_005"
+class = "class02"
+gcid = "matsu_005_1"
+geno1 = "glyk"
+light = "CL"
+note1 = "matsu_005:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "89"
+sampleinfo = "glyk_air_0h_2"
+species = "Arabidopsis"
+time = "0min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 27
+name = "matsu_006_1"
+assay = "matsu_006_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_006_1"
+description = "RPMM0042 sample matsu_006_1"
+matlab_file_name = "matsu_006_1.mat"
+order_name = "matsu_006"
+class = "class02"
+gcid = "matsu_006_1"
+geno1 = "glyk"
+light = "CL"
+note1 = "matsu_006:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "18"
+sampleinfo = "glyk_air_0h_3"
+species = "Arabidopsis"
+time = "0min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 28
+name = "matsu_007_1"
+assay = "matsu_007_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_007_1"
+description = "RPMM0042 sample matsu_007_1"
+matlab_file_name = "matsu_007_1.mat"
+order_name = "matsu_007"
+class = "class03"
+gcid = "matsu_007_1"
+geno1 = "cytosolicGLYK"
+light = "CL"
+note1 = "matsu_007:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "123"
+sampleinfo = "11-1-8-6_air_0h_1"
+species = "Arabidopsis"
+time = "0min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 29
+name = "matsu_008_1"
+assay = "matsu_008_1"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_008_1"
+description = "RPMM0042 sample matsu_008_1"
+matlab_file_name = "matsu_008_1.mat"
+order_name = "matsu_008"
+class = "class03"
+gcid = "matsu_008_1"
+geno1 = "cytosolicGLYK"
+light = "CL"
+note1 = "matsu_008:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "130"
+sampleinfo = "11-1-8-6_air_0h_2"
+species = "Arabidopsis"
+time = "0min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 30
+name = "matsu_009_1"
+assay = "matsu_009_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_009_1"
+description = "RPMM0042 sample matsu_009_1"
+matlab_file_name = "matsu_009_1.mat"
+order_name = "matsu_009"
+class = "class03"
+gcid = "matsu_009_1"
+geno1 = "cytosolicGLYK"
+light = "CL"
+note1 = "matsu_009:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "129"
+sampleinfo = "11-1-8-6_air_0h_3"
+species = "Arabidopsis"
+time = "0min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 31
+name = "matsu_010_1"
+assay = "matsu_010_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_010_1"
+description = "RPMM0042 sample matsu_010_1"
+matlab_file_name = "matsu_010_1.mat"
+order_name = "matsu_010"
+class = "class04"
+gcid = "matsu_010_1"
+geno1 = "Col0"
+light = "CL"
+note1 = "matsu_010:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "53"
+sampleinfo = "Col-0_air_12h_1"
+species = "Arabidopsis"
+time = "720min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 32
+name = "matsu_011_1"
+assay = "matsu_011_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_011_1"
+description = "RPMM0042 sample matsu_011_1"
+matlab_file_name = "matsu_011_1.mat"
+order_name = "matsu_011"
+class = "class04"
+gcid = "matsu_011_1"
+geno1 = "Col0"
+light = "CL"
+note1 = "matsu_011:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "56"
+sampleinfo = "Col-0_air_12h_2"
+species = "Arabidopsis"
+time = "720min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 33
+name = "matsu_012_1"
+assay = "matsu_012_1"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_012_1"
+description = "RPMM0042 sample matsu_012_1"
+matlab_file_name = "matsu_012_1.mat"
+order_name = "matsu_012"
+class = "class04"
+gcid = "matsu_012_1"
+geno1 = "Col0"
+light = "CL"
+note1 = "matsu_012:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "72"
+sampleinfo = "Col-0_air_12h_3"
+species = "Arabidopsis"
+time = "720min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 34
+name = "matsu_013_1"
+assay = "matsu_013_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_013_1"
+description = "RPMM0042 sample matsu_013_1"
+matlab_file_name = "matsu_013_1.mat"
+order_name = "matsu_013"
+class = "class05"
+gcid = "matsu_013_1"
+geno1 = "glyk"
+light = "CL"
+note1 = "matsu_013:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "43"
+sampleinfo = "glyk_air_12h_1"
+species = "Arabidopsis"
+time = "720min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 35
+name = "matsu_014_1"
+assay = "matsu_014_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_014_1"
+description = "RPMM0042 sample matsu_014_1"
+matlab_file_name = "matsu_014_1.mat"
+order_name = "matsu_014"
+class = "class05"
+gcid = "matsu_014_1"
+geno1 = "glyk"
+light = "CL"
+note1 = "matsu_014:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "21"
+sampleinfo = "glyk_air_12h_2"
+species = "Arabidopsis"
+time = "720min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 36
+name = "matsu_015_1"
+assay = "matsu_015_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_015_1"
+description = "RPMM0042 sample matsu_015_1"
+matlab_file_name = "matsu_015_1.mat"
+order_name = "matsu_015"
+class = "class05"
+gcid = "matsu_015_1"
+geno1 = "glyk"
+light = "CL"
+note1 = "matsu_015:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "94"
+sampleinfo = "glyk_air_12h_3"
+species = "Arabidopsis"
+time = "720min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 37
+name = "matsu_016_1"
+assay = "matsu_016_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_016_1"
+description = "RPMM0042 sample matsu_016_1"
+matlab_file_name = "matsu_016_1.mat"
+order_name = "matsu_016"
+class = "class06"
+gcid = "matsu_016_1"
+geno1 = "cytosolicGLYK"
+light = "CL"
+note1 = "matsu_016:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "14"
+sampleinfo = "11-1-8-6_air_12h_1"
+species = "Arabidopsis"
+time = "720min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 38
+name = "matsu_017_1"
+assay = "matsu_017_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_017_1"
+description = "RPMM0042 sample matsu_017_1"
+matlab_file_name = "matsu_017_1.mat"
+order_name = "matsu_017"
+class = "class06"
+gcid = "matsu_017_1"
+geno1 = "cytosolicGLYK"
+light = "CL"
+note1 = "matsu_017:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "45"
+sampleinfo = "11-1-8-6_air_12h_2"
+species = "Arabidopsis"
+time = "720min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 39
+name = "matsu_018_1"
+assay = "matsu_018_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_018_1"
+description = "RPMM0042 sample matsu_018_1"
+matlab_file_name = "matsu_018_1.mat"
+order_name = "matsu_018"
+class = "class06"
+gcid = "matsu_018_1"
+geno1 = "cytosolicGLYK"
+light = "CL"
+note1 = "matsu_018:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "68"
+sampleinfo = "11-1-8-6_air_12h_3"
+species = "Arabidopsis"
+time = "720min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 40
+name = "matsu_019_1"
+assay = "matsu_019_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_019_1"
+description = "RPMM0042 sample matsu_019_1"
+matlab_file_name = "matsu_019_1.mat"
+order_name = "matsu_019"
+class = "class07"
+gcid = "matsu_019_1"
+geno1 = "Col0"
+light = "CL"
+note1 = "matsu_019:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "54"
+sampleinfo = "Col-0_air_24h_1"
+species = "Arabidopsis"
+time = "1440min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 41
+name = "matsu_020_1"
+assay = "matsu_020_1"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_020_1"
+description = "RPMM0042 sample matsu_020_1"
+matlab_file_name = "matsu_020_1.mat"
+order_name = "matsu_020"
+class = "class07"
+gcid = "matsu_020_1"
+geno1 = "Col0"
+light = "CL"
+note1 = "matsu_020:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "164"
+sampleinfo = "Col-0_air_24h_2"
+species = "Arabidopsis"
+time = "1440min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 42
+name = "matsu_021_1"
+assay = "matsu_021_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_021_1"
+description = "RPMM0042 sample matsu_021_1"
+matlab_file_name = "matsu_021_1.mat"
+order_name = "matsu_021"
+class = "class07"
+gcid = "matsu_021_1"
+geno1 = "Col0"
+light = "CL"
+note1 = "matsu_021:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "81"
+sampleinfo = "Col-0_air_24h_3"
+species = "Arabidopsis"
+time = "1440min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 43
+name = "matsu_022_1"
+assay = "matsu_022_1"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_022_1"
+description = "RPMM0042 sample matsu_022_1"
+matlab_file_name = "matsu_022_1.mat"
+order_name = "matsu_022"
+class = "class08"
+gcid = "matsu_022_1"
+geno1 = "glyk"
+light = "CL"
+note1 = "matsu_022:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "71"
+sampleinfo = "glyk_air_24h_1"
+species = "Arabidopsis"
+time = "1440min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 44
+name = "matsu_023_1"
+assay = "matsu_023_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_023_1"
+description = "RPMM0042 sample matsu_023_1"
+matlab_file_name = "matsu_023_1.mat"
+order_name = "matsu_023"
+class = "class08"
+gcid = "matsu_023_1"
+geno1 = "glyk"
+light = "CL"
+note1 = "matsu_023:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "59"
+sampleinfo = "glyk_air_24h_2"
+species = "Arabidopsis"
+time = "1440min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 45
+name = "matsu_024_1"
+assay = "matsu_024_1"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_024_1"
+description = "RPMM0042 sample matsu_024_1"
+matlab_file_name = "matsu_024_1.mat"
+order_name = "matsu_024"
+class = "class08"
+gcid = "matsu_024_1"
+geno1 = "glyk"
+light = "CL"
+note1 = "matsu_024:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "180"
+sampleinfo = "glyk_air_24h_3"
+species = "Arabidopsis"
+time = "1440min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 46
+name = "matsu_025_1"
+assay = "matsu_025_1"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_025_1"
+description = "RPMM0042 sample matsu_025_1"
+matlab_file_name = "matsu_025_1.mat"
+order_name = "matsu_025"
+class = "class09"
+gcid = "matsu_025_1"
+geno1 = "cytosolicGLYK"
+light = "CL"
+note1 = "matsu_025:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "22"
+sampleinfo = "11-1-8-6_air_24h_1"
+species = "Arabidopsis"
+time = "1440min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 47
+name = "matsu_026_1"
+assay = "matsu_026_1"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_026_1"
+description = "RPMM0042 sample matsu_026_1"
+matlab_file_name = "matsu_026_1.mat"
+order_name = "matsu_026"
+class = "class09"
+gcid = "matsu_026_1"
+geno1 = "cytosolicGLYK"
+light = "CL"
+note1 = "matsu_026:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "131"
+sampleinfo = "11-1-8-6_air_24h_2"
+species = "Arabidopsis"
+time = "1440min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 48
+name = "matsu_027_1"
+assay = "matsu_027_1"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_027_1"
+description = "RPMM0042 sample matsu_027_1"
+matlab_file_name = "matsu_027_1.mat"
+order_name = "matsu_027"
+class = "class09"
+gcid = "matsu_027_1"
+geno1 = "cytosolicGLYK"
+light = "CL"
+note1 = "matsu_027:1"
+num_of_samples_combined_per_tube = "4"
+proj = "proj01"
+runorder = "128"
+sampleinfo = "11-1-8-6_air_24h_3"
+species = "Arabidopsis"
+time = "1440min"
+treatment = "CO2_air"
+weight_mg = "0.055556"
+
+[[sample]]
+index = 49
+name = "matsu_028_1"
+assay = "matsu_028_1"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_028_1"
+description = "RPMM0042 sample matsu_028_1"
+
+[[sample]]
+index = 50
+name = "matsu_029_1"
+assay = "matsu_029_1"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_029_1"
+description = "RPMM0042 sample matsu_029_1"
+
+[[sample]]
+index = 51
+name = "matsu_030_1"
+assay = "matsu_030_1"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_030_1"
+description = "RPMM0042 sample matsu_030_1"
+
+[[sample]]
+index = 52
+name = "matsu_031_1"
+assay = "matsu_031_1"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_031_1"
+description = "RPMM0042 sample matsu_031_1"
+
+[[sample]]
+index = 53
+name = "matsu_032_1"
+assay = "matsu_032_1"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_032_1"
+description = "RPMM0042 sample matsu_032_1"
+
+[[sample]]
+index = 54
+name = "matsu_033_1"
+assay = "matsu_033_1"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_033_1"
+description = "RPMM0042 sample matsu_033_1"
+
+[[sample]]
+index = 55
+name = "matsu_034_1"
+assay = "matsu_034_1"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_034_1"
+description = "RPMM0042 sample matsu_034_1"
+
+[[sample]]
+index = 56
+name = "matsu_035_1"
+assay = "matsu_035_1"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_035_1"
+description = "RPMM0042 sample matsu_035_1"
+
+[[sample]]
+index = 57
+name = "matsu_036_1"
+assay = "matsu_036_1"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_036_1"
+description = "RPMM0042 sample matsu_036_1"
+
+[[sample]]
+index = 58
+name = "matsu_037_1"
+assay = "matsu_037_1"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_037_1"
+description = "RPMM0042 sample matsu_037_1"
+
+[[sample]]
+index = 59
+name = "matsu_038_1"
+assay = "matsu_038_1"
+ms_run_ref = "ms_run[59]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_038_1"
+description = "RPMM0042 sample matsu_038_1"
+
+[[sample]]
+index = 60
+name = "matsu_039_1"
+assay = "matsu_039_1"
+ms_run_ref = "ms_run[60]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_039_1"
+description = "RPMM0042 sample matsu_039_1"
+
+[[sample]]
+index = 61
+name = "matsu_040_1"
+assay = "matsu_040_1"
+ms_run_ref = "ms_run[61]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_040_1"
+description = "RPMM0042 sample matsu_040_1"
+
+[[sample]]
+index = 62
+name = "matsu_041_1"
+assay = "matsu_041_1"
+ms_run_ref = "ms_run[62]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_041_1"
+description = "RPMM0042 sample matsu_041_1"
+
+[[sample]]
+index = 63
+name = "matsu_042_1"
+assay = "matsu_042_1"
+ms_run_ref = "ms_run[63]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_042_1"
+description = "RPMM0042 sample matsu_042_1"
+
+[[sample]]
+index = 64
+name = "matsu_043_1"
+assay = "matsu_043_1"
+ms_run_ref = "ms_run[64]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_043_1"
+description = "RPMM0042 sample matsu_043_1"
+
+[[sample]]
+index = 65
+name = "matsu_044_1"
+assay = "matsu_044_1"
+ms_run_ref = "ms_run[65]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_044_1"
+description = "RPMM0042 sample matsu_044_1"
+
+[[sample]]
+index = 66
+name = "matsu_045_1"
+assay = "matsu_045_1"
+ms_run_ref = "ms_run[66]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_045_1"
+description = "RPMM0042 sample matsu_045_1"
+
+[[sample]]
+index = 67
+name = "matsu_046_1"
+assay = "matsu_046_1"
+ms_run_ref = "ms_run[67]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_046_1"
+description = "RPMM0042 sample matsu_046_1"
+
+[[sample]]
+index = 68
+name = "matsu_047_1"
+assay = "matsu_047_1"
+ms_run_ref = "ms_run[68]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_047_1"
+description = "RPMM0042 sample matsu_047_1"
+
+[[sample]]
+index = 69
+name = "matsu_048_1"
+assay = "matsu_048_1"
+ms_run_ref = "ms_run[69]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_048_1"
+description = "RPMM0042 sample matsu_048_1"
+
+[[sample]]
+index = 70
+name = "matsu_049_1"
+assay = "matsu_049_1"
+ms_run_ref = "ms_run[70]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_049_1"
+description = "RPMM0042 sample matsu_049_1"
+
+[[sample]]
+index = 71
+name = "matsu_050_1"
+assay = "matsu_050_1"
+ms_run_ref = "ms_run[71]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_050_1"
+description = "RPMM0042 sample matsu_050_1"
+
+[[sample]]
+index = 72
+name = "matsu_051_1"
+assay = "matsu_051_1"
+ms_run_ref = "ms_run[72]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_051_1"
+description = "RPMM0042 sample matsu_051_1"
+
+[[sample]]
+index = 73
+name = "matsu_052_1"
+assay = "matsu_052_1"
+ms_run_ref = "ms_run[73]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_052_1"
+description = "RPMM0042 sample matsu_052_1"
+
+[[sample]]
+index = 74
+name = "matsu_053_1"
+assay = "matsu_053_1"
+ms_run_ref = "ms_run[74]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_053_1"
+description = "RPMM0042 sample matsu_053_1"
+
+[[sample]]
+index = 75
+name = "matsu_054_1"
+assay = "matsu_054_1"
+ms_run_ref = "ms_run[75]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_054_1"
+description = "RPMM0042 sample matsu_054_1"
+
+[[sample]]
+index = 76
+name = "matsu_055_1"
+assay = "matsu_055_1"
+ms_run_ref = "ms_run[76]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_055_1"
+description = "RPMM0042 sample matsu_055_1"
+
+[[sample]]
+index = 77
+name = "matsu_056_1"
+assay = "matsu_056_1"
+ms_run_ref = "ms_run[77]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_056_1"
+description = "RPMM0042 sample matsu_056_1"
+
+[[sample]]
+index = 78
+name = "matsu_057_1"
+assay = "matsu_057_1"
+ms_run_ref = "ms_run[78]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_057_1"
+description = "RPMM0042 sample matsu_057_1"
+
+[[sample]]
+index = 79
+name = "matsu_058_1"
+assay = "matsu_058_1"
+ms_run_ref = "ms_run[79]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_058_1"
+description = "RPMM0042 sample matsu_058_1"
+
+[[sample]]
+index = 80
+name = "matsu_059_1"
+assay = "matsu_059_1"
+ms_run_ref = "ms_run[80]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_059_1"
+description = "RPMM0042 sample matsu_059_1"
+
+[[sample]]
+index = 81
+name = "matsu_060_1"
+assay = "matsu_060_1"
+ms_run_ref = "ms_run[81]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_060_1"
+description = "RPMM0042 sample matsu_060_1"
+
+[[sample]]
+index = 82
+name = "matsu_061_1"
+assay = "matsu_061_1"
+ms_run_ref = "ms_run[82]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_061_1"
+description = "RPMM0042 sample matsu_061_1"
+
+[[sample]]
+index = 83
+name = "matsu_062_1"
+assay = "matsu_062_1"
+ms_run_ref = "ms_run[83]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_062_1"
+description = "RPMM0042 sample matsu_062_1"
+
+[[sample]]
+index = 84
+name = "matsu_063_1"
+assay = "matsu_063_1"
+ms_run_ref = "ms_run[84]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_063_1"
+description = "RPMM0042 sample matsu_063_1"
+
+[[sample]]
+index = 85
+name = "matsu_064_1"
+assay = "matsu_064_1"
+ms_run_ref = "ms_run[85]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_064_1"
+description = "RPMM0042 sample matsu_064_1"
+
+[[sample]]
+index = 86
+name = "matsu_065_1"
+assay = "matsu_065_1"
+ms_run_ref = "ms_run[86]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_065_1"
+description = "RPMM0042 sample matsu_065_1"
+
+[[sample]]
+index = 87
+name = "matsu_066_1"
+assay = "matsu_066_1"
+ms_run_ref = "ms_run[87]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_066_1"
+description = "RPMM0042 sample matsu_066_1"
+
+[[sample]]
+index = 88
+name = "matsu_067_1"
+assay = "matsu_067_1"
+ms_run_ref = "ms_run[88]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_067_1"
+description = "RPMM0042 sample matsu_067_1"
+
+[[sample]]
+index = 89
+name = "matsu_068_1"
+assay = "matsu_068_1"
+ms_run_ref = "ms_run[89]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_068_1"
+description = "RPMM0042 sample matsu_068_1"
+
+[[sample]]
+index = 90
+name = "matsu_069_1"
+assay = "matsu_069_1"
+ms_run_ref = "ms_run[90]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_069_1"
+description = "RPMM0042 sample matsu_069_1"
+
+[[sample]]
+index = 91
+name = "matsu_070_1"
+assay = "matsu_070_1"
+ms_run_ref = "ms_run[91]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_070_1"
+description = "RPMM0042 sample matsu_070_1"
+
+[[sample]]
+index = 92
+name = "matsu_071_1"
+assay = "matsu_071_1"
+ms_run_ref = "ms_run[92]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_071_1"
+description = "RPMM0042 sample matsu_071_1"
+
+[[sample]]
+index = 93
+name = "matsu_072_1"
+assay = "matsu_072_1"
+ms_run_ref = "ms_run[93]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_072_1"
+description = "RPMM0042 sample matsu_072_1"
+
+[[sample]]
+index = 94
+name = "matsu_073_1"
+assay = "matsu_073_1"
+ms_run_ref = "ms_run[94]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_073_1"
+description = "RPMM0042 sample matsu_073_1"
+
+[[sample]]
+index = 95
+name = "matsu_074_1"
+assay = "matsu_074_1"
+ms_run_ref = "ms_run[95]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_074_1"
+description = "RPMM0042 sample matsu_074_1"
+
+[[sample]]
+index = 96
+name = "matsu_075_1"
+assay = "matsu_075_1"
+ms_run_ref = "ms_run[96]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_075_1"
+description = "RPMM0042 sample matsu_075_1"
+
+[[sample]]
+index = 97
+name = "matsu_076_1"
+assay = "matsu_076_1"
+ms_run_ref = "ms_run[97]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_076_1"
+description = "RPMM0042 sample matsu_076_1"
+
+[[sample]]
+index = 98
+name = "matsu_077_1"
+assay = "matsu_077_1"
+ms_run_ref = "ms_run[98]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_077_1"
+description = "RPMM0042 sample matsu_077_1"
+
+[[sample]]
+index = 99
+name = "matsu_078_1"
+assay = "matsu_078_1"
+ms_run_ref = "ms_run[99]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_078_1"
+description = "RPMM0042 sample matsu_078_1"
+
+[[sample]]
+index = 100
+name = "matsu_079_1"
+assay = "matsu_079_1"
+ms_run_ref = "ms_run[100]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_079_1"
+description = "RPMM0042 sample matsu_079_1"
+
+[[sample]]
+index = 101
+name = "matsu_080_1"
+assay = "matsu_080_1"
+ms_run_ref = "ms_run[101]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_080_1"
+description = "RPMM0042 sample matsu_080_1"
+
+[[sample]]
+index = 102
+name = "matsu_081_1"
+assay = "matsu_081_1"
+ms_run_ref = "ms_run[102]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_081_1"
+description = "RPMM0042 sample matsu_081_1"
+
+[[sample]]
+index = 103
+name = "matsu_082_1"
+assay = "matsu_082_1"
+ms_run_ref = "ms_run[103]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_082_1"
+description = "RPMM0042 sample matsu_082_1"
+
+[[sample]]
+index = 104
+name = "matsu_083_1"
+assay = "matsu_083_1"
+ms_run_ref = "ms_run[104]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_083_1"
+description = "RPMM0042 sample matsu_083_1"
+
+[[sample]]
+index = 105
+name = "matsu_084_1"
+assay = "matsu_084_1"
+ms_run_ref = "ms_run[105]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_084_1"
+description = "RPMM0042 sample matsu_084_1"
+
+[[sample]]
+index = 106
+name = "matsu_085_1"
+assay = "matsu_085_1"
+ms_run_ref = "ms_run[106]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_085_1"
+description = "RPMM0042 sample matsu_085_1"
+
+[[sample]]
+index = 107
+name = "matsu_086_1"
+assay = "matsu_086_1"
+ms_run_ref = "ms_run[107]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_086_1"
+description = "RPMM0042 sample matsu_086_1"
+
+[[sample]]
+index = 108
+name = "matsu_087_1"
+assay = "matsu_087_1"
+ms_run_ref = "ms_run[108]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_087_1"
+description = "RPMM0042 sample matsu_087_1"
+
+[[sample]]
+index = 109
+name = "matsu_088_1"
+assay = "matsu_088_1"
+ms_run_ref = "ms_run[109]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_088_1"
+description = "RPMM0042 sample matsu_088_1"
+
+[[sample]]
+index = 110
+name = "matsu_089_1"
+assay = "matsu_089_1"
+ms_run_ref = "ms_run[110]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_089_1"
+description = "RPMM0042 sample matsu_089_1"
+
+[[sample]]
+index = 111
+name = "matsu_090_1"
+assay = "matsu_090_1"
+ms_run_ref = "ms_run[111]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_090_1"
+description = "RPMM0042 sample matsu_090_1"
+
+[[sample]]
+index = 112
+name = "matsu_091_1"
+assay = "matsu_091_1"
+ms_run_ref = "ms_run[112]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_091_1"
+description = "RPMM0042 sample matsu_091_1"
+
+[[sample]]
+index = 113
+name = "matsu_092_1"
+assay = "matsu_092_1"
+ms_run_ref = "ms_run[113]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_092_1"
+description = "RPMM0042 sample matsu_092_1"
+
+[[sample]]
+index = 114
+name = "matsu_093_1"
+assay = "matsu_093_1"
+ms_run_ref = "ms_run[114]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_093_1"
+description = "RPMM0042 sample matsu_093_1"
+
+[[sample]]
+index = 115
+name = "matsu_094_1"
+assay = "matsu_094_1"
+ms_run_ref = "ms_run[115]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_094_1"
+description = "RPMM0042 sample matsu_094_1"
+
+[[sample]]
+index = 116
+name = "matsu_095_1"
+assay = "matsu_095_1"
+ms_run_ref = "ms_run[116]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_095_1"
+description = "RPMM0042 sample matsu_095_1"
+
+[[sample]]
+index = 117
+name = "matsu_096_1"
+assay = "matsu_096_1"
+ms_run_ref = "ms_run[117]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_096_1"
+description = "RPMM0042 sample matsu_096_1"
+
+[[sample]]
+index = 118
+name = "matsu_097_1"
+assay = "matsu_097_1"
+ms_run_ref = "ms_run[118]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_097_1"
+description = "RPMM0042 sample matsu_097_1"
+
+[[sample]]
+index = 119
+name = "matsu_098_1"
+assay = "matsu_098_1"
+ms_run_ref = "ms_run[119]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_098_1"
+description = "RPMM0042 sample matsu_098_1"
+
+[[sample]]
+index = 120
+name = "matsu_099_1"
+assay = "matsu_099_1"
+ms_run_ref = "ms_run[120]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_099_1"
+description = "RPMM0042 sample matsu_099_1"
+
+[[sample]]
+index = 121
+name = "matsu_100_1"
+assay = "matsu_100_1"
+ms_run_ref = "ms_run[121]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_100_1"
+description = "RPMM0042 sample matsu_100_1"
+
+[[sample]]
+index = 122
+name = "matsu_101_1"
+assay = "matsu_101_1"
+ms_run_ref = "ms_run[122]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_101_1"
+description = "RPMM0042 sample matsu_101_1"
+
+[[sample]]
+index = 123
+name = "matsu_102_1"
+assay = "matsu_102_1"
+ms_run_ref = "ms_run[123]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_102_1"
+description = "RPMM0042 sample matsu_102_1"
+
+[[sample]]
+index = 124
+name = "matsu_103_1"
+assay = "matsu_103_1"
+ms_run_ref = "ms_run[124]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_103_1"
+description = "RPMM0042 sample matsu_103_1"
+
+[[sample]]
+index = 125
+name = "matsu_104_1"
+assay = "matsu_104_1"
+ms_run_ref = "ms_run[125]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_104_1"
+description = "RPMM0042 sample matsu_104_1"
+
+[[sample]]
+index = 126
+name = "matsu_105_1"
+assay = "matsu_105_1"
+ms_run_ref = "ms_run[126]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_105_1"
+description = "RPMM0042 sample matsu_105_1"
+
+[[sample]]
+index = 127
+name = "matsu_106_1"
+assay = "matsu_106_1"
+ms_run_ref = "ms_run[127]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_106_1"
+description = "RPMM0042 sample matsu_106_1"
+
+[[sample]]
+index = 128
+name = "matsu_107_1"
+assay = "matsu_107_1"
+ms_run_ref = "ms_run[128]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_107_1"
+description = "RPMM0042 sample matsu_107_1"
+
+[[sample]]
+index = 129
+name = "matsu_108_1"
+assay = "matsu_108_1"
+ms_run_ref = "ms_run[129]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_108_1"
+description = "RPMM0042 sample matsu_108_1"
+
+[[sample]]
+index = 130
+name = "matsu_109_1"
+assay = "matsu_109_1"
+ms_run_ref = "ms_run[130]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_109_1"
+description = "RPMM0042 sample matsu_109_1"
+
+[[sample]]
+index = 131
+name = "matsu_110_1"
+assay = "matsu_110_1"
+ms_run_ref = "ms_run[131]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_110_1"
+description = "RPMM0042 sample matsu_110_1"
+
+[[sample]]
+index = 132
+name = "matsu_111_1"
+assay = "matsu_111_1"
+ms_run_ref = "ms_run[132]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_111_1"
+description = "RPMM0042 sample matsu_111_1"
+
+[[sample]]
+index = 133
+name = "matsu_112_1"
+assay = "matsu_112_1"
+ms_run_ref = "ms_run[133]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_112_1"
+description = "RPMM0042 sample matsu_112_1"
+
+[[sample]]
+index = 134
+name = "matsu_113_1"
+assay = "matsu_113_1"
+ms_run_ref = "ms_run[134]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_113_1"
+description = "RPMM0042 sample matsu_113_1"
+
+[[sample]]
+index = 135
+name = "matsu_114_1"
+assay = "matsu_114_1"
+ms_run_ref = "ms_run[135]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_114_1"
+description = "RPMM0042 sample matsu_114_1"
+
+[[sample]]
+index = 136
+name = "matsu_115_1"
+assay = "matsu_115_1"
+ms_run_ref = "ms_run[136]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_115_1"
+description = "RPMM0042 sample matsu_115_1"
+
+[[sample]]
+index = 137
+name = "matsu_116_1"
+assay = "matsu_116_1"
+ms_run_ref = "ms_run[137]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_116_1"
+description = "RPMM0042 sample matsu_116_1"
+
+[[sample]]
+index = 138
+name = "matsu_117_1"
+assay = "matsu_117_1"
+ms_run_ref = "ms_run[138]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_117_1"
+description = "RPMM0042 sample matsu_117_1"
+
+[[sample]]
+index = 139
+name = "matsu_118_1"
+assay = "matsu_118_1"
+ms_run_ref = "ms_run[139]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_118_1"
+description = "RPMM0042 sample matsu_118_1"
+
+[[sample]]
+index = 140
+name = "matsu_119_1"
+assay = "matsu_119_1"
+ms_run_ref = "ms_run[140]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_119_1"
+description = "RPMM0042 sample matsu_119_1"
+
+[[sample]]
+index = 141
+name = "matsu_120_1"
+assay = "matsu_120_1"
+ms_run_ref = "ms_run[141]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_120_1"
+description = "RPMM0042 sample matsu_120_1"
+
+[[sample]]
+index = 142
+name = "matsu_121_1"
+assay = "matsu_121_1"
+ms_run_ref = "ms_run[142]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_121_1"
+description = "RPMM0042 sample matsu_121_1"
+
+[[sample]]
+index = 143
+name = "matsu_122_1"
+assay = "matsu_122_1"
+ms_run_ref = "ms_run[143]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_122_1"
+description = "RPMM0042 sample matsu_122_1"
+
+[[sample]]
+index = 144
+name = "matsu_123_1"
+assay = "matsu_123_1"
+ms_run_ref = "ms_run[144]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_123_1"
+description = "RPMM0042 sample matsu_123_1"
+
+[[sample]]
+index = 145
+name = "matsu_124_1"
+assay = "matsu_124_1"
+ms_run_ref = "ms_run[145]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_124_1"
+description = "RPMM0042 sample matsu_124_1"
+
+[[sample]]
+index = 146
+name = "matsu_125_1"
+assay = "matsu_125_1"
+ms_run_ref = "ms_run[146]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_125_1"
+description = "RPMM0042 sample matsu_125_1"
+
+[[sample]]
+index = 147
+name = "matsu_126_1"
+assay = "matsu_126_1"
+ms_run_ref = "ms_run[147]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_126_1"
+description = "RPMM0042 sample matsu_126_1"
+
+[[sample]]
+index = 148
+name = "matsu_127_1"
+assay = "matsu_127_1"
+ms_run_ref = "ms_run[148]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_127_1"
+description = "RPMM0042 sample matsu_127_1"
+
+[[sample]]
+index = 149
+name = "matsu_128_1"
+assay = "matsu_128_1"
+ms_run_ref = "ms_run[149]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_128_1"
+description = "RPMM0042 sample matsu_128_1"
+
+[[sample]]
+index = 150
+name = "matsu_129_1"
+assay = "matsu_129_1"
+ms_run_ref = "ms_run[150]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_129_1"
+description = "RPMM0042 sample matsu_129_1"
+
+[[sample]]
+index = 151
+name = "matsu_130_1"
+assay = "matsu_130_1"
+ms_run_ref = "ms_run[151]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_130_1"
+description = "RPMM0042 sample matsu_130_1"
+
+[[sample]]
+index = 152
+name = "matsu_131_1"
+assay = "matsu_131_1"
+ms_run_ref = "ms_run[152]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_131_1"
+description = "RPMM0042 sample matsu_131_1"
+
+[[sample]]
+index = 153
+name = "matsu_132_1"
+assay = "matsu_132_1"
+ms_run_ref = "ms_run[153]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_132_1"
+description = "RPMM0042 sample matsu_132_1"
+
+[[sample]]
+index = 154
+name = "matsu_133_1"
+assay = "matsu_133_1"
+ms_run_ref = "ms_run[154]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_133_1"
+description = "RPMM0042 sample matsu_133_1"
+
+[[sample]]
+index = 155
+name = "matsu_134_1"
+assay = "matsu_134_1"
+ms_run_ref = "ms_run[155]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_134_1"
+description = "RPMM0042 sample matsu_134_1"
+
+[[sample]]
+index = 156
+name = "matsu_135_1"
+assay = "matsu_135_1"
+ms_run_ref = "ms_run[156]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_135_1"
+description = "RPMM0042 sample matsu_135_1"
+
+[[sample]]
+index = 157
+name = "matsu_136_1"
+assay = "matsu_136_1"
+ms_run_ref = "ms_run[157]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_136_1"
+description = "RPMM0042 sample matsu_136_1"
+
+[[sample]]
+index = 158
+name = "matsu_137_1"
+assay = "matsu_137_1"
+ms_run_ref = "ms_run[158]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_137_1"
+description = "RPMM0042 sample matsu_137_1"
+
+[[sample]]
+index = 159
+name = "matsu_138_1"
+assay = "matsu_138_1"
+ms_run_ref = "ms_run[159]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_138_1"
+description = "RPMM0042 sample matsu_138_1"
+
+[[sample]]
+index = 160
+name = "matsu_139_1"
+assay = "matsu_139_1"
+ms_run_ref = "ms_run[160]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_139_1"
+description = "RPMM0042 sample matsu_139_1"
+
+[[sample]]
+index = 161
+name = "matsu_140_1"
+assay = "matsu_140_1"
+ms_run_ref = "ms_run[161]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_140_1"
+description = "RPMM0042 sample matsu_140_1"
+
+[[sample]]
+index = 162
+name = "matsu_141_1"
+assay = "matsu_141_1"
+ms_run_ref = "ms_run[162]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_141_1"
+description = "RPMM0042 sample matsu_141_1"
+
+[[sample]]
+index = 163
+name = "matsu_142_1"
+assay = "matsu_142_1"
+ms_run_ref = "ms_run[163]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_142_1"
+description = "RPMM0042 sample matsu_142_1"
+
+[[sample]]
+index = 164
+name = "matsu_143_1"
+assay = "matsu_143_1"
+ms_run_ref = "ms_run[164]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_143_1"
+description = "RPMM0042 sample matsu_143_1"
+
+[[sample]]
+index = 165
+name = "matsu_144_1"
+assay = "matsu_144_1"
+ms_run_ref = "ms_run[165]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_144_1"
+description = "RPMM0042 sample matsu_144_1"
+
+[[sample]]
+index = 166
+name = "matsu_145_1"
+assay = "matsu_145_1"
+ms_run_ref = "ms_run[166]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_145_1"
+description = "RPMM0042 sample matsu_145_1"
+
+[[sample]]
+index = 167
+name = "matsu_146_1"
+assay = "matsu_146_1"
+ms_run_ref = "ms_run[167]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_146_1"
+description = "RPMM0042 sample matsu_146_1"
+
+[[sample]]
+index = 168
+name = "matsu_147_1"
+assay = "matsu_147_1"
+ms_run_ref = "ms_run[168]"
+location = "http://metabobank.riken.jp/data/RPMM0042/AnalysedDataset/MetMat_abs.txt#matsu_147_1"
+description = "RPMM0042 sample matsu_147_1"
+
+[study_variables]
+candidate_columns = [
+    "geno1",
+    "time",
+]
+
+[study_variables.levels]
+geno1 = [
+    "Col0",
+    "cytosolicGLYK",
+    "glyk",
+]
+time = [
+    "0min",
+    "1440min",
+    "720min",
+]

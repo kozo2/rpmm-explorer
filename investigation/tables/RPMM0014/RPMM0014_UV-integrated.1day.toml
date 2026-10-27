@@ -1,0 +1,761 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0014"
+title = "Metabolomics reveals comprehensive reprogramming involving two independent metabolic responses of Arabidopsis to UV-B light"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0014"
+
+[matrix]
+name = "UV-integrated.1day"
+source_file = "RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls"
+format = "xls"
+n_features = 650
+n_samples = 88
+metadata_columns = [
+    "Marked_peaks",
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+    "query",
+    "known",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0014/AnalysedDataset/GCMS/pheno_AF_forIntegrated.txt"
+msp = "RPMM0014/AnalysedDataset/GCMS/batch071013/071013uv_sample_02_nv_NIST.txt"
+
+[organism]
+raw = "Arabidopsis"
+cv = "[NCBITaxon, NCBITaxon:3702, Arabidopsis thaliana, ]"
+source = "msp:071013uv_sample_02_nv_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "Cl_1day_col0_15_101"
+assay = "Cl_1day_col0_15_101"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_col0_15_101"
+description = "RPMM0014 sample Cl_1day_col0_15_101"
+
+[[sample]]
+index = 2
+name = "Cl_1day_col0_15_201"
+assay = "Cl_1day_col0_15_201"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_col0_15_201"
+description = "RPMM0014 sample Cl_1day_col0_15_201"
+
+[[sample]]
+index = 3
+name = "Cl_1day_col0_15_301"
+assay = "Cl_1day_col0_15_301"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_col0_15_301"
+description = "RPMM0014 sample Cl_1day_col0_15_301"
+
+[[sample]]
+index = 4
+name = "Cl_1day_col0_15_501"
+assay = "Cl_1day_col0_15_501"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_col0_15_501"
+description = "RPMM0014 sample Cl_1day_col0_15_501"
+
+[[sample]]
+index = 5
+name = "Cl_1day_col0_15_601"
+assay = "Cl_1day_col0_15_601"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_col0_15_601"
+description = "RPMM0014 sample Cl_1day_col0_15_601"
+
+[[sample]]
+index = 6
+name = "Cl_1day_col0_18_101"
+assay = "Cl_1day_col0_18_101"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_col0_18_101"
+description = "RPMM0014 sample Cl_1day_col0_18_101"
+
+[[sample]]
+index = 7
+name = "Cl_1day_col0_18_201"
+assay = "Cl_1day_col0_18_201"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_col0_18_201"
+description = "RPMM0014 sample Cl_1day_col0_18_201"
+
+[[sample]]
+index = 8
+name = "Cl_1day_col0_18_301"
+assay = "Cl_1day_col0_18_301"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_col0_18_301"
+description = "RPMM0014 sample Cl_1day_col0_18_301"
+
+[[sample]]
+index = 9
+name = "Cl_1day_col0_18_401"
+assay = "Cl_1day_col0_18_401"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_col0_18_401"
+description = "RPMM0014 sample Cl_1day_col0_18_401"
+
+[[sample]]
+index = 10
+name = "Cl_1day_col0_18_501"
+assay = "Cl_1day_col0_18_501"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_col0_18_501"
+description = "RPMM0014 sample Cl_1day_col0_18_501"
+
+[[sample]]
+index = 11
+name = "Cl_1day_col0_18_701"
+assay = "Cl_1day_col0_18_701"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_col0_18_701"
+description = "RPMM0014 sample Cl_1day_col0_18_701"
+
+[[sample]]
+index = 12
+name = "Cl_1day_tt4_15_201"
+assay = "Cl_1day_tt4_15_201"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt4_15_201"
+description = "RPMM0014 sample Cl_1day_tt4_15_201"
+
+[[sample]]
+index = 13
+name = "Cl_1day_tt4_15_301"
+assay = "Cl_1day_tt4_15_301"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt4_15_301"
+description = "RPMM0014 sample Cl_1day_tt4_15_301"
+
+[[sample]]
+index = 14
+name = "Cl_1day_tt4_15_401"
+assay = "Cl_1day_tt4_15_401"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt4_15_401"
+description = "RPMM0014 sample Cl_1day_tt4_15_401"
+
+[[sample]]
+index = 15
+name = "Cl_1day_tt4_15_501"
+assay = "Cl_1day_tt4_15_501"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt4_15_501"
+description = "RPMM0014 sample Cl_1day_tt4_15_501"
+
+[[sample]]
+index = 16
+name = "Cl_1day_tt4_15_601"
+assay = "Cl_1day_tt4_15_601"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt4_15_601"
+description = "RPMM0014 sample Cl_1day_tt4_15_601"
+
+[[sample]]
+index = 17
+name = "Cl_1day_tt4_18_101"
+assay = "Cl_1day_tt4_18_101"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt4_18_101"
+description = "RPMM0014 sample Cl_1day_tt4_18_101"
+
+[[sample]]
+index = 18
+name = "Cl_1day_tt4_18_201"
+assay = "Cl_1day_tt4_18_201"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt4_18_201"
+description = "RPMM0014 sample Cl_1day_tt4_18_201"
+
+[[sample]]
+index = 19
+name = "Cl_1day_tt4_18_301"
+assay = "Cl_1day_tt4_18_301"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt4_18_301"
+description = "RPMM0014 sample Cl_1day_tt4_18_301"
+
+[[sample]]
+index = 20
+name = "Cl_1day_tt4_18_401"
+assay = "Cl_1day_tt4_18_401"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt4_18_401"
+description = "RPMM0014 sample Cl_1day_tt4_18_401"
+
+[[sample]]
+index = 21
+name = "Cl_1day_tt4_18_501"
+assay = "Cl_1day_tt4_18_501"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt4_18_501"
+description = "RPMM0014 sample Cl_1day_tt4_18_501"
+
+[[sample]]
+index = 22
+name = "Cl_1day_tt4_18_701"
+assay = "Cl_1day_tt4_18_701"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt4_18_701"
+description = "RPMM0014 sample Cl_1day_tt4_18_701"
+
+[[sample]]
+index = 23
+name = "Cl_1day_tt5_15_401"
+assay = "Cl_1day_tt5_15_401"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt5_15_401"
+description = "RPMM0014 sample Cl_1day_tt5_15_401"
+
+[[sample]]
+index = 24
+name = "Cl_1day_tt5_15_501"
+assay = "Cl_1day_tt5_15_501"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt5_15_501"
+description = "RPMM0014 sample Cl_1day_tt5_15_501"
+
+[[sample]]
+index = 25
+name = "Cl_1day_tt5_15_601"
+assay = "Cl_1day_tt5_15_601"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt5_15_601"
+description = "RPMM0014 sample Cl_1day_tt5_15_601"
+
+[[sample]]
+index = 26
+name = "Cl_1day_tt5_15_701"
+assay = "Cl_1day_tt5_15_701"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt5_15_701"
+description = "RPMM0014 sample Cl_1day_tt5_15_701"
+
+[[sample]]
+index = 27
+name = "Cl_1day_tt5_18_101"
+assay = "Cl_1day_tt5_18_101"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt5_18_101"
+description = "RPMM0014 sample Cl_1day_tt5_18_101"
+
+[[sample]]
+index = 28
+name = "Cl_1day_tt5_18_201"
+assay = "Cl_1day_tt5_18_201"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt5_18_201"
+description = "RPMM0014 sample Cl_1day_tt5_18_201"
+
+[[sample]]
+index = 29
+name = "Cl_1day_tt5_18_301"
+assay = "Cl_1day_tt5_18_301"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt5_18_301"
+description = "RPMM0014 sample Cl_1day_tt5_18_301"
+
+[[sample]]
+index = 30
+name = "Cl_1day_tt5_18_401"
+assay = "Cl_1day_tt5_18_401"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt5_18_401"
+description = "RPMM0014 sample Cl_1day_tt5_18_401"
+
+[[sample]]
+index = 31
+name = "Cl_1day_tt5_18_501"
+assay = "Cl_1day_tt5_18_501"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt5_18_501"
+description = "RPMM0014 sample Cl_1day_tt5_18_501"
+
+[[sample]]
+index = 32
+name = "Cl_1day_tt5_18_601"
+assay = "Cl_1day_tt5_18_601"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt5_18_601"
+description = "RPMM0014 sample Cl_1day_tt5_18_601"
+
+[[sample]]
+index = 33
+name = "Cl_1day_tt5_18_701"
+assay = "Cl_1day_tt5_18_701"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_tt5_18_701"
+description = "RPMM0014 sample Cl_1day_tt5_18_701"
+
+[[sample]]
+index = 34
+name = "Cl_1day_sng1_15_201"
+assay = "Cl_1day_sng1_15_201"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_sng1_15_201"
+description = "RPMM0014 sample Cl_1day_sng1_15_201"
+
+[[sample]]
+index = 35
+name = "Cl_1day_sng1_15_301"
+assay = "Cl_1day_sng1_15_301"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_sng1_15_301"
+description = "RPMM0014 sample Cl_1day_sng1_15_301"
+
+[[sample]]
+index = 36
+name = "Cl_1day_sng1_15_401"
+assay = "Cl_1day_sng1_15_401"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_sng1_15_401"
+description = "RPMM0014 sample Cl_1day_sng1_15_401"
+
+[[sample]]
+index = 37
+name = "Cl_1day_sng1_15_501"
+assay = "Cl_1day_sng1_15_501"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_sng1_15_501"
+description = "RPMM0014 sample Cl_1day_sng1_15_501"
+
+[[sample]]
+index = 38
+name = "Cl_1day_sng1_15_601"
+assay = "Cl_1day_sng1_15_601"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_sng1_15_601"
+description = "RPMM0014 sample Cl_1day_sng1_15_601"
+
+[[sample]]
+index = 39
+name = "Cl_1day_sng1_15_701"
+assay = "Cl_1day_sng1_15_701"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_sng1_15_701"
+description = "RPMM0014 sample Cl_1day_sng1_15_701"
+
+[[sample]]
+index = 40
+name = "Cl_1day_sng1_18_201"
+assay = "Cl_1day_sng1_18_201"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_sng1_18_201"
+description = "RPMM0014 sample Cl_1day_sng1_18_201"
+
+[[sample]]
+index = 41
+name = "Cl_1day_sng1_18_301"
+assay = "Cl_1day_sng1_18_301"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_sng1_18_301"
+description = "RPMM0014 sample Cl_1day_sng1_18_301"
+
+[[sample]]
+index = 42
+name = "Cl_1day_sng1_18_501"
+assay = "Cl_1day_sng1_18_501"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_sng1_18_501"
+description = "RPMM0014 sample Cl_1day_sng1_18_501"
+
+[[sample]]
+index = 43
+name = "Cl_1day_sng1_18_601"
+assay = "Cl_1day_sng1_18_601"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_sng1_18_601"
+description = "RPMM0014 sample Cl_1day_sng1_18_601"
+
+[[sample]]
+index = 44
+name = "Cl_1day_sng1_18_701"
+assay = "Cl_1day_sng1_18_701"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Cl_1day_sng1_18_701"
+description = "RPMM0014 sample Cl_1day_sng1_18_701"
+
+[[sample]]
+index = 45
+name = "Uv_1day_col0_13_201"
+assay = "Uv_1day_col0_13_201"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_col0_13_201"
+description = "RPMM0014 sample Uv_1day_col0_13_201"
+
+[[sample]]
+index = 46
+name = "Uv_1day_col0_13_301"
+assay = "Uv_1day_col0_13_301"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_col0_13_301"
+description = "RPMM0014 sample Uv_1day_col0_13_301"
+
+[[sample]]
+index = 47
+name = "Uv_1day_col0_13_401"
+assay = "Uv_1day_col0_13_401"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_col0_13_401"
+description = "RPMM0014 sample Uv_1day_col0_13_401"
+
+[[sample]]
+index = 48
+name = "Uv_1day_col0_13_501"
+assay = "Uv_1day_col0_13_501"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_col0_13_501"
+description = "RPMM0014 sample Uv_1day_col0_13_501"
+
+[[sample]]
+index = 49
+name = "Uv_1day_col0_14_101"
+assay = "Uv_1day_col0_14_101"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_col0_14_101"
+description = "RPMM0014 sample Uv_1day_col0_14_101"
+
+[[sample]]
+index = 50
+name = "Uv_1day_col0_14_201"
+assay = "Uv_1day_col0_14_201"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_col0_14_201"
+description = "RPMM0014 sample Uv_1day_col0_14_201"
+
+[[sample]]
+index = 51
+name = "Uv_1day_col0_14_301"
+assay = "Uv_1day_col0_14_301"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_col0_14_301"
+description = "RPMM0014 sample Uv_1day_col0_14_301"
+
+[[sample]]
+index = 52
+name = "Uv_1day_col0_16_101"
+assay = "Uv_1day_col0_16_101"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_col0_16_101"
+description = "RPMM0014 sample Uv_1day_col0_16_101"
+
+[[sample]]
+index = 53
+name = "Uv_1day_col0_16_201"
+assay = "Uv_1day_col0_16_201"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_col0_16_201"
+description = "RPMM0014 sample Uv_1day_col0_16_201"
+
+[[sample]]
+index = 54
+name = "Uv_1day_col0_16_301"
+assay = "Uv_1day_col0_16_301"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_col0_16_301"
+description = "RPMM0014 sample Uv_1day_col0_16_301"
+
+[[sample]]
+index = 55
+name = "Uv_1day_col0_16_401"
+assay = "Uv_1day_col0_16_401"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_col0_16_401"
+description = "RPMM0014 sample Uv_1day_col0_16_401"
+
+[[sample]]
+index = 56
+name = "Uv_1day_tt4_13_201"
+assay = "Uv_1day_tt4_13_201"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt4_13_201"
+description = "RPMM0014 sample Uv_1day_tt4_13_201"
+
+[[sample]]
+index = 57
+name = "Uv_1day_tt4_13_301"
+assay = "Uv_1day_tt4_13_301"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt4_13_301"
+description = "RPMM0014 sample Uv_1day_tt4_13_301"
+
+[[sample]]
+index = 58
+name = "Uv_1day_tt4_13_401"
+assay = "Uv_1day_tt4_13_401"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt4_13_401"
+description = "RPMM0014 sample Uv_1day_tt4_13_401"
+
+[[sample]]
+index = 59
+name = "Uv_1day_tt4_14_101"
+assay = "Uv_1day_tt4_14_101"
+ms_run_ref = "ms_run[59]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt4_14_101"
+description = "RPMM0014 sample Uv_1day_tt4_14_101"
+
+[[sample]]
+index = 60
+name = "Uv_1day_tt4_14_201"
+assay = "Uv_1day_tt4_14_201"
+ms_run_ref = "ms_run[60]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt4_14_201"
+description = "RPMM0014 sample Uv_1day_tt4_14_201"
+
+[[sample]]
+index = 61
+name = "Uv_1day_tt4_14_301"
+assay = "Uv_1day_tt4_14_301"
+ms_run_ref = "ms_run[61]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt4_14_301"
+description = "RPMM0014 sample Uv_1day_tt4_14_301"
+
+[[sample]]
+index = 62
+name = "Uv_1day_tt4_16_301"
+assay = "Uv_1day_tt4_16_301"
+ms_run_ref = "ms_run[62]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt4_16_301"
+description = "RPMM0014 sample Uv_1day_tt4_16_301"
+
+[[sample]]
+index = 63
+name = "Uv_1day_tt4_16_401"
+assay = "Uv_1day_tt4_16_401"
+ms_run_ref = "ms_run[63]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt4_16_401"
+description = "RPMM0014 sample Uv_1day_tt4_16_401"
+
+[[sample]]
+index = 64
+name = "Uv_1day_tt4_17_101"
+assay = "Uv_1day_tt4_17_101"
+ms_run_ref = "ms_run[64]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt4_17_101"
+description = "RPMM0014 sample Uv_1day_tt4_17_101"
+
+[[sample]]
+index = 65
+name = "Uv_1day_tt4_17_201"
+assay = "Uv_1day_tt4_17_201"
+ms_run_ref = "ms_run[65]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt4_17_201"
+description = "RPMM0014 sample Uv_1day_tt4_17_201"
+
+[[sample]]
+index = 66
+name = "Uv_1day_tt4_17_401"
+assay = "Uv_1day_tt4_17_401"
+ms_run_ref = "ms_run[66]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt4_17_401"
+description = "RPMM0014 sample Uv_1day_tt4_17_401"
+
+[[sample]]
+index = 67
+name = "Uv_1day_tt5_13_101"
+assay = "Uv_1day_tt5_13_101"
+ms_run_ref = "ms_run[67]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt5_13_101"
+description = "RPMM0014 sample Uv_1day_tt5_13_101"
+
+[[sample]]
+index = 68
+name = "Uv_1day_tt5_13_201"
+assay = "Uv_1day_tt5_13_201"
+ms_run_ref = "ms_run[68]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt5_13_201"
+description = "RPMM0014 sample Uv_1day_tt5_13_201"
+
+[[sample]]
+index = 69
+name = "Uv_1day_tt5_13_401"
+assay = "Uv_1day_tt5_13_401"
+ms_run_ref = "ms_run[69]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt5_13_401"
+description = "RPMM0014 sample Uv_1day_tt5_13_401"
+
+[[sample]]
+index = 70
+name = "Uv_1day_tt5_13_501"
+assay = "Uv_1day_tt5_13_501"
+ms_run_ref = "ms_run[70]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt5_13_501"
+description = "RPMM0014 sample Uv_1day_tt5_13_501"
+
+[[sample]]
+index = 71
+name = "Uv_1day_tt5_13_701"
+assay = "Uv_1day_tt5_13_701"
+ms_run_ref = "ms_run[71]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt5_13_701"
+description = "RPMM0014 sample Uv_1day_tt5_13_701"
+
+[[sample]]
+index = 72
+name = "Uv_1day_tt5_14_101"
+assay = "Uv_1day_tt5_14_101"
+ms_run_ref = "ms_run[72]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt5_14_101"
+description = "RPMM0014 sample Uv_1day_tt5_14_101"
+
+[[sample]]
+index = 73
+name = "Uv_1day_tt5_14_201"
+assay = "Uv_1day_tt5_14_201"
+ms_run_ref = "ms_run[73]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt5_14_201"
+description = "RPMM0014 sample Uv_1day_tt5_14_201"
+
+[[sample]]
+index = 74
+name = "Uv_1day_tt5_16_101"
+assay = "Uv_1day_tt5_16_101"
+ms_run_ref = "ms_run[74]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt5_16_101"
+description = "RPMM0014 sample Uv_1day_tt5_16_101"
+
+[[sample]]
+index = 75
+name = "Uv_1day_tt5_16_201"
+assay = "Uv_1day_tt5_16_201"
+ms_run_ref = "ms_run[75]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt5_16_201"
+description = "RPMM0014 sample Uv_1day_tt5_16_201"
+
+[[sample]]
+index = 76
+name = "Uv_1day_tt5_16_301"
+assay = "Uv_1day_tt5_16_301"
+ms_run_ref = "ms_run[76]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt5_16_301"
+description = "RPMM0014 sample Uv_1day_tt5_16_301"
+
+[[sample]]
+index = 77
+name = "Uv_1day_tt5_17_301"
+assay = "Uv_1day_tt5_17_301"
+ms_run_ref = "ms_run[77]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_tt5_17_301"
+description = "RPMM0014 sample Uv_1day_tt5_17_301"
+
+[[sample]]
+index = 78
+name = "Uv_1day_sng1_13_101"
+assay = "Uv_1day_sng1_13_101"
+ms_run_ref = "ms_run[78]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_sng1_13_101"
+description = "RPMM0014 sample Uv_1day_sng1_13_101"
+
+[[sample]]
+index = 79
+name = "Uv_1day_sng1_13_201"
+assay = "Uv_1day_sng1_13_201"
+ms_run_ref = "ms_run[79]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_sng1_13_201"
+description = "RPMM0014 sample Uv_1day_sng1_13_201"
+
+[[sample]]
+index = 80
+name = "Uv_1day_sng1_13_301"
+assay = "Uv_1day_sng1_13_301"
+ms_run_ref = "ms_run[80]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_sng1_13_301"
+description = "RPMM0014 sample Uv_1day_sng1_13_301"
+
+[[sample]]
+index = 81
+name = "Uv_1day_sng1_13_401"
+assay = "Uv_1day_sng1_13_401"
+ms_run_ref = "ms_run[81]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_sng1_13_401"
+description = "RPMM0014 sample Uv_1day_sng1_13_401"
+
+[[sample]]
+index = 82
+name = "Uv_1day_sng1_13_501"
+assay = "Uv_1day_sng1_13_501"
+ms_run_ref = "ms_run[82]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_sng1_13_501"
+description = "RPMM0014 sample Uv_1day_sng1_13_501"
+
+[[sample]]
+index = 83
+name = "Uv_1day_sng1_13_701"
+assay = "Uv_1day_sng1_13_701"
+ms_run_ref = "ms_run[83]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_sng1_13_701"
+description = "RPMM0014 sample Uv_1day_sng1_13_701"
+
+[[sample]]
+index = 84
+name = "Uv_1day_sng1_14_101"
+assay = "Uv_1day_sng1_14_101"
+ms_run_ref = "ms_run[84]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_sng1_14_101"
+description = "RPMM0014 sample Uv_1day_sng1_14_101"
+
+[[sample]]
+index = 85
+name = "Uv_1day_sng1_14_201"
+assay = "Uv_1day_sng1_14_201"
+ms_run_ref = "ms_run[85]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_sng1_14_201"
+description = "RPMM0014 sample Uv_1day_sng1_14_201"
+
+[[sample]]
+index = 86
+name = "Uv_1day_sng1_14_501"
+assay = "Uv_1day_sng1_14_501"
+ms_run_ref = "ms_run[86]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_sng1_14_501"
+description = "RPMM0014 sample Uv_1day_sng1_14_501"
+
+[[sample]]
+index = 87
+name = "Uv_1day_sng1_16_301"
+assay = "Uv_1day_sng1_16_301"
+ms_run_ref = "ms_run[87]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_sng1_16_301"
+description = "RPMM0014 sample Uv_1day_sng1_16_301"
+
+[[sample]]
+index = 88
+name = "Uv_1day_sng1_17_401"
+assay = "Uv_1day_sng1_17_401"
+ms_run_ref = "ms_run[88]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV-integrated.1day.xls#Uv_1day_sng1_17_401"
+description = "RPMM0014 sample Uv_1day_sng1_17_401"
+
+[study_variables]
+candidate_columns = [
+    "treatment",
+    "day",
+    "genotype",
+    "batch",
+]
+
+[study_variables.levels]
+treatment = []
+day = []
+genotype = []
+batch = []

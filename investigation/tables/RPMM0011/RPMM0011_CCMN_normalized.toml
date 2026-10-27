@@ -1,0 +1,513 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0011"
+title = "Comparative metabolomics charts the impact of genotype-dependent methionine accumulation in <i>Arabidopsis thaliana</i>"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0011"
+
+[matrix]
+name = "CCMN_normalized"
+source_file = "RPMM0011/AnalysedDataset/CCMN_normalized.txt"
+format = "tsv"
+n_features = 215
+n_samples = 58
+metadata_columns = [
+    "Marked_peaks",
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+    "query",
+    "known",
+    "preferred",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = ""
+msp = "RPMM0011/AnalysedDataset/090711mto_mto_x_tt4_series_nv_NIST.txt"
+
+[organism]
+raw = "Arabidopsis"
+cv = "[NCBITaxon, NCBITaxon:3702, Arabidopsis thaliana, ]"
+source = "msp:090711mto_mto_x_tt4_series_nv_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "mto_001_1"
+assay = "mto_001_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_001_1"
+description = "RPMM0011 sample mto_001_1"
+
+[[sample]]
+index = 2
+name = "mto_002_1"
+assay = "mto_002_1"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_002_1"
+description = "RPMM0011 sample mto_002_1"
+
+[[sample]]
+index = 3
+name = "mto_003_2"
+assay = "mto_003_2"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_003_2"
+description = "RPMM0011 sample mto_003_2"
+
+[[sample]]
+index = 4
+name = "mto_004_1"
+assay = "mto_004_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_004_1"
+description = "RPMM0011 sample mto_004_1"
+
+[[sample]]
+index = 5
+name = "mto_005_1"
+assay = "mto_005_1"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_005_1"
+description = "RPMM0011 sample mto_005_1"
+
+[[sample]]
+index = 6
+name = "mto_006_1"
+assay = "mto_006_1"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_006_1"
+description = "RPMM0011 sample mto_006_1"
+
+[[sample]]
+index = 7
+name = "mto_007_1"
+assay = "mto_007_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_007_1"
+description = "RPMM0011 sample mto_007_1"
+
+[[sample]]
+index = 8
+name = "mto_008_1"
+assay = "mto_008_1"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_008_1"
+description = "RPMM0011 sample mto_008_1"
+
+[[sample]]
+index = 9
+name = "mto_010_1"
+assay = "mto_010_1"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_010_1"
+description = "RPMM0011 sample mto_010_1"
+
+[[sample]]
+index = 10
+name = "mto_011_1"
+assay = "mto_011_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_011_1"
+description = "RPMM0011 sample mto_011_1"
+
+[[sample]]
+index = 11
+name = "mto_012_1"
+assay = "mto_012_1"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_012_1"
+description = "RPMM0011 sample mto_012_1"
+
+[[sample]]
+index = 12
+name = "mto_013_1"
+assay = "mto_013_1"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_013_1"
+description = "RPMM0011 sample mto_013_1"
+
+[[sample]]
+index = 13
+name = "mto_014_1"
+assay = "mto_014_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_014_1"
+description = "RPMM0011 sample mto_014_1"
+
+[[sample]]
+index = 14
+name = "mto_014_2"
+assay = "mto_014_2"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_014_2"
+description = "RPMM0011 sample mto_014_2"
+
+[[sample]]
+index = 15
+name = "mto_015_1"
+assay = "mto_015_1"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_015_1"
+description = "RPMM0011 sample mto_015_1"
+
+[[sample]]
+index = 16
+name = "mto_016_1"
+assay = "mto_016_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_016_1"
+description = "RPMM0011 sample mto_016_1"
+
+[[sample]]
+index = 17
+name = "mto_017_1"
+assay = "mto_017_1"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_017_1"
+description = "RPMM0011 sample mto_017_1"
+
+[[sample]]
+index = 18
+name = "mto_018_1"
+assay = "mto_018_1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_018_1"
+description = "RPMM0011 sample mto_018_1"
+
+[[sample]]
+index = 19
+name = "mto_019_1"
+assay = "mto_019_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_019_1"
+description = "RPMM0011 sample mto_019_1"
+
+[[sample]]
+index = 20
+name = "mto_020_1"
+assay = "mto_020_1"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_020_1"
+description = "RPMM0011 sample mto_020_1"
+
+[[sample]]
+index = 21
+name = "mto_021_1"
+assay = "mto_021_1"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_021_1"
+description = "RPMM0011 sample mto_021_1"
+
+[[sample]]
+index = 22
+name = "mto_022_1"
+assay = "mto_022_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_022_1"
+description = "RPMM0011 sample mto_022_1"
+
+[[sample]]
+index = 23
+name = "mto_023_1"
+assay = "mto_023_1"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_023_1"
+description = "RPMM0011 sample mto_023_1"
+
+[[sample]]
+index = 24
+name = "mto_024_1"
+assay = "mto_024_1"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_024_1"
+description = "RPMM0011 sample mto_024_1"
+
+[[sample]]
+index = 25
+name = "mto_025_1"
+assay = "mto_025_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_025_1"
+description = "RPMM0011 sample mto_025_1"
+
+[[sample]]
+index = 26
+name = "mto_026_1"
+assay = "mto_026_1"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_026_1"
+description = "RPMM0011 sample mto_026_1"
+
+[[sample]]
+index = 27
+name = "mto_027_1"
+assay = "mto_027_1"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_027_1"
+description = "RPMM0011 sample mto_027_1"
+
+[[sample]]
+index = 28
+name = "mto_028_1"
+assay = "mto_028_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_028_1"
+description = "RPMM0011 sample mto_028_1"
+
+[[sample]]
+index = 29
+name = "mto_029_2"
+assay = "mto_029_2"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_029_2"
+description = "RPMM0011 sample mto_029_2"
+
+[[sample]]
+index = 30
+name = "mto_030_1"
+assay = "mto_030_1"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_030_1"
+description = "RPMM0011 sample mto_030_1"
+
+[[sample]]
+index = 31
+name = "mto_031_1"
+assay = "mto_031_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_031_1"
+description = "RPMM0011 sample mto_031_1"
+
+[[sample]]
+index = 32
+name = "mto_032_1"
+assay = "mto_032_1"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_032_1"
+description = "RPMM0011 sample mto_032_1"
+
+[[sample]]
+index = 33
+name = "mto_033_1"
+assay = "mto_033_1"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_033_1"
+description = "RPMM0011 sample mto_033_1"
+
+[[sample]]
+index = 34
+name = "mto_034_2"
+assay = "mto_034_2"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_034_2"
+description = "RPMM0011 sample mto_034_2"
+
+[[sample]]
+index = 35
+name = "mto_035_1"
+assay = "mto_035_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_035_1"
+description = "RPMM0011 sample mto_035_1"
+
+[[sample]]
+index = 36
+name = "mto_036_1"
+assay = "mto_036_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_036_1"
+description = "RPMM0011 sample mto_036_1"
+
+[[sample]]
+index = 37
+name = "mto_037_1"
+assay = "mto_037_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_037_1"
+description = "RPMM0011 sample mto_037_1"
+
+[[sample]]
+index = 38
+name = "mto_038_1"
+assay = "mto_038_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_038_1"
+description = "RPMM0011 sample mto_038_1"
+
+[[sample]]
+index = 39
+name = "mto_039_1"
+assay = "mto_039_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_039_1"
+description = "RPMM0011 sample mto_039_1"
+
+[[sample]]
+index = 40
+name = "mto_040_1"
+assay = "mto_040_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_040_1"
+description = "RPMM0011 sample mto_040_1"
+
+[[sample]]
+index = 41
+name = "mto_041_1"
+assay = "mto_041_1"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_041_1"
+description = "RPMM0011 sample mto_041_1"
+
+[[sample]]
+index = 42
+name = "mto_042_1"
+assay = "mto_042_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_042_1"
+description = "RPMM0011 sample mto_042_1"
+
+[[sample]]
+index = 43
+name = "mto_043_1"
+assay = "mto_043_1"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_043_1"
+description = "RPMM0011 sample mto_043_1"
+
+[[sample]]
+index = 44
+name = "mto_044_1"
+assay = "mto_044_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_044_1"
+description = "RPMM0011 sample mto_044_1"
+
+[[sample]]
+index = 45
+name = "mto_045_1"
+assay = "mto_045_1"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_045_1"
+description = "RPMM0011 sample mto_045_1"
+
+[[sample]]
+index = 46
+name = "mto_046_1"
+assay = "mto_046_1"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_046_1"
+description = "RPMM0011 sample mto_046_1"
+
+[[sample]]
+index = 47
+name = "mto_047_1"
+assay = "mto_047_1"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_047_1"
+description = "RPMM0011 sample mto_047_1"
+
+[[sample]]
+index = 48
+name = "mto_048_1"
+assay = "mto_048_1"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_048_1"
+description = "RPMM0011 sample mto_048_1"
+
+[[sample]]
+index = 49
+name = "mto_049_1"
+assay = "mto_049_1"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_049_1"
+description = "RPMM0011 sample mto_049_1"
+
+[[sample]]
+index = 50
+name = "mto_050_1"
+assay = "mto_050_1"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_050_1"
+description = "RPMM0011 sample mto_050_1"
+
+[[sample]]
+index = 51
+name = "mto_051_1"
+assay = "mto_051_1"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_051_1"
+description = "RPMM0011 sample mto_051_1"
+
+[[sample]]
+index = 52
+name = "mto_053_1"
+assay = "mto_053_1"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_053_1"
+description = "RPMM0011 sample mto_053_1"
+
+[[sample]]
+index = 53
+name = "mto_054_1"
+assay = "mto_054_1"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_054_1"
+description = "RPMM0011 sample mto_054_1"
+
+[[sample]]
+index = 54
+name = "mto_056_1"
+assay = "mto_056_1"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_056_1"
+description = "RPMM0011 sample mto_056_1"
+
+[[sample]]
+index = 55
+name = "mto_057_1"
+assay = "mto_057_1"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_057_1"
+description = "RPMM0011 sample mto_057_1"
+
+[[sample]]
+index = 56
+name = "mto_058_1"
+assay = "mto_058_1"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_058_1"
+description = "RPMM0011 sample mto_058_1"
+
+[[sample]]
+index = 57
+name = "mto_059_1"
+assay = "mto_059_1"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_059_1"
+description = "RPMM0011 sample mto_059_1"
+
+[[sample]]
+index = 58
+name = "mto_060_1"
+assay = "mto_060_1"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0011/AnalysedDataset/CCMN_normalized.txt#mto_060_1"
+description = "RPMM0011 sample mto_060_1"
+
+[study_variables]
+candidate_columns = []
+
+[study_variables.levels]

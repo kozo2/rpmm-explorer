@@ -1,0 +1,3528 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0014"
+title = "Metabolomics reveals comprehensive reprogramming involving two independent metabolic responses of Arabidopsis to UV-B light"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0014"
+
+[matrix]
+name = "UV_sample_re_AnnotCombMatABSfin2"
+source_file = "RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt"
+format = "tsv"
+n_features = 277
+n_samples = 261
+metadata_columns = [
+    "Marked_peaks",
+    "Numbering for matrix",
+    "Numbering for unique peaks",
+    "IIS_I_A_or_U",
+    "I_A_M_or_P",
+    "final annotation",
+    "RI",
+    "Win",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0014/AnalysedDataset/GCMS/pheno_AF_forIntegrated.txt"
+msp = "RPMM0014/AnalysedDataset/GCMS/batch071013/071013uv_sample_02_nv_NIST.txt"
+
+[organism]
+raw = "Arabidopsis"
+cv = "[NCBITaxon, NCBITaxon:3702, Arabidopsis thaliana, ]"
+source = "msp:071013uv_sample_02_nv_NIST.txt"
+
+[instrument]
+technique = "GC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "FD_01_1"
+assay = "FD_01_1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#FD_01_1"
+description = "RPMM0014 sample FD_01_1"
+
+[[sample]]
+index = 2
+name = "FD_01_2"
+assay = "FD_01_2"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#FD_01_2"
+description = "RPMM0014 sample FD_01_2"
+
+[[sample]]
+index = 3
+name = "FD_01_3"
+assay = "FD_01_3"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#FD_01_3"
+description = "RPMM0014 sample FD_01_3"
+
+[[sample]]
+index = 4
+name = "FD_02_1"
+assay = "FD_02_1"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#FD_02_1"
+description = "RPMM0014 sample FD_02_1"
+
+[[sample]]
+index = 5
+name = "FD_02_2"
+assay = "FD_02_2"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#FD_02_2"
+description = "RPMM0014 sample FD_02_2"
+
+[[sample]]
+index = 6
+name = "FD_02_3"
+assay = "FD_02_3"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#FD_02_3"
+description = "RPMM0014 sample FD_02_3"
+
+[[sample]]
+index = 7
+name = "FD_03_1"
+assay = "FD_03_1"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#FD_03_1"
+description = "RPMM0014 sample FD_03_1"
+
+[[sample]]
+index = 8
+name = "FD_03_2"
+assay = "FD_03_2"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#FD_03_2"
+description = "RPMM0014 sample FD_03_2"
+
+[[sample]]
+index = 9
+name = "FD_03_3"
+assay = "FD_03_3"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#FD_03_3"
+description = "RPMM0014 sample FD_03_3"
+
+[[sample]]
+index = 10
+name = "STDs_1_2_1"
+assay = "STDs_1_2_1"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_1_2_1"
+description = "RPMM0014 sample STDs_1_2_1"
+
+[[sample]]
+index = 11
+name = "STDs_1_2_2"
+assay = "STDs_1_2_2"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_1_2_2"
+description = "RPMM0014 sample STDs_1_2_2"
+
+[[sample]]
+index = 12
+name = "STDs_1_2_3"
+assay = "STDs_1_2_3"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_1_2_3"
+description = "RPMM0014 sample STDs_1_2_3"
+
+[[sample]]
+index = 13
+name = "STDs_1_3_1"
+assay = "STDs_1_3_1"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_1_3_1"
+description = "RPMM0014 sample STDs_1_3_1"
+
+[[sample]]
+index = 14
+name = "STDs_1_3_2"
+assay = "STDs_1_3_2"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_1_3_2"
+description = "RPMM0014 sample STDs_1_3_2"
+
+[[sample]]
+index = 15
+name = "STDs_1_3_3"
+assay = "STDs_1_3_3"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_1_3_3"
+description = "RPMM0014 sample STDs_1_3_3"
+
+[[sample]]
+index = 16
+name = "STDs_2_1_1"
+assay = "STDs_2_1_1"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_2_1_1"
+description = "RPMM0014 sample STDs_2_1_1"
+
+[[sample]]
+index = 17
+name = "STDs_2_1_2"
+assay = "STDs_2_1_2"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_2_1_2"
+description = "RPMM0014 sample STDs_2_1_2"
+
+[[sample]]
+index = 18
+name = "STDs_2_1_3"
+assay = "STDs_2_1_3"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_2_1_3"
+description = "RPMM0014 sample STDs_2_1_3"
+
+[[sample]]
+index = 19
+name = "STDs_2_2_1"
+assay = "STDs_2_2_1"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_2_2_1"
+description = "RPMM0014 sample STDs_2_2_1"
+
+[[sample]]
+index = 20
+name = "STDs_2_2_2"
+assay = "STDs_2_2_2"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_2_2_2"
+description = "RPMM0014 sample STDs_2_2_2"
+
+[[sample]]
+index = 21
+name = "STDs_2_2_3"
+assay = "STDs_2_2_3"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_2_2_3"
+description = "RPMM0014 sample STDs_2_2_3"
+
+[[sample]]
+index = 22
+name = "STDs_2_3_1"
+assay = "STDs_2_3_1"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_2_3_1"
+description = "RPMM0014 sample STDs_2_3_1"
+
+[[sample]]
+index = 23
+name = "STDs_2_3_2"
+assay = "STDs_2_3_2"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_2_3_2"
+description = "RPMM0014 sample STDs_2_3_2"
+
+[[sample]]
+index = 24
+name = "STDs_2_3_3"
+assay = "STDs_2_3_3"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_2_3_3"
+description = "RPMM0014 sample STDs_2_3_3"
+
+[[sample]]
+index = 25
+name = "STDs_3_1_1"
+assay = "STDs_3_1_1"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_3_1_1"
+description = "RPMM0014 sample STDs_3_1_1"
+
+[[sample]]
+index = 26
+name = "STDs_3_1_2"
+assay = "STDs_3_1_2"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_3_1_2"
+description = "RPMM0014 sample STDs_3_1_2"
+
+[[sample]]
+index = 27
+name = "STDs_3_1_3"
+assay = "STDs_3_1_3"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_3_1_3"
+description = "RPMM0014 sample STDs_3_1_3"
+
+[[sample]]
+index = 28
+name = "STDs_3_2_1"
+assay = "STDs_3_2_1"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_3_2_1"
+description = "RPMM0014 sample STDs_3_2_1"
+
+[[sample]]
+index = 29
+name = "STDs_3_2_2"
+assay = "STDs_3_2_2"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_3_2_2"
+description = "RPMM0014 sample STDs_3_2_2"
+
+[[sample]]
+index = 30
+name = "STDs_3_2_3"
+assay = "STDs_3_2_3"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_3_2_3"
+description = "RPMM0014 sample STDs_3_2_3"
+
+[[sample]]
+index = 31
+name = "STDs_3_3_1"
+assay = "STDs_3_3_1"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_3_3_1"
+description = "RPMM0014 sample STDs_3_3_1"
+
+[[sample]]
+index = 32
+name = "STDs_3_3_2"
+assay = "STDs_3_3_2"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_3_3_2"
+description = "RPMM0014 sample STDs_3_3_2"
+
+[[sample]]
+index = 33
+name = "STDs_3_3_3"
+assay = "STDs_3_3_3"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#STDs_3_3_3"
+description = "RPMM0014 sample STDs_3_3_3"
+
+[[sample]]
+index = 34
+name = "uv_001_1"
+assay = "uv_001_1"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_001_1"
+description = "RPMM0014 sample uv_001_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_001_1"
+genotype = "Col0"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 35
+name = "uv_002_1"
+assay = "uv_002_1"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_002_1"
+description = "RPMM0014 sample uv_002_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_002_1"
+genotype = "Col0"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 36
+name = "uv_003_1"
+assay = "uv_003_1"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_003_1"
+description = "RPMM0014 sample uv_003_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_003_1"
+genotype = "Col0"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 37
+name = "uv_004_1"
+assay = "uv_004_1"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_004_1"
+description = "RPMM0014 sample uv_004_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_004_1"
+genotype = "Col0"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 38
+name = "uv_005_1"
+assay = "uv_005_1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_005_1"
+description = "RPMM0014 sample uv_005_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_005_1"
+genotype = "Col0"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 39
+name = "uv_006_1"
+assay = "uv_006_1"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_006_1"
+description = "RPMM0014 sample uv_006_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_006_1"
+genotype = "Col0"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 40
+name = "uv_007_1"
+assay = "uv_007_1"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_007_1"
+description = "RPMM0014 sample uv_007_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_007_1"
+genotype = "Col0"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 41
+name = "uv_008_1"
+assay = "uv_008_1"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_008_1"
+description = "RPMM0014 sample uv_008_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_008_1"
+genotype = "Col0"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 42
+name = "uv_009_1"
+assay = "uv_009_1"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_009_1"
+description = "RPMM0014 sample uv_009_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_009_1"
+genotype = "Col0"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 43
+name = "uv_010_1"
+assay = "uv_010_1"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_010_1"
+description = "RPMM0014 sample uv_010_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_010_1"
+genotype = "Col0"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 44
+name = "uv_011_1"
+assay = "uv_011_1"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_011_1"
+description = "RPMM0014 sample uv_011_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_011_1"
+genotype = "Col0"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 45
+name = "uv_012_1"
+assay = "uv_012_1"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_012_1"
+description = "RPMM0014 sample uv_012_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_012_1"
+genotype = "tt4"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 46
+name = "uv_013_1"
+assay = "uv_013_1"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_013_1"
+description = "RPMM0014 sample uv_013_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_013_1"
+genotype = "tt4"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 47
+name = "uv_014_1"
+assay = "uv_014_1"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_014_1"
+description = "RPMM0014 sample uv_014_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_014_1"
+genotype = "tt4"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 48
+name = "uv_015_1"
+assay = "uv_015_1"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_015_1"
+description = "RPMM0014 sample uv_015_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_015_1"
+genotype = "tt4"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 49
+name = "uv_016_1"
+assay = "uv_016_1"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_016_1"
+description = "RPMM0014 sample uv_016_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_016_1"
+genotype = "tt4"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 50
+name = "uv_017_1"
+assay = "uv_017_1"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_017_1"
+description = "RPMM0014 sample uv_017_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_017_1"
+genotype = "tt4"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 51
+name = "uv_018_1"
+assay = "uv_018_1"
+ms_run_ref = "ms_run[51]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_018_1"
+description = "RPMM0014 sample uv_018_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_018_1"
+genotype = "tt4"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 52
+name = "uv_019_1"
+assay = "uv_019_1"
+ms_run_ref = "ms_run[52]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_019_1"
+description = "RPMM0014 sample uv_019_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_019_1"
+genotype = "tt4"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 53
+name = "uv_020_1"
+assay = "uv_020_1"
+ms_run_ref = "ms_run[53]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_020_1"
+description = "RPMM0014 sample uv_020_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_020_1"
+genotype = "tt4"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 54
+name = "uv_021_1"
+assay = "uv_021_1"
+ms_run_ref = "ms_run[54]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_021_1"
+description = "RPMM0014 sample uv_021_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_021_1"
+genotype = "tt4"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 55
+name = "uv_022_1"
+assay = "uv_022_1"
+ms_run_ref = "ms_run[55]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_022_1"
+description = "RPMM0014 sample uv_022_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_022_1"
+genotype = "tt4"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 56
+name = "uv_023_1"
+assay = "uv_023_1"
+ms_run_ref = "ms_run[56]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_023_1"
+description = "RPMM0014 sample uv_023_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_023_1"
+genotype = "tt5"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 57
+name = "uv_024_1"
+assay = "uv_024_1"
+ms_run_ref = "ms_run[57]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_024_1"
+description = "RPMM0014 sample uv_024_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_024_1"
+genotype = "tt5"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 58
+name = "uv_025_1"
+assay = "uv_025_1"
+ms_run_ref = "ms_run[58]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_025_1"
+description = "RPMM0014 sample uv_025_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_025_1"
+genotype = "tt5"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 59
+name = "uv_026_1"
+assay = "uv_026_1"
+ms_run_ref = "ms_run[59]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_026_1"
+description = "RPMM0014 sample uv_026_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_026_1"
+genotype = "tt5"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 60
+name = "uv_027_1"
+assay = "uv_027_1"
+ms_run_ref = "ms_run[60]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_027_1"
+description = "RPMM0014 sample uv_027_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_027_1"
+genotype = "tt5"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 61
+name = "uv_028_1"
+assay = "uv_028_1"
+ms_run_ref = "ms_run[61]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_028_1"
+description = "RPMM0014 sample uv_028_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_028_1"
+genotype = "tt5"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 62
+name = "uv_029_1"
+assay = "uv_029_1"
+ms_run_ref = "ms_run[62]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_029_1"
+description = "RPMM0014 sample uv_029_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_029_1"
+genotype = "tt5"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 63
+name = "uv_030_1"
+assay = "uv_030_1"
+ms_run_ref = "ms_run[63]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_030_1"
+description = "RPMM0014 sample uv_030_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_030_1"
+genotype = "tt5"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 64
+name = "uv_031_1"
+assay = "uv_031_1"
+ms_run_ref = "ms_run[64]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_031_1"
+description = "RPMM0014 sample uv_031_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_031_1"
+genotype = "tt5"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 65
+name = "uv_032_1"
+assay = "uv_032_1"
+ms_run_ref = "ms_run[65]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_032_1"
+description = "RPMM0014 sample uv_032_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_032_1"
+genotype = "tt5"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 66
+name = "uv_033_1"
+assay = "uv_033_1"
+ms_run_ref = "ms_run[66]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_033_1"
+description = "RPMM0014 sample uv_033_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_033_1"
+genotype = "sng1"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 67
+name = "uv_034_1"
+assay = "uv_034_1"
+ms_run_ref = "ms_run[67]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_034_1"
+description = "RPMM0014 sample uv_034_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_034_1"
+genotype = "sng1"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 68
+name = "uv_035_1"
+assay = "uv_035_1"
+ms_run_ref = "ms_run[68]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_035_1"
+description = "RPMM0014 sample uv_035_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_035_1"
+genotype = "sng1"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 69
+name = "uv_036_1"
+assay = "uv_036_1"
+ms_run_ref = "ms_run[69]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_036_1"
+description = "RPMM0014 sample uv_036_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_036_1"
+genotype = "sng1"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 70
+name = "uv_037_1"
+assay = "uv_037_1"
+ms_run_ref = "ms_run[70]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_037_1"
+description = "RPMM0014 sample uv_037_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_037_1"
+genotype = "sng1"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 71
+name = "uv_038_1"
+assay = "uv_038_1"
+ms_run_ref = "ms_run[71]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_038_1"
+description = "RPMM0014 sample uv_038_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_038_1"
+genotype = "sng1"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 72
+name = "uv_039_1"
+assay = "uv_039_1"
+ms_run_ref = "ms_run[72]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_039_1"
+description = "RPMM0014 sample uv_039_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_039_1"
+genotype = "sng1"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 73
+name = "uv_040_1"
+assay = "uv_040_1"
+ms_run_ref = "ms_run[73]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_040_1"
+description = "RPMM0014 sample uv_040_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_040_1"
+genotype = "sng1"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 74
+name = "uv_041_1"
+assay = "uv_041_1"
+ms_run_ref = "ms_run[74]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_041_1"
+description = "RPMM0014 sample uv_041_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_041_1"
+genotype = "sng1"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 75
+name = "uv_042_1"
+assay = "uv_042_1"
+ms_run_ref = "ms_run[75]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_042_1"
+description = "RPMM0014 sample uv_042_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_042_1"
+genotype = "sng1"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 76
+name = "uv_043_1"
+assay = "uv_043_1"
+ms_run_ref = "ms_run[76]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_043_1"
+description = "RPMM0014 sample uv_043_1"
+batch = "batch071018"
+day = "4day"
+gcid = "uv_043_1"
+genotype = "sng1"
+treatment = "ld"
+type = "exp"
+
+[[sample]]
+index = 77
+name = "uv_044_1"
+assay = "uv_044_1"
+ms_run_ref = "ms_run[77]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_044_1"
+description = "RPMM0014 sample uv_044_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_044_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 78
+name = "uv_045_1"
+assay = "uv_045_1"
+ms_run_ref = "ms_run[78]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_045_1"
+description = "RPMM0014 sample uv_045_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_045_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 79
+name = "uv_046_1"
+assay = "uv_046_1"
+ms_run_ref = "ms_run[79]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_046_1"
+description = "RPMM0014 sample uv_046_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_046_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 80
+name = "uv_047_1"
+assay = "uv_047_1"
+ms_run_ref = "ms_run[80]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_047_1"
+description = "RPMM0014 sample uv_047_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_047_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 81
+name = "uv_048_1"
+assay = "uv_048_1"
+ms_run_ref = "ms_run[81]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_048_1"
+description = "RPMM0014 sample uv_048_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_048_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 82
+name = "uv_049_1"
+assay = "uv_049_1"
+ms_run_ref = "ms_run[82]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_049_1"
+description = "RPMM0014 sample uv_049_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_049_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 83
+name = "uv_050_1"
+assay = "uv_050_1"
+ms_run_ref = "ms_run[83]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_050_1"
+description = "RPMM0014 sample uv_050_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_050_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 84
+name = "uv_051_1"
+assay = "uv_051_1"
+ms_run_ref = "ms_run[84]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_051_1"
+description = "RPMM0014 sample uv_051_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_051_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 85
+name = "uv_052_1"
+assay = "uv_052_1"
+ms_run_ref = "ms_run[85]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_052_1"
+description = "RPMM0014 sample uv_052_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_052_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 86
+name = "uv_053_1"
+assay = "uv_053_1"
+ms_run_ref = "ms_run[86]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_053_1"
+description = "RPMM0014 sample uv_053_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_053_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 87
+name = "uv_054_1"
+assay = "uv_054_1"
+ms_run_ref = "ms_run[87]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_054_1"
+description = "RPMM0014 sample uv_054_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_054_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 88
+name = "uv_055_1"
+assay = "uv_055_1"
+ms_run_ref = "ms_run[88]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_055_1"
+description = "RPMM0014 sample uv_055_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_055_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 89
+name = "uv_056_1"
+assay = "uv_056_1"
+ms_run_ref = "ms_run[89]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_056_1"
+description = "RPMM0014 sample uv_056_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_056_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 90
+name = "uv_057_1"
+assay = "uv_057_1"
+ms_run_ref = "ms_run[90]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_057_1"
+description = "RPMM0014 sample uv_057_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_057_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 91
+name = "uv_058_1"
+assay = "uv_058_1"
+ms_run_ref = "ms_run[91]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_058_1"
+description = "RPMM0014 sample uv_058_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_058_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 92
+name = "uv_059_1"
+assay = "uv_059_1"
+ms_run_ref = "ms_run[92]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_059_1"
+description = "RPMM0014 sample uv_059_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_059_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 93
+name = "uv_060_1"
+assay = "uv_060_1"
+ms_run_ref = "ms_run[93]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_060_1"
+description = "RPMM0014 sample uv_060_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_060_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 94
+name = "uv_061_1"
+assay = "uv_061_1"
+ms_run_ref = "ms_run[94]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_061_1"
+description = "RPMM0014 sample uv_061_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_061_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 95
+name = "uv_062_1"
+assay = "uv_062_1"
+ms_run_ref = "ms_run[95]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_062_1"
+description = "RPMM0014 sample uv_062_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_062_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 96
+name = "uv_063_1"
+assay = "uv_063_1"
+ms_run_ref = "ms_run[96]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_063_1"
+description = "RPMM0014 sample uv_063_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_063_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 97
+name = "uv_064_1"
+assay = "uv_064_1"
+ms_run_ref = "ms_run[97]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_064_1"
+description = "RPMM0014 sample uv_064_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_064_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 98
+name = "uv_065_1"
+assay = "uv_065_1"
+ms_run_ref = "ms_run[98]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_065_1"
+description = "RPMM0014 sample uv_065_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_065_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 99
+name = "uv_066_1"
+assay = "uv_066_1"
+ms_run_ref = "ms_run[99]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_066_1"
+description = "RPMM0014 sample uv_066_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_066_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 100
+name = "uv_067_1"
+assay = "uv_067_1"
+ms_run_ref = "ms_run[100]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_067_1"
+description = "RPMM0014 sample uv_067_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_067_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 101
+name = "uv_068_1"
+assay = "uv_068_1"
+ms_run_ref = "ms_run[101]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_068_1"
+description = "RPMM0014 sample uv_068_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_068_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 102
+name = "uv_069_1"
+assay = "uv_069_1"
+ms_run_ref = "ms_run[102]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_069_1"
+description = "RPMM0014 sample uv_069_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_069_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 103
+name = "uv_070_1"
+assay = "uv_070_1"
+ms_run_ref = "ms_run[103]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_070_1"
+description = "RPMM0014 sample uv_070_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_070_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 104
+name = "uv_071_1"
+assay = "uv_071_1"
+ms_run_ref = "ms_run[104]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_071_1"
+description = "RPMM0014 sample uv_071_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_071_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 105
+name = "uv_072_1"
+assay = "uv_072_1"
+ms_run_ref = "ms_run[105]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_072_1"
+description = "RPMM0014 sample uv_072_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_072_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 106
+name = "uv_073_1"
+assay = "uv_073_1"
+ms_run_ref = "ms_run[106]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_073_1"
+description = "RPMM0014 sample uv_073_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_073_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 107
+name = "uv_074_1"
+assay = "uv_074_1"
+ms_run_ref = "ms_run[107]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_074_1"
+description = "RPMM0014 sample uv_074_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_074_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 108
+name = "uv_075_1"
+assay = "uv_075_1"
+ms_run_ref = "ms_run[108]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_075_1"
+description = "RPMM0014 sample uv_075_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_075_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 109
+name = "uv_076_1"
+assay = "uv_076_1"
+ms_run_ref = "ms_run[109]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_076_1"
+description = "RPMM0014 sample uv_076_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_076_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 110
+name = "uv_077_1"
+assay = "uv_077_1"
+ms_run_ref = "ms_run[110]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_077_1"
+description = "RPMM0014 sample uv_077_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_077_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 111
+name = "uv_078_1"
+assay = "uv_078_1"
+ms_run_ref = "ms_run[111]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_078_1"
+description = "RPMM0014 sample uv_078_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_078_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 112
+name = "uv_079_1"
+assay = "uv_079_1"
+ms_run_ref = "ms_run[112]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_079_1"
+description = "RPMM0014 sample uv_079_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_079_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 113
+name = "uv_080_1"
+assay = "uv_080_1"
+ms_run_ref = "ms_run[113]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_080_1"
+description = "RPMM0014 sample uv_080_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_080_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 114
+name = "uv_081_1"
+assay = "uv_081_1"
+ms_run_ref = "ms_run[114]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_081_1"
+description = "RPMM0014 sample uv_081_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_081_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 115
+name = "uv_082_1"
+assay = "uv_082_1"
+ms_run_ref = "ms_run[115]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_082_1"
+description = "RPMM0014 sample uv_082_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_082_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 116
+name = "uv_083_1"
+assay = "uv_083_1"
+ms_run_ref = "ms_run[116]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_083_1"
+description = "RPMM0014 sample uv_083_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_083_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 117
+name = "uv_084_1"
+assay = "uv_084_1"
+ms_run_ref = "ms_run[117]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_084_1"
+description = "RPMM0014 sample uv_084_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_084_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 118
+name = "uv_085_1"
+assay = "uv_085_1"
+ms_run_ref = "ms_run[118]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_085_1"
+description = "RPMM0014 sample uv_085_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_085_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 119
+name = "uv_086_1"
+assay = "uv_086_1"
+ms_run_ref = "ms_run[119]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_086_1"
+description = "RPMM0014 sample uv_086_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_086_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 120
+name = "uv_087_1"
+assay = "uv_087_1"
+ms_run_ref = "ms_run[120]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_087_1"
+description = "RPMM0014 sample uv_087_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_087_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 121
+name = "uv_088_1"
+assay = "uv_088_1"
+ms_run_ref = "ms_run[121]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_088_1"
+description = "RPMM0014 sample uv_088_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_088_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 122
+name = "uv_089_1"
+assay = "uv_089_1"
+ms_run_ref = "ms_run[122]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_089_1"
+description = "RPMM0014 sample uv_089_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_089_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 123
+name = "uv_090_1"
+assay = "uv_090_1"
+ms_run_ref = "ms_run[123]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_090_1"
+description = "RPMM0014 sample uv_090_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_090_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 124
+name = "uv_091_1"
+assay = "uv_091_1"
+ms_run_ref = "ms_run[124]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_091_1"
+description = "RPMM0014 sample uv_091_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_091_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 125
+name = "uv_092_1"
+assay = "uv_092_1"
+ms_run_ref = "ms_run[125]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_092_1"
+description = "RPMM0014 sample uv_092_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_092_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 126
+name = "uv_093_1"
+assay = "uv_093_1"
+ms_run_ref = "ms_run[126]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_093_1"
+description = "RPMM0014 sample uv_093_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_093_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 127
+name = "uv_094_1"
+assay = "uv_094_1"
+ms_run_ref = "ms_run[127]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_094_1"
+description = "RPMM0014 sample uv_094_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_094_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 128
+name = "uv_095_1"
+assay = "uv_095_1"
+ms_run_ref = "ms_run[128]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_095_1"
+description = "RPMM0014 sample uv_095_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_095_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 129
+name = "uv_096_1"
+assay = "uv_096_1"
+ms_run_ref = "ms_run[129]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_096_1"
+description = "RPMM0014 sample uv_096_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_096_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 130
+name = "uv_097_1"
+assay = "uv_097_1"
+ms_run_ref = "ms_run[130]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_097_1"
+description = "RPMM0014 sample uv_097_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_097_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 131
+name = "uv_098_1"
+assay = "uv_098_1"
+ms_run_ref = "ms_run[131]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_098_1"
+description = "RPMM0014 sample uv_098_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_098_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 132
+name = "uv_099_1"
+assay = "uv_099_1"
+ms_run_ref = "ms_run[132]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_099_1"
+description = "RPMM0014 sample uv_099_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_099_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 133
+name = "uv_100_1"
+assay = "uv_100_1"
+ms_run_ref = "ms_run[133]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_100_1"
+description = "RPMM0014 sample uv_100_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_100_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 134
+name = "uv_101_1"
+assay = "uv_101_1"
+ms_run_ref = "ms_run[134]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_101_1"
+description = "RPMM0014 sample uv_101_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_101_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 135
+name = "uv_102_1"
+assay = "uv_102_1"
+ms_run_ref = "ms_run[135]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_102_1"
+description = "RPMM0014 sample uv_102_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_102_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 136
+name = "uv_103_1"
+assay = "uv_103_1"
+ms_run_ref = "ms_run[136]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_103_1"
+description = "RPMM0014 sample uv_103_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_103_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 137
+name = "uv_104_1"
+assay = "uv_104_1"
+ms_run_ref = "ms_run[137]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_104_1"
+description = "RPMM0014 sample uv_104_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_104_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 138
+name = "uv_105_1"
+assay = "uv_105_1"
+ms_run_ref = "ms_run[138]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_105_1"
+description = "RPMM0014 sample uv_105_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_105_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 139
+name = "uv_106_1"
+assay = "uv_106_1"
+ms_run_ref = "ms_run[139]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_106_1"
+description = "RPMM0014 sample uv_106_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_106_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 140
+name = "uv_107_1"
+assay = "uv_107_1"
+ms_run_ref = "ms_run[140]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_107_1"
+description = "RPMM0014 sample uv_107_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_107_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 141
+name = "uv_108_1"
+assay = "uv_108_1"
+ms_run_ref = "ms_run[141]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_108_1"
+description = "RPMM0014 sample uv_108_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_108_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 142
+name = "uv_109_1"
+assay = "uv_109_1"
+ms_run_ref = "ms_run[142]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_109_1"
+description = "RPMM0014 sample uv_109_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_109_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 143
+name = "uv_110_1"
+assay = "uv_110_1"
+ms_run_ref = "ms_run[143]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_110_1"
+description = "RPMM0014 sample uv_110_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_110_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 144
+name = "uv_111_1"
+assay = "uv_111_1"
+ms_run_ref = "ms_run[144]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_111_1"
+description = "RPMM0014 sample uv_111_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_111_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 145
+name = "uv_112_1"
+assay = "uv_112_1"
+ms_run_ref = "ms_run[145]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_112_1"
+description = "RPMM0014 sample uv_112_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_112_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 146
+name = "uv_113_1"
+assay = "uv_113_1"
+ms_run_ref = "ms_run[146]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_113_1"
+description = "RPMM0014 sample uv_113_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_113_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 147
+name = "uv_114_1"
+assay = "uv_114_1"
+ms_run_ref = "ms_run[147]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_114_1"
+description = "RPMM0014 sample uv_114_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_114_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 148
+name = "uv_115_1"
+assay = "uv_115_1"
+ms_run_ref = "ms_run[148]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_115_1"
+description = "RPMM0014 sample uv_115_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_115_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 149
+name = "uv_116_1"
+assay = "uv_116_1"
+ms_run_ref = "ms_run[149]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_116_1"
+description = "RPMM0014 sample uv_116_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_116_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 150
+name = "uv_117_1"
+assay = "uv_117_1"
+ms_run_ref = "ms_run[150]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_117_1"
+description = "RPMM0014 sample uv_117_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_117_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 151
+name = "uv_118_1"
+assay = "uv_118_1"
+ms_run_ref = "ms_run[151]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_118_1"
+description = "RPMM0014 sample uv_118_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_118_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 152
+name = "uv_119_1"
+assay = "uv_119_1"
+ms_run_ref = "ms_run[152]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_119_1"
+description = "RPMM0014 sample uv_119_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_119_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 153
+name = "uv_120_1"
+assay = "uv_120_1"
+ms_run_ref = "ms_run[153]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_120_1"
+description = "RPMM0014 sample uv_120_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_120_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 154
+name = "uv_121_1"
+assay = "uv_121_1"
+ms_run_ref = "ms_run[154]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_121_1"
+description = "RPMM0014 sample uv_121_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_121_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 155
+name = "uv_122_1"
+assay = "uv_122_1"
+ms_run_ref = "ms_run[155]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_122_1"
+description = "RPMM0014 sample uv_122_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_122_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 156
+name = "uv_123_1"
+assay = "uv_123_1"
+ms_run_ref = "ms_run[156]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_123_1"
+description = "RPMM0014 sample uv_123_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_123_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 157
+name = "uv_124_1"
+assay = "uv_124_1"
+ms_run_ref = "ms_run[157]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_124_1"
+description = "RPMM0014 sample uv_124_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_124_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 158
+name = "uv_125_1"
+assay = "uv_125_1"
+ms_run_ref = "ms_run[158]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_125_1"
+description = "RPMM0014 sample uv_125_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_125_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 159
+name = "uv_126_1"
+assay = "uv_126_1"
+ms_run_ref = "ms_run[159]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_126_1"
+description = "RPMM0014 sample uv_126_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_126_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 160
+name = "uv_127_1"
+assay = "uv_127_1"
+ms_run_ref = "ms_run[160]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_127_1"
+description = "RPMM0014 sample uv_127_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_127_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 161
+name = "uv_128_1"
+assay = "uv_128_1"
+ms_run_ref = "ms_run[161]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_128_1"
+description = "RPMM0014 sample uv_128_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_128_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 162
+name = "uv_129_1"
+assay = "uv_129_1"
+ms_run_ref = "ms_run[162]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_129_1"
+description = "RPMM0014 sample uv_129_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_129_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 163
+name = "uv_130_1"
+assay = "uv_130_1"
+ms_run_ref = "ms_run[163]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_130_1"
+description = "RPMM0014 sample uv_130_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_130_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 164
+name = "uv_131_1"
+assay = "uv_131_1"
+ms_run_ref = "ms_run[164]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_131_1"
+description = "RPMM0014 sample uv_131_1"
+batch = "batch071005"
+day = "1day"
+gcid = "uv_131_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 165
+name = "uv_132_1"
+assay = "uv_132_1"
+ms_run_ref = "ms_run[165]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_132_1"
+description = "RPMM0014 sample uv_132_1"
+batch = "batch071005"
+day = "4aday"
+gcid = "uv_132_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 166
+name = "uv_133_1"
+assay = "uv_133_1"
+ms_run_ref = "ms_run[166]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_133_1"
+description = "RPMM0014 sample uv_133_1"
+batch = "batch071005"
+day = "4aday"
+gcid = "uv_133_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 167
+name = "uv_134_1"
+assay = "uv_134_1"
+ms_run_ref = "ms_run[167]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_134_1"
+description = "RPMM0014 sample uv_134_1"
+batch = "batch071005"
+day = "4aday"
+gcid = "uv_134_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 168
+name = "uv_135_1"
+assay = "uv_135_1"
+ms_run_ref = "ms_run[168]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_135_1"
+description = "RPMM0014 sample uv_135_1"
+batch = "batch071005"
+day = "4aday"
+gcid = "uv_135_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 169
+name = "uv_136_1"
+assay = "uv_136_1"
+ms_run_ref = "ms_run[169]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_136_1"
+description = "RPMM0014 sample uv_136_1"
+batch = "batch071005"
+day = "4aday"
+gcid = "uv_136_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 170
+name = "uv_137_1"
+assay = "uv_137_1"
+ms_run_ref = "ms_run[170]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_137_1"
+description = "RPMM0014 sample uv_137_1"
+batch = "batch071005"
+day = "4aday"
+gcid = "uv_137_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 171
+name = "uv_138_1"
+assay = "uv_138_1"
+ms_run_ref = "ms_run[171]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_138_1"
+description = "RPMM0014 sample uv_138_1"
+batch = "batch071005"
+day = "4aday"
+gcid = "uv_138_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 172
+name = "uv_139_1"
+assay = "uv_139_1"
+ms_run_ref = "ms_run[172]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_139_1"
+description = "RPMM0014 sample uv_139_1"
+batch = "batch071005"
+day = "4aday"
+gcid = "uv_139_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 173
+name = "uv_140_1"
+assay = "uv_140_1"
+ms_run_ref = "ms_run[173]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_140_1"
+description = "RPMM0014 sample uv_140_1"
+batch = "batch071005"
+day = "4aday"
+gcid = "uv_140_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 174
+name = "uv_141_1"
+assay = "uv_141_1"
+ms_run_ref = "ms_run[174]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_141_1"
+description = "RPMM0014 sample uv_141_1"
+batch = "batch071005"
+day = "4aday"
+gcid = "uv_141_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 175
+name = "uv_142_1"
+assay = "uv_142_1"
+ms_run_ref = "ms_run[175]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_142_1"
+description = "RPMM0014 sample uv_142_1"
+batch = "batch071005"
+day = "4aday"
+gcid = "uv_142_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 176
+name = "uv_143_1"
+assay = "uv_143_1"
+ms_run_ref = "ms_run[176]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_143_1"
+description = "RPMM0014 sample uv_143_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_143_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 177
+name = "uv_144_1"
+assay = "uv_144_1"
+ms_run_ref = "ms_run[177]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_144_1"
+description = "RPMM0014 sample uv_144_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_144_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 178
+name = "uv_145_1"
+assay = "uv_145_1"
+ms_run_ref = "ms_run[178]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_145_1"
+description = "RPMM0014 sample uv_145_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_145_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 179
+name = "uv_146_1"
+assay = "uv_146_1"
+ms_run_ref = "ms_run[179]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_146_1"
+description = "RPMM0014 sample uv_146_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_146_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 180
+name = "uv_147_1"
+assay = "uv_147_1"
+ms_run_ref = "ms_run[180]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_147_1"
+description = "RPMM0014 sample uv_147_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_147_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 181
+name = "uv_148_1"
+assay = "uv_148_1"
+ms_run_ref = "ms_run[181]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_148_1"
+description = "RPMM0014 sample uv_148_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_148_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 182
+name = "uv_149_1"
+assay = "uv_149_1"
+ms_run_ref = "ms_run[182]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_149_1"
+description = "RPMM0014 sample uv_149_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_149_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 183
+name = "uv_150_1"
+assay = "uv_150_1"
+ms_run_ref = "ms_run[183]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_150_1"
+description = "RPMM0014 sample uv_150_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_150_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 184
+name = "uv_151_1"
+assay = "uv_151_1"
+ms_run_ref = "ms_run[184]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_151_1"
+description = "RPMM0014 sample uv_151_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_151_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 185
+name = "uv_152_1"
+assay = "uv_152_1"
+ms_run_ref = "ms_run[185]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_152_1"
+description = "RPMM0014 sample uv_152_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_152_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 186
+name = "uv_153_1"
+assay = "uv_153_1"
+ms_run_ref = "ms_run[186]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_153_1"
+description = "RPMM0014 sample uv_153_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_153_1"
+genotype = "Col0"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 187
+name = "uv_154_1"
+assay = "uv_154_1"
+ms_run_ref = "ms_run[187]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_154_1"
+description = "RPMM0014 sample uv_154_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_154_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 188
+name = "uv_155_1"
+assay = "uv_155_1"
+ms_run_ref = "ms_run[188]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_155_1"
+description = "RPMM0014 sample uv_155_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_155_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 189
+name = "uv_156_1"
+assay = "uv_156_1"
+ms_run_ref = "ms_run[189]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_156_1"
+description = "RPMM0014 sample uv_156_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_156_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 190
+name = "uv_157_1"
+assay = "uv_157_1"
+ms_run_ref = "ms_run[190]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_157_1"
+description = "RPMM0014 sample uv_157_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_157_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 191
+name = "uv_158_1"
+assay = "uv_158_1"
+ms_run_ref = "ms_run[191]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_158_1"
+description = "RPMM0014 sample uv_158_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_158_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 192
+name = "uv_159_1"
+assay = "uv_159_1"
+ms_run_ref = "ms_run[192]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_159_1"
+description = "RPMM0014 sample uv_159_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_159_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 193
+name = "uv_160_1"
+assay = "uv_160_1"
+ms_run_ref = "ms_run[193]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_160_1"
+description = "RPMM0014 sample uv_160_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_160_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 194
+name = "uv_161_1"
+assay = "uv_161_1"
+ms_run_ref = "ms_run[194]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_161_1"
+description = "RPMM0014 sample uv_161_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_161_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 195
+name = "uv_162_1"
+assay = "uv_162_1"
+ms_run_ref = "ms_run[195]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_162_1"
+description = "RPMM0014 sample uv_162_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_162_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 196
+name = "uv_163_1"
+assay = "uv_163_1"
+ms_run_ref = "ms_run[196]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_163_1"
+description = "RPMM0014 sample uv_163_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_163_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 197
+name = "uv_164_1"
+assay = "uv_164_1"
+ms_run_ref = "ms_run[197]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_164_1"
+description = "RPMM0014 sample uv_164_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_164_1"
+genotype = "tt4"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 198
+name = "uv_165_1"
+assay = "uv_165_1"
+ms_run_ref = "ms_run[198]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_165_1"
+description = "RPMM0014 sample uv_165_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_165_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 199
+name = "uv_166_1"
+assay = "uv_166_1"
+ms_run_ref = "ms_run[199]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_166_1"
+description = "RPMM0014 sample uv_166_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_166_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 200
+name = "uv_167_1"
+assay = "uv_167_1"
+ms_run_ref = "ms_run[200]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_167_1"
+description = "RPMM0014 sample uv_167_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_167_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 201
+name = "uv_168_1"
+assay = "uv_168_1"
+ms_run_ref = "ms_run[201]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_168_1"
+description = "RPMM0014 sample uv_168_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_168_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 202
+name = "uv_169_1"
+assay = "uv_169_1"
+ms_run_ref = "ms_run[202]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_169_1"
+description = "RPMM0014 sample uv_169_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_169_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 203
+name = "uv_170_1"
+assay = "uv_170_1"
+ms_run_ref = "ms_run[203]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_170_1"
+description = "RPMM0014 sample uv_170_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_170_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 204
+name = "uv_171_1"
+assay = "uv_171_1"
+ms_run_ref = "ms_run[204]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_171_1"
+description = "RPMM0014 sample uv_171_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_171_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 205
+name = "uv_172_1"
+assay = "uv_172_1"
+ms_run_ref = "ms_run[205]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_172_1"
+description = "RPMM0014 sample uv_172_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_172_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 206
+name = "uv_173_1"
+assay = "uv_173_1"
+ms_run_ref = "ms_run[206]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_173_1"
+description = "RPMM0014 sample uv_173_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_173_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 207
+name = "uv_174_1"
+assay = "uv_174_1"
+ms_run_ref = "ms_run[207]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_174_1"
+description = "RPMM0014 sample uv_174_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_174_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 208
+name = "uv_175_1"
+assay = "uv_175_1"
+ms_run_ref = "ms_run[208]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_175_1"
+description = "RPMM0014 sample uv_175_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_175_1"
+genotype = "tt5"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 209
+name = "uv_176_1"
+assay = "uv_176_1"
+ms_run_ref = "ms_run[209]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_176_1"
+description = "RPMM0014 sample uv_176_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_176_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 210
+name = "uv_177_1"
+assay = "uv_177_1"
+ms_run_ref = "ms_run[210]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_177_1"
+description = "RPMM0014 sample uv_177_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_177_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 211
+name = "uv_178_1"
+assay = "uv_178_1"
+ms_run_ref = "ms_run[211]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_178_1"
+description = "RPMM0014 sample uv_178_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_178_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 212
+name = "uv_179_1"
+assay = "uv_179_1"
+ms_run_ref = "ms_run[212]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_179_1"
+description = "RPMM0014 sample uv_179_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_179_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 213
+name = "uv_180_1"
+assay = "uv_180_1"
+ms_run_ref = "ms_run[213]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_180_1"
+description = "RPMM0014 sample uv_180_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_180_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 214
+name = "uv_181_1"
+assay = "uv_181_1"
+ms_run_ref = "ms_run[214]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_181_1"
+description = "RPMM0014 sample uv_181_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_181_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 215
+name = "uv_182_1"
+assay = "uv_182_1"
+ms_run_ref = "ms_run[215]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_182_1"
+description = "RPMM0014 sample uv_182_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_182_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 216
+name = "uv_183_1"
+assay = "uv_183_1"
+ms_run_ref = "ms_run[216]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_183_1"
+description = "RPMM0014 sample uv_183_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_183_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 217
+name = "uv_184_1"
+assay = "uv_184_1"
+ms_run_ref = "ms_run[217]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_184_1"
+description = "RPMM0014 sample uv_184_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_184_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 218
+name = "uv_185_1"
+assay = "uv_185_1"
+ms_run_ref = "ms_run[218]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_185_1"
+description = "RPMM0014 sample uv_185_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_185_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 219
+name = "uv_186_1"
+assay = "uv_186_1"
+ms_run_ref = "ms_run[219]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_186_1"
+description = "RPMM0014 sample uv_186_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_186_1"
+genotype = "sng1"
+treatment = "cl"
+type = "exp"
+
+[[sample]]
+index = 220
+name = "uv_187_1"
+assay = "uv_187_1"
+ms_run_ref = "ms_run[220]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_187_1"
+description = "RPMM0014 sample uv_187_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_187_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 221
+name = "uv_188_1"
+assay = "uv_188_1"
+ms_run_ref = "ms_run[221]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_188_1"
+description = "RPMM0014 sample uv_188_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_188_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 222
+name = "uv_189_1"
+assay = "uv_189_1"
+ms_run_ref = "ms_run[222]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_189_1"
+description = "RPMM0014 sample uv_189_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_189_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 223
+name = "uv_190_1"
+assay = "uv_190_1"
+ms_run_ref = "ms_run[223]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_190_1"
+description = "RPMM0014 sample uv_190_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_190_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 224
+name = "uv_191_1"
+assay = "uv_191_1"
+ms_run_ref = "ms_run[224]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_191_1"
+description = "RPMM0014 sample uv_191_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_191_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 225
+name = "uv_192_1"
+assay = "uv_192_1"
+ms_run_ref = "ms_run[225]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_192_1"
+description = "RPMM0014 sample uv_192_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_192_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 226
+name = "uv_193_1"
+assay = "uv_193_1"
+ms_run_ref = "ms_run[226]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_193_1"
+description = "RPMM0014 sample uv_193_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_193_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 227
+name = "uv_194_1"
+assay = "uv_194_1"
+ms_run_ref = "ms_run[227]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_194_1"
+description = "RPMM0014 sample uv_194_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_194_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 228
+name = "uv_195_1"
+assay = "uv_195_1"
+ms_run_ref = "ms_run[228]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_195_1"
+description = "RPMM0014 sample uv_195_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_195_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 229
+name = "uv_196_1"
+assay = "uv_196_1"
+ms_run_ref = "ms_run[229]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_196_1"
+description = "RPMM0014 sample uv_196_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_196_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 230
+name = "uv_197_1"
+assay = "uv_197_1"
+ms_run_ref = "ms_run[230]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_197_1"
+description = "RPMM0014 sample uv_197_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_197_1"
+genotype = "Col0"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 231
+name = "uv_198_1"
+assay = "uv_198_1"
+ms_run_ref = "ms_run[231]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_198_1"
+description = "RPMM0014 sample uv_198_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_198_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 232
+name = "uv_199_1"
+assay = "uv_199_1"
+ms_run_ref = "ms_run[232]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_199_1"
+description = "RPMM0014 sample uv_199_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_199_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 233
+name = "uv_200_1"
+assay = "uv_200_1"
+ms_run_ref = "ms_run[233]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_200_1"
+description = "RPMM0014 sample uv_200_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_200_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 234
+name = "uv_201_1"
+assay = "uv_201_1"
+ms_run_ref = "ms_run[234]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_201_1"
+description = "RPMM0014 sample uv_201_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_201_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 235
+name = "uv_202_1"
+assay = "uv_202_1"
+ms_run_ref = "ms_run[235]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_202_1"
+description = "RPMM0014 sample uv_202_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_202_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 236
+name = "uv_203_1"
+assay = "uv_203_1"
+ms_run_ref = "ms_run[236]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_203_1"
+description = "RPMM0014 sample uv_203_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_203_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 237
+name = "uv_204_1"
+assay = "uv_204_1"
+ms_run_ref = "ms_run[237]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_204_1"
+description = "RPMM0014 sample uv_204_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_204_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 238
+name = "uv_205_1"
+assay = "uv_205_1"
+ms_run_ref = "ms_run[238]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_205_1"
+description = "RPMM0014 sample uv_205_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_205_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 239
+name = "uv_206_1"
+assay = "uv_206_1"
+ms_run_ref = "ms_run[239]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_206_1"
+description = "RPMM0014 sample uv_206_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_206_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 240
+name = "uv_207_1"
+assay = "uv_207_1"
+ms_run_ref = "ms_run[240]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_207_1"
+description = "RPMM0014 sample uv_207_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_207_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 241
+name = "uv_208_1"
+assay = "uv_208_1"
+ms_run_ref = "ms_run[241]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_208_1"
+description = "RPMM0014 sample uv_208_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_208_1"
+genotype = "tt4"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 242
+name = "uv_209_1"
+assay = "uv_209_1"
+ms_run_ref = "ms_run[242]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_209_1"
+description = "RPMM0014 sample uv_209_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_209_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 243
+name = "uv_210_1"
+assay = "uv_210_1"
+ms_run_ref = "ms_run[243]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_210_1"
+description = "RPMM0014 sample uv_210_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_210_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 244
+name = "uv_211_1"
+assay = "uv_211_1"
+ms_run_ref = "ms_run[244]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_211_1"
+description = "RPMM0014 sample uv_211_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_211_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 245
+name = "uv_212_1"
+assay = "uv_212_1"
+ms_run_ref = "ms_run[245]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_212_1"
+description = "RPMM0014 sample uv_212_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_212_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 246
+name = "uv_213_1"
+assay = "uv_213_1"
+ms_run_ref = "ms_run[246]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_213_1"
+description = "RPMM0014 sample uv_213_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_213_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 247
+name = "uv_214_1"
+assay = "uv_214_1"
+ms_run_ref = "ms_run[247]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_214_1"
+description = "RPMM0014 sample uv_214_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_214_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 248
+name = "uv_215_1"
+assay = "uv_215_1"
+ms_run_ref = "ms_run[248]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_215_1"
+description = "RPMM0014 sample uv_215_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_215_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 249
+name = "uv_216_1"
+assay = "uv_216_1"
+ms_run_ref = "ms_run[249]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_216_1"
+description = "RPMM0014 sample uv_216_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_216_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 250
+name = "uv_217_1"
+assay = "uv_217_1"
+ms_run_ref = "ms_run[250]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_217_1"
+description = "RPMM0014 sample uv_217_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_217_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 251
+name = "uv_218_1"
+assay = "uv_218_1"
+ms_run_ref = "ms_run[251]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_218_1"
+description = "RPMM0014 sample uv_218_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_218_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 252
+name = "uv_219_1"
+assay = "uv_219_1"
+ms_run_ref = "ms_run[252]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_219_1"
+description = "RPMM0014 sample uv_219_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_219_1"
+genotype = "tt5"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 253
+name = "uv_220_1"
+assay = "uv_220_1"
+ms_run_ref = "ms_run[253]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_220_1"
+description = "RPMM0014 sample uv_220_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_220_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 254
+name = "uv_221_1"
+assay = "uv_221_1"
+ms_run_ref = "ms_run[254]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_221_1"
+description = "RPMM0014 sample uv_221_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_221_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 255
+name = "uv_222_1"
+assay = "uv_222_1"
+ms_run_ref = "ms_run[255]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_222_1"
+description = "RPMM0014 sample uv_222_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_222_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 256
+name = "uv_223_1"
+assay = "uv_223_1"
+ms_run_ref = "ms_run[256]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_223_1"
+description = "RPMM0014 sample uv_223_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_223_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 257
+name = "uv_224_1"
+assay = "uv_224_1"
+ms_run_ref = "ms_run[257]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_224_1"
+description = "RPMM0014 sample uv_224_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_224_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 258
+name = "uv_225_1"
+assay = "uv_225_1"
+ms_run_ref = "ms_run[258]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_225_1"
+description = "RPMM0014 sample uv_225_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_225_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 259
+name = "uv_226_1"
+assay = "uv_226_1"
+ms_run_ref = "ms_run[259]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_226_1"
+description = "RPMM0014 sample uv_226_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_226_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 260
+name = "uv_227_1"
+assay = "uv_227_1"
+ms_run_ref = "ms_run[260]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_227_1"
+description = "RPMM0014 sample uv_227_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_227_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[[sample]]
+index = 261
+name = "uv_228_1"
+assay = "uv_228_1"
+ms_run_ref = "ms_run[261]"
+location = "http://metabobank.riken.jp/data/RPMM0014/AnalysedDataset/GCMS/UV_sample_re_AnnotCombMatABSfin2.txt#uv_228_1"
+description = "RPMM0014 sample uv_228_1"
+batch = "batch071013"
+day = "4day"
+gcid = "uv_228_1"
+genotype = "sng1"
+treatment = "uv"
+type = "exp"
+
+[study_variables]
+candidate_columns = [
+    "treatment",
+    "day",
+    "genotype",
+    "batch",
+]
+
+[study_variables.levels]
+treatment = [
+    "cl",
+    "ld",
+    "uv",
+]
+day = [
+    "1day",
+    "4aday",
+    "4day",
+]
+genotype = [
+    "Col0",
+    "sng1",
+    "tt4",
+    "tt5",
+]
+batch = [
+    "batch071005",
+    "batch071013",
+    "batch071018",
+]

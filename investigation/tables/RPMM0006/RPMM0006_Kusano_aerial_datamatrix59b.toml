@@ -1,0 +1,439 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0006"
+title = "Metabolomic correlation-network modules in Arabidopsis based on a graph-clustering approach"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0006"
+
+[matrix]
+name = "Kusano_aerial_datamatrix59b"
+source_file = "RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt"
+format = "tsv"
+n_features = 59
+n_samples = 50
+metadata_columns = [
+    "metabolites",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = ""
+msp = "RPMM0006/AnalysedDataset/060510root_noise3NIST.txt"
+
+[organism]
+raw = "arabidopsis"
+cv = "[NCBITaxon, NCBITaxon:3702, Arabidopsis thaliana, ]"
+source = "msp:060510root_noise3NIST.txt"
+
+[instrument]
+technique = "LC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "Col0-1"
+assay = "Col0-1"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#Col0-1"
+description = "RPMM0006 sample Col0-1"
+
+[[sample]]
+index = 2
+name = "Col0-2"
+assay = "Col0-2"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#Col0-2"
+description = "RPMM0006 sample Col0-2"
+
+[[sample]]
+index = 3
+name = "Col0-3"
+assay = "Col0-3"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#Col0-3"
+description = "RPMM0006 sample Col0-3"
+
+[[sample]]
+index = 4
+name = "Col0-4"
+assay = "Col0-4"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#Col0-4"
+description = "RPMM0006 sample Col0-4"
+
+[[sample]]
+index = 5
+name = "Col0-5"
+assay = "Col0-5"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#Col0-5"
+description = "RPMM0006 sample Col0-5"
+
+[[sample]]
+index = 6
+name = "Col0-6"
+assay = "Col0-6"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#Col0-6"
+description = "RPMM0006 sample Col0-6"
+
+[[sample]]
+index = 7
+name = "Col0-7"
+assay = "Col0-7"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#Col0-7"
+description = "RPMM0006 sample Col0-7"
+
+[[sample]]
+index = 8
+name = "Col0-8"
+assay = "Col0-8"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#Col0-8"
+description = "RPMM0006 sample Col0-8"
+
+[[sample]]
+index = 9
+name = "Col0-9"
+assay = "Col0-9"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#Col0-9"
+description = "RPMM0006 sample Col0-9"
+
+[[sample]]
+index = 10
+name = "Col0-10"
+assay = "Col0-10"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#Col0-10"
+description = "RPMM0006 sample Col0-10"
+
+[[sample]]
+index = 11
+name = "Col0-11"
+assay = "Col0-11"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#Col0-11"
+description = "RPMM0006 sample Col0-11"
+
+[[sample]]
+index = 12
+name = "Col0-12"
+assay = "Col0-12"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#Col0-12"
+description = "RPMM0006 sample Col0-12"
+
+[[sample]]
+index = 13
+name = "Col0-13"
+assay = "Col0-13"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#Col0-13"
+description = "RPMM0006 sample Col0-13"
+
+[[sample]]
+index = 14
+name = "Col0-14"
+assay = "Col0-14"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#Col0-14"
+description = "RPMM0006 sample Col0-14"
+
+[[sample]]
+index = 15
+name = "Col0-15"
+assay = "Col0-15"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#Col0-15"
+description = "RPMM0006 sample Col0-15"
+
+[[sample]]
+index = 16
+name = "Col0-16"
+assay = "Col0-16"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#Col0-16"
+description = "RPMM0006 sample Col0-16"
+
+[[sample]]
+index = 17
+name = "Col0-17"
+assay = "Col0-17"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#Col0-17"
+description = "RPMM0006 sample Col0-17"
+
+[[sample]]
+index = 18
+name = "tt4-1"
+assay = "tt4-1"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-1"
+description = "RPMM0006 sample tt4-1"
+
+[[sample]]
+index = 19
+name = "tt4-2"
+assay = "tt4-2"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-2"
+description = "RPMM0006 sample tt4-2"
+
+[[sample]]
+index = 20
+name = "tt4-3"
+assay = "tt4-3"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-3"
+description = "RPMM0006 sample tt4-3"
+
+[[sample]]
+index = 21
+name = "tt4-4"
+assay = "tt4-4"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-4"
+description = "RPMM0006 sample tt4-4"
+
+[[sample]]
+index = 22
+name = "tt4-5"
+assay = "tt4-5"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-5"
+description = "RPMM0006 sample tt4-5"
+
+[[sample]]
+index = 23
+name = "tt4-6"
+assay = "tt4-6"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-6"
+description = "RPMM0006 sample tt4-6"
+
+[[sample]]
+index = 24
+name = "tt4-7"
+assay = "tt4-7"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-7"
+description = "RPMM0006 sample tt4-7"
+
+[[sample]]
+index = 25
+name = "tt4-8"
+assay = "tt4-8"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-8"
+description = "RPMM0006 sample tt4-8"
+
+[[sample]]
+index = 26
+name = "tt4-9"
+assay = "tt4-9"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-9"
+description = "RPMM0006 sample tt4-9"
+
+[[sample]]
+index = 27
+name = "tt4-10"
+assay = "tt4-10"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-10"
+description = "RPMM0006 sample tt4-10"
+
+[[sample]]
+index = 28
+name = "tt4-11"
+assay = "tt4-11"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-11"
+description = "RPMM0006 sample tt4-11"
+
+[[sample]]
+index = 29
+name = "tt4-12"
+assay = "tt4-12"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-12"
+description = "RPMM0006 sample tt4-12"
+
+[[sample]]
+index = 30
+name = "tt4-13"
+assay = "tt4-13"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-13"
+description = "RPMM0006 sample tt4-13"
+
+[[sample]]
+index = 31
+name = "tt4-14"
+assay = "tt4-14"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-14"
+description = "RPMM0006 sample tt4-14"
+
+[[sample]]
+index = 32
+name = "tt4-15"
+assay = "tt4-15"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-15"
+description = "RPMM0006 sample tt4-15"
+
+[[sample]]
+index = 33
+name = "tt4-16"
+assay = "tt4-16"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-16"
+description = "RPMM0006 sample tt4-16"
+
+[[sample]]
+index = 34
+name = "tt4-17"
+assay = "tt4-17"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-17"
+description = "RPMM0006 sample tt4-17"
+
+[[sample]]
+index = 35
+name = "tt4-18"
+assay = "tt4-18"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-18"
+description = "RPMM0006 sample tt4-18"
+
+[[sample]]
+index = 36
+name = "tt4-19"
+assay = "tt4-19"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-19"
+description = "RPMM0006 sample tt4-19"
+
+[[sample]]
+index = 37
+name = "tt4-20"
+assay = "tt4-20"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#tt4-20"
+description = "RPMM0006 sample tt4-20"
+
+[[sample]]
+index = 38
+name = "mto1-1"
+assay = "mto1-1"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#mto1-1"
+description = "RPMM0006 sample mto1-1"
+
+[[sample]]
+index = 39
+name = "mto1-2"
+assay = "mto1-2"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#mto1-2"
+description = "RPMM0006 sample mto1-2"
+
+[[sample]]
+index = 40
+name = "mto1-3"
+assay = "mto1-3"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#mto1-3"
+description = "RPMM0006 sample mto1-3"
+
+[[sample]]
+index = 41
+name = "mto1-4"
+assay = "mto1-4"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#mto1-4"
+description = "RPMM0006 sample mto1-4"
+
+[[sample]]
+index = 42
+name = "mto1-5"
+assay = "mto1-5"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#mto1-5"
+description = "RPMM0006 sample mto1-5"
+
+[[sample]]
+index = 43
+name = "mto1-6"
+assay = "mto1-6"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#mto1-6"
+description = "RPMM0006 sample mto1-6"
+
+[[sample]]
+index = 44
+name = "mto1-7"
+assay = "mto1-7"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#mto1-7"
+description = "RPMM0006 sample mto1-7"
+
+[[sample]]
+index = 45
+name = "mto1-8"
+assay = "mto1-8"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#mto1-8"
+description = "RPMM0006 sample mto1-8"
+
+[[sample]]
+index = 46
+name = "mto1-9"
+assay = "mto1-9"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#mto1-9"
+description = "RPMM0006 sample mto1-9"
+
+[[sample]]
+index = 47
+name = "mto1-10"
+assay = "mto1-10"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#mto1-10"
+description = "RPMM0006 sample mto1-10"
+
+[[sample]]
+index = 48
+name = "mto1-11"
+assay = "mto1-11"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#mto1-11"
+description = "RPMM0006 sample mto1-11"
+
+[[sample]]
+index = 49
+name = "mto1-12"
+assay = "mto1-12"
+ms_run_ref = "ms_run[49]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#mto1-12"
+description = "RPMM0006 sample mto1-12"
+
+[[sample]]
+index = 50
+name = "mto1-13"
+assay = "mto1-13"
+ms_run_ref = "ms_run[50]"
+location = "http://metabobank.riken.jp/data/RPMM0006/AnalysedDataset/Kusano_aerial_datamatrix59b.txt#mto1-13"
+description = "RPMM0006 sample mto1-13"
+
+[study_variables]
+candidate_columns = []
+
+[study_variables.levels]

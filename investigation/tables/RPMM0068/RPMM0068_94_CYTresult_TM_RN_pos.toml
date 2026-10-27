@@ -1,0 +1,450 @@
+schema_version = 1
+generated_by = "investigation/export_tables.py"
+generated_on = "2026-10-27"
+mzd_table = "MTD"
+
+[project]
+id = "RPMM0068"
+title = "Defects in the cytokinin signaling reprogram lipid and flavonoid gene-to-metabolite networks to mitigate the effects of salinity in Arabidopsis thaliana"
+external_study = "http://metabobank.riken.jp/pmm/RPMM0068"
+
+[matrix]
+name = "94_CYTresult_TM_RN_pos"
+source_file = "RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt"
+format = "tsv"
+n_features = 15
+n_samples = 48
+metadata_columns = [
+    "Peak Nr",
+    "Scan Nr",
+    "Ret(umin)",
+    "Mass",
+    "Mass_Scan",
+    "deconv",
+    "Annotation",
+    "Compound",
+    "check",
+    "MSTag",
+    "anplus",
+    "parent",
+    "child",
+]
+unclassified_columns = []
+
+[companion_files]
+phenodata = "RPMM0068/AnalysedDataset/LC/Phenodata.csv"
+msp = ""
+
+[organism]
+raw = ""
+cv = ""
+source = ""
+
+[instrument]
+technique = "LC-MS"
+scan_polarity = "positive"
+scan_polarity_source = "derived from filename; confirm before MTD use"
+
+[[sample]]
+index = 1
+name = "lc01-pos01"
+assay = "lc01-pos01"
+ms_run_ref = "ms_run[1]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc01-pos01"
+description = "RPMM0068 sample lc01-pos01"
+
+[[sample]]
+index = 2
+name = "lc02-pos01"
+assay = "lc02-pos01"
+ms_run_ref = "ms_run[2]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc02-pos01"
+description = "RPMM0068 sample lc02-pos01"
+
+[[sample]]
+index = 3
+name = "lc03-pos01"
+assay = "lc03-pos01"
+ms_run_ref = "ms_run[3]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc03-pos01"
+description = "RPMM0068 sample lc03-pos01"
+
+[[sample]]
+index = 4
+name = "lc04-pos01"
+assay = "lc04-pos01"
+ms_run_ref = "ms_run[4]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc04-pos01"
+description = "RPMM0068 sample lc04-pos01"
+
+[[sample]]
+index = 5
+name = "lc05-pos01"
+assay = "lc05-pos01"
+ms_run_ref = "ms_run[5]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc05-pos01"
+description = "RPMM0068 sample lc05-pos01"
+
+[[sample]]
+index = 6
+name = "lc06-pos01"
+assay = "lc06-pos01"
+ms_run_ref = "ms_run[6]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc06-pos01"
+description = "RPMM0068 sample lc06-pos01"
+
+[[sample]]
+index = 7
+name = "lc07-pos01"
+assay = "lc07-pos01"
+ms_run_ref = "ms_run[7]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc07-pos01"
+description = "RPMM0068 sample lc07-pos01"
+
+[[sample]]
+index = 8
+name = "lc08-pos01"
+assay = "lc08-pos01"
+ms_run_ref = "ms_run[8]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc08-pos01"
+description = "RPMM0068 sample lc08-pos01"
+
+[[sample]]
+index = 9
+name = "lc09-pos01"
+assay = "lc09-pos01"
+ms_run_ref = "ms_run[9]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc09-pos01"
+description = "RPMM0068 sample lc09-pos01"
+
+[[sample]]
+index = 10
+name = "lc10-pos01"
+assay = "lc10-pos01"
+ms_run_ref = "ms_run[10]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc10-pos01"
+description = "RPMM0068 sample lc10-pos01"
+
+[[sample]]
+index = 11
+name = "lc11-pos01"
+assay = "lc11-pos01"
+ms_run_ref = "ms_run[11]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc11-pos01"
+description = "RPMM0068 sample lc11-pos01"
+
+[[sample]]
+index = 12
+name = "lc12-pos01"
+assay = "lc12-pos01"
+ms_run_ref = "ms_run[12]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc12-pos01"
+description = "RPMM0068 sample lc12-pos01"
+
+[[sample]]
+index = 13
+name = "lc13-pos01"
+assay = "lc13-pos01"
+ms_run_ref = "ms_run[13]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc13-pos01"
+description = "RPMM0068 sample lc13-pos01"
+
+[[sample]]
+index = 14
+name = "lc14-pos01"
+assay = "lc14-pos01"
+ms_run_ref = "ms_run[14]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc14-pos01"
+description = "RPMM0068 sample lc14-pos01"
+
+[[sample]]
+index = 15
+name = "lc15-pos01"
+assay = "lc15-pos01"
+ms_run_ref = "ms_run[15]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc15-pos01"
+description = "RPMM0068 sample lc15-pos01"
+
+[[sample]]
+index = 16
+name = "lc16-pos01"
+assay = "lc16-pos01"
+ms_run_ref = "ms_run[16]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc16-pos01"
+description = "RPMM0068 sample lc16-pos01"
+
+[[sample]]
+index = 17
+name = "lc17-pos01"
+assay = "lc17-pos01"
+ms_run_ref = "ms_run[17]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc17-pos01"
+description = "RPMM0068 sample lc17-pos01"
+
+[[sample]]
+index = 18
+name = "lc18-pos01"
+assay = "lc18-pos01"
+ms_run_ref = "ms_run[18]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc18-pos01"
+description = "RPMM0068 sample lc18-pos01"
+
+[[sample]]
+index = 19
+name = "lc19-pos01"
+assay = "lc19-pos01"
+ms_run_ref = "ms_run[19]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc19-pos01"
+description = "RPMM0068 sample lc19-pos01"
+
+[[sample]]
+index = 20
+name = "lc20-pos01"
+assay = "lc20-pos01"
+ms_run_ref = "ms_run[20]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc20-pos01"
+description = "RPMM0068 sample lc20-pos01"
+
+[[sample]]
+index = 21
+name = "lc21-pos01"
+assay = "lc21-pos01"
+ms_run_ref = "ms_run[21]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc21-pos01"
+description = "RPMM0068 sample lc21-pos01"
+
+[[sample]]
+index = 22
+name = "lc22-pos01"
+assay = "lc22-pos01"
+ms_run_ref = "ms_run[22]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc22-pos01"
+description = "RPMM0068 sample lc22-pos01"
+
+[[sample]]
+index = 23
+name = "lc23-pos01"
+assay = "lc23-pos01"
+ms_run_ref = "ms_run[23]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc23-pos01"
+description = "RPMM0068 sample lc23-pos01"
+
+[[sample]]
+index = 24
+name = "lc24-pos01"
+assay = "lc24-pos01"
+ms_run_ref = "ms_run[24]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc24-pos01"
+description = "RPMM0068 sample lc24-pos01"
+
+[[sample]]
+index = 25
+name = "lc25-pos01"
+assay = "lc25-pos01"
+ms_run_ref = "ms_run[25]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc25-pos01"
+description = "RPMM0068 sample lc25-pos01"
+
+[[sample]]
+index = 26
+name = "lc26-pos01"
+assay = "lc26-pos01"
+ms_run_ref = "ms_run[26]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc26-pos01"
+description = "RPMM0068 sample lc26-pos01"
+
+[[sample]]
+index = 27
+name = "lc27-pos01"
+assay = "lc27-pos01"
+ms_run_ref = "ms_run[27]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc27-pos01"
+description = "RPMM0068 sample lc27-pos01"
+
+[[sample]]
+index = 28
+name = "lc28-pos01"
+assay = "lc28-pos01"
+ms_run_ref = "ms_run[28]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc28-pos01"
+description = "RPMM0068 sample lc28-pos01"
+
+[[sample]]
+index = 29
+name = "lc29-pos01"
+assay = "lc29-pos01"
+ms_run_ref = "ms_run[29]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc29-pos01"
+description = "RPMM0068 sample lc29-pos01"
+
+[[sample]]
+index = 30
+name = "lc30-pos01"
+assay = "lc30-pos01"
+ms_run_ref = "ms_run[30]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc30-pos01"
+description = "RPMM0068 sample lc30-pos01"
+
+[[sample]]
+index = 31
+name = "lc31-pos01"
+assay = "lc31-pos01"
+ms_run_ref = "ms_run[31]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc31-pos01"
+description = "RPMM0068 sample lc31-pos01"
+
+[[sample]]
+index = 32
+name = "lc32-pos01"
+assay = "lc32-pos01"
+ms_run_ref = "ms_run[32]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc32-pos01"
+description = "RPMM0068 sample lc32-pos01"
+
+[[sample]]
+index = 33
+name = "lc33-pos01"
+assay = "lc33-pos01"
+ms_run_ref = "ms_run[33]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc33-pos01"
+description = "RPMM0068 sample lc33-pos01"
+
+[[sample]]
+index = 34
+name = "lc34-pos01"
+assay = "lc34-pos01"
+ms_run_ref = "ms_run[34]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc34-pos01"
+description = "RPMM0068 sample lc34-pos01"
+
+[[sample]]
+index = 35
+name = "lc35-pos01"
+assay = "lc35-pos01"
+ms_run_ref = "ms_run[35]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc35-pos01"
+description = "RPMM0068 sample lc35-pos01"
+
+[[sample]]
+index = 36
+name = "lc36-pos01"
+assay = "lc36-pos01"
+ms_run_ref = "ms_run[36]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc36-pos01"
+description = "RPMM0068 sample lc36-pos01"
+
+[[sample]]
+index = 37
+name = "lc37-pos01"
+assay = "lc37-pos01"
+ms_run_ref = "ms_run[37]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc37-pos01"
+description = "RPMM0068 sample lc37-pos01"
+
+[[sample]]
+index = 38
+name = "lc38-pos01"
+assay = "lc38-pos01"
+ms_run_ref = "ms_run[38]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc38-pos01"
+description = "RPMM0068 sample lc38-pos01"
+
+[[sample]]
+index = 39
+name = "lc39-pos01"
+assay = "lc39-pos01"
+ms_run_ref = "ms_run[39]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc39-pos01"
+description = "RPMM0068 sample lc39-pos01"
+
+[[sample]]
+index = 40
+name = "lc40-pos01"
+assay = "lc40-pos01"
+ms_run_ref = "ms_run[40]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc40-pos01"
+description = "RPMM0068 sample lc40-pos01"
+
+[[sample]]
+index = 41
+name = "lc41-pos01"
+assay = "lc41-pos01"
+ms_run_ref = "ms_run[41]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc41-pos01"
+description = "RPMM0068 sample lc41-pos01"
+
+[[sample]]
+index = 42
+name = "lc42-pos01"
+assay = "lc42-pos01"
+ms_run_ref = "ms_run[42]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc42-pos01"
+description = "RPMM0068 sample lc42-pos01"
+
+[[sample]]
+index = 43
+name = "lc43-pos01"
+assay = "lc43-pos01"
+ms_run_ref = "ms_run[43]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc43-pos01"
+description = "RPMM0068 sample lc43-pos01"
+
+[[sample]]
+index = 44
+name = "lc44-pos01"
+assay = "lc44-pos01"
+ms_run_ref = "ms_run[44]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc44-pos01"
+description = "RPMM0068 sample lc44-pos01"
+
+[[sample]]
+index = 45
+name = "lc45-pos01"
+assay = "lc45-pos01"
+ms_run_ref = "ms_run[45]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc45-pos01"
+description = "RPMM0068 sample lc45-pos01"
+
+[[sample]]
+index = 46
+name = "lc46-pos01"
+assay = "lc46-pos01"
+ms_run_ref = "ms_run[46]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc46-pos01"
+description = "RPMM0068 sample lc46-pos01"
+
+[[sample]]
+index = 47
+name = "lc47-pos01"
+assay = "lc47-pos01"
+ms_run_ref = "ms_run[47]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc47-pos01"
+description = "RPMM0068 sample lc47-pos01"
+
+[[sample]]
+index = 48
+name = "lc48-pos01"
+assay = "lc48-pos01"
+ms_run_ref = "ms_run[48]"
+location = "http://metabobank.riken.jp/data/RPMM0068/AnalysedDataset/LC/94_CYTresult_TM_RN_pos.txt#lc48-pos01"
+description = "RPMM0068 sample lc48-pos01"
+
+[study_variables]
+candidate_columns = [
+    "sample name",
+    "sampletype",
+    "genotype",
+    "client",
+    "tissue",
+    "conc",
+    "col22",
+]
+
+[study_variables.levels]
+"sample name" = []
+sampletype = []
+genotype = []
+client = []
+tissue = []
+conc = []
+col22 = []
